@@ -36,7 +36,7 @@ def _headers(method: str, uri: str) -> dict:
     }
 
 
-def _normalize(keyword: str) -> str:
+def normalize_keyword(keyword: str) -> str:
     """hintKeywords는 공백이 섞이면 400을 반환하므로 공백을 제거한 형태로 조회."""
     return keyword.replace(" ", "")
 
@@ -52,7 +52,7 @@ def get_keyword_stats(hint_keywords: list[str], timeout: float = 5.0) -> list[di
     if len(hint_keywords) > 5:
         raise ValueError("hintKeywords는 한 번에 최대 5개까지만 지원됩니다.")
 
-    params = {"hintKeywords": ",".join(_normalize(k) for k in hint_keywords), "showDetail": "1"}
+    params = {"hintKeywords": ",".join(normalize_keyword(k) for k in hint_keywords), "showDetail": "1"}
     headers = _headers("GET", URI)
 
     try:
@@ -75,24 +75,57 @@ def normalize_qc_cnt(value) -> int:
     return 0
 
 
+def _item_to_stats(item: dict) -> dict:
+    return {
+        "monthly_pc": normalize_qc_cnt(item.get("monthlyPcQcCnt")),
+        "monthly_mobile": normalize_qc_cnt(item.get("monthlyMobileQcCnt")),
+        "comp_idx": item.get("compIdx", ""),  # 낮음/중간/높음
+    }
+
+
 def batch_get_keyword_stats(keywords: list[str], delay: float = 0.2) -> dict[str, dict]:
     """
     키워드 리스트를 5개씩 끊어서 조회하고, {키워드: 통계} 형태로 합쳐서 반환.
+    (정확히 이 키워드들의 통계만 필요할 때 사용 - 발굴용은 get_related_keywords 참고)
     """
     result: dict[str, dict] = {}
     for i in range(0, len(keywords), 5):
         chunk = keywords[i:i + 5]
         stats = get_keyword_stats(chunk)
-        by_norm = {_normalize(item.get("relKeyword", "")): item for item in stats}
+        by_norm = {normalize_keyword(item.get("relKeyword", "")): item for item in stats}
         for kw in chunk:
-            item = by_norm.get(_normalize(kw))
-            if not item:
-                continue
-            result[kw] = {
-                "monthly_pc": normalize_qc_cnt(item.get("monthlyPcQcCnt")),
-                "monthly_mobile": normalize_qc_cnt(item.get("monthlyMobileQcCnt")),
-                "comp_idx": item.get("compIdx", ""),  # 낮음/중간/높음
-            }
+            item = by_norm.get(normalize_keyword(kw))
+            if item:
+                result[kw] = _item_to_stats(item)
+        time.sleep(delay)
+    return result
+
+
+def get_related_keywords(seed: str, timeout: float = 5.0) -> dict[str, dict]:
+    """
+    시드 키워드 하나로 검색광고 API의 연관키워드 기능을 활용해 후보 키워드를 대량 발굴한다.
+    (하나의 hintKeywords만 넘겨도 그 키워드와 연관된 수십~수백 개 키워드를 통계와 함께 반환함 -
+     쇼핑 자동완성보다 훨씬 풍부한 발굴 소스. 반환값은 {키워드: 통계} 형태.)
+    """
+    params = {"hintKeywords": normalize_keyword(seed), "showDetail": "1"}
+    headers = _headers("GET", URI)
+    try:
+        res = requests.get(BASE_URL + URI, params=params, headers=headers, timeout=timeout)
+        res.raise_for_status()
+        data = res.json()
+        items = data.get("keywordList", [])
+    except Exception as e:
+        print(f"[naver_ads] 연관키워드 발굴 실패 (seed={seed}): {e}")
+        return {}
+
+    return {item.get("relKeyword", ""): _item_to_stats(item) for item in items if item.get("relKeyword")}
+
+
+def batch_get_related_keywords(seeds: list[str], delay: float = 0.2) -> dict[str, dict]:
+    """여러 시드에 대해 get_related_keywords를 호출하고 결과를 합친다 (나중 시드가 겹치면 덮어씀)."""
+    result: dict[str, dict] = {}
+    for seed in seeds:
+        result.update(get_related_keywords(seed))
         time.sleep(delay)
     return result
 

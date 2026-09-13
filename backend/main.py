@@ -15,7 +15,7 @@ from datetime import date
 
 from config import check_keys
 from seeds import expand_seeds
-from naver_ads import batch_get_keyword_stats
+from naver_ads import batch_get_keyword_stats, batch_get_related_keywords, normalize_keyword
 from content_saturation import batch_get_content_counts
 import db
 import filters
@@ -46,16 +46,35 @@ def run(max_depth: int = 1):
     all_rows = []
 
     for category, seed_keywords in categories.items():
-        print(f"\n[{category}] 시드 {len(seed_keywords)}개 -> 자동완성 확장 중...")
-        expanded = expand_seeds(seed_keywords, max_depth=max_depth)
-        expanded_list = sorted(expanded)
-        print(f"[{category}] 확장 완료: {len(expanded_list)}개 키워드")
+        print(f"\n[{category}] 시드 {len(seed_keywords)}개 -> 연관키워드 발굴 중...")
 
-        search_stats = batch_get_keyword_stats(expanded_list)
-        content_counts = batch_get_content_counts(expanded_list, service="blog")
+        # 1) 검색광고 API 연관키워드 기능으로 후보 발굴 (시드 하나당 수십~수백 개, 통계 포함해서 한 번에 옴)
+        candidates = batch_get_related_keywords(seed_keywords)
 
-        for kw in expanded_list:
-            s = search_stats.get(kw, {})
+        # 2) 쇼핑 자동완성으로 상품명 변형(매장명 조합 등) 보조 확장 - 연관키워드에 없는 것만 추가
+        #    (공백 유무로 같은 키워드가 중복 집계되지 않도록 정규화한 형태로 비교)
+        existing_normalized = {normalize_keyword(kw) for kw in candidates}
+        auto_expanded = expand_seeds(seed_keywords, max_depth=max_depth)
+        new_from_auto = [kw for kw in auto_expanded if normalize_keyword(kw) not in existing_normalized]
+        if new_from_auto:
+            candidates.update(batch_get_keyword_stats(new_from_auto))
+
+        print(f"[{category}] 발굴 완료: {len(candidates)}개 후보 키워드")
+
+        # 3) 검색수/경쟁도로 1차 필터링 후, 통과한 것만 블로그 발행량(콘텐츠포화도) 조회
+        #    (블로그 API는 키워드 1개당 1호출이라, 애초에 필터 통과 못할 키워드는 조회 자체를 생략해 호출량을 아낌)
+        worth_checking = [
+            kw for kw, s in candidates.items()
+            if filters.passes_basic(
+                {"monthly_total": (s.get("monthly_pc") or 0) + (s.get("monthly_mobile") or 0),
+                 "comp_idx": s.get("comp_idx")},
+                min_search=DEFAULT_FILTER["min_search"],
+                max_comp_idx=DEFAULT_FILTER["max_comp_idx"],
+            )
+        ]
+        content_counts = batch_get_content_counts(worth_checking, service="blog")
+
+        for kw, s in candidates.items():
             row = {
                 "category": category,
                 "keyword": kw,
