@@ -85,7 +85,8 @@
     font-variant-numeric: tabular-nums;
   }
   th:first-child, td:first-child,
-  th:nth-child(2), td:nth-child(2) {
+  th:nth-child(2), td:nth-child(2),
+  th:nth-child(3), td:nth-child(3) {
     text-align: left;
     font-variant-numeric: normal;
   }
@@ -171,6 +172,9 @@
     <label>제외 키워드 (콤마로 구분)
       <input type="text" id="excludeWords" placeholder="예: 다이소, 조말론" style="width:220px">
     </label>
+    <label>기간
+      <select id="periodFilter" style="width:160px"></select>
+    </label>
     <div class="stat">
       <div class="stat-item">
         <div class="stat-num" id="statFiltered">–</div>
@@ -178,7 +182,7 @@
       </div>
       <div class="stat-item">
         <div class="stat-num" id="statCats">–</div>
-        <div class="stat-label">순회한 카테고리</div>
+        <div class="stat-label">카테고리×기간 조합</div>
       </div>
       <div class="stat-item">
         <div class="stat-num" id="statTotal">–</div>
@@ -195,6 +199,7 @@
         <tr>
           <th data-key="keyword" style="text-align:left">키워드</th>
           <th data-key="category" style="text-align:left">대표 카테고리</th>
+          <th data-key="period" style="text-align:left">기간</th>
           <th data-key="search">검색수</th>
           <th data-key="products">상품수</th>
           <th data-key="comp">경쟁강도</th>
@@ -209,7 +214,7 @@
   </main>
 
 <script>
-let RAW = { keywords: [], generated_at: null, total_scanned: 0, categories_covered: [] };
+let RAW = { keywords: [], generated_at: null, total_scanned: 0, runs_covered: [] };
 let sortKey = "score";
 let sortDir = -1;
 
@@ -226,22 +231,32 @@ async function loadData() {
     "마지막 갱신: " + (RAW.generated_at || "알 수 없음") +
     " · 아이템스카우트 아이템발굴 기반 (수동 갱신, 순회 진행중)";
   renderCatList();
+  populatePeriodFilter();
   render();
 }
 
 function renderCatList() {
   const el = document.getElementById("catList");
-  const cats = RAW.categories_covered || [];
-  if (!cats.length) { el.innerHTML = ""; return; }
-  el.innerHTML = cats.map(c => {
-    if (typeof c === "string") return `<span class="cat-chip">${c}</span>`;
-    return `<span class="cat-chip">${c.category}<span class="date">${c.collected_at || ""}</span></span>`;
-  }).join("");
+  const runs = RAW.runs_covered || [];
+  if (!runs.length) { el.innerHTML = ""; return; }
+  el.innerHTML = runs.map(r =>
+    `<span class="cat-chip">${r.category} · ${r.period}<span class="date">${r.collected_at || ""}</span></span>`
+  ).join("");
+}
+
+function populatePeriodFilter() {
+  const sel = document.getElementById("periodFilter");
+  const periods = [...new Set((RAW.runs_covered || []).map(r => r.period))];
+  const prev = sel.value;
+  sel.innerHTML = '<option value="">전체 기간</option>' +
+    periods.map(p => `<option value="${p}">${p}</option>`).join("");
+  if (periods.includes(prev)) sel.value = prev;
 }
 
 function render() {
   const minSearch = Number(document.getElementById("minSearch").value) || 0;
   const maxProducts = Number(document.getElementById("maxProducts").value) || Infinity;
+  const periodFilter = document.getElementById("periodFilter").value;
   const excludeWords = document.getElementById("excludeWords").value
     .split(",")
     .map(w => w.trim().toLowerCase())
@@ -251,6 +266,7 @@ function render() {
   let rows = (RAW.keywords || []).filter(r => {
     if ((r.search || 0) < minSearch) return false;
     if ((r.products ?? 0) > maxProducts) return false;
+    if (periodFilter && r.period !== periodFilter) return false;
     if (excludeWords.some(w => r.keyword.toLowerCase().includes(w))) return false;
     return true;
   });
@@ -264,7 +280,7 @@ function render() {
   const maxScore = Math.max(1, ...rows.map(r => r.score || 0));
 
   document.getElementById("statFiltered").textContent = rows.length;
-  document.getElementById("statCats").textContent = (RAW.categories_covered || []).length;
+  document.getElementById("statCats").textContent = (RAW.runs_covered || []).length;
   document.getElementById("statTotal").textContent = RAW.total_scanned || (RAW.keywords || []).length;
 
   const tbody = document.getElementById("tbody");
@@ -276,6 +292,7 @@ function render() {
     tr.innerHTML = `
       <td class="kw">${r.keyword}</td>
       <td>${r.category || "-"}</td>
+      <td>${r.period || "-"}</td>
       <td>${(r.search ?? 0).toLocaleString()}</td>
       <td>${r.products != null ? r.products.toLocaleString() : "-"}</td>
       <td>${r.comp || "-"}</td>
@@ -298,6 +315,7 @@ document.querySelectorAll("th[data-key]").forEach(th => {
 document.getElementById("minSearch").addEventListener("input", render);
 document.getElementById("maxProducts").addEventListener("input", render);
 document.getElementById("excludeWords").addEventListener("input", render);
+document.getElementById("periodFilter").addEventListener("change", render);
 
 try {
   const savedExclude = localStorage.getItem("excludeWords");
