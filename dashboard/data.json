@@ -1,14 +1,17 @@
 {
   "generated_at": "2026-09-13",
   "source": "itemscout_item_discovery",
-  "filter": {
-    "min_search": 300,
-    "max_products": 900,
-    "exclude_major_brand": true,
-    "period": "최근 30일"
-  },
   "categories_covered": [
-    "생활/건강 > 화방용품"
+    {
+      "category": "생활/건강 > 화방용품",
+      "collected_at": "2026-09-13",
+      "filter": {
+        "min_search": 300,
+        "max_products": 900,
+        "period": "최근 30일",
+        "exclude_major_brand": true
+      }
+    }
   ],
   "total_scanned": 61,
   "keywords": [

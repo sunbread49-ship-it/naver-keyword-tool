@@ -1,0 +1,440 @@
+{
+  "생활/건강 > 화방용품": {
+    "collected_at": "2026-09-13",
+    "filter": {
+      "min_search": 300,
+      "max_products": 900,
+      "period": "최근 30일",
+      "exclude_major_brand": true
+    },
+    "keywords": [
+      {
+        "keyword": "다이소폼보드",
+        "category": "우드락/폼보드",
+        "search": 2090,
+        "products": 7,
+        "comp": "아주좋음"
+      },
+      {
+        "keyword": "다이소우드락",
+        "category": "우드락/폼보드",
+        "search": 1940,
+        "products": 11,
+        "comp": "아주좋음"
+      },
+      {
+        "keyword": "eps블럭",
+        "category": "우드락/폼보드",
+        "search": 1350,
+        "products": 517,
+        "comp": "아주좋음"
+      },
+      {
+        "keyword": "아이소핑크판넬",
+        "category": "우드락/폼보드",
+        "search": 310,
+        "products": 32,
+        "comp": "아주좋음"
+      },
+      {
+        "keyword": "시상보드",
+        "category": "우드락/폼보드",
+        "search": 350,
+        "products": 385,
+        "comp": "아주좋음"
+      },
+      {
+        "keyword": "고넹이화방",
+        "category": "수채화물감",
+        "search": 1220,
+        "products": 646,
+        "comp": "아주좋음"
+      },
+      {
+        "keyword": "어반스케치준비물",
+        "category": "스케치북/크로키북",
+        "search": 870,
+        "products": 341,
+        "comp": "아주좋음"
+      },
+      {
+        "keyword": "리트다이모어",
+        "category": "염료",
+        "search": 360,
+        "products": 463,
+        "comp": "아주좋음"
+      },
+      {
+        "keyword": "20색상환",
+        "category": "컬러가이드",
+        "search": 620,
+        "products": 40,
+        "comp": "아주좋음"
+      },
+      {
+        "keyword": "와다산조색사전",
+        "category": "컬러가이드",
+        "search": 1430,
+        "products": 187,
+        "comp": "아주좋음"
+      },
+      {
+        "keyword": "옷색깔조합표",
+        "category": "컬러가이드",
+        "search": 5770,
+        "products": 17,
+        "comp": "아주좋음"
+      },
+      {
+        "keyword": "오보기미술가운",
+        "category": "앞치마/토시/두건",
+        "search": 760,
+        "products": 50,
+        "comp": "아주좋음"
+      },
+      {
+        "keyword": "다이소면장갑",
+        "category": "안전장갑",
+        "search": 840,
+        "products": 656,
+        "comp": "아주좋음"
+      },
+      {
+        "keyword": "다이소팔토시",
+        "category": "암워머/토시",
+        "search": 3550,
+        "products": 48,
+        "comp": "아주좋음"
+      },
+      {
+        "keyword": "다이소문진",
+        "category": "문진",
+        "search": 670,
+        "products": 1,
+        "comp": "아주좋음"
+      },
+      {
+        "keyword": "youngla",
+        "category": "트레이닝복",
+        "search": 1590,
+        "products": 330,
+        "comp": "아주좋음"
+      },
+      {
+        "keyword": "네이쳐폴드",
+        "category": "색종이/종이접기",
+        "search": 480,
+        "products": 352,
+        "comp": "아주좋음"
+      },
+      {
+        "keyword": "플레이조이",
+        "category": "소품정리함",
+        "search": 5540,
+        "products": 295,
+        "comp": "아주좋음"
+      },
+      {
+        "keyword": "브라스버밍엄",
+        "category": "보드게임",
+        "search": 2300,
+        "products": 339,
+        "comp": "아주좋음"
+      },
+      {
+        "keyword": "글리팅",
+        "category": "스케치북/크로키북",
+        "search": 1500,
+        "products": 333,
+        "comp": "아주좋음"
+      },
+      {
+        "keyword": "치매초기증상",
+        "category": "스케치북/크로키북",
+        "search": 20790,
+        "products": 31,
+        "comp": "아주좋음"
+      },
+      {
+        "keyword": "누수몬스터",
+        "category": "염료",
+        "search": 470,
+        "products": 164,
+        "comp": "아주좋음"
+      },
+      {
+        "keyword": "감물염색",
+        "category": "염료",
+        "search": 690,
+        "products": 611,
+        "comp": "아주좋음"
+      },
+      {
+        "keyword": "하이드로설파이트",
+        "category": "아크릴물감",
+        "search": 890,
+        "products": 56,
+        "comp": "아주좋음"
+      },
+      {
+        "keyword": "이오이오붓",
+        "category": "수채화붓",
+        "search": 690,
+        "products": 770,
+        "comp": "아주좋음"
+      },
+      {
+        "keyword": "스도쿠책",
+        "category": "보드게임",
+        "search": 2070,
+        "products": 866,
+        "comp": "아주좋음"
+      },
+      {
+        "keyword": "수이과슈",
+        "category": "수채화물감",
+        "search": 500,
+        "products": 7,
+        "comp": "아주좋음"
+      },
+      {
+        "keyword": "로이텀불렛저널",
+        "category": "다이어리",
+        "search": 1770,
+        "products": 654,
+        "comp": "아주좋음"
+      },
+      {
+        "keyword": "자이탄소펜",
+        "category": "연필",
+        "search": 1140,
+        "products": 160,
+        "comp": "아주좋음"
+      },
+      {
+        "keyword": "sbgp013",
+        "category": "메탈밴드시계",
+        "search": 890,
+        "products": 42,
+        "comp": "아주좋음"
+      },
+      {
+        "keyword": "에이메스피규어",
+        "category": "피규어",
+        "search": 300,
+        "products": 189,
+        "comp": "아주좋음"
+      },
+      {
+        "keyword": "팅커랩라이트패드",
+        "category": "라이트박스",
+        "search": 790,
+        "products": 6,
+        "comp": "아주좋음"
+      },
+      {
+        "keyword": "팅커랩",
+        "category": "라이트박스",
+        "search": 800,
+        "products": 13,
+        "comp": "아주좋음"
+      },
+      {
+        "keyword": "소울이터",
+        "category": "피규어",
+        "search": 4850,
+        "products": 711,
+        "comp": "아주좋음"
+      },
+      {
+        "keyword": "슬램덩크전권",
+        "category": "애니메이션",
+        "search": 400,
+        "products": 55,
+        "comp": "아주좋음"
+      },
+      {
+        "keyword": "카키모리딥펜",
+        "category": "만년필",
+        "search": 480,
+        "products": 96,
+        "comp": "아주좋음"
+      },
+      {
+        "keyword": "다이소헤라",
+        "category": "뒤집개",
+        "search": 2230,
+        "products": 9,
+        "comp": "아주좋음"
+      },
+      {
+        "keyword": "에어로겔고체",
+        "category": "기타전동공구",
+        "search": 1540,
+        "products": 15,
+        "comp": "아주좋음"
+      },
+      {
+        "keyword": "백자토",
+        "category": "찰흙/점토",
+        "search": 400,
+        "products": 754,
+        "comp": "아주좋음"
+      },
+      {
+        "keyword": "석분점토",
+        "category": "찰흙/점토",
+        "search": 310,
+        "products": 269,
+        "comp": "아주좋음"
+      },
+      {
+        "keyword": "코코네놀이터",
+        "category": "클레이",
+        "search": 2650,
+        "products": 71,
+        "comp": "아주좋음"
+      },
+      {
+        "keyword": "인터리더말랑이",
+        "category": "클레이",
+        "search": 830,
+        "products": 42,
+        "comp": "아주좋음"
+      },
+      {
+        "keyword": "왁뿌볼재료",
+        "category": "기타감각발달완구",
+        "search": 640,
+        "products": 435,
+        "comp": "아주좋음"
+      },
+      {
+        "keyword": "젠젠선물가게",
+        "category": "기타문구용품",
+        "search": 33810,
+        "products": 578,
+        "comp": "아주좋음"
+      },
+      {
+        "keyword": "인터리더",
+        "category": "클레이",
+        "search": 1350,
+        "products": 427,
+        "comp": "아주좋음"
+      },
+      {
+        "keyword": "마이퍼피말랑이",
+        "category": "클레이",
+        "search": 820,
+        "products": 51,
+        "comp": "아주좋음"
+      },
+      {
+        "keyword": "크런치말랑이랜덤박스",
+        "category": "기타문구용품",
+        "search": 430,
+        "products": 398,
+        "comp": "아주좋음"
+      },
+      {
+        "keyword": "와꾸볼",
+        "category": "기타문구용품",
+        "search": 7600,
+        "products": 866,
+        "comp": "아주좋음"
+      },
+      {
+        "keyword": "햄버거왁뿌볼",
+        "category": "기타문구용품",
+        "search": 540,
+        "products": 8,
+        "comp": "아주좋음"
+      },
+      {
+        "keyword": "감자전슬랑이",
+        "category": "클레이",
+        "search": 670,
+        "products": 86,
+        "comp": "아주좋음"
+      },
+      {
+        "keyword": "리락쿠마말랑이",
+        "category": "기타문구용품",
+        "search": 14020,
+        "products": 666,
+        "comp": "아주좋음"
+      },
+      {
+        "keyword": "모닝빵말랑이",
+        "category": "기타문구용품",
+        "search": 1180,
+        "products": 761,
+        "comp": "아주좋음"
+      },
+      {
+        "keyword": "수제왁뿌볼",
+        "category": "기타문구용품",
+        "search": 980,
+        "products": 527,
+        "comp": "아주좋음"
+      },
+      {
+        "keyword": "크런치슬랑이랜덤박스",
+        "category": "기타문구용품",
+        "search": 630,
+        "products": 361,
+        "comp": "아주좋음"
+      },
+      {
+        "keyword": "피스타치오슬랑이",
+        "category": "클레이",
+        "search": 3760,
+        "products": 20,
+        "comp": "아주좋음"
+      },
+      {
+        "keyword": "감자떡슬랑이",
+        "category": "클레이",
+        "search": 3050,
+        "products": 415,
+        "comp": "아주좋음"
+      },
+      {
+        "keyword": "감자크런치슬랑이",
+        "category": "클레이",
+        "search": 400,
+        "products": 530,
+        "comp": "아주좋음"
+      },
+      {
+        "keyword": "아농",
+        "category": "판화용품",
+        "search": 360,
+        "products": 249,
+        "comp": "아주좋음"
+      },
+      {
+        "keyword": "아기손도장접시",
+        "category": "손발도장",
+        "search": 530,
+        "products": 36,
+        "comp": "아주좋음"
+      },
+      {
+        "keyword": "등사기",
+        "category": "판화용품",
+        "search": 300,
+        "products": 59,
+        "comp": "아주좋음"
+      },
+      {
+        "keyword": "화원오일파스텔",
+        "category": "오일파스텔",
+        "search": 780,
+        "products": 105,
+        "comp": "아주좋음"
+      }
+    ]
+  }
+}
