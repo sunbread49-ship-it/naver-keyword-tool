@@ -145,6 +145,9 @@
     <label>최대 상품수
       <input type="number" id="maxProducts" value="1000" step="100">
     </label>
+    <label>제외 키워드 (콤마로 구분)
+      <input type="text" id="excludeWords" placeholder="예: 다이소, 조말론" style="width:220px">
+    </label>
     <div class="stat">
       <div class="stat-item">
         <div class="stat-num" id="statFiltered">–</div>
@@ -203,10 +206,16 @@ async function loadData() {
 function render() {
   const minSearch = Number(document.getElementById("minSearch").value) || 0;
   const maxProducts = Number(document.getElementById("maxProducts").value) || Infinity;
+  const excludeWords = document.getElementById("excludeWords").value
+    .split(",")
+    .map(w => w.trim().toLowerCase())
+    .filter(w => w.length > 0);
+  try { localStorage.setItem("excludeWords", document.getElementById("excludeWords").value); } catch (e) {}
 
   let rows = (RAW.keywords || []).filter(r => {
     if ((r.search || 0) < minSearch) return false;
     if ((r.products ?? 0) > maxProducts) return false;
+    if (excludeWords.some(w => r.keyword.toLowerCase().includes(w))) return false;
     return true;
   });
 
@@ -252,6 +261,12 @@ document.querySelectorAll("th[data-key]").forEach(th => {
 });
 document.getElementById("minSearch").addEventListener("input", render);
 document.getElementById("maxProducts").addEventListener("input", render);
+document.getElementById("excludeWords").addEventListener("input", render);
+
+try {
+  const savedExclude = localStorage.getItem("excludeWords");
+  if (savedExclude) document.getElementById("excludeWords").value = savedExclude;
+} catch (e) {}
 
 loadData();
 </script>
