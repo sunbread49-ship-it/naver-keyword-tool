@@ -8,6 +8,12 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
   scan:
@@ -39,3 +45,19 @@ jobs:
           git add db/keywords.db dashboard/data.json
           git diff --cached --quiet || git commit -m "chore: 일일 키워드 스캔 결과 갱신 $(date -u +%F)"
           git push
+
+      - name: Pages 아티팩트 업로드
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dashboard
+
+  deploy:
+    needs: scan
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: GitHub Pages 배포
+        id: deployment
+        uses: actions/deploy-pages@v4

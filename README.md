@@ -73,7 +73,10 @@ python main.py
 2. 저장소 Settings → Secrets and variables → Actions 에서 5개 값 등록:
    `NAVER_AD_API_KEY`, `NAVER_AD_SECRET_KEY`, `NAVER_AD_CUSTOMER_ID`,
    `NAVER_APIHUB_CLIENT_ID`, `NAVER_APIHUB_CLIENT_SECRET`
-3. Settings → Pages → Source를 `main` 브랜치 `/dashboard` 폴더로 설정
+3. Settings → Pages → Source를 **GitHub Actions**로 설정
+   (classic 브랜치 방식은 `/` 또는 `/docs`만 지원해서 `/dashboard` 폴더를 못 씀 →
+   `daily_scan.yml`이 `actions/upload-pages-artifact` + `actions/deploy-pages`로
+   `dashboard/` 폴더를 직접 배포하도록 구성돼 있음)
 4. Actions 탭에서 워크플로우를 한 번 수동 실행(workflow_dispatch)해서 확인 후,
    이후 매일 자동 실행됨
 
