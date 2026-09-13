@@ -142,15 +142,8 @@
     <label>최소 검색수
       <input type="number" id="minSearch" value="300" step="50">
     </label>
-    <label>최대 콘텐츠발행량
-      <input type="number" id="maxContent" value="5000" step="500">
-    </label>
-    <label>경쟁도 상한
-      <select id="maxComp">
-        <option value="낮음">낮음만</option>
-        <option value="중간" selected>중간까지</option>
-        <option value="높음">전체</option>
-      </select>
+    <label>최대 상품수
+      <input type="number" id="maxProducts" value="1000" step="100">
     </label>
     <div class="stat">
       <div class="stat-item">
@@ -158,12 +151,12 @@
         <div class="stat-label">필터 통과</div>
       </div>
       <div class="stat-item">
-        <div class="stat-num" id="statNew">–</div>
-        <div class="stat-label">오늘 신규</div>
+        <div class="stat-num" id="statCats">–</div>
+        <div class="stat-label">순회한 카테고리</div>
       </div>
       <div class="stat-item">
         <div class="stat-num" id="statTotal">–</div>
-        <div class="stat-label">전체 스캔</div>
+        <div class="stat-label">전체 후보</div>
       </div>
     </div>
   </div>
@@ -173,25 +166,24 @@
       <thead>
         <tr>
           <th data-key="keyword" style="text-align:left">키워드</th>
-          <th data-key="category" style="text-align:left">카테고리</th>
-          <th data-key="monthly_total">월 검색수</th>
-          <th data-key="comp_idx">경쟁도</th>
-          <th data-key="content_count">블로그발행량</th>
+          <th data-key="category" style="text-align:left">대표 카테고리</th>
+          <th data-key="search">검색수</th>
+          <th data-key="products">상품수</th>
+          <th data-key="comp">경쟁강도</th>
           <th data-key="score">기회점수</th>
         </tr>
       </thead>
       <tbody id="tbody"></tbody>
     </table>
     <div class="empty" id="emptyMsg" style="display:none;">
-      아직 수집된 데이터가 없습니다. GitHub Actions 워크플로우가 한 번 실행되면 여기 표시됩니다.
+      아직 수집된 데이터가 없습니다.
     </div>
   </main>
 
 <script>
-let RAW = { keywords: [], new_keywords: [], generated_at: null, total_scanned: 0 };
+let RAW = { keywords: [], generated_at: null, total_scanned: 0, categories_covered: [] };
 let sortKey = "score";
 let sortDir = -1;
-const COMP_RANK = { "낮음": 0, "중간": 1, "높음": 2 };
 
 async function loadData() {
   try {
@@ -203,21 +195,18 @@ async function loadData() {
     return;
   }
   document.getElementById("generated-at").textContent =
-    "마지막 갱신: " + (RAW.generated_at || "알 수 없음");
+    "마지막 갱신: " + (RAW.generated_at || "알 수 없음") +
+    " · 아이템스카우트 아이템발굴 기반 (수동 갱신, 순회 진행중)";
   render();
 }
 
 function render() {
   const minSearch = Number(document.getElementById("minSearch").value) || 0;
-  const maxContent = Number(document.getElementById("maxContent").value) || Infinity;
-  const maxCompLabel = document.getElementById("maxComp").value;
-  const maxCompRank = COMP_RANK[maxCompLabel] ?? 2;
-  const newSet = new Set(RAW.new_keywords || []);
+  const maxProducts = Number(document.getElementById("maxProducts").value) || Infinity;
 
   let rows = (RAW.keywords || []).filter(r => {
-    if ((r.monthly_total || 0) < minSearch) return false;
-    if ((r.content_count ?? 0) > maxContent) return false;
-    if (r.comp_idx && (COMP_RANK[r.comp_idx] ?? 1) > maxCompRank) return false;
+    if ((r.search || 0) < minSearch) return false;
+    if ((r.products ?? 0) > maxProducts) return false;
     return true;
   });
 
@@ -230,8 +219,8 @@ function render() {
   const maxScore = Math.max(1, ...rows.map(r => r.score || 0));
 
   document.getElementById("statFiltered").textContent = rows.length;
-  document.getElementById("statNew").textContent = (RAW.new_keywords || []).length;
-  document.getElementById("statTotal").textContent = RAW.total_scanned || 0;
+  document.getElementById("statCats").textContent = (RAW.categories_covered || []).length;
+  document.getElementById("statTotal").textContent = RAW.total_scanned || (RAW.keywords || []).length;
 
   const tbody = document.getElementById("tbody");
   tbody.innerHTML = "";
@@ -239,15 +228,14 @@ function render() {
 
   for (const r of rows) {
     const tr = document.createElement("tr");
-    const isNew = newSet.has(r.keyword);
     tr.innerHTML = `
-      <td class="kw">${r.keyword}${isNew ? '<span class="badge-new">신규</span>' : ""}</td>
+      <td class="kw">${r.keyword}</td>
       <td>${r.category || "-"}</td>
-      <td>${(r.monthly_total ?? 0).toLocaleString()}</td>
-      <td>${r.comp_idx || "-"}</td>
-      <td>${r.content_count != null ? r.content_count.toLocaleString() : "-"}</td>
+      <td>${(r.search ?? 0).toLocaleString()}</td>
+      <td>${r.products != null ? r.products.toLocaleString() : "-"}</td>
+      <td>${r.comp || "-"}</td>
       <td>
-        ${r.score != null ? r.score.toFixed(3) : "-"}
+        ${r.score != null ? r.score.toFixed(2) : "-"}
         <div class="ratio-bar-bg"><div class="ratio-bar-fill" style="width:${((r.score||0)/maxScore*100).toFixed(0)}%"></div></div>
       </td>
     `;
@@ -263,8 +251,7 @@ document.querySelectorAll("th[data-key]").forEach(th => {
   });
 });
 document.getElementById("minSearch").addEventListener("input", render);
-document.getElementById("maxContent").addEventListener("input", render);
-document.getElementById("maxComp").addEventListener("change", render);
+document.getElementById("maxProducts").addEventListener("input", render);
 
 loadData();
 </script>
