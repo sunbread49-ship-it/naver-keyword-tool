@@ -39,7 +39,7 @@ def build():
                 score = round(search / (products + 1), 2)
                 rows.append({
                     "keyword": it["keyword"],
-                    "category": cat_path,
+                    "category": it.get("category") or cat_path,
                     "period": period_label,
                     "search": search,
                     "products": products,
