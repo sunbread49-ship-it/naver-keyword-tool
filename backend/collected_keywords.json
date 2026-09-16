@@ -438,5 +438,1747 @@
         }
       ]
     }
+  },
+  "생활/건강 > 자동차용품": {
+    "최근 30일": {
+      "collected_at": "2026-09-16",
+      "filter": {
+        "min_search": 300,
+        "max_products": 900,
+        "period": "최근 30일",
+        "exclude_major_brand": true
+      },
+      "keywords": [
+        {
+          "keyword": "맥도날드감튀홀더",
+          "category": "생활/건강 > 자동차용품 > 수납용품 > 차량용홀더",
+          "search": 39960,
+          "products": 2,
+          "comp_score": 0.0
+        },
+        {
+          "keyword": "조말론차량방향제",
+          "category": "생활/건강 > 자동차용품 > 공기청정용품 > 차량용방향제",
+          "search": 14220,
+          "products": 553,
+          "comp_score": 0.04
+        },
+        {
+          "keyword": "아쿠아디파르마차량용",
+          "category": "생활/건강 > 자동차용품 > 공기청정용품 > 차량용방향제",
+          "search": 13750,
+          "products": 812,
+          "comp_score": 0.06
+        },
+        {
+          "keyword": "감튀홀더",
+          "category": "생활/건강 > 자동차용품 > 수납용품 > 차량용홀더",
+          "search": 13740,
+          "products": 144,
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "티슬릭스",
+          "category": "생활/건강 > 자동차용품 > 인테리어용품 > 바닥매트",
+          "search": 13130,
+          "products": 31,
+          "comp_score": 0.0
+        },
+        {
+          "keyword": "pv5하이루프",
+          "category": "생활/건강 > 자동차용품 > 익스테리어용품 > 루프박스",
+          "search": 12350,
+          "products": 71,
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "지크x75w30",
+          "category": "생활/건강 > 자동차용품 > 오일/소모품 > 엔진오일",
+          "search": 10400,
+          "products": 12,
+          "comp_score": 0.0
+        },
+        {
+          "keyword": "검아웃",
+          "category": "생활/건강 > 자동차용품 > 오일/소모품 > 연료첨가제",
+          "search": 10320,
+          "products": 492,
+          "comp_score": 0.05
+        },
+        {
+          "keyword": "더티린넨",
+          "category": "생활/건강 > 생활용품 > 제습/방향/탈취 > 실내탈취제",
+          "search": 9430,
+          "products": 732,
+          "comp_score": 0.08
+        },
+        {
+          "keyword": "트리거패치",
+          "category": "생활/건강 > 의료용품 > 구급/응급용품",
+          "search": 8690,
+          "products": 101,
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "다이소스티커제거제",
+          "category": "생활/건강 > 자동차용품 > 세차용품 > 스티커/타르제거제",
+          "search": 8620,
+          "products": 13,
+          "comp_score": 0.0
+        },
+        {
+          "keyword": "다이소유막제거제",
+          "category": "생활/건강 > 자동차용품 > 세차용품 > 유막제거제",
+          "search": 6990,
+          "products": 3,
+          "comp_score": 0.0
+        },
+        {
+          "keyword": "불스원카매트",
+          "category": "생활/건강 > 자동차용품 > 인테리어용품 > 바닥매트",
+          "search": 6530,
+          "products": 285,
+          "comp_score": 0.04
+        },
+        {
+          "keyword": "금호타이어가격표",
+          "category": "생활/건강 > 자동차용품 > 타이어/휠 > 타이어",
+          "search": 6370,
+          "products": 179,
+          "comp_score": 0.03
+        },
+        {
+          "keyword": "카밈",
+          "category": "생활/건강 > 자동차용품 > 세차용품 > 컴파운드",
+          "search": 6270,
+          "products": 218,
+          "comp_score": 0.03
+        },
+        {
+          "keyword": "세종만년필",
+          "category": "생활/건강 > 문구/사무용품 > 필기도구 > 만년필",
+          "search": 5770,
+          "products": 59,
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "유록스요소수",
+          "category": "생활/건강 > 자동차용품 > 오일/소모품 > 요소수",
+          "search": 5680,
+          "products": 834,
+          "comp_score": 0.15
+        },
+        {
+          "keyword": "폴드8차량용거치대",
+          "category": "생활/건강 > 자동차용품 > 휴대폰용품 > 차량용휴대폰거치대",
+          "search": 5520,
+          "products": 831,
+          "comp_score": 0.15
+        },
+        {
+          "keyword": "다이소컴파운드",
+          "category": "생활/건강 > 자동차용품 > 세차용품 > 컴파운드",
+          "search": 5360,
+          "products": 6,
+          "comp_score": 0.0
+        },
+        {
+          "keyword": "아임반헤드레스트",
+          "category": "생활/건강 > 자동차용품 > 인테리어용품 > 차량용목쿠션",
+          "search": 5150,
+          "products": 343,
+          "comp_score": 0.07
+        },
+        {
+          "keyword": "춘몽",
+          "category": "생활/건강 > 자동차용품 > 공기청정용품 > 차량용방향제",
+          "search": 4990,
+          "products": 562,
+          "comp_score": 0.11
+        },
+        {
+          "keyword": "인포카",
+          "category": "생활/건강 > 자동차용품 > 튜닝용품 > 게이지",
+          "search": 4160,
+          "products": 451,
+          "comp_score": 0.11
+        },
+        {
+          "keyword": "피에브차량용",
+          "category": "생활/건강 > 자동차용품 > 공기청정용품 > 차량용방향제",
+          "search": 4040,
+          "products": 152,
+          "comp_score": 0.04
+        },
+        {
+          "keyword": "셀러스탑",
+          "category": "생활/건강 > 공구 > 접착용품 > 글루건",
+          "search": 3980,
+          "products": 325,
+          "comp_score": 0.08
+        },
+        {
+          "keyword": "폼포나치",
+          "category": "생활/건강 > 자동차용품 > 세차용품 > 유리코팅제",
+          "search": 3720,
+          "products": 59,
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "카밈연료첨가제",
+          "category": "생활/건강 > 자동차용품 > 오일/소모품 > 연료첨가제",
+          "search": 3500,
+          "products": 18,
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "다니엘트루스차량용",
+          "category": "생활/건강 > 자동차용품 > 공기청정용품 > 차량용방향제",
+          "search": 3330,
+          "products": 62,
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "다이소세차용품",
+          "category": "생활/건강 > 자동차용품 > 세차용품 > 세차타월",
+          "search": 3200,
+          "products": 251,
+          "comp_score": 0.08
+        },
+        {
+          "keyword": "조말론차량용방향제",
+          "category": "생활/건강 > 자동차용품 > 공기청정용품 > 차량용방향제",
+          "search": 3110,
+          "products": 565,
+          "comp_score": 0.18
+        },
+        {
+          "keyword": "다이소차량용방향제",
+          "category": "생활/건강 > 자동차용품 > 공기청정용품 > 차량용방향제",
+          "search": 3020,
+          "products": 31,
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "옥탄부스터",
+          "category": "생활/건강 > 자동차용품 > 오일/소모품 > 연료첨가제",
+          "search": 3010,
+          "products": 800,
+          "comp_score": 0.27
+        },
+        {
+          "keyword": "지크탑ls5w-30",
+          "category": "생활/건강 > 자동차용품 > 오일/소모품 > 엔진오일",
+          "search": 2980,
+          "products": 729,
+          "comp_score": 0.24
+        },
+        {
+          "keyword": "김민재편백",
+          "category": "생활/건강 > 생활용품 > 제습/방향/탈취 > 실내탈취제",
+          "search": 2970,
+          "products": 73,
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "다그3네오",
+          "category": "생활/건강 > 자동차용품 > 튜닝용품 > 게이지",
+          "search": 2890,
+          "products": 143,
+          "comp_score": 0.05
+        },
+        {
+          "keyword": "에프터블로우",
+          "category": "생활/건강 > 자동차용품 > 편의용품 > 차량용공기청정기",
+          "search": 2610,
+          "products": 258,
+          "comp_score": 0.1
+        },
+        {
+          "keyword": "카밈나노스크럽",
+          "category": "생활/건강 > 자동차용품 > 세차용품 > 컴파운드",
+          "search": 2420,
+          "products": 49,
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "인포카스캐너",
+          "category": "생활/건강 > 자동차용품 > 튜닝용품 > 게이지",
+          "search": 2410,
+          "products": 429,
+          "comp_score": 0.18
+        },
+        {
+          "keyword": "팩토리노멀",
+          "category": "생활/건강 > 자동차용품 > 공기청정용품 > 차량용방향제",
+          "search": 2330,
+          "products": 616,
+          "comp_score": 0.26
+        },
+        {
+          "keyword": "5톤카고크레인",
+          "category": "생활/건강 > 자동차용품 > 튜닝용품 > 계기판",
+          "search": 2330,
+          "products": 451,
+          "comp_score": 0.19
+        },
+        {
+          "keyword": "피에브차량용탈취제",
+          "category": "생활/건강 > 자동차용품 > 공기청정용품 > 차량용방향제",
+          "search": 2200,
+          "products": 116,
+          "comp_score": 0.05
+        },
+        {
+          "keyword": "1톤영업용번호판",
+          "category": "생활/건강 > 자동차용품 > 튜닝용품 > 기타튜닝용품",
+          "search": 2190,
+          "products": 64,
+          "comp_score": 0.03
+        },
+        {
+          "keyword": "다그3",
+          "category": "생활/건강 > 자동차용품 > 튜닝용품 > 게이지",
+          "search": 2190,
+          "products": 543,
+          "comp_score": 0.25
+        },
+        {
+          "keyword": "밸런스온차량용방석",
+          "category": "생활/건강 > 자동차용품 > 인테리어용품 > 차량용방석",
+          "search": 2150,
+          "products": 105,
+          "comp_score": 0.05
+        },
+        {
+          "keyword": "벤딕트와이퍼",
+          "category": "생활/건강 > 자동차용품 > 오일/소모품 > 와이퍼",
+          "search": 2130,
+          "products": 158,
+          "comp_score": 0.07
+        },
+        {
+          "keyword": "불스원샷시그니처딥클린",
+          "category": "생활/건강 > 자동차용품 > 오일/소모품 > 연료첨가제",
+          "search": 2070,
+          "products": 205,
+          "comp_score": 0.1
+        },
+        {
+          "keyword": "스타나다인디젤",
+          "category": "생활/건강 > 자동차용품 > 오일/소모품 > 연료첨가제",
+          "search": 2060,
+          "products": 305,
+          "comp_score": 0.15
+        },
+        {
+          "keyword": "벤딕트에어매트",
+          "category": "생활/건강 > 자동차용품 > 인테리어용품 > 바닥매트",
+          "search": 2050,
+          "products": 77,
+          "comp_score": 0.04
+        },
+        {
+          "keyword": "벤볼릭",
+          "category": "생활/건강 > 자동차용품 > 공기청정용품 > 차량용방향제",
+          "search": 1960,
+          "products": 527,
+          "comp_score": 0.27
+        },
+        {
+          "keyword": "다이소트렁크정리함",
+          "category": "생활/건강 > 자동차용품 > 수납용품 > 트렁크정리함",
+          "search": 1890,
+          "products": 29,
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "비엠타는공돌이",
+          "category": "생활/건강 > 자동차용품 > 램프 > 전조등",
+          "search": 1850,
+          "products": 729,
+          "comp_score": 0.39
+        },
+        {
+          "keyword": "카빛나",
+          "category": "생활/건강 > 자동차용품 > 인테리어용품 > 바닥매트",
+          "search": 1840,
+          "products": 463,
+          "comp_score": 0.25
+        },
+        {
+          "keyword": "조말론카디퓨저",
+          "category": "생활/건강 > 자동차용품 > 공기청정용품 > 차량용방향제",
+          "search": 1830,
+          "products": 479,
+          "comp_score": 0.26
+        },
+        {
+          "keyword": "뱅가드유막제거제",
+          "category": "생활/건강 > 자동차용품 > 세차용품 > 유막제거제",
+          "search": 1730,
+          "products": 3,
+          "comp_score": 0.0
+        },
+        {
+          "keyword": "더컵",
+          "category": "생활/건강 > 자동차용품 > 키용품 > 스마트키",
+          "search": 1690,
+          "products": 639,
+          "comp_score": 0.38
+        },
+        {
+          "keyword": "킥스g15w30",
+          "category": "생활/건강 > 자동차용품 > 오일/소모품 > 엔진오일",
+          "search": 1690,
+          "products": 1,
+          "comp_score": 0.0
+        },
+        {
+          "keyword": "유록스10리터",
+          "category": "생활/건강 > 자동차용품 > 오일/소모품 > 요소수",
+          "search": 1640,
+          "products": 672,
+          "comp_score": 0.41
+        },
+        {
+          "keyword": "신생아이동중",
+          "category": "생활/건강 > 자동차용품 > 익스테리어용품 > 차량용스티커",
+          "search": 1620,
+          "products": 196,
+          "comp_score": 0.12
+        },
+        {
+          "keyword": "생귄차량용방향제",
+          "category": "생활/건강 > 자동차용품 > 공기청정용품 > 차량용방향제",
+          "search": 1610,
+          "products": 329,
+          "comp_score": 0.2
+        },
+        {
+          "keyword": "브로딧거치대",
+          "category": "생활/건강 > 자동차용품 > 휴대폰용품 > 차량용휴대폰거치대",
+          "search": 1600,
+          "products": 670,
+          "comp_score": 0.42
+        },
+        {
+          "keyword": "pv5격벽",
+          "category": "생활/건강 > 자동차용품 > 튜닝용품 > 기타튜닝용품",
+          "search": 1570,
+          "products": 32,
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "지크탑fs0w30",
+          "category": "생활/건강 > 자동차용품 > 오일/소모품 > 엔진오일",
+          "search": 1530,
+          "products": 112,
+          "comp_score": 0.07
+        },
+        {
+          "keyword": "카멜레온360",
+          "category": "생활/건강 > 자동차용품 > 휴대폰용품 > 차량용휴대폰거치대",
+          "search": 1530,
+          "products": 773,
+          "comp_score": 0.51
+        },
+        {
+          "keyword": "pv5카고평탄화",
+          "category": "생활/건강 > 자동차용품 > 인테리어용품 > 바닥매트",
+          "search": 1520,
+          "products": 138,
+          "comp_score": 0.09
+        },
+        {
+          "keyword": "교보문고차량용방향제",
+          "category": "생활/건강 > 자동차용품 > 공기청정용품 > 차량용방향제",
+          "search": 1490,
+          "products": 337,
+          "comp_score": 0.23
+        },
+        {
+          "keyword": "pv5오픈격벽",
+          "category": "생활/건강 > 자동차용품 > 튜닝용품 > 기타튜닝용품",
+          "search": 1490,
+          "products": 40,
+          "comp_score": 0.03
+        },
+        {
+          "keyword": "더컵디지털키",
+          "category": "생활/건강 > 자동차용품 > 키용품 > 스마트키",
+          "search": 1440,
+          "products": 14,
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "코모드거치대",
+          "category": "생활/건강 > 자동차용품 > 휴대폰용품 > 차량용휴대폰거치대",
+          "search": 1420,
+          "products": 68,
+          "comp_score": 0.05
+        },
+        {
+          "keyword": "모튤300v",
+          "category": "생활/건강 > 자동차용품 > 오일/소모품 > 엔진오일",
+          "search": 1410,
+          "products": 643,
+          "comp_score": 0.46
+        },
+        {
+          "keyword": "데오드릭스",
+          "category": "생활/건강 > 생활용품 > 제습/방향/탈취 > 실내탈취제",
+          "search": 1370,
+          "products": 60,
+          "comp_score": 0.04
+        },
+        {
+          "keyword": "테슬라키팝",
+          "category": "생활/건강 > 자동차용품 > 키용품 > 키케이스",
+          "search": 1370,
+          "products": 504,
+          "comp_score": 0.37
+        },
+        {
+          "keyword": "티슬릭스선쉐이드",
+          "category": "생활/건강 > 자동차용품 > 인테리어용품 > 차량용햇빛가리개",
+          "search": 1360,
+          "products": 52,
+          "comp_score": 0.04
+        },
+        {
+          "keyword": "테슬라안전벨트클립",
+          "category": "생활/건강 > 자동차용품 > 인테리어용품 > 안전벨트용품",
+          "search": 1360,
+          "products": 558,
+          "comp_score": 0.41
+        },
+        {
+          "keyword": "품프로젝트",
+          "category": "생활/건강 > 자동차용품 > 키용품 > 키케이스",
+          "search": 1350,
+          "products": 100,
+          "comp_score": 0.07
+        },
+        {
+          "keyword": "5톤집게차",
+          "category": "생활/건강 > 자동차용품 > 튜닝용품 > 계기판",
+          "search": 1320,
+          "products": 611,
+          "comp_score": 0.46
+        },
+        {
+          "keyword": "지크m10",
+          "category": "생활/건강 > 자동차용품 > 오일/소모품 > 엔진오일",
+          "search": 1300,
+          "products": 12,
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "다그3+",
+          "category": "생활/건강 > 자동차용품 > 튜닝용품 > 게이지",
+          "search": 1290,
+          "products": 490,
+          "comp_score": 0.38
+        },
+        {
+          "keyword": "바이칸버켓",
+          "category": "생활/건강 > 자동차용품 > 세차용품 > 세차물통",
+          "search": 1270,
+          "products": 241,
+          "comp_score": 0.19
+        },
+        {
+          "keyword": "모하비기어봉",
+          "category": "생활/건강 > 자동차용품 > 인테리어용품 > 기어용품",
+          "search": 1270,
+          "products": 606,
+          "comp_score": 0.48
+        },
+        {
+          "keyword": "쉐브론테크론",
+          "category": "생활/건강 > 자동차용품 > 오일/소모품 > 연료첨가제",
+          "search": 1260,
+          "products": 65,
+          "comp_score": 0.05
+        },
+        {
+          "keyword": "불소원샷",
+          "category": "생활/건강 > 자동차용품 > 오일/소모품 > 연료첨가제",
+          "search": 1250,
+          "products": 312,
+          "comp_score": 0.25
+        },
+        {
+          "keyword": "벤딕트핸들커버",
+          "category": "생활/건강 > 자동차용품 > 인테리어용품 > 핸들커버",
+          "search": 1250,
+          "products": 328,
+          "comp_score": 0.26
+        },
+        {
+          "keyword": "로드몬스터",
+          "category": "생활/건강 > 자동차용품 > 세차용품 > 도장용광택/코팅제",
+          "search": 1240,
+          "products": 250,
+          "comp_score": 0.2
+        },
+        {
+          "keyword": "차량석회물제거",
+          "category": "생활/건강 > 자동차용품 > 세차용품 > 스티커/타르제거제",
+          "search": 1210,
+          "products": 567,
+          "comp_score": 0.47
+        },
+        {
+          "keyword": "v2l커넥터",
+          "category": "생활/건강 > 자동차용품 > 배터리용품 > 배터리충전기/점프스타터",
+          "search": 1200,
+          "products": 503,
+          "comp_score": 0.42
+        },
+        {
+          "keyword": "테슬라무게추",
+          "category": "디지털/가전 > 자동차기기 > 자동차AV용품 > 기타자동차AV용품",
+          "search": 1190,
+          "products": 88,
+          "comp_score": 0.07
+        },
+        {
+          "keyword": "25톤윙바디",
+          "category": "생활/건강 > 자동차용품 > 튜닝용품 > 계기판",
+          "search": 1180,
+          "products": 630,
+          "comp_score": 0.53
+        },
+        {
+          "keyword": "마일론방향제",
+          "category": "생활/건강 > 자동차용품 > 공기청정용품 > 차량용방향제",
+          "search": 1160,
+          "products": 250,
+          "comp_score": 0.22
+        },
+        {
+          "keyword": "레이기어봉",
+          "category": "생활/건강 > 자동차용품 > 인테리어용품 > 기어용품",
+          "search": 1160,
+          "products": 628,
+          "comp_score": 0.54
+        },
+        {
+          "keyword": "폴악",
+          "category": "생활/건강 > 자동차용품 > 수납용품 > 차량용휴지통",
+          "search": 1150,
+          "products": 37,
+          "comp_score": 0.03
+        },
+        {
+          "keyword": "바토카s4",
+          "category": "생활/건강 > 자동차용품 > 세차용품 > 광택기",
+          "search": 1140,
+          "products": 357,
+          "comp_score": 0.31
+        },
+        {
+          "keyword": "신지모루차량용거치대",
+          "category": "생활/건강 > 자동차용품 > 휴대폰용품 > 차량용휴대폰거치대",
+          "search": 1120,
+          "products": 693,
+          "comp_score": 0.62
+        },
+        {
+          "keyword": "벤딕트광택기",
+          "category": "생활/건강 > 자동차용품 > 세차용품 > 광택기",
+          "search": 1110,
+          "products": 264,
+          "comp_score": 0.24
+        },
+        {
+          "keyword": "다이소세차타올",
+          "category": "생활/건강 > 자동차용품 > 세차용품 > 세차타월",
+          "search": 1100,
+          "products": 44,
+          "comp_score": 0.04
+        },
+        {
+          "keyword": "멀티락",
+          "category": "생활/건강 > 공구 > 전기용품 > 멀티탭",
+          "search": 1100,
+          "products": 866,
+          "comp_score": 0.79
+        },
+        {
+          "keyword": "테슬라오토도어",
+          "category": "생활/건강 > 자동차용품 > 튜닝용품 > 기타튜닝용품",
+          "search": 1100,
+          "products": 564,
+          "comp_score": 0.51
+        },
+        {
+          "keyword": "오토밍글",
+          "category": "생활/건강 > 자동차용품 > 인테리어용품 > 내부몰딩",
+          "search": 1090,
+          "products": 20,
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "수자기",
+          "category": "생활/건강 > 자동차용품 > 세차용품 > 호스",
+          "search": 1070,
+          "products": 521,
+          "comp_score": 0.49
+        },
+        {
+          "keyword": "다이소양파망",
+          "category": "생활/건강 > 주방용품 > 주방잡화 > 기타주방잡화",
+          "search": 1070,
+          "products": 17,
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "중고트럭창고",
+          "category": "생활/건강 > 공구 > 운반용품 > 핸드카트/운반기",
+          "search": 1070,
+          "products": 549,
+          "comp_score": 0.51
+        },
+        {
+          "keyword": "스타나다인",
+          "category": "생활/건강 > 자동차용품 > 오일/소모품 > 연료첨가제",
+          "search": 1060,
+          "products": 542,
+          "comp_score": 0.51
+        },
+        {
+          "keyword": "다이소그물망",
+          "category": "생활/건강 > 자동차용품 > 수납용품 > 트렁크정리함",
+          "search": 1030,
+          "products": 30,
+          "comp_score": 0.03
+        },
+        {
+          "keyword": "올리브영차량용방향제",
+          "category": "생활/건강 > 자동차용품 > 공기청정용품 > 차량용방향제",
+          "search": 990,
+          "products": 61,
+          "comp_score": 0.06
+        },
+        {
+          "keyword": "폴드8차량거치대",
+          "category": "생활/건강 > 자동차용품 > 휴대폰용품 > 차량용휴대폰거치대",
+          "search": 980,
+          "products": 894,
+          "comp_score": 0.91
+        },
+        {
+          "keyword": "다이소차량용충전기",
+          "category": "생활/건강 > 자동차용품 > 휴대폰용품 > 차량용휴대폰충전기",
+          "search": 980,
+          "products": 442,
+          "comp_score": 0.45
+        },
+        {
+          "keyword": "에이드로바디킷",
+          "category": "생활/건강 > 자동차용품 > 튜닝용품 > 기타튜닝용품",
+          "search": 970,
+          "products": 130,
+          "comp_score": 0.13
+        },
+        {
+          "keyword": "스타벅스드라이브컵홀더",
+          "category": "생활/건강 > 주방용품 > 주방잡화 > 컵받침/홀더",
+          "search": 960,
+          "products": 179,
+          "comp_score": 0.19
+        },
+        {
+          "keyword": "헤누스",
+          "category": "생활/건강 > 자동차용품 > 편의용품 > 차량용청소기",
+          "search": 950,
+          "products": 899,
+          "comp_score": 0.95
+        },
+        {
+          "keyword": "s3xy",
+          "category": "생활/건강 > 자동차용품 > 전기용품 > 기타전기용품",
+          "search": 930,
+          "products": 555,
+          "comp_score": 0.6
+        },
+        {
+          "keyword": "다이소물호스",
+          "category": "생활/건강 > 자동차용품 > 세차용품 > 호스",
+          "search": 920,
+          "products": 17,
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "만도오키",
+          "category": "생활/건강 > 자동차용품 > 키용품 > 스마트키",
+          "search": 920,
+          "products": 4,
+          "comp_score": 0.0
+        },
+        {
+          "keyword": "사이버트럭핸들",
+          "category": "생활/건강 > 자동차용품 > 인테리어용품 > 핸들",
+          "search": 920,
+          "products": 897,
+          "comp_score": 0.97
+        },
+        {
+          "keyword": "테슬라오토프렁크",
+          "category": "생활/건강 > 자동차용품 > 튜닝용품 > 기타튜닝용품",
+          "search": 920,
+          "products": 132,
+          "comp_score": 0.14
+        },
+        {
+          "keyword": "팔콘광택기",
+          "category": "생활/건강 > 자동차용품 > 세차용품 > 광택기",
+          "search": 910,
+          "products": 206,
+          "comp_score": 0.23
+        },
+        {
+          "keyword": "더스티랩",
+          "category": "생활/건강 > 자동차용품 > 세차용품 > 유리코팅제",
+          "search": 890,
+          "products": 422,
+          "comp_score": 0.47
+        },
+        {
+          "keyword": "바로고기어봉",
+          "category": "생활/건강 > 자동차용품 > 인테리어용품 > 기어용품",
+          "search": 870,
+          "products": 174,
+          "comp_score": 0.2
+        },
+        {
+          "keyword": "다이소수축튜브",
+          "category": "생활/건강 > 자동차용품 > 전기용품 > 기타전기용품",
+          "search": 870,
+          "products": 1,
+          "comp_score": 0.0
+        },
+        {
+          "keyword": "23555r19",
+          "category": "생활/건강 > 자동차용품 > 타이어/휠 > 타이어",
+          "search": 870,
+          "products": 237,
+          "comp_score": 0.27
+        },
+        {
+          "keyword": "dag3",
+          "category": "생활/건강 > 자동차용품 > 튜닝용품 > 게이지",
+          "search": 870,
+          "products": 428,
+          "comp_score": 0.49
+        },
+        {
+          "keyword": "아쿠아디파르마카디퓨저",
+          "category": "생활/건강 > 자동차용품 > 공기청정용품 > 차량용방향제",
+          "search": 860,
+          "products": 491,
+          "comp_score": 0.57
+        },
+        {
+          "keyword": "라승규제작소",
+          "category": "생활/건강 > 자동차용품 > 인테리어용품 > 차량용팔/틈새쿠션",
+          "search": 860,
+          "products": 37,
+          "comp_score": 0.04
+        },
+        {
+          "keyword": "인포카4세대",
+          "category": "생활/건강 > 자동차용품 > 튜닝용품 > 게이지",
+          "search": 820,
+          "products": 18,
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "아이언빌드",
+          "category": "생활/건강 > 자동차용품 > 인테리어용품 > 바닥매트",
+          "search": 810,
+          "products": 93,
+          "comp_score": 0.11
+        },
+        {
+          "keyword": "아임반핸들커버",
+          "category": "생활/건강 > 자동차용품 > 인테리어용품 > 핸들커버",
+          "search": 810,
+          "products": 186,
+          "comp_score": 0.23
+        },
+        {
+          "keyword": "메종드펜세",
+          "category": "생활/건강 > 자동차용품 > 공기청정용품 > 차량용방향제",
+          "search": 780,
+          "products": 186,
+          "comp_score": 0.24
+        },
+        {
+          "keyword": "쏘렌토그릴망",
+          "category": "생활/건강 > 자동차용품 > 익스테리어용품 > 에어로파츠",
+          "search": 780,
+          "products": 175,
+          "comp_score": 0.22
+        },
+        {
+          "keyword": "다이소차량햇빛가리개",
+          "category": "생활/건강 > 자동차용품 > 인테리어용품 > 차량용햇빛가리개",
+          "search": 770,
+          "products": 34,
+          "comp_score": 0.04
+        },
+        {
+          "keyword": "카밈나노스크럽리무버",
+          "category": "생활/건강 > 자동차용품 > 세차용품 > 컴파운드",
+          "search": 760,
+          "products": 39,
+          "comp_score": 0.05
+        },
+        {
+          "keyword": "캐스퍼콘솔박스",
+          "category": "생활/건강 > 자동차용품 > 수납용품 > 콘솔박스",
+          "search": 760,
+          "products": 737,
+          "comp_score": 0.97
+        },
+        {
+          "keyword": "리무라r5",
+          "category": "생활/건강 > 자동차용품 > 오일/소모품 > 엔진오일",
+          "search": 750,
+          "products": 69,
+          "comp_score": 0.09
+        },
+        {
+          "keyword": "레드콘",
+          "category": "생활/건강 > 자동차용품 > 튜닝용품 > 기타튜닝용품",
+          "search": 750,
+          "products": 687,
+          "comp_score": 0.92
+        },
+        {
+          "keyword": "카드형차키",
+          "category": "생활/건강 > 자동차용품 > 키용품 > 스마트키",
+          "search": 720,
+          "products": 84,
+          "comp_score": 0.12
+        },
+        {
+          "keyword": "주파집전기차충전기",
+          "category": "생활/건강 > 자동차용품 > 배터리용품 > 배터리충전기/점프스타터",
+          "search": 700,
+          "products": 110,
+          "comp_score": 0.16
+        },
+        {
+          "keyword": "빌트햄버",
+          "category": "생활/건강 > 자동차용품 > 세차용품 > 카샴푸",
+          "search": 700,
+          "products": 167,
+          "comp_score": 0.24
+        },
+        {
+          "keyword": "송라이트",
+          "category": "생활/건강 > 자동차용품 > 램프 > 전조등",
+          "search": 690,
+          "products": 245,
+          "comp_score": 0.36
+        },
+        {
+          "keyword": "1톤냉동탑차중고",
+          "category": "여가/생활편의 > 국내렌터카 > 장기렌터카",
+          "search": 680,
+          "products": 306,
+          "comp_score": 0.45
+        },
+        {
+          "keyword": "샤인메이트",
+          "category": "생활/건강 > 자동차용품 > 세차용품 > 광택기",
+          "search": 660,
+          "products": 606,
+          "comp_score": 0.92
+        },
+        {
+          "keyword": "크레이지몬스터싼타페",
+          "category": "생활/건강 > 자동차용품 > 인테리어용품 > 핸들커버",
+          "search": 660,
+          "products": 185,
+          "comp_score": 0.28
+        },
+        {
+          "keyword": "무부추네",
+          "category": "생활/건강 > 자동차용품 > 세차용품 > 호스",
+          "search": 640,
+          "products": 115,
+          "comp_score": 0.18
+        },
+        {
+          "keyword": "pv5모기장",
+          "category": "생활/건강 > 자동차용품 > 인테리어용품 > 차량용햇빛가리개",
+          "search": 640,
+          "products": 51,
+          "comp_score": 0.08
+        },
+        {
+          "keyword": "딥디크방향제리필",
+          "category": "생활/건강 > 자동차용품 > 공기청정용품 > 차량용방향제",
+          "search": 630,
+          "products": 769,
+          "comp_score": 1.22
+        },
+        {
+          "keyword": "원보스",
+          "category": "생활/건강 > 자동차용품 > 인테리어용품 > 차량용햇빛가리개",
+          "search": 630,
+          "products": 83,
+          "comp_score": 0.13
+        },
+        {
+          "keyword": "아이오닉9머드가드",
+          "category": "생활/건강 > 자동차용품 > 익스테리어용품 > 가드",
+          "search": 630,
+          "products": 228,
+          "comp_score": 0.36
+        },
+        {
+          "keyword": "나파가죽클리너",
+          "category": "생활/건강 > 자동차용품 > 세차용품 > 실내세정제",
+          "search": 620,
+          "products": 735,
+          "comp_score": 1.19
+        },
+        {
+          "keyword": "필로켓",
+          "category": "생활/건강 > 자동차용품 > 수납용품 > 차량용포켓",
+          "search": 620,
+          "products": 11,
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "천연가죽소파클리너",
+          "category": "생활/건강 > 자동차용품 > 세차용품 > 실내세정제",
+          "search": 610,
+          "products": 769,
+          "comp_score": 1.26
+        },
+        {
+          "keyword": "엔바이어스",
+          "category": "생활/건강 > 자동차용품 > 램프 > 전조등",
+          "search": 600,
+          "products": 77,
+          "comp_score": 0.13
+        },
+        {
+          "keyword": "dot4lv",
+          "category": "생활/건강 > 자동차용품 > 오일/소모품 > 브레이크오일",
+          "search": 600,
+          "products": 555,
+          "comp_score": 0.93
+        },
+        {
+          "keyword": "카니발그릴망",
+          "category": "생활/건강 > 자동차용품 > 익스테리어용품 > 에어로파츠",
+          "search": 600,
+          "products": 354,
+          "comp_score": 0.59
+        },
+        {
+          "keyword": "기아엠블럼교체",
+          "category": "생활/건강 > 자동차용품 > 익스테리어용품 > 엠블럼",
+          "search": 600,
+          "products": 459,
+          "comp_score": 0.77
+        },
+        {
+          "keyword": "더넥스트스파크tpms",
+          "category": "생활/건강 > 자동차용품 > 타이어/휠 > 타이어용품",
+          "search": 600,
+          "products": 101,
+          "comp_score": 0.17
+        },
+        {
+          "keyword": "다이소열수축튜브",
+          "category": "생활/건강 > 자동차용품 > 전기용품 > 기타전기용품",
+          "search": 590,
+          "products": 50,
+          "comp_score": 0.08
+        },
+        {
+          "keyword": "카니발무중력테이블",
+          "category": "생활/건강 > 자동차용품 > 수납용품 > 차량용테이블",
+          "search": 590,
+          "products": 715,
+          "comp_score": 1.21
+        },
+        {
+          "keyword": "무쏘ev롤바",
+          "category": "생활/건강 > 자동차용품 > 튜닝용품 > 기타튜닝용품",
+          "search": 590,
+          "products": 127,
+          "comp_score": 0.22
+        },
+        {
+          "keyword": "커레이져스",
+          "category": "생활/건강 > 자동차용품 > 튜닝용품 > 기타튜닝용품",
+          "search": 590,
+          "products": 364,
+          "comp_score": 0.62
+        },
+        {
+          "keyword": "다사이모찌",
+          "category": "생활/건강 > 자동차용품 > 인테리어용품 > 차량용장식소품",
+          "search": 580,
+          "products": 182,
+          "comp_score": 0.31
+        },
+        {
+          "keyword": "전차종락카",
+          "category": "생활/건강 > 자동차용품 > DIY용품 > 도색용품",
+          "search": 570,
+          "products": 168,
+          "comp_score": 0.29
+        },
+        {
+          "keyword": "올뉴모닝배터리",
+          "category": "생활/건강 > 자동차용품 > 배터리용품 > 차량용배터리",
+          "search": 570,
+          "products": 636,
+          "comp_score": 1.12
+        },
+        {
+          "keyword": "ev5핸드폰거치대",
+          "category": "생활/건강 > 자동차용품 > 휴대폰용품 > 차량용휴대폰거치대",
+          "search": 570,
+          "products": 489,
+          "comp_score": 0.86
+        },
+        {
+          "keyword": "카니발시트백테이블",
+          "category": "생활/건강 > 자동차용품 > 수납용품 > 차량용테이블",
+          "search": 560,
+          "products": 858,
+          "comp_score": 1.53
+        },
+        {
+          "keyword": "갤럭시폴드8차량거치대",
+          "category": "생활/건강 > 자동차용품 > 휴대폰용품 > 차량용휴대폰거치대",
+          "search": 560,
+          "products": 551,
+          "comp_score": 0.98
+        },
+        {
+          "keyword": "테슬라송풍구거치대",
+          "category": "생활/건강 > 자동차용품 > 휴대폰용품 > 차량용휴대폰거치대",
+          "search": 560,
+          "products": 784,
+          "comp_score": 1.4
+        },
+        {
+          "keyword": "타스만하드탑",
+          "category": "생활/건강 > 자동차용품 > 튜닝용품 > 기타튜닝용품",
+          "search": 550,
+          "products": 121,
+          "comp_score": 0.22
+        },
+        {
+          "keyword": "csr브레이크",
+          "category": "생활/건강 > 자동차용품 > 튜닝용품 > 브레이크",
+          "search": 550,
+          "products": 186,
+          "comp_score": 0.34
+        },
+        {
+          "keyword": "소낙스가죽보호제",
+          "category": "생활/건강 > 자동차용품 > 세차용품 > 실내세정제",
+          "search": 540,
+          "products": 409,
+          "comp_score": 0.76
+        },
+        {
+          "keyword": "장수명부동액",
+          "category": "생활/건강 > 자동차용품 > 오일/소모품 > 부동액",
+          "search": 530,
+          "products": 749,
+          "comp_score": 1.41
+        },
+        {
+          "keyword": "테르보루프백",
+          "category": "스포츠/레저 > 캠핑 > 기타캠핑용품",
+          "search": 530,
+          "products": 71,
+          "comp_score": 0.13
+        },
+        {
+          "keyword": "ev3핸드폰거치대",
+          "category": "생활/건강 > 자동차용품 > 휴대폰용품 > 차량용휴대폰거치대",
+          "search": 530,
+          "products": 690,
+          "comp_score": 1.3
+        },
+        {
+          "keyword": "튜익스휠너트",
+          "category": "생활/건강 > 자동차용품 > 타이어/휠 > 휠용품",
+          "search": 530,
+          "products": 8,
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "오아스마트에어펌프",
+          "category": "생활/건강 > 자동차용품 > 타이어/휠 > 타이어용품",
+          "search": 530,
+          "products": 32,
+          "comp_score": 0.06
+        },
+        {
+          "keyword": "레이식빵등",
+          "category": "생활/건강 > 자동차용품 > 램프 > 차량용실내등",
+          "search": 520,
+          "products": 784,
+          "comp_score": 1.51
+        },
+        {
+          "keyword": "마그마휠",
+          "category": "생활/건강 > 자동차용품 > 타이어/휠 > 휠",
+          "search": 520,
+          "products": 143,
+          "comp_score": 0.28
+        },
+        {
+          "keyword": "노이즈캐쳐",
+          "category": "생활/건강 > 자동차용품 > 튜닝용품 > 서스펜션",
+          "search": 520,
+          "products": 47,
+          "comp_score": 0.09
+        },
+        {
+          "keyword": "pv5선반",
+          "category": "생활/건강 > 자동차용품 > 튜닝용품 > 기타튜닝용품",
+          "search": 510,
+          "products": 119,
+          "comp_score": 0.23
+        },
+        {
+          "keyword": "리무라r6",
+          "category": "생활/건강 > 자동차용품 > 오일/소모품 > 엔진오일",
+          "search": 500,
+          "products": 73,
+          "comp_score": 0.15
+        },
+        {
+          "keyword": "스타벅스주차번호판",
+          "category": "생활/건강 > 자동차용품 > 인테리어용품 > 주차번호판",
+          "search": 500,
+          "products": 101,
+          "comp_score": 0.2
+        },
+        {
+          "keyword": "발상컵홀더",
+          "category": "생활/건강 > 자동차용품 > 수납용품 > 차량용홀더",
+          "search": 500,
+          "products": 19,
+          "comp_score": 0.04
+        },
+        {
+          "keyword": "벤딕트충전기",
+          "category": "생활/건강 > 자동차용품 > 휴대폰용품 > 차량용휴대폰거치대",
+          "search": 500,
+          "products": 251,
+          "comp_score": 0.5
+        },
+        {
+          "keyword": "1톤활어차",
+          "category": "생활/건강 > 자동차용품 > 튜닝용품 > 계기판",
+          "search": 500,
+          "products": 77,
+          "comp_score": 0.15
+        },
+        {
+          "keyword": "수전사필름",
+          "category": "생활/건강 > 자동차용품 > DIY용품 > 도색용품",
+          "search": 480,
+          "products": 762,
+          "comp_score": 1.59
+        },
+        {
+          "keyword": "타이거다즐러",
+          "category": "생활/건강 > 자동차용품 > 공기청정용품 > 차량용방향제",
+          "search": 480,
+          "products": 594,
+          "comp_score": 1.24
+        },
+        {
+          "keyword": "바이어웨이",
+          "category": "생활/건강 > 자동차용품 > 키용품 > 키케이스",
+          "search": 480,
+          "products": 527,
+          "comp_score": 1.1
+        },
+        {
+          "keyword": "고뱃지",
+          "category": "생활/건강 > 자동차용품 > 익스테리어용품 > 엠블럼",
+          "search": 480,
+          "products": 548,
+          "comp_score": 1.14
+        },
+        {
+          "keyword": "dc콤보케이스",
+          "category": "생활/건강 > 자동차용품 > 튜닝용품 > 기타튜닝용품",
+          "search": 480,
+          "products": 284,
+          "comp_score": 0.59
+        },
+        {
+          "keyword": "전차종스프레이",
+          "category": "생활/건강 > 자동차용품 > DIY용품 > 도색용품",
+          "search": 470,
+          "products": 641,
+          "comp_score": 1.36
+        },
+        {
+          "keyword": "아기타스",
+          "category": "생활/건강 > 자동차용품 > 익스테리어용품 > 차량용스티커",
+          "search": 470,
+          "products": 184,
+          "comp_score": 0.39
+        },
+        {
+          "keyword": "레이오르간페달",
+          "category": "생활/건강 > 자동차용품 > 인테리어용품 > 페달용품",
+          "search": 470,
+          "products": 169,
+          "comp_score": 0.36
+        },
+        {
+          "keyword": "다이소차량용컵홀더",
+          "category": "생활/건강 > 자동차용품 > 수납용품 > 차량용휴지통",
+          "search": 470,
+          "products": 15,
+          "comp_score": 0.03
+        },
+        {
+          "keyword": "다그거치대",
+          "category": "생활/건강 > 자동차용품 > 휴대폰용품 > 차량용휴대폰거치대",
+          "search": 470,
+          "products": 21,
+          "comp_score": 0.04
+        },
+        {
+          "keyword": "푸드트럭중고",
+          "category": "생활/건강 > 자동차용품 > 튜닝용품 > 계기판",
+          "search": 470,
+          "products": 156,
+          "comp_score": 0.33
+        },
+        {
+          "keyword": "알페온혼",
+          "category": "생활/건강 > 자동차용품 > 튜닝용품 > 혼",
+          "search": 470,
+          "products": 75,
+          "comp_score": 0.16
+        },
+        {
+          "keyword": "페로바니",
+          "category": "생활/건강 > 자동차용품 > 키용품 > 키케이스",
+          "search": 460,
+          "products": 97,
+          "comp_score": 0.21
+        },
+        {
+          "keyword": "5w304l",
+          "category": "생활/건강 > 자동차용품 > 오일/소모품 > 엔진오일",
+          "search": 450,
+          "products": 7,
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "ev9송풍구",
+          "category": "생활/건강 > 자동차용품 > 튜닝용품 > 기타튜닝용품",
+          "search": 450,
+          "products": 538,
+          "comp_score": 1.2
+        },
+        {
+          "keyword": "ev5루프박스",
+          "category": "생활/건강 > 자동차용품 > 익스테리어용품 > 루프박스",
+          "search": 440,
+          "products": 94,
+          "comp_score": 0.21
+        },
+        {
+          "keyword": "무쏘하드탑",
+          "category": "생활/건강 > 자동차용품 > 튜닝용품 > 기타튜닝용품",
+          "search": 440,
+          "products": 166,
+          "comp_score": 0.38
+        },
+        {
+          "keyword": "람보르기니엠블럼",
+          "category": "생활/건강 > 자동차용품 > 익스테리어용품 > 엠블럼",
+          "search": 430,
+          "products": 396,
+          "comp_score": 0.92
+        },
+        {
+          "keyword": "ev5거치대",
+          "category": "생활/건강 > 자동차용품 > 휴대폰용품 > 차량용휴대폰거치대",
+          "search": 430,
+          "products": 674,
+          "comp_score": 1.57
+        },
+        {
+          "keyword": "메이튼거치대",
+          "category": "생활/건강 > 자동차용품 > 휴대폰용품 > 차량용휴대폰거치대",
+          "search": 430,
+          "products": 383,
+          "comp_score": 0.89
+        },
+        {
+          "keyword": "s3xy버튼",
+          "category": "생활/건강 > 자동차용품 > 전기용품 > 기타전기용품",
+          "search": 420,
+          "products": 114,
+          "comp_score": 0.27
+        },
+        {
+          "keyword": "가니쉬복원제",
+          "category": "생활/건강 > 자동차용품 > 세차용품 > 도장용광택/코팅제",
+          "search": 420,
+          "products": 900,
+          "comp_score": 2.14
+        },
+        {
+          "keyword": "pv5에어매트",
+          "category": "생활/건강 > 자동차용품 > 인테리어용품 > 바닥매트",
+          "search": 420,
+          "products": 143,
+          "comp_score": 0.34
+        },
+        {
+          "keyword": "후진사이드미러다운",
+          "category": "생활/건강 > 자동차용품 > 전기용품 > 릴레이",
+          "search": 420,
+          "products": 374,
+          "comp_score": 0.89
+        },
+        {
+          "keyword": "캐스퍼러기지박스",
+          "category": "생활/건강 > 자동차용품 > 수납용품 > 트렁크정리함",
+          "search": 420,
+          "products": 242,
+          "comp_score": 0.58
+        },
+        {
+          "keyword": "pv5애드기어",
+          "category": "생활/건강 > 자동차용품 > 수납용품 > 차량용홀더",
+          "search": 420,
+          "products": 599,
+          "comp_score": 1.43
+        },
+        {
+          "keyword": "스타벅스선글라스거치대",
+          "category": "생활/건강 > 자동차용품 > 수납용품 > 선글라스클립",
+          "search": 420,
+          "products": 35,
+          "comp_score": 0.08
+        },
+        {
+          "keyword": "pv5몰리패널",
+          "category": "생활/건강 > 자동차용품 > 튜닝용품 > 기타튜닝용품",
+          "search": 420,
+          "products": 100,
+          "comp_score": 0.24
+        },
+        {
+          "keyword": "sm6브레이크패드",
+          "category": "생활/건강 > 자동차용품 > 튜닝용품 > 브레이크",
+          "search": 420,
+          "products": 800,
+          "comp_score": 1.9
+        },
+        {
+          "keyword": "애드기어",
+          "category": "생활/건강 > 자동차용품 > 수납용품 > 차량용홀더",
+          "search": 410,
+          "products": 554,
+          "comp_score": 1.35
+        },
+        {
+          "keyword": "에코파워캡",
+          "category": "생활/건강 > 자동차용품 > 배터리용품 > 기타배터리용품",
+          "search": 400,
+          "products": 347,
+          "comp_score": 0.87
+        },
+        {
+          "keyword": "pv5썬바이저",
+          "category": "생활/건강 > 자동차용품 > 익스테리어용품 > 선바이저",
+          "search": 400,
+          "products": 805,
+          "comp_score": 2.01
+        },
+        {
+          "keyword": "금비전자인버터",
+          "category": "생활/건강 > 자동차용품 > 전기용품 > 인버터",
+          "search": 400,
+          "products": 235,
+          "comp_score": 0.59
+        },
+        {
+          "keyword": "pv5컵홀더",
+          "category": "생활/건강 > 자동차용품 > 수납용품 > 차량용홀더",
+          "search": 400,
+          "products": 688,
+          "comp_score": 1.72
+        },
+        {
+          "keyword": "중고집게차",
+          "category": "생활/건강 > 자동차용품 > 튜닝용품 > 계기판",
+          "search": 400,
+          "products": 384,
+          "comp_score": 0.96
+        },
+        {
+          "keyword": "gb56219",
+          "category": "생활/건강 > 자동차용품 > 배터리용품 > 차량용배터리",
+          "search": 390,
+          "products": 612,
+          "comp_score": 1.57
+        },
+        {
+          "keyword": "키티차키커버",
+          "category": "생활/건강 > 자동차용품 > 키용품 > 키케이스",
+          "search": 390,
+          "products": 449,
+          "comp_score": 1.15
+        },
+        {
+          "keyword": "다즐워크",
+          "category": "생활/건강 > 자동차용품 > 인테리어용품 > 바닥매트",
+          "search": 390,
+          "products": 12,
+          "comp_score": 0.03
+        },
+        {
+          "keyword": "pv5핸드폰거치대",
+          "category": "생활/건강 > 자동차용품 > 휴대폰용품 > 차량용휴대폰거치대",
+          "search": 390,
+          "products": 291,
+          "comp_score": 0.75
+        },
+        {
+          "keyword": "장용석작업등",
+          "category": "스포츠/레저 > 캠핑 > 랜턴 > 손전등",
+          "search": 380,
+          "products": 30,
+          "comp_score": 0.08
+        },
+        {
+          "keyword": "모이스처업소번트",
+          "category": "생활/건강 > 자동차용품 > 램프 > 기타램프용품",
+          "search": 380,
+          "products": 859,
+          "comp_score": 2.26
+        },
+        {
+          "keyword": "번개쎈놈",
+          "category": "생활/건강 > 자동차용품 > 배터리용품 > 배터리충전기/점프스타터",
+          "search": 380,
+          "products": 100,
+          "comp_score": 0.26
+        },
+        {
+          "keyword": "suv트렁크가림막",
+          "category": "생활/건강 > 자동차용품 > 수납용품 > 트렁크정리함",
+          "search": 380,
+          "products": 444,
+          "comp_score": 1.17
+        },
+        {
+          "keyword": "92125h8350",
+          "category": "생활/건강 > 자동차용품 > 램프 > 기타램프용품",
+          "search": 370,
+          "products": 144,
+          "comp_score": 0.39
+        },
+        {
+          "keyword": "에코플로우리버프로",
+          "category": "스포츠/레저 > 캠핑 > 파워뱅크",
+          "search": 370,
+          "products": 38,
+          "comp_score": 0.1
+        },
+        {
+          "keyword": "배터리전해액",
+          "category": "생활/건강 > 자동차용품 > 배터리용품 > 기타배터리용품",
+          "search": 370,
+          "products": 534,
+          "comp_score": 1.44
+        },
+        {
+          "keyword": "s3xy노브",
+          "category": "생활/건강 > 자동차용품 > 전기용품 > 기타전기용품",
+          "search": 370,
+          "products": 48,
+          "comp_score": 0.13
+        },
+        {
+          "keyword": "중고카고크레인",
+          "category": "생활/건강 > 자동차용품 > 튜닝용품 > 계기판",
+          "search": 370,
+          "products": 540,
+          "comp_score": 1.46
+        },
+        {
+          "keyword": "1톤저상탑차",
+          "category": "생활/건강 > 자동차용품 > 튜닝용품 > 계기판",
+          "search": 360,
+          "products": 163,
+          "comp_score": 0.45
+        },
+        {
+          "keyword": "마르티그",
+          "category": "생활/건강 > 자동차용품 > 공기청정용품 > 차량용방향제",
+          "search": 360,
+          "products": 731,
+          "comp_score": 2.03
+        },
+        {
+          "keyword": "올뉴모닝컵홀더",
+          "category": "생활/건강 > 자동차용품 > 수납용품 > 차량용홀더",
+          "search": 360,
+          "products": 665,
+          "comp_score": 1.85
+        },
+        {
+          "keyword": "테슬라dc콤보케이스",
+          "category": "생활/건강 > 자동차용품 > 튜닝용품 > 기타튜닝용품",
+          "search": 360,
+          "products": 98,
+          "comp_score": 0.27
+        },
+        {
+          "keyword": "코란도스포츠하드탑",
+          "category": "생활/건강 > 자동차용품 > 튜닝용품 > 기타튜닝용품",
+          "search": 360,
+          "products": 85,
+          "comp_score": 0.24
+        },
+        {
+          "keyword": "사람모양방향제",
+          "category": "생활/건강 > 자동차용품 > 공기청정용품 > 차량용방향제",
+          "search": 350,
+          "products": 127,
+          "comp_score": 0.36
+        },
+        {
+          "keyword": "냉각팬레지스터",
+          "category": "생활/건강 > 자동차용품 > 튜닝용품 > 기타튜닝용품",
+          "search": 350,
+          "products": 400,
+          "comp_score": 1.14
+        },
+        {
+          "keyword": "벤츄라칩",
+          "category": "생활/건강 > 자동차용품 > 튜닝용품 > 혼",
+          "search": 350,
+          "products": 23,
+          "comp_score": 0.07
+        },
+        {
+          "keyword": "에어플로우센서클리너",
+          "category": "생활/건강 > 자동차용품 > 세차용품 > 엔진룸세척",
+          "search": 340,
+          "products": 246,
+          "comp_score": 0.72
+        },
+        {
+          "keyword": "가정용ess",
+          "category": "생활/건강 > 공구 > 소형기계 > 발전기",
+          "search": 330,
+          "products": 503,
+          "comp_score": 1.52
+        },
+        {
+          "keyword": "헤드라이트습기제거",
+          "category": "생활/건강 > 자동차용품 > 램프 > 기타램프용품",
+          "search": 330,
+          "products": 592,
+          "comp_score": 1.79
+        },
+        {
+          "keyword": "레이팔걸이확장",
+          "category": "생활/건강 > 자동차용품 > 수납용품 > 콘솔박스",
+          "search": 330,
+          "products": 65,
+          "comp_score": 0.2
+        },
+        {
+          "keyword": "ev5휴대폰거치대",
+          "category": "생활/건강 > 자동차용품 > 휴대폰용품 > 차량용휴대폰거치대",
+          "search": 330,
+          "products": 489,
+          "comp_score": 1.48
+        },
+        {
+          "keyword": "타이어모빌리티키트",
+          "category": "생활/건강 > 자동차용품 > 타이어/휠 > 타이어용품",
+          "search": 330,
+          "products": 583,
+          "comp_score": 1.77
+        },
+        {
+          "keyword": "포터2판스프링",
+          "category": "생활/건강 > 자동차용품 > 튜닝용품 > 서스펜션",
+          "search": 330,
+          "products": 394,
+          "comp_score": 1.19
+        },
+        {
+          "keyword": "din60hl",
+          "category": "생활/건강 > 자동차용품 > 배터리용품 > 차량용배터리",
+          "search": 320,
+          "products": 782,
+          "comp_score": 2.44
+        },
+        {
+          "keyword": "카니발냉온컵홀더",
+          "category": "생활/건강 > 자동차용품 > 수납용품 > 차량용홀더",
+          "search": 320,
+          "products": 442,
+          "comp_score": 1.38
+        },
+        {
+          "keyword": "pv5랩핑",
+          "category": "생활/건강 > 자동차용품 > DIY용품 > 차량용시트지",
+          "search": 310,
+          "products": 62,
+          "comp_score": 0.2
+        },
+        {
+          "keyword": "다르다인버터3kw",
+          "category": "생활/건강 > 자동차용품 > 전기용품 > 인버터",
+          "search": 310,
+          "products": 367,
+          "comp_score": 1.18
+        },
+        {
+          "keyword": "pv5거치대",
+          "category": "생활/건강 > 자동차용품 > 휴대폰용품 > 차량용휴대폰거치대",
+          "search": 310,
+          "products": 489,
+          "comp_score": 1.58
+        },
+        {
+          "keyword": "렉스턴스포츠하드탑",
+          "category": "생활/건강 > 자동차용품 > 튜닝용품 > 기타튜닝용품",
+          "search": 310,
+          "products": 325,
+          "comp_score": 1.05
+        }
+      ]
+    }
   }
 }

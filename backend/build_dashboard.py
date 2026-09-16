@@ -44,6 +44,7 @@ def build():
                     "search": search,
                     "products": products,
                     "comp": it.get("comp", ""),
+                    "comp_score": it.get("comp_score"),
                     "score": score,
                 })
 

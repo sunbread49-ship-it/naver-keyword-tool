@@ -295,7 +295,7 @@ function render() {
       <td>${r.period || "-"}</td>
       <td>${(r.search ?? 0).toLocaleString()}</td>
       <td>${r.products != null ? r.products.toLocaleString() : "-"}</td>
-      <td>${r.comp || "-"}</td>
+      <td>${r.comp_score != null ? r.comp_score.toFixed(2) : (r.comp || "-")}</td>
       <td>
         ${r.score != null ? r.score.toFixed(2) : "-"}
         <div class="ratio-bar-bg"><div class="ratio-bar-fill" style="width:${((r.score||0)/maxScore*100).toFixed(0)}%"></div></div>
