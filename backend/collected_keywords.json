@@ -4770,5 +4770,556 @@
         }
       ]
     }
+  },
+  "생활/건강 > 음반": {
+    "최근 30일": {
+      "collected_at": "2026-09-19",
+      "filter": {
+        "min_search": 300,
+        "max_products": 900,
+        "period": "최근 30일",
+        "exclude_major_brand": true
+      },
+      "keywords": [
+        {
+          "keyword": "튜이드",
+          "category": "생활/건강 > 음반 > 국내앨범",
+          "search": 221000,
+          "products": 354,
+          "comp": "아주좋음",
+          "comp_score": 0.0
+        },
+        {
+          "keyword": "리센느앨범",
+          "category": "생활/건강 > 음반 > 국내앨범",
+          "search": 13220,
+          "products": 257,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "반타01",
+          "category": "생활/건강 > 음반 > 국내앨범",
+          "search": 4210,
+          "products": 78,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "코르티스앨범",
+          "category": "생활/건강 > 음반 > 국내앨범",
+          "search": 3080,
+          "products": 694,
+          "comp": "아주좋음",
+          "comp_score": 0.23
+        },
+        {
+          "keyword": "아이코닉하트",
+          "category": "생활/건강 > 음반 > 해외앨범",
+          "search": 2900,
+          "products": 565,
+          "comp": "아주좋음",
+          "comp_score": 0.19
+        },
+        {
+          "keyword": "백예린lp",
+          "category": "생활/건강 > 음반 > 국내앨범",
+          "search": 2500,
+          "products": 131,
+          "comp": "아주좋음",
+          "comp_score": 0.05
+        },
+        {
+          "keyword": "wavetoearthlp",
+          "category": "생활/건강 > 음반 > 국내앨범",
+          "search": 1130,
+          "products": 31,
+          "comp": "아주좋음",
+          "comp_score": 0.03
+        },
+        {
+          "keyword": "한로로앨범",
+          "category": "생활/건강 > 음반 > 국내앨범",
+          "search": 1020,
+          "products": 94,
+          "comp": "아주좋음",
+          "comp_score": 0.09
+        },
+        {
+          "keyword": "악뮤lp",
+          "category": "생활/건강 > 음반 > 국내앨범",
+          "search": 840,
+          "products": 61,
+          "comp": "아주좋음",
+          "comp_score": 0.07
+        },
+        {
+          "keyword": "전람회lp",
+          "category": "생활/건강 > 음반 > 국내앨범",
+          "search": 350,
+          "products": 200,
+          "comp": "아주좋음",
+          "comp_score": 0.57
+        },
+        {
+          "keyword": "아이묭베스트앨범",
+          "category": "생활/건강 > 음반 > 해외앨범",
+          "search": 330,
+          "products": 50,
+          "comp": "아주좋음",
+          "comp_score": 0.15
+        }
+      ]
+    }
+  },
+  "생활/건강 > DVD": {
+    "최근 30일": {
+      "collected_at": "2026-09-19",
+      "filter": {
+        "min_search": 300,
+        "max_products": 900,
+        "period": "최근 30일",
+        "exclude_major_brand": true
+      },
+      "keywords": [
+        {
+          "keyword": "공공조달관리사",
+          "category": "생활/건강 > DVD > 교육",
+          "search": 56400,
+          "products": 224,
+          "comp": "아주좋음",
+          "comp_score": 0.0
+        },
+        {
+          "keyword": "재경관리사",
+          "category": "생활/건강 > DVD > 교육",
+          "search": 37200,
+          "products": 175,
+          "comp": "아주좋음",
+          "comp_score": 0.0
+        },
+        {
+          "keyword": "오디세이책",
+          "category": "생활/건강 > DVD > 교육",
+          "search": 33000,
+          "products": 91,
+          "comp": "아주좋음",
+          "comp_score": 0.0
+        },
+        {
+          "keyword": "정보처리기사",
+          "category": "생활/건강 > DVD > 교육",
+          "search": 32100,
+          "products": 602,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "안녕피터팬",
+          "category": "생활/건강 > DVD > 드라마 > 국내TV드라마",
+          "search": 22630,
+          "products": 16,
+          "comp": "아주좋음",
+          "comp_score": 0.0
+        },
+        {
+          "keyword": "전산세무1급",
+          "category": "생활/건강 > DVD > 교육",
+          "search": 11060,
+          "products": 153,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "수능완성",
+          "category": "생활/건강 > DVD > 교육",
+          "search": 6420,
+          "products": 417,
+          "comp": "아주좋음",
+          "comp_score": 0.06
+        },
+        {
+          "keyword": "설비보전기사",
+          "category": "생활/건강 > DVD > 교육",
+          "search": 5750,
+          "products": 334,
+          "comp": "아주좋음",
+          "comp_score": 0.06
+        },
+        {
+          "keyword": "히티드라이버리",
+          "category": "생활/건강 > DVD > 드라마 > 해외TV드라마",
+          "search": 3680,
+          "products": 6,
+          "comp": "아주좋음",
+          "comp_score": 0.0
+        },
+        {
+          "keyword": "귀멸의칼날만화책",
+          "category": "생활/건강 > DVD > 애니메이션",
+          "search": 3640,
+          "products": 178,
+          "comp": "아주좋음",
+          "comp_score": 0.05
+        },
+        {
+          "keyword": "글루미선데이",
+          "category": "생활/건강 > DVD > 영화 > 해외영화",
+          "search": 3410,
+          "products": 80,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "건축전기설비기술사",
+          "category": "생활/건강 > DVD > 교육",
+          "search": 3130,
+          "products": 174,
+          "comp": "아주좋음",
+          "comp_score": 0.06
+        },
+        {
+          "keyword": "팀나빠책",
+          "category": "생활/건강 > DVD > 애니메이션",
+          "search": 2550,
+          "products": 15,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "오픽노잼",
+          "category": "생활/건강 > DVD > 교양/다큐멘터리",
+          "search": 1970,
+          "products": 38,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "주술회전만화책",
+          "category": "생활/건강 > DVD > 애니메이션",
+          "search": 1580,
+          "products": 103,
+          "comp": "아주좋음",
+          "comp_score": 0.07
+        },
+        {
+          "keyword": "슈퍼심플송",
+          "category": "생활/건강 > DVD > 유아/어린이",
+          "search": 1480,
+          "products": 218,
+          "comp": "아주좋음",
+          "comp_score": 0.15
+        },
+        {
+          "keyword": "레모니스니켓",
+          "category": "생활/건강 > DVD > 영화 > 해외영화",
+          "search": 650,
+          "products": 11,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "슬램덩크전권",
+          "category": "생활/건강 > DVD > 애니메이션",
+          "search": 400,
+          "products": 55,
+          "comp": "아주좋음",
+          "comp_score": 0.14
+        }
+      ]
+    }
+  },
+  "생활/건강 > 종교": {
+    "최근 30일": {
+      "collected_at": "2026-09-19",
+      "filter": {
+        "min_search": 300,
+        "max_products": 900,
+        "period": "최근 30일",
+        "exclude_major_brand": true
+      },
+      "keywords": [
+        {
+          "keyword": "오디세이아",
+          "category": "생활/건강 > 종교 > 기독교용품",
+          "search": 66400,
+          "products": 761,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "눈물을마시는새",
+          "category": "생활/건강 > 종교 > 기독교용품",
+          "search": 18140,
+          "products": 37,
+          "comp": "아주좋음",
+          "comp_score": 0.0
+        },
+        {
+          "keyword": "니체초월자",
+          "category": "생활/건강 > 종교 > 기독교용품",
+          "search": 10710,
+          "products": 48,
+          "comp": "아주좋음",
+          "comp_score": 0.0
+        },
+        {
+          "keyword": "원진살",
+          "category": "생활/건강 > 종교 > 불교용품",
+          "search": 6600,
+          "products": 68,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "천로역정",
+          "category": "생활/건강 > 종교 > 기독교용품",
+          "search": 6060,
+          "products": 417,
+          "comp": "아주좋음",
+          "comp_score": 0.07
+        },
+        {
+          "keyword": "목탁키캡",
+          "category": "생활/건강 > 종교 > 불교용품",
+          "search": 5100,
+          "products": 259,
+          "comp": "아주좋음",
+          "comp_score": 0.05
+        },
+        {
+          "keyword": "명동성당성물방",
+          "category": "생활/건강 > 종교 > 천주교용품",
+          "search": 3540,
+          "products": 341,
+          "comp": "아주좋음",
+          "comp_score": 0.1
+        },
+        {
+          "keyword": "모서리십자가",
+          "category": "생활/건강 > 종교 > 기독교용품",
+          "search": 3180,
+          "products": 869,
+          "comp": "아주좋음",
+          "comp_score": 0.27
+        },
+        {
+          "keyword": "눈마새",
+          "category": "생활/건강 > 종교 > 기독교용품",
+          "search": 2970,
+          "products": 30,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "자녀를위한기도",
+          "category": "생활/건강 > 종교 > 기독교용품",
+          "search": 2490,
+          "products": 138,
+          "comp": "아주좋음",
+          "comp_score": 0.06
+        },
+        {
+          "keyword": "새번역성경",
+          "category": "생활/건강 > 종교 > 기독교용품",
+          "search": 2480,
+          "products": 379,
+          "comp": "아주좋음",
+          "comp_score": 0.15
+        },
+        {
+          "keyword": "큰글씨성경책",
+          "category": "생활/건강 > 종교 > 기독교용품",
+          "search": 2380,
+          "products": 654,
+          "comp": "아주좋음",
+          "comp_score": 0.27
+        },
+        {
+          "keyword": "새차고사지내는법",
+          "category": "생활/건강 > 종교 > 불교용품",
+          "search": 2310,
+          "products": 235,
+          "comp": "아주좋음",
+          "comp_score": 0.1
+        },
+        {
+          "keyword": "피에타조각상",
+          "category": "생활/건강 > 종교 > 천주교용품",
+          "search": 2300,
+          "products": 150,
+          "comp": "아주좋음",
+          "comp_score": 0.07
+        },
+        {
+          "keyword": "법성게",
+          "category": "생활/건강 > 종교 > 불교용품",
+          "search": 2170,
+          "products": 90,
+          "comp": "아주좋음",
+          "comp_score": 0.04
+        },
+        {
+          "keyword": "봉은사목탁키캡",
+          "category": "생활/건강 > 종교 > 불교용품",
+          "search": 1570,
+          "products": 279,
+          "comp": "아주좋음",
+          "comp_score": 0.18
+        },
+        {
+          "keyword": "개역한글성경",
+          "category": "생활/건강 > 종교 > 기독교용품",
+          "search": 1310,
+          "products": 333,
+          "comp": "아주좋음",
+          "comp_score": 0.25
+        },
+        {
+          "keyword": "스카풀라",
+          "category": "생활/건강 > 종교 > 천주교용품",
+          "search": 1220,
+          "products": 294,
+          "comp": "아주좋음",
+          "comp_score": 0.24
+        },
+        {
+          "keyword": "목화씨",
+          "category": "생활/건강 > 종교 > 불교용품",
+          "search": 1140,
+          "products": 535,
+          "comp": "아주좋음",
+          "comp_score": 0.47
+        },
+        {
+          "keyword": "당사주",
+          "category": "생활/건강 > 종교 > 불교용품",
+          "search": 1140,
+          "products": 36,
+          "comp": "아주좋음",
+          "comp_score": 0.03
+        },
+        {
+          "keyword": "스카폴라",
+          "category": "생활/건강 > 종교 > 천주교용품",
+          "search": 770,
+          "products": 151,
+          "comp": "아주좋음",
+          "comp_score": 0.2
+        },
+        {
+          "keyword": "힙한불교굿즈",
+          "category": "생활/건강 > 종교 > 불교용품",
+          "search": 600,
+          "products": 636,
+          "comp": "아주좋음",
+          "comp_score": 1.06
+        },
+        {
+          "keyword": "길운오행염주",
+          "category": "생활/건강 > 종교 > 불교용품",
+          "search": 600,
+          "products": 454,
+          "comp": "아주좋음",
+          "comp_score": 0.76
+        },
+        {
+          "keyword": "유아세례선물",
+          "category": "생활/건강 > 종교 > 천주교용품",
+          "search": 530,
+          "products": 657,
+          "comp": "아주좋음",
+          "comp_score": 1.24
+        },
+        {
+          "keyword": "반야용선",
+          "category": "생활/건강 > 종교 > 불교용품",
+          "search": 410,
+          "products": 196,
+          "comp": "아주좋음",
+          "comp_score": 0.48
+        },
+        {
+          "keyword": "저주부적",
+          "category": "생활/건강 > 종교 > 불교용품",
+          "search": 410,
+          "products": 260,
+          "comp": "아주좋음",
+          "comp_score": 0.63
+        },
+        {
+          "keyword": "오감소",
+          "category": "생활/건강 > 종교 > 불교용품",
+          "search": 400,
+          "products": 31,
+          "comp": "아주좋음",
+          "comp_score": 0.08
+        },
+        {
+          "keyword": "금필사경",
+          "category": "생활/건강 > 종교 > 불교용품",
+          "search": 390,
+          "products": 858,
+          "comp": "좋음",
+          "comp_score": 2.2
+        },
+        {
+          "keyword": "함께읽는성경동화",
+          "category": "생활/건강 > 종교 > 기독교용품",
+          "search": 380,
+          "products": 21,
+          "comp": "아주좋음",
+          "comp_score": 0.06
+        },
+        {
+          "keyword": "일대일제자양육",
+          "category": "생활/건강 > 종교 > 기독교용품",
+          "search": 370,
+          "products": 36,
+          "comp": "아주좋음",
+          "comp_score": 0.1
+        },
+        {
+          "keyword": "취운향당",
+          "category": "생활/건강 > 종교 > 불교용품",
+          "search": 360,
+          "products": 536,
+          "comp": "아주좋음",
+          "comp_score": 1.49
+        },
+        {
+          "keyword": "약사여래불상",
+          "category": "생활/건강 > 종교 > 불교용품",
+          "search": 350,
+          "products": 355,
+          "comp": "아주좋음",
+          "comp_score": 1.01
+        },
+        {
+          "keyword": "수월관음상굿즈",
+          "category": "생활/건강 > 종교 > 불교용품",
+          "search": 340,
+          "products": 314,
+          "comp": "아주좋음",
+          "comp_score": 0.92
+        },
+        {
+          "keyword": "이종덕방짜유기",
+          "category": "생활/건강 > 종교 > 불교용품",
+          "search": 320,
+          "products": 11,
+          "comp": "아주좋음",
+          "comp_score": 0.03
+        },
+        {
+          "keyword": "만화성경",
+          "category": "생활/건강 > 종교 > 기독교용품",
+          "search": 300,
+          "products": 265,
+          "comp": "아주좋음",
+          "comp_score": 0.88
+        }
+      ]
+    }
   }
 }
