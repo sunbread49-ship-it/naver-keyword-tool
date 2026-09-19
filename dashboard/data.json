@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16",
+  "generated_at": "2026-09-19",
   "source": "itemscout_item_discovery",
   "runs_covered": [
     {
@@ -25,17 +25,17 @@
       }
     }
   ],
-  "total_scanned": 308,
+  "total_scanned": 362,
   "keywords": [
     {
       "keyword": "맥도날드감튀홀더",
       "category": "생활/건강 > 자동차용품 > 수납용품 > 차량용홀더",
       "period": "최근 30일",
-      "search": 39960,
+      "search": 40200,
       "products": 2,
-      "comp": "",
+      "comp": "아주좋음",
       "comp_score": 0.0,
-      "score": 13320.0
+      "score": 13400.0
     },
     {
       "keyword": "다이소유막제거제",
@@ -168,6 +168,16 @@
       "score": 223.0
     },
     {
+      "keyword": "알피쿨15리터",
+      "category": "생활/건강 > 자동차용품 > 편의용품 > 차량용냉/온장고",
+      "period": "최근 30일",
+      "search": 9520,
+      "products": 47,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 198.33
+    },
+    {
       "keyword": "카밈연료첨가제",
       "category": "생활/건강 > 자동차용품 > 오일/소모품 > 연료첨가제",
       "period": "최근 30일",
@@ -188,6 +198,16 @@
       "score": 184.0
     },
     {
+      "keyword": "안심번호발급",
+      "category": "생활/건강 > 자동차용품 > 인테리어용품 > 주차번호판",
+      "period": "최근 30일",
+      "search": 6760,
+      "products": 36,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 182.7
+    },
+    {
       "keyword": "피스타치오슬랑이",
       "category": "생활/건강 > 화방용품 > 클레이",
       "period": "최근 30일",
@@ -201,11 +221,11 @@
       "keyword": "pv5하이루프",
       "category": "생활/건강 > 자동차용품 > 익스테리어용품 > 루프박스",
       "period": "최근 30일",
-      "search": 12350,
+      "search": 12530,
       "products": 71,
-      "comp": "",
+      "comp": "아주좋음",
       "comp_score": 0.01,
-      "score": 171.53
+      "score": 174.03
     },
     {
       "keyword": "다이소우드락",
@@ -216,6 +236,16 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 161.67
+    },
+    {
+      "keyword": "글리머블",
+      "category": "생활/건강 > 자동차용품 > 수납용품 > 차량용테이블",
+      "period": "최근 30일",
+      "search": 650,
+      "products": 4,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 130.0
     },
     {
       "keyword": "팅커랩라이트패드",
@@ -236,6 +266,16 @@
       "comp": "",
       "comp_score": 0.01,
       "score": 100.0
+    },
+    {
+      "keyword": "감튀홀더",
+      "category": "생활/건강 > 자동차용품 > 수납용품 > 차량용홀더",
+      "period": "최근 30일",
+      "search": 13750,
+      "products": 141,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
+      "score": 96.83
     },
     {
       "keyword": "에어로겔고체",
@@ -268,16 +308,6 @@
       "score": 96.0
     },
     {
-      "keyword": "감튀홀더",
-      "category": "생활/건강 > 자동차용품 > 수납용품 > 차량용홀더",
-      "period": "최근 30일",
-      "search": 13740,
-      "products": 144,
-      "comp": "",
-      "comp_score": 0.01,
-      "score": 94.76
-    },
-    {
       "keyword": "다이소차량용방향제",
       "category": "생활/건강 > 자동차용품 > 공기청정용품 > 차량용방향제",
       "period": "최근 30일",
@@ -288,14 +318,24 @@
       "score": 94.38
     },
     {
+      "keyword": "다이소물기제거스펀지",
+      "category": "생활/건강 > 자동차용품 > 세차용품 > 세차스펀지",
+      "period": "최근 30일",
+      "search": 530,
+      "products": 5,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 88.33
+    },
+    {
       "keyword": "트리거패치",
       "category": "생활/건강 > 의료용품 > 구급/응급용품",
       "period": "최근 30일",
-      "search": 8690,
+      "search": 8930,
       "products": 101,
-      "comp": "",
+      "comp": "아주좋음",
       "comp_score": 0.01,
-      "score": 85.2
+      "score": 87.55
     },
     {
       "keyword": "다이소팔토시",
@@ -306,6 +346,26 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 72.45
+    },
+    {
+      "keyword": "pv5카고중고",
+      "category": "생활/건강 > 자동차용품 > 인테리어용품 > 차량용햇빛가리개",
+      "period": "최근 30일",
+      "search": 420,
+      "products": 5,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 70.0
+    },
+    {
+      "keyword": "벤틱트",
+      "category": "생활/건강 > 자동차용품 > 편의용품 > 차량용청소기",
+      "period": "최근 30일",
+      "search": 4260,
+      "products": 61,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 68.71
     },
     {
       "keyword": "다이소트렁크정리함",
@@ -411,11 +471,21 @@
       "keyword": "오토밍글",
       "category": "생활/건강 > 자동차용품 > 인테리어용품 > 내부몰딩",
       "period": "최근 30일",
-      "search": 1090,
+      "search": 1110,
       "products": 20,
-      "comp": "",
+      "comp": "아주좋음",
       "comp_score": 0.02,
-      "score": 51.9
+      "score": 52.86
+    },
+    {
+      "keyword": "큐알미",
+      "category": "생활/건강 > 자동차용품 > 인테리어용품 > 주차번호판",
+      "period": "최근 30일",
+      "search": 2580,
+      "products": 48,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 52.65
     },
     {
       "keyword": "필로켓",
@@ -456,6 +526,16 @@
       "comp": "",
       "comp_score": 0.02,
       "score": 47.58
+    },
+    {
+      "keyword": "카맨닥터",
+      "category": "생활/건강 > 자동차용품 > 세차용품 > 컴파운드",
+      "period": "최근 30일",
+      "search": 450,
+      "products": 9,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 45.0
     },
     {
       "keyword": "인포카4세대",
@@ -508,14 +588,24 @@
       "score": 35.39
     },
     {
+      "keyword": "알루바프로",
+      "category": "생활/건강 > 공구 > 전기용품 > 멀티탭",
+      "period": "최근 30일",
+      "search": 3590,
+      "products": 103,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 34.52
+    },
+    {
       "keyword": "1톤영업용번호판",
       "category": "생활/건강 > 자동차용품 > 튜닝용품 > 기타튜닝용품",
       "period": "최근 30일",
-      "search": 2190,
+      "search": 2200,
       "products": 64,
-      "comp": "",
+      "comp": "아주좋음",
       "comp_score": 0.03,
-      "score": 33.69
+      "score": 33.85
     },
     {
       "keyword": "다이소그물망",
@@ -526,6 +616,16 @@
       "comp": "",
       "comp_score": 0.03,
       "score": 33.23
+    },
+    {
+      "keyword": "알루바프로멀티탭",
+      "category": "생활/건강 > 공구 > 전기용품 > 멀티탭",
+      "period": "최근 30일",
+      "search": 3450,
+      "products": 111,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 30.8
     },
     {
       "keyword": "폴악",
@@ -621,11 +721,11 @@
       "keyword": "다이소세차타올",
       "category": "생활/건강 > 자동차용품 > 세차용품 > 세차타월",
       "period": "최근 30일",
-      "search": 1100,
+      "search": 1110,
       "products": 44,
-      "comp": "",
+      "comp": "아주좋음",
       "comp_score": 0.04,
-      "score": 24.44
+      "score": 24.67
     },
     {
       "keyword": "불스원카매트",
@@ -638,6 +738,16 @@
       "score": 22.83
     },
     {
+      "keyword": "데오드릭스",
+      "category": "생활/건강 > 생활용품 > 제습/방향/탈취 > 실내탈취제",
+      "period": "최근 30일",
+      "search": 1390,
+      "products": 60,
+      "comp": "아주좋음",
+      "comp_score": 0.04,
+      "score": 22.79
+    },
+    {
       "keyword": "라승규제작소",
       "category": "생활/건강 > 자동차용품 > 인테리어용품 > 차량용팔/틈새쿠션",
       "period": "최근 30일",
@@ -646,16 +756,6 @@
       "comp": "",
       "comp_score": 0.04,
       "score": 22.63
-    },
-    {
-      "keyword": "데오드릭스",
-      "category": "생활/건강 > 생활용품 > 제습/방향/탈취 > 실내탈취제",
-      "period": "최근 30일",
-      "search": 1370,
-      "products": 60,
-      "comp": "",
-      "comp_score": 0.04,
-      "score": 22.46
     },
     {
       "keyword": "다이소차량햇빛가리개",
@@ -676,6 +776,16 @@
       "comp": "",
       "comp_score": 0.04,
       "score": 21.36
+    },
+    {
+      "keyword": "디안트차량용청소기",
+      "category": "생활/건강 > 자동차용품 > 편의용품 > 차량용청소기",
+      "period": "최근 30일",
+      "search": 400,
+      "products": 18,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 21.05
     },
     {
       "keyword": "리락쿠마말랑이",
@@ -718,6 +828,26 @@
       "score": 20.58
     },
     {
+      "keyword": "노플라",
+      "category": "생활/건강 > 자동차용품 > 튜닝용품 > 기타튜닝용품",
+      "period": "최근 30일",
+      "search": 780,
+      "products": 37,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 20.53
+    },
+    {
+      "keyword": "다이소극세사타월",
+      "category": "생활/건강 > 자동차용품 > 세차용품 > 세차타월",
+      "period": "최근 30일",
+      "search": 510,
+      "products": 24,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 20.4
+    },
+    {
       "keyword": "밸런스온차량용방석",
       "category": "생활/건강 > 자동차용품 > 인테리어용품 > 차량용방석",
       "period": "최근 30일",
@@ -738,6 +868,16 @@
       "score": 20.07
     },
     {
+      "keyword": "곰아워랩",
+      "category": "생활/건강 > 자동차용품 > 세차용품 > 도장용광택/코팅제",
+      "period": "최근 30일",
+      "search": 740,
+      "products": 37,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 19.47
+    },
+    {
       "keyword": "인터리더말랑이",
       "category": "생활/건강 > 화방용품 > 클레이",
       "period": "최근 30일",
@@ -746,6 +886,16 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 19.3
+    },
+    {
+      "keyword": "저공해차량스티커",
+      "category": "생활/건강 > 자동차용품 > 인테리어용품 > 주차번호판",
+      "period": "최근 30일",
+      "search": 4110,
+      "products": 214,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 19.12
     },
     {
       "keyword": "쉐브론테크론",
@@ -888,6 +1038,16 @@
       "score": 14.32
     },
     {
+      "keyword": "카톡스",
+      "category": "생활/건강 > 자동차용품 > 오일/소모품 > 연료첨가제",
+      "period": "최근 30일",
+      "search": 430,
+      "products": 30,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 13.87
+    },
+    {
       "keyword": "지크탑fs0w30",
       "category": "생활/건강 > 자동차용품 > 오일/소모품 > 엔진오일",
       "period": "최근 30일",
@@ -896,6 +1056,16 @@
       "comp": "",
       "comp_score": 0.07,
       "score": 13.54
+    },
+    {
+      "keyword": "스멜럽",
+      "category": "생활/건강 > 자동차용품 > 공기청정용품 > 차량용방향제",
+      "period": "최근 30일",
+      "search": 540,
+      "products": 39,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 13.5
     },
     {
       "keyword": "벤딕트와이퍼",
@@ -928,6 +1098,16 @@
       "score": 13.37
     },
     {
+      "keyword": "애플듀오패드",
+      "category": "생활/건강 > 자동차용품 > 세차용품 > 세차장갑",
+      "period": "최근 30일",
+      "search": 610,
+      "products": 45,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 13.26
+    },
+    {
       "keyword": "더티린넨",
       "category": "생활/건강 > 생활용품 > 제습/방향/탈취 > 실내탈취제",
       "period": "최근 30일",
@@ -941,21 +1121,31 @@
       "keyword": "다이소세차용품",
       "category": "생활/건강 > 자동차용품 > 세차용품 > 세차타월",
       "period": "최근 30일",
-      "search": 3200,
+      "search": 3230,
       "products": 251,
-      "comp": "",
+      "comp": "아주좋음",
       "comp_score": 0.08,
-      "score": 12.7
+      "score": 12.82
     },
     {
       "keyword": "pv5모기장",
       "category": "생활/건강 > 자동차용품 > 인테리어용품 > 차량용햇빛가리개",
       "period": "최근 30일",
-      "search": 640,
+      "search": 650,
       "products": 51,
-      "comp": "",
+      "comp": "아주좋음",
       "comp_score": 0.08,
-      "score": 12.31
+      "score": 12.5
+    },
+    {
+      "keyword": "셀러스탑",
+      "category": "생활/건강 > 공구 > 접착용품 > 글루건",
+      "period": "최근 30일",
+      "search": 4070,
+      "products": 325,
+      "comp": "아주좋음",
+      "comp_score": 0.08,
+      "score": 12.48
     },
     {
       "keyword": "장용석작업등",
@@ -966,16 +1156,6 @@
       "comp": "",
       "comp_score": 0.08,
       "score": 12.26
-    },
-    {
-      "keyword": "셀러스탑",
-      "category": "생활/건강 > 공구 > 접착용품 > 글루건",
-      "period": "최근 30일",
-      "search": 3980,
-      "products": 325,
-      "comp": "",
-      "comp_score": 0.08,
-      "score": 12.21
     },
     {
       "keyword": "스타벅스선글라스거치대",
@@ -1098,6 +1278,16 @@
       "score": 8.77
     },
     {
+      "keyword": "몬타미니청소기",
+      "category": "생활/건강 > 자동차용품 > 편의용품 > 차량용청소기",
+      "period": "최근 30일",
+      "search": 620,
+      "products": 70,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 8.73
+    },
+    {
       "keyword": "아이언빌드",
       "category": "생활/건강 > 자동차용품 > 인테리어용품 > 바닥매트",
       "period": "최근 30일",
@@ -1121,11 +1311,31 @@
       "keyword": "신생아이동중",
       "category": "생활/건강 > 자동차용품 > 익스테리어용품 > 차량용스티커",
       "period": "최근 30일",
-      "search": 1620,
+      "search": 1660,
       "products": 196,
-      "comp": "",
+      "comp": "아주좋음",
       "comp_score": 0.12,
-      "score": 8.22
+      "score": 8.43
+    },
+    {
+      "keyword": "차앞유리습기",
+      "category": "생활/건강 > 자동차용품 > 세차용품 > 김서림방지제",
+      "period": "최근 30일",
+      "search": 4270,
+      "products": 521,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 8.18
+    },
+    {
+      "keyword": "유막제거방법",
+      "category": "생활/건강 > 자동차용품 > 세차용품 > 유막제거제",
+      "period": "최근 30일",
+      "search": 2220,
+      "products": 281,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 7.87
     },
     {
       "keyword": "감자전슬랑이",
@@ -1218,6 +1428,16 @@
       "score": 7.33
     },
     {
+      "keyword": "치우천왕",
+      "category": "생활/건강 > 자동차용품 > 익스테리어용품 > 차량용스티커",
+      "period": "최근 30일",
+      "search": 2730,
+      "products": 380,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 7.17
+    },
+    {
       "keyword": "슬램덩크전권",
       "category": "생활/건강 > 화방용품 > 애니메이션",
       "period": "최근 30일",
@@ -1298,6 +1518,16 @@
       "score": 6.73
     },
     {
+      "keyword": "더넥스트스파크tpms",
+      "category": "생활/건강 > 자동차용품 > 타이어/휠 > 타이어용품",
+      "period": "최근 30일",
+      "search": 680,
+      "products": 101,
+      "comp": "아주좋음",
+      "comp_score": 0.17,
+      "score": 6.67
+    },
+    {
       "keyword": "폴드8차량용거치대",
       "category": "생활/건강 > 자동차용품 > 휴대폰용품 > 차량용휴대폰거치대",
       "period": "최근 30일",
@@ -1338,14 +1568,24 @@
       "score": 6.18
     },
     {
-      "keyword": "더넥스트스파크tpms",
-      "category": "생활/건강 > 자동차용품 > 타이어/휠 > 타이어용품",
+      "keyword": "크레모아냉장고55",
+      "category": "생활/건강 > 자동차용품 > 편의용품 > 차량용냉/온장고",
       "period": "최근 30일",
-      "search": 600,
-      "products": 101,
-      "comp": "",
-      "comp_score": 0.17,
-      "score": 5.88
+      "search": 740,
+      "products": 127,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 5.78
+    },
+    {
+      "keyword": "스티커제거방법",
+      "category": "생활/건강 > 자동차용품 > 세차용품 > 스티커/타르제거제",
+      "period": "최근 30일",
+      "search": 4990,
+      "products": 867,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 5.75
     },
     {
       "keyword": "인포카스캐너",
@@ -1378,6 +1618,16 @@
       "score": 5.49
     },
     {
+      "keyword": "솔라이트배터리",
+      "category": "생활/건강 > 자동차용품 > 배터리용품 > 차량용배터리",
+      "period": "최근 30일",
+      "search": 560,
+      "products": 103,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 5.38
+    },
+    {
       "keyword": "스타벅스드라이브컵홀더",
       "category": "생활/건강 > 주방용품 > 주방잡화 > 컵받침/홀더",
       "period": "최근 30일",
@@ -1386,6 +1636,16 @@
       "comp": "",
       "comp_score": 0.19,
       "score": 5.33
+    },
+    {
+      "keyword": "크레모아프리지2",
+      "category": "생활/건강 > 자동차용품 > 편의용품 > 차량용냉/온장고",
+      "period": "최근 30일",
+      "search": 1200,
+      "products": 227,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 5.26
     },
     {
       "keyword": "바이칸버켓",
@@ -1401,11 +1661,21 @@
       "keyword": "5톤카고크레인",
       "category": "생활/건강 > 자동차용품 > 튜닝용품 > 계기판",
       "period": "최근 30일",
-      "search": 2330,
+      "search": 2350,
       "products": 451,
-      "comp": "",
+      "comp": "아주좋음",
       "comp_score": 0.19,
-      "score": 5.15
+      "score": 5.2
+    },
+    {
+      "keyword": "바로고기어봉",
+      "category": "생활/건강 > 자동차용품 > 인테리어용품 > 기어용품",
+      "period": "최근 30일",
+      "search": 890,
+      "products": 174,
+      "comp": "아주좋음",
+      "comp_score": 0.2,
+      "score": 5.09
     },
     {
       "keyword": "등사기",
@@ -1428,14 +1698,14 @@
       "score": 5.0
     },
     {
-      "keyword": "바로고기어봉",
-      "category": "생활/건강 > 자동차용품 > 인테리어용품 > 기어용품",
+      "keyword": "레이트렁크테이블",
+      "category": "스포츠/레저 > 캠핑 > 기타캠핑용품",
       "period": "최근 30일",
-      "search": 870,
-      "products": 174,
-      "comp": "",
-      "comp_score": 0.2,
-      "score": 4.97
+      "search": 370,
+      "products": 73,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 5.0
     },
     {
       "keyword": "카키모리딥펜",
@@ -1455,6 +1725,16 @@
       "products": 250,
       "comp": "",
       "comp_score": 0.2,
+      "score": 4.94
+    },
+    {
+      "keyword": "크레모아냉장고",
+      "category": "생활/건강 > 자동차용품 > 편의용품 > 차량용냉/온장고",
+      "period": "최근 30일",
+      "search": 1690,
+      "products": 341,
+      "comp": "아주좋음",
+      "comp_score": null,
       "score": 4.94
     },
     {
@@ -1561,11 +1841,11 @@
       "keyword": "쏘렌토그릴망",
       "category": "생활/건강 > 자동차용품 > 익스테리어용품 > 에어로파츠",
       "period": "최근 30일",
-      "search": 780,
+      "search": 790,
       "products": 175,
-      "comp": "",
+      "comp": "아주좋음",
       "comp_score": 0.22,
-      "score": 4.43
+      "score": 4.49
     },
     {
       "keyword": "교보문고차량용방향제",
@@ -1681,11 +1961,21 @@
       "keyword": "불소원샷",
       "category": "생활/건강 > 자동차용품 > 오일/소모품 > 연료첨가제",
       "period": "최근 30일",
-      "search": 1250,
+      "search": 1260,
       "products": 312,
-      "comp": "",
+      "comp": "아주좋음",
       "comp_score": 0.25,
-      "score": 3.99
+      "score": 4.03
+    },
+    {
+      "keyword": "23555r19",
+      "category": "생활/건강 > 자동차용품 > 타이어/휠 > 타이어",
+      "period": "최근 30일",
+      "search": 960,
+      "products": 237,
+      "comp": "아주좋음",
+      "comp_score": 0.27,
+      "score": 4.03
     },
     {
       "keyword": "카빛나",
@@ -1696,6 +1986,16 @@
       "comp": "",
       "comp_score": 0.25,
       "score": 3.97
+    },
+    {
+      "keyword": "번개쎈놈",
+      "category": "생활/건강 > 자동차용품 > 배터리용품 > 배터리충전기/점프스타터",
+      "period": "최근 30일",
+      "search": 390,
+      "products": 100,
+      "comp": "아주좋음",
+      "comp_score": 0.26,
+      "score": 3.86
     },
     {
       "keyword": "조말론카디퓨저",
@@ -1738,13 +2038,13 @@
       "score": 3.76
     },
     {
-      "keyword": "번개쎈놈",
-      "category": "생활/건강 > 자동차용품 > 배터리용품 > 배터리충전기/점프스타터",
+      "keyword": "전자식룸미러",
+      "category": "생활/건강 > 자동차용품 > 인테리어용품 > 룸미러",
       "period": "최근 30일",
-      "search": 380,
-      "products": 100,
-      "comp": "",
-      "comp_score": 0.26,
+      "search": 440,
+      "products": 116,
+      "comp": "아주좋음",
+      "comp_score": null,
       "score": 3.76
     },
     {
@@ -1756,16 +2056,6 @@
       "comp": "",
       "comp_score": 0.27,
       "score": 3.71
-    },
-    {
-      "keyword": "23555r19",
-      "category": "생활/건강 > 자동차용품 > 타이어/휠 > 타이어",
-      "period": "최근 30일",
-      "search": 870,
-      "products": 237,
-      "comp": "",
-      "comp_score": 0.27,
-      "score": 3.66
     },
     {
       "keyword": "s3xy버튼",
@@ -1818,6 +2108,36 @@
       "score": 3.37
     },
     {
+      "keyword": "스테인포스",
+      "category": "생활/건강 > 자동차용품 > 편의용품 > 차량용청소기",
+      "period": "최근 30일",
+      "search": 1070,
+      "products": 325,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 3.28
+    },
+    {
+      "keyword": "다사이모찌",
+      "category": "생활/건강 > 자동차용품 > 인테리어용품 > 차량용장식소품",
+      "period": "최근 30일",
+      "search": 590,
+      "products": 182,
+      "comp": "아주좋음",
+      "comp_score": 0.31,
+      "score": 3.22
+    },
+    {
+      "keyword": "이에스링크",
+      "category": "생활/건강 > 자동차용품 > 튜닝용품 > 서스펜션",
+      "period": "최근 30일",
+      "search": 350,
+      "products": 108,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 3.21
+    },
+    {
       "keyword": "바토카s4",
       "category": "생활/건강 > 자동차용품 > 세차용품 > 광택기",
       "period": "최근 30일",
@@ -1828,16 +2148,6 @@
       "score": 3.18
     },
     {
-      "keyword": "다사이모찌",
-      "category": "생활/건강 > 자동차용품 > 인테리어용품 > 차량용장식소품",
-      "period": "최근 30일",
-      "search": 580,
-      "products": 182,
-      "comp": "",
-      "comp_score": 0.31,
-      "score": 3.17
-    },
-    {
       "keyword": "인터리더",
       "category": "생활/건강 > 화방용품 > 클레이",
       "period": "최근 30일",
@@ -1846,6 +2156,16 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 3.15
+    },
+    {
+      "keyword": "pv5에어매트",
+      "category": "생활/건강 > 자동차용품 > 인테리어용품 > 바닥매트",
+      "period": "최근 30일",
+      "search": 450,
+      "products": 143,
+      "comp": "아주좋음",
+      "comp_score": 0.34,
+      "score": 3.12
     },
     {
       "keyword": "푸드트럭중고",
@@ -1868,14 +2188,14 @@
       "score": 2.94
     },
     {
-      "keyword": "pv5에어매트",
-      "category": "생활/건강 > 자동차용품 > 인테리어용품 > 바닥매트",
+      "keyword": "레이오르간페달",
+      "category": "생활/건강 > 자동차용품 > 인테리어용품 > 페달용품",
       "period": "최근 30일",
-      "search": 420,
-      "products": 143,
-      "comp": "",
-      "comp_score": 0.34,
-      "score": 2.92
+      "search": 500,
+      "products": 169,
+      "comp": "아주좋음",
+      "comp_score": 0.36,
+      "score": 2.94
     },
     {
       "keyword": "누수몬스터",
@@ -1896,16 +2216,6 @@
       "comp": "",
       "comp_score": 0.36,
       "score": 2.8
-    },
-    {
-      "keyword": "레이오르간페달",
-      "category": "생활/건강 > 자동차용품 > 인테리어용품 > 페달용품",
-      "period": "최근 30일",
-      "search": 470,
-      "products": 169,
-      "comp": "",
-      "comp_score": 0.36,
-      "score": 2.76
     },
     {
       "keyword": "아이오닉9머드가드",
@@ -1948,6 +2258,26 @@
       "score": 2.7
     },
     {
+      "keyword": "다그3+",
+      "category": "생활/건강 > 자동차용품 > 튜닝용품 > 게이지",
+      "period": "최근 30일",
+      "search": 1310,
+      "products": 490,
+      "comp": "아주좋음",
+      "comp_score": 0.38,
+      "score": 2.67
+    },
+    {
+      "keyword": "0510000481",
+      "category": "생활/건강 > 자동차용품 > 오일/소모품 > 엔진오일",
+      "period": "최근 30일",
+      "search": 300,
+      "products": 112,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 2.65
+    },
+    {
       "keyword": "더컵",
       "category": "생활/건강 > 자동차용품 > 키용품 > 스마트키",
       "period": "최근 30일",
@@ -1956,16 +2286,6 @@
       "comp": "",
       "comp_score": 0.38,
       "score": 2.64
-    },
-    {
-      "keyword": "다그3+",
-      "category": "생활/건강 > 자동차용품 > 튜닝용품 > 게이지",
-      "period": "최근 30일",
-      "search": 1290,
-      "products": 490,
-      "comp": "",
-      "comp_score": 0.38,
-      "score": 2.63
     },
     {
       "keyword": "무쏘하드탑",
@@ -2028,6 +2348,16 @@
       "score": 2.53
     },
     {
+      "keyword": "v2l커넥터",
+      "category": "생활/건강 > 자동차용품 > 배터리용품 > 배터리충전기/점프스타터",
+      "period": "최근 30일",
+      "search": 1240,
+      "products": 503,
+      "comp": "아주좋음",
+      "comp_score": 0.42,
+      "score": 2.46
+    },
+    {
       "keyword": "유록스10리터",
       "category": "생활/건강 > 자동차용품 > 오일/소모품 > 요소수",
       "period": "최근 30일",
@@ -2068,14 +2398,14 @@
       "score": 2.38
     },
     {
-      "keyword": "v2l커넥터",
-      "category": "생활/건강 > 자동차용품 > 배터리용품 > 배터리충전기/점프스타터",
+      "keyword": "강동규타월",
+      "category": "생활/건강 > 자동차용품 > 세차용품 > 세차타월",
       "period": "최근 30일",
-      "search": 1200,
-      "products": 503,
-      "comp": "",
-      "comp_score": 0.42,
-      "score": 2.38
+      "search": 560,
+      "products": 236,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 2.36
     },
     {
       "keyword": "다이소차량용충전기",
@@ -2178,6 +2508,16 @@
       "score": 2.03
     },
     {
+      "keyword": "덴라이프",
+      "category": "생활/건강 > 자동차용품 > 수납용품 > 차량용휴지통",
+      "period": "최근 30일",
+      "search": 820,
+      "products": 404,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 2.02
+    },
+    {
       "keyword": "카멜레온360",
       "category": "생활/건강 > 자동차용품 > 휴대폰용품 > 차량용휴대폰거치대",
       "period": "최근 30일",
@@ -2228,6 +2568,26 @@
       "score": 1.95
     },
     {
+      "keyword": "전기차감속기오일",
+      "category": "생활/건강 > 자동차용품 > 오일/소모품 > 미션오일",
+      "period": "최근 30일",
+      "search": 1300,
+      "products": 668,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 1.94
+    },
+    {
+      "keyword": "화장실청소폼건",
+      "category": "생활/건강 > 자동차용품 > 세차용품 > 호스",
+      "period": "최근 30일",
+      "search": 1000,
+      "products": 524,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 1.9
+    },
+    {
       "keyword": "고넹이화방",
       "category": "생활/건강 > 화방용품 > 수채화물감",
       "period": "최근 30일",
@@ -2268,6 +2628,16 @@
       "score": 1.84
     },
     {
+      "keyword": "불스원밸런스온",
+      "category": "생활/건강 > 자동차용품 > 인테리어용품 > 차량용방석",
+      "period": "최근 30일",
+      "search": 550,
+      "products": 306,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 1.79
+    },
+    {
       "keyword": "아쿠아디파르마카디퓨저",
       "category": "생활/건강 > 자동차용품 > 공기청정용품 > 차량용방향제",
       "period": "최근 30일",
@@ -2298,6 +2668,16 @@
       "score": 1.73
     },
     {
+      "keyword": "커레이져스",
+      "category": "생활/건강 > 자동차용품 > 튜닝용품 > 기타튜닝용품",
+      "period": "최근 30일",
+      "search": 620,
+      "products": 364,
+      "comp": "아주좋음",
+      "comp_score": 0.62,
+      "score": 1.7
+    },
+    {
       "keyword": "카니발그릴망",
       "category": "생활/건강 > 자동차용품 > 익스테리어용품 > 에어로파츠",
       "period": "최근 30일",
@@ -2315,6 +2695,16 @@
       "products": 235,
       "comp": "",
       "comp_score": 0.59,
+      "score": 1.69
+    },
+    {
+      "keyword": "큐피온",
+      "category": "생활/건강 > 자동차용품 > 세차용품 > 유리코팅제",
+      "period": "최근 30일",
+      "search": 1310,
+      "products": 774,
+      "comp": "아주좋음",
+      "comp_score": null,
       "score": 1.69
     },
     {
@@ -2338,16 +2728,6 @@
       "score": 1.67
     },
     {
-      "keyword": "커레이져스",
-      "category": "생활/건강 > 자동차용품 > 튜닝용품 > 기타튜닝용품",
-      "period": "최근 30일",
-      "search": 590,
-      "products": 364,
-      "comp": "",
-      "comp_score": 0.62,
-      "score": 1.62
-    },
-    {
       "keyword": "신지모루차량용거치대",
       "category": "생활/건강 > 자동차용품 > 휴대폰용품 > 차량용휴대폰거치대",
       "period": "최근 30일",
@@ -2356,6 +2736,16 @@
       "comp": "",
       "comp_score": 0.62,
       "score": 1.61
+    },
+    {
+      "keyword": "자동차석회물제거",
+      "category": "생활/건강 > 자동차용품 > 세차용품 > 스티커/타르제거제",
+      "period": "최근 30일",
+      "search": 920,
+      "products": 578,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 1.59
     },
     {
       "keyword": "에이메스피규어",
@@ -2376,6 +2766,16 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 1.55
+    },
+    {
+      "keyword": "불렛타이거",
+      "category": "생활/건강 > 자동차용품 > 세차용품 > 도장용광택/코팅제",
+      "period": "최근 30일",
+      "search": 300,
+      "products": 199,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 1.5
     },
     {
       "keyword": "왁뿌볼재료",
@@ -2448,6 +2848,16 @@
       "score": 1.3
     },
     {
+      "keyword": "테크론",
+      "category": "생활/건강 > 자동차용품 > 오일/소모품 > 연료첨가제",
+      "period": "최근 30일",
+      "search": 410,
+      "products": 317,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 1.29
+    },
+    {
       "keyword": "다이소면장갑",
       "category": "생활/건강 > 화방용품 > 안전장갑",
       "period": "최근 30일",
@@ -2468,6 +2878,26 @@
       "score": 1.27
     },
     {
+      "keyword": "킹스텝",
+      "category": "생활/건강 > 자동차용품 > 익스테리어용품 > 사이드스텝",
+      "period": "최근 30일",
+      "search": 930,
+      "products": 781,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 1.19
+    },
+    {
+      "keyword": "에코파워캡",
+      "category": "생활/건강 > 자동차용품 > 배터리용품 > 기타배터리용품",
+      "period": "최근 30일",
+      "search": 410,
+      "products": 347,
+      "comp": "아주좋음",
+      "comp_score": 0.87,
+      "score": 1.18
+    },
+    {
       "keyword": "ev5핸드폰거치대",
       "category": "생활/건강 > 자동차용품 > 휴대폰용품 > 차량용휴대폰거치대",
       "period": "최근 30일",
@@ -2485,16 +2915,6 @@
       "products": 269,
       "comp": "아주좋음",
       "comp_score": null,
-      "score": 1.15
-    },
-    {
-      "keyword": "에코파워캡",
-      "category": "생활/건강 > 자동차용품 > 배터리용품 > 기타배터리용품",
-      "period": "최근 30일",
-      "search": 400,
-      "products": 347,
-      "comp": "",
-      "comp_score": 0.87,
       "score": 1.15
     },
     {
@@ -2598,6 +3018,16 @@
       "score": 1.06
     },
     {
+      "keyword": "md홍무시동히터",
+      "category": "생활/건강 > 자동차용품 > 편의용품 > 차량용온풍기",
+      "period": "최근 30일",
+      "search": 870,
+      "products": 819,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 1.06
+    },
+    {
       "keyword": "중고집게차",
       "category": "생활/건강 > 자동차용품 > 튜닝용품 > 계기판",
       "period": "최근 30일",
@@ -2668,6 +3098,16 @@
       "score": 0.91
     },
     {
+      "keyword": "3.5톤덤프",
+      "category": "생활/건강 > 자동차용품 > 튜닝용품 > 계기판",
+      "period": "최근 30일",
+      "search": 340,
+      "products": 378,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 0.9
+    },
+    {
       "keyword": "이오이오붓",
       "category": "생활/건강 > 화방용품 > 수채화붓",
       "period": "최근 30일",
@@ -2675,6 +3115,16 @@
       "products": 770,
       "comp": "아주좋음",
       "comp_score": null,
+      "score": 0.89
+    },
+    {
+      "keyword": "카니발무중력테이블",
+      "category": "생활/건강 > 자동차용품 > 수납용품 > 차량용테이블",
+      "period": "최근 30일",
+      "search": 610,
+      "products": 686,
+      "comp": "아주좋음",
+      "comp_score": 1.21,
       "score": 0.89
     },
     {
@@ -2686,6 +3136,16 @@
       "comp": "",
       "comp_score": 1.12,
       "score": 0.89
+    },
+    {
+      "keyword": "탕게등유통",
+      "category": "생활/건강 > 자동차용품 > 오일/소모품 > 기타 오일/소모품",
+      "period": "최근 30일",
+      "search": 390,
+      "products": 441,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 0.88
     },
     {
       "keyword": "고뱃지",
@@ -2758,6 +3218,16 @@
       "score": 0.84
     },
     {
+      "keyword": "딥디크방향제리필",
+      "category": "생활/건강 > 자동차용품 > 공기청정용품 > 차량용방향제",
+      "period": "최근 30일",
+      "search": 640,
+      "products": 769,
+      "comp": "아주좋음",
+      "comp_score": 1.22,
+      "score": 0.83
+    },
+    {
       "keyword": "ev9송풍구",
       "category": "생활/건강 > 자동차용품 > 튜닝용품 > 기타튜닝용품",
       "period": "최근 30일",
@@ -2766,26 +3236,6 @@
       "comp": "",
       "comp_score": 1.2,
       "score": 0.83
-    },
-    {
-      "keyword": "딥디크방향제리필",
-      "category": "생활/건강 > 자동차용품 > 공기청정용품 > 차량용방향제",
-      "period": "최근 30일",
-      "search": 630,
-      "products": 769,
-      "comp": "",
-      "comp_score": 1.22,
-      "score": 0.82
-    },
-    {
-      "keyword": "카니발무중력테이블",
-      "category": "생활/건강 > 자동차용품 > 수납용품 > 차량용테이블",
-      "period": "최근 30일",
-      "search": 590,
-      "products": 715,
-      "comp": "",
-      "comp_score": 1.21,
-      "score": 0.82
     },
     {
       "keyword": "타이거다즐러",
@@ -2805,6 +3255,26 @@
       "products": 769,
       "comp": "",
       "comp_score": 1.26,
+      "score": 0.79
+    },
+    {
+      "keyword": "냉각수누수방지제",
+      "category": "생활/건강 > 자동차용품 > 오일/소모품 > 부동액",
+      "period": "최근 30일",
+      "search": 340,
+      "products": 429,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 0.79
+    },
+    {
+      "keyword": "아수라다웍스",
+      "category": "생활/건강 > 자동차용품 > 튜닝용품 > 서스펜션",
+      "period": "최근 30일",
+      "search": 620,
+      "products": 788,
+      "comp": "아주좋음",
+      "comp_score": null,
       "score": 0.79
     },
     {
@@ -2828,11 +3298,31 @@
       "score": 0.77
     },
     {
+      "keyword": "핸들가죽복원",
+      "category": "생활/건강 > 자동차용품 > 세차용품 > 실내세정제",
+      "period": "최근 30일",
+      "search": 460,
+      "products": 603,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 0.76
+    },
+    {
       "keyword": "감자크런치슬랑이",
       "category": "생활/건강 > 화방용품 > 클레이",
       "period": "최근 30일",
       "search": 400,
       "products": 530,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 0.75
+    },
+    {
+      "keyword": "핏카매트",
+      "category": "생활/건강 > 자동차용품 > 인테리어용품 > 바닥매트",
+      "period": "최근 30일",
+      "search": 350,
+      "products": 467,
       "comp": "아주좋음",
       "comp_score": null,
       "score": 0.75
@@ -2848,6 +3338,16 @@
       "score": 0.74
     },
     {
+      "keyword": "테슬라송풍구거치대",
+      "category": "생활/건강 > 자동차용품 > 휴대폰용품 > 차량용휴대폰거치대",
+      "period": "최근 30일",
+      "search": 570,
+      "products": 784,
+      "comp": "아주좋음",
+      "comp_score": 1.4,
+      "score": 0.73
+    },
+    {
       "keyword": "전차종스프레이",
       "category": "생활/건강 > 자동차용품 > DIY용품 > 도색용품",
       "period": "최근 30일",
@@ -2855,6 +3355,26 @@
       "products": 641,
       "comp": "",
       "comp_score": 1.36,
+      "score": 0.73
+    },
+    {
+      "keyword": "미트슬라이드",
+      "category": "생활/건강 > 자동차용품 > 세차용품 > 세차물통",
+      "period": "최근 30일",
+      "search": 400,
+      "products": 550,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 0.73
+    },
+    {
+      "keyword": "아이오닉9와이퍼",
+      "category": "생활/건강 > 자동차용품 > 오일/소모품 > 와이퍼",
+      "period": "최근 30일",
+      "search": 570,
+      "products": 777,
+      "comp": "아주좋음",
+      "comp_score": null,
       "score": 0.73
     },
     {
@@ -2866,16 +3386,6 @@
       "comp": "",
       "comp_score": 1.38,
       "score": 0.72
-    },
-    {
-      "keyword": "테슬라송풍구거치대",
-      "category": "생활/건강 > 자동차용품 > 휴대폰용품 > 차량용휴대폰거치대",
-      "period": "최근 30일",
-      "search": 560,
-      "products": 784,
-      "comp": "",
-      "comp_score": 1.4,
-      "score": 0.71
     },
     {
       "keyword": "장수명부동액",
@@ -2998,14 +3508,24 @@
       "score": 0.63
     },
     {
+      "keyword": "모닝휠",
+      "category": "생활/건강 > 자동차용품 > 타이어/휠 > 휠",
+      "period": "최근 30일",
+      "search": 560,
+      "products": 893,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 0.63
+    },
+    {
       "keyword": "pv5컵홀더",
       "category": "생활/건강 > 자동차용품 > 수납용품 > 차량용홀더",
       "period": "최근 30일",
-      "search": 400,
+      "search": 430,
       "products": 688,
-      "comp": "",
+      "comp": "아주좋음",
       "comp_score": 1.72,
-      "score": 0.58
+      "score": 0.62
     },
     {
       "keyword": "타이어모빌리티키트",
@@ -3068,6 +3588,16 @@
       "score": 0.5
     },
     {
+      "keyword": "스파크기어봉",
+      "category": "생활/건강 > 자동차용품 > 인테리어용품 > 기어용품",
+      "period": "최근 30일",
+      "search": 430,
+      "products": 856,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 0.5
+    },
+    {
       "keyword": "마르티그",
       "category": "생활/건강 > 자동차용품 > 공기청정용품 > 차량용방향제",
       "period": "최근 30일",
@@ -3106,6 +3636,16 @@
       "comp": "",
       "comp_score": 2.44,
       "score": 0.41
+    },
+    {
+      "keyword": "0w16엔진오일",
+      "category": "생활/건강 > 자동차용품 > 오일/소모품 > 엔진오일",
+      "period": "최근 30일",
+      "search": 300,
+      "products": 748,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 0.4
     }
   ]
 }
