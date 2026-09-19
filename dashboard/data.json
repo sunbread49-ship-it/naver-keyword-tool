@@ -23,9 +23,20 @@
         "period": "최근 30일",
         "exclude_major_brand": true
       }
+    },
+    {
+      "category": "생활/건강 > 수집품",
+      "period": "최근 30일",
+      "collected_at": "2026-09-19",
+      "filter": {
+        "min_search": 300,
+        "max_products": 900,
+        "period": "최근 30일",
+        "exclude_major_brand": true
+      }
     }
   ],
-  "total_scanned": 362,
+  "total_scanned": 612,
   "keywords": [
     {
       "keyword": "맥도날드감튀홀더",
@@ -38,6 +49,16 @@
       "score": 13400.0
     },
     {
+      "keyword": "민음사빵",
+      "category": "생활/건강 > 수집품 > 이색수집품",
+      "period": "최근 30일",
+      "search": 513500,
+      "products": 161,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 3169.75
+    },
+    {
       "keyword": "다이소유막제거제",
       "category": "생활/건강 > 자동차용품 > 세차용품 > 유막제거제",
       "period": "최근 30일",
@@ -46,6 +67,16 @@
       "comp": "",
       "comp_score": 0.0,
       "score": 1747.5
+    },
+    {
+      "keyword": "리센느응원봉",
+      "category": "생활/건강 > 수집품 > 아이돌굿즈 > 응원봉",
+      "period": "최근 30일",
+      "search": 7640,
+      "products": 5,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 1273.33
     },
     {
       "keyword": "킥스g15w30",
@@ -98,6 +129,26 @@
       "score": 615.71
     },
     {
+      "keyword": "mgsd크샤트리아",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
+      "period": "최근 30일",
+      "search": 6010,
+      "products": 9,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 601.0
+    },
+    {
+      "keyword": "코히나타미유",
+      "category": "출산/육아 > 완구/인형 > 캐릭터카드/딱지",
+      "period": "최근 30일",
+      "search": 1610,
+      "products": 2,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 536.67
+    },
+    {
       "keyword": "다이소수축튜브",
       "category": "생활/건강 > 자동차용품 > 전기용품 > 기타전기용품",
       "period": "최근 30일",
@@ -118,6 +169,16 @@
       "score": 432.5
     },
     {
+      "keyword": "100원희귀동전",
+      "category": "생활/건강 > 수집품 > 화폐 > 주화",
+      "period": "최근 30일",
+      "search": 18060,
+      "products": 43,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 410.45
+    },
+    {
       "keyword": "티슬릭스",
       "category": "생활/건강 > 자동차용품 > 인테리어용품 > 바닥매트",
       "period": "최근 30일",
@@ -126,6 +187,16 @@
       "comp": "",
       "comp_score": 0.0,
       "score": 410.31
+    },
+    {
+      "keyword": "선양소주",
+      "category": "식품 > 주류 > 전통주(배송) > 일반증류주",
+      "period": "최근 30일",
+      "search": 27170,
+      "products": 74,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 362.27
     },
     {
       "keyword": "다이소문진",
@@ -168,6 +239,26 @@
       "score": 223.0
     },
     {
+      "keyword": "진스카",
+      "category": "생활/건강 > 수집품 > 이색수집품",
+      "period": "최근 30일",
+      "search": 1690,
+      "products": 7,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 211.25
+    },
+    {
+      "keyword": "돈명태마그넷",
+      "category": "가구/인테리어 > 인테리어소품 > 냉장고자석",
+      "period": "최근 30일",
+      "search": 3260,
+      "products": 15,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 203.75
+    },
+    {
       "keyword": "알피쿨15리터",
       "category": "생활/건강 > 자동차용품 > 편의용품 > 차량용냉/온장고",
       "period": "최근 30일",
@@ -176,6 +267,26 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 198.33
+    },
+    {
+      "keyword": "짱구한과피규어",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+      "period": "최근 30일",
+      "search": 4760,
+      "products": 23,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 198.33
+    },
+    {
+      "keyword": "백룸",
+      "category": "가구/인테리어 > 인테리어소품 > 액자 > 퍼즐/그림/사진액자",
+      "period": "최근 30일",
+      "search": 131300,
+      "products": 708,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 185.19
     },
     {
       "keyword": "카밈연료첨가제",
@@ -238,6 +349,76 @@
       "score": 161.67
     },
     {
+      "keyword": "코멜리슬라임",
+      "category": "생활/건강 > 수집품 > 공예품",
+      "period": "최근 30일",
+      "search": 7260,
+      "products": 44,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 161.33
+    },
+    {
+      "keyword": "국새키링",
+      "category": "패션잡화 > 패션소품 > 키링",
+      "period": "최근 30일",
+      "search": 1980,
+      "products": 12,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 152.31
+    },
+    {
+      "keyword": "에버랜드팝콘통",
+      "category": "생활/건강 > 주방용품 > 보관/밀폐용기 > 기타보관용기",
+      "period": "최근 30일",
+      "search": 1820,
+      "products": 11,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 151.67
+    },
+    {
+      "keyword": "원위시윌로우",
+      "category": "디지털/가전 > 주변기기 > 스캐너 > 3D 스캐너",
+      "period": "최근 30일",
+      "search": 7980,
+      "products": 52,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 150.57
+    },
+    {
+      "keyword": "푸딩탄탄",
+      "category": "생활/건강 > 수집품 > 공예품",
+      "period": "최근 30일",
+      "search": 2990,
+      "products": 20,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 142.38
+    },
+    {
+      "keyword": "농장주조물뉴건담",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
+      "period": "최근 30일",
+      "search": 2530,
+      "products": 17,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 140.56
+    },
+    {
+      "keyword": "치이카와앉은누이",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+      "period": "최근 30일",
+      "search": 6540,
+      "products": 48,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 133.47
+    },
+    {
       "keyword": "글리머블",
       "category": "생활/건강 > 자동차용품 > 수납용품 > 차량용테이블",
       "period": "최근 30일",
@@ -248,6 +429,26 @@
       "score": 130.0
     },
     {
+      "keyword": "물바니안",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+      "period": "최근 30일",
+      "search": 1660,
+      "products": 12,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 127.69
+    },
+    {
+      "keyword": "몬타요술쇼킹테이프",
+      "category": "생활/건강 > 문구/사무용품 > 테이프 > 마스킹테이프",
+      "period": "최근 30일",
+      "search": 1300,
+      "products": 10,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 118.18
+    },
+    {
       "keyword": "팅커랩라이트패드",
       "category": "생활/건강 > 화방용품 > 라이트박스",
       "period": "최근 30일",
@@ -256,6 +457,56 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 112.86
+    },
+    {
+      "keyword": "뱅봉",
+      "category": "생활/건강 > 수집품 > 아이돌굿즈 > 응원봉",
+      "period": "최근 30일",
+      "search": 7150,
+      "products": 63,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 111.72
+    },
+    {
+      "keyword": "나히아10주년피규어",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+      "period": "최근 30일",
+      "search": 5470,
+      "products": 48,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 111.63
+    },
+    {
+      "keyword": "군림천하",
+      "category": "생활/건강 > 악기 > 국악기 > 기타국악기",
+      "period": "최근 30일",
+      "search": 5800,
+      "products": 52,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 109.43
+    },
+    {
+      "keyword": "탱글피젯토이정품",
+      "category": "생활/건강 > 수집품 > 게임 > 보드게임",
+      "period": "최근 30일",
+      "search": 8610,
+      "products": 78,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 108.99
+    },
+    {
+      "keyword": "뽑봉",
+      "category": "생활/건강 > 수집품 > 아이돌굿즈 > 응원봉",
+      "period": "최근 30일",
+      "search": 1260,
+      "products": 11,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 105.0
     },
     {
       "keyword": "지크m10",
@@ -318,6 +569,16 @@
       "score": 94.38
     },
     {
+      "keyword": "리레볼루션",
+      "category": "생활/건강 > 수집품 > 이색수집품",
+      "period": "최근 30일",
+      "search": 6180,
+      "products": 66,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 92.24
+    },
+    {
       "keyword": "다이소물기제거스펀지",
       "category": "생활/건강 > 자동차용품 > 세차용품 > 세차스펀지",
       "period": "최근 30일",
@@ -328,6 +589,16 @@
       "score": 88.33
     },
     {
+      "keyword": "김대중",
+      "category": "생활/건강 > 수집품 > 우표/씰 > 우표",
+      "period": "최근 30일",
+      "search": 43420,
+      "products": 491,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 88.25
+    },
+    {
       "keyword": "트리거패치",
       "category": "생활/건강 > 의료용품 > 구급/응급용품",
       "period": "최근 30일",
@@ -336,6 +607,16 @@
       "comp": "아주좋음",
       "comp_score": 0.01,
       "score": 87.55
+    },
+    {
+      "keyword": "랏코앉은누이",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+      "period": "최근 30일",
+      "search": 660,
+      "products": 7,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 82.5
     },
     {
       "keyword": "다이소팔토시",
@@ -366,6 +647,46 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 68.71
+    },
+    {
+      "keyword": "알터기유",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+      "period": "최근 30일",
+      "search": 4740,
+      "products": 69,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 67.71
+    },
+    {
+      "keyword": "목삼슬랑이",
+      "category": "생활/건강 > 수집품 > 공예품",
+      "period": "최근 30일",
+      "search": 1680,
+      "products": 24,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 67.2
+    },
+    {
+      "keyword": "돈명태",
+      "category": "가구/인테리어 > 인테리어소품 > 냉장고자석",
+      "period": "최근 30일",
+      "search": 2080,
+      "products": 31,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 65.0
+    },
+    {
+      "keyword": "돌바니안",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+      "period": "최근 30일",
+      "search": 4210,
+      "products": 64,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 64.77
     },
     {
       "keyword": "다이소트렁크정리함",
@@ -438,6 +759,16 @@
       "score": 58.39
     },
     {
+      "keyword": "라쿠카라차",
+      "category": "생활/건강 > 수집품 > 게임 > 보드게임",
+      "period": "최근 30일",
+      "search": 26630,
+      "products": 460,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 57.77
+    },
+    {
       "keyword": "팅커랩",
       "category": "생활/건강 > 화방용품 > 라이트박스",
       "period": "최근 30일",
@@ -456,6 +787,16 @@
       "comp": "",
       "comp_score": 0.02,
       "score": 56.25
+    },
+    {
+      "keyword": "리센느굿즈",
+      "category": "생활/건강 > 수집품 > 아이돌굿즈 > 응원봉",
+      "period": "최근 30일",
+      "search": 11350,
+      "products": 205,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 55.1
     },
     {
       "keyword": "다니엘트루스차량용",
@@ -488,6 +829,16 @@
       "score": 52.65
     },
     {
+      "keyword": "smp가온",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
+      "period": "최근 30일",
+      "search": 1930,
+      "products": 36,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 52.16
+    },
+    {
       "keyword": "필로켓",
       "category": "생활/건강 > 자동차용품 > 수납용품 > 차량용포켓",
       "period": "최근 30일",
@@ -498,6 +849,26 @@
       "score": 51.67
     },
     {
+      "keyword": "리센느앨범",
+      "category": "생활/건강 > 음반 > 국내앨범",
+      "period": "최근 30일",
+      "search": 13330,
+      "products": 257,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 51.67
+    },
+    {
+      "keyword": "코르티스응원봉",
+      "category": "생활/건강 > 수집품 > 아이돌굿즈 > 응원봉",
+      "period": "최근 30일",
+      "search": 1540,
+      "products": 29,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 51.33
+    },
+    {
       "keyword": "다이소물호스",
       "category": "생활/건강 > 자동차용품 > 세차용품 > 호스",
       "period": "최근 30일",
@@ -506,6 +877,16 @@
       "comp": "",
       "comp_score": 0.02,
       "score": 51.11
+    },
+    {
+      "keyword": "반타01",
+      "category": "생활/건강 > 음반 > 국내앨범",
+      "period": "최근 30일",
+      "search": 4010,
+      "products": 78,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 50.76
     },
     {
       "keyword": "카밈나노스크럽",
@@ -528,6 +909,26 @@
       "score": 47.58
     },
     {
+      "keyword": "바리바디릴렉스틱",
+      "category": "생활/건강 > 안마용품 > 기타안마용품",
+      "period": "최근 30일",
+      "search": 7190,
+      "products": 152,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 46.99
+    },
+    {
+      "keyword": "동물의숲메지루시",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+      "period": "최근 30일",
+      "search": 2780,
+      "products": 60,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 45.57
+    },
+    {
       "keyword": "카맨닥터",
       "category": "생활/건강 > 자동차용품 > 세차용품 > 컴파운드",
       "period": "최근 30일",
@@ -536,6 +937,26 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 45.0
+    },
+    {
+      "keyword": "키티그릭요거트",
+      "category": "가구/인테리어 > 인테리어소품 > 냉장고자석",
+      "period": "최근 30일",
+      "search": 760,
+      "products": 16,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 44.71
+    },
+    {
+      "keyword": "한로로lp",
+      "category": "생활/건강 > 수집품 > LP",
+      "period": "최근 30일",
+      "search": 1920,
+      "products": 42,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 44.65
     },
     {
       "keyword": "인포카4세대",
@@ -548,6 +969,56 @@
       "score": 43.16
     },
     {
+      "keyword": "아이브웨하스",
+      "category": "생활/건강 > 수집품 > 아이돌굿즈 > 포토/브로마이드",
+      "period": "최근 30일",
+      "search": 1680,
+      "products": 38,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 43.08
+    },
+    {
+      "keyword": "우뢰매",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+      "period": "최근 30일",
+      "search": 6530,
+      "products": 152,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 42.68
+    },
+    {
+      "keyword": "키푸푸",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+      "period": "최근 30일",
+      "search": 4150,
+      "products": 97,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 42.35
+    },
+    {
+      "keyword": "굿건가스",
+      "category": "생활/건강 > 수집품 > 서바이벌 > 서바이벌용품",
+      "period": "최근 30일",
+      "search": 1770,
+      "products": 41,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 42.14
+    },
+    {
+      "keyword": "치이카와초코박스",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+      "period": "최근 30일",
+      "search": 4640,
+      "products": 113,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 40.7
+    },
+    {
       "keyword": "김민재편백",
       "category": "생활/건강 > 생활용품 > 제습/방향/탈취 > 실내탈취제",
       "period": "최근 30일",
@@ -556,6 +1027,36 @@
       "comp": "",
       "comp_score": 0.02,
       "score": 40.14
+    },
+    {
+      "keyword": "랜드바이슨",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+      "period": "최근 30일",
+      "search": 1790,
+      "products": 44,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 39.78
+    },
+    {
+      "keyword": "블리치메지루시",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+      "period": "최근 30일",
+      "search": 1010,
+      "products": 25,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 38.85
+    },
+    {
+      "keyword": "춘식이히퍼",
+      "category": "생활/건강 > 수집품 > 이색수집품",
+      "period": "최근 30일",
+      "search": 490,
+      "products": 12,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 37.69
     },
     {
       "keyword": "코코네놀이터",
@@ -578,6 +1079,36 @@
       "score": 36.34
     },
     {
+      "keyword": "wavetoearthlp",
+      "category": "생활/건강 > 음반 > 국내앨범",
+      "period": "최근 30일",
+      "search": 1150,
+      "products": 31,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 35.94
+    },
+    {
+      "keyword": "쿠지범",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+      "period": "최근 30일",
+      "search": 1250,
+      "products": 34,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 35.71
+    },
+    {
+      "keyword": "코난팝콘통",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 보관용품",
+      "period": "최근 30일",
+      "search": 780,
+      "products": 21,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 35.45
+    },
+    {
       "keyword": "금호타이어가격표",
       "category": "생활/건강 > 자동차용품 > 타이어/휠 > 타이어",
       "period": "최근 30일",
@@ -598,6 +1129,26 @@
       "score": 34.52
     },
     {
+      "keyword": "창모완에반게리온",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
+      "period": "최근 30일",
+      "search": 1740,
+      "products": 50,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 34.12
+    },
+    {
+      "keyword": "무한신성청연",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
+      "period": "최근 30일",
+      "search": 1050,
+      "products": 30,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 33.87
+    },
+    {
       "keyword": "1톤영업용번호판",
       "category": "생활/건강 > 자동차용품 > 튜닝용품 > 기타튜닝용품",
       "period": "최근 30일",
@@ -608,6 +1159,16 @@
       "score": 33.85
     },
     {
+      "keyword": "빅뱅응원봉",
+      "category": "생활/건강 > 수집품 > 아이돌굿즈 > 응원봉",
+      "period": "최근 30일",
+      "search": 5810,
+      "products": 172,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 33.58
+    },
+    {
       "keyword": "다이소그물망",
       "category": "생활/건강 > 자동차용품 > 수납용품 > 트렁크정리함",
       "period": "최근 30일",
@@ -616,6 +1177,46 @@
       "comp": "",
       "comp_score": 0.03,
       "score": 33.23
+    },
+    {
+      "keyword": "그릭요거트키티",
+      "category": "가구/인테리어 > 인테리어소품 > 냉장고자석",
+      "period": "최근 30일",
+      "search": 540,
+      "products": 16,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 31.76
+    },
+    {
+      "keyword": "릴렉스틱",
+      "category": "생활/건강 > 안마용품 > 기타안마용품",
+      "period": "최근 30일",
+      "search": 8300,
+      "products": 262,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 31.56
+    },
+    {
+      "keyword": "오렌지캣레바테인",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
+      "period": "최근 30일",
+      "search": 1030,
+      "products": 32,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 31.21
+    },
+    {
+      "keyword": "몬치치히퍼",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+      "period": "최근 30일",
+      "search": 9420,
+      "products": 303,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 30.99
     },
     {
       "keyword": "알루바프로멀티탭",
@@ -648,6 +1249,16 @@
       "score": 30.0
     },
     {
+      "keyword": "안경만두",
+      "category": "생활/건강 > 문구/사무용품 > 스티커 > 다꾸스티커",
+      "period": "최근 30일",
+      "search": 10740,
+      "products": 358,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 29.92
+    },
+    {
       "keyword": "다이소차량용컵홀더",
       "category": "생활/건강 > 자동차용품 > 수납용품 > 차량용휴지통",
       "period": "최근 30일",
@@ -666,6 +1277,56 @@
       "comp": "",
       "comp_score": 0.03,
       "score": 28.63
+    },
+    {
+      "keyword": "바리바디",
+      "category": "생활/건강 > 안마용품 > 기타안마용품",
+      "period": "최근 30일",
+      "search": 10440,
+      "products": 370,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 28.14
+    },
+    {
+      "keyword": "토토로행운석",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+      "period": "최근 30일",
+      "search": 380,
+      "products": 13,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 27.14
+    },
+    {
+      "keyword": "춤추는고라파덕",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+      "period": "최근 30일",
+      "search": 6910,
+      "products": 254,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 27.1
+    },
+    {
+      "keyword": "화관프리렌",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+      "period": "최근 30일",
+      "search": 4080,
+      "products": 150,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 27.02
+    },
+    {
+      "keyword": "디지바이스리바이벌",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+      "period": "최근 30일",
+      "search": 2750,
+      "products": 101,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 26.96
     },
     {
       "keyword": "피에브차량용",
@@ -728,6 +1389,36 @@
       "score": 24.67
     },
     {
+      "keyword": "피규어원",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+      "period": "최근 30일",
+      "search": 10860,
+      "products": 445,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 24.35
+    },
+    {
+      "keyword": "핵성치조콜라다",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
+      "period": "최근 30일",
+      "search": 1230,
+      "products": 50,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 24.12
+    },
+    {
+      "keyword": "무한신성펜리르",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
+      "period": "최근 30일",
+      "search": 1830,
+      "products": 79,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 22.88
+    },
+    {
       "keyword": "불스원카매트",
       "category": "생활/건강 > 자동차용품 > 인테리어용품 > 바닥매트",
       "period": "최근 30일",
@@ -735,6 +1426,16 @@
       "products": 285,
       "comp": "",
       "comp_score": 0.04,
+      "score": 22.83
+    },
+    {
+      "keyword": "말랑코코",
+      "category": "생활/건강 > 수집품 > 공예품",
+      "period": "최근 30일",
+      "search": 3950,
+      "products": 172,
+      "comp": "아주좋음",
+      "comp_score": null,
       "score": 22.83
     },
     {
@@ -748,6 +1449,26 @@
       "score": 22.79
     },
     {
+      "keyword": "용호모형",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
+      "period": "최근 30일",
+      "search": 1980,
+      "products": 86,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 22.76
+    },
+    {
+      "keyword": "티츄",
+      "category": "생활/건강 > 수집품 > 게임 > 보드게임",
+      "period": "최근 30일",
+      "search": 3800,
+      "products": 166,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 22.75
+    },
+    {
       "keyword": "라승규제작소",
       "category": "생활/건강 > 자동차용품 > 인테리어용품 > 차량용팔/틈새쿠션",
       "period": "최근 30일",
@@ -758,6 +1479,36 @@
       "score": 22.63
     },
     {
+      "keyword": "머더미스터리",
+      "category": "생활/건강 > 수집품 > 게임 > 보드게임",
+      "period": "최근 30일",
+      "search": 13270,
+      "products": 600,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 22.08
+    },
+    {
+      "keyword": "m1개런드",
+      "category": "생활/건강 > 수집품 > 서바이벌 > 건(GUN)",
+      "period": "최근 30일",
+      "search": 4540,
+      "products": 205,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 22.04
+    },
+    {
+      "keyword": "크런치랩스",
+      "category": "생활/건강 > 수집품 > 우표/씰 > 우표",
+      "period": "최근 30일",
+      "search": 1630,
+      "products": 73,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 22.03
+    },
+    {
       "keyword": "다이소차량햇빛가리개",
       "category": "생활/건강 > 자동차용품 > 인테리어용품 > 차량용햇빛가리개",
       "period": "최근 30일",
@@ -766,6 +1517,26 @@
       "comp": "",
       "comp_score": 0.04,
       "score": 22.0
+    },
+    {
+      "keyword": "요기보드게임",
+      "category": "생활/건강 > 수집품 > 게임 > 보드게임",
+      "period": "최근 30일",
+      "search": 5870,
+      "products": 269,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 21.74
+    },
+    {
+      "keyword": "마츠다진페이",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+      "period": "최근 30일",
+      "search": 12470,
+      "products": 578,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 21.54
     },
     {
       "keyword": "다그거치대",
@@ -818,6 +1589,26 @@
       "score": 20.7
     },
     {
+      "keyword": "바나나우사기",
+      "category": "생활/건강 > 수집품 > 아이돌굿즈 > 기타굿즈",
+      "period": "최근 30일",
+      "search": 930,
+      "products": 44,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 20.67
+    },
+    {
+      "keyword": "귀멸의칼날만화책",
+      "category": "생활/건강 > DVD > 애니메이션",
+      "period": "최근 30일",
+      "search": 3690,
+      "products": 178,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 20.61
+    },
+    {
       "keyword": "코모드거치대",
       "category": "생활/건강 > 자동차용품 > 휴대폰용품 > 차량용휴대폰거치대",
       "period": "최근 30일",
@@ -856,6 +1647,16 @@
       "comp": "",
       "comp_score": 0.05,
       "score": 20.28
+    },
+    {
+      "keyword": "리락쿠마말랑이",
+      "category": "생활/건강 > 문구/사무용품 > 문구용품 > 기타문구용품",
+      "period": "최근 30일",
+      "search": 13120,
+      "products": 651,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 20.12
     },
     {
       "keyword": "다그3네오",
@@ -938,6 +1739,76 @@
       "score": 18.72
     },
     {
+      "keyword": "케로로마크2",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
+      "period": "최근 30일",
+      "search": 1060,
+      "products": 56,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 18.6
+    },
+    {
+      "keyword": "해녀보드게임",
+      "category": "생활/건강 > 수집품 > 게임 > 보드게임",
+      "period": "최근 30일",
+      "search": 690,
+      "products": 37,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 18.16
+    },
+    {
+      "keyword": "레드벨벳lp",
+      "category": "생활/건강 > 수집품 > LP",
+      "period": "최근 30일",
+      "search": 1480,
+      "products": 81,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 18.05
+    },
+    {
+      "keyword": "백예린lp",
+      "category": "생활/건강 > 음반 > 국내앨범",
+      "period": "최근 30일",
+      "search": 2380,
+      "products": 131,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 18.03
+    },
+    {
+      "keyword": "메탈스트럭쳐사자비",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
+      "period": "최근 30일",
+      "search": 1350,
+      "products": 74,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 18.0
+    },
+    {
+      "keyword": "목탁키캡",
+      "category": "생활/건강 > 종교 > 불교용품",
+      "period": "최근 30일",
+      "search": 4650,
+      "products": 259,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 17.88
+    },
+    {
+      "keyword": "쫀냐미",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+      "period": "최근 30일",
+      "search": 6750,
+      "products": 385,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 17.49
+    },
+    {
       "keyword": "아쿠아디파르마차량용",
       "category": "생활/건강 > 자동차용품 > 공기청정용품 > 차량용방향제",
       "period": "최근 30일",
@@ -946,6 +1817,26 @@
       "comp": "",
       "comp_score": 0.06,
       "score": 16.91
+    },
+    {
+      "keyword": "럭키부기",
+      "category": "패션잡화 > 패션소품 > 키링",
+      "period": "최근 30일",
+      "search": 1020,
+      "products": 61,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 16.45
+    },
+    {
+      "keyword": "최유리lp",
+      "category": "생활/건강 > 수집품 > LP",
+      "period": "최근 30일",
+      "search": 950,
+      "products": 58,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 16.1
     },
     {
       "keyword": "오아스마트에어펌프",
@@ -988,6 +1879,16 @@
       "score": 15.61
     },
     {
+      "keyword": "하현상lp",
+      "category": "생활/건강 > 수집품 > LP",
+      "period": "최근 30일",
+      "search": 540,
+      "products": 34,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 15.43
+    },
+    {
       "keyword": "20색상환",
       "category": "생활/건강 > 화방용품 > 컬러가이드",
       "period": "최근 30일",
@@ -996,6 +1897,16 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 15.12
+    },
+    {
+      "keyword": "치이카와앉은누이2탄",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+      "period": "최근 30일",
+      "search": 1080,
+      "products": 71,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 15.0
     },
     {
       "keyword": "아임반헤드레스트",
@@ -1028,6 +1939,16 @@
       "score": 14.58
     },
     {
+      "keyword": "아이폰18목업",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 모형",
+      "period": "최근 30일",
+      "search": 1770,
+      "products": 122,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 14.39
+    },
+    {
       "keyword": "아기손도장접시",
       "category": "생활/건강 > 화방용품 > 손발도장",
       "period": "최근 30일",
@@ -1038,6 +1959,16 @@
       "score": 14.32
     },
     {
+      "keyword": "빅뱅20주년응원봉",
+      "category": "생활/건강 > 수집품 > 아이돌굿즈 > 응원봉",
+      "period": "최근 30일",
+      "search": 2260,
+      "products": 159,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 14.12
+    },
+    {
       "keyword": "카톡스",
       "category": "생활/건강 > 자동차용품 > 오일/소모품 > 연료첨가제",
       "period": "최근 30일",
@@ -1046,6 +1977,26 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 13.87
+    },
+    {
+      "keyword": "달무티",
+      "category": "생활/건강 > 수집품 > 게임 > 보드게임",
+      "period": "최근 30일",
+      "search": 7220,
+      "products": 524,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 13.75
+    },
+    {
+      "keyword": "악뮤lp",
+      "category": "생활/건강 > 음반 > 국내앨범",
+      "period": "최근 30일",
+      "search": 850,
+      "products": 61,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 13.71
     },
     {
       "keyword": "지크탑fs0w30",
@@ -1066,6 +2017,16 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 13.5
+    },
+    {
+      "keyword": "메지루시보관함",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 보관용품",
+      "period": "최근 30일",
+      "search": 580,
+      "products": 42,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 13.49
     },
     {
       "keyword": "벤딕트와이퍼",
@@ -1108,6 +2069,36 @@
       "score": 13.26
     },
     {
+      "keyword": "하투하인형",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 모형",
+      "period": "최근 30일",
+      "search": 870,
+      "products": 66,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 12.99
+    },
+    {
+      "keyword": "카다알핀",
+      "category": "생활/건강 > 수집품 > 퍼즐/블록 > 블록",
+      "period": "최근 30일",
+      "search": 310,
+      "products": 23,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 12.92
+    },
+    {
+      "keyword": "디지몬메지루시",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+      "period": "최근 30일",
+      "search": 1250,
+      "products": 96,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 12.89
+    },
+    {
       "keyword": "더티린넨",
       "category": "생활/건강 > 생활용품 > 제습/방향/탈취 > 실내탈취제",
       "period": "최근 30일",
@@ -1126,6 +2117,26 @@
       "comp": "아주좋음",
       "comp_score": 0.08,
       "score": 12.82
+    },
+    {
+      "keyword": "쁘넥도",
+      "category": "생활/건강 > 수집품 > 아이돌굿즈 > 기타굿즈",
+      "period": "최근 30일",
+      "search": 4360,
+      "products": 345,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 12.6
+    },
+    {
+      "keyword": "기아타이거즈응원봉",
+      "category": "생활/건강 > 수집품 > 아이돌굿즈 > 응원봉",
+      "period": "최근 30일",
+      "search": 1420,
+      "products": 112,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 12.57
     },
     {
       "keyword": "pv5모기장",
@@ -1148,6 +2159,16 @@
       "score": 12.48
     },
     {
+      "keyword": "유재하lp",
+      "category": "생활/건강 > 수집품 > LP",
+      "period": "최근 30일",
+      "search": 1990,
+      "products": 160,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 12.36
+    },
+    {
       "keyword": "장용석작업등",
       "category": "스포츠/레저 > 캠핑 > 랜턴 > 손전등",
       "period": "최근 30일",
@@ -1156,6 +2177,26 @@
       "comp": "",
       "comp_score": 0.08,
       "score": 12.26
+    },
+    {
+      "keyword": "더합체제이데커",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+      "period": "최근 30일",
+      "search": 8780,
+      "products": 717,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 12.23
+    },
+    {
+      "keyword": "서스펙트게임",
+      "category": "생활/건강 > 수집품 > 게임 > 보드게임",
+      "period": "최근 30일",
+      "search": 960,
+      "products": 81,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 11.71
     },
     {
       "keyword": "스타벅스선글라스거치대",
@@ -1178,6 +2219,46 @@
       "score": 11.57
     },
     {
+      "keyword": "울트라네크로즈마",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+      "period": "최근 30일",
+      "search": 2660,
+      "products": 229,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 11.57
+    },
+    {
+      "keyword": "코코지정리함",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 보관용품",
+      "period": "최근 30일",
+      "search": 610,
+      "products": 54,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 11.09
+    },
+    {
+      "keyword": "코코지아띠정리함",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 보관용품",
+      "period": "최근 30일",
+      "search": 410,
+      "products": 36,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 11.08
+    },
+    {
+      "keyword": "레미니",
+      "category": "생활/건강 > 수집품 > 아이돌굿즈 > 기타굿즈",
+      "period": "최근 30일",
+      "search": 3430,
+      "products": 312,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 10.96
+    },
+    {
       "keyword": "pv5카고평탄화",
       "category": "생활/건강 > 자동차용품 > 인테리어용품 > 바닥매트",
       "period": "최근 30일",
@@ -1198,6 +2279,16 @@
       "score": 10.83
     },
     {
+      "keyword": "한로로앨범",
+      "category": "생활/건강 > 음반 > 국내앨범",
+      "period": "최근 30일",
+      "search": 1020,
+      "products": 94,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 10.74
+    },
+    {
       "keyword": "리무라r5",
       "category": "생활/건강 > 자동차용품 > 오일/소모품 > 엔진오일",
       "period": "최근 30일",
@@ -1206,6 +2297,66 @@
       "comp": "",
       "comp_score": 0.09,
       "score": 10.71
+    },
+    {
+      "keyword": "무한신성네메시스",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
+      "period": "최근 30일",
+      "search": 1210,
+      "products": 112,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 10.71
+    },
+    {
+      "keyword": "메가커피키링",
+      "category": "패션잡화 > 패션소품 > 키링",
+      "period": "최근 30일",
+      "search": 370,
+      "products": 34,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 10.57
+    },
+    {
+      "keyword": "스킵피티",
+      "category": "생활/건강 > 수집품 > 게임 > 보드게임",
+      "period": "최근 30일",
+      "search": 1740,
+      "products": 164,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 10.55
+    },
+    {
+      "keyword": "퍼즈팩토리",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델용품",
+      "period": "최근 30일",
+      "search": 1140,
+      "products": 108,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 10.46
+    },
+    {
+      "keyword": "리자몽띠부씰",
+      "category": "생활/건강 > 문구/사무용품 > 스티커 > 기타스티커",
+      "period": "최근 30일",
+      "search": 2220,
+      "products": 213,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 10.37
+    },
+    {
+      "keyword": "리락쿠마메지루시",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+      "period": "최근 30일",
+      "search": 1000,
+      "products": 96,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 10.31
     },
     {
       "keyword": "에프터블로우",
@@ -1228,6 +2379,56 @@
       "score": 10.05
     },
     {
+      "keyword": "꼬치의달인",
+      "category": "생활/건강 > 수집품 > 게임 > 보드게임",
+      "period": "최근 30일",
+      "search": 8140,
+      "products": 813,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 10.0
+    },
+    {
+      "keyword": "홀리데이미쿠",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+      "period": "최근 30일",
+      "search": 2370,
+      "products": 239,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 9.88
+    },
+    {
+      "keyword": "폴리포켓가챠",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+      "period": "최근 30일",
+      "search": 1190,
+      "products": 120,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 9.83
+    },
+    {
+      "keyword": "도로하마커",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델용품",
+      "period": "최근 30일",
+      "search": 970,
+      "products": 98,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 9.8
+    },
+    {
+      "keyword": "솔로몬크샤트리아",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
+      "period": "최근 30일",
+      "search": 1880,
+      "products": 196,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 9.54
+    },
+    {
       "keyword": "에코플로우리버프로",
       "category": "스포츠/레저 > 캠핑 > 파워뱅크",
       "period": "최근 30일",
@@ -1236,6 +2437,26 @@
       "comp": "",
       "comp_score": 0.1,
       "score": 9.49
+    },
+    {
+      "keyword": "아르낙",
+      "category": "생활/건강 > 수집품 > 게임 > 보드게임",
+      "period": "최근 30일",
+      "search": 1680,
+      "products": 176,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 9.49
+    },
+    {
+      "keyword": "바이오맨",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+      "period": "최근 30일",
+      "search": 1920,
+      "products": 202,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 9.46
     },
     {
       "keyword": "아이소핑크판넬",
@@ -1248,6 +2469,16 @@
       "score": 9.39
     },
     {
+      "keyword": "아이브도무송",
+      "category": "생활/건강 > 수집품 > 아이돌굿즈 > 스티커",
+      "period": "최근 30일",
+      "search": 610,
+      "products": 65,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 9.24
+    },
+    {
       "keyword": "인포카",
       "category": "생활/건강 > 자동차용품 > 튜닝용품 > 게이지",
       "period": "최근 30일",
@@ -1256,6 +2487,16 @@
       "comp": "",
       "comp_score": 0.11,
       "score": 9.2
+    },
+    {
+      "keyword": "84태권브이",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+      "period": "최근 30일",
+      "search": 410,
+      "products": 45,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 8.91
     },
     {
       "keyword": "춘몽",
@@ -1288,6 +2529,36 @@
       "score": 8.73
     },
     {
+      "keyword": "프리즘스톤",
+      "category": "생활/건강 > 문구/사무용품 > 문구용품 > 기타문구용품",
+      "period": "최근 30일",
+      "search": 3440,
+      "products": 395,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 8.69
+    },
+    {
+      "keyword": "슬라이드폰가챠",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+      "period": "최근 30일",
+      "search": 1240,
+      "products": 142,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 8.67
+    },
+    {
+      "keyword": "마메고마",
+      "category": "패션잡화 > 여성가방 > 파우치",
+      "period": "최근 30일",
+      "search": 6940,
+      "products": 802,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 8.64
+    },
+    {
       "keyword": "아이언빌드",
       "category": "생활/건강 > 자동차용품 > 인테리어용품 > 바닥매트",
       "period": "최근 30일",
@@ -1318,6 +2589,46 @@
       "score": 8.43
     },
     {
+      "keyword": "mgsd에어리얼",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
+      "period": "최근 30일",
+      "search": 4030,
+      "products": 478,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 8.41
+    },
+    {
+      "keyword": "오지는상점",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+      "period": "최근 30일",
+      "search": 1880,
+      "products": 225,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 8.32
+    },
+    {
+      "keyword": "굿스마일bh",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+      "period": "최근 30일",
+      "search": 7210,
+      "products": 869,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 8.29
+    },
+    {
+      "keyword": "타야마피규어",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+      "period": "최근 30일",
+      "search": 580,
+      "products": 69,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 8.29
+    },
+    {
       "keyword": "차앞유리습기",
       "category": "생활/건강 > 자동차용품 > 세차용품 > 김서림방지제",
       "period": "최근 30일",
@@ -1328,6 +2639,36 @@
       "score": 8.18
     },
     {
+      "keyword": "바퀴벌레포커",
+      "category": "생활/건강 > 수집품 > 게임 > 보드게임",
+      "period": "최근 30일",
+      "search": 2480,
+      "products": 304,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 8.13
+    },
+    {
+      "keyword": "농장주조물",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
+      "period": "최근 30일",
+      "search": 1660,
+      "products": 204,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 8.1
+    },
+    {
+      "keyword": "쿠지판다",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+      "period": "최근 30일",
+      "search": 780,
+      "products": 97,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 7.96
+    },
+    {
       "keyword": "유막제거방법",
       "category": "생활/건강 > 자동차용품 > 세차용품 > 유막제거제",
       "period": "최근 30일",
@@ -1336,6 +2677,16 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 7.87
+    },
+    {
+      "keyword": "알레프lp",
+      "category": "생활/건강 > 수집품 > LP",
+      "period": "최근 30일",
+      "search": 360,
+      "products": 45,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 7.83
     },
     {
       "keyword": "감자전슬랑이",
@@ -1368,6 +2719,16 @@
       "score": 7.61
     },
     {
+      "keyword": "태권브이",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+      "period": "최근 30일",
+      "search": 6710,
+      "products": 887,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 7.56
+    },
+    {
       "keyword": "s3xy노브",
       "category": "생활/건강 > 자동차용품 > 전기용품 > 기타전기용품",
       "period": "최근 30일",
@@ -1388,6 +2749,16 @@
       "score": 7.5
     },
     {
+      "keyword": "만신타로카드",
+      "category": "생활/건강 > 수집품 > 게임 > 보드게임",
+      "period": "최근 30일",
+      "search": 530,
+      "products": 70,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 7.46
+    },
+    {
       "keyword": "에이드로바디킷",
       "category": "생활/건강 > 자동차용품 > 튜닝용품 > 기타튜닝용품",
       "period": "최근 30일",
@@ -1396,6 +2767,26 @@
       "comp": "",
       "comp_score": 0.13,
       "score": 7.4
+    },
+    {
+      "keyword": "월드크래프트보관함",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 보관용품",
+      "period": "최근 30일",
+      "search": 340,
+      "products": 45,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 7.39
+    },
+    {
+      "keyword": "pg뉴건담",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
+      "period": "최근 30일",
+      "search": 3800,
+      "products": 514,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 7.38
     },
     {
       "keyword": "화원오일파스텔",
@@ -1428,6 +2819,16 @@
       "score": 7.33
     },
     {
+      "keyword": "mgsd데스티니",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
+      "period": "최근 30일",
+      "search": 3350,
+      "products": 463,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 7.22
+    },
+    {
       "keyword": "치우천왕",
       "category": "생활/건강 > 자동차용품 > 익스테리어용품 > 차량용스티커",
       "period": "최근 30일",
@@ -1436,6 +2837,16 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 7.17
+    },
+    {
+      "keyword": "더합체다간",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+      "period": "최근 30일",
+      "search": 1080,
+      "products": 150,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 7.15
     },
     {
       "keyword": "슬램덩크전권",
@@ -1458,6 +2869,26 @@
       "score": 7.08
     },
     {
+      "keyword": "치킨차차",
+      "category": "생활/건강 > 수집품 > 게임 > 보드게임",
+      "period": "최근 30일",
+      "search": 1280,
+      "products": 182,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 6.99
+    },
+    {
+      "keyword": "롯데짝짝이",
+      "category": "스포츠/레저 > 스포츠액세서리 > 볼캐리어",
+      "period": "최근 30일",
+      "search": 860,
+      "products": 123,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 6.94
+    },
+    {
       "keyword": "테슬라오토프렁크",
       "category": "생활/건강 > 자동차용품 > 튜닝용품 > 기타튜닝용품",
       "period": "최근 30일",
@@ -1473,6 +2904,16 @@
       "period": "최근 30일",
       "search": 4850,
       "products": 711,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 6.81
+    },
+    {
+      "keyword": "카드쉘바인더",
+      "category": "생활/건강 > 문구/사무용품 > 앨범 > 포켓식앨범",
+      "period": "최근 30일",
+      "search": 470,
+      "products": 68,
       "comp": "아주좋음",
       "comp_score": null,
       "score": 6.81
@@ -1508,6 +2949,26 @@
       "score": 6.76
     },
     {
+      "keyword": "데인드문",
+      "category": "생활/건강 > 문구/사무용품 > 다이어리/플래너 > 다이어리",
+      "period": "최근 30일",
+      "search": 790,
+      "products": 116,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 6.75
+    },
+    {
+      "keyword": "나라라팜",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 보관용품",
+      "period": "최근 30일",
+      "search": 540,
+      "products": 79,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 6.75
+    },
+    {
       "keyword": "스타나다인디젤",
       "category": "생활/건강 > 자동차용품 > 오일/소모품 > 연료첨가제",
       "period": "최근 30일",
@@ -1516,6 +2977,16 @@
       "comp": "",
       "comp_score": 0.15,
       "score": 6.73
+    },
+    {
+      "keyword": "위시돌",
+      "category": "생활/건강 > 수집품 > 아이돌굿즈 > 기타굿즈",
+      "period": "최근 30일",
+      "search": 2480,
+      "products": 369,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 6.7
     },
     {
       "keyword": "더넥스트스파크tpms",
@@ -1538,6 +3009,16 @@
       "score": 6.63
     },
     {
+      "keyword": "십이지장",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 모형",
+      "period": "최근 30일",
+      "search": 5170,
+      "products": 782,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 6.6
+    },
+    {
       "keyword": "1톤활어차",
       "category": "생활/건강 > 자동차용품 > 튜닝용품 > 계기판",
       "period": "최근 30일",
@@ -1546,6 +3027,16 @@
       "comp": "",
       "comp_score": 0.15,
       "score": 6.41
+    },
+    {
+      "keyword": "카드쉘팩케이스",
+      "category": "출산/육아 > 완구/인형 > 캐릭터카드/딱지",
+      "period": "최근 30일",
+      "search": 330,
+      "products": 51,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 6.35
     },
     {
       "keyword": "주파집전기차충전기",
@@ -1558,6 +3049,26 @@
       "score": 6.31
     },
     {
+      "keyword": "프리렌룩업",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+      "period": "최근 30일",
+      "search": 2310,
+      "products": 365,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 6.31
+    },
+    {
+      "keyword": "바이러스위츠",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+      "period": "최근 30일",
+      "search": 750,
+      "products": 118,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 6.3
+    },
+    {
       "keyword": "알페온혼",
       "category": "생활/건강 > 자동차용품 > 튜닝용품 > 혼",
       "period": "최근 30일",
@@ -1566,6 +3077,56 @@
       "comp": "",
       "comp_score": 0.16,
       "score": 6.18
+    },
+    {
+      "keyword": "성시경lp",
+      "category": "생활/건강 > 수집품 > LP",
+      "period": "최근 30일",
+      "search": 340,
+      "products": 54,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 6.18
+    },
+    {
+      "keyword": "남다른가게",
+      "category": "생활/건강 > 수집품 > 서바이벌 > 건(GUN)",
+      "period": "최근 30일",
+      "search": 4610,
+      "products": 773,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 5.96
+    },
+    {
+      "keyword": "브라스버밍엄",
+      "category": "생활/건강 > 수집품 > 게임 > 보드게임",
+      "period": "최근 30일",
+      "search": 2010,
+      "products": 339,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 5.91
+    },
+    {
+      "keyword": "혁오lp",
+      "category": "생활/건강 > 수집품 > LP",
+      "period": "최근 30일",
+      "search": 1900,
+      "products": 323,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 5.86
+    },
+    {
+      "keyword": "이디야리락쿠마",
+      "category": "생활/건강 > 수집품 > 이색수집품",
+      "period": "최근 30일",
+      "search": 410,
+      "products": 69,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 5.86
     },
     {
       "keyword": "크레모아냉장고55",
@@ -1588,6 +3149,36 @@
       "score": 5.75
     },
     {
+      "keyword": "엄마의심부름",
+      "category": "생활/건강 > 수집품 > 게임 > 보드게임",
+      "period": "최근 30일",
+      "search": 4180,
+      "products": 726,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 5.75
+    },
+    {
+      "keyword": "pg언리쉬드뉴건담",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
+      "period": "최근 30일",
+      "search": 1420,
+      "products": 249,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 5.68
+    },
+    {
+      "keyword": "띵커보드",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 보관용품",
+      "period": "최근 30일",
+      "search": 750,
+      "products": 131,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 5.68
+    },
+    {
       "keyword": "인포카스캐너",
       "category": "생활/건강 > 자동차용품 > 튜닝용품 > 게이지",
       "period": "최근 30일",
@@ -1596,6 +3187,36 @@
       "comp": "",
       "comp_score": 0.18,
       "score": 5.6
+    },
+    {
+      "keyword": "브릭로이드",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+      "period": "최근 30일",
+      "search": 3770,
+      "products": 672,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 5.6
+    },
+    {
+      "keyword": "크시건담",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
+      "period": "최근 30일",
+      "search": 2990,
+      "products": 534,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 5.59
+    },
+    {
+      "keyword": "후뢰시킹",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+      "period": "최근 30일",
+      "search": 1890,
+      "products": 340,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 5.54
     },
     {
       "keyword": "무부추네",
@@ -1616,6 +3237,16 @@
       "comp": "",
       "comp_score": 0.18,
       "score": 5.49
+    },
+    {
+      "keyword": "bts응원봉",
+      "category": "생활/건강 > 수집품 > 아이돌굿즈 > 응원봉",
+      "period": "최근 30일",
+      "search": 1190,
+      "products": 219,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 5.41
     },
     {
       "keyword": "솔라이트배터리",
@@ -1658,6 +3289,16 @@
       "score": 5.25
     },
     {
+      "keyword": "백주유성",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
+      "period": "최근 30일",
+      "search": 340,
+      "products": 64,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 5.23
+    },
+    {
       "keyword": "5톤카고크레인",
       "category": "생활/건강 > 자동차용품 > 튜닝용품 > 계기판",
       "period": "최근 30일",
@@ -1666,6 +3307,26 @@
       "comp": "아주좋음",
       "comp_score": 0.19,
       "score": 5.2
+    },
+    {
+      "keyword": "레미니인형",
+      "category": "생활/건강 > 수집품 > 아이돌굿즈 > 기타굿즈",
+      "period": "최근 30일",
+      "search": 820,
+      "products": 157,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 5.19
+    },
+    {
+      "keyword": "스미스키",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+      "period": "최근 30일",
+      "search": 3110,
+      "products": 603,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 5.15
     },
     {
       "keyword": "바로고기어봉",
@@ -1706,6 +3367,16 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 5.0
+    },
+    {
+      "keyword": "후뢰시맨",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+      "period": "최근 30일",
+      "search": 1710,
+      "products": 344,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 4.96
     },
     {
       "keyword": "카키모리딥펜",
@@ -1768,6 +3439,16 @@
       "score": 4.88
     },
     {
+      "keyword": "주술회전메지루시",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+      "period": "최근 30일",
+      "search": 770,
+      "products": 157,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 4.87
+    },
+    {
       "keyword": "youngla",
       "category": "생활/건강 > 화방용품 > 트레이닝복",
       "period": "최근 30일",
@@ -1808,6 +3489,16 @@
       "score": 4.62
     },
     {
+      "keyword": "소울링토이즈",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
+      "period": "최근 30일",
+      "search": 360,
+      "products": 77,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 4.62
+    },
+    {
       "keyword": "무쏘ev롤바",
       "category": "생활/건강 > 자동차용품 > 튜닝용품 > 기타튜닝용품",
       "period": "최근 30일",
@@ -1818,6 +3509,26 @@
       "score": 4.61
     },
     {
+      "keyword": "삼성응원봉",
+      "category": "생활/건강 > 수집품 > 아이돌굿즈 > 응원봉",
+      "period": "최근 30일",
+      "search": 1100,
+      "products": 239,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 4.58
+    },
+    {
+      "keyword": "코르티스앨범",
+      "category": "생활/건강 > 음반 > 국내앨범",
+      "period": "최근 30일",
+      "search": 3140,
+      "products": 694,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 4.52
+    },
+    {
       "keyword": "타스만하드탑",
       "category": "생활/건강 > 자동차용품 > 튜닝용품 > 기타튜닝용품",
       "period": "최근 30일",
@@ -1825,6 +3536,16 @@
       "products": 121,
       "comp": "",
       "comp_score": 0.22,
+      "score": 4.51
+    },
+    {
+      "keyword": "제이데커",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+      "period": "최근 30일",
+      "search": 3250,
+      "products": 720,
+      "comp": "아주좋음",
+      "comp_score": null,
       "score": 4.51
     },
     {
@@ -1938,6 +3659,16 @@
       "score": 4.16
     },
     {
+      "keyword": "동물의숲마그넷",
+      "category": "생활/건강 > 문구/사무용품 > 문구용품 > 기타문구용품",
+      "period": "최근 30일",
+      "search": 410,
+      "products": 99,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 4.1
+    },
+    {
       "keyword": "지크탑ls5w-30",
       "category": "생활/건강 > 자동차용품 > 오일/소모품 > 엔진오일",
       "period": "최근 30일",
@@ -1978,6 +3709,16 @@
       "score": 4.03
     },
     {
+      "keyword": "리프트바운드카드",
+      "category": "생활/건강 > 수집품 > 게임 > 보드게임",
+      "period": "최근 30일",
+      "search": 1430,
+      "products": 357,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 3.99
+    },
+    {
       "keyword": "카빛나",
       "category": "생활/건강 > 자동차용품 > 인테리어용품 > 바닥매트",
       "period": "최근 30일",
@@ -1986,6 +3727,46 @@
       "comp": "",
       "comp_score": 0.25,
       "score": 3.97
+    },
+    {
+      "keyword": "에어주카",
+      "category": "생활/건강 > 수집품 > 게임 > 보드게임",
+      "period": "최근 30일",
+      "search": 500,
+      "products": 125,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 3.97
+    },
+    {
+      "keyword": "탑로더팀백",
+      "category": "생활/건강 > 수집품 > 이색수집품",
+      "period": "최근 30일",
+      "search": 1030,
+      "products": 259,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 3.96
+    },
+    {
+      "keyword": "뿔바투",
+      "category": "패션잡화 > 패션소품 > 키링",
+      "period": "최근 30일",
+      "search": 1040,
+      "products": 262,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 3.95
+    },
+    {
+      "keyword": "블로커스",
+      "category": "생활/건강 > 수집품 > 게임 > 보드게임",
+      "period": "최근 30일",
+      "search": 2110,
+      "products": 538,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 3.91
     },
     {
       "keyword": "번개쎈놈",
@@ -2018,6 +3799,16 @@
       "score": 3.8
     },
     {
+      "keyword": "탄지로귀걸이",
+      "category": "패션잡화 > 주얼리 > 귀걸이 > 패션귀걸이",
+      "period": "최근 30일",
+      "search": 330,
+      "products": 86,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 3.79
+    },
+    {
       "keyword": "팩토리노멀",
       "category": "생활/건강 > 자동차용품 > 공기청정용품 > 차량용방향제",
       "period": "최근 30일",
@@ -2048,6 +3839,16 @@
       "score": 3.76
     },
     {
+      "keyword": "젖소비키니",
+      "category": "생활/건강 > 수집품 > 코스튬플레이 > 의상",
+      "period": "최근 30일",
+      "search": 560,
+      "products": 148,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 3.76
+    },
+    {
       "keyword": "벤볼릭",
       "category": "생활/건강 > 자동차용품 > 공기청정용품 > 차량용방향제",
       "period": "최근 30일",
@@ -2065,6 +3866,16 @@
       "products": 114,
       "comp": "",
       "comp_score": 0.27,
+      "score": 3.65
+    },
+    {
+      "keyword": "토리빈",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 다이캐스트",
+      "period": "최근 30일",
+      "search": 1340,
+      "products": 366,
+      "comp": "아주좋음",
+      "comp_score": null,
       "score": 3.65
     },
     {
@@ -2086,6 +3897,46 @@
       "comp": "",
       "comp_score": 0.28,
       "score": 3.61
+    },
+    {
+      "keyword": "슈퍼그랑죠",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+      "period": "최근 30일",
+      "search": 2530,
+      "products": 700,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 3.61
+    },
+    {
+      "keyword": "헌터헌터메지루시",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+      "period": "최근 30일",
+      "search": 1450,
+      "products": 402,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 3.6
+    },
+    {
+      "keyword": "솔로몬사이살리스",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
+      "period": "최근 30일",
+      "search": 600,
+      "products": 166,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 3.59
+    },
+    {
+      "keyword": "107정비반",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
+      "period": "최근 30일",
+      "search": 490,
+      "products": 136,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 3.58
     },
     {
       "keyword": "크레이지몬스터싼타페",
@@ -2116,6 +3967,16 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 3.28
+    },
+    {
+      "keyword": "장룡mgex",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
+      "period": "최근 30일",
+      "search": 1050,
+      "products": 323,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 3.24
     },
     {
       "keyword": "다사이모찌",
@@ -2168,6 +4029,36 @@
       "score": 3.12
     },
     {
+      "keyword": "역바니",
+      "category": "생활/건강 > 수집품 > 코스튬플레이 > 의상",
+      "period": "최근 30일",
+      "search": 910,
+      "products": 292,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 3.11
+    },
+    {
+      "keyword": "준보랜드",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+      "period": "최근 30일",
+      "search": 1920,
+      "products": 620,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 3.09
+    },
+    {
+      "keyword": "냐스퍼",
+      "category": "패션잡화 > 패션소품 > 키링",
+      "period": "최근 30일",
+      "search": 2570,
+      "products": 835,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 3.07
+    },
+    {
       "keyword": "푸드트럭중고",
       "category": "생활/건강 > 자동차용품 > 튜닝용품 > 계기판",
       "period": "최근 30일",
@@ -2176,6 +4067,16 @@
       "comp": "",
       "comp_score": 0.33,
       "score": 2.99
+    },
+    {
+      "keyword": "도코데모잇쇼",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+      "period": "최근 30일",
+      "search": 1440,
+      "products": 482,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 2.98
     },
     {
       "keyword": "csr브레이크",
@@ -2208,6 +4109,16 @@
       "score": 2.85
     },
     {
+      "keyword": "노꼼수",
+      "category": "생활/건강 > 수집품 > 무선/RC > 중장비",
+      "period": "최근 30일",
+      "search": 520,
+      "products": 184,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 2.81
+    },
+    {
       "keyword": "송라이트",
       "category": "생활/건강 > 자동차용품 > 램프 > 전조등",
       "period": "최근 30일",
@@ -2216,6 +4127,26 @@
       "comp": "",
       "comp_score": 0.36,
       "score": 2.8
+    },
+    {
+      "keyword": "크샤트리아",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
+      "period": "최근 30일",
+      "search": 2010,
+      "products": 721,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 2.78
+    },
+    {
+      "keyword": "스페인감자인형",
+      "category": "출산/육아 > 완구/인형 > 인형 > 마론인형/인형옷",
+      "period": "최근 30일",
+      "search": 1130,
+      "products": 408,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 2.76
     },
     {
       "keyword": "아이오닉9머드가드",
@@ -2238,6 +4169,16 @@
       "score": 2.73
     },
     {
+      "keyword": "스릴팡",
+      "category": "생활/건강 > 수집품 > 게임 > 보드게임",
+      "period": "최근 30일",
+      "search": 470,
+      "products": 172,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 2.72
+    },
+    {
       "keyword": "테슬라키팝",
       "category": "생활/건강 > 자동차용품 > 키용품 > 키케이스",
       "period": "최근 30일",
@@ -2256,6 +4197,16 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 2.7
+    },
+    {
+      "keyword": "스파이더걸",
+      "category": "생활/건강 > 수집품 > 코스튬플레이 > 의상",
+      "period": "최근 30일",
+      "search": 1180,
+      "products": 438,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 2.69
     },
     {
       "keyword": "다그3+",
@@ -2298,11 +4249,51 @@
       "score": 2.63
     },
     {
+      "keyword": "mgex유니콘",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
+      "period": "최근 30일",
+      "search": 1330,
+      "products": 507,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 2.62
+    },
+    {
+      "keyword": "다이스케콘도",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+      "period": "최근 30일",
+      "search": 860,
+      "products": 327,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 2.62
+    },
+    {
       "keyword": "eps블럭",
       "category": "생활/건강 > 화방용품 > 우드락/폼보드",
       "period": "최근 30일",
       "search": 1350,
       "products": 517,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 2.61
+    },
+    {
+      "keyword": "큐비츠",
+      "category": "생활/건강 > 수집품 > 게임 > 보드게임",
+      "period": "최근 30일",
+      "search": 1340,
+      "products": 513,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 2.61
+    },
+    {
+      "keyword": "귀멸의칼날책",
+      "category": "출산/육아 > 완구/인형 > 캐릭터카드/딱지",
+      "period": "최근 30일",
+      "search": 710,
+      "products": 271,
       "comp": "아주좋음",
       "comp_score": null,
       "score": 2.61
@@ -2315,6 +4306,16 @@
       "products": 144,
       "comp": "",
       "comp_score": 0.39,
+      "score": 2.55
+    },
+    {
+      "keyword": "mgsd윙건담",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
+      "period": "최근 30일",
+      "search": 1410,
+      "products": 551,
+      "comp": "아주좋음",
+      "comp_score": null,
       "score": 2.55
     },
     {
@@ -2348,6 +4349,16 @@
       "score": 2.53
     },
     {
+      "keyword": "카구라바치피규어",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+      "period": "최근 30일",
+      "search": 1000,
+      "products": 401,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 2.49
+    },
+    {
       "keyword": "v2l커넥터",
       "category": "생활/건강 > 자동차용품 > 배터리용품 > 배터리충전기/점프스타터",
       "period": "최근 30일",
@@ -2379,6 +4390,16 @@
     },
     {
       "keyword": "스도쿠책",
+      "category": "생활/건강 > 수집품 > 게임 > 보드게임",
+      "period": "최근 30일",
+      "search": 2100,
+      "products": 866,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 2.42
+    },
+    {
+      "keyword": "스도쿠책",
       "category": "생활/건강 > 화방용품 > 보드게임",
       "period": "최근 30일",
       "search": 2070,
@@ -2406,6 +4427,26 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 2.36
+    },
+    {
+      "keyword": "룩업케이스",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 보관용품",
+      "period": "최근 30일",
+      "search": 310,
+      "products": 131,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 2.35
+    },
+    {
+      "keyword": "돌팔이약장수",
+      "category": "생활/건강 > 수집품 > 게임 > 보드게임",
+      "period": "최근 30일",
+      "search": 700,
+      "products": 311,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 2.24
     },
     {
       "keyword": "다이소차량용충전기",
@@ -2468,6 +4509,26 @@
       "score": 2.13
     },
     {
+      "keyword": "앉은누이",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+      "period": "최근 30일",
+      "search": 1140,
+      "products": 534,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 2.13
+    },
+    {
+      "keyword": "아따맘마가챠",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+      "period": "최근 30일",
+      "search": 1020,
+      "products": 479,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 2.12
+    },
+    {
       "keyword": "더스티랩",
       "category": "생활/건강 > 자동차용품 > 세차용품 > 유리코팅제",
       "period": "최근 30일",
@@ -2475,6 +4536,16 @@
       "products": 422,
       "comp": "",
       "comp_score": 0.47,
+      "score": 2.1
+    },
+    {
+      "keyword": "화약총",
+      "category": "생활/건강 > 수집품 > 서바이벌 > 건(GUN)",
+      "period": "최근 30일",
+      "search": 1510,
+      "products": 718,
+      "comp": "아주좋음",
+      "comp_score": null,
       "score": 2.1
     },
     {
@@ -2516,6 +4587,26 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 2.02
+    },
+    {
+      "keyword": "마크세터",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델용품",
+      "period": "최근 30일",
+      "search": 400,
+      "products": 197,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 2.02
+    },
+    {
+      "keyword": "무한신성",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
+      "period": "최근 30일",
+      "search": 1320,
+      "products": 655,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 2.01
     },
     {
       "keyword": "카멜레온360",
@@ -2578,6 +4669,26 @@
       "score": 1.94
     },
     {
+      "keyword": "러브젠가",
+      "category": "생활/건강 > 수집품 > 게임 > 보드게임",
+      "period": "최근 30일",
+      "search": 1360,
+      "products": 701,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 1.94
+    },
+    {
+      "keyword": "마크로버",
+      "category": "생활/건강 > 수집품 > 이색수집품",
+      "period": "최근 30일",
+      "search": 1020,
+      "products": 526,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 1.94
+    },
+    {
       "keyword": "화장실청소폼건",
       "category": "생활/건강 > 자동차용품 > 세차용품 > 호스",
       "period": "최근 30일",
@@ -2618,6 +4729,36 @@
       "score": 1.86
     },
     {
+      "keyword": "키티히퍼",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+      "period": "최근 30일",
+      "search": 1450,
+      "products": 779,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 1.86
+    },
+    {
+      "keyword": "불도그gk",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+      "period": "최근 30일",
+      "search": 1510,
+      "products": 816,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 1.85
+    },
+    {
+      "keyword": "rg퍼스트2.0",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
+      "period": "최근 30일",
+      "search": 1310,
+      "products": 708,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 1.85
+    },
+    {
       "keyword": "레이기어봉",
       "category": "생활/건강 > 자동차용품 > 인테리어용품 > 기어용품",
       "period": "최근 30일",
@@ -2626,6 +4767,16 @@
       "comp": "",
       "comp_score": 0.54,
       "score": 1.84
+    },
+    {
+      "keyword": "mgsd프리덤",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
+      "period": "최근 30일",
+      "search": 1430,
+      "products": 780,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 1.83
     },
     {
       "keyword": "불스원밸런스온",
@@ -2658,6 +4809,26 @@
       "score": 1.74
     },
     {
+      "keyword": "딱총나무지팡이",
+      "category": "생활/건강 > 수집품 > 코스튬플레이 > 소품",
+      "period": "최근 30일",
+      "search": 570,
+      "products": 327,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 1.74
+    },
+    {
+      "keyword": "전람회lp",
+      "category": "생활/건강 > 음반 > 국내앨범",
+      "period": "최근 30일",
+      "search": 350,
+      "products": 200,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 1.74
+    },
+    {
       "keyword": "캐스퍼러기지박스",
       "category": "생활/건강 > 자동차용품 > 수납용품 > 트렁크정리함",
       "period": "최근 30일",
@@ -2666,6 +4837,16 @@
       "comp": "",
       "comp_score": 0.58,
       "score": 1.73
+    },
+    {
+      "keyword": "반중력플라잉볼",
+      "category": "생활/건강 > 수집품 > 무선/RC > 드론",
+      "period": "최근 30일",
+      "search": 540,
+      "products": 315,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 1.71
     },
     {
       "keyword": "커레이져스",
@@ -2708,6 +4889,16 @@
       "score": 1.69
     },
     {
+      "keyword": "모아봉",
+      "category": "생활/건강 > 수집품 > 아이돌굿즈 > 응원봉",
+      "period": "최근 30일",
+      "search": 500,
+      "products": 294,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 1.69
+    },
+    {
       "keyword": "dc콤보케이스",
       "category": "생활/건강 > 자동차용품 > 튜닝용품 > 기타튜닝용품",
       "period": "최근 30일",
@@ -2728,6 +4919,16 @@
       "score": 1.67
     },
     {
+      "keyword": "아이브인형",
+      "category": "생활/건강 > 음반 > 국내앨범",
+      "period": "최근 30일",
+      "search": 1020,
+      "products": 620,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 1.64
+    },
+    {
       "keyword": "신지모루차량용거치대",
       "category": "생활/건강 > 자동차용품 > 휴대폰용품 > 차량용휴대폰거치대",
       "period": "최근 30일",
@@ -2736,6 +4937,16 @@
       "comp": "",
       "comp_score": 0.62,
       "score": 1.61
+    },
+    {
+      "keyword": "크런치슬랑이랜덤박스",
+      "category": "생활/건강 > 문구/사무용품 > 문구용품 > 기타문구용품",
+      "period": "최근 30일",
+      "search": 580,
+      "products": 361,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 1.6
     },
     {
       "keyword": "자동차석회물제거",
@@ -2768,6 +4979,26 @@
       "score": 1.55
     },
     {
+      "keyword": "mg비다르",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
+      "period": "최근 30일",
+      "search": 620,
+      "products": 406,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 1.52
+    },
+    {
+      "keyword": "몰티즈굿즈",
+      "category": "패션잡화 > 패션소품 > 키링",
+      "period": "최근 30일",
+      "search": 370,
+      "products": 244,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 1.51
+    },
+    {
       "keyword": "불렛타이거",
       "category": "생활/건강 > 자동차용품 > 세차용품 > 도장용광택/코팅제",
       "period": "최근 30일",
@@ -2788,6 +5019,16 @@
       "score": 1.47
     },
     {
+      "keyword": "냥냥냥코",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+      "period": "최근 30일",
+      "search": 830,
+      "products": 572,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 1.45
+    },
+    {
       "keyword": "아농",
       "category": "생활/건강 > 화방용품 > 판화용품",
       "period": "최근 30일",
@@ -2796,6 +5037,36 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 1.44
+    },
+    {
+      "keyword": "로제lp",
+      "category": "생활/건강 > 수집품 > LP",
+      "period": "최근 30일",
+      "search": 760,
+      "products": 531,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 1.43
+    },
+    {
+      "keyword": "닥터둠피규어",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+      "period": "최근 30일",
+      "search": 550,
+      "products": 385,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 1.42
+    },
+    {
+      "keyword": "케로로로보마크2",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
+      "period": "최근 30일",
+      "search": 740,
+      "products": 525,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 1.41
     },
     {
       "keyword": "에어플로우센서클리너",
@@ -2845,6 +5116,36 @@
       "products": 459,
       "comp": "",
       "comp_score": 0.77,
+      "score": 1.3
+    },
+    {
+      "keyword": "공중전화카드",
+      "category": "생활/건강 > 문구/사무용품 > 카드/엽서/봉투 > 카드",
+      "period": "최근 30일",
+      "search": 950,
+      "products": 729,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 1.3
+    },
+    {
+      "keyword": "햄토리가챠",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+      "period": "최근 30일",
+      "search": 780,
+      "products": 597,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 1.3
+    },
+    {
+      "keyword": "타오샵",
+      "category": "생활/건강 > 수집품 > 퍼즐/블록 > 블록",
+      "period": "최근 30일",
+      "search": 640,
+      "products": 492,
+      "comp": "아주좋음",
+      "comp_score": null,
       "score": 1.3
     },
     {
@@ -2948,6 +5249,26 @@
       "score": 1.12
     },
     {
+      "keyword": "다이아나핑피규어",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+      "period": "최근 30일",
+      "search": 990,
+      "products": 879,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 1.12
+    },
+    {
+      "keyword": "클라스크",
+      "category": "생활/건강 > 수집품 > 게임 > 보드게임",
+      "period": "최근 30일",
+      "search": 550,
+      "products": 489,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 1.12
+    },
+    {
       "keyword": "폴드8차량거치대",
       "category": "생활/건강 > 자동차용품 > 휴대폰용품 > 차량용휴대폰거치대",
       "period": "최근 30일",
@@ -2975,6 +5296,16 @@
       "products": 606,
       "comp": "",
       "comp_score": 0.92,
+      "score": 1.09
+    },
+    {
+      "keyword": "장원급제모자",
+      "category": "생활/건강 > 수집품 > 코스튬플레이 > 소품",
+      "period": "최근 30일",
+      "search": 510,
+      "products": 465,
+      "comp": "아주좋음",
+      "comp_score": null,
       "score": 1.09
     },
     {
@@ -3008,6 +5339,16 @@
       "score": 1.08
     },
     {
+      "keyword": "핫토이닥터둠",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+      "period": "최근 30일",
+      "search": 750,
+      "products": 702,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 1.07
+    },
+    {
       "keyword": "헤누스",
       "category": "생활/건강 > 자동차용품 > 편의용품 > 차량용청소기",
       "period": "최근 30일",
@@ -3026,6 +5367,26 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 1.06
+    },
+    {
+      "keyword": "두부니퍼",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델용품",
+      "period": "최근 30일",
+      "search": 820,
+      "products": 777,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 1.05
+    },
+    {
+      "keyword": "우타다히카루lp",
+      "category": "생활/건강 > 수집품 > LP",
+      "period": "최근 30일",
+      "search": 360,
+      "products": 342,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 1.05
     },
     {
       "keyword": "중고집게차",
@@ -3078,6 +5439,16 @@
       "score": 0.95
     },
     {
+      "keyword": "지브리lp",
+      "category": "생활/건강 > 수집품 > LP",
+      "period": "최근 30일",
+      "search": 710,
+      "products": 766,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 0.93
+    },
+    {
       "keyword": "시상보드",
       "category": "생활/건강 > 화방용품 > 우드락/폼보드",
       "period": "최근 30일",
@@ -3095,6 +5466,16 @@
       "products": 527,
       "comp": "",
       "comp_score": 1.1,
+      "score": 0.91
+    },
+    {
+      "keyword": "육분의",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 모형",
+      "period": "최근 30일",
+      "search": 600,
+      "products": 656,
+      "comp": "아주좋음",
+      "comp_score": null,
       "score": 0.91
     },
     {
@@ -3138,11 +5519,31 @@
       "score": 0.89
     },
     {
+      "keyword": "라탄환심",
+      "category": "생활/건강 > 수집품 > 공예품",
+      "period": "최근 30일",
+      "search": 610,
+      "products": 681,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 0.89
+    },
+    {
       "keyword": "탕게등유통",
       "category": "생활/건강 > 자동차용품 > 오일/소모품 > 기타 오일/소모품",
       "period": "최근 30일",
       "search": 390,
       "products": 441,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 0.88
+    },
+    {
+      "keyword": "인민복",
+      "category": "생활/건강 > 수집품 > 코스튬플레이 > 의상",
+      "period": "최근 30일",
+      "search": 430,
+      "products": 487,
       "comp": "아주좋음",
       "comp_score": null,
       "score": 0.88
@@ -3185,6 +5586,16 @@
       "products": 444,
       "comp": "",
       "comp_score": 1.17,
+      "score": 0.85
+    },
+    {
+      "keyword": "사이코자쿠",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
+      "period": "최근 30일",
+      "search": 480,
+      "products": 563,
+      "comp": "아주좋음",
+      "comp_score": null,
       "score": 0.85
     },
     {
@@ -3388,6 +5799,26 @@
       "score": 0.72
     },
     {
+      "keyword": "카피바라아이언맨",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+      "period": "최근 30일",
+      "search": 330,
+      "products": 458,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 0.72
+    },
+    {
+      "keyword": "일본특공복",
+      "category": "생활/건강 > 수집품 > 코스튬플레이 > 의상",
+      "period": "최근 30일",
+      "search": 310,
+      "products": 427,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 0.72
+    },
+    {
       "keyword": "장수명부동액",
       "category": "생활/건강 > 자동차용품 > 오일/소모품 > 부동액",
       "period": "최근 30일",
@@ -3398,6 +5829,16 @@
       "score": 0.71
     },
     {
+      "keyword": "아띠보관함",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 보관용품",
+      "period": "최근 30일",
+      "search": 450,
+      "products": 633,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 0.71
+    },
+    {
       "keyword": "pv5애드기어",
       "category": "생활/건강 > 자동차용품 > 수납용품 > 차량용홀더",
       "period": "최근 30일",
@@ -3405,6 +5846,16 @@
       "products": 599,
       "comp": "",
       "comp_score": 1.43,
+      "score": 0.7
+    },
+    {
+      "keyword": "인피니트디멘션",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
+      "period": "최근 30일",
+      "search": 510,
+      "products": 723,
+      "comp": "아주좋음",
+      "comp_score": null,
       "score": 0.7
     },
     {
@@ -3428,6 +5879,16 @@
       "score": 0.68
     },
     {
+      "keyword": "일본화투",
+      "category": "생활/건강 > 수집품 > 게임 > 보드게임",
+      "period": "최근 30일",
+      "search": 300,
+      "products": 440,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 0.68
+    },
+    {
       "keyword": "ev5휴대폰거치대",
       "category": "생활/건강 > 자동차용품 > 휴대폰용품 > 차량용휴대폰거치대",
       "period": "최근 30일",
@@ -3435,6 +5896,16 @@
       "products": 489,
       "comp": "",
       "comp_score": 1.48,
+      "score": 0.67
+    },
+    {
+      "keyword": "장도모형",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+      "period": "최근 30일",
+      "search": 460,
+      "products": 683,
+      "comp": "아주좋음",
+      "comp_score": null,
       "score": 0.67
     },
     {
@@ -3488,6 +5959,16 @@
       "score": 0.64
     },
     {
+      "keyword": "쌀알피규어보관함",
+      "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 보관용품",
+      "period": "최근 30일",
+      "search": 410,
+      "products": 640,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 0.64
+    },
+    {
       "keyword": "수전사필름",
       "category": "생활/건강 > 자동차용품 > DIY용품 > 도색용품",
       "period": "최근 30일",
@@ -3513,6 +5994,16 @@
       "period": "최근 30일",
       "search": 560,
       "products": 893,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 0.63
+    },
+    {
+      "keyword": "블래키카드",
+      "category": "출산/육아 > 완구/인형 > 캐릭터카드/딱지",
+      "period": "최근 30일",
+      "search": 410,
+      "products": 653,
       "comp": "아주좋음",
       "comp_score": null,
       "score": 0.63
@@ -3576,6 +6067,16 @@
       "comp": "",
       "comp_score": 1.9,
       "score": 0.52
+    },
+    {
+      "keyword": "황금수표",
+      "category": "생활/건강 > 수집품 > 화폐 > 지폐",
+      "period": "최근 30일",
+      "search": 320,
+      "products": 621,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 0.51
     },
     {
       "keyword": "pv5썬바이저",
@@ -3646,6 +6147,16 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 0.4
+    },
+    {
+      "keyword": "휴대폰거북이파츠",
+      "category": "생활/건강 > 수집품 > 공예품",
+      "period": "최근 30일",
+      "search": 320,
+      "products": 816,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 0.39
     }
   ]
 }

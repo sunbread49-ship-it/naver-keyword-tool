@@ -2588,5 +2588,1768 @@
         }
       ]
     }
+  },
+  "생활/건강 > 수집품": {
+    "최근 30일": {
+      "collected_at": "2026-09-19",
+      "filter": {
+        "min_search": 300,
+        "max_products": 900,
+        "period": "최근 30일",
+        "exclude_major_brand": true
+      },
+      "keywords": [
+        {
+          "keyword": "민음사빵",
+          "category": "생활/건강 > 수집품 > 이색수집품",
+          "search": 513500,
+          "products": 161,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "백룸",
+          "category": "가구/인테리어 > 인테리어소품 > 액자 > 퍼즐/그림/사진액자",
+          "search": 131300,
+          "products": 708,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "김대중",
+          "category": "생활/건강 > 수집품 > 우표/씰 > 우표",
+          "search": 43420,
+          "products": 491,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "선양소주",
+          "category": "식품 > 주류 > 전통주(배송) > 일반증류주",
+          "search": 27170,
+          "products": 74,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "라쿠카라차",
+          "category": "생활/건강 > 수집품 > 게임 > 보드게임",
+          "search": 26630,
+          "products": 460,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "100원희귀동전",
+          "category": "생활/건강 > 수집품 > 화폐 > 주화",
+          "search": 18060,
+          "products": 43,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "리센느앨범",
+          "category": "생활/건강 > 음반 > 국내앨범",
+          "search": 13330,
+          "products": 257,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "머더미스터리",
+          "category": "생활/건강 > 수집품 > 게임 > 보드게임",
+          "search": 13270,
+          "products": 600,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "리락쿠마말랑이",
+          "category": "생활/건강 > 문구/사무용품 > 문구용품 > 기타문구용품",
+          "search": 13120,
+          "products": 651,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "마츠다진페이",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+          "search": 12470,
+          "products": 578,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "리센느굿즈",
+          "category": "생활/건강 > 수집품 > 아이돌굿즈 > 응원봉",
+          "search": 11350,
+          "products": 205,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "피규어원",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+          "search": 10860,
+          "products": 445,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "안경만두",
+          "category": "생활/건강 > 문구/사무용품 > 스티커 > 다꾸스티커",
+          "search": 10740,
+          "products": 358,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "바리바디",
+          "category": "생활/건강 > 안마용품 > 기타안마용품",
+          "search": 10440,
+          "products": 370,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "몬치치히퍼",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+          "search": 9420,
+          "products": 303,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "더합체제이데커",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+          "search": 8780,
+          "products": 717,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "탱글피젯토이정품",
+          "category": "생활/건강 > 수집품 > 게임 > 보드게임",
+          "search": 8610,
+          "products": 78,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "릴렉스틱",
+          "category": "생활/건강 > 안마용품 > 기타안마용품",
+          "search": 8300,
+          "products": 262,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "꼬치의달인",
+          "category": "생활/건강 > 수집품 > 게임 > 보드게임",
+          "search": 8140,
+          "products": 813,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "원위시윌로우",
+          "category": "디지털/가전 > 주변기기 > 스캐너 > 3D 스캐너",
+          "search": 7980,
+          "products": 52,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "리센느응원봉",
+          "category": "생활/건강 > 수집품 > 아이돌굿즈 > 응원봉",
+          "search": 7640,
+          "products": 5,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "코멜리슬라임",
+          "category": "생활/건강 > 수집품 > 공예품",
+          "search": 7260,
+          "products": 44,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "달무티",
+          "category": "생활/건강 > 수집품 > 게임 > 보드게임",
+          "search": 7220,
+          "products": 524,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "굿스마일bh",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+          "search": 7210,
+          "products": 869,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "바리바디릴렉스틱",
+          "category": "생활/건강 > 안마용품 > 기타안마용품",
+          "search": 7190,
+          "products": 152,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "뱅봉",
+          "category": "생활/건강 > 수집품 > 아이돌굿즈 > 응원봉",
+          "search": 7150,
+          "products": 63,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "마메고마",
+          "category": "패션잡화 > 여성가방 > 파우치",
+          "search": 6940,
+          "products": 802,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "춤추는고라파덕",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+          "search": 6910,
+          "products": 254,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "쫀냐미",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+          "search": 6750,
+          "products": 385,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "태권브이",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+          "search": 6710,
+          "products": 887,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "치이카와앉은누이",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+          "search": 6540,
+          "products": 48,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "우뢰매",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+          "search": 6530,
+          "products": 152,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "리레볼루션",
+          "category": "생활/건강 > 수집품 > 이색수집품",
+          "search": 6180,
+          "products": 66,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "mgsd크샤트리아",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
+          "search": 6010,
+          "products": 9,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "요기보드게임",
+          "category": "생활/건강 > 수집품 > 게임 > 보드게임",
+          "search": 5870,
+          "products": 269,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "빅뱅응원봉",
+          "category": "생활/건강 > 수집품 > 아이돌굿즈 > 응원봉",
+          "search": 5810,
+          "products": 172,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "군림천하",
+          "category": "생활/건강 > 악기 > 국악기 > 기타국악기",
+          "search": 5800,
+          "products": 52,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "나히아10주년피규어",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+          "search": 5470,
+          "products": 48,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "십이지장",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 모형",
+          "search": 5170,
+          "products": 782,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "짱구한과피규어",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+          "search": 4760,
+          "products": 23,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "알터기유",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+          "search": 4740,
+          "products": 69,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "목탁키캡",
+          "category": "생활/건강 > 종교 > 불교용품",
+          "search": 4650,
+          "products": 259,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "치이카와초코박스",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+          "search": 4640,
+          "products": 113,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "남다른가게",
+          "category": "생활/건강 > 수집품 > 서바이벌 > 건(GUN)",
+          "search": 4610,
+          "products": 773,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "m1개런드",
+          "category": "생활/건강 > 수집품 > 서바이벌 > 건(GUN)",
+          "search": 4540,
+          "products": 205,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "쁘넥도",
+          "category": "생활/건강 > 수집품 > 아이돌굿즈 > 기타굿즈",
+          "search": 4360,
+          "products": 345,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "돌바니안",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+          "search": 4210,
+          "products": 64,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "엄마의심부름",
+          "category": "생활/건강 > 수집품 > 게임 > 보드게임",
+          "search": 4180,
+          "products": 726,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "키푸푸",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+          "search": 4150,
+          "products": 97,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "화관프리렌",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+          "search": 4080,
+          "products": 150,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "mgsd에어리얼",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
+          "search": 4030,
+          "products": 478,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "반타01",
+          "category": "생활/건강 > 음반 > 국내앨범",
+          "search": 4010,
+          "products": 78,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "말랑코코",
+          "category": "생활/건강 > 수집품 > 공예품",
+          "search": 3950,
+          "products": 172,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "티츄",
+          "category": "생활/건강 > 수집품 > 게임 > 보드게임",
+          "search": 3800,
+          "products": 166,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "pg뉴건담",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
+          "search": 3800,
+          "products": 514,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "브릭로이드",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+          "search": 3770,
+          "products": 672,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "귀멸의칼날만화책",
+          "category": "생활/건강 > DVD > 애니메이션",
+          "search": 3690,
+          "products": 178,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "프리즘스톤",
+          "category": "생활/건강 > 문구/사무용품 > 문구용품 > 기타문구용품",
+          "search": 3440,
+          "products": 395,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "레미니",
+          "category": "생활/건강 > 수집품 > 아이돌굿즈 > 기타굿즈",
+          "search": 3430,
+          "products": 312,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "mgsd데스티니",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
+          "search": 3350,
+          "products": 463,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "돈명태마그넷",
+          "category": "가구/인테리어 > 인테리어소품 > 냉장고자석",
+          "search": 3260,
+          "products": 15,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "제이데커",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+          "search": 3250,
+          "products": 720,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "코르티스앨범",
+          "category": "생활/건강 > 음반 > 국내앨범",
+          "search": 3140,
+          "products": 694,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "스미스키",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+          "search": 3110,
+          "products": 603,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "푸딩탄탄",
+          "category": "생활/건강 > 수집품 > 공예품",
+          "search": 2990,
+          "products": 20,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "크시건담",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
+          "search": 2990,
+          "products": 534,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "동물의숲메지루시",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+          "search": 2780,
+          "products": 60,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "디지바이스리바이벌",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+          "search": 2750,
+          "products": 101,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "울트라네크로즈마",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+          "search": 2660,
+          "products": 229,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "냐스퍼",
+          "category": "패션잡화 > 패션소품 > 키링",
+          "search": 2570,
+          "products": 835,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "농장주조물뉴건담",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
+          "search": 2530,
+          "products": 17,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "슈퍼그랑죠",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+          "search": 2530,
+          "products": 700,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "바퀴벌레포커",
+          "category": "생활/건강 > 수집품 > 게임 > 보드게임",
+          "search": 2480,
+          "products": 304,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "위시돌",
+          "category": "생활/건강 > 수집품 > 아이돌굿즈 > 기타굿즈",
+          "search": 2480,
+          "products": 369,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "백예린lp",
+          "category": "생활/건강 > 음반 > 국내앨범",
+          "search": 2380,
+          "products": 131,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "홀리데이미쿠",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+          "search": 2370,
+          "products": 239,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "프리렌룩업",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+          "search": 2310,
+          "products": 365,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "빅뱅20주년응원봉",
+          "category": "생활/건강 > 수집품 > 아이돌굿즈 > 응원봉",
+          "search": 2260,
+          "products": 159,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "리자몽띠부씰",
+          "category": "생활/건강 > 문구/사무용품 > 스티커 > 기타스티커",
+          "search": 2220,
+          "products": 213,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "블로커스",
+          "category": "생활/건강 > 수집품 > 게임 > 보드게임",
+          "search": 2110,
+          "products": 538,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "스도쿠책",
+          "category": "생활/건강 > 수집품 > 게임 > 보드게임",
+          "search": 2100,
+          "products": 866,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "돈명태",
+          "category": "가구/인테리어 > 인테리어소품 > 냉장고자석",
+          "search": 2080,
+          "products": 31,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "브라스버밍엄",
+          "category": "생활/건강 > 수집품 > 게임 > 보드게임",
+          "search": 2010,
+          "products": 339,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "크샤트리아",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
+          "search": 2010,
+          "products": 721,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "유재하lp",
+          "category": "생활/건강 > 수집품 > LP",
+          "search": 1990,
+          "products": 160,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "국새키링",
+          "category": "패션잡화 > 패션소품 > 키링",
+          "search": 1980,
+          "products": 12,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "용호모형",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
+          "search": 1980,
+          "products": 86,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "smp가온",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
+          "search": 1930,
+          "products": 36,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "한로로lp",
+          "category": "생활/건강 > 수집품 > LP",
+          "search": 1920,
+          "products": 42,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "준보랜드",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+          "search": 1920,
+          "products": 620,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "바이오맨",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+          "search": 1920,
+          "products": 202,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "혁오lp",
+          "category": "생활/건강 > 수집품 > LP",
+          "search": 1900,
+          "products": 323,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "후뢰시킹",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+          "search": 1890,
+          "products": 340,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "솔로몬크샤트리아",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
+          "search": 1880,
+          "products": 196,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "오지는상점",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+          "search": 1880,
+          "products": 225,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "무한신성펜리르",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
+          "search": 1830,
+          "products": 79,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "에버랜드팝콘통",
+          "category": "생활/건강 > 주방용품 > 보관/밀폐용기 > 기타보관용기",
+          "search": 1820,
+          "products": 11,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "랜드바이슨",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+          "search": 1790,
+          "products": 44,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "아이폰18목업",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 모형",
+          "search": 1770,
+          "products": 122,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "굿건가스",
+          "category": "생활/건강 > 수집품 > 서바이벌 > 서바이벌용품",
+          "search": 1770,
+          "products": 41,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "스킵피티",
+          "category": "생활/건강 > 수집품 > 게임 > 보드게임",
+          "search": 1740,
+          "products": 164,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "창모완에반게리온",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
+          "search": 1740,
+          "products": 50,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "후뢰시맨",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+          "search": 1710,
+          "products": 344,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "진스카",
+          "category": "생활/건강 > 수집품 > 이색수집품",
+          "search": 1690,
+          "products": 7,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "목삼슬랑이",
+          "category": "생활/건강 > 수집품 > 공예품",
+          "search": 1680,
+          "products": 24,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "아르낙",
+          "category": "생활/건강 > 수집품 > 게임 > 보드게임",
+          "search": 1680,
+          "products": 176,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "아이브웨하스",
+          "category": "생활/건강 > 수집품 > 아이돌굿즈 > 포토/브로마이드",
+          "search": 1680,
+          "products": 38,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "물바니안",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+          "search": 1660,
+          "products": 12,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "농장주조물",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
+          "search": 1660,
+          "products": 204,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "크런치랩스",
+          "category": "생활/건강 > 수집품 > 우표/씰 > 우표",
+          "search": 1630,
+          "products": 73,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "코히나타미유",
+          "category": "출산/육아 > 완구/인형 > 캐릭터카드/딱지",
+          "search": 1610,
+          "products": 2,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "코르티스응원봉",
+          "category": "생활/건강 > 수집품 > 아이돌굿즈 > 응원봉",
+          "search": 1540,
+          "products": 29,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "불도그gk",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+          "search": 1510,
+          "products": 816,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "화약총",
+          "category": "생활/건강 > 수집품 > 서바이벌 > 건(GUN)",
+          "search": 1510,
+          "products": 718,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "레드벨벳lp",
+          "category": "생활/건강 > 수집품 > LP",
+          "search": 1480,
+          "products": 81,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "헌터헌터메지루시",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+          "search": 1450,
+          "products": 402,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "키티히퍼",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+          "search": 1450,
+          "products": 779,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "도코데모잇쇼",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+          "search": 1440,
+          "products": 482,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "리프트바운드카드",
+          "category": "생활/건강 > 수집품 > 게임 > 보드게임",
+          "search": 1430,
+          "products": 357,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "mgsd프리덤",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
+          "search": 1430,
+          "products": 780,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "pg언리쉬드뉴건담",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
+          "search": 1420,
+          "products": 249,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "기아타이거즈응원봉",
+          "category": "생활/건강 > 수집품 > 아이돌굿즈 > 응원봉",
+          "search": 1420,
+          "products": 112,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "mgsd윙건담",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
+          "search": 1410,
+          "products": 551,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "러브젠가",
+          "category": "생활/건강 > 수집품 > 게임 > 보드게임",
+          "search": 1360,
+          "products": 701,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "메탈스트럭쳐사자비",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
+          "search": 1350,
+          "products": 74,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "큐비츠",
+          "category": "생활/건강 > 수집품 > 게임 > 보드게임",
+          "search": 1340,
+          "products": 513,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "토리빈",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 다이캐스트",
+          "search": 1340,
+          "products": 366,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "mgex유니콘",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
+          "search": 1330,
+          "products": 507,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "무한신성",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
+          "search": 1320,
+          "products": 655,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "rg퍼스트2.0",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
+          "search": 1310,
+          "products": 708,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "몬타요술쇼킹테이프",
+          "category": "생활/건강 > 문구/사무용품 > 테이프 > 마스킹테이프",
+          "search": 1300,
+          "products": 10,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "치킨차차",
+          "category": "생활/건강 > 수집품 > 게임 > 보드게임",
+          "search": 1280,
+          "products": 182,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "뽑봉",
+          "category": "생활/건강 > 수집품 > 아이돌굿즈 > 응원봉",
+          "search": 1260,
+          "products": 11,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "디지몬메지루시",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+          "search": 1250,
+          "products": 96,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "쿠지범",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+          "search": 1250,
+          "products": 34,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "슬라이드폰가챠",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+          "search": 1240,
+          "products": 142,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "핵성치조콜라다",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
+          "search": 1230,
+          "products": 50,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "무한신성네메시스",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
+          "search": 1210,
+          "products": 112,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "폴리포켓가챠",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+          "search": 1190,
+          "products": 120,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "bts응원봉",
+          "category": "생활/건강 > 수집품 > 아이돌굿즈 > 응원봉",
+          "search": 1190,
+          "products": 219,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "스파이더걸",
+          "category": "생활/건강 > 수집품 > 코스튬플레이 > 의상",
+          "search": 1180,
+          "products": 438,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "wavetoearthlp",
+          "category": "생활/건강 > 음반 > 국내앨범",
+          "search": 1150,
+          "products": 31,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "퍼즈팩토리",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델용품",
+          "search": 1140,
+          "products": 108,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "앉은누이",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+          "search": 1140,
+          "products": 534,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "스페인감자인형",
+          "category": "출산/육아 > 완구/인형 > 인형 > 마론인형/인형옷",
+          "search": 1130,
+          "products": 408,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "삼성응원봉",
+          "category": "생활/건강 > 수집품 > 아이돌굿즈 > 응원봉",
+          "search": 1100,
+          "products": 239,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "더합체다간",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+          "search": 1080,
+          "products": 150,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "치이카와앉은누이2탄",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+          "search": 1080,
+          "products": 71,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "케로로마크2",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
+          "search": 1060,
+          "products": 56,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "장룡mgex",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
+          "search": 1050,
+          "products": 323,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "무한신성청연",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
+          "search": 1050,
+          "products": 30,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "뿔바투",
+          "category": "패션잡화 > 패션소품 > 키링",
+          "search": 1040,
+          "products": 262,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "탑로더팀백",
+          "category": "생활/건강 > 수집품 > 이색수집품",
+          "search": 1030,
+          "products": 259,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "오렌지캣레바테인",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
+          "search": 1030,
+          "products": 32,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "한로로앨범",
+          "category": "생활/건강 > 음반 > 국내앨범",
+          "search": 1020,
+          "products": 94,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "럭키부기",
+          "category": "패션잡화 > 패션소품 > 키링",
+          "search": 1020,
+          "products": 61,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "마크로버",
+          "category": "생활/건강 > 수집품 > 이색수집품",
+          "search": 1020,
+          "products": 526,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "아따맘마가챠",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+          "search": 1020,
+          "products": 479,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "아이브인형",
+          "category": "생활/건강 > 음반 > 국내앨범",
+          "search": 1020,
+          "products": 620,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "블리치메지루시",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+          "search": 1010,
+          "products": 25,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "리락쿠마메지루시",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+          "search": 1000,
+          "products": 96,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "카구라바치피규어",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+          "search": 1000,
+          "products": 401,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "다이아나핑피규어",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+          "search": 990,
+          "products": 879,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "도로하마커",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델용품",
+          "search": 970,
+          "products": 98,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "서스펙트게임",
+          "category": "생활/건강 > 수집품 > 게임 > 보드게임",
+          "search": 960,
+          "products": 81,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "최유리lp",
+          "category": "생활/건강 > 수집품 > LP",
+          "search": 950,
+          "products": 58,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "공중전화카드",
+          "category": "생활/건강 > 문구/사무용품 > 카드/엽서/봉투 > 카드",
+          "search": 950,
+          "products": 729,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "바나나우사기",
+          "category": "생활/건강 > 수집품 > 아이돌굿즈 > 기타굿즈",
+          "search": 930,
+          "products": 44,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "역바니",
+          "category": "생활/건강 > 수집품 > 코스튬플레이 > 의상",
+          "search": 910,
+          "products": 292,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "하투하인형",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 모형",
+          "search": 870,
+          "products": 66,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "다이스케콘도",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+          "search": 860,
+          "products": 327,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "롯데짝짝이",
+          "category": "스포츠/레저 > 스포츠액세서리 > 볼캐리어",
+          "search": 860,
+          "products": 123,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "악뮤lp",
+          "category": "생활/건강 > 음반 > 국내앨범",
+          "search": 850,
+          "products": 61,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "냥냥냥코",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+          "search": 830,
+          "products": 572,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "두부니퍼",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델용품",
+          "search": 820,
+          "products": 777,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "레미니인형",
+          "category": "생활/건강 > 수집품 > 아이돌굿즈 > 기타굿즈",
+          "search": 820,
+          "products": 157,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "데인드문",
+          "category": "생활/건강 > 문구/사무용품 > 다이어리/플래너 > 다이어리",
+          "search": 790,
+          "products": 116,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "코난팝콘통",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 보관용품",
+          "search": 780,
+          "products": 21,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "쿠지판다",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+          "search": 780,
+          "products": 97,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "햄토리가챠",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+          "search": 780,
+          "products": 597,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "주술회전메지루시",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+          "search": 770,
+          "products": 157,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "로제lp",
+          "category": "생활/건강 > 수집품 > LP",
+          "search": 760,
+          "products": 531,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "키티그릭요거트",
+          "category": "가구/인테리어 > 인테리어소품 > 냉장고자석",
+          "search": 760,
+          "products": 16,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "핫토이닥터둠",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+          "search": 750,
+          "products": 702,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "바이러스위츠",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+          "search": 750,
+          "products": 118,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "띵커보드",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 보관용품",
+          "search": 750,
+          "products": 131,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "케로로로보마크2",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
+          "search": 740,
+          "products": 525,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "지브리lp",
+          "category": "생활/건강 > 수집품 > LP",
+          "search": 710,
+          "products": 766,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "귀멸의칼날책",
+          "category": "출산/육아 > 완구/인형 > 캐릭터카드/딱지",
+          "search": 710,
+          "products": 271,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "돌팔이약장수",
+          "category": "생활/건강 > 수집품 > 게임 > 보드게임",
+          "search": 700,
+          "products": 311,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "해녀보드게임",
+          "category": "생활/건강 > 수집품 > 게임 > 보드게임",
+          "search": 690,
+          "products": 37,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "랏코앉은누이",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+          "search": 660,
+          "products": 7,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "타오샵",
+          "category": "생활/건강 > 수집품 > 퍼즐/블록 > 블록",
+          "search": 640,
+          "products": 492,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "mg비다르",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
+          "search": 620,
+          "products": 406,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "라탄환심",
+          "category": "생활/건강 > 수집품 > 공예품",
+          "search": 610,
+          "products": 681,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "코코지정리함",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 보관용품",
+          "search": 610,
+          "products": 54,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "아이브도무송",
+          "category": "생활/건강 > 수집품 > 아이돌굿즈 > 스티커",
+          "search": 610,
+          "products": 65,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "육분의",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 모형",
+          "search": 600,
+          "products": 656,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "솔로몬사이살리스",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
+          "search": 600,
+          "products": 166,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "타야마피규어",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+          "search": 580,
+          "products": 69,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "메지루시보관함",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 보관용품",
+          "search": 580,
+          "products": 42,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "크런치슬랑이랜덤박스",
+          "category": "생활/건강 > 문구/사무용품 > 문구용품 > 기타문구용품",
+          "search": 580,
+          "products": 361,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "딱총나무지팡이",
+          "category": "생활/건강 > 수집품 > 코스튬플레이 > 소품",
+          "search": 570,
+          "products": 327,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "젖소비키니",
+          "category": "생활/건강 > 수집품 > 코스튬플레이 > 의상",
+          "search": 560,
+          "products": 148,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "클라스크",
+          "category": "생활/건강 > 수집품 > 게임 > 보드게임",
+          "search": 550,
+          "products": 489,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "닥터둠피규어",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+          "search": 550,
+          "products": 385,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "하현상lp",
+          "category": "생활/건강 > 수집품 > LP",
+          "search": 540,
+          "products": 34,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "그릭요거트키티",
+          "category": "가구/인테리어 > 인테리어소품 > 냉장고자석",
+          "search": 540,
+          "products": 16,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "나라라팜",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 보관용품",
+          "search": 540,
+          "products": 79,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "반중력플라잉볼",
+          "category": "생활/건강 > 수집품 > 무선/RC > 드론",
+          "search": 540,
+          "products": 315,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "만신타로카드",
+          "category": "생활/건강 > 수집품 > 게임 > 보드게임",
+          "search": 530,
+          "products": 70,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "노꼼수",
+          "category": "생활/건강 > 수집품 > 무선/RC > 중장비",
+          "search": 520,
+          "products": 184,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "인피니트디멘션",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
+          "search": 510,
+          "products": 723,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "장원급제모자",
+          "category": "생활/건강 > 수집품 > 코스튬플레이 > 소품",
+          "search": 510,
+          "products": 465,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "에어주카",
+          "category": "생활/건강 > 수집품 > 게임 > 보드게임",
+          "search": 500,
+          "products": 125,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "모아봉",
+          "category": "생활/건강 > 수집품 > 아이돌굿즈 > 응원봉",
+          "search": 500,
+          "products": 294,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "춘식이히퍼",
+          "category": "생활/건강 > 수집품 > 이색수집품",
+          "search": 490,
+          "products": 12,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "107정비반",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
+          "search": 490,
+          "products": 136,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "사이코자쿠",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
+          "search": 480,
+          "products": 563,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "카드쉘바인더",
+          "category": "생활/건강 > 문구/사무용품 > 앨범 > 포켓식앨범",
+          "search": 470,
+          "products": 68,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "스릴팡",
+          "category": "생활/건강 > 수집품 > 게임 > 보드게임",
+          "search": 470,
+          "products": 172,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "장도모형",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+          "search": 460,
+          "products": 683,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "아띠보관함",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 보관용품",
+          "search": 450,
+          "products": 633,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "인민복",
+          "category": "생활/건강 > 수집품 > 코스튬플레이 > 의상",
+          "search": 430,
+          "products": 487,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "이디야리락쿠마",
+          "category": "생활/건강 > 수집품 > 이색수집품",
+          "search": 410,
+          "products": 69,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "동물의숲마그넷",
+          "category": "생활/건강 > 문구/사무용품 > 문구용품 > 기타문구용품",
+          "search": 410,
+          "products": 99,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "블래키카드",
+          "category": "출산/육아 > 완구/인형 > 캐릭터카드/딱지",
+          "search": 410,
+          "products": 653,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "84태권브이",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+          "search": 410,
+          "products": 45,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "코코지아띠정리함",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 보관용품",
+          "search": 410,
+          "products": 36,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "쌀알피규어보관함",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 보관용품",
+          "search": 410,
+          "products": 640,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "마크세터",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델용품",
+          "search": 400,
+          "products": 197,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "토토로행운석",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+          "search": 380,
+          "products": 13,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "몰티즈굿즈",
+          "category": "패션잡화 > 패션소품 > 키링",
+          "search": 370,
+          "products": 244,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "메가커피키링",
+          "category": "패션잡화 > 패션소품 > 키링",
+          "search": 370,
+          "products": 34,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "우타다히카루lp",
+          "category": "생활/건강 > 수집품 > LP",
+          "search": 360,
+          "products": 342,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "알레프lp",
+          "category": "생활/건강 > 수집품 > LP",
+          "search": 360,
+          "products": 45,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "소울링토이즈",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
+          "search": 360,
+          "products": 77,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "전람회lp",
+          "category": "생활/건강 > 음반 > 국내앨범",
+          "search": 350,
+          "products": 200,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "성시경lp",
+          "category": "생활/건강 > 수집품 > LP",
+          "search": 340,
+          "products": 54,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "백주유성",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
+          "search": 340,
+          "products": 64,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "월드크래프트보관함",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 보관용품",
+          "search": 340,
+          "products": 45,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "카드쉘팩케이스",
+          "category": "출산/육아 > 완구/인형 > 캐릭터카드/딱지",
+          "search": 330,
+          "products": 51,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "카피바라아이언맨",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+          "search": 330,
+          "products": 458,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "탄지로귀걸이",
+          "category": "패션잡화 > 주얼리 > 귀걸이 > 패션귀걸이",
+          "search": 330,
+          "products": 86,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "휴대폰거북이파츠",
+          "category": "생활/건강 > 수집품 > 공예품",
+          "search": 320,
+          "products": 816,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "황금수표",
+          "category": "생활/건강 > 수집품 > 화폐 > 지폐",
+          "search": 320,
+          "products": 621,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "카다알핀",
+          "category": "생활/건강 > 수집품 > 퍼즐/블록 > 블록",
+          "search": 310,
+          "products": 23,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "룩업케이스",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 보관용품",
+          "search": 310,
+          "products": 131,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "일본특공복",
+          "category": "생활/건강 > 수집품 > 코스튬플레이 > 의상",
+          "search": 310,
+          "products": 427,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "일본화투",
+          "category": "생활/건강 > 수집품 > 게임 > 보드게임",
+          "search": 300,
+          "products": 440,
+          "comp": "아주좋음"
+        }
+      ]
+    }
   }
 }
