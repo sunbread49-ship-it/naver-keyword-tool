@@ -40,6 +40,7 @@ def build():
                 rows.append({
                     "keyword": it["keyword"],
                     "category": it.get("category") or cat_path,
+                    "group": cat_path,
                     "period": period_label,
                     "search": search,
                     "products": products,

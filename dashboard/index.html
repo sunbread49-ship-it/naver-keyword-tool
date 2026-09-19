@@ -150,6 +150,9 @@
     border: 1px solid var(--border);
     color: var(--text);
   }
+  .cat-chip { cursor: pointer; user-select: none; }
+  .cat-chip:hover { border-color: var(--accent); }
+  .cat-chip.active { background: var(--accent-dim); border-color: var(--accent); color: var(--accent); font-weight: 600; }
   .cat-chip .date {
     color: var(--muted);
     font-size: 11px;
@@ -261,6 +264,8 @@ let DELETED = new Set();
 let SELECTED = new Set();
 let VISIBLE = [];
 let lastChecked = null;
+let ACTIVE_GROUP = null;
+try { ACTIVE_GROUP = localStorage.getItem("activeGroup") || null; } catch (e) {}
 
 try { DELETED = new Set(JSON.parse(localStorage.getItem("deletedKeywords") || "[]")); } catch (e) {}
 function saveDeleted() {
@@ -291,10 +296,21 @@ function renderCatList() {
   const el = document.getElementById("catList");
   const runs = RAW.runs_covered || [];
   if (!runs.length) { el.innerHTML = ""; return; }
+  if (ACTIVE_GROUP && !runs.some(r => r.category === ACTIVE_GROUP)) ACTIVE_GROUP = null;
   el.innerHTML = runs.map(r =>
-    `<span class="cat-chip">${r.category} · ${r.period}<span class="date">${r.collected_at || ""}</span></span>`
+    `<span class="cat-chip${r.category === ACTIVE_GROUP ? " active" : ""}" data-group="${esc(r.category)}" title="클릭하면 이 카테고리만 표시">${esc(r.category)} · ${esc(r.period)}<span class="date">${r.collected_at || ""}</span></span>`
   ).join("");
 }
+
+document.getElementById("catList").addEventListener("click", e => {
+  const c = e.target.closest(".cat-chip");
+  if (!c) return;
+  ACTIVE_GROUP = ACTIVE_GROUP === c.dataset.group ? null : c.dataset.group;
+  try { localStorage.setItem("activeGroup", ACTIVE_GROUP || ""); } catch (err) {}
+  SELECTED.clear();
+  renderCatList();
+  render();
+});
 
 function populatePeriodFilter() {
   const sel = document.getElementById("periodFilter");
@@ -322,6 +338,7 @@ function render() {
     if (periodFilter && r.period !== periodFilter) return false;
     if (excludeWords.some(w => r.keyword.toLowerCase().includes(w))) return false;
     if (DELETED.has(r.keyword)) return false;
+    if (ACTIVE_GROUP && r.group !== ACTIVE_GROUP) return false;
     if (searchWord && !r.keyword.toLowerCase().includes(searchWord)) return false;
     return true;
   });
@@ -371,7 +388,7 @@ function updateBulk() {
   const btn = document.getElementById("btnDelete");
   btn.textContent = `선택 삭제 (${n})`;
   btn.disabled = n === 0;
-  document.getElementById("bulkInfo").textContent = `현재 표시 ${VISIBLE.length}개`;
+  document.getElementById("bulkInfo").textContent = `현재 표시 ${VISIBLE.length}개` + (ACTIVE_GROUP ? ` · 필터: ${ACTIVE_GROUP} (다시 클릭하면 해제)` : "");
   document.getElementById("delCount").textContent = DELETED.size;
   const all = document.getElementById("chkAll");
   all.checked = VISIBLE.length > 0 && n === VISIBLE.length;
