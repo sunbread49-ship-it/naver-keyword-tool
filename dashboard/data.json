@@ -364,9 +364,53 @@
         "period": "최근 30일",
         "exclude_major_brand": true
       }
+    },
+    {
+      "category": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "collected_at": "2026-09-19",
+      "filter": {
+        "min_search": 300,
+        "max_products": 900,
+        "period": "최근 30일",
+        "exclude_major_brand": true
+      }
+    },
+    {
+      "category": "패션의류 > 여성언더웨어/잠옷",
+      "period": "최근 30일",
+      "collected_at": "2026-09-19",
+      "filter": {
+        "min_search": 300,
+        "max_products": 900,
+        "period": "최근 30일",
+        "exclude_major_brand": true
+      }
+    },
+    {
+      "category": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "collected_at": "2026-09-19",
+      "filter": {
+        "min_search": 300,
+        "max_products": 900,
+        "period": "최근 30일",
+        "exclude_major_brand": true
+      }
+    },
+    {
+      "category": "패션의류 > 남성언더웨어/잠옷",
+      "period": "최근 30일",
+      "collected_at": "2026-09-19",
+      "filter": {
+        "min_search": 300,
+        "max_products": 900,
+        "period": "최근 30일",
+        "exclude_major_brand": true
+      }
     }
   ],
-  "total_scanned": 2773,
+  "total_scanned": 3206,
   "keywords": [
     {
       "keyword": "맞춤법검사기",
@@ -446,6 +490,17 @@
       "score": 3065.71
     },
     {
+      "keyword": "에스앤핏",
+      "category": "패션의류 > 여성언더웨어/잠옷 > 보정속옷 > 코르셋",
+      "group": "패션의류 > 여성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 5880,
+      "products": 1,
+      "comp": "아주좋음",
+      "comp_score": 0,
+      "score": 2940.0
+    },
+    {
       "keyword": "엠팍\n",
       "category": "생활/건강 > 문구/사무용품 > 용지 > 기타용지",
       "group": "생활/건강 > 문구/사무용품",
@@ -512,6 +567,17 @@
       "score": 2260.0
     },
     {
+      "keyword": "서인영속옷",
+      "category": "패션의류 > 여성언더웨어/잠옷 > 브라",
+      "group": "패션의류 > 여성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 34930,
+      "products": 17,
+      "comp": "아주좋음",
+      "comp_score": 0,
+      "score": 1940.56
+    },
+    {
       "keyword": "다이소유막제거제",
       "category": "생활/건강 > 자동차용품 > 세차용품 > 유막제거제",
       "group": "생활/건강 > 자동차용품",
@@ -523,6 +589,17 @@
       "score": 1747.5
     },
     {
+      "keyword": "핏타즈",
+      "category": "패션의류 > 여성언더웨어/잠옷 > 보정속옷 > 기타보정속옷",
+      "group": "패션의류 > 여성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 5210,
+      "products": 2,
+      "comp": "아주좋음",
+      "comp_score": 0,
+      "score": 1736.67
+    },
+    {
       "keyword": "발보칠",
       "category": "생활/건강 > 발건강용품 > 발냄새제거제",
       "group": "생활/건강 > 발건강용품",
@@ -532,6 +609,17 @@
       "comp": "아주좋음",
       "comp_score": 0,
       "score": 1585.0
+    },
+    {
+      "keyword": "에스앤핏코르셋",
+      "category": "패션의류 > 여성언더웨어/잠옷 > 보정속옷 > 코르셋",
+      "group": "패션의류 > 여성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 3110,
+      "products": 1,
+      "comp": "아주좋음",
+      "comp_score": 0,
+      "score": 1555.0
     },
     {
       "keyword": "쥐젖패치",
@@ -655,6 +743,17 @@
       "score": 845.0
     },
     {
+      "keyword": "샌프룩",
+      "category": "패션의류 > 남성의류 > 점프슈트",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 5020,
+      "products": 5,
+      "comp": "아주좋음",
+      "comp_score": 0,
+      "score": 836.67
+    },
+    {
       "keyword": "조니워커블루라벨",
       "category": "식품 > 주류 > 양주",
       "group": "생활/건강 > 주방용품",
@@ -664,6 +763,17 @@
       "comp": "아주좋음",
       "comp_score": 0,
       "score": 827.85
+    },
+    {
+      "keyword": "서인영브라",
+      "category": "패션의류 > 여성언더웨어/잠옷 > 브라",
+      "group": "패션의류 > 여성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 13080,
+      "products": 15,
+      "comp": "아주좋음",
+      "comp_score": 0,
+      "score": 817.5
     },
     {
       "keyword": "전기차소화기",
@@ -809,6 +919,17 @@
       "score": 615.71
     },
     {
+      "keyword": "스토니크",
+      "category": "패션의류 > 여성의류 > 바지",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 26290,
+      "products": 42,
+      "comp": "아주좋음",
+      "comp_score": 0,
+      "score": 611.4
+    },
+    {
       "keyword": "미미귀패치",
       "category": "화장품/미용 > 뷰티소품 > 페이스소품 > 기타페이스소품",
       "group": "생활/건강 > 건강관리용품",
@@ -818,6 +939,17 @@
       "comp": "아주좋음",
       "comp_score": 0,
       "score": 605.29
+    },
+    {
+      "keyword": "남자팬티컨셉이지",
+      "category": "패션의류 > 남성언더웨어/잠옷 > 팬티",
+      "group": "패션의류 > 남성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 1810,
+      "products": 2,
+      "comp": "아주좋음",
+      "comp_score": 0,
+      "score": 603.33
     },
     {
       "keyword": "mgsd크샤트리아",
@@ -862,6 +994,17 @@
       "comp": "아주좋음",
       "comp_score": 0,
       "score": 575.0
+    },
+    {
+      "keyword": "비바루비",
+      "category": "패션의류 > 여성의류 > 바지",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 27560,
+      "products": 48,
+      "comp": "아주좋음",
+      "comp_score": 0,
+      "score": 562.45
     },
     {
       "keyword": "닷사이23",
@@ -941,6 +1084,17 @@
       "score": 500.0
     },
     {
+      "keyword": "블라누스",
+      "category": "패션의류 > 여성언더웨어/잠옷 > 브라",
+      "group": "패션의류 > 여성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 14950,
+      "products": 29,
+      "comp": "아주좋음",
+      "comp_score": 0,
+      "score": 498.33
+    },
+    {
       "keyword": "눈물을마시는새",
       "category": "생활/건강 > 종교 > 기독교용품",
       "group": "생활/건강 > 종교",
@@ -972,6 +1126,17 @@
       "comp": "아주좋음",
       "comp_score": 0,
       "score": 452.0
+    },
+    {
+      "keyword": "코오롱로카티",
+      "category": "패션의류 > 남성의류 > 티셔츠",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 2690,
+      "products": 5,
+      "comp": "아주좋음",
+      "comp_score": 0,
+      "score": 448.33
     },
     {
       "keyword": "스텔로브",
@@ -1227,6 +1392,28 @@
       "score": 350.0
     },
     {
+      "keyword": "스테디에브리웨어",
+      "category": "패션의류 > 남성의류 > 아우터 > 재킷",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 52500,
+      "products": 149,
+      "comp": "아주좋음",
+      "comp_score": 0,
+      "score": 350.0
+    },
+    {
+      "keyword": "더바디영\n",
+      "category": "패션의류 > 여성언더웨어/잠옷 > 브라 | 출산/육아 > 유아동언더웨어/잠옷 > 브라",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 4090,
+      "products": 11,
+      "comp": "아주좋음",
+      "comp_score": 0,
+      "score": 340.83
+    },
+    {
       "keyword": "브이바잇",
       "category": "생활/건강 > 구강위생용품 > 마우스피스",
       "group": "생활/건강 > 구강위생용품",
@@ -1425,6 +1612,17 @@
       "score": 314.33
     },
     {
+      "keyword": "아비에무아",
+      "category": "패션잡화 > 모자 > 야구모자",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 209600,
+      "products": 667,
+      "comp": "아주좋음",
+      "comp_score": 0,
+      "score": 313.77
+    },
+    {
       "keyword": "로스돔그릴팬",
       "category": "생활/건강 > 주방용품 > 냄비/솥 > 냄비부자재",
       "group": "생활/건강 > 주방용품",
@@ -1612,6 +1810,17 @@
       "score": 250.67
     },
     {
+      "keyword": "티쁠쁠",
+      "category": "패션의류 > 여성의류 > 티셔츠",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 1230,
+      "products": 4,
+      "comp": "아주좋음",
+      "comp_score": 0,
+      "score": 246.0
+    },
+    {
       "keyword": "일본스탠다드보냉백",
       "category": "생활/건강 > 생활용품 > 생활잡화 > 쇼핑백",
       "group": "생활/건강 > 생활용품",
@@ -1643,6 +1852,17 @@
       "comp": "아주좋음",
       "comp_score": 0,
       "score": 241.11
+    },
+    {
+      "keyword": "산산기어경량패딩",
+      "category": "패션의류 > 여성의류 > 점퍼",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 3540,
+      "products": 14,
+      "comp": "아주좋음",
+      "comp_score": 0,
+      "score": 236.0
     },
     {
       "keyword": "안진워셔",
@@ -1810,6 +2030,17 @@
       "score": 210.0
     },
     {
+      "keyword": "수아레경량패딩",
+      "category": "패션의류 > 여성의류 > 점퍼",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 5860,
+      "products": 27,
+      "comp": "아주좋음",
+      "comp_score": 0,
+      "score": 209.29
+    },
+    {
       "keyword": "칫가루",
       "category": "생활/건강 > 구강위생용품 > 구강청정제/가글",
       "group": "생활/건강 > 구강위생용품",
@@ -1865,6 +2096,17 @@
       "score": 200.0
     },
     {
+      "keyword": "스파오진격의거인",
+      "category": "패션의류 > 남성의류 > 티셔츠",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 11760,
+      "products": 58,
+      "comp": "아주좋음",
+      "comp_score": 0,
+      "score": 199.32
+    },
+    {
       "keyword": "알피쿨15리터",
       "category": "생활/건강 > 자동차용품 > 편의용품 > 차량용냉/온장고",
       "group": "생활/건강 > 자동차용품",
@@ -1885,6 +2127,17 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 198.33
+    },
+    {
+      "keyword": "핏타즈팔뚝",
+      "category": "패션의류 > 여성언더웨어/잠옷 > 보정속옷 > 기타보정속옷",
+      "group": "패션의류 > 여성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 2770,
+      "products": 13,
+      "comp": "아주좋음",
+      "comp_score": 0,
+      "score": 197.86
     },
     {
       "keyword": "3h지압침대",
@@ -1973,6 +2226,17 @@
       "comp": "아주좋음",
       "comp_score": 0.01,
       "score": 190.0
+    },
+    {
+      "keyword": "다이소헤드바람막이",
+      "category": "패션의류 > 남성의류 > 아우터 > 재킷",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 930,
+      "products": 4,
+      "comp": "아주좋음",
+      "comp_score": 0,
+      "score": 186.0
     },
     {
       "keyword": "오젬픽\n",
@@ -2083,6 +2347,17 @@
       "comp": "아주좋음",
       "comp_score": 0,
       "score": 182.5
+    },
+    {
+      "keyword": "슴커밴드",
+      "category": "패션의류 > 여성언더웨어/잠옷 > 언더웨어소품 > 기타언더웨어소품",
+      "group": "패션의류 > 여성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 360,
+      "products": 1,
+      "comp": "아주좋음",
+      "comp_score": 0,
+      "score": 180.0
     },
     {
       "keyword": "후비루",
@@ -2239,6 +2514,17 @@
       "score": 164.71
     },
     {
+      "keyword": "르메르랩코트",
+      "category": "패션의류 > 여성의류 > 아우터 > 롱코트",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 1150,
+      "products": 6,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
+      "score": 164.29
+    },
+    {
       "keyword": "다킨캡",
       "category": "생활/건강 > 냉온/찜질용품 > 찜질팩",
       "group": "생활/건강 > 냉온/찜질용품",
@@ -2335,6 +2621,17 @@
       "products": 2,
       "comp": "아주좋음",
       "comp_score": 0,
+      "score": 160.0
+    },
+    {
+      "keyword": "킴므코르셋",
+      "category": "패션의류 > 여성언더웨어/잠옷 > 보정속옷 > 니퍼/복대",
+      "group": "패션의류 > 여성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 4480,
+      "products": 27,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
       "score": 160.0
     },
     {
@@ -2470,6 +2767,17 @@
       "score": 151.67
     },
     {
+      "keyword": "슈프림고어텍스스머프",
+      "category": "패션의류 > 남성의류 > 아우터 > 재킷",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 1360,
+      "products": 8,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
+      "score": 151.11
+    },
+    {
       "keyword": "원위시윌로우",
       "category": "디지털/가전 > 주변기기 > 스캐너 > 3D 스캐너",
       "group": "생활/건강 > 수집품",
@@ -2479,6 +2787,28 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 150.57
+    },
+    {
+      "keyword": "다이소우비",
+      "category": "패션의류 > 여성의류 > 아우터 > 레인코트",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 7070,
+      "products": 46,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
+      "score": 150.43
+    },
+    {
+      "keyword": "안나키즈",
+      "category": "패션의류 > 여성의류 > 원피스",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 116700,
+      "products": 777,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
+      "score": 150.0
     },
     {
       "keyword": "백화수복",
@@ -2569,6 +2899,28 @@
       "score": 147.0
     },
     {
+      "keyword": "라쉬반",
+      "category": "패션의류 > 남성언더웨어/잠옷 > 팬티",
+      "group": "패션의류 > 남성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 19830,
+      "products": 136,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
+      "score": 144.74
+    },
+    {
+      "keyword": "살로몬경량패딩",
+      "category": "패션의류 > 남성의류 > 점퍼",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 34290,
+      "products": 239,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
+      "score": 142.88
+    },
+    {
       "keyword": "푸딩탄탄",
       "category": "생활/건강 > 수집품 > 공예품",
       "group": "생활/건강 > 수집품",
@@ -2657,6 +3009,17 @@
       "score": 135.38
     },
     {
+      "keyword": "레이디두아",
+      "category": "패션의류 > 여성의류 > 아우터 > 재킷",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 78140,
+      "products": 580,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
+      "score": 134.49
+    },
+    {
       "keyword": "녹빌리지",
       "category": "생활/건강 > 문구/사무용품 > 다이어리/플래너 > 속지/포켓",
       "group": "생활/건강 > 문구/사무용품",
@@ -2677,6 +3040,17 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 133.47
+    },
+    {
+      "keyword": "개코코르셋",
+      "category": "패션의류 > 여성언더웨어/잠옷 > 보정속옷 > 코르셋",
+      "group": "패션의류 > 여성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 400,
+      "products": 2,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
+      "score": 133.33
     },
     {
       "keyword": "경주법주",
@@ -2756,6 +3130,17 @@
       "score": 124.4
     },
     {
+      "keyword": "라쉬반팬티",
+      "category": "패션의류 > 남성언더웨어/잠옷 > 팬티",
+      "group": "패션의류 > 남성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 14540,
+      "products": 116,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
+      "score": 124.27
+    },
+    {
       "keyword": "지켜텀",
       "category": "생활/건강 > 주방용품 > 잔/컵 > 텀블러",
       "group": "생활/건강 > 주방용품",
@@ -2776,6 +3161,17 @@
       "comp": "아주좋음",
       "comp_score": 0.01,
       "score": 122.5
+    },
+    {
+      "keyword": "다이소속바지",
+      "category": "패션의류 > 여성언더웨어/잠옷 > 속치마/속바지",
+      "group": "패션의류 > 여성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 2080,
+      "products": 16,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
+      "score": 122.35
     },
     {
       "keyword": "허핀기",
@@ -2932,6 +3328,28 @@
       "score": 114.8
     },
     {
+      "keyword": "앙블리누브라",
+      "category": "패션의류 > 여성언더웨어/잠옷 > 브라",
+      "group": "패션의류 > 여성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 4230,
+      "products": 36,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
+      "score": 114.32
+    },
+    {
+      "keyword": "싹싹김티",
+      "category": "패션의류 > 남성의류 > 티셔츠",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 680,
+      "products": 5,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
+      "score": 113.33
+    },
+    {
       "keyword": "팅커랩라이트패드",
       "category": "생활/건강 > 화방용품 > 라이트박스",
       "group": "생활/건강 > 화방용품",
@@ -2952,6 +3370,17 @@
       "comp": "아주좋음",
       "comp_score": 0.01,
       "score": 112.29
+    },
+    {
+      "keyword": "니쁜스",
+      "category": "패션의류 > 여성의류 > 니트 > 카디건",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 45000,
+      "products": 400,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
+      "score": 112.22
     },
     {
       "keyword": "파벡스라면조리기",
@@ -3031,6 +3460,28 @@
       "score": 108.99
     },
     {
+      "keyword": "공주밤티",
+      "category": "패션의류 > 여성의류 > 티셔츠",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 10810,
+      "products": 99,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
+      "score": 108.1
+    },
+    {
+      "keyword": "미쏘하프트렌치코트",
+      "category": "패션의류 > 여성의류 > 아우터 > 트렌치코트",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 3430,
+      "products": 31,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
+      "score": 107.19
+    },
+    {
       "keyword": "홍현희마사지기",
       "category": "생활/건강 > 건강관리용품 > 지압기",
       "group": "생활/건강 > 건강관리용품",
@@ -3051,6 +3502,17 @@
       "comp": "아주좋음",
       "comp_score": 0.01,
       "score": 106.0
+    },
+    {
+      "keyword": "림버림버",
+      "category": "패션의류 > 여성의류 > 코디세트",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 1690,
+      "products": 15,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
+      "score": 105.62
     },
     {
       "keyword": "뽑봉",
@@ -3075,6 +3537,17 @@
       "score": 104.07
     },
     {
+      "keyword": "oe6xj8740",
+      "category": "패션의류 > 여성의류 > 점퍼",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 1970,
+      "products": 18,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
+      "score": 103.68
+    },
+    {
       "keyword": "다이소분리수거함",
       "category": "생활/건강 > 청소용품 > 휴지통 > 분리수거함",
       "group": "생활/건강 > 주방용품",
@@ -3095,6 +3568,17 @@
       "comp": "아주좋음",
       "comp_score": 0.01,
       "score": 102.94
+    },
+    {
+      "keyword": "파코서플라이",
+      "category": "패션의류 > 남성의류 > 아우터 > 후드집업",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 14600,
+      "products": 142,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
+      "score": 102.1
     },
     {
       "keyword": "생리통심할때",
@@ -3144,6 +3628,17 @@
       "keyword": "모멍글",
       "category": "생활/건강 > 반려동물 > 미용/목욕 > 브러시/빗",
       "group": "생활/건강 > 반려동물",
+      "period": "최근 30일",
+      "search": 300,
+      "products": 2,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
+      "score": 100.0
+    },
+    {
+      "keyword": "조꼭지",
+      "category": "패션의류 > 여성언더웨어/잠옷 > 언더웨어소품 > 브라끈",
+      "group": "패션의류 > 여성언더웨어/잠옷",
       "period": "최근 30일",
       "search": 300,
       "products": 2,
@@ -3273,6 +3768,17 @@
       "score": 96.0
     },
     {
+      "keyword": "이선민잠옷",
+      "category": "패션의류 > 여성언더웨어/잠옷 > 잠옷/홈웨어",
+      "group": "패션의류 > 여성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 960,
+      "products": 9,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
+      "score": 96.0
+    },
+    {
       "keyword": "눈마새",
       "category": "생활/건강 > 종교 > 기독교용품",
       "group": "생활/건강 > 종교",
@@ -3328,6 +3834,17 @@
       "score": 94.71
     },
     {
+      "keyword": "베리쉬",
+      "category": "패션의류 > 여성언더웨어/잠옷 > 브라",
+      "group": "패션의류 > 여성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 67520,
+      "products": 712,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
+      "score": 94.7
+    },
+    {
       "keyword": "다이소차량용방향제",
       "category": "생활/건강 > 자동차용품 > 공기청정용품 > 차량용방향제",
       "group": "생활/건강 > 자동차용품",
@@ -3350,6 +3867,17 @@
       "score": 94.29
     },
     {
+      "keyword": "폴로빅포니후드집업",
+      "category": "패션의류 > 여성의류 > 아우터 > 후드집업",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 2070,
+      "products": 21,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
+      "score": 94.09
+    },
+    {
       "keyword": "라소록",
       "category": "생활/건강 > 문구/사무용품 > 문구용품 > 클립/핀",
       "group": "생활/건강 > 문구/사무용품",
@@ -3359,6 +3887,17 @@
       "comp": "아주좋음",
       "comp_score": 0.01,
       "score": 94.0
+    },
+    {
+      "keyword": "몽클아보체",
+      "category": "패션의류 > 여성의류 > 아우터 > 패딩",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 740,
+      "products": 7,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
+      "score": 92.5
     },
     {
       "keyword": "리레볼루션",
@@ -3669,6 +4208,17 @@
       "score": 82.5
     },
     {
+      "keyword": "n26fa072",
+      "category": "패션의류 > 남성의류 > 아우터 > 재킷",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 1960,
+      "products": 23,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
+      "score": 81.67
+    },
+    {
       "keyword": "비비드바우스",
       "category": "생활/건강 > 문구/사무용품 > 카드/엽서/봉투 > 모바일초대장",
       "group": "생활/건강 > 문구/사무용품",
@@ -3678,6 +4228,17 @@
       "comp": "아주좋음",
       "comp_score": 0.01,
       "score": 81.11
+    },
+    {
+      "keyword": "데우스후드집업",
+      "category": "패션의류 > 남성의류 > 티셔츠",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 10180,
+      "products": 125,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
+      "score": 80.79
     },
     {
       "keyword": "아재비달팽이",
@@ -3700,6 +4261,17 @@
       "comp": "아주좋음",
       "comp_score": 0.01,
       "score": 79.71
+    },
+    {
+      "keyword": "다낭질러팬티",
+      "category": "패션의류 > 여성언더웨어/잠옷 > 팬티",
+      "group": "패션의류 > 여성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 2630,
+      "products": 32,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
+      "score": 79.7
     },
     {
       "keyword": "웰247",
@@ -3768,6 +4340,28 @@
       "score": 78.33
     },
     {
+      "keyword": "공주밤티티셔츠",
+      "category": "패션의류 > 여성의류 > 티셔츠",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 4350,
+      "products": 55,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
+      "score": 77.68
+    },
+    {
+      "keyword": "8월남자하객룩",
+      "category": "패션의류 > 남성의류 > 정장세트",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 1240,
+      "products": 15,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
+      "score": 77.5
+    },
+    {
       "keyword": "너즐퍼즐",
       "category": "생활/건강 > 반려동물 > 강아지 간식 > 음료",
       "group": "생활/건강 > 반려동물",
@@ -3823,6 +4417,17 @@
       "score": 75.12
     },
     {
+      "keyword": "다이소바람막이",
+      "category": "패션의류 > 남성의류 > 아우터 > 재킷",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 8710,
+      "products": 115,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
+      "score": 75.09
+    },
+    {
       "keyword": "라파402",
       "category": "생활/건강 > 건강관리용품 > 기타건강관리용품",
       "group": "생활/건강 > 물리치료/저주파용품",
@@ -3843,6 +4448,17 @@
       "comp": "아주좋음",
       "comp_score": 0.01,
       "score": 74.17
+    },
+    {
+      "keyword": "코코부잠옷",
+      "category": "패션의류 > 여성언더웨어/잠옷 > 잠옷/홈웨어",
+      "group": "패션의류 > 여성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 4960,
+      "products": 66,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
+      "score": 74.03
     },
     {
       "keyword": "자하라밤탈취제",
@@ -3900,6 +4516,17 @@
       "score": 72.94
     },
     {
+      "keyword": "ku0564",
+      "category": "패션의류 > 남성의류 > 바지",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 510,
+      "products": 6,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
+      "score": 72.86
+    },
+    {
       "keyword": "다이소세면대마개",
       "category": "생활/건강 > 욕실용품 > 세면대/수전용품 > 욕실부속품",
       "group": "생활/건강 > 욕실용품",
@@ -3909,6 +4536,17 @@
       "comp": "아주좋음",
       "comp_score": 0.01,
       "score": 72.63
+    },
+    {
+      "keyword": "twwjkp72510",
+      "category": "패션의류 > 여성의류 > 아우터 > 재킷",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 870,
+      "products": 11,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
+      "score": 72.5
     },
     {
       "keyword": "다이소팔토시",
@@ -3953,6 +4591,28 @@
       "comp": "아주좋음",
       "comp_score": 0.01,
       "score": 71.43
+    },
+    {
+      "keyword": "아보아보",
+      "category": "패션의류 > 여성의류 > 코디세트",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 11770,
+      "products": 164,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
+      "score": 71.33
+    },
+    {
+      "keyword": "stl운동복",
+      "category": "패션의류 > 여성의류 > 트레이닝복",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 20820,
+      "products": 291,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
+      "score": 71.3
     },
     {
       "keyword": "다이소여과기",
@@ -4032,6 +4692,17 @@
       "score": 70.53
     },
     {
+      "keyword": "이바나헬싱키",
+      "category": "패션의류 > 여성의류 > 원피스",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 37730,
+      "products": 536,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
+      "score": 70.26
+    },
+    {
       "keyword": "pv5카고중고",
       "category": "생활/건강 > 자동차용품 > 인테리어용품 > 차량용햇빛가리개",
       "group": "생활/건강 > 자동차용품",
@@ -4051,6 +4722,17 @@
       "products": 4,
       "comp": "아주좋음",
       "comp_score": null,
+      "score": 70.0
+    },
+    {
+      "keyword": "명령하지마라티",
+      "category": "패션의류 > 남성의류 > 티셔츠",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 1400,
+      "products": 19,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
       "score": 70.0
     },
     {
@@ -4109,6 +4791,17 @@
       "score": 68.57
     },
     {
+      "keyword": "뽕브라몰",
+      "category": "패션의류 > 여성언더웨어/잠옷 > 브라",
+      "group": "패션의류 > 여성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 14510,
+      "products": 211,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
+      "score": 68.44
+    },
+    {
       "keyword": "백지영목견인기",
       "category": "생활/건강 > 재활운동용품 > 목보호대",
       "group": "생활/건강 > 재활운동용품",
@@ -4140,6 +4833,17 @@
       "comp": "아주좋음",
       "comp_score": 0.01,
       "score": 68.12
+    },
+    {
+      "keyword": "스파오경량패딩",
+      "category": "패션의류 > 여성의류 > 점퍼",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 15120,
+      "products": 221,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
+      "score": 68.11
     },
     {
       "keyword": "구디브닝",
@@ -4285,6 +4989,17 @@
       "score": 65.0
     },
     {
+      "keyword": "김나영하렘팬츠",
+      "category": "패션의류 > 여성의류 > 바지",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 2140,
+      "products": 32,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
+      "score": 64.85
+    },
+    {
       "keyword": "돌바니안",
       "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
       "group": "생활/건강 > 수집품",
@@ -4316,6 +5031,17 @@
       "comp": "아주좋음",
       "comp_score": 0.01,
       "score": 64.67
+    },
+    {
+      "keyword": "뽀따부티크",
+      "category": "패션의류 > 여성의류 > 티셔츠",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 6300,
+      "products": 97,
+      "comp": "아주좋음",
+      "comp_score": 0.02,
+      "score": 64.29
     },
     {
       "keyword": "닥터디퍼",
@@ -4568,6 +5294,17 @@
       "products": 8,
       "comp": "아주좋음",
       "comp_score": 0.01,
+      "score": 60.0
+    },
+    {
+      "keyword": "빅포니후드집업",
+      "category": "패션의류 > 여성의류 > 티셔츠",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 1800,
+      "products": 29,
+      "comp": "아주좋음",
+      "comp_score": 0.02,
       "score": 60.0
     },
     {
@@ -5143,6 +5880,28 @@
       "score": 52.0
     },
     {
+      "keyword": "무니드",
+      "category": "패션의류 > 여성의류 > 블라우스/셔츠",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 11700,
+      "products": 224,
+      "comp": "아주좋음",
+      "comp_score": 0.02,
+      "score": 52.0
+    },
+    {
+      "keyword": "비아플레인",
+      "category": "출산/육아 > 유아동의류 > 티셔츠 | 패션의류 > 여성의류 > 티셔츠 | 패션의류 > 남성의류 > 티셔츠 | 스포츠/레저 > 골프 > 골프의류 > 티셔츠 | 스포츠/레저 > 스키/보드 > 보드복 > 티셔츠 | 생활/건강 > 반려동물 > 패션용품 > 티셔츠",
+      "group": "패션의류 > 여성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 8500,
+      "products": 163,
+      "comp": "아주좋음",
+      "comp_score": 0.02,
+      "score": 51.83
+    },
+    {
       "keyword": "슬로운샤워기",
       "category": "생활/건강 > 욕실용품 > 샤워기 > 필터전용샤워기",
       "group": "생활/건강 > 욕실용품",
@@ -5240,6 +5999,17 @@
       "comp": "아주좋음",
       "comp_score": 0.02,
       "score": 51.24
+    },
+    {
+      "keyword": "하티66",
+      "category": "패션의류 > 여성의류 > 티셔츠",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 9270,
+      "products": 180,
+      "comp": "아주좋음",
+      "comp_score": 0.02,
+      "score": 51.22
     },
     {
       "keyword": "다이소물호스",
@@ -5374,6 +6144,17 @@
       "score": 49.38
     },
     {
+      "keyword": "살로몬인슐레이션",
+      "category": "패션의류 > 남성의류 > 점퍼",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 23940,
+      "products": 487,
+      "comp": "아주좋음",
+      "comp_score": 0.02,
+      "score": 49.06
+    },
+    {
       "keyword": "심부온열패치",
       "category": "생활/건강 > 의료용품 > 구급/응급용품",
       "group": "생활/건강 > 의료용품",
@@ -5460,6 +6241,17 @@
       "comp": "아주좋음",
       "comp_score": 0.02,
       "score": 47.73
+    },
+    {
+      "keyword": "유니클로해링턴자켓",
+      "category": "패션의류 > 남성의류 > 아우터 > 재킷",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 6000,
+      "products": 125,
+      "comp": "아주좋음",
+      "comp_score": 0.02,
+      "score": 47.62
     },
     {
       "keyword": "pv5격벽",
@@ -5583,6 +6375,39 @@
       "score": 46.16
     },
     {
+      "keyword": "말왕팬티",
+      "category": "패션의류 > 남성언더웨어/잠옷 > 팬티",
+      "group": "패션의류 > 남성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 2580,
+      "products": 55,
+      "comp": "아주좋음",
+      "comp_score": 0.02,
+      "score": 46.07
+    },
+    {
+      "keyword": "더일마",
+      "category": "패션의류 > 여성의류 > 아우터 > 재킷",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 21870,
+      "products": 474,
+      "comp": "아주좋음",
+      "comp_score": 0.02,
+      "score": 46.04
+    },
+    {
+      "keyword": "플라이코지",
+      "category": "패션의류 > 여성언더웨어/잠옷 > 브라",
+      "group": "패션의류 > 여성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 6730,
+      "products": 146,
+      "comp": "아주좋음",
+      "comp_score": 0.02,
+      "score": 45.78
+    },
+    {
       "keyword": "동물의숲메지루시",
       "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
       "group": "생활/건강 > 수집품",
@@ -5647,6 +6472,17 @@
       "comp": "아주좋음",
       "comp_score": 0.02,
       "score": 44.81
+    },
+    {
+      "keyword": "마마가리",
+      "category": "패션의류 > 남성의류 > 아우터 > 기타코트",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 1030,
+      "products": 22,
+      "comp": "아주좋음",
+      "comp_score": 0.02,
+      "score": 44.78
     },
     {
       "keyword": "키티그릭요거트",
@@ -5792,6 +6628,17 @@
       "score": 43.08
     },
     {
+      "keyword": "코오롱안타티카여성",
+      "category": "패션의류 > 여성의류 > 점퍼",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 3170,
+      "products": 73,
+      "comp": "아주좋음",
+      "comp_score": 0.02,
+      "score": 42.84
+    },
+    {
       "keyword": "장수막걸리",
       "category": "식품 > 주류 > 사케/기타수입주류",
       "group": "생활/건강 > 문구/사무용품",
@@ -5834,6 +6681,17 @@
       "comp": "아주좋음",
       "comp_score": 0.02,
       "score": 42.5
+    },
+    {
+      "keyword": "땀많은체질",
+      "category": "화장품/미용 > 바디케어 > 데오드란트",
+      "group": "패션의류 > 여성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 5340,
+      "products": 125,
+      "comp": "아주좋음",
+      "comp_score": 0.02,
+      "score": 42.38
     },
     {
       "keyword": "스테니파티웍",
@@ -5935,6 +6793,17 @@
       "score": 41.76
     },
     {
+      "keyword": "닉켈하우스",
+      "category": "패션의류 > 남성의류 > 아우터 > 후드집업",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 14110,
+      "products": 337,
+      "comp": "아주좋음",
+      "comp_score": 0.02,
+      "score": 41.75
+    },
+    {
       "keyword": "자식농사잘지었네",
       "category": "생활/건강 > 공구 > 포장용품 > 선물박스",
       "group": "생활/건강 > 공구",
@@ -6012,6 +6881,17 @@
       "score": 41.07
     },
     {
+      "keyword": "lvc55501",
+      "category": "패션의류 > 남성의류 > 청바지",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 1760,
+      "products": 42,
+      "comp": "아주좋음",
+      "comp_score": 0.02,
+      "score": 40.93
+    },
+    {
       "keyword": "세라잼v6",
       "category": "생활/건강 > 안마용품 > 안마기",
       "group": "생활/건강 > 안마용품",
@@ -6021,6 +6901,17 @@
       "comp": "아주좋음",
       "comp_score": 0.02,
       "score": 40.83
+    },
+    {
+      "keyword": "녹섭",
+      "category": "패션의류 > 여성의류 > 블라우스/셔츠",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 3460,
+      "products": 84,
+      "comp": "아주좋음",
+      "comp_score": 0.02,
+      "score": 40.71
     },
     {
       "keyword": "치이카와초코박스",
@@ -6287,6 +7178,17 @@
       "score": 38.38
     },
     {
+      "keyword": "청춘공업소",
+      "category": "패션의류 > 남성의류 > 유니폼/단체복",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 460,
+      "products": 11,
+      "comp": "아주좋음",
+      "comp_score": 0.02,
+      "score": 38.33
+    },
+    {
       "keyword": "하지정맥류통증",
       "category": "생활/건강 > 재활운동용품 > 의료용압박스타킹",
       "group": "생활/건강 > 재활운동용품",
@@ -6307,6 +7209,17 @@
       "comp": "아주좋음",
       "comp_score": 0.03,
       "score": 38.19
+    },
+    {
+      "keyword": "코오롱안타티카남성",
+      "category": "패션의류 > 남성의류 > 점퍼",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 2100,
+      "products": 54,
+      "comp": "아주좋음",
+      "comp_score": 0.03,
+      "score": 38.18
     },
     {
       "keyword": "플리오마사지",
@@ -6386,6 +7299,17 @@
       "score": 37.32
     },
     {
+      "keyword": "오어슬로우m65",
+      "category": "패션의류 > 남성의류 > 아우터 > 기타코트",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 410,
+      "products": 10,
+      "comp": "아주좋음",
+      "comp_score": 0.02,
+      "score": 37.27
+    },
+    {
       "keyword": "두휴건",
       "category": "생활/건강 > 냉온/찜질용품 > 찜질팩",
       "group": "생활/건강 > 냉온/찜질용품",
@@ -6450,6 +7374,17 @@
       "comp": "아주좋음",
       "comp_score": 0.03,
       "score": 36.56
+    },
+    {
+      "keyword": "느와르라르메스",
+      "category": "패션의류 > 남성의류 > 아우터 > 레더재킷",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 10160,
+      "products": 277,
+      "comp": "아주좋음",
+      "comp_score": 0.03,
+      "score": 36.55
     },
     {
       "keyword": "다이소목욕바구니",
@@ -6650,6 +7585,17 @@
       "score": 35.24
     },
     {
+      "keyword": "아디다스제니니트",
+      "category": "패션의류 > 여성의류 > 니트 > 카디건",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 3160,
+      "products": 89,
+      "comp": "아주좋음",
+      "comp_score": 0.03,
+      "score": 35.11
+    },
+    {
       "keyword": "비염약",
       "category": "생활/건강 > 건강관리용품 > 코건강용품",
       "group": "생활/건강 > 건강관리용품",
@@ -6681,6 +7627,17 @@
       "comp": "아주좋음",
       "comp_score": 0.03,
       "score": 34.69
+    },
+    {
+      "keyword": "임영웅티셔츠",
+      "category": "패션의류 > 여성의류 > 티셔츠",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 3910,
+      "products": 112,
+      "comp": "아주좋음",
+      "comp_score": 0.03,
+      "score": 34.6
     },
     {
       "keyword": "알루바프로",
@@ -6826,6 +7783,17 @@
       "score": 33.33
     },
     {
+      "keyword": "개봉상회",
+      "category": "패션의류 > 남성의류 > 티셔츠",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 1300,
+      "products": 38,
+      "comp": "아주좋음",
+      "comp_score": 0.03,
+      "score": 33.33
+    },
+    {
       "keyword": "발란스핏ems조각튠괄사",
       "category": "생활/건강 > 건강관리용품 > 지압기",
       "group": "생활/건강 > 건강관리용품",
@@ -6881,6 +7849,28 @@
       "score": 32.54
     },
     {
+      "keyword": "대동모피",
+      "category": "패션의류 > 여성의류 > 아우터 > 기타코트",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 2370,
+      "products": 72,
+      "comp": "아주좋음",
+      "comp_score": 0.03,
+      "score": 32.47
+    },
+    {
+      "keyword": "hid부대",
+      "category": "패션의류 > 남성의류 > 유니폼/단체복",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 4990,
+      "products": 153,
+      "comp": "아주좋음",
+      "comp_score": 0.03,
+      "score": 32.4
+    },
+    {
       "keyword": "스카논겔",
       "category": "생활/건강 > 의료용품 > 구급/응급용품",
       "group": "생활/건강 > 의료용품",
@@ -6890,6 +7880,17 @@
       "comp": "아주좋음",
       "comp_score": 0.03,
       "score": 32.25
+    },
+    {
+      "keyword": "6032호-formen",
+      "category": "패션의류 > 남성의류 > 아우터 > 패딩",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 17960,
+      "products": 557,
+      "comp": "아주좋음",
+      "comp_score": 0.03,
+      "score": 32.19
     },
     {
       "keyword": "김신영냄비",
@@ -7035,6 +8036,17 @@
       "score": 31.16
     },
     {
+      "keyword": "이너프원",
+      "category": "패션의류 > 여성의류 > 블라우스/셔츠",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 7070,
+      "products": 227,
+      "comp": "아주좋음",
+      "comp_score": 0.03,
+      "score": 31.01
+    },
+    {
       "keyword": "굽은목완화기",
       "category": "생활/건강 > 재활운동용품 > 자세교정용품",
       "group": "생활/건강 > 건강관리용품",
@@ -7121,6 +8133,17 @@
       "comp": "아주좋음",
       "comp_score": 0.03,
       "score": 30.29
+    },
+    {
+      "keyword": "다이소운동복",
+      "category": "패션의류 > 남성의류 > 트레이닝복",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 1120,
+      "products": 36,
+      "comp": "아주좋음",
+      "comp_score": 0.03,
+      "score": 30.27
     },
     {
       "keyword": "폴악",
@@ -7233,6 +8256,28 @@
       "score": 29.7
     },
     {
+      "keyword": "데이지투엘",
+      "category": "패션의류 > 여성의류 > 아우터 > 후드집업",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 17570,
+      "products": 591,
+      "comp": "아주좋음",
+      "comp_score": 0.03,
+      "score": 29.68
+    },
+    {
+      "keyword": "브론슨코삭",
+      "category": "패션의류 > 남성의류 > 아우터 > 레더재킷",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 770,
+      "products": 25,
+      "comp": "아주좋음",
+      "comp_score": 0.03,
+      "score": 29.62
+    },
+    {
       "keyword": "아치스본스포츠",
       "category": "생활/건강 > 발건강용품 > 발보호대/패드",
       "group": "생활/건강 > 발건강용품",
@@ -7308,6 +8353,17 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 29.38
+    },
+    {
+      "keyword": "더누베",
+      "category": "패션의류 > 여성의류 > 아우터 > 재킷",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 2260,
+      "products": 76,
+      "comp": "아주좋음",
+      "comp_score": 0.03,
+      "score": 29.35
     },
     {
       "keyword": "데카메트린",
@@ -7475,6 +8531,17 @@
       "score": 28.54
     },
     {
+      "keyword": "yp5wh252",
+      "category": "패션의류 > 여성의류 > 아우터 > 패딩",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 880,
+      "products": 30,
+      "comp": "아주좋음",
+      "comp_score": 0.03,
+      "score": 28.39
+    },
+    {
       "keyword": "꺼먹살이키링",
       "category": "패션잡화 > 패션소품 > 키링",
       "group": "생활/건강 > 반려동물",
@@ -7495,6 +8562,28 @@
       "comp": "아주좋음",
       "comp_score": 0.03,
       "score": 28.24
+    },
+    {
+      "keyword": "마뗑킴바람막이\n",
+      "category": "패션의류 > 여성의류 > 점퍼",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 7580,
+      "products": 268,
+      "comp": "아주좋음",
+      "comp_score": 0.04,
+      "score": 28.18
+    },
+    {
+      "keyword": "다이소레깅스",
+      "category": "패션의류 > 여성의류 > 레깅스",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 930,
+      "products": 32,
+      "comp": "아주좋음",
+      "comp_score": 0.03,
+      "score": 28.18
     },
     {
       "keyword": "바리바디",
@@ -7530,6 +8619,17 @@
       "score": 28.1
     },
     {
+      "keyword": "파리생제르망팬티",
+      "category": "패션의류 > 남성언더웨어/잠옷 > 팬티",
+      "group": "패션의류 > 남성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 1430,
+      "products": 50,
+      "comp": "아주좋음",
+      "comp_score": 0.03,
+      "score": 28.04
+    },
+    {
       "keyword": "바이썸몰",
       "category": "생활/건강 > 주방용품 > 보관/밀폐용기 > 도시락가방",
       "group": "생활/건강 > 주방용품",
@@ -7539,6 +8639,17 @@
       "comp": "아주좋음",
       "comp_score": 0.03,
       "score": 28.0
+    },
+    {
+      "keyword": "손예진바지",
+      "category": "패션의류 > 여성의류 > 바지",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 810,
+      "products": 28,
+      "comp": "아주좋음",
+      "comp_score": 0.03,
+      "score": 27.93
     },
     {
       "keyword": "태국콩알치약",
@@ -7638,6 +8749,17 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 27.1
+    },
+    {
+      "keyword": "좋은날옷장",
+      "category": "패션의류 > 여성의류 > 바지",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 2300,
+      "products": 84,
+      "comp": "아주좋음",
+      "comp_score": 0.04,
+      "score": 27.06
     },
     {
       "keyword": "화관프리렌",
@@ -7781,6 +8903,17 @@
       "comp": "아주좋음",
       "comp_score": 0.04,
       "score": 26.25
+    },
+    {
+      "keyword": "소예고쟁이",
+      "category": "패션의류 > 여성언더웨어/잠옷 > 잠옷/홈웨어",
+      "group": "패션의류 > 여성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 1950,
+      "products": 74,
+      "comp": "아주좋음",
+      "comp_score": 0.04,
+      "score": 26.0
     },
     {
       "keyword": "정승제목견인기",
@@ -8058,6 +9191,17 @@
       "score": 24.84
     },
     {
+      "keyword": "아이더캄피로",
+      "category": "패션의류 > 남성의류 > 점퍼",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 2310,
+      "products": 92,
+      "comp": "아주좋음",
+      "comp_score": 0.04,
+      "score": 24.84
+    },
+    {
       "keyword": "징거미새우",
       "category": "생활/건강 > 반려동물 > 기타반려동물용품",
       "group": "생활/건강 > 관상어용품",
@@ -8111,6 +9255,17 @@
       "comp": "아주좋음",
       "comp_score": 0.04,
       "score": 24.57
+    },
+    {
+      "keyword": "닉켈하우스후드집업",
+      "category": "패션의류 > 남성의류 > 아우터 > 후드집업",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 2820,
+      "products": 114,
+      "comp": "아주좋음",
+      "comp_score": 0.04,
+      "score": 24.52
     },
     {
       "keyword": "콘부케",
@@ -8256,6 +9411,17 @@
       "score": 23.72
     },
     {
+      "keyword": "이지픽라이브",
+      "category": "패션잡화 > 여성가방 > 숄더백 | 패션잡화 > 남성가방 > 숄더백",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 3080,
+      "products": 129,
+      "comp": "아주좋음",
+      "comp_score": 0.04,
+      "score": 23.69
+    },
+    {
       "keyword": "빠이염",
       "category": "생활/건강 > 생활용품 > 세제/세정제 > 세탁보조제",
       "group": "생활/건강 > 세탁용품",
@@ -8366,6 +9532,17 @@
       "score": 23.43
     },
     {
+      "keyword": "아루드",
+      "category": "패션의류 > 여성의류 > 블라우스/셔츠",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 5790,
+      "products": 247,
+      "comp": "아주좋음",
+      "comp_score": 0.04,
+      "score": 23.35
+    },
+    {
       "keyword": "파라핀엘보",
       "category": "생활/건강 > 냉온/찜질용품 > 찜질기",
       "group": "생활/건강 > 냉온/찜질용품",
@@ -8432,6 +9609,17 @@
       "score": 23.16
     },
     {
+      "keyword": "민와일",
+      "category": "패션의류 > 여성언더웨어/잠옷 > 러닝/캐미솔",
+      "group": "패션의류 > 여성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 370,
+      "products": 15,
+      "comp": "아주좋음",
+      "comp_score": 0.04,
+      "score": 23.12
+    },
+    {
       "keyword": "다이소나무도마",
       "category": "생활/건강 > 주방용품 > 도마",
       "group": "생활/건강 > 주방용품",
@@ -8441,6 +9629,17 @@
       "comp": "아주좋음",
       "comp_score": 0.04,
       "score": 23.1
+    },
+    {
+      "keyword": "이새",
+      "category": "패션의류 > 여성의류 > 원피스",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 17640,
+      "products": 765,
+      "comp": "아주좋음",
+      "comp_score": 0.04,
+      "score": 23.03
     },
     {
       "keyword": "다이소찍찍이",
@@ -8784,6 +9983,28 @@
       "score": 21.92
     },
     {
+      "keyword": "브론슨ma-1",
+      "category": "패션의류 > 남성의류 > 점퍼",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 1830,
+      "products": 83,
+      "comp": "아주좋음",
+      "comp_score": 0.05,
+      "score": 21.79
+    },
+    {
+      "keyword": "에이치에뜨레",
+      "category": "패션의류 > 여성의류 > 바지",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 2090,
+      "products": 95,
+      "comp": "아주좋음",
+      "comp_score": 0.05,
+      "score": 21.77
+    },
+    {
       "keyword": "요기보드게임",
       "category": "생활/건강 > 수집품 > 게임 > 보드게임",
       "group": "생활/건강 > 수집품",
@@ -8793,6 +10014,17 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 21.74
+    },
+    {
+      "keyword": "파사드패턴코트",
+      "category": "패션의류 > 여성의류 > 아우터 > 기타코트",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 2280,
+      "products": 104,
+      "comp": "아주좋음",
+      "comp_score": 0.05,
+      "score": 21.71
     },
     {
       "keyword": "마츠다진페이",
@@ -8825,6 +10057,17 @@
       "products": 21,
       "comp": "",
       "comp_score": 0.04,
+      "score": 21.36
+    },
+    {
+      "keyword": "프롬라니",
+      "category": "패션의류 > 여성의류 > 티셔츠",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 4250,
+      "products": 198,
+      "comp": "아주좋음",
+      "comp_score": 0.05,
       "score": 21.36
     },
     {
@@ -8861,6 +10104,17 @@
       "score": 21.05
     },
     {
+      "keyword": "밀텍m65",
+      "category": "패션의류 > 남성의류 > 점퍼",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 820,
+      "products": 38,
+      "comp": "아주좋음",
+      "comp_score": 0.05,
+      "score": 21.03
+    },
+    {
       "keyword": "리락쿠마말랑이",
       "category": "생활/건강 > 화방용품 > 기타문구용품",
       "group": "생활/건강 > 화방용품",
@@ -8881,6 +10135,17 @@
       "comp": "아주좋음",
       "comp_score": 0.05,
       "score": 21.01
+    },
+    {
+      "keyword": "중티다스",
+      "category": "패션의류 > 남성의류 > 아우터 > 재킷",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 3670,
+      "products": 174,
+      "comp": "아주좋음",
+      "comp_score": 0.05,
+      "score": 20.97
     },
     {
       "keyword": "티리난지",
@@ -8916,6 +10181,17 @@
       "score": 20.85
     },
     {
+      "keyword": "뽀뿌리한복",
+      "category": "패션의류 > 여성의류 > 한복",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 790,
+      "products": 37,
+      "comp": "아주좋음",
+      "comp_score": 0.05,
+      "score": 20.79
+    },
+    {
       "keyword": "하이플럭스필터",
       "category": "생활/건강 > 주방용품 > 커피용품 > 여과지",
       "group": "생활/건강 > 주방용품",
@@ -8925,6 +10201,17 @@
       "comp": "아주좋음",
       "comp_score": 0.05,
       "score": 20.76
+    },
+    {
+      "keyword": "로라로라후드집업",
+      "category": "패션의류 > 여성의류 > 아우터 > 후드집업",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 560,
+      "products": 26,
+      "comp": "아주좋음",
+      "comp_score": 0.05,
+      "score": 20.74
     },
     {
       "keyword": "sbgp013",
@@ -9059,6 +10346,17 @@
       "score": 20.4
     },
     {
+      "keyword": "네셔널경량패딩",
+      "category": "패션의류 > 남성의류 > 아우터 > 패딩",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 1080,
+      "products": 52,
+      "comp": "아주좋음",
+      "comp_score": 0.05,
+      "score": 20.38
+    },
+    {
       "keyword": "바첸쿠커블웨어",
       "category": "생활/건강 > 주방용품 > 프라이팬 > 일반프라이팬",
       "group": "생활/건강 > 주방용품",
@@ -9079,6 +10377,17 @@
       "comp": "아주좋음",
       "comp_score": 0.05,
       "score": 20.34
+    },
+    {
+      "keyword": "다이소반바지",
+      "category": "패션의류 > 남성의류 > 바지",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 2460,
+      "products": 120,
+      "comp": "아주좋음",
+      "comp_score": 0.05,
+      "score": 20.33
     },
     {
       "keyword": "척골마사지기",
@@ -9222,6 +10531,17 @@
       "comp": "아주좋음",
       "comp_score": 0.05,
       "score": 19.94
+    },
+    {
+      "keyword": "팔뚝지방흡입",
+      "category": "패션의류 > 여성언더웨어/잠옷 > 보정속옷 > 기타보정속옷",
+      "group": "패션의류 > 여성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 11170,
+      "products": 561,
+      "comp": "아주좋음",
+      "comp_score": 0.05,
+      "score": 19.88
     },
     {
       "keyword": "트롤스페이퍼",
@@ -9422,6 +10742,17 @@
       "score": 18.94
     },
     {
+      "keyword": "miwckg510t",
+      "category": "패션의류 > 여성의류 > 니트 > 카디건",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 340,
+      "products": 17,
+      "comp": "아주좋음",
+      "comp_score": 0.05,
+      "score": 18.89
+    },
+    {
       "keyword": "피에브차량용탈취제",
       "category": "생활/건강 > 자동차용품 > 공기청정용품 > 차량용방향제",
       "group": "생활/건강 > 자동차용품",
@@ -9571,6 +10902,17 @@
       "period": "최근 30일",
       "search": 1070,
       "products": 57,
+      "comp": "아주좋음",
+      "comp_score": 0.05,
+      "score": 18.45
+    },
+    {
+      "keyword": "댄프",
+      "category": "패션의류 > 여성의류 > 트레이닝복",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 8430,
+      "products": 456,
       "comp": "아주좋음",
       "comp_score": 0.05,
       "score": 18.45
@@ -9829,6 +11171,17 @@
       "score": 17.8
     },
     {
+      "keyword": "다이소브라",
+      "category": "패션의류 > 여성언더웨어/잠옷 > 브라",
+      "group": "패션의류 > 여성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 2100,
+      "products": 117,
+      "comp": "아주좋음",
+      "comp_score": 0.06,
+      "score": 17.8
+    },
+    {
       "keyword": "하스타투스",
       "category": "생활/건강 > 관상어용품 > 수조장식용품",
       "group": "생활/건강 > 관상어용품",
@@ -9838,6 +11191,28 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 17.77
+    },
+    {
+      "keyword": "다이소나시",
+      "category": "패션의류 > 남성언더웨어/잠옷 > 러닝 | 출산/육아 > 유아동언더웨어/잠옷 > 러닝",
+      "group": "패션의류 > 여성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 1260,
+      "products": 70,
+      "comp": "아주좋음",
+      "comp_score": 0.06,
+      "score": 17.75
+    },
+    {
+      "keyword": "프리우먼",
+      "category": "패션의류 > 여성언더웨어/잠옷 > 팬티",
+      "group": "패션의류 > 여성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 1960,
+      "products": 110,
+      "comp": "아주좋음",
+      "comp_score": 0.06,
+      "score": 17.66
     },
     {
       "keyword": "허브랑목화랑",
@@ -9860,6 +11235,17 @@
       "comp": "아주좋음",
       "comp_score": 0.06,
       "score": 17.58
+    },
+    {
+      "keyword": "짐스파이어",
+      "category": "패션의류 > 남성의류 > 티셔츠",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 5130,
+      "products": 292,
+      "comp": "아주좋음",
+      "comp_score": 0.06,
+      "score": 17.51
     },
     {
       "keyword": "아일럽",
@@ -9893,6 +11279,17 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 17.49
+    },
+    {
+      "keyword": "티싸요",
+      "category": "패션의류 > 남성의류 > 티셔츠",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 3880,
+      "products": 221,
+      "comp": "아주좋음",
+      "comp_score": 0.06,
+      "score": 17.48
     },
     {
       "keyword": "비피돌",
@@ -9983,6 +11380,17 @@
       "score": 17.37
     },
     {
+      "keyword": "러빈데어",
+      "category": "패션의류 > 여성의류 > 스커트",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 12180,
+      "products": 702,
+      "comp": "아주좋음",
+      "comp_score": 0.06,
+      "score": 17.33
+    },
+    {
       "keyword": "소일베이커",
       "category": "생활/건강 > 주방용품 > 식기 > 접시",
       "group": "생활/건강 > 주방용품",
@@ -10038,6 +11446,17 @@
       "score": 17.23
     },
     {
+      "keyword": "민주화한복",
+      "category": "패션의류 > 여성의류 > 한복",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 860,
+      "products": 49,
+      "comp": "아주좋음",
+      "comp_score": 0.06,
+      "score": 17.2
+    },
+    {
       "keyword": "bpf캣타워",
       "category": "생활/건강 > 반려동물 > 캣타워/스크래쳐 > 캣타워/캣폴",
       "group": "생활/건강 > 반려동물",
@@ -10080,6 +11499,17 @@
       "comp": "아주좋음",
       "comp_score": 0.06,
       "score": 17.0
+    },
+    {
+      "keyword": "다이소잠옷",
+      "category": "패션의류 > 여성언더웨어/잠옷 > 잠옷/홈웨어",
+      "group": "패션의류 > 여성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 2360,
+      "products": 138,
+      "comp": "아주좋음",
+      "comp_score": 0.06,
+      "score": 16.98
     },
     {
       "keyword": "매트싹싹브러쉬",
@@ -10291,6 +11721,17 @@
       "score": 16.45
     },
     {
+      "keyword": "루에브르블라우스",
+      "category": "패션의류 > 여성의류 > 블라우스/셔츠",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 2550,
+      "products": 154,
+      "comp": "아주좋음",
+      "comp_score": 0.06,
+      "score": 16.45
+    },
+    {
       "keyword": "헬켄롤링카트",
       "category": "생활/건강 > 생활용품 > 생활잡화 > 핸드카트",
       "group": "생활/건강 > 생활용품",
@@ -10322,6 +11763,17 @@
       "comp": "아주좋음",
       "comp_score": 0.06,
       "score": 16.36
+    },
+    {
+      "keyword": "헨리코튼파일럿코트",
+      "category": "패션의류 > 남성의류 > 아우터 > 기타코트",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 1030,
+      "products": 62,
+      "comp": "아주좋음",
+      "comp_score": 0.06,
+      "score": 16.35
     },
     {
       "keyword": "실리프랑찜기",
@@ -10379,6 +11831,17 @@
       "score": 16.1
     },
     {
+      "keyword": "손나은레깅스",
+      "category": "패션의류 > 여성의류 > 레깅스",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 660,
+      "products": 40,
+      "comp": "아주좋음",
+      "comp_score": 0.06,
+      "score": 16.1
+    },
+    {
       "keyword": "오아스마트에어펌프",
       "category": "생활/건강 > 자동차용품 > 타이어/휠 > 타이어용품",
       "group": "생활/건강 > 자동차용품",
@@ -10419,6 +11882,17 @@
       "search": 990,
       "products": 61,
       "comp": "",
+      "comp_score": 0.06,
+      "score": 15.97
+    },
+    {
+      "keyword": "아모프레",
+      "category": "패션의류 > 남성의류 > 청바지",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 2060,
+      "products": 128,
+      "comp": "아주좋음",
       "comp_score": 0.06,
       "score": 15.97
     },
@@ -10520,6 +11994,17 @@
       "comp": "아주좋음",
       "comp_score": 0.06,
       "score": 15.59
+    },
+    {
+      "keyword": "편의점우비",
+      "category": "패션의류 > 남성의류 > 아우터 > 레인코트",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 1150,
+      "products": 73,
+      "comp": "아주좋음",
+      "comp_score": 0.06,
+      "score": 15.54
     },
     {
       "keyword": "오젠타",
@@ -10742,6 +12227,17 @@
       "score": 15.12
     },
     {
+      "keyword": "플리츠플리즈9월",
+      "category": "패션의류 > 여성의류 > 티셔츠",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 8420,
+      "products": 557,
+      "comp": "아주좋음",
+      "comp_score": 0.07,
+      "score": 15.09
+    },
+    {
       "keyword": "치이카와앉은누이2탄",
       "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
       "group": "생활/건강 > 수집품",
@@ -10783,6 +12279,17 @@
       "products": 35,
       "comp": "아주좋음",
       "comp_score": 0.06,
+      "score": 15.0
+    },
+    {
+      "keyword": "데이지신드롬",
+      "category": "패션의류 > 여성의류 > 아우터 > 재킷",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 870,
+      "products": 57,
+      "comp": "아주좋음",
+      "comp_score": 0.07,
       "score": 15.0
     },
     {
@@ -10841,6 +12348,17 @@
       "score": 14.86
     },
     {
+      "keyword": "파사드패턴하프코트",
+      "category": "패션의류 > 여성의류 > 아우터 > 기타코트",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 550,
+      "products": 36,
+      "comp": "아주좋음",
+      "comp_score": 0.07,
+      "score": 14.86
+    },
+    {
       "keyword": "귀침주얼패치",
       "category": "화장품/미용 > 뷰티소품 > 페이스소품 > 기타페이스소품",
       "group": "생활/건강 > 건강관리용품",
@@ -10894,6 +12412,17 @@
       "comp": "아주좋음",
       "comp_score": 0.07,
       "score": 14.68
+    },
+    {
+      "keyword": "시너진",
+      "category": "패션의류 > 여성의류 > 청바지",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 8000,
+      "products": 546,
+      "comp": "아주좋음",
+      "comp_score": 0.07,
+      "score": 14.63
     },
     {
       "keyword": "벤츄라칩",
@@ -11072,6 +12601,17 @@
       "score": 14.21
     },
     {
+      "keyword": "헤세드로카티",
+      "category": "패션의류 > 남성의류 > 티셔츠",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 2530,
+      "products": 177,
+      "comp": "아주좋음",
+      "comp_score": 0.07,
+      "score": 14.21
+    },
+    {
       "keyword": "로렌츠사료",
       "category": "생활/건강 > 반려동물 > 강아지 사료 > 건식사료",
       "group": "생활/건강 > 반려동물",
@@ -11182,6 +12722,28 @@
       "score": 14.0
     },
     {
+      "keyword": "ih0746-010",
+      "category": "패션의류 > 남성의류 > 트레이닝복",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 1440,
+      "products": 102,
+      "comp": "아주좋음",
+      "comp_score": 0.07,
+      "score": 13.98
+    },
+    {
+      "keyword": "르페브라",
+      "category": "패션의류 > 여성언더웨어/잠옷 > 브라",
+      "group": "패션의류 > 여성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 8350,
+      "products": 598,
+      "comp": "아주좋음",
+      "comp_score": 0.07,
+      "score": 13.94
+    },
+    {
       "keyword": "라비에플레이팅팬",
       "category": "생활/건강 > 주방용품 > 프라이팬 > 프라이팬세트",
       "group": "생활/건강 > 주방용품",
@@ -11237,6 +12799,17 @@
       "score": 13.82
     },
     {
+      "keyword": "마르디메크르디가디건",
+      "category": "패션의류 > 여성의류 > 니트 > 카디건",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 1090,
+      "products": 78,
+      "comp": "아주좋음",
+      "comp_score": 0.07,
+      "score": 13.8
+    },
+    {
       "keyword": "비염가글",
       "category": "생활/건강 > 구강위생용품 > 구강청정제/가글",
       "group": "생활/건강 > 구강위생용품",
@@ -11257,6 +12830,28 @@
       "comp": "아주좋음",
       "comp_score": 0.07,
       "score": 13.79
+    },
+    {
+      "keyword": "코코힐즈",
+      "category": "패션의류 > 남성의류 > 니트 > 베스트 | 패션의류 > 남성의류 > 아우터 > 베스트 | 패션의류 > 여성의류 > 니트 > 베스트 | 패션의류 > 여성의류 > 아우터 > 베스트",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 2480,
+      "products": 179,
+      "comp": "아주좋음",
+      "comp_score": 0.07,
+      "score": 13.78
+    },
+    {
+      "keyword": "포레스트티셔츠",
+      "category": "패션의류 > 여성의류 > 티셔츠",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 510,
+      "products": 36,
+      "comp": "아주좋음",
+      "comp_score": 0.07,
+      "score": 13.78
     },
     {
       "keyword": "로보킬",
@@ -11358,6 +12953,17 @@
       "score": 13.54
     },
     {
+      "keyword": "박하드로즈",
+      "category": "패션의류 > 남성언더웨어/잠옷 > 팬티",
+      "group": "패션의류 > 남성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 3180,
+      "products": 234,
+      "comp": "아주좋음",
+      "comp_score": 0.07,
+      "score": 13.53
+    },
+    {
       "keyword": "법구경",
       "category": "생활/건강 > 종교 > 불교용품",
       "group": "생활/건강 > 블루레이",
@@ -11389,6 +12995,28 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 13.49
+    },
+    {
+      "keyword": "숏마이피그",
+      "category": "패션의류 > 여성의류 > 바지",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 4080,
+      "products": 302,
+      "comp": "아주좋음",
+      "comp_score": 0.07,
+      "score": 13.47
+    },
+    {
+      "keyword": "제라도301exx",
+      "category": "패션의류 > 남성의류 > 청바지",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 1520,
+      "products": 112,
+      "comp": "아주좋음",
+      "comp_score": 0.07,
+      "score": 13.45
     },
     {
       "keyword": "벤딕트와이퍼",
@@ -11523,6 +13151,17 @@
       "score": 13.24
     },
     {
+      "keyword": "노앙후드집업",
+      "category": "패션의류 > 여성의류 > 아우터 > 재킷",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 1640,
+      "products": 123,
+      "comp": "아주좋음",
+      "comp_score": 0.07,
+      "score": 13.23
+    },
+    {
       "keyword": "코코라커",
       "category": "생활/건강 > 주방용품 > 보관/밀폐용기 > 도시락통/찬합",
       "group": "생활/건강 > 주방용품",
@@ -11611,6 +13250,17 @@
       "score": 13.02
     },
     {
+      "keyword": "진도모피",
+      "category": "패션의류 > 여성의류 > 아우터 > 재킷",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 8350,
+      "products": 641,
+      "comp": "아주좋음",
+      "comp_score": 0.08,
+      "score": 13.01
+    },
+    {
       "keyword": "하투하인형",
       "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 모형",
       "group": "생활/건강 > 수집품",
@@ -11620,6 +13270,17 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 12.99
+    },
+    {
+      "keyword": "히말라야스킨",
+      "category": "패션의류 > 남성언더웨어/잠옷 > 팬티",
+      "group": "패션의류 > 남성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 480,
+      "products": 36,
+      "comp": "아주좋음",
+      "comp_score": 0.07,
+      "score": 12.97
     },
     {
       "keyword": "백악관탈취제",
@@ -11677,6 +13338,17 @@
       "score": 12.89
     },
     {
+      "keyword": "타임옴므코트",
+      "category": "패션의류 > 남성의류 > 아우터 > 패딩",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 1070,
+      "products": 82,
+      "comp": "아주좋음",
+      "comp_score": 0.08,
+      "score": 12.89
+    },
+    {
       "keyword": "더티린넨",
       "category": "생활/건강 > 생활용품 > 제습/방향/탈취 > 실내탈취제",
       "group": "생활/건강 > 자동차용품",
@@ -11721,6 +13393,17 @@
       "score": 12.82
     },
     {
+      "keyword": "하이영",
+      "category": "패션의류 > 여성의류 > 스커트",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 2190,
+      "products": 170,
+      "comp": "아주좋음",
+      "comp_score": 0.08,
+      "score": 12.81
+    },
+    {
       "keyword": "세라던스",
       "category": "생활/건강 > 안마용품 > 안마기",
       "group": "생활/건강 > 안마용품",
@@ -11741,6 +13424,17 @@
       "comp": "아주좋음",
       "comp_score": 0.08,
       "score": 12.69
+    },
+    {
+      "keyword": "로엘드마리",
+      "category": "패션의류 > 여성의류 > 파티복",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 2480,
+      "products": 195,
+      "comp": "아주좋음",
+      "comp_score": 0.08,
+      "score": 12.65
     },
     {
       "keyword": "버티탭",
@@ -11886,6 +13580,39 @@
       "score": 12.48
     },
     {
+      "keyword": "유니클로배기커브진",
+      "category": "패션의류 > 여성의류 > 청바지",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 6740,
+      "products": 539,
+      "comp": "아주좋음",
+      "comp_score": 0.08,
+      "score": 12.48
+    },
+    {
+      "keyword": "파사드패턴발마칸코트",
+      "category": "패션의류 > 남성의류 > 아우터 > 기타코트",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 510,
+      "products": 40,
+      "comp": "아주좋음",
+      "comp_score": 0.08,
+      "score": 12.44
+    },
+    {
+      "keyword": "프릭스스토어m65",
+      "category": "패션의류 > 남성의류 > 점퍼",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 9060,
+      "products": 729,
+      "comp": "아주좋음",
+      "comp_score": 0.08,
+      "score": 12.41
+    },
+    {
       "keyword": "유재하lp",
       "category": "생활/건강 > 수집품 > LP",
       "group": "생활/건강 > 수집품",
@@ -11917,6 +13644,17 @@
       "comp": "아주좋음",
       "comp_score": 0.08,
       "score": 12.33
+    },
+    {
+      "keyword": "카인다미청바지",
+      "category": "패션의류 > 여성의류 > 청바지",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 3100,
+      "products": 251,
+      "comp": "아주좋음",
+      "comp_score": 0.08,
+      "score": 12.3
     },
     {
       "keyword": "강주은가위",
@@ -11974,6 +13712,28 @@
       "score": 12.23
     },
     {
+      "keyword": "여에스더잠옷",
+      "category": "패션의류 > 여성언더웨어/잠옷 > 잠옷/홈웨어",
+      "group": "패션의류 > 여성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 1490,
+      "products": 121,
+      "comp": "아주좋음",
+      "comp_score": 0.08,
+      "score": 12.21
+    },
+    {
+      "keyword": "알로바람막이",
+      "category": "패션의류 > 여성의류 > 아우터 > 재킷",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 3400,
+      "products": 278,
+      "comp": "아주좋음",
+      "comp_score": 0.08,
+      "score": 12.19
+    },
+    {
       "keyword": "리터제로",
       "category": "생활/건강 > 반려동물 > 고양이 배변용품 > 분변통/모래삽",
       "group": "생활/건강 > 반려동물",
@@ -11983,6 +13743,28 @@
       "comp": "아주좋음",
       "comp_score": 0.08,
       "score": 12.17
+    },
+    {
+      "keyword": "레사빔한복",
+      "category": "패션의류 > 여성의류 > 한복",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 450,
+      "products": 36,
+      "comp": "아주좋음",
+      "comp_score": 0.08,
+      "score": 12.16
+    },
+    {
+      "keyword": "유인어스",
+      "category": "패션의류 > 여성의류 > 블라우스/셔츠",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 9660,
+      "products": 796,
+      "comp": "아주좋음",
+      "comp_score": 0.08,
+      "score": 12.12
     },
     {
       "keyword": "티눈약",
@@ -12005,6 +13787,28 @@
       "comp": "아주좋음",
       "comp_score": 0.08,
       "score": 12.02
+    },
+    {
+      "keyword": "kv5403",
+      "category": "패션의류 > 여성의류 > 트레이닝복",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 1210,
+      "products": 100,
+      "comp": "아주좋음",
+      "comp_score": 0.08,
+      "score": 11.98
+    },
+    {
+      "keyword": "iz4801",
+      "category": "패션의류 > 남성의류 > 트레이닝복",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 1290,
+      "products": 107,
+      "comp": "아주좋음",
+      "comp_score": 0.08,
+      "score": 11.94
     },
     {
       "keyword": "독일졸링겐야채칼",
@@ -12172,6 +13976,17 @@
       "score": 11.57
     },
     {
+      "keyword": "포테이프",
+      "category": "패션의류 > 여성의류 > 바지",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 3130,
+      "products": 271,
+      "comp": "아주좋음",
+      "comp_score": 0.09,
+      "score": 11.51
+    },
+    {
       "keyword": "무디타채칼",
       "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 채칼/필러",
       "group": "생활/건강 > 주방용품",
@@ -12192,6 +14007,28 @@
       "comp": "아주좋음",
       "comp_score": 0.09,
       "score": 11.46
+    },
+    {
+      "keyword": "코튼홀릭",
+      "category": "패션의류 > 여성의류 > 블라우스/셔츠",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 3340,
+      "products": 292,
+      "comp": "아주좋음",
+      "comp_score": 0.09,
+      "score": 11.4
+    },
+    {
+      "keyword": "z254msg507",
+      "category": "패션의류 > 여성의류 > 아우터 > 기타코트",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 490,
+      "products": 42,
+      "comp": "아주좋음",
+      "comp_score": 0.09,
+      "score": 11.4
     },
     {
       "keyword": "바디프렌드렌탈",
@@ -12304,6 +14141,17 @@
       "score": 11.09
     },
     {
+      "keyword": "네메르가죽자켓",
+      "category": "패션의류 > 여성의류 > 아우터 > 레더재킷",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 710,
+      "products": 63,
+      "comp": "아주좋음",
+      "comp_score": 0.09,
+      "score": 11.09
+    },
+    {
       "keyword": "코코지아띠정리함",
       "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 보관용품",
       "group": "생활/건강 > 수집품",
@@ -12368,6 +14216,17 @@
       "comp": "아주좋음",
       "comp_score": 0.09,
       "score": 11.0
+    },
+    {
+      "keyword": "동우모피",
+      "category": "패션의류 > 여성의류 > 아우터 > 재킷",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 2270,
+      "products": 206,
+      "comp": "아주좋음",
+      "comp_score": 0.09,
+      "score": 10.97
     },
     {
       "keyword": "레미니",
@@ -12447,12 +14306,34 @@
       "score": 10.91
     },
     {
+      "keyword": "림앤블룸",
+      "category": "패션의류 > 여성의류 > 티셔츠",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 720,
+      "products": 65,
+      "comp": "아주좋음",
+      "comp_score": 0.09,
+      "score": 10.91
+    },
+    {
       "keyword": "그라노비아",
       "category": "생활/건강 > 원예/식물 > 다육식물",
       "group": "생활/건강 > 원예/식물",
       "period": "최근 30일",
       "search": 1240,
       "products": 113,
+      "comp": "아주좋음",
+      "comp_score": 0.09,
+      "score": 10.88
+    },
+    {
+      "keyword": "다낭팬티",
+      "category": "패션의류 > 여성언더웨어/잠옷 > 팬티",
+      "group": "패션의류 > 여성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 1110,
+      "products": 101,
       "comp": "아주좋음",
       "comp_score": 0.09,
       "score": 10.88
@@ -12476,6 +14357,17 @@
       "search": 520,
       "products": 47,
       "comp": "",
+      "comp_score": 0.09,
+      "score": 10.83
+    },
+    {
+      "keyword": "시리즈라파예트",
+      "category": "패션의류 > 남성의류 > 점퍼",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 1440,
+      "products": 132,
+      "comp": "아주좋음",
       "comp_score": 0.09,
       "score": 10.83
     },
@@ -12590,6 +14482,17 @@
       "score": 10.67
     },
     {
+      "keyword": "ld8922",
+      "category": "패션의류 > 여성의류 > 트레이닝복",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 540,
+      "products": 50,
+      "comp": "아주좋음",
+      "comp_score": 0.09,
+      "score": 10.59
+    },
+    {
       "keyword": "ems슬림벨트",
       "category": "생활/건강 > 물리치료/저주파용품 > 저주파안마기",
       "group": "생활/건강 > 물리치료/저주파용품",
@@ -12643,6 +14546,28 @@
       "comp": "아주좋음",
       "comp_score": 0.09,
       "score": 10.52
+    },
+    {
+      "keyword": "mukha",
+      "category": "패션의류 > 여성의류 > 니트 > 터틀넥",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 640,
+      "products": 60,
+      "comp": "아주좋음",
+      "comp_score": 0.09,
+      "score": 10.49
+    },
+    {
+      "keyword": "해칭스커트",
+      "category": "패션의류 > 여성의류 > 스커트",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 450,
+      "products": 42,
+      "comp": "아주좋음",
+      "comp_score": 0.09,
+      "score": 10.47
     },
     {
       "keyword": "퍼즈팩토리",
@@ -12755,6 +14680,17 @@
       "score": 10.3
     },
     {
+      "keyword": "짐슬레져",
+      "category": "패션의류 > 남성의류 > 트레이닝복",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 1690,
+      "products": 163,
+      "comp": "아주좋음",
+      "comp_score": 0.1,
+      "score": 10.3
+    },
+    {
       "keyword": "에코센스히트락14종",
       "category": "생활/건강 > 주방용품 > 보관/밀폐용기 > 플라스틱용기세트",
       "group": "생활/건강 > 주방용품",
@@ -12843,6 +14779,17 @@
       "score": 10.18
     },
     {
+      "keyword": "셀룰라이트압박드로즈",
+      "category": "패션의류 > 여성언더웨어/잠옷 > 보정속옷 > 거들",
+      "group": "패션의류 > 여성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 710,
+      "products": 69,
+      "comp": "아주좋음",
+      "comp_score": 0.1,
+      "score": 10.14
+    },
+    {
       "keyword": "독일졸링겐채칼",
       "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 채칼/필러",
       "group": "생활/건강 > 주방용품",
@@ -12920,6 +14867,17 @@
       "score": 10.04
     },
     {
+      "keyword": "가나디티셔츠",
+      "category": "패션의류 > 남성의류 > 티셔츠",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 4890,
+      "products": 486,
+      "comp": "아주좋음",
+      "comp_score": 0.1,
+      "score": 10.04
+    },
+    {
       "keyword": "얼굴비대칭교정",
       "category": "생활/건강 > 구강위생용품 > 마우스피스",
       "group": "생활/건강 > 구강위생용품",
@@ -12986,6 +14944,17 @@
       "score": 10.0
     },
     {
+      "keyword": "라삐아프데님팬츠",
+      "category": "패션의류 > 여성의류 > 청바지",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 1450,
+      "products": 144,
+      "comp": "아주좋음",
+      "comp_score": 0.1,
+      "score": 10.0
+    },
+    {
       "keyword": "시리츠",
       "category": "생활/건강 > 주방용품 > 식기 > 접시",
       "group": "생활/건강 > 주방용품",
@@ -12995,6 +14964,17 @@
       "comp": "아주좋음",
       "comp_score": 0.1,
       "score": 9.98
+    },
+    {
+      "keyword": "앙블리",
+      "category": "패션의류 > 여성언더웨어/잠옷 > 브라",
+      "group": "패션의류 > 여성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 3390,
+      "products": 339,
+      "comp": "아주좋음",
+      "comp_score": 0.1,
+      "score": 9.97
     },
     {
       "keyword": "일본변기방향제",
@@ -13127,6 +15107,17 @@
       "comp": "아주좋음",
       "comp_score": 0.1,
       "score": 9.75
+    },
+    {
+      "keyword": "미쏘트렌치코트",
+      "category": "패션의류 > 여성의류 > 아우터 > 트렌치코트",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 2580,
+      "products": 264,
+      "comp": "아주좋음",
+      "comp_score": 0.1,
+      "score": 9.74
     },
     {
       "keyword": "랜가드후드필터",
@@ -13360,6 +15351,28 @@
       "score": 9.45
     },
     {
+      "keyword": "타타미가디건",
+      "category": "패션의류 > 여성의류 > 니트 > 카디건",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 1590,
+      "products": 168,
+      "comp": "아주좋음",
+      "comp_score": 0.11,
+      "score": 9.41
+    },
+    {
+      "keyword": "다이소팬티",
+      "category": "패션의류 > 남성언더웨어/잠옷 > 팬티",
+      "group": "패션의류 > 남성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 2860,
+      "products": 303,
+      "comp": "아주좋음",
+      "comp_score": 0.11,
+      "score": 9.41
+    },
+    {
       "keyword": "네오폭시",
       "category": "생활/건강 > 공구 > 수작업공구 > 기타수작업공구",
       "group": "생활/건강 > 공구",
@@ -13391,6 +15404,28 @@
       "comp": "아주좋음",
       "comp_score": 0.1,
       "score": 9.38
+    },
+    {
+      "keyword": "lbl양모자켓",
+      "category": "패션의류 > 여성의류 > 아우터 > 무스탕",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 730,
+      "products": 77,
+      "comp": "아주좋음",
+      "comp_score": 0.11,
+      "score": 9.36
+    },
+    {
+      "keyword": "아더에러반팔",
+      "category": "패션의류 > 남성의류 > 티셔츠",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 6690,
+      "products": 714,
+      "comp": "아주좋음",
+      "comp_score": 0.11,
+      "score": 9.36
     },
     {
       "keyword": "한의비책",
@@ -13435,6 +15470,17 @@
       "comp": "아주좋음",
       "comp_score": 0.11,
       "score": 9.3
+    },
+    {
+      "keyword": "소라노후드티",
+      "category": "패션의류 > 남성의류 > 티셔츠",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 2340,
+      "products": 251,
+      "comp": "아주좋음",
+      "comp_score": 0.11,
+      "score": 9.29
     },
     {
       "keyword": "운동화국민필터",
@@ -13545,6 +15591,17 @@
       "comp": "아주좋음",
       "comp_score": 0.11,
       "score": 9.22
+    },
+    {
+      "keyword": "kb5441",
+      "category": "패션의류 > 남성의류 > 트레이닝복",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 820,
+      "products": 88,
+      "comp": "아주좋음",
+      "comp_score": 0.11,
+      "score": 9.21
     },
     {
       "keyword": "인포카",
@@ -13712,12 +15769,34 @@
       "score": 8.85
     },
     {
+      "keyword": "아베크롬비후드집업",
+      "category": "패션의류 > 남성의류 > 아우터 > 후드집업",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 7260,
+      "products": 821,
+      "comp": "아주좋음",
+      "comp_score": 0.11,
+      "score": 8.83
+    },
+    {
       "keyword": "바고z",
       "category": "생활/건강 > 수납/정리용품 > 압축팩",
       "group": "생활/건강 > 수납/정리용품",
       "period": "최근 30일",
       "search": 600,
       "products": 67,
+      "comp": "아주좋음",
+      "comp_score": 0.11,
+      "score": 8.82
+    },
+    {
+      "keyword": "잘만브라",
+      "category": "패션의류 > 여성언더웨어/잠옷 > 브라",
+      "group": "패션의류 > 여성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 1350,
+      "products": 152,
       "comp": "아주좋음",
       "comp_score": 0.11,
       "score": 8.82
@@ -13844,6 +15923,17 @@
       "score": 8.73
     },
     {
+      "keyword": "왼그기그티셔츠",
+      "category": "패션의류 > 남성의류 > 티셔츠",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 2880,
+      "products": 329,
+      "comp": "아주좋음",
+      "comp_score": 0.11,
+      "score": 8.73
+    },
+    {
       "keyword": "프리즘스톤",
       "category": "생활/건강 > 문구/사무용품 > 문구용품 > 기타문구용품",
       "group": "생활/건강 > 수집품",
@@ -13863,6 +15953,17 @@
       "products": 852,
       "comp": "아주좋음",
       "comp_score": null,
+      "score": 8.68
+    },
+    {
+      "keyword": "현이츄",
+      "category": "패션의류 > 여성언더웨어/잠옷 > 속치마/속바지",
+      "group": "패션의류 > 여성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 3080,
+      "products": 354,
+      "comp": "아주좋음",
+      "comp_score": 0.11,
       "score": 8.68
     },
     {
@@ -13943,6 +16044,17 @@
       "score": 8.6
     },
     {
+      "keyword": "마봄",
+      "category": "패션의류 > 여성의류 > 티셔츠",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 4250,
+      "products": 493,
+      "comp": "아주좋음",
+      "comp_score": 0.12,
+      "score": 8.6
+    },
+    {
       "keyword": "버그넷버그킥",
       "category": "생활/건강 > 생활용품 > 해충퇴치용품 > 에어졸/스프레이",
       "group": "생활/건강 > 생활용품",
@@ -13952,6 +16064,17 @@
       "comp": "아주좋음",
       "comp_score": 0.11,
       "score": 8.57
+    },
+    {
+      "keyword": "a7223-0010",
+      "category": "패션의류 > 남성의류 > 청바지",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 460,
+      "products": 53,
+      "comp": "아주좋음",
+      "comp_score": 0.12,
+      "score": 8.52
     },
     {
       "keyword": "너클렉스",
@@ -13982,6 +16105,17 @@
       "period": "최근 30일",
       "search": 3180,
       "products": 374,
+      "comp": "아주좋음",
+      "comp_score": 0.12,
+      "score": 8.48
+    },
+    {
+      "keyword": "4028/179/654",
+      "category": "패션의류 > 남성의류 > 아우터 > 재킷",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 390,
+      "products": 45,
       "comp": "아주좋음",
       "comp_score": 0.12,
       "score": 8.48
@@ -14251,6 +16385,17 @@
       "score": 8.22
     },
     {
+      "keyword": "토마스모어페이퍼셔츠",
+      "category": "패션의류 > 남성의류 > 셔츠/남방",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 780,
+      "products": 94,
+      "comp": "아주좋음",
+      "comp_score": 0.12,
+      "score": 8.21
+    },
+    {
       "keyword": "흰둥이밥그릇",
       "category": "생활/건강 > 주방용품 > 식기 > 접시",
       "group": "생활/건강 > 주방용품",
@@ -14449,6 +16594,17 @@
       "score": 7.94
     },
     {
+      "keyword": "어바웃인잇",
+      "category": "패션의류 > 여성언더웨어/잠옷 > 잠옷/홈웨어",
+      "group": "패션의류 > 여성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 610,
+      "products": 76,
+      "comp": "아주좋음",
+      "comp_score": 0.12,
+      "score": 7.92
+    },
+    {
       "keyword": "코로나검사키트",
       "category": "생활/건강 > 건강관리용품 > 기타건강관리용품",
       "group": "생활/건강 > 건강측정용품",
@@ -14513,6 +16669,39 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 7.83
+    },
+    {
+      "keyword": "lbl무스탕",
+      "category": "패션의류 > 여성의류 > 아우터 > 무스탕",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 640,
+      "products": 81,
+      "comp": "아주좋음",
+      "comp_score": 0.13,
+      "score": 7.8
+    },
+    {
+      "keyword": "무스너클버니스웨터",
+      "category": "패션의류 > 여성의류 > 아우터 > 후드집업",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 950,
+      "products": 121,
+      "comp": "아주좋음",
+      "comp_score": 0.13,
+      "score": 7.79
+    },
+    {
+      "keyword": "폴로피마코튼가디건",
+      "category": "패션의류 > 여성의류 > 니트 > 카디건",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 2030,
+      "products": 260,
+      "comp": "아주좋음",
+      "comp_score": 0.13,
+      "score": 7.78
     },
     {
       "keyword": "tpe인형접착제",
@@ -14603,6 +16792,28 @@
       "score": 7.69
     },
     {
+      "keyword": "널디져지",
+      "category": "패션의류 > 남성의류 > 트레이닝복",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 1400,
+      "products": 181,
+      "comp": "아주좋음",
+      "comp_score": 0.13,
+      "score": 7.69
+    },
+    {
+      "keyword": "몽클바람막이",
+      "category": "패션의류 > 여성의류 > 아우터 > 재킷",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 2630,
+      "products": 343,
+      "comp": "아주좋음",
+      "comp_score": 0.13,
+      "score": 7.65
+    },
+    {
       "keyword": "황근",
       "category": "생활/건강 > 원예/식물 > 씨앗/모종",
       "group": "생활/건강 > 원예/식물",
@@ -14620,6 +16831,17 @@
       "period": "최근 30일",
       "search": 6230,
       "products": 817,
+      "comp": "아주좋음",
+      "comp_score": 0.13,
+      "score": 7.62
+    },
+    {
+      "keyword": "sactc1561",
+      "category": "패션의류 > 여성의류 > 아우터 > 숏코트",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 320,
+      "products": 41,
       "comp": "아주좋음",
       "comp_score": 0.13,
       "score": 7.62
@@ -14656,6 +16878,28 @@
       "comp": "아주좋음",
       "comp_score": 0.13,
       "score": 7.6
+    },
+    {
+      "keyword": "미쏘워크자켓",
+      "category": "패션의류 > 여성의류 > 아우터 > 재킷",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 440,
+      "products": 57,
+      "comp": "아주좋음",
+      "comp_score": 0.13,
+      "score": 7.59
+    },
+    {
+      "keyword": "517라이징선",
+      "category": "패션의류 > 남성의류 > 청바지",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 410,
+      "products": 53,
+      "comp": "아주좋음",
+      "comp_score": 0.13,
+      "score": 7.59
     },
     {
       "keyword": "태권브이",
@@ -14787,6 +17031,17 @@
       "products": 697,
       "comp": "아주좋음",
       "comp_score": null,
+      "score": 7.44
+    },
+    {
+      "keyword": "6032호",
+      "category": "패션의류 > 남성의류 > 니트 > 풀오버",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 4160,
+      "products": 558,
+      "comp": "아주좋음",
+      "comp_score": 0.13,
       "score": 7.44
     },
     {
@@ -14955,6 +17210,17 @@
       "score": 7.31
     },
     {
+      "keyword": "아더에러후드집업",
+      "category": "패션의류 > 남성의류 > 아우터 > 후드집업",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 4640,
+      "products": 635,
+      "comp": "아주좋음",
+      "comp_score": 0.14,
+      "score": 7.3
+    },
+    {
       "keyword": "뉴로스틱",
       "category": "생활/건강 > 건강관리용품 > 지압기",
       "group": "생활/건강 > 건강관리용품",
@@ -14977,6 +17243,17 @@
       "score": 7.28
     },
     {
+      "keyword": "도프제이슨무스탕",
+      "category": "패션의류 > 남성의류 > 아우터 > 무스탕",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 720,
+      "products": 98,
+      "comp": "아주좋음",
+      "comp_score": 0.14,
+      "score": 7.27
+    },
+    {
       "keyword": "애니밴드",
       "category": "생활/건강 > 의료용품 > 구급/응급용품",
       "group": "생활/건강 > 의료용품",
@@ -14986,6 +17263,17 @@
       "comp": "아주좋음",
       "comp_score": 0.14,
       "score": 7.26
+    },
+    {
+      "keyword": "폴로바라쿠다자켓",
+      "category": "패션의류 > 남성의류 > 아우터 > 재킷",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 1910,
+      "products": 263,
+      "comp": "아주좋음",
+      "comp_score": 0.14,
+      "score": 7.23
     },
     {
       "keyword": "mgsd데스티니",
@@ -15076,6 +17364,17 @@
       "score": 7.12
     },
     {
+      "keyword": "킴므",
+      "category": "패션의류 > 여성언더웨어/잠옷 > 보정속옷 > 니퍼/복대",
+      "group": "패션의류 > 여성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 1490,
+      "products": 209,
+      "comp": "아주좋음",
+      "comp_score": 0.14,
+      "score": 7.1
+    },
+    {
       "keyword": "자이탄소펜",
       "category": "생활/건강 > 화방용품 > 연필",
       "group": "생활/건강 > 화방용품",
@@ -15096,6 +17395,28 @@
       "comp": "아주좋음",
       "comp_score": 0.14,
       "score": 7.08
+    },
+    {
+      "keyword": "레이브가죽자켓",
+      "category": "패션의류 > 여성의류 > 아우터 > 레더재킷",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 580,
+      "products": 81,
+      "comp": "아주좋음",
+      "comp_score": 0.14,
+      "score": 7.07
+    },
+    {
+      "keyword": "6032포맨",
+      "category": "패션의류 > 남성의류 > 청바지",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 450,
+      "products": 63,
+      "comp": "아주좋음",
+      "comp_score": 0.14,
+      "score": 7.03
     },
     {
       "keyword": "기도폐쇄응급키트",
@@ -15129,6 +17450,17 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 6.99
+    },
+    {
+      "keyword": "ib6948",
+      "category": "패션의류 > 남성의류 > 아우터 > 재킷",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 1360,
+      "products": 194,
+      "comp": "아주좋음",
+      "comp_score": 0.14,
+      "score": 6.97
     },
     {
       "keyword": "라티티",
@@ -15249,6 +17581,17 @@
       "products": 68,
       "comp": "아주좋음",
       "comp_score": null,
+      "score": 6.81
+    },
+    {
+      "keyword": "파운더스블라우스",
+      "category": "패션의류 > 여성의류 > 블라우스/셔츠",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 1690,
+      "products": 247,
+      "comp": "아주좋음",
+      "comp_score": 0.15,
       "score": 6.81
     },
     {
@@ -15395,6 +17738,17 @@
       "score": 6.73
     },
     {
+      "keyword": "무아뱅",
+      "category": "패션의류 > 여성의류 > 코디세트",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 1540,
+      "products": 228,
+      "comp": "아주좋음",
+      "comp_score": 0.15,
+      "score": 6.72
+    },
+    {
       "keyword": "스칸디나비안텀블러",
       "category": "생활/건강 > 주방용품 > 잔/컵 > 텀블러",
       "group": "생활/건강 > 주방용품",
@@ -15505,6 +17859,17 @@
       "score": 6.57
     },
     {
+      "keyword": "다이소바지",
+      "category": "패션의류 > 남성의류 > 바지",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 2650,
+      "products": 403,
+      "comp": "아주좋음",
+      "comp_score": 0.15,
+      "score": 6.56
+    },
+    {
       "keyword": "모아람",
       "category": "생활/건강 > 주방용품 > 보관/밀폐용기 > 기타보관용기",
       "group": "생활/건강 > 주방용품",
@@ -15522,6 +17887,17 @@
       "period": "최근 30일",
       "search": 360,
       "products": 54,
+      "comp": "아주좋음",
+      "comp_score": 0.15,
+      "score": 6.55
+    },
+    {
+      "keyword": "소담비풍기인견",
+      "category": "출산/육아 > 유아동의류 > 원피스 | 출산/육아 > 임부복 > 원피스 | 패션의류 > 여성의류 > 원피스 | 스포츠/레저 > 수영 > 비치웨어 > 원피스 | 스포츠/레저 > 골프 > 골프의류 > 원피스",
+      "group": "패션의류 > 여성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 380,
+      "products": 57,
       "comp": "아주좋음",
       "comp_score": 0.15,
       "score": 6.55
@@ -15665,6 +18041,17 @@
       "period": "최근 30일",
       "search": 360,
       "products": 55,
+      "comp": "아주좋음",
+      "comp_score": 0.15,
+      "score": 6.43
+    },
+    {
+      "keyword": "kc9018",
+      "category": "패션의류 > 여성의류 > 바지",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 1350,
+      "products": 209,
       "comp": "아주좋음",
       "comp_score": 0.15,
       "score": 6.43
@@ -15857,6 +18244,17 @@
       "score": 6.25
     },
     {
+      "keyword": "마뗑킴후드집업",
+      "category": "패션의류 > 여성의류 > 점퍼",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 2600,
+      "products": 415,
+      "comp": "아주좋음",
+      "comp_score": 0.16,
+      "score": 6.25
+    },
+    {
       "keyword": "로얄슈미츠\n",
       "category": "생활/건강 > 주방용품 > 냄비/솥 > 압력솥",
       "group": "생활/건강 > 주방용품",
@@ -15923,6 +18321,17 @@
       "score": 6.18
     },
     {
+      "keyword": "c254msg502",
+      "category": "패션의류 > 여성의류 > 아우터 > 기타코트",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 420,
+      "products": 67,
+      "comp": "아주좋음",
+      "comp_score": 0.16,
+      "score": 6.18
+    },
+    {
       "keyword": "뿌리는무좀약",
       "category": "생활/건강 > 발건강용품 > 발냄새제거제",
       "group": "생활/건강 > 발건강용품",
@@ -15951,6 +18360,17 @@
       "period": "최근 30일",
       "search": 3110,
       "products": 506,
+      "comp": "아주좋음",
+      "comp_score": 0.16,
+      "score": 6.13
+    },
+    {
+      "keyword": "더캐시미어코트",
+      "category": "패션의류 > 여성의류 > 아우터 > 트렌치코트",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 380,
+      "products": 61,
       "comp": "아주좋음",
       "comp_score": 0.16,
       "score": 6.13
@@ -16022,6 +18442,17 @@
       "score": 6.08
     },
     {
+      "keyword": "펄스핏",
+      "category": "패션의류 > 여성의류 > 레깅스",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 480,
+      "products": 78,
+      "comp": "아주좋음",
+      "comp_score": 0.16,
+      "score": 6.08
+    },
+    {
       "keyword": "바퀴벌레연막탄",
       "category": "생활/건강 > 생활용품 > 해충퇴치용품 > 에어졸/스프레이",
       "group": "생활/건강 > 생활용품",
@@ -16061,6 +18492,17 @@
       "period": "최근 30일",
       "search": 1590,
       "products": 263,
+      "comp": "아주좋음",
+      "comp_score": 0.17,
+      "score": 6.02
+    },
+    {
+      "keyword": "워크업공식몰",
+      "category": "패션의류 > 남성의류 > 바지",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 3310,
+      "products": 549,
       "comp": "아주좋음",
       "comp_score": 0.17,
       "score": 6.02
@@ -16110,6 +18552,17 @@
       "score": 5.96
     },
     {
+      "keyword": "클로프",
+      "category": "패션의류 > 남성의류 > 티셔츠",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 1520,
+      "products": 254,
+      "comp": "아주좋음",
+      "comp_score": 0.17,
+      "score": 5.96
+    },
+    {
       "keyword": "펫올캣타워",
       "category": "생활/건강 > 반려동물 > 캣타워/스크래쳐 > 캣타워/캣폴",
       "group": "생활/건강 > 반려동물",
@@ -16138,6 +18591,17 @@
       "period": "최근 30일",
       "search": 1620,
       "products": 273,
+      "comp": "아주좋음",
+      "comp_score": 0.17,
+      "score": 5.91
+    },
+    {
+      "keyword": "썸타는샵",
+      "category": "패션의류 > 여성의류 > 티셔츠",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 2070,
+      "products": 349,
       "comp": "아주좋음",
       "comp_score": 0.17,
       "score": 5.91
@@ -16231,6 +18695,17 @@
       "score": 5.8
     },
     {
+      "keyword": "버즈릭슨ma-1",
+      "category": "패션의류 > 남성의류 > 점퍼",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 2060,
+      "products": 354,
+      "comp": "아주좋음",
+      "comp_score": 0.17,
+      "score": 5.8
+    },
+    {
       "keyword": "헤리터컵",
       "category": "생활/건강 > 주방용품 > 잔/컵 > 유리컵",
       "group": "생활/건강 > 주방용품",
@@ -16261,6 +18736,17 @@
       "products": 127,
       "comp": "아주좋음",
       "comp_score": null,
+      "score": 5.78
+    },
+    {
+      "keyword": "러닝라이프싱글렛",
+      "category": "출산/육아 > 유아동의류 > 티셔츠 | 패션의류 > 여성의류 > 티셔츠 | 패션의류 > 남성의류 > 티셔츠 | 스포츠/레저 > 골프 > 골프의류 > 티셔츠 | 스포츠/레저 > 스키/보드 > 보드복 > 티셔츠 | 생활/건강 > 반려동물 > 패션용품 > 티셔츠",
+      "group": "패션의류 > 남성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 520,
+      "products": 89,
+      "comp": "아주좋음",
+      "comp_score": 0.17,
       "score": 5.78
     },
     {
@@ -16517,6 +19003,17 @@
       "score": 5.59
     },
     {
+      "keyword": "파운더스카프리팬츠",
+      "category": "패션의류 > 여성의류 > 바지",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 690,
+      "products": 123,
+      "comp": "아주좋음",
+      "comp_score": 0.18,
+      "score": 5.56
+    },
+    {
       "keyword": "후뢰시킹",
       "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
       "group": "생활/건강 > 수집품",
@@ -16545,6 +19042,17 @@
       "period": "최근 30일",
       "search": 420,
       "products": 75,
+      "comp": "아주좋음",
+      "comp_score": 0.18,
+      "score": 5.53
+    },
+    {
+      "keyword": "프릭스스토어m65숏",
+      "category": "패션의류 > 남성의류 > 점퍼",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 2590,
+      "products": 467,
       "comp": "아주좋음",
       "comp_score": 0.18,
       "score": 5.53
@@ -16603,6 +19111,28 @@
       "comp": "아주좋음",
       "comp_score": 0.18,
       "score": 5.48
+    },
+    {
+      "keyword": "굿뉴잇",
+      "category": "패션의류 > 여성언더웨어/잠옷 > 잠옷/홈웨어",
+      "group": "패션의류 > 여성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 1950,
+      "products": 355,
+      "comp": "아주좋음",
+      "comp_score": 0.18,
+      "score": 5.48
+    },
+    {
+      "keyword": "멸공티셔츠",
+      "category": "패션의류 > 남성의류 > 티셔츠",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 2150,
+      "products": 393,
+      "comp": "아주좋음",
+      "comp_score": 0.18,
+      "score": 5.46
     },
     {
       "keyword": "금연패치",
@@ -16726,6 +19256,28 @@
       "score": 5.38
     },
     {
+      "keyword": "ems레깅스",
+      "category": "패션의류 > 여성의류 > 레깅스",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 3940,
+      "products": 731,
+      "comp": "아주좋음",
+      "comp_score": 0.19,
+      "score": 5.38
+    },
+    {
+      "keyword": "플러드케이",
+      "category": "패션의류 > 여성언더웨어/잠옷 > 잠옷/홈웨어",
+      "group": "패션의류 > 여성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 850,
+      "products": 157,
+      "comp": "아주좋음",
+      "comp_score": 0.18,
+      "score": 5.38
+    },
+    {
       "keyword": "신쥬오칼",
       "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 칼",
       "group": "생활/건강 > 주방용품",
@@ -16803,6 +19355,17 @@
       "score": 5.31
     },
     {
+      "keyword": "남자젖툭튀",
+      "category": "패션의류 > 남성언더웨어/잠옷 > 보정속옷 > 보정상의",
+      "group": "패션의류 > 남성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 600,
+      "products": 112,
+      "comp": "아주좋음",
+      "comp_score": 0.19,
+      "score": 5.31
+    },
+    {
       "keyword": "다짜고짜",
       "category": "생활/건강 > 주방용품 > 조리기구 > 야채탈수기",
       "group": "생활/건강 > 주방용품",
@@ -16823,6 +19386,17 @@
       "comp": "아주좋음",
       "comp_score": 0.19,
       "score": 5.29
+    },
+    {
+      "keyword": "스파이더맨후드집업",
+      "category": "패션의류 > 남성의류 > 아우터 > 후드집업",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 3280,
+      "products": 620,
+      "comp": "아주좋음",
+      "comp_score": 0.19,
+      "score": 5.28
     },
     {
       "keyword": "프렘무쇠냄비",
@@ -16919,6 +19493,17 @@
       "period": "최근 30일",
       "search": 3640,
       "products": 697,
+      "comp": "아주좋음",
+      "comp_score": 0.19,
+      "score": 5.21
+    },
+    {
+      "keyword": "브랜디멜빌후드집업",
+      "category": "패션의류 > 여성의류 > 아우터 > 후드집업",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 730,
+      "products": 139,
       "comp": "아주좋음",
       "comp_score": 0.19,
       "score": 5.21
@@ -17023,6 +19608,28 @@
       "score": 5.14
     },
     {
+      "keyword": "시너진캣워싱데님",
+      "category": "패션의류 > 여성의류 > 청바지",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 710,
+      "products": 137,
+      "comp": "아주좋음",
+      "comp_score": 0.19,
+      "score": 5.14
+    },
+    {
+      "keyword": "레인보우컨트리",
+      "category": "패션의류 > 남성의류 > 아우터 > 레더재킷",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 890,
+      "products": 172,
+      "comp": "아주좋음",
+      "comp_score": 0.19,
+      "score": 5.14
+    },
+    {
       "keyword": "바디프렌드퀀텀",
       "category": "생활/건강 > 안마용품 > 안마의자",
       "group": "생활/건강 > 안마용품",
@@ -17062,6 +19669,28 @@
       "period": "최근 30일",
       "search": 1300,
       "products": 253,
+      "comp": "아주좋음",
+      "comp_score": 0.19,
+      "score": 5.12
+    },
+    {
+      "keyword": "와키월리",
+      "category": "패션의류 > 남성의류 > 아우터 > 후드집업",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 2560,
+      "products": 499,
+      "comp": "아주좋음",
+      "comp_score": 0.19,
+      "score": 5.12
+    },
+    {
+      "keyword": "폴로바라쿠다",
+      "category": "패션의류 > 남성의류 > 아우터 > 재킷",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 1480,
+      "products": 288,
       "comp": "아주좋음",
       "comp_score": 0.19,
       "score": 5.12
@@ -17111,6 +19740,17 @@
       "score": 5.09
     },
     {
+      "keyword": "버즈릭슨피코트",
+      "category": "패션의류 > 남성의류 > 아우터 > 기타코트",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 840,
+      "products": 164,
+      "comp": "아주좋음",
+      "comp_score": 0.2,
+      "score": 5.09
+    },
+    {
       "keyword": "스카폴라",
       "category": "생활/건강 > 종교 > 천주교용품",
       "group": "생활/건강 > 종교",
@@ -17150,6 +19790,17 @@
       "period": "최근 30일",
       "search": 2470,
       "products": 486,
+      "comp": "아주좋음",
+      "comp_score": 0.2,
+      "score": 5.07
+    },
+    {
+      "keyword": "허벅지지방흡입",
+      "category": "패션의류 > 여성언더웨어/잠옷 > 보정속옷 > 기타보정속옷",
+      "group": "패션의류 > 여성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 4000,
+      "products": 788,
       "comp": "아주좋음",
       "comp_score": 0.2,
       "score": 5.07
@@ -17254,6 +19905,28 @@
       "score": 5.0
     },
     {
+      "keyword": "영엘에이",
+      "category": "패션의류 > 남성의류 > 트레이닝복",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 1820,
+      "products": 363,
+      "comp": "아주좋음",
+      "comp_score": 0.2,
+      "score": 5.0
+    },
+    {
+      "keyword": "브론슨가죽자켓",
+      "category": "패션의류 > 남성의류 > 아우터 > 레더재킷",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 310,
+      "products": 61,
+      "comp": "아주좋음",
+      "comp_score": 0.2,
+      "score": 5.0
+    },
+    {
       "keyword": "팔순상차림대여",
       "category": "생활/건강 > 문구/사무용품 > 이벤트/파티용품 > 식기/테이블용품",
       "group": "생활/건강 > 문구/사무용품",
@@ -17282,6 +19955,17 @@
       "period": "최근 30일",
       "search": 700,
       "products": 140,
+      "comp": "아주좋음",
+      "comp_score": 0.2,
+      "score": 4.96
+    },
+    {
+      "keyword": "헬리녹스패딩",
+      "category": "패션의류 > 남성의류 > 점퍼",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 3880,
+      "products": 782,
       "comp": "아주좋음",
       "comp_score": 0.2,
       "score": 4.96
@@ -17339,6 +20023,17 @@
       "products": 341,
       "comp": "아주좋음",
       "comp_score": null,
+      "score": 4.94
+    },
+    {
+      "keyword": "구호플러스코트",
+      "category": "패션의류 > 여성의류 > 아우터 > 기타코트",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 430,
+      "products": 86,
+      "comp": "아주좋음",
+      "comp_score": 0.2,
       "score": 4.94
     },
     {
@@ -17474,6 +20169,17 @@
       "score": 4.86
     },
     {
+      "keyword": "브룩스브라더스카라코람",
+      "category": "패션의류 > 남성의류 > 아우터 > 패딩",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 470,
+      "products": 96,
+      "comp": "아주좋음",
+      "comp_score": 0.2,
+      "score": 4.85
+    },
+    {
       "keyword": "바카랏",
       "category": "생활/건강 > 주방용품 > 잔/컵 > 와인잔",
       "group": "생활/건강 > 주방용품",
@@ -17529,6 +20235,17 @@
       "score": 4.78
     },
     {
+      "keyword": "슈가케인1947블랙",
+      "category": "패션의류 > 남성의류 > 청바지",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 600,
+      "products": 125,
+      "comp": "아주좋음",
+      "comp_score": 0.21,
+      "score": 4.76
+    },
+    {
       "keyword": "밀땡클리너",
       "category": "생활/건강 > 청소용품 > 유리닦이용품",
       "group": "생활/건강 > 청소용품",
@@ -17571,6 +20288,28 @@
       "comp": "아주좋음",
       "comp_score": 0.21,
       "score": 4.74
+    },
+    {
+      "keyword": "제주감귤잠옷",
+      "category": "패션의류 > 여성언더웨어/잠옷 > 잠옷/홈웨어",
+      "group": "패션의류 > 여성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 360,
+      "products": 75,
+      "comp": "아주좋음",
+      "comp_score": 0.21,
+      "score": 4.74
+    },
+    {
+      "keyword": "파운더스가디건",
+      "category": "패션의류 > 여성의류 > 니트 > 카디건",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 590,
+      "products": 124,
+      "comp": "아주좋음",
+      "comp_score": 0.21,
+      "score": 4.72
     },
     {
       "keyword": "스리아마켓",
@@ -17771,6 +20510,17 @@
       "score": 4.59
     },
     {
+      "keyword": "투슬리스잠옷",
+      "category": "패션의류 > 여성언더웨어/잠옷 > 잠옷/홈웨어",
+      "group": "패션의류 > 여성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 730,
+      "products": 158,
+      "comp": "아주좋음",
+      "comp_score": 0.22,
+      "score": 4.59
+    },
+    {
       "keyword": "삼성응원봉",
       "category": "생활/건강 > 수집품 > 아이돌굿즈 > 응원봉",
       "group": "생활/건강 > 수집품",
@@ -17824,6 +20574,17 @@
       "comp": "아주좋음",
       "comp_score": 0.22,
       "score": 4.55
+    },
+    {
+      "keyword": "jc8245",
+      "category": "패션의류 > 여성의류 > 트레이닝복",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 390,
+      "products": 85,
+      "comp": "아주좋음",
+      "comp_score": 0.22,
+      "score": 4.53
     },
     {
       "keyword": "코르티스앨범",
@@ -17903,6 +20664,17 @@
       "score": 4.47
     },
     {
+      "keyword": "코코부",
+      "category": "패션의류 > 여성언더웨어/잠옷 > 잠옷/홈웨어",
+      "group": "패션의류 > 여성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 1960,
+      "products": 437,
+      "comp": "아주좋음",
+      "comp_score": 0.22,
+      "score": 4.47
+    },
+    {
       "keyword": "피에브탈취제\n",
       "category": "생활/건강 > 생활용품 > 제습/방향/탈취 > 실내탈취제",
       "group": "생활/건강 > 생활용품",
@@ -17953,6 +20725,17 @@
       "period": "최근 30일",
       "search": 1400,
       "products": 314,
+      "comp": "아주좋음",
+      "comp_score": 0.22,
+      "score": 4.44
+    },
+    {
+      "keyword": "멜빈트",
+      "category": "패션의류 > 여성의류 > 바지",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 1600,
+      "products": 359,
       "comp": "아주좋음",
       "comp_score": 0.22,
       "score": 4.44
@@ -18024,6 +20807,17 @@
       "score": 4.42
     },
     {
+      "keyword": "홀리스터후드집업",
+      "category": "패션의류 > 여성의류 > 티셔츠",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 2000,
+      "products": 451,
+      "comp": "아주좋음",
+      "comp_score": 0.23,
+      "score": 4.42
+    },
+    {
       "keyword": "교보문고차량용방향제",
       "category": "생활/건강 > 자동차용품 > 공기청정용품 > 차량용방향제",
       "group": "생활/건강 > 자동차용품",
@@ -18063,6 +20857,17 @@
       "period": "최근 30일",
       "search": 360,
       "products": 81,
+      "comp": "아주좋음",
+      "comp_score": 0.23,
+      "score": 4.39
+    },
+    {
+      "keyword": "막스마라세이아",
+      "category": "패션의류 > 여성의류 > 아우터 > 패딩",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 2610,
+      "products": 594,
       "comp": "아주좋음",
       "comp_score": 0.23,
       "score": 4.39
@@ -18178,6 +20983,17 @@
       "score": 4.3
     },
     {
+      "keyword": "탑텐경량패딩",
+      "category": "패션의류 > 여성의류 > 점퍼",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 3230,
+      "products": 750,
+      "comp": "아주좋음",
+      "comp_score": 0.23,
+      "score": 4.3
+    },
+    {
       "keyword": "스파클종이컵",
       "category": "생활/건강 > 주방용품 > 일회용품 > 종이컵",
       "group": "생활/건강 > 주방용품",
@@ -18187,6 +21003,17 @@
       "comp": "아주좋음",
       "comp_score": 0.23,
       "score": 4.27
+    },
+    {
+      "keyword": "다이소러닝",
+      "category": "출산/육아 > 유아동의류 > 조끼 | 스포츠/레저 > 등산 > 등산의류 > 조끼 | 스포츠/레저 > 골프 > 골프의류 > 조끼 | 스포츠/레저 > 스키/보드 > 보드복 > 조끼",
+      "group": "패션의류 > 남성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 860,
+      "products": 201,
+      "comp": "아주좋음",
+      "comp_score": 0.23,
+      "score": 4.26
     },
     {
       "keyword": "pv5선반",
@@ -18387,6 +21214,17 @@
       "score": 4.17
     },
     {
+      "keyword": "슈슈통가디건",
+      "category": "패션의류 > 여성의류 > 니트 > 카디건",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 1890,
+      "products": 452,
+      "comp": "아주좋음",
+      "comp_score": 0.24,
+      "score": 4.17
+    },
+    {
       "keyword": "pv5몰리패널",
       "category": "생활/건강 > 자동차용품 > 튜닝용품 > 기타튜닝용품",
       "group": "생활/건강 > 자동차용품",
@@ -18453,6 +21291,17 @@
       "score": 4.13
     },
     {
+      "keyword": "리얼시몬스",
+      "category": "패션의류 > 남성의류 > 점퍼",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 2810,
+      "products": 680,
+      "comp": "아주좋음",
+      "comp_score": 0.24,
+      "score": 4.13
+    },
+    {
       "keyword": "스타벅스보냉백",
       "category": "패션잡화 > 남성가방 > 에코백 | 패션잡화 > 여성가방 > 에코백",
       "group": "생활/건강 > 주방용품",
@@ -18481,6 +21330,17 @@
       "period": "최근 30일",
       "search": 2130,
       "products": 516,
+      "comp": "아주좋음",
+      "comp_score": 0.24,
+      "score": 4.12
+    },
+    {
+      "keyword": "kc9315",
+      "category": "패션의류 > 남성의류 > 점퍼",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 1100,
+      "products": 266,
       "comp": "아주좋음",
       "comp_score": 0.24,
       "score": 4.12
@@ -18525,6 +21385,17 @@
       "period": "최근 30일",
       "search": 960,
       "products": 233,
+      "comp": "아주좋음",
+      "comp_score": 0.24,
+      "score": 4.1
+    },
+    {
+      "keyword": "z254msg157",
+      "category": "패션의류 > 여성의류 > 아우터 > 기타코트",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 410,
+      "products": 99,
       "comp": "아주좋음",
       "comp_score": 0.24,
       "score": 4.1
@@ -18728,6 +21599,17 @@
       "score": 3.96
     },
     {
+      "keyword": "데카트론바람막이",
+      "category": "패션의류 > 남성의류 > 아우터 > 재킷",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 1470,
+      "products": 370,
+      "comp": "아주좋음",
+      "comp_score": 0.25,
+      "score": 3.96
+    },
+    {
       "keyword": "뿔바투",
       "category": "패션잡화 > 패션소품 > 키링",
       "group": "생활/건강 > 수집품",
@@ -18838,6 +21720,17 @@
       "score": 3.89
     },
     {
+      "keyword": "트리밍버드코트",
+      "category": "패션의류 > 여성의류 > 아우터 > 기타코트",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 500,
+      "products": 128,
+      "comp": "아주좋음",
+      "comp_score": 0.26,
+      "score": 3.88
+    },
+    {
       "keyword": "니코틴검사기",
       "category": "생활/건강 > 건강관리용품 > 금연용품",
       "group": "생활/건강 > 건강관리용품",
@@ -18937,6 +21830,17 @@
       "score": 3.81
     },
     {
+      "keyword": "룰루레몬레인체이서",
+      "category": "패션의류 > 여성의류 > 아우터 > 재킷",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 1020,
+      "products": 267,
+      "comp": "아주좋음",
+      "comp_score": 0.26,
+      "score": 3.81
+    },
+    {
       "keyword": "벤딕트핸들커버",
       "category": "생활/건강 > 자동차용품 > 인테리어용품 > 핸들커버",
       "group": "생활/건강 > 자동차용품",
@@ -18987,6 +21891,28 @@
       "period": "최근 30일",
       "search": 360,
       "products": 94,
+      "comp": "아주좋음",
+      "comp_score": 0.26,
+      "score": 3.79
+    },
+    {
+      "keyword": "플리츠플리즈미스트",
+      "category": "패션의류 > 여성의류 > 티셔츠",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 2310,
+      "products": 609,
+      "comp": "아주좋음",
+      "comp_score": 0.26,
+      "score": 3.79
+    },
+    {
+      "keyword": "훈도시",
+      "category": "패션의류 > 남성언더웨어/잠옷 > 팬티",
+      "group": "패션의류 > 남성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 2730,
+      "products": 720,
       "comp": "아주좋음",
       "comp_score": 0.26,
       "score": 3.79
@@ -19113,6 +22039,17 @@
       "score": 3.76
     },
     {
+      "keyword": "앤니즈후드집업",
+      "category": "패션의류 > 여성의류 > 아우터 > 후드집업",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 420,
+      "products": 111,
+      "comp": "아주좋음",
+      "comp_score": 0.26,
+      "score": 3.75
+    },
+    {
       "keyword": "레토라쿠가위",
       "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 주방가위",
       "group": "생활/건강 > 주방용품",
@@ -19179,6 +22116,17 @@
       "score": 3.71
     },
     {
+      "keyword": "이부진옷",
+      "category": "패션의류 > 여성의류 > 코디세트",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 470,
+      "products": 126,
+      "comp": "아주좋음",
+      "comp_score": 0.27,
+      "score": 3.7
+    },
+    {
       "keyword": "살림의힘",
       "category": "생활/건강 > 주방용품 > 보관/밀폐용기 > 물병",
       "group": "생활/건강 > 주방용품",
@@ -19188,6 +22136,17 @@
       "comp": "아주좋음",
       "comp_score": 0.27,
       "score": 3.69
+    },
+    {
+      "keyword": "lvc47501",
+      "category": "패션의류 > 남성의류 > 청바지",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 960,
+      "products": 260,
+      "comp": "아주좋음",
+      "comp_score": 0.27,
+      "score": 3.68
     },
     {
       "keyword": "모서리십자가",
@@ -19262,6 +22221,17 @@
       "period": "최근 30일",
       "search": 750,
       "products": 205,
+      "comp": "아주좋음",
+      "comp_score": 0.27,
+      "score": 3.64
+    },
+    {
+      "keyword": "마리노블",
+      "category": "패션의류 > 여성의류 > 아우터 > 숏코트",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 390,
+      "products": 106,
       "comp": "아주좋음",
       "comp_score": 0.27,
       "score": 3.64
@@ -19432,6 +22402,17 @@
       "score": 3.58
     },
     {
+      "keyword": "데상트롱패딩",
+      "category": "패션의류 > 남성의류 > 점퍼",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 880,
+      "products": 245,
+      "comp": "아주좋음",
+      "comp_score": 0.28,
+      "score": 3.58
+    },
+    {
       "keyword": "irt6030",
       "category": "생활/건강 > 건강측정용품 > 체온계",
       "group": "생활/건강 > 건강측정용품",
@@ -19460,6 +22441,17 @@
       "period": "최근 30일",
       "search": 360,
       "products": 100,
+      "comp": "아주좋음",
+      "comp_score": 0.28,
+      "score": 3.56
+    },
+    {
+      "keyword": "네셔널바람막이",
+      "category": "패션의류 > 남성의류 > 점퍼",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 370,
+      "products": 103,
       "comp": "아주좋음",
       "comp_score": 0.28,
       "score": 3.56
@@ -19542,6 +22534,17 @@
       "score": 3.53
     },
     {
+      "keyword": "버버리옥스클로즈",
+      "category": "패션의류 > 여성의류 > 아우터 > 재킷",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 1750,
+      "products": 495,
+      "comp": "아주좋음",
+      "comp_score": 0.28,
+      "score": 3.53
+    },
+    {
       "keyword": "247팩",
       "category": "생활/건강 > 주방용품 > 주방잡화 > 지퍼백",
       "group": "생활/건강 > 주방용품",
@@ -19581,6 +22584,28 @@
       "period": "최근 30일",
       "search": 1130,
       "products": 321,
+      "comp": "아주좋음",
+      "comp_score": 0.28,
+      "score": 3.51
+    },
+    {
+      "keyword": "iabstudio반팔",
+      "category": "패션의류 > 남성의류 > 티셔츠",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 2990,
+      "products": 851,
+      "comp": "아주좋음",
+      "comp_score": 0.28,
+      "score": 3.51
+    },
+    {
+      "keyword": "챔피온경량패딩",
+      "category": "패션의류 > 남성의류 > 점퍼",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 1010,
+      "products": 287,
       "comp": "아주좋음",
       "comp_score": 0.28,
       "score": 3.51
@@ -19641,6 +22666,17 @@
       "score": 3.49
     },
     {
+      "keyword": "로빈슨진",
+      "category": "패션의류 > 여성의류 > 청바지",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 1160,
+      "products": 331,
+      "comp": "아주좋음",
+      "comp_score": 0.29,
+      "score": 3.49
+    },
+    {
       "keyword": "완습제",
       "category": "생활/건강 > 생활용품 > 제습/방향/탈취 > 제습제",
       "group": "생활/건강 > 생활용품",
@@ -19696,6 +22732,17 @@
       "score": 3.46
     },
     {
+      "keyword": "옷재한복",
+      "category": "패션의류 > 여성의류 > 한복",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 460,
+      "products": 132,
+      "comp": "아주좋음",
+      "comp_score": 0.29,
+      "score": 3.46
+    },
+    {
       "keyword": "세라믹몽",
       "category": "생활/건강 > 주방용품 > 식기 > 접시",
       "group": "생활/건강 > 주방용품",
@@ -19713,6 +22760,17 @@
       "period": "최근 30일",
       "search": 1870,
       "products": 541,
+      "comp": "아주좋음",
+      "comp_score": 0.29,
+      "score": 3.45
+    },
+    {
+      "keyword": "룩캐스트코트",
+      "category": "패션의류 > 여성의류 > 아우터 > 기타코트",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 480,
+      "products": 138,
       "comp": "아주좋음",
       "comp_score": 0.29,
       "score": 3.45
@@ -20070,6 +23128,17 @@
       "score": 3.25
     },
     {
+      "keyword": "아쿠아스큐텀원피스",
+      "category": "패션의류 > 여성의류 > 원피스",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 510,
+      "products": 156,
+      "comp": "아주좋음",
+      "comp_score": 0.31,
+      "score": 3.25
+    },
+    {
       "keyword": "장룡mgex",
       "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
       "group": "생활/건강 > 수집품",
@@ -20087,6 +23156,17 @@
       "period": "최근 30일",
       "search": 340,
       "products": 104,
+      "comp": "아주좋음",
+      "comp_score": 0.31,
+      "score": 3.24
+    },
+    {
+      "keyword": "ks4970",
+      "category": "패션의류 > 남성의류 > 트레이닝복",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 1720,
+      "products": 530,
       "comp": "아주좋음",
       "comp_score": 0.31,
       "score": 3.24
@@ -20180,6 +23260,28 @@
       "score": 3.21
     },
     {
+      "keyword": "시리즈역시즌",
+      "category": "패션의류 > 남성의류 > 아우터 > 재킷",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 1830,
+      "products": 569,
+      "comp": "아주좋음",
+      "comp_score": 0.31,
+      "score": 3.21
+    },
+    {
+      "keyword": "캄피로",
+      "category": "패션의류 > 남성의류 > 점퍼",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 820,
+      "products": 255,
+      "comp": "아주좋음",
+      "comp_score": 0.31,
+      "score": 3.2
+    },
+    {
       "keyword": "곤룡포비치타올",
       "category": "패션잡화 > 패션소품 > 키링",
       "group": "생활/건강 > 욕실용품",
@@ -20213,12 +23315,45 @@
       "score": 3.18
     },
     {
+      "keyword": "파운더스스커트",
+      "category": "패션의류 > 여성의류 > 스커트",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 1120,
+      "products": 351,
+      "comp": "아주좋음",
+      "comp_score": 0.31,
+      "score": 3.18
+    },
+    {
+      "keyword": "가나디잠옷",
+      "category": "패션의류 > 여성언더웨어/잠옷 > 잠옷/홈웨어",
+      "group": "패션의류 > 여성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 1320,
+      "products": 414,
+      "comp": "아주좋음",
+      "comp_score": 0.31,
+      "score": 3.18
+    },
+    {
       "keyword": "준카64",
       "category": "생활/건강 > 공구 > 에어공구 > 에어건",
       "group": "생활/건강 > 공구",
       "period": "최근 30일",
       "search": 850,
       "products": 267,
+      "comp": "아주좋음",
+      "comp_score": 0.31,
+      "score": 3.17
+    },
+    {
+      "keyword": "원주방직",
+      "category": "패션의류 > 남성의류 > 트레이닝복",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 320,
+      "products": 100,
       "comp": "아주좋음",
       "comp_score": 0.31,
       "score": 3.17
@@ -20312,6 +23447,17 @@
       "score": 3.13
     },
     {
+      "keyword": "융쫄바지레깅스빅사이즈",
+      "category": "패션의류 > 여성의류 > 레깅스",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 1080,
+      "products": 344,
+      "comp": "아주좋음",
+      "comp_score": 0.32,
+      "score": 3.13
+    },
+    {
       "keyword": "pv5에어매트",
       "category": "생활/건강 > 자동차용품 > 인테리어용품 > 바닥매트",
       "group": "생활/건강 > 자동차용품",
@@ -20351,6 +23497,17 @@
       "period": "최근 30일",
       "search": 1010,
       "products": 324,
+      "comp": "아주좋음",
+      "comp_score": 0.32,
+      "score": 3.11
+    },
+    {
+      "keyword": "천연실크팬티",
+      "category": "패션의류 > 여성언더웨어/잠옷 > 팬티",
+      "group": "패션의류 > 여성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 820,
+      "products": 263,
       "comp": "아주좋음",
       "comp_score": 0.32,
       "score": 3.11
@@ -20433,6 +23590,17 @@
       "score": 3.07
     },
     {
+      "keyword": "페트레이쿤토",
+      "category": "패션의류 > 여성의류 > 아우터 > 패딩",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 800,
+      "products": 260,
+      "comp": "아주좋음",
+      "comp_score": 0.33,
+      "score": 3.07
+    },
+    {
       "keyword": "에바고스",
       "category": "생활/건강 > 수납/정리용품 > 바구니 > 기타바구니",
       "group": "생활/건강 > 수납/정리용품",
@@ -20464,6 +23632,17 @@
       "comp": "아주좋음",
       "comp_score": 0.33,
       "score": 3.04
+    },
+    {
+      "keyword": "셀룰라이트팬티",
+      "category": "패션의류 > 여성언더웨어/잠옷 > 팬티",
+      "group": "패션의류 > 여성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 1150,
+      "products": 378,
+      "comp": "아주좋음",
+      "comp_score": 0.33,
+      "score": 3.03
     },
     {
       "keyword": "미미달",
@@ -20539,6 +23718,17 @@
       "search": 470,
       "products": 156,
       "comp": "",
+      "comp_score": 0.33,
+      "score": 2.99
+    },
+    {
+      "keyword": "스웨드블랑",
+      "category": "패션의류 > 여성의류 > 파티복",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 960,
+      "products": 320,
+      "comp": "아주좋음",
       "comp_score": 0.33,
       "score": 2.99
     },
@@ -20741,6 +23931,17 @@
       "score": 2.88
     },
     {
+      "keyword": "스킨이즘",
+      "category": "패션의류 > 남성언더웨어/잠옷 > 팬티",
+      "group": "패션의류 > 남성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 1180,
+      "products": 409,
+      "comp": "아주좋음",
+      "comp_score": 0.35,
+      "score": 2.88
+    },
+    {
       "keyword": "트윈스타조명",
       "category": "생활/건강 > 관상어용품 > 조명",
       "group": "생활/건강 > 관상어용품",
@@ -20862,6 +24063,17 @@
       "score": 2.83
     },
     {
+      "keyword": "스키니즘팬티",
+      "category": "패션의류 > 남성언더웨어/잠옷 > 팬티",
+      "group": "패션의류 > 남성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 600,
+      "products": 211,
+      "comp": "아주좋음",
+      "comp_score": 0.35,
+      "score": 2.83
+    },
+    {
       "keyword": "모기유충제거제",
       "category": "생활/건강 > 생활용품 > 해충퇴치용품 > 에어졸/스프레이",
       "group": "생활/건강 > 생활용품",
@@ -20901,6 +24113,17 @@
       "period": "최근 30일",
       "search": 860,
       "products": 304,
+      "comp": "아주좋음",
+      "comp_score": 0.35,
+      "score": 2.82
+    },
+    {
+      "keyword": "오스본원피스",
+      "category": "패션의류 > 여성의류 > 원피스",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 350,
+      "products": 123,
       "comp": "아주좋음",
       "comp_score": 0.35,
       "score": 2.82
@@ -20972,6 +24195,17 @@
       "score": 2.79
     },
     {
+      "keyword": "유어룸",
+      "category": "패션의류 > 여성의류 > 티셔츠",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 2350,
+      "products": 840,
+      "comp": "아주좋음",
+      "comp_score": 0.36,
+      "score": 2.79
+    },
+    {
       "keyword": "크샤트리아",
       "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
       "group": "생활/건강 > 수집품",
@@ -21016,6 +24250,17 @@
       "score": 2.77
     },
     {
+      "keyword": "jw0109",
+      "category": "패션의류 > 남성의류 > 트레이닝복",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 1610,
+      "products": 581,
+      "comp": "아주좋음",
+      "comp_score": 0.36,
+      "score": 2.77
+    },
+    {
       "keyword": "스페인감자인형",
       "category": "출산/육아 > 완구/인형 > 인형 > 마론인형/인형옷",
       "group": "생활/건강 > 수집품",
@@ -21027,6 +24272,17 @@
       "score": 2.76
     },
     {
+      "keyword": "파토리",
+      "category": "패션의류 > 여성언더웨어/잠옷 > 잠옷/홈웨어",
+      "group": "패션의류 > 여성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 630,
+      "products": 227,
+      "comp": "아주좋음",
+      "comp_score": 0.36,
+      "score": 2.76
+    },
+    {
       "keyword": "아이오닉9머드가드",
       "category": "생활/건강 > 자동차용품 > 익스테리어용품 > 가드",
       "group": "생활/건강 > 자동차용품",
@@ -21034,6 +24290,17 @@
       "search": 630,
       "products": 228,
       "comp": "",
+      "comp_score": 0.36,
+      "score": 2.75
+    },
+    {
+      "keyword": "리코리타",
+      "category": "패션의류 > 여성의류 > 청바지",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 1580,
+      "products": 574,
+      "comp": "아주좋음",
       "comp_score": 0.36,
       "score": 2.75
     },
@@ -21115,6 +24382,17 @@
       "score": 2.72
     },
     {
+      "keyword": "다이소런닝",
+      "category": "패션의류 > 남성언더웨어/잠옷 > 러닝",
+      "group": "패션의류 > 남성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 500,
+      "products": 183,
+      "comp": "아주좋음",
+      "comp_score": 0.37,
+      "score": 2.72
+    },
+    {
       "keyword": "테슬라키팝",
       "category": "생활/건강 > 자동차용품 > 키용품 > 키케이스",
       "group": "생활/건강 > 자동차용품",
@@ -21181,6 +24459,17 @@
       "score": 2.7
     },
     {
+      "keyword": "지컷자켓",
+      "category": "패션의류 > 여성의류 > 아우터 > 재킷",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 920,
+      "products": 340,
+      "comp": "아주좋음",
+      "comp_score": 0.37,
+      "score": 2.7
+    },
+    {
       "keyword": "스파이더걸",
       "category": "생활/건강 > 수집품 > 코스튬플레이 > 의상",
       "group": "생활/건강 > 수집품",
@@ -21209,6 +24498,28 @@
       "period": "최근 30일",
       "search": 1490,
       "products": 552,
+      "comp": "아주좋음",
+      "comp_score": 0.37,
+      "score": 2.69
+    },
+    {
+      "keyword": "쉬즈미스스웨이드자켓",
+      "category": "패션의류 > 여성의류 > 아우터 > 재킷",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 1180,
+      "products": 438,
+      "comp": "아주좋음",
+      "comp_score": 0.37,
+      "score": 2.69
+    },
+    {
+      "keyword": "막스마라트레질",
+      "category": "패션의류 > 여성의류 > 아우터 > 베스트",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 460,
+      "products": 170,
       "comp": "아주좋음",
       "comp_score": 0.37,
       "score": 2.69
@@ -21275,6 +24586,28 @@
       "period": "최근 30일",
       "search": 520,
       "products": 194,
+      "comp": "아주좋음",
+      "comp_score": 0.37,
+      "score": 2.67
+    },
+    {
+      "keyword": "헨리코튼패딩",
+      "category": "패션의류 > 남성의류 > 점퍼",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 2090,
+      "products": 782,
+      "comp": "아주좋음",
+      "comp_score": 0.37,
+      "score": 2.67
+    },
+    {
+      "keyword": "티공사서울",
+      "category": "패션의류 > 남성의류 > 유니폼/단체복",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 700,
+      "products": 261,
       "comp": "아주좋음",
       "comp_score": 0.37,
       "score": 2.67
@@ -21390,6 +24723,17 @@
       "score": 2.62
     },
     {
+      "keyword": "바니스뉴욕가디건",
+      "category": "패션의류 > 여성의류 > 니트 > 카디건",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 640,
+      "products": 243,
+      "comp": "아주좋음",
+      "comp_score": 0.38,
+      "score": 2.62
+    },
+    {
       "keyword": "eps블럭",
       "category": "생활/건강 > 화방용품 > 우드락/폼보드",
       "group": "생활/건강 > 화방용품",
@@ -21478,6 +24822,28 @@
       "score": 2.58
     },
     {
+      "keyword": "모모타로진",
+      "category": "패션의류 > 남성의류 > 청바지",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 1580,
+      "products": 611,
+      "comp": "아주좋음",
+      "comp_score": 0.39,
+      "score": 2.58
+    },
+    {
+      "keyword": "크롬하츠반바지",
+      "category": "패션의류 > 남성의류 > 바지",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 960,
+      "products": 373,
+      "comp": "아주좋음",
+      "comp_score": 0.39,
+      "score": 2.57
+    },
+    {
       "keyword": "92125h8350",
       "category": "생활/건강 > 자동차용품 > 램프 > 기타램프용품",
       "group": "생활/건강 > 자동차용품",
@@ -21539,6 +24905,17 @@
       "period": "최근 30일",
       "search": 640,
       "products": 250,
+      "comp": "아주좋음",
+      "comp_score": 0.39,
+      "score": 2.55
+    },
+    {
+      "keyword": "신랑엄마한복",
+      "category": "패션의류 > 여성의류 > 한복",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 390,
+      "products": 152,
       "comp": "아주좋음",
       "comp_score": 0.39,
       "score": 2.55
@@ -21753,6 +25130,28 @@
       "score": 2.48
     },
     {
+      "keyword": "sjyp",
+      "category": "패션의류 > 여성의류 > 니트 > 베스트",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 1520,
+      "products": 613,
+      "comp": "아주좋음",
+      "comp_score": 0.4,
+      "score": 2.48
+    },
+    {
+      "keyword": "우사하나잠옷",
+      "category": "패션의류 > 남성언더웨어/잠옷 > 잠옷/홈웨어",
+      "group": "패션의류 > 남성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 750,
+      "products": 301,
+      "comp": "아주좋음",
+      "comp_score": 0.4,
+      "score": 2.48
+    },
+    {
       "keyword": "프레데릭스도마",
       "category": "생활/건강 > 주방용품 > 도마",
       "group": "생활/건강 > 주방용품",
@@ -21896,6 +25295,17 @@
       "score": 2.45
     },
     {
+      "keyword": "데밀청바지",
+      "category": "패션의류 > 남성의류 > 청바지",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 470,
+      "products": 191,
+      "comp": "아주좋음",
+      "comp_score": 0.41,
+      "score": 2.45
+    },
+    {
       "keyword": "유록스10리터",
       "category": "생활/건강 > 자동차용품 > 오일/소모품 > 요소수",
       "group": "생활/건강 > 자동차용품",
@@ -21903,6 +25313,17 @@
       "search": 1640,
       "products": 672,
       "comp": "",
+      "comp_score": 0.41,
+      "score": 2.44
+    },
+    {
+      "keyword": "체형별웨딩드레스",
+      "category": "패션의류 > 여성의류 > 파티복",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 710,
+      "products": 290,
+      "comp": "아주좋음",
       "comp_score": 0.41,
       "score": 2.44
     },
@@ -21946,6 +25367,28 @@
       "period": "최근 30일",
       "search": 1120,
       "products": 459,
+      "comp": "아주좋음",
+      "comp_score": 0.41,
+      "score": 2.43
+    },
+    {
+      "keyword": "유로컬렉션양모자켓",
+      "category": "패션의류 > 여성의류 > 아우터 > 재킷",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 510,
+      "products": 209,
+      "comp": "아주좋음",
+      "comp_score": 0.41,
+      "score": 2.43
+    },
+    {
+      "keyword": "시리즈가죽자켓",
+      "category": "패션의류 > 남성의류 > 점퍼",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 1380,
+      "products": 568,
       "comp": "아주좋음",
       "comp_score": 0.41,
       "score": 2.43
@@ -22045,6 +25488,17 @@
       "period": "최근 30일",
       "search": 850,
       "products": 351,
+      "comp": "아주좋음",
+      "comp_score": 0.41,
+      "score": 2.41
+    },
+    {
+      "keyword": "버버리뉴벌리숏자켓",
+      "category": "패션의류 > 여성의류 > 아우터 > 재킷",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 480,
+      "products": 198,
       "comp": "아주좋음",
       "comp_score": 0.41,
       "score": 2.41
@@ -22303,6 +25757,17 @@
       "score": 2.33
     },
     {
+      "keyword": "kq6863",
+      "category": "패션의류 > 남성의류 > 점퍼",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 510,
+      "products": 218,
+      "comp": "아주좋음",
+      "comp_score": 0.43,
+      "score": 2.33
+    },
+    {
       "keyword": "구내염스프레이",
       "category": "생활/건강 > 구강위생용품 > 구강청정제/가글",
       "group": "생활/건강 > 구강위생용품",
@@ -22353,6 +25818,17 @@
       "period": "최근 30일",
       "search": 1120,
       "products": 484,
+      "comp": "아주좋음",
+      "comp_score": 0.43,
+      "score": 2.31
+    },
+    {
+      "keyword": "사무라이진스",
+      "category": "패션의류 > 남성의류 > 청바지",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 750,
+      "products": 324,
       "comp": "아주좋음",
       "comp_score": 0.43,
       "score": 2.31
@@ -22512,6 +25988,28 @@
       "score": 2.27
     },
     {
+      "keyword": "엘지유광점퍼",
+      "category": "패션의류 > 남성의류 > 점퍼",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 750,
+      "products": 331,
+      "comp": "아주좋음",
+      "comp_score": 0.44,
+      "score": 2.26
+    },
+    {
+      "keyword": "배민우의",
+      "category": "패션의류 > 남성의류 > 아우터 > 레인코트",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 440,
+      "products": 194,
+      "comp": "아주좋음",
+      "comp_score": 0.44,
+      "score": 2.26
+    },
+    {
       "keyword": "라치우드도마",
       "category": "생활/건강 > 주방용품 > 도마",
       "group": "생활/건강 > 주방용품",
@@ -22573,6 +26071,17 @@
       "period": "최근 30일",
       "search": 1010,
       "products": 452,
+      "comp": "아주좋음",
+      "comp_score": 0.45,
+      "score": 2.23
+    },
+    {
+      "keyword": "다이소티셔츠",
+      "category": "패션의류 > 남성의류 > 티셔츠",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 1550,
+      "products": 694,
       "comp": "아주좋음",
       "comp_score": 0.45,
       "score": 2.23
@@ -22754,6 +26263,17 @@
       "score": 2.19
     },
     {
+      "keyword": "파르티멘토우먼조거",
+      "category": "출산/육아 > 유아동의류 > 트레이닝복 | 패션의류 > 여성의류 > 트레이닝복 | 패션의류 > 남성의류 > 트레이닝복",
+      "group": "패션의류 > 여성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 1600,
+      "products": 728,
+      "comp": "아주좋음",
+      "comp_score": 0.46,
+      "score": 2.19
+    },
+    {
       "keyword": "코엘스충전예초기",
       "category": "생활/건강 > 공구 > 예초기 > 충전/전기예초기",
       "group": "생활/건강 > 공구",
@@ -22815,6 +26335,17 @@
       "period": "최근 30일",
       "search": 630,
       "products": 293,
+      "comp": "아주좋음",
+      "comp_score": 0.47,
+      "score": 2.14
+    },
+    {
+      "keyword": "꽃지한복",
+      "category": "패션의류 > 여성의류 > 한복",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 490,
+      "products": 228,
       "comp": "아주좋음",
       "comp_score": 0.47,
       "score": 2.14
@@ -22908,6 +26439,17 @@
       "score": 2.13
     },
     {
+      "keyword": "ke3526",
+      "category": "패션의류 > 남성의류 > 트레이닝복",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 1810,
+      "products": 849,
+      "comp": "아주좋음",
+      "comp_score": 0.47,
+      "score": 2.13
+    },
+    {
       "keyword": "아따맘마가챠",
       "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
       "group": "생활/건강 > 수집품",
@@ -22941,6 +26483,17 @@
       "score": 2.12
     },
     {
+      "keyword": "라리리잠옷",
+      "category": "패션의류 > 여성언더웨어/잠옷 > 잠옷/홈웨어",
+      "group": "패션의류 > 여성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 1740,
+      "products": 822,
+      "comp": "아주좋음",
+      "comp_score": 0.47,
+      "score": 2.11
+    },
+    {
       "keyword": "더스티랩",
       "category": "생활/건강 > 자동차용품 > 세차용품 > 유리코팅제",
       "group": "생활/건강 > 자동차용품",
@@ -22960,6 +26513,28 @@
       "products": 718,
       "comp": "아주좋음",
       "comp_score": null,
+      "score": 2.1
+    },
+    {
+      "keyword": "에르헴",
+      "category": "패션의류 > 여성의류 > 니트 > 풀오버",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 830,
+      "products": 395,
+      "comp": "아주좋음",
+      "comp_score": 0.48,
+      "score": 2.1
+    },
+    {
+      "keyword": "if0622-440",
+      "category": "패션의류 > 남성의류 > 트레이닝복",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 1830,
+      "products": 870,
+      "comp": "아주좋음",
+      "comp_score": 0.48,
       "score": 2.1
     },
     {
@@ -23062,6 +26637,17 @@
       "score": 2.08
     },
     {
+      "keyword": "러셀후드집업",
+      "category": "패션의류 > 남성의류 > 아우터 > 후드집업",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 470,
+      "products": 225,
+      "comp": "아주좋음",
+      "comp_score": 0.48,
+      "score": 2.08
+    },
+    {
       "keyword": "배치브루",
       "category": "생활/건강 > 주방용품 > 커피용품 > 커피추출기",
       "group": "생활/건강 > 주방용품",
@@ -23079,6 +26665,39 @@
       "period": "최근 30일",
       "search": 680,
       "products": 327,
+      "comp": "아주좋음",
+      "comp_score": 0.48,
+      "score": 2.07
+    },
+    {
+      "keyword": "나인콥",
+      "category": "패션의류 > 여성의류 > 니트 > 카디건",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 1220,
+      "products": 588,
+      "comp": "아주좋음",
+      "comp_score": 0.48,
+      "score": 2.07
+    },
+    {
+      "keyword": "휴그랩펄스핏",
+      "category": "패션의류 > 여성의류 > 레깅스",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 660,
+      "products": 318,
+      "comp": "아주좋음",
+      "comp_score": 0.48,
+      "score": 2.07
+    },
+    {
+      "keyword": "gqbow003d",
+      "category": "패션의류 > 여성의류 > 코디세트",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 300,
+      "products": 144,
       "comp": "아주좋음",
       "comp_score": 0.48,
       "score": 2.07
@@ -23147,6 +26766,17 @@
       "products": 267,
       "comp": "아주좋음",
       "comp_score": 0.49,
+      "score": 2.05
+    },
+    {
+      "keyword": "jz2249",
+      "category": "패션의류 > 남성의류 > 아우터 > 재킷",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 460,
+      "products": 223,
+      "comp": "아주좋음",
+      "comp_score": 0.48,
       "score": 2.05
     },
     {
@@ -23370,6 +27000,17 @@
       "score": 1.98
     },
     {
+      "keyword": "하성민팬티",
+      "category": "패션의류 > 여성언더웨어/잠옷 > 팬티",
+      "group": "패션의류 > 여성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 1310,
+      "products": 661,
+      "comp": "아주좋음",
+      "comp_score": 0.5,
+      "score": 1.98
+    },
+    {
       "keyword": "셀프명함제작",
       "category": "생활/건강 > 문구/사무용품 > 사무용품 > 명함/전단지제작",
       "group": "생활/건강 > 문구/사무용품",
@@ -23469,6 +27110,17 @@
       "score": 1.95
     },
     {
+      "keyword": "hj2013-010",
+      "category": "패션의류 > 남성의류 > 아우터 > 재킷",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 1610,
+      "products": 826,
+      "comp": "아주좋음",
+      "comp_score": 0.51,
+      "score": 1.95
+    },
+    {
       "keyword": "전기차감속기오일",
       "category": "생활/건강 > 자동차용품 > 오일/소모품 > 미션오일",
       "group": "생활/건강 > 자동차용품",
@@ -23535,6 +27187,17 @@
       "score": 1.93
     },
     {
+      "keyword": "일리고후드집업",
+      "category": "패션의류 > 여성의류 > 아우터 > 후드집업",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 1170,
+      "products": 605,
+      "comp": "아주좋음",
+      "comp_score": 0.52,
+      "score": 1.93
+    },
+    {
       "keyword": "녹십자체온계",
       "category": "생활/건강 > 건강측정용품 > 체온계",
       "group": "생활/건강 > 건강측정용품",
@@ -23563,6 +27226,17 @@
       "period": "최근 30일",
       "search": 920,
       "products": 478,
+      "comp": "아주좋음",
+      "comp_score": 0.52,
+      "score": 1.92
+    },
+    {
+      "keyword": "사시코데님",
+      "category": "패션의류 > 남성의류 > 청바지",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 850,
+      "products": 441,
       "comp": "아주좋음",
       "comp_score": 0.52,
       "score": 1.92
@@ -23711,6 +27385,17 @@
       "score": 1.88
     },
     {
+      "keyword": "보라색가디건",
+      "category": "패션의류 > 여성의류 > 니트 > 카디건",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 370,
+      "products": 196,
+      "comp": "아주좋음",
+      "comp_score": 0.53,
+      "score": 1.88
+    },
+    {
       "keyword": "25톤윙바디",
       "category": "생활/건강 > 자동차용품 > 튜닝용품 > 계기판",
       "group": "생활/건강 > 자동차용품",
@@ -23788,6 +27473,28 @@
       "score": 1.86
     },
     {
+      "keyword": "보르고세시아",
+      "category": "패션의류 > 여성의류 > 바지",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 1030,
+      "products": 552,
+      "comp": "아주좋음",
+      "comp_score": 0.54,
+      "score": 1.86
+    },
+    {
+      "keyword": "스킨이즘팬티",
+      "category": "패션의류 > 남성언더웨어/잠옷 > 팬티",
+      "group": "패션의류 > 남성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 700,
+      "products": 375,
+      "comp": "아주좋음",
+      "comp_score": 0.54,
+      "score": 1.86
+    },
+    {
       "keyword": "불도그gk",
       "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
       "group": "생활/건강 > 수집품",
@@ -23849,6 +27556,39 @@
       "period": "최근 30일",
       "search": 670,
       "products": 362,
+      "comp": "아주좋음",
+      "comp_score": 0.54,
+      "score": 1.85
+    },
+    {
+      "keyword": "버버리옥스클로즈후드",
+      "category": "패션의류 > 여성의류 > 아우터 > 트렌치코트",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 940,
+      "products": 506,
+      "comp": "아주좋음",
+      "comp_score": 0.54,
+      "score": 1.85
+    },
+    {
+      "keyword": "살로몬고어텍스자켓\n",
+      "category": "패션의류 > 남성의류 > 아우터 > 재킷",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 1000,
+      "products": 541,
+      "comp": "아주좋음",
+      "comp_score": 0.54,
+      "score": 1.85
+    },
+    {
+      "keyword": "버즈릭슨샴브레이",
+      "category": "패션의류 > 남성의류 > 셔츠/남방",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 900,
+      "products": 485,
       "comp": "아주좋음",
       "comp_score": 0.54,
       "score": 1.85
@@ -23964,6 +27704,17 @@
       "score": 1.81
     },
     {
+      "keyword": "슈가케인샴브레이",
+      "category": "패션의류 > 남성의류 > 셔츠/남방",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 1070,
+      "products": 589,
+      "comp": "아주좋음",
+      "comp_score": 0.55,
+      "score": 1.81
+    },
+    {
       "keyword": "마리메꼬그릇",
       "category": "생활/건강 > 주방용품 > 식기 > 접시",
       "group": "생활/건강 > 주방용품",
@@ -24005,6 +27756,17 @@
       "products": 306,
       "comp": "아주좋음",
       "comp_score": null,
+      "score": 1.79
+    },
+    {
+      "keyword": "마시모두띠스웨이드자켓",
+      "category": "패션의류 > 여성의류 > 아우터 > 레더재킷",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 770,
+      "products": 429,
+      "comp": "아주좋음",
+      "comp_score": 0.56,
       "score": 1.79
     },
     {
@@ -24080,6 +27842,17 @@
       "period": "최근 30일",
       "search": 330,
       "products": 187,
+      "comp": "아주좋음",
+      "comp_score": 0.57,
+      "score": 1.76
+    },
+    {
+      "keyword": "라시반팬티",
+      "category": "패션의류 > 남성언더웨어/잠옷 > 팬티",
+      "group": "패션의류 > 남성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 640,
+      "products": 363,
       "comp": "아주좋음",
       "comp_score": 0.57,
       "score": 1.76
@@ -24203,6 +27976,39 @@
       "products": 184,
       "comp": "아주좋음",
       "comp_score": 0.57,
+      "score": 1.73
+    },
+    {
+      "keyword": "노바디진",
+      "category": "패션의류 > 여성의류 > 청바지",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 1080,
+      "products": 625,
+      "comp": "아주좋음",
+      "comp_score": 0.58,
+      "score": 1.73
+    },
+    {
+      "keyword": "올리브색가디건",
+      "category": "패션의류 > 여성의류 > 니트 > 카디건",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 1070,
+      "products": 617,
+      "comp": "아주좋음",
+      "comp_score": 0.58,
+      "score": 1.73
+    },
+    {
+      "keyword": "유니클로감탄자켓",
+      "category": "패션의류 > 남성의류 > 아우터 > 재킷",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 1110,
+      "products": 641,
+      "comp": "아주좋음",
+      "comp_score": 0.58,
       "score": 1.73
     },
     {
@@ -24448,6 +28254,17 @@
       "score": 1.68
     },
     {
+      "keyword": "아보체",
+      "category": "패션의류 > 여성의류 > 아우터 > 패딩",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 1260,
+      "products": 750,
+      "comp": "아주좋음",
+      "comp_score": 0.6,
+      "score": 1.68
+    },
+    {
       "keyword": "s3xy",
       "category": "생활/건강 > 자동차용품 > 전기용품 > 기타전기용품",
       "group": "생활/건강 > 자동차용품",
@@ -24558,6 +28375,17 @@
       "score": 1.66
     },
     {
+      "keyword": "하성민심리스",
+      "category": "패션의류 > 여성언더웨어/잠옷 > 브라",
+      "group": "패션의류 > 여성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 1390,
+      "products": 838,
+      "comp": "아주좋음",
+      "comp_score": 0.6,
+      "score": 1.66
+    },
+    {
       "keyword": "브라운체온계커버",
       "category": "생활/건강 > 건강측정용품 > 체온계",
       "group": "생활/건강 > 건강측정용품",
@@ -24602,6 +28430,39 @@
       "score": 1.65
     },
     {
+      "keyword": "밀파바지",
+      "category": "패션의류 > 여성의류 > 바지",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 400,
+      "products": 242,
+      "comp": "아주좋음",
+      "comp_score": 0.6,
+      "score": 1.65
+    },
+    {
+      "keyword": "사쥬드크레",
+      "category": "패션의류 > 남성의류 > 아우터 > 재킷",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 1270,
+      "products": 768,
+      "comp": "아주좋음",
+      "comp_score": 0.6,
+      "score": 1.65
+    },
+    {
+      "keyword": "우영미코트",
+      "category": "패션의류 > 남성의류 > 아우터 > 기타코트",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 860,
+      "products": 521,
+      "comp": "아주좋음",
+      "comp_score": 0.61,
+      "score": 1.65
+    },
+    {
       "keyword": "아이브인형",
       "category": "생활/건강 > 음반 > 국내앨범",
       "group": "생활/건강 > 수집품",
@@ -24635,6 +28496,17 @@
       "score": 1.64
     },
     {
+      "keyword": "라삐아프블라우스",
+      "category": "패션의류 > 여성의류 > 블라우스/셔츠",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 960,
+      "products": 586,
+      "comp": "아주좋음",
+      "comp_score": 0.61,
+      "score": 1.64
+    },
+    {
       "keyword": "슈퍼플로스",
       "category": "생활/건강 > 구강위생용품 > 치실/치간칫솔",
       "group": "생활/건강 > 구강위생용품",
@@ -24652,6 +28524,28 @@
       "period": "최근 30일",
       "search": 350,
       "products": 214,
+      "comp": "아주좋음",
+      "comp_score": 0.61,
+      "score": 1.63
+    },
+    {
+      "keyword": "블루페페",
+      "category": "패션의류 > 여성의류 > 원피스",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 680,
+      "products": 415,
+      "comp": "아주좋음",
+      "comp_score": 0.61,
+      "score": 1.63
+    },
+    {
+      "keyword": "hj8117-010",
+      "category": "패션의류 > 남성의류 > 아우터 > 재킷",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 660,
+      "products": 403,
       "comp": "아주좋음",
       "comp_score": 0.61,
       "score": 1.63
@@ -24767,6 +28661,17 @@
       "score": 1.6
     },
     {
+      "keyword": "애드아보아",
+      "category": "패션의류 > 여성의류 > 니트 > 풀오버",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 700,
+      "products": 437,
+      "comp": "아주좋음",
+      "comp_score": 0.62,
+      "score": 1.6
+    },
+    {
       "keyword": "자동차석회물제거",
       "category": "생활/건강 > 자동차용품 > 세차용품 > 스티커/타르제거제",
       "group": "생활/건강 > 자동차용품",
@@ -24828,6 +28733,17 @@
       "period": "최근 30일",
       "search": 910,
       "products": 570,
+      "comp": "아주좋음",
+      "comp_score": 0.63,
+      "score": 1.59
+    },
+    {
+      "keyword": "몽클경량패딩",
+      "category": "패션의류 > 여성의류 > 아우터 > 패딩",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 370,
+      "products": 232,
       "comp": "아주좋음",
       "comp_score": 0.63,
       "score": 1.59
@@ -24943,6 +28859,28 @@
       "score": 1.57
     },
     {
+      "keyword": "드베로타",
+      "category": "패션의류 > 여성의류 > 니트 > 풀오버",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 1240,
+      "products": 790,
+      "comp": "아주좋음",
+      "comp_score": 0.64,
+      "score": 1.57
+    },
+    {
+      "keyword": "sjsj원피스",
+      "category": "패션의류 > 여성의류 > 원피스",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 1040,
+      "products": 662,
+      "comp": "아주좋음",
+      "comp_score": 0.64,
+      "score": 1.57
+    },
+    {
       "keyword": "원시림의곰빗",
       "category": "생활/건강 > 반려동물 > 미용/목욕 > 브러시/빗",
       "group": "생활/건강 > 반려동물",
@@ -24993,6 +28931,28 @@
       "period": "최근 30일",
       "search": 460,
       "products": 296,
+      "comp": "아주좋음",
+      "comp_score": 0.64,
+      "score": 1.55
+    },
+    {
+      "keyword": "드온도가디건",
+      "category": "패션의류 > 여성의류 > 니트 > 카디건",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 350,
+      "products": 225,
+      "comp": "아주좋음",
+      "comp_score": 0.64,
+      "score": 1.55
+    },
+    {
+      "keyword": "ke0825",
+      "category": "패션의류 > 남성의류 > 트레이닝복",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 550,
+      "products": 353,
       "comp": "아주좋음",
       "comp_score": 0.64,
       "score": 1.55
@@ -25105,6 +29065,17 @@
       "products": 244,
       "comp": "아주좋음",
       "comp_score": null,
+      "score": 1.51
+    },
+    {
+      "keyword": "카라코람패딩",
+      "category": "패션의류 > 남성의류 > 아우터 > 패딩",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 890,
+      "products": 589,
+      "comp": "아주좋음",
+      "comp_score": 0.66,
       "score": 1.51
     },
     {
@@ -25240,6 +29211,17 @@
       "score": 1.47
     },
     {
+      "keyword": "ij7055",
+      "category": "패션의류 > 남성의류 > 트레이닝복",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 460,
+      "products": 312,
+      "comp": "아주좋음",
+      "comp_score": 0.68,
+      "score": 1.47
+    },
+    {
       "keyword": "냥냥냥코",
       "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
       "group": "생활/건강 > 수집품",
@@ -25290,6 +29272,17 @@
       "period": "최근 30일",
       "search": 700,
       "products": 482,
+      "comp": "아주좋음",
+      "comp_score": 0.69,
+      "score": 1.45
+    },
+    {
+      "keyword": "지컷가디건",
+      "category": "패션의류 > 여성의류 > 니트 > 카디건",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 460,
+      "products": 316,
       "comp": "아주좋음",
       "comp_score": 0.69,
       "score": 1.45
@@ -25411,6 +29404,17 @@
       "period": "최근 30일",
       "search": 340,
       "products": 239,
+      "comp": "아주좋음",
+      "comp_score": 0.7,
+      "score": 1.42
+    },
+    {
+      "keyword": "손정완원피스",
+      "category": "패션의류 > 여성의류 > 원피스",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 850,
+      "products": 598,
       "comp": "아주좋음",
       "comp_score": 0.7,
       "score": 1.42
@@ -25570,6 +29574,17 @@
       "score": 1.38
     },
     {
+      "keyword": "kq5472",
+      "category": "패션의류 > 남성의류 > 아우터 > 재킷",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 700,
+      "products": 505,
+      "comp": "아주좋음",
+      "comp_score": 0.72,
+      "score": 1.38
+    },
+    {
       "keyword": "액와체온계",
       "category": "생활/건강 > 건강측정용품 > 체온계",
       "group": "생활/건강 > 건강측정용품",
@@ -25598,6 +29613,39 @@
       "period": "최근 30일",
       "search": 880,
       "products": 640,
+      "comp": "아주좋음",
+      "comp_score": 0.73,
+      "score": 1.37
+    },
+    {
+      "keyword": "alo후드집업",
+      "category": "패션의류 > 여성의류 > 아우터 > 후드집업",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 1200,
+      "products": 878,
+      "comp": "아주좋음",
+      "comp_score": 0.73,
+      "score": 1.37
+    },
+    {
+      "keyword": "고비캐시미어가디건",
+      "category": "패션의류 > 여성의류 > 니트 > 카디건",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 930,
+      "products": 678,
+      "comp": "아주좋음",
+      "comp_score": 0.73,
+      "score": 1.37
+    },
+    {
+      "keyword": "메타런싱글렛",
+      "category": "패션의류 > 남성의류 > 티셔츠",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 760,
+      "products": 553,
       "comp": "아주좋음",
       "comp_score": 0.73,
       "score": 1.37
@@ -25666,6 +29714,28 @@
       "products": 736,
       "comp": "아주좋음",
       "comp_score": 0.74,
+      "score": 1.36
+    },
+    {
+      "keyword": "kd1517",
+      "category": "패션의류 > 남성의류 > 아우터 > 재킷",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 1140,
+      "products": 835,
+      "comp": "아주좋음",
+      "comp_score": 0.73,
+      "score": 1.36
+    },
+    {
+      "keyword": "폴로베이포트자켓",
+      "category": "패션의류 > 남성의류 > 아우터 > 재킷",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 1100,
+      "products": 806,
+      "comp": "아주좋음",
+      "comp_score": 0.73,
       "score": 1.36
     },
     {
@@ -25779,6 +29849,17 @@
       "score": 1.33
     },
     {
+      "keyword": "카인다미골반뽕",
+      "category": "패션의류 > 여성언더웨어/잠옷 > 팬티",
+      "group": "패션의류 > 여성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 560,
+      "products": 419,
+      "comp": "아주좋음",
+      "comp_score": 0.75,
+      "score": 1.33
+    },
+    {
       "keyword": "소낙스가죽보호제",
       "category": "생활/건강 > 자동차용품 > 세차용품 > 실내세정제",
       "group": "생활/건강 > 자동차용품",
@@ -25851,6 +29932,17 @@
       "period": "최근 30일",
       "search": 430,
       "products": 328,
+      "comp": "아주좋음",
+      "comp_score": 0.76,
+      "score": 1.31
+    },
+    {
+      "keyword": "볼디스트바지",
+      "category": "패션의류 > 남성의류 > 바지",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 1050,
+      "products": 799,
       "comp": "아주좋음",
       "comp_score": 0.76,
       "score": 1.31
@@ -25999,6 +30091,17 @@
       "score": 1.29
     },
     {
+      "keyword": "신부엄마한복",
+      "category": "패션의류 > 여성의류 > 한복",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 760,
+      "products": 587,
+      "comp": "아주좋음",
+      "comp_score": 0.77,
+      "score": 1.29
+    },
+    {
       "keyword": "다이소면장갑",
       "category": "생활/건강 > 화방용품 > 안전장갑",
       "group": "생활/건강 > 화방용품",
@@ -26076,6 +30179,17 @@
       "score": 1.28
     },
     {
+      "keyword": "라시반",
+      "category": "패션의류 > 남성언더웨어/잠옷 > 팬티",
+      "group": "패션의류 > 남성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 480,
+      "products": 373,
+      "comp": "아주좋음",
+      "comp_score": 0.78,
+      "score": 1.28
+    },
+    {
       "keyword": "멀티락",
       "category": "생활/건강 > 공구 > 전기용품 > 멀티탭",
       "group": "생활/건강 > 자동차용품",
@@ -26117,6 +30231,17 @@
       "products": 867,
       "comp": "아주좋음",
       "comp_score": 0.8,
+      "score": 1.26
+    },
+    {
+      "keyword": "미쏘코트",
+      "category": "패션의류 > 여성의류 > 아우터 > 트렌치코트",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 900,
+      "products": 711,
+      "comp": "아주좋음",
+      "comp_score": 0.79,
       "score": 1.26
     },
     {
@@ -26194,6 +30319,17 @@
       "products": 598,
       "comp": "아주좋음",
       "comp_score": 0.81,
+      "score": 1.24
+    },
+    {
+      "keyword": "gu엔지니어드",
+      "category": "패션의류 > 남성의류 > 바지",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 960,
+      "products": 771,
+      "comp": "아주좋음",
+      "comp_score": 0.8,
       "score": 1.24
     },
     {
@@ -26285,6 +30421,17 @@
       "score": 1.22
     },
     {
+      "keyword": "il8764",
+      "category": "패션의류 > 여성의류 > 트레이닝복",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 350,
+      "products": 287,
+      "comp": "아주좋음",
+      "comp_score": 0.82,
+      "score": 1.22
+    },
+    {
       "keyword": "레만글라스",
       "category": "생활/건강 > 주방용품 > 잔/컵 > 유리컵",
       "group": "생활/건강 > 주방용품",
@@ -26340,6 +30487,17 @@
       "score": 1.2
     },
     {
+      "keyword": "이사잘브라",
+      "category": "패션의류 > 여성언더웨어/잠옷 > 브라",
+      "group": "패션의류 > 여성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 360,
+      "products": 298,
+      "comp": "아주좋음",
+      "comp_score": 0.83,
+      "score": 1.2
+    },
+    {
       "keyword": "킹스텝",
       "category": "생활/건강 > 자동차용품 > 익스테리어용품 > 사이드스텝",
       "group": "생활/건강 > 자동차용품",
@@ -26390,6 +30548,17 @@
       "period": "최근 30일",
       "search": 920,
       "products": 770,
+      "comp": "아주좋음",
+      "comp_score": 0.84,
+      "score": 1.19
+    },
+    {
+      "keyword": "쥬시쥬디가디건",
+      "category": "패션의류 > 여성의류 > 니트 > 카디건",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 690,
+      "products": 578,
       "comp": "아주좋음",
       "comp_score": 0.84,
       "score": 1.19
@@ -26472,6 +30641,28 @@
       "score": 1.18
     },
     {
+      "keyword": "젝시믹스반바지",
+      "category": "패션의류 > 여성의류 > 바지",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 1000,
+      "products": 848,
+      "comp": "아주좋음",
+      "comp_score": 0.85,
+      "score": 1.18
+    },
+    {
+      "keyword": "프록코트",
+      "category": "패션의류 > 남성의류 > 아우터 > 롱코트",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 960,
+      "products": 810,
+      "comp": "아주좋음",
+      "comp_score": 0.84,
+      "score": 1.18
+    },
+    {
       "keyword": "김명국채칼",
       "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 채칼/필러",
       "group": "생활/건강 > 주방용품",
@@ -26511,6 +30702,17 @@
       "period": "최근 30일",
       "search": 390,
       "products": 333,
+      "comp": "아주좋음",
+      "comp_score": 0.85,
+      "score": 1.17
+    },
+    {
+      "keyword": "로카바람막이",
+      "category": "패션의류 > 남성의류 > 아우터 > 재킷",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 800,
+      "products": 683,
       "comp": "아주좋음",
       "comp_score": 0.85,
       "score": 1.17
@@ -26588,6 +30790,17 @@
       "period": "최근 30일",
       "search": 510,
       "products": 437,
+      "comp": "아주좋음",
+      "comp_score": 0.86,
+      "score": 1.16
+    },
+    {
+      "keyword": "kq9491",
+      "category": "패션의류 > 남성의류 > 트레이닝복",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 1000,
+      "products": 859,
       "comp": "아주좋음",
       "comp_score": 0.86,
       "score": 1.16
@@ -26857,6 +31070,17 @@
       "score": 1.11
     },
     {
+      "keyword": "막스마라마담블랙",
+      "category": "패션의류 > 여성의류 > 아우터 > 기타코트",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 350,
+      "products": 314,
+      "comp": "아주좋음",
+      "comp_score": 0.9,
+      "score": 1.11
+    },
+    {
       "keyword": "잔스포츠도시락가방",
       "category": "패션잡화 > 여성가방 > 백팩 | 패션잡화 > 남성가방 > 백팩 | 면세점 > 패션/잡화 > 가방 > 백팩 | 출산/육아 > 유아동잡화 > 가방 > 백팩",
       "group": "생활/건강 > 주방용품",
@@ -26896,6 +31120,17 @@
       "period": "최근 30일",
       "search": 470,
       "products": 428,
+      "comp": "아주좋음",
+      "comp_score": 0.91,
+      "score": 1.1
+    },
+    {
+      "keyword": "잇미샤스웨이드자켓",
+      "category": "패션의류 > 여성의류 > 아우터 > 재킷",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 570,
+      "products": 518,
       "comp": "아주좋음",
       "comp_score": 0.91,
       "score": 1.1
@@ -27121,6 +31356,17 @@
       "score": 1.07
     },
     {
+      "keyword": "ke1365",
+      "category": "패션의류 > 남성의류 > 트레이닝복",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 460,
+      "products": 430,
+      "comp": "아주좋음",
+      "comp_score": 0.93,
+      "score": 1.07
+    },
+    {
       "keyword": "헤누스",
       "category": "생활/건강 > 자동차용품 > 편의용품 > 차량용청소기",
       "group": "생활/건강 > 자동차용품",
@@ -27160,6 +31406,28 @@
       "period": "최근 30일",
       "search": 720,
       "products": 679,
+      "comp": "아주좋음",
+      "comp_score": 0.94,
+      "score": 1.06
+    },
+    {
+      "keyword": "세틴스커트",
+      "category": "패션의류 > 여성의류 > 스커트",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 800,
+      "products": 756,
+      "comp": "아주좋음",
+      "comp_score": 0.94,
+      "score": 1.06
+    },
+    {
+      "keyword": "iy7255",
+      "category": "패션의류 > 여성의류 > 트레이닝복",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 450,
+      "products": 425,
       "comp": "아주좋음",
       "comp_score": 0.94,
       "score": 1.06
@@ -27209,6 +31477,50 @@
       "score": 1.05
     },
     {
+      "keyword": "ke1366",
+      "category": "패션의류 > 남성의류 > 트레이닝복",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 760,
+      "products": 720,
+      "comp": "아주좋음",
+      "comp_score": 0.95,
+      "score": 1.05
+    },
+    {
+      "keyword": "kq8649",
+      "category": "패션의류 > 남성의류 > 티셔츠",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 550,
+      "products": 524,
+      "comp": "아주좋음",
+      "comp_score": 0.95,
+      "score": 1.05
+    },
+    {
+      "keyword": "jx1451",
+      "category": "패션의류 > 남성의류 > 아우터 > 재킷",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 510,
+      "products": 483,
+      "comp": "아주좋음",
+      "comp_score": 0.95,
+      "score": 1.05
+    },
+    {
+      "keyword": "kz1210",
+      "category": "패션의류 > 남성의류 > 트레이닝복",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 320,
+      "products": 305,
+      "comp": "아주좋음",
+      "comp_score": 0.95,
+      "score": 1.05
+    },
+    {
       "keyword": "중고집게차",
       "category": "생활/건강 > 자동차용품 > 튜닝용품 > 계기판",
       "group": "생활/건강 > 자동차용품",
@@ -27226,6 +31538,17 @@
       "period": "최근 30일",
       "search": 300,
       "products": 288,
+      "comp": "아주좋음",
+      "comp_score": 0.96,
+      "score": 1.04
+    },
+    {
+      "keyword": "커스텀멜로우코트",
+      "category": "패션의류 > 남성의류 > 아우터 > 기타코트",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 580,
+      "products": 555,
       "comp": "아주좋음",
       "comp_score": 0.96,
       "score": 1.04
@@ -27352,6 +31675,17 @@
       "score": 1.02
     },
     {
+      "keyword": "스노우피크패딩조끼",
+      "category": "출산/육아 > 유아동의류 > 조끼 | 스포츠/레저 > 등산 > 등산의류 > 조끼 | 스포츠/레저 > 골프 > 골프의류 > 조끼 | 스포츠/레저 > 스키/보드 > 보드복 > 조끼",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 410,
+      "products": 401,
+      "comp": "아주좋음",
+      "comp_score": 0.98,
+      "score": 1.02
+    },
+    {
       "keyword": "갤럭시폴드8차량거치대",
       "category": "생활/건강 > 자동차용품 > 휴대폰용품 > 차량용휴대폰거치대",
       "group": "생활/건강 > 자동차용품",
@@ -27440,6 +31774,17 @@
       "score": 1.01
     },
     {
+      "keyword": "마룬파이브캡나시",
+      "category": "패션의류 > 여성언더웨어/잠옷 > 러닝/캐미솔",
+      "group": "패션의류 > 여성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 440,
+      "products": 436,
+      "comp": "아주좋음",
+      "comp_score": 0.99,
+      "score": 1.01
+    },
+    {
       "keyword": "젝타",
       "category": "생활/건강 > 안마용품 > 안마기",
       "group": "생활/건강 > 물리치료/저주파용품",
@@ -27501,6 +31846,17 @@
       "period": "최근 30일",
       "search": 680,
       "products": 681,
+      "comp": "아주좋음",
+      "comp_score": 1,
+      "score": 1.0
+    },
+    {
+      "keyword": "세이블밍크",
+      "category": "패션의류 > 여성의류 > 아우터 > 기타코트",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 840,
+      "products": 838,
       "comp": "아주좋음",
       "comp_score": 1,
       "score": 1.0
@@ -27649,6 +32005,17 @@
       "score": 0.98
     },
     {
+      "keyword": "데무원피스",
+      "category": "패션의류 > 여성의류 > 원피스",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 670,
+      "products": 683,
+      "comp": "아주좋음",
+      "comp_score": 1.02,
+      "score": 0.98
+    },
+    {
       "keyword": "교정용왁스",
       "category": "생활/건강 > 구강위생용품 > 치실/치간칫솔",
       "group": "생활/건강 > 구강위생용품",
@@ -27726,6 +32093,17 @@
       "score": 0.96
     },
     {
+      "keyword": "유니클로트렌치코트",
+      "category": "패션의류 > 여성의류 > 아우터 > 트렌치코트",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 340,
+      "products": 353,
+      "comp": "아주좋음",
+      "comp_score": 1.04,
+      "score": 0.96
+    },
+    {
       "keyword": "렉스턴스포츠하드탑",
       "category": "생활/건강 > 자동차용품 > 튜닝용품 > 기타튜닝용품",
       "group": "생활/건강 > 자동차용품",
@@ -27770,6 +32148,17 @@
       "score": 0.95
     },
     {
+      "keyword": "오클리인핸스윈드",
+      "category": "패션의류 > 남성의류 > 아우터 > 후드집업",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 490,
+      "products": 517,
+      "comp": "아주좋음",
+      "comp_score": 1.06,
+      "score": 0.95
+    },
+    {
       "keyword": "힙한불교굿즈",
       "category": "생활/건강 > 종교 > 불교용품",
       "group": "생활/건강 > 종교",
@@ -27800,6 +32189,39 @@
       "products": 876,
       "comp": "아주좋음",
       "comp_score": 1.07,
+      "score": 0.94
+    },
+    {
+      "keyword": "시티브리즈가디건",
+      "category": "패션의류 > 여성의류 > 니트 > 카디건",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 730,
+      "products": 774,
+      "comp": "아주좋음",
+      "comp_score": 1.06,
+      "score": 0.94
+    },
+    {
+      "keyword": "도롱이방한복",
+      "category": "패션의류 > 여성의류 > 아우터 > 레인코트",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 510,
+      "products": 540,
+      "comp": "아주좋음",
+      "comp_score": 1.06,
+      "score": 0.94
+    },
+    {
+      "keyword": "누에고치팬티",
+      "category": "패션의류 > 여성언더웨어/잠옷 > 팬티",
+      "group": "패션의류 > 여성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 440,
+      "products": 466,
+      "comp": "아주좋음",
+      "comp_score": 1.06,
       "score": 0.94
     },
     {
@@ -27864,6 +32286,17 @@
       "period": "최근 30일",
       "search": 630,
       "products": 680,
+      "comp": "아주좋음",
+      "comp_score": 1.08,
+      "score": 0.93
+    },
+    {
+      "keyword": "사무라이진",
+      "category": "패션의류 > 남성의류 > 청바지",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 690,
+      "products": 743,
       "comp": "아주좋음",
       "comp_score": 1.08,
       "score": 0.93
@@ -27952,6 +32385,28 @@
       "period": "최근 30일",
       "search": 390,
       "products": 428,
+      "comp": "아주좋음",
+      "comp_score": 1.1,
+      "score": 0.91
+    },
+    {
+      "keyword": "hj5377-010",
+      "category": "패션의류 > 여성의류 > 트레이닝복",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 740,
+      "products": 816,
+      "comp": "아주좋음",
+      "comp_score": 1.1,
+      "score": 0.91
+    },
+    {
+      "keyword": "얼굴땀패드\n",
+      "category": "패션의류 > 여성언더웨어/잠옷 > 언더웨어소품 > 땀패드",
+      "group": "패션의류 > 여성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 400,
+      "products": 439,
       "comp": "아주좋음",
       "comp_score": 1.1,
       "score": 0.91
@@ -28100,6 +32555,17 @@
       "score": 0.89
     },
     {
+      "keyword": "미나그램잠옷",
+      "category": "패션의류 > 여성언더웨어/잠옷 > 잠옷/홈웨어",
+      "group": "패션의류 > 여성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 470,
+      "products": 528,
+      "comp": "아주좋음",
+      "comp_score": 1.12,
+      "score": 0.89
+    },
+    {
       "keyword": "탕게등유통",
       "category": "생활/건강 > 자동차용품 > 오일/소모품 > 기타 오일/소모품",
       "group": "생활/건강 > 자동차용품",
@@ -28141,6 +32607,17 @@
       "products": 421,
       "comp": "아주좋음",
       "comp_score": 1.14,
+      "score": 0.88
+    },
+    {
+      "keyword": "브리스코리아",
+      "category": "패션의류 > 여성언더웨어/잠옷 > 보정속옷 > 니퍼/복대",
+      "group": "패션의류 > 여성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 430,
+      "products": 486,
+      "comp": "아주좋음",
+      "comp_score": 1.13,
       "score": 0.88
     },
     {
@@ -28238,6 +32715,28 @@
       "period": "최근 30일",
       "search": 490,
       "products": 566,
+      "comp": "아주좋음",
+      "comp_score": 1.16,
+      "score": 0.86
+    },
+    {
+      "keyword": "볼디스트반팔",
+      "category": "패션의류 > 남성의류 > 티셔츠",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 460,
+      "products": 533,
+      "comp": "아주좋음",
+      "comp_score": 1.16,
+      "score": 0.86
+    },
+    {
+      "keyword": "런던트레디션",
+      "category": "패션의류 > 남성의류 > 아우터 > 기타코트",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 460,
+      "products": 534,
       "comp": "아주좋음",
       "comp_score": 1.16,
       "score": 0.86
@@ -28397,6 +32896,39 @@
       "score": 0.84
     },
     {
+      "keyword": "kd7969",
+      "category": "패션의류 > 여성의류 > 트레이닝복",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 520,
+      "products": 617,
+      "comp": "아주좋음",
+      "comp_score": 1.19,
+      "score": 0.84
+    },
+    {
+      "keyword": "이노락",
+      "category": "패션의류 > 남성의류 > 아우터 > 재킷",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 620,
+      "products": 741,
+      "comp": "아주좋음",
+      "comp_score": 1.2,
+      "score": 0.84
+    },
+    {
+      "keyword": "dd4747-010",
+      "category": "패션의류 > 남성의류 > 아우터 > 재킷",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 610,
+      "products": 726,
+      "comp": "아주좋음",
+      "comp_score": 1.19,
+      "score": 0.84
+    },
+    {
       "keyword": "딥디크방향제리필",
       "category": "생활/건강 > 자동차용품 > 공기청정용품 > 차량용방향제",
       "group": "생활/건강 > 자동차용품",
@@ -28496,6 +33028,17 @@
       "score": 0.83
     },
     {
+      "keyword": "생활한복실과바늘",
+      "category": "패션의류 > 여성의류 > 한복",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 660,
+      "products": 793,
+      "comp": "아주좋음",
+      "comp_score": 1.2,
+      "score": 0.83
+    },
+    {
       "keyword": "황호석",
       "category": "생활/건강 > 관상어용품 > 수조장식용품",
       "group": "생활/건강 > 관상어용품",
@@ -28535,6 +33078,17 @@
       "period": "최근 30일",
       "search": 340,
       "products": 414,
+      "comp": "아주좋음",
+      "comp_score": 1.22,
+      "score": 0.82
+    },
+    {
+      "keyword": "쉬즈미스가죽자켓",
+      "category": "패션의류 > 여성의류 > 아우터 > 재킷",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 720,
+      "products": 880,
       "comp": "아주좋음",
       "comp_score": 1.22,
       "score": 0.82
@@ -28793,6 +33347,17 @@
       "score": 0.78
     },
     {
+      "keyword": "리플패치",
+      "category": "패션의류 > 여성언더웨어/잠옷 > 언더웨어소품 > 기타언더웨어소품",
+      "group": "패션의류 > 여성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 490,
+      "products": 626,
+      "comp": "아주좋음",
+      "comp_score": 1.28,
+      "score": 0.78
+    },
+    {
       "keyword": "ev3핸드폰거치대",
       "category": "생활/건강 > 자동차용품 > 휴대폰용품 > 차량용휴대폰거치대",
       "group": "생활/건강 > 자동차용품",
@@ -28823,6 +33388,28 @@
       "products": 478,
       "comp": "아주좋음",
       "comp_score": 1.29,
+      "score": 0.77
+    },
+    {
+      "keyword": "fb7500-010",
+      "category": "패션의류 > 남성의류 > 아우터 > 재킷",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 670,
+      "products": 869,
+      "comp": "아주좋음",
+      "comp_score": 1.3,
+      "score": 0.77
+    },
+    {
+      "keyword": "할리데이비슨가죽자켓",
+      "category": "스포츠/레저 > 자전거 > 자전거의류/잡화 > 상의 | 스포츠/레저 > 스키/보드 > 스키복 > 상의 | 스포츠/레저 > 요가/필라테스 > 요가복 > 상의 | 스포츠/레저 > 오토바이/스쿠터 > 오토바이의류/잡화 > 상의 | 스포츠/레저 > 수영 > 비치웨어 > 상의",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 410,
+      "products": 532,
+      "comp": "아주좋음",
+      "comp_score": 1.3,
       "score": 0.77
     },
     {
@@ -28955,6 +33542,17 @@
       "products": 468,
       "comp": "아주좋음",
       "comp_score": 1.34,
+      "score": 0.75
+    },
+    {
+      "keyword": "스수아끌레르",
+      "category": "패션의류 > 여성언더웨어/잠옷 > 잠옷/홈웨어",
+      "group": "패션의류 > 여성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 410,
+      "products": 543,
+      "comp": "아주좋음",
+      "comp_score": 1.32,
       "score": 0.75
     },
     {
@@ -29101,6 +33699,28 @@
       "score": 0.73
     },
     {
+      "keyword": "블루핏데님",
+      "category": "패션의류 > 여성의류 > 청바지",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 640,
+      "products": 873,
+      "comp": "아주좋음",
+      "comp_score": 1.36,
+      "score": 0.73
+    },
+    {
+      "keyword": "쏙쏙셔츠",
+      "category": "패션의류 > 남성의류 > 셔츠/남방",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 420,
+      "products": 571,
+      "comp": "아주좋음",
+      "comp_score": 1.36,
+      "score": 0.73
+    },
+    {
       "keyword": "카니발냉온컵홀더",
       "category": "생활/건강 > 자동차용품 > 수납용품 > 차량용홀더",
       "group": "생활/건강 > 자동차용품",
@@ -29162,6 +33782,17 @@
       "period": "최근 30일",
       "search": 350,
       "products": 486,
+      "comp": "아주좋음",
+      "comp_score": 1.39,
+      "score": 0.72
+    },
+    {
+      "keyword": "럭키슈에뜨코트",
+      "category": "패션의류 > 여성의류 > 아우터 > 기타코트",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 550,
+      "products": 764,
       "comp": "아주좋음",
       "comp_score": 1.39,
       "score": 0.72
@@ -29354,6 +33985,17 @@
       "score": 0.7
     },
     {
+      "keyword": "막스마라패딩세이아",
+      "category": "패션의류 > 여성의류 > 아우터 > 패딩",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 400,
+      "products": 567,
+      "comp": "아주좋음",
+      "comp_score": 1.42,
+      "score": 0.7
+    },
+    {
       "keyword": "배터리전해액",
       "category": "생활/건강 > 자동차용품 > 배터리용품 > 기타배터리용품",
       "group": "생활/건강 > 자동차용품",
@@ -29384,6 +34026,28 @@
       "products": 435,
       "comp": "아주좋음",
       "comp_score": 1.45,
+      "score": 0.69
+    },
+    {
+      "keyword": "유로컬렉션밍크",
+      "category": "패션의류 > 여성의류 > 아우터 > 재킷",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 410,
+      "products": 596,
+      "comp": "아주좋음",
+      "comp_score": 1.45,
+      "score": 0.69
+    },
+    {
+      "keyword": "kb1242",
+      "category": "패션의류 > 여성의류 > 트레이닝복",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 340,
+      "products": 491,
+      "comp": "아주좋음",
+      "comp_score": 1.44,
       "score": 0.69
     },
     {
@@ -29538,6 +34202,17 @@
       "products": 518,
       "comp": "아주좋음",
       "comp_score": 1.48,
+      "score": 0.67
+    },
+    {
+      "keyword": "어우동한복",
+      "category": "패션의류 > 여성의류 > 한복",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 570,
+      "products": 851,
+      "comp": "아주좋음",
+      "comp_score": 1.49,
       "score": 0.67
     },
     {
@@ -29992,6 +34667,17 @@
       "score": 0.59
     },
     {
+      "keyword": "듀엘트렌치코트",
+      "category": "패션의류 > 여성의류 > 아우터 > 트렌치코트",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 390,
+      "products": 656,
+      "comp": "아주좋음",
+      "comp_score": 1.68,
+      "score": 0.59
+    },
+    {
       "keyword": "쇼토쿠글라스",
       "category": "생활/건강 > 주방용품 > 잔/컵 > 유리컵",
       "group": "생활/건강 > 주방용품",
@@ -30055,6 +34741,28 @@
       "products": 667,
       "comp": "아주좋음",
       "comp_score": 1.71,
+      "score": 0.58
+    },
+    {
+      "keyword": "버버리더플코트",
+      "category": "패션의류 > 여성의류 > 아우터 > 기타코트",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 400,
+      "products": 689,
+      "comp": "아주좋음",
+      "comp_score": 1.72,
+      "score": 0.58
+    },
+    {
+      "keyword": "몽벨우비",
+      "category": "패션의류 > 남성의류 > 아우터 > 레인코트",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 390,
+      "products": 669,
+      "comp": "아주좋음",
+      "comp_score": 1.72,
       "score": 0.58
     },
     {
@@ -30179,6 +34887,17 @@
       "score": 0.56
     },
     {
+      "keyword": "언더슨스커트",
+      "category": "패션의류 > 여성의류 > 스커트",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 450,
+      "products": 796,
+      "comp": "아주좋음",
+      "comp_score": 1.77,
+      "score": 0.56
+    },
+    {
       "keyword": "모닝랩",
       "category": "생활/건강 > 주방용품 > 일회용품 > 랩",
       "group": "생활/건강 > 주방용품",
@@ -30253,6 +34972,17 @@
       "products": 814,
       "comp": "아주좋음",
       "comp_score": 1.85,
+      "score": 0.54
+    },
+    {
+      "keyword": "키작녀하렘팬츠",
+      "category": "패션의류 > 여성의류 > 바지",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 330,
+      "products": 605,
+      "comp": "아주좋음",
+      "comp_score": 1.83,
       "score": 0.54
     },
     {
@@ -30388,6 +35118,28 @@
       "score": 0.51
     },
     {
+      "keyword": "진도밍크코트",
+      "category": "패션의류 > 여성의류 > 아우터 > 기타코트",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 380,
+      "products": 745,
+      "comp": "아주좋음",
+      "comp_score": 1.96,
+      "score": 0.51
+    },
+    {
+      "keyword": "낭심분리팬티",
+      "category": "패션의류 > 남성언더웨어/잠옷 > 팬티",
+      "group": "패션의류 > 남성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 310,
+      "products": 601,
+      "comp": "아주좋음",
+      "comp_score": 1.94,
+      "score": 0.51
+    },
+    {
       "keyword": "pv5썬바이저",
       "category": "생활/건강 > 자동차용품 > 익스테리어용품 > 선바이저",
       "group": "생활/건강 > 자동차용품",
@@ -30443,6 +35195,17 @@
       "score": 0.5
     },
     {
+      "keyword": "요술팬티",
+      "category": "패션의류 > 여성언더웨어/잠옷 > 팬티",
+      "group": "패션의류 > 여성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 350,
+      "products": 706,
+      "comp": "좋음",
+      "comp_score": 2.02,
+      "score": 0.5
+    },
+    {
       "keyword": "마르티그",
       "category": "생활/건강 > 자동차용품 > 공기청정용품 > 차량용방향제",
       "group": "생활/건강 > 자동차용품",
@@ -30471,6 +35234,17 @@
       "period": "최근 30일",
       "search": 320,
       "products": 655,
+      "comp": "좋음",
+      "comp_score": 2.05,
+      "score": 0.49
+    },
+    {
+      "keyword": "io1430-010",
+      "category": "패션의류 > 남성의류 > 트레이닝복",
+      "group": "패션의류 > 남성의류",
+      "period": "최근 30일",
+      "search": 430,
+      "products": 881,
       "comp": "좋음",
       "comp_score": 2.05,
       "score": 0.49
@@ -30817,6 +35591,17 @@
       "score": 0.39
     },
     {
+      "keyword": "정말편한속옷",
+      "category": "패션의류 > 여성언더웨어/잠옷 > 브라팬티세트",
+      "group": "패션의류 > 여성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 330,
+      "products": 842,
+      "comp": "좋음",
+      "comp_score": 2.55,
+      "score": 0.39
+    },
+    {
       "keyword": "다이얼뽀모도로타이머",
       "category": "생활/건강 > 주방용품 > 제과/제빵용품 > 쿠킹타이머",
       "group": "생활/건강 > 주방용품",
@@ -30836,6 +35621,28 @@
       "products": 884,
       "comp": "좋음",
       "comp_score": 2.68,
+      "score": 0.37
+    },
+    {
+      "keyword": "산드로가죽자켓",
+      "category": "패션의류 > 여성의류 > 아우터 > 레더재킷",
+      "group": "패션의류 > 여성의류",
+      "period": "최근 30일",
+      "search": 320,
+      "products": 870,
+      "comp": "좋음",
+      "comp_score": 2.72,
+      "score": 0.37
+    },
+    {
+      "keyword": "리복팬티",
+      "category": "패션의류 > 남성언더웨어/잠옷 > 팬티",
+      "group": "패션의류 > 남성언더웨어/잠옷",
+      "period": "최근 30일",
+      "search": 330,
+      "products": 889,
+      "comp": "좋음",
+      "comp_score": 2.69,
       "score": 0.37
     },
     {
