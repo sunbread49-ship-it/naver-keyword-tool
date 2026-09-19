@@ -78,9 +78,31 @@
         "period": "최근 30일",
         "exclude_major_brand": true
       }
+    },
+    {
+      "category": "생활/건강 > 주방용품",
+      "period": "최근 30일",
+      "collected_at": "2026-09-19",
+      "filter": {
+        "min_search": 300,
+        "max_products": 900,
+        "period": "최근 30일",
+        "exclude_major_brand": true
+      }
+    },
+    {
+      "category": "생활/건강 > 세탁용품",
+      "period": "최근 30일",
+      "collected_at": "2026-09-19",
+      "filter": {
+        "min_search": 300,
+        "max_products": 900,
+        "period": "최근 30일",
+        "exclude_major_brand": true
+      }
     }
   ],
-  "total_scanned": 734,
+  "total_scanned": 1217,
   "keywords": [
     {
       "keyword": "맥도날드감튀홀더",
@@ -101,6 +123,16 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 3169.75
+    },
+    {
+      "keyword": "레모니티",
+      "category": "생활/건강 > 주방용품 > 도마",
+      "period": "최근 30일",
+      "search": 4580,
+      "products": 1,
+      "comp": "아주좋음",
+      "comp_score": 0,
+      "score": 2290.0
     },
     {
       "keyword": "다이소유막제거제",
@@ -133,6 +165,16 @@
       "score": 1273.33
     },
     {
+      "keyword": "다이소유청분리기",
+      "category": "생활/건강 > 주방용품 > 조리기구 > 기타조리기구",
+      "period": "최근 30일",
+      "search": 21260,
+      "products": 16,
+      "comp": "아주좋음",
+      "comp_score": 0,
+      "score": 1250.59
+    },
+    {
       "keyword": "킥스g15w30",
       "category": "생활/건강 > 자동차용품 > 오일/소모품 > 엔진오일",
       "period": "최근 30일",
@@ -151,6 +193,16 @@
       "comp": "",
       "comp_score": 0.0,
       "score": 800.0
+    },
+    {
+      "keyword": "윤도자기냉동밥용기",
+      "category": "생활/건강 > 주방용품 > 보관/밀폐용기 > 플라스틱용기세트",
+      "period": "최근 30일",
+      "search": 9250,
+      "products": 11,
+      "comp": "아주좋음",
+      "comp_score": 0,
+      "score": 770.83
     },
     {
       "keyword": "다이소컴파운드",
@@ -203,6 +255,26 @@
       "score": 601.0
     },
     {
+      "keyword": "플루딕짤순이",
+      "category": "생활/건강 > 주방용품 > 조리기구 > 야채탈수기",
+      "period": "최근 30일",
+      "search": 9790,
+      "products": 16,
+      "comp": "아주좋음",
+      "comp_score": 0,
+      "score": 575.88
+    },
+    {
+      "keyword": "자이티밥솥칸막이",
+      "category": "생활/건강 > 주방용품 > 조리기구 > 기타조리기구",
+      "period": "최근 30일",
+      "search": 1620,
+      "products": 2,
+      "comp": "아주좋음",
+      "comp_score": 0,
+      "score": 540.0
+    },
+    {
       "keyword": "코히나타미유",
       "category": "출산/육아 > 완구/인형 > 캐릭터카드/딱지",
       "period": "최근 30일",
@@ -253,6 +325,16 @@
       "score": 432.5
     },
     {
+      "keyword": "쿠지글",
+      "category": "생활/건강 > 주방용품 > 냄비/솥 > 전자레인지/오븐 용기",
+      "period": "최근 30일",
+      "search": 9270,
+      "products": 21,
+      "comp": "아주좋음",
+      "comp_score": 0,
+      "score": 421.36
+    },
+    {
       "keyword": "100원희귀동전",
       "category": "생활/건강 > 수집품 > 화폐 > 주화",
       "period": "최근 30일",
@@ -271,6 +353,16 @@
       "comp": "",
       "comp_score": 0.0,
       "score": 410.31
+    },
+    {
+      "keyword": "밧드야분리수거함",
+      "category": "생활/건강 > 주방용품 > 일회용품 > 비닐봉투",
+      "period": "최근 30일",
+      "search": 4780,
+      "products": 12,
+      "comp": "아주좋음",
+      "comp_score": 0,
+      "score": 367.69
     },
     {
       "keyword": "선양소주",
@@ -303,6 +395,16 @@
       "score": 350.0
     },
     {
+      "keyword": "다이소실리콘지퍼백",
+      "category": "생활/건강 > 주방용품 > 보관/밀폐용기 > 실리콘지퍼백",
+      "period": "최근 30일",
+      "search": 7400,
+      "products": 21,
+      "comp": "아주좋음",
+      "comp_score": 0,
+      "score": 336.36
+    },
+    {
       "keyword": "다이소문진",
       "category": "생활/건강 > 화방용품 > 문진",
       "period": "최근 30일",
@@ -333,6 +435,26 @@
       "score": 320.0
     },
     {
+      "keyword": "바이탈플랜트롤팬",
+      "category": "생활/건강 > 주방용품 > 조리기구 > 기타조리기구",
+      "period": "최근 30일",
+      "search": 67570,
+      "products": 212,
+      "comp": "아주좋음",
+      "comp_score": 0,
+      "score": 317.23
+    },
+    {
+      "keyword": "로스돔그릴팬",
+      "category": "생활/건강 > 주방용품 > 냄비/솥 > 냄비부자재",
+      "period": "최근 30일",
+      "search": 4370,
+      "products": 13,
+      "comp": "아주좋음",
+      "comp_score": 0,
+      "score": 312.14
+    },
+    {
       "keyword": "다이소폼보드",
       "category": "생활/건강 > 화방용품 > 우드락/폼보드",
       "period": "최근 30일",
@@ -341,6 +463,16 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 261.25
+    },
+    {
+      "keyword": "윤도자기냉동밥",
+      "category": "생활/건강 > 주방용품 > 보관/밀폐용기 > 플라스틱용기세트",
+      "period": "최근 30일",
+      "search": 3070,
+      "products": 11,
+      "comp": "아주좋음",
+      "comp_score": 0,
+      "score": 255.83
     },
     {
       "keyword": "공공조달관리사",
@@ -393,6 +525,16 @@
       "score": 211.25
     },
     {
+      "keyword": "데코아르초퍼",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 다지기",
+      "period": "최근 30일",
+      "search": 6830,
+      "products": 32,
+      "comp": "아주좋음",
+      "comp_score": 0,
+      "score": 206.97
+    },
+    {
       "keyword": "돈명태마그넷",
       "category": "가구/인테리어 > 인테리어소품 > 냉장고자석",
       "period": "최근 30일",
@@ -421,6 +563,16 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 198.33
+    },
+    {
+      "keyword": "약셀레토라쿠가위",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 주방가위",
+      "period": "최근 30일",
+      "search": 580,
+      "products": 2,
+      "comp": "아주좋음",
+      "comp_score": 0,
+      "score": 193.33
     },
     {
       "keyword": "백룸",
@@ -463,6 +615,26 @@
       "score": 182.7
     },
     {
+      "keyword": "오마미프라이팬",
+      "category": "생활/건강 > 주방용품 > 프라이팬 > 일반프라이팬",
+      "period": "최근 30일",
+      "search": 3470,
+      "products": 18,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
+      "score": 182.63
+    },
+    {
+      "keyword": "담치락",
+      "category": "생활/건강 > 주방용품 > 보관/밀폐용기 > 플라스틱용기단품",
+      "period": "최근 30일",
+      "search": 11500,
+      "products": 63,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
+      "score": 179.69
+    },
+    {
       "keyword": "피스타치오슬랑이",
       "category": "생활/건강 > 화방용품 > 클레이",
       "period": "최근 30일",
@@ -481,6 +653,36 @@
       "comp": "아주좋음",
       "comp_score": 0.01,
       "score": 174.03
+    },
+    {
+      "keyword": "하우스드무어",
+      "category": "생활/건강 > 주방용품 > 식기 > 접시",
+      "period": "최근 30일",
+      "search": 2640,
+      "products": 15,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
+      "score": 165.0
+    },
+    {
+      "keyword": "액테라행주",
+      "category": "생활/건강 > 주방용품 > 주방잡화 > 행주",
+      "period": "최근 30일",
+      "search": 5600,
+      "products": 33,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
+      "score": 164.71
+    },
+    {
+      "keyword": "메종프라질멀티나이프",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 칼",
+      "period": "최근 30일",
+      "search": 3400,
+      "products": 20,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
+      "score": 161.9
     },
     {
       "keyword": "다이소우드락",
@@ -503,6 +705,16 @@
       "score": 161.33
     },
     {
+      "keyword": "스토피아빨래바구니",
+      "category": "생활/건강 > 세탁용품 > 빨래바구니",
+      "period": "최근 30일",
+      "search": 3050,
+      "products": 18,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
+      "score": 160.53
+    },
+    {
       "keyword": "팀나빠책",
       "category": "생활/건강 > DVD > 애니메이션",
       "period": "최근 30일",
@@ -511,6 +723,16 @@
       "comp": "아주좋음",
       "comp_score": 0.01,
       "score": 159.38
+    },
+    {
+      "keyword": "버선코칼",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 칼",
+      "period": "최근 30일",
+      "search": 5490,
+      "products": 34,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
+      "score": 156.86
     },
     {
       "keyword": "국새키링",
@@ -533,6 +755,16 @@
       "score": 151.67
     },
     {
+      "keyword": "에버랜드팝콘통",
+      "category": "생활/건강 > 주방용품 > 보관/밀폐용기 > 기타보관용기",
+      "period": "최근 30일",
+      "search": 1820,
+      "products": 11,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
+      "score": 151.67
+    },
+    {
       "keyword": "원위시윌로우",
       "category": "디지털/가전 > 주변기기 > 스캐너 > 3D 스캐너",
       "period": "최근 30일",
@@ -541,6 +773,26 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 150.57
+    },
+    {
+      "keyword": "백화수복",
+      "category": "생활/건강 > 주방용품 > 잔/컵 > 다기/주기",
+      "period": "최근 30일",
+      "search": 27530,
+      "products": 183,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
+      "score": 149.62
+    },
+    {
+      "keyword": "길쭉담이가로수납장",
+      "category": "생활/건강 > 주방용품 > 주방수납용품 > 주방정리소품",
+      "period": "최근 30일",
+      "search": 4410,
+      "products": 29,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
+      "score": 147.0
     },
     {
       "keyword": "푸딩탄탄",
@@ -561,6 +813,26 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 140.56
+    },
+    {
+      "keyword": "오이지담그기",
+      "category": "생활/건강 > 주방용품 > 보관/밀폐용기 > 김치통",
+      "period": "최근 30일",
+      "search": 20380,
+      "products": 145,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
+      "score": 139.59
+    },
+    {
+      "keyword": "프라우허",
+      "category": "생활/건강 > 주방용품 > 보관/밀폐용기 > 도시락가방",
+      "period": "최근 30일",
+      "search": 4360,
+      "products": 31,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
+      "score": 136.25
     },
     {
       "keyword": "치이카와앉은누이",
@@ -601,6 +873,56 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 127.69
+    },
+    {
+      "keyword": "다이소니트릴장갑",
+      "category": "생활/건강 > 주방용품 > 주방잡화 > 라텍스장갑/니트릴장갑",
+      "period": "최근 30일",
+      "search": 6220,
+      "products": 49,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
+      "score": 124.4
+    },
+    {
+      "keyword": "지켜텀",
+      "category": "생활/건강 > 주방용품 > 잔/컵 > 텀블러",
+      "period": "최근 30일",
+      "search": 7300,
+      "products": 58,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
+      "score": 123.73
+    },
+    {
+      "keyword": "길쭉담이",
+      "category": "생활/건강 > 주방용품 > 주방수납용품 > 주방정리소품",
+      "period": "최근 30일",
+      "search": 1960,
+      "products": 15,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
+      "score": 122.5
+    },
+    {
+      "keyword": "스테니식기건조대",
+      "category": "생활/건강 > 주방용품 > 주방수납용품 > 식기건조대",
+      "period": "최근 30일",
+      "search": 4270,
+      "products": 34,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
+      "score": 122.0
+    },
+    {
+      "keyword": "알레보유리밥용기",
+      "category": "생활/건강 > 주방용품 > 보관/밀폐용기 > 도자기/유리용기세트",
+      "period": "최근 30일",
+      "search": 7670,
+      "products": 62,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
+      "score": 121.75
     },
     {
       "keyword": "몬타요술쇼킹테이프",
@@ -683,6 +1005,36 @@
       "score": 100.0
     },
     {
+      "keyword": "청춘만물트럭",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 칼",
+      "period": "최근 30일",
+      "search": 2650,
+      "products": 26,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
+      "score": 98.15
+    },
+    {
+      "keyword": "칼만저압냄비",
+      "category": "생활/건강 > 주방용품 > 냄비/솥 > 냄비세트",
+      "period": "최근 30일",
+      "search": 11470,
+      "products": 117,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
+      "score": 97.2
+    },
+    {
+      "keyword": "모리다인식판",
+      "category": "생활/건강 > 주방용품 > 식기 > 식판",
+      "period": "최근 30일",
+      "search": 1650,
+      "products": 16,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
+      "score": 97.06
+    },
+    {
       "keyword": "감튀홀더",
       "category": "생활/건강 > 자동차용품 > 수납용품 > 차량용홀더",
       "period": "최근 30일",
@@ -763,6 +1115,26 @@
       "score": 92.24
     },
     {
+      "keyword": "빈투움",
+      "category": "생활/건강 > 주방용품 > 주방수납용품 > 주방정리소품",
+      "period": "최근 30일",
+      "search": 1460,
+      "products": 15,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
+      "score": 91.25
+    },
+    {
+      "keyword": "미모서울도마",
+      "category": "생활/건강 > 주방용품 > 도마",
+      "period": "최근 30일",
+      "search": 2840,
+      "products": 31,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
+      "score": 88.75
+    },
+    {
       "keyword": "다이소물기제거스펀지",
       "category": "생활/건강 > 자동차용품 > 세차용품 > 세차스펀지",
       "period": "최근 30일",
@@ -770,6 +1142,16 @@
       "products": 5,
       "comp": "아주좋음",
       "comp_score": null,
+      "score": 88.33
+    },
+    {
+      "keyword": "동양어묵",
+      "category": "생활/건강 > 주방용품 > 식기 > 접시",
+      "period": "최근 30일",
+      "search": 5830,
+      "products": 65,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
       "score": 88.33
     },
     {
@@ -793,6 +1175,16 @@
       "score": 87.55
     },
     {
+      "keyword": "담아락",
+      "category": "생활/건강 > 주방용품 > 보관/밀폐용기 > 도자기/유리용기단품",
+      "period": "최근 30일",
+      "search": 700,
+      "products": 7,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
+      "score": 87.5
+    },
+    {
       "keyword": "오디세이아",
       "category": "생활/건강 > 종교 > 기독교용품",
       "period": "최근 30일",
@@ -801,6 +1193,16 @@
       "comp": "아주좋음",
       "comp_score": 0.01,
       "score": 87.14
+    },
+    {
+      "keyword": "다이소텀블러",
+      "category": "생활/건강 > 주방용품 > 잔/컵 > 텀블러",
+      "period": "최근 30일",
+      "search": 10660,
+      "products": 127,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
+      "score": 83.28
     },
     {
       "keyword": "랏코앉은누이",
@@ -833,6 +1235,16 @@
       "score": 72.45
     },
     {
+      "keyword": "워터락리무버",
+      "category": "생활/건강 > 주방용품 > 주방잡화 > 행주",
+      "period": "최근 30일",
+      "search": 1660,
+      "products": 22,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
+      "score": 72.17
+    },
+    {
       "keyword": "전산세무1급",
       "category": "생활/건강 > DVD > 교육",
       "period": "최근 30일",
@@ -843,6 +1255,16 @@
       "score": 71.82
     },
     {
+      "keyword": "가야대장간칼",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 칼",
+      "period": "최근 30일",
+      "search": 2000,
+      "products": 27,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
+      "score": 71.43
+    },
+    {
       "keyword": "다이소여과기",
       "category": "생활/건강 > 관상어용품 > 여과기/여과재",
       "period": "최근 30일",
@@ -851,6 +1273,16 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 71.18
+    },
+    {
+      "keyword": "뚝당",
+      "category": "생활/건강 > 주방용품 > 냄비/솥 > 전자레인지/오븐 용기",
+      "period": "최근 30일",
+      "search": 640,
+      "products": 8,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
+      "score": 71.11
     },
     {
       "keyword": "pv5카고중고",
@@ -903,6 +1335,36 @@
       "score": 67.2
     },
     {
+      "keyword": "다이소뚝배기",
+      "category": "생활/건강 > 주방용품 > 냄비/솥 > 뚝배기",
+      "period": "최근 30일",
+      "search": 2950,
+      "products": 43,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
+      "score": 67.05
+    },
+    {
+      "keyword": "am저압냄비",
+      "category": "생활/건강 > 주방용품 > 냄비/솥 > 양수냄비",
+      "period": "최근 30일",
+      "search": 7110,
+      "products": 106,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
+      "score": 66.45
+    },
+    {
+      "keyword": "쿠로사키신월광",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 칼",
+      "period": "최근 30일",
+      "search": 1390,
+      "products": 20,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
+      "score": 66.19
+    },
+    {
       "keyword": "돈명태",
       "category": "가구/인테리어 > 인테리어소품 > 냉장고자석",
       "period": "최근 30일",
@@ -923,6 +1385,16 @@
       "score": 64.77
     },
     {
+      "keyword": "라포레플레이팅팬",
+      "category": "생활/건강 > 주방용품 > 프라이팬 > 프라이팬세트",
+      "period": "최근 30일",
+      "search": 14150,
+      "products": 222,
+      "comp": "아주좋음",
+      "comp_score": 0.02,
+      "score": 63.45
+    },
+    {
       "keyword": "다이소트렁크정리함",
       "category": "생활/건강 > 자동차용품 > 수납용품 > 트렁크정리함",
       "period": "최근 30일",
@@ -931,6 +1403,16 @@
       "comp": "",
       "comp_score": 0.02,
       "score": 63.0
+    },
+    {
+      "keyword": "쁘띠워시빨래판",
+      "category": "생활/건강 > 세탁용품 > 빨래판",
+      "period": "최근 30일",
+      "search": 440,
+      "products": 6,
+      "comp": "아주좋음",
+      "comp_score": 0.01,
+      "score": 62.86
     },
     {
       "keyword": "수이과슈",
@@ -963,6 +1445,16 @@
       "score": 60.0
     },
     {
+      "keyword": "다짜고짜짤순이",
+      "category": "생활/건강 > 주방용품 > 조리기구 > 야채탈수기",
+      "period": "최근 30일",
+      "search": 9600,
+      "products": 160,
+      "comp": "아주좋음",
+      "comp_score": 0.02,
+      "score": 59.63
+    },
+    {
       "keyword": "다이소양파망",
       "category": "생활/건강 > 주방용품 > 주방잡화 > 기타주방잡화",
       "period": "최근 30일",
@@ -981,6 +1473,16 @@
       "comp": "",
       "comp_score": 0.02,
       "score": 58.89
+    },
+    {
+      "keyword": "트리처도마",
+      "category": "생활/건강 > 주방용품 > 도마",
+      "period": "최근 30일",
+      "search": 940,
+      "products": 15,
+      "comp": "아주좋음",
+      "comp_score": 0.02,
+      "score": 58.75
     },
     {
       "keyword": "젠젠선물가게",
@@ -1003,6 +1505,16 @@
       "score": 57.77
     },
     {
+      "keyword": "롤업망",
+      "category": "생활/건강 > 세탁용품 > 세탁망",
+      "period": "최근 30일",
+      "search": 460,
+      "products": 7,
+      "comp": "아주좋음",
+      "comp_score": 0.02,
+      "score": 57.5
+    },
+    {
       "keyword": "팅커랩",
       "category": "생활/건강 > 화방용품 > 라이트박스",
       "period": "최근 30일",
@@ -1023,6 +1535,16 @@
       "score": 56.25
     },
     {
+      "keyword": "바이탈플랜트",
+      "category": "생활/건강 > 주방용품 > 조리기구 > 기타조리기구",
+      "period": "최근 30일",
+      "search": 25300,
+      "products": 454,
+      "comp": "아주좋음",
+      "comp_score": 0.02,
+      "score": 55.6
+    },
+    {
       "keyword": "리센느굿즈",
       "category": "생활/건강 > 수집품 > 아이돌굿즈 > 응원봉",
       "period": "최근 30일",
@@ -1031,6 +1553,26 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 55.1
+    },
+    {
+      "keyword": "주먹밥레시피",
+      "category": "생활/건강 > 주방용품 > 조리기구 > 김밥/주먹밥틀",
+      "period": "최근 30일",
+      "search": 7670,
+      "products": 139,
+      "comp": "아주좋음",
+      "comp_score": 0.02,
+      "score": 54.79
+    },
+    {
+      "keyword": "트루쿡도마",
+      "category": "생활/건강 > 주방용품 > 도마",
+      "period": "최근 30일",
+      "search": 3150,
+      "products": 57,
+      "comp": "아주좋음",
+      "comp_score": 0.02,
+      "score": 54.31
     },
     {
       "keyword": "레모니스니켓",
@@ -1083,6 +1625,16 @@
       "score": 52.86
     },
     {
+      "keyword": "건파파0201",
+      "category": "생활/건강 > 주방용품 > 보관/밀폐용기 > 아이스트레이",
+      "period": "최근 30일",
+      "search": 1900,
+      "products": 35,
+      "comp": "아주좋음",
+      "comp_score": 0.02,
+      "score": 52.78
+    },
+    {
       "keyword": "큐알미",
       "category": "생활/건강 > 자동차용품 > 인테리어용품 > 주차번호판",
       "period": "최근 30일",
@@ -1101,6 +1653,26 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 52.16
+    },
+    {
+      "keyword": "데일리룸칼세트",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 칼세트",
+      "period": "최근 30일",
+      "search": 780,
+      "products": 14,
+      "comp": "아주좋음",
+      "comp_score": 0.02,
+      "score": 52.0
+    },
+    {
+      "keyword": "스테니찜기",
+      "category": "생활/건강 > 주방용품 > 냄비/솥 > 찜기",
+      "period": "최근 30일",
+      "search": 2120,
+      "products": 40,
+      "comp": "아주좋음",
+      "comp_score": 0.02,
+      "score": 51.71
     },
     {
       "keyword": "필로켓",
@@ -1173,6 +1745,16 @@
       "score": 50.51
     },
     {
+      "keyword": "물먹는워터락리무버",
+      "category": "생활/건강 > 주방용품 > 주방잡화 > 행주",
+      "period": "최근 30일",
+      "search": 3200,
+      "products": 63,
+      "comp": "아주좋음",
+      "comp_score": 0.02,
+      "score": 50.0
+    },
+    {
       "keyword": "카밈나노스크럽",
       "category": "생활/건강 > 자동차용품 > 세차용품 > 컴파운드",
       "period": "최근 30일",
@@ -1181,6 +1763,16 @@
       "comp": "",
       "comp_score": 0.02,
       "score": 48.4
+    },
+    {
+      "keyword": "바나나우유그릇",
+      "category": "생활/건강 > 주방용품 > 식기 > 면기",
+      "period": "최근 30일",
+      "search": 2560,
+      "products": 52,
+      "comp": "아주좋음",
+      "comp_score": 0.02,
+      "score": 48.3
     },
     {
       "keyword": "시아미즈알지이터",
@@ -1203,6 +1795,16 @@
       "score": 47.58
     },
     {
+      "keyword": "헴마픽스",
+      "category": "생활/건강 > 주방용품 > 주방수납용품 > 식기건조대",
+      "period": "최근 30일",
+      "search": 710,
+      "products": 14,
+      "comp": "아주좋음",
+      "comp_score": 0.02,
+      "score": 47.33
+    },
+    {
       "keyword": "바리바디릴렉스틱",
       "category": "생활/건강 > 안마용품 > 기타안마용품",
       "period": "최근 30일",
@@ -1211,6 +1813,26 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 46.99
+    },
+    {
+      "keyword": "스테니후라이팬",
+      "category": "생활/건강 > 주방용품 > 프라이팬 > 일반프라이팬",
+      "period": "최근 30일",
+      "search": 7770,
+      "products": 165,
+      "comp": "아주좋음",
+      "comp_score": 0.02,
+      "score": 46.81
+    },
+    {
+      "keyword": "미스티파이야채탈수기",
+      "category": "생활/건강 > 주방용품 > 조리기구 > 야채탈수기",
+      "period": "최근 30일",
+      "search": 2320,
+      "products": 49,
+      "comp": "아주좋음",
+      "comp_score": 0.02,
+      "score": 46.4
     },
     {
       "keyword": "동물의숲메지루시",
@@ -1253,6 +1875,16 @@
       "score": 44.65
     },
     {
+      "keyword": "am압력솥",
+      "category": "생활/건강 > 주방용품 > 냄비/솥 > 압력솥",
+      "period": "최근 30일",
+      "search": 3170,
+      "products": 71,
+      "comp": "아주좋음",
+      "comp_score": 0.02,
+      "score": 44.03
+    },
+    {
       "keyword": "인포카4세대",
       "category": "생활/건강 > 자동차용품 > 튜닝용품 > 게이지",
       "period": "최근 30일",
@@ -1261,6 +1893,16 @@
       "comp": "",
       "comp_score": 0.02,
       "score": 43.16
+    },
+    {
+      "keyword": "코코줄라이식판",
+      "category": "생활/건강 > 주방용품 > 식기 > 식판",
+      "period": "최근 30일",
+      "search": 690,
+      "products": 15,
+      "comp": "아주좋음",
+      "comp_score": 0.02,
+      "score": 43.12
     },
     {
       "keyword": "아이브웨하스",
@@ -1281,6 +1923,36 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 42.68
+    },
+    {
+      "keyword": "워터락행주",
+      "category": "생활/건강 > 주방용품 > 주방잡화 > 행주",
+      "period": "최근 30일",
+      "search": 2470,
+      "products": 57,
+      "comp": "아주좋음",
+      "comp_score": 0.02,
+      "score": 42.59
+    },
+    {
+      "keyword": "빽가빨래건조대",
+      "category": "생활/건강 > 세탁용품 > 빨래건조대 > 이동접이식",
+      "period": "최근 30일",
+      "search": 2550,
+      "products": 59,
+      "comp": "아주좋음",
+      "comp_score": 0.02,
+      "score": 42.5
+    },
+    {
+      "keyword": "스테니파티웍",
+      "category": "생활/건강 > 주방용품 > 냄비/솥 > 찜기",
+      "period": "최근 30일",
+      "search": 1610,
+      "products": 37,
+      "comp": "아주좋음",
+      "comp_score": 0.02,
+      "score": 42.37
     },
     {
       "keyword": "키푸푸",
@@ -1313,6 +1985,36 @@
       "score": 42.1
     },
     {
+      "keyword": "컵라면도자기국산",
+      "category": "생활/건강 > 주방용품 > 식기 > 면기",
+      "period": "최근 30일",
+      "search": 920,
+      "products": 21,
+      "comp": "아주좋음",
+      "comp_score": 0.02,
+      "score": 41.82
+    },
+    {
+      "keyword": "다이소미니텀블러",
+      "category": "생활/건강 > 주방용품 > 잔/컵 > 텀블러",
+      "period": "최근 30일",
+      "search": 710,
+      "products": 16,
+      "comp": "아주좋음",
+      "comp_score": 0.02,
+      "score": 41.76
+    },
+    {
+      "keyword": "다이소유리병",
+      "category": "생활/건강 > 주방용품 > 보관/밀폐용기 > 도자기/유리용기단품",
+      "period": "최근 30일",
+      "search": 2300,
+      "products": 55,
+      "comp": "아주좋음",
+      "comp_score": 0.02,
+      "score": 41.07
+    },
+    {
       "keyword": "치이카와초코박스",
       "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
       "period": "최근 30일",
@@ -1321,6 +2023,16 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 40.7
+    },
+    {
+      "keyword": "온담면기4종세트",
+      "category": "생활/건강 > 주방용품 > 식기 > 면기",
+      "period": "최근 30일",
+      "search": 2300,
+      "products": 56,
+      "comp": "아주좋음",
+      "comp_score": 0.02,
+      "score": 40.35
     },
     {
       "keyword": "김민재편백",
@@ -1353,6 +2065,16 @@
       "score": 39.78
     },
     {
+      "keyword": "bink텀블러",
+      "category": "생활/건강 > 주방용품 > 잔/컵 > 텀블러",
+      "period": "최근 30일",
+      "search": 8740,
+      "products": 219,
+      "comp": "아주좋음",
+      "comp_score": 0.03,
+      "score": 39.73
+    },
+    {
       "keyword": "라스보라갤럭시",
       "category": "생활/건강 > 관상어용품 > 수조장식용품",
       "period": "최근 30일",
@@ -1361,6 +2083,16 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 39.17
+    },
+    {
+      "keyword": "다이소접시정리대",
+      "category": "생활/건강 > 주방용품 > 주방수납용품 > 주방정리소품",
+      "period": "최근 30일",
+      "search": 1290,
+      "products": 32,
+      "comp": "아주좋음",
+      "comp_score": 0.02,
+      "score": 39.09
     },
     {
       "keyword": "블리치메지루시",
@@ -1383,6 +2115,16 @@
       "score": 37.69
     },
     {
+      "keyword": "언더티행주",
+      "category": "생활/건강 > 주방용품 > 주방잡화 > 행주",
+      "period": "최근 30일",
+      "search": 1980,
+      "products": 52,
+      "comp": "아주좋음",
+      "comp_score": 0.03,
+      "score": 37.36
+    },
+    {
       "keyword": "코코네놀이터",
       "category": "생활/건강 > 화방용품 > 클레이",
       "period": "최근 30일",
@@ -1393,6 +2135,16 @@
       "score": 36.81
     },
     {
+      "keyword": "와블리스",
+      "category": "생활/건강 > 주방용품 > 커피용품 > 커피분쇄기",
+      "period": "최근 30일",
+      "search": 3290,
+      "products": 89,
+      "comp": "아주좋음",
+      "comp_score": 0.03,
+      "score": 36.56
+    },
+    {
       "keyword": "pv5오픈격벽",
       "category": "생활/건강 > 자동차용품 > 튜닝용품 > 기타튜닝용품",
       "period": "최근 30일",
@@ -1401,6 +2153,16 @@
       "comp": "",
       "comp_score": 0.03,
       "score": 36.34
+    },
+    {
+      "keyword": "온도김그릇",
+      "category": "생활/건강 > 주방용품 > 식기 > 소스기",
+      "period": "최근 30일",
+      "search": 870,
+      "products": 23,
+      "comp": "아주좋음",
+      "comp_score": 0.03,
+      "score": 36.25
     },
     {
       "keyword": "wavetoearthlp",
@@ -1423,6 +2185,16 @@
       "score": 35.71
     },
     {
+      "keyword": "은수저시세",
+      "category": "생활/건강 > 주방용품 > 식기 > 수저",
+      "period": "최근 30일",
+      "search": 8670,
+      "products": 243,
+      "comp": "아주좋음",
+      "comp_score": 0.03,
+      "score": 35.53
+    },
+    {
       "keyword": "코난팝콘통",
       "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 보관용품",
       "period": "최근 30일",
@@ -1441,6 +2213,16 @@
       "comp": "",
       "comp_score": 0.03,
       "score": 35.39
+    },
+    {
+      "keyword": "포티니빨래건조대",
+      "category": "생활/건강 > 세탁용품 > 빨래건조대 > 이동접이식",
+      "period": "최근 30일",
+      "search": 460,
+      "products": 12,
+      "comp": "아주좋음",
+      "comp_score": 0.03,
+      "score": 35.38
     },
     {
       "keyword": "wavetoearthlp",
@@ -1513,6 +2295,16 @@
       "score": 33.23
     },
     {
+      "keyword": "김신영냄비",
+      "category": "생활/건강 > 주방용품 > 냄비/솥 > 직화냄비",
+      "period": "최근 30일",
+      "search": 800,
+      "products": 24,
+      "comp": "아주좋음",
+      "comp_score": 0.03,
+      "score": 32.0
+    },
+    {
       "keyword": "그릭요거트키티",
       "category": "가구/인테리어 > 인테리어소품 > 냉장고자석",
       "period": "최근 30일",
@@ -1521,6 +2313,16 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 31.76
+    },
+    {
+      "keyword": "풍천도",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 칼",
+      "period": "최근 30일",
+      "search": 8630,
+      "products": 272,
+      "comp": "아주좋음",
+      "comp_score": 0.03,
+      "score": 31.61
     },
     {
       "keyword": "릴렉스틱",
@@ -1543,6 +2345,16 @@
       "score": 31.54
     },
     {
+      "keyword": "염경환식기건조대",
+      "category": "생활/건강 > 주방용품 > 주방수납용품 > 식기건조대",
+      "period": "최근 30일",
+      "search": 880,
+      "products": 27,
+      "comp": "아주좋음",
+      "comp_score": 0.03,
+      "score": 31.43
+    },
+    {
       "keyword": "오렌지캣레바테인",
       "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
       "period": "최근 30일",
@@ -1561,6 +2373,16 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 30.99
+    },
+    {
+      "keyword": "워터락요술행주",
+      "category": "생활/건강 > 주방용품 > 주방잡화 > 행주",
+      "period": "최근 30일",
+      "search": 1390,
+      "products": 44,
+      "comp": "아주좋음",
+      "comp_score": 0.03,
+      "score": 30.89
     },
     {
       "keyword": "당사주",
@@ -1593,12 +2415,32 @@
       "score": 30.26
     },
     {
+      "keyword": "짠한형소맥잔",
+      "category": "생활/건강 > 주방용품 > 잔/컵 > 유리컵",
+      "period": "최근 30일",
+      "search": 1240,
+      "products": 40,
+      "comp": "아주좋음",
+      "comp_score": 0.03,
+      "score": 30.24
+    },
+    {
       "keyword": "다즐워크",
       "category": "생활/건강 > 자동차용품 > 인테리어용품 > 바닥매트",
       "period": "최근 30일",
       "search": 390,
       "products": 12,
       "comp": "",
+      "comp_score": 0.03,
+      "score": 30.0
+    },
+    {
+      "keyword": "나혼산김신영도마",
+      "category": "생활/건강 > 주방용품 > 도마",
+      "period": "최근 30일",
+      "search": 300,
+      "products": 9,
+      "comp": "아주좋음",
       "comp_score": 0.03,
       "score": 30.0
     },
@@ -1643,6 +2485,36 @@
       "score": 29.2
     },
     {
+      "keyword": "지방쓰는법",
+      "category": "생활/건강 > 주방용품 > 제수용품 > 위패",
+      "period": "최근 30일",
+      "search": 17030,
+      "products": 583,
+      "comp": "아주좋음",
+      "comp_score": 0.03,
+      "score": 29.16
+    },
+    {
+      "keyword": "자이티",
+      "category": "생활/건강 > 주방용품 > 보관/밀폐용기 > 아이스트레이",
+      "period": "최근 30일",
+      "search": 4810,
+      "products": 165,
+      "comp": "아주좋음",
+      "comp_score": 0.03,
+      "score": 28.98
+    },
+    {
+      "keyword": "다이소종이컵",
+      "category": "생활/건강 > 주방용품 > 일회용품 > 종이컵",
+      "period": "최근 30일",
+      "search": 2540,
+      "products": 87,
+      "comp": "아주좋음",
+      "comp_score": 0.03,
+      "score": 28.86
+    },
+    {
       "keyword": "카밈",
       "category": "생활/건강 > 자동차용품 > 세차용품 > 컴파운드",
       "period": "최근 30일",
@@ -1661,6 +2533,26 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 28.14
+    },
+    {
+      "keyword": "바이썸몰",
+      "category": "생활/건강 > 주방용품 > 보관/밀폐용기 > 도시락가방",
+      "period": "최근 30일",
+      "search": 420,
+      "products": 14,
+      "comp": "아주좋음",
+      "comp_score": 0.03,
+      "score": 28.0
+    },
+    {
+      "keyword": "오자크래프트",
+      "category": "생활/건강 > 주방용품 > 식기 > 접시",
+      "period": "최근 30일",
+      "search": 1310,
+      "products": 46,
+      "comp": "아주좋음",
+      "comp_score": 0.04,
+      "score": 27.87
     },
     {
       "keyword": "토토로행운석",
@@ -1723,6 +2615,16 @@
       "score": 26.41
     },
     {
+      "keyword": "메종프라질",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 칼",
+      "period": "최근 30일",
+      "search": 1870,
+      "products": 70,
+      "comp": "아주좋음",
+      "comp_score": 0.04,
+      "score": 26.34
+    },
+    {
       "keyword": "벤딕트에어매트",
       "category": "생활/건강 > 자동차용품 > 인테리어용품 > 바닥매트",
       "period": "최근 30일",
@@ -1731,6 +2633,26 @@
       "comp": "",
       "comp_score": 0.04,
       "score": 26.28
+    },
+    {
+      "keyword": "네노히",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 칼",
+      "period": "최근 30일",
+      "search": 570,
+      "products": 21,
+      "comp": "아주좋음",
+      "comp_score": 0.04,
+      "score": 25.91
+    },
+    {
+      "keyword": "마늘쉽게까는법",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 다지기",
+      "period": "최근 30일",
+      "search": 4610,
+      "products": 177,
+      "comp": "아주좋음",
+      "comp_score": 0.04,
+      "score": 25.9
     },
     {
       "keyword": "조말론차량방향제",
@@ -1753,6 +2675,26 @@
       "score": 25.66
     },
     {
+      "keyword": "프레실버반찬통",
+      "category": "생활/건강 > 주방용품 > 보관/밀폐용기 > 플라스틱용기단품",
+      "period": "최근 30일",
+      "search": 2240,
+      "products": 87,
+      "comp": "아주좋음",
+      "comp_score": 0.04,
+      "score": 25.45
+    },
+    {
+      "keyword": "지켜텐",
+      "category": "생활/건강 > 주방용품 > 보관/밀폐용기 > 스텐용기세트",
+      "period": "최근 30일",
+      "search": 9060,
+      "products": 361,
+      "comp": "아주좋음",
+      "comp_score": 0.04,
+      "score": 25.03
+    },
+    {
       "keyword": "발상컵홀더",
       "category": "생활/건강 > 자동차용품 > 수납용품 > 차량용홀더",
       "period": "최근 30일",
@@ -1770,6 +2712,16 @@
       "products": 15,
       "comp": "아주좋음",
       "comp_score": null,
+      "score": 25.0
+    },
+    {
+      "keyword": "쏘우리프행주걸이",
+      "category": "생활/건강 > 주방용품 > 주방수납용품 > 주방정리소품",
+      "period": "최근 30일",
+      "search": 500,
+      "products": 19,
+      "comp": "아주좋음",
+      "comp_score": 0.04,
       "score": 25.0
     },
     {
@@ -1791,6 +2743,16 @@
       "comp": "아주좋음",
       "comp_score": 0.04,
       "score": 24.67
+    },
+    {
+      "keyword": "리브비밀폐용기",
+      "category": "생활/건강 > 주방용품 > 보관/밀폐용기 > 플라스틱용기단품",
+      "period": "최근 30일",
+      "search": 2850,
+      "products": 115,
+      "comp": "아주좋음",
+      "comp_score": 0.04,
+      "score": 24.57
     },
     {
       "keyword": "피규어원",
@@ -1831,6 +2793,86 @@
       "comp": "아주좋음",
       "comp_score": 0.04,
       "score": 23.85
+    },
+    {
+      "keyword": "이자가도자기",
+      "category": "생활/건강 > 주방용품 > 식기 > 접시",
+      "period": "최근 30일",
+      "search": 310,
+      "products": 12,
+      "comp": "아주좋음",
+      "comp_score": 0.04,
+      "score": 23.85
+    },
+    {
+      "keyword": "네오플램베큐씰",
+      "category": "생활/건강 > 주방용품 > 보관/밀폐용기 > 도자기/유리용기단품",
+      "period": "최근 30일",
+      "search": 3890,
+      "products": 163,
+      "comp": "아주좋음",
+      "comp_score": 0.04,
+      "score": 23.72
+    },
+    {
+      "keyword": "무인양품캔쿨러",
+      "category": "생활/건강 > 주방용품 > 보관/밀폐용기 > 보온/보냉병",
+      "period": "최근 30일",
+      "search": 920,
+      "products": 38,
+      "comp": "아주좋음",
+      "comp_score": 0.04,
+      "score": 23.59
+    },
+    {
+      "keyword": "비어배트",
+      "category": "생활/건강 > 주방용품 > 잔/컵 > 플라스틱컵",
+      "period": "최근 30일",
+      "search": 660,
+      "products": 27,
+      "comp": "아주좋음",
+      "comp_score": 0.04,
+      "score": 23.57
+    },
+    {
+      "keyword": "요시미카토",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 칼",
+      "period": "최근 30일",
+      "search": 820,
+      "products": 34,
+      "comp": "아주좋음",
+      "comp_score": 0.04,
+      "score": 23.43
+    },
+    {
+      "keyword": "테리토",
+      "category": "생활/건강 > 주방용품 > 보관/밀폐용기 > 플라스틱용기단품",
+      "period": "최근 30일",
+      "search": 1370,
+      "products": 58,
+      "comp": "아주좋음",
+      "comp_score": 0.04,
+      "score": 23.22
+    },
+    {
+      "keyword": "짐샌더슨도마",
+      "category": "생활/건강 > 주방용품 > 도마",
+      "period": "최근 30일",
+      "search": 5790,
+      "products": 249,
+      "comp": "아주좋음",
+      "comp_score": 0.04,
+      "score": 23.16
+    },
+    {
+      "keyword": "다이소나무도마",
+      "category": "생활/건강 > 주방용품 > 도마",
+      "period": "최근 30일",
+      "search": 670,
+      "products": 28,
+      "comp": "아주좋음",
+      "comp_score": 0.04,
+      "score": 23.1
     },
     {
       "keyword": "무한신성펜리르",
@@ -1923,6 +2965,16 @@
       "score": 22.63
     },
     {
+      "keyword": "센느파리",
+      "category": "생활/건강 > 주방용품 > 잔/컵 > 와인잔",
+      "period": "최근 30일",
+      "search": 1770,
+      "products": 79,
+      "comp": "아주좋음",
+      "comp_score": 0.04,
+      "score": 22.12
+    },
+    {
       "keyword": "머더미스터리",
       "category": "생활/건강 > 수집품 > 게임 > 보드게임",
       "period": "최근 30일",
@@ -2013,6 +3065,16 @@
       "score": 21.02
     },
     {
+      "keyword": "티리난지",
+      "category": "생활/건강 > 주방용품 > 프라이팬 > 일반프라이팬",
+      "period": "최근 30일",
+      "search": 5720,
+      "products": 272,
+      "comp": "아주좋음",
+      "comp_score": 0.05,
+      "score": 20.95
+    },
+    {
       "keyword": "검아웃",
       "category": "생활/건강 > 자동차용품 > 오일/소모품 > 연료첨가제",
       "period": "최근 30일",
@@ -2021,6 +3083,16 @@
       "comp": "",
       "comp_score": 0.05,
       "score": 20.93
+    },
+    {
+      "keyword": "하이플럭스필터",
+      "category": "생활/건강 > 주방용품 > 커피용품 > 여과지",
+      "period": "최근 30일",
+      "search": 1910,
+      "products": 91,
+      "comp": "아주좋음",
+      "comp_score": 0.05,
+      "score": 20.76
     },
     {
       "keyword": "sbgp013",
@@ -2063,6 +3135,16 @@
       "score": 20.58
     },
     {
+      "keyword": "오슬로채칼",
+      "category": "생활/건강 > 주방용품 > 조리기구 > 야채탈수기",
+      "period": "최근 30일",
+      "search": 1420,
+      "products": 68,
+      "comp": "아주좋음",
+      "comp_score": 0.05,
+      "score": 20.58
+    },
+    {
       "keyword": "노플라",
       "category": "생활/건강 > 자동차용품 > 튜닝용품 > 기타튜닝용품",
       "period": "최근 30일",
@@ -2083,6 +3165,16 @@
       "score": 20.4
     },
     {
+      "keyword": "바첸쿠커블웨어",
+      "category": "생활/건강 > 주방용품 > 프라이팬 > 일반프라이팬",
+      "period": "최근 30일",
+      "search": 9100,
+      "products": 446,
+      "comp": "아주좋음",
+      "comp_score": 0.05,
+      "score": 20.36
+    },
+    {
       "keyword": "귀멸의칼날만화책",
       "category": "생활/건강 > DVD > 애니메이션",
       "period": "최근 30일",
@@ -2091,6 +3183,16 @@
       "comp": "아주좋음",
       "comp_score": 0.05,
       "score": 20.34
+    },
+    {
+      "keyword": "타카무라r2",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 칼",
+      "period": "최근 30일",
+      "search": 690,
+      "products": 33,
+      "comp": "아주좋음",
+      "comp_score": 0.05,
+      "score": 20.29
     },
     {
       "keyword": "밸런스온차량용방석",
@@ -2123,6 +3225,16 @@
       "score": 20.07
     },
     {
+      "keyword": "트리쳐도마",
+      "category": "생활/건강 > 주방용품 > 도마",
+      "period": "최근 30일",
+      "search": 2480,
+      "products": 123,
+      "comp": "아주좋음",
+      "comp_score": 0.05,
+      "score": 20.0
+    },
+    {
       "keyword": "목탁키캡",
       "category": "생활/건강 > 종교 > 불교용품",
       "period": "최근 30일",
@@ -2131,6 +3243,26 @@
       "comp": "아주좋음",
       "comp_score": 0.05,
       "score": 19.62
+    },
+    {
+      "keyword": "마이니타이머",
+      "category": "생활/건강 > 주방용품 > 제과/제빵용품 > 쿠킹타이머",
+      "period": "최근 30일",
+      "search": 510,
+      "products": 25,
+      "comp": "아주좋음",
+      "comp_score": 0.05,
+      "score": 19.62
+    },
+    {
+      "keyword": "바사나퓨터",
+      "category": "생활/건강 > 주방용품 > 잔/컵 > 머그",
+      "period": "최근 30일",
+      "search": 1970,
+      "products": 100,
+      "comp": "아주좋음",
+      "comp_score": 0.05,
+      "score": 19.5
     },
     {
       "keyword": "곰아워랩",
@@ -2151,6 +3283,16 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 19.3
+    },
+    {
+      "keyword": "각마칼",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 칼",
+      "period": "최근 30일",
+      "search": 460,
+      "products": 23,
+      "comp": "아주좋음",
+      "comp_score": 0.05,
+      "score": 19.17
     },
     {
       "keyword": "저공해차량스티커",
@@ -2203,6 +3345,26 @@
       "score": 18.8
     },
     {
+      "keyword": "풍천도키리츠케",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 칼",
+      "period": "최근 30일",
+      "search": 450,
+      "products": 23,
+      "comp": "아주좋음",
+      "comp_score": 0.05,
+      "score": 18.75
+    },
+    {
+      "keyword": "염경환후라이팬",
+      "category": "생활/건강 > 주방용품 > 프라이팬 > 프라이팬세트",
+      "period": "최근 30일",
+      "search": 3090,
+      "products": 164,
+      "comp": "아주좋음",
+      "comp_score": 0.05,
+      "score": 18.73
+    },
+    {
       "keyword": "플레이조이",
       "category": "생활/건강 > 화방용품 > 소품정리함",
       "period": "최근 30일",
@@ -2213,6 +3375,16 @@
       "score": 18.72
     },
     {
+      "keyword": "스밋스텐도마",
+      "category": "생활/건강 > 주방용품 > 도마",
+      "period": "최근 30일",
+      "search": 1210,
+      "products": 64,
+      "comp": "아주좋음",
+      "comp_score": 0.05,
+      "score": 18.62
+    },
+    {
       "keyword": "케로로마크2",
       "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
       "period": "최근 30일",
@@ -2221,6 +3393,16 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 18.6
+    },
+    {
+      "keyword": "액테라",
+      "category": "생활/건강 > 주방용품 > 주방잡화 > 행주",
+      "period": "최근 30일",
+      "search": 1570,
+      "products": 84,
+      "comp": "아주좋음",
+      "comp_score": 0.05,
+      "score": 18.47
     },
     {
       "keyword": "야마토새우",
@@ -2241,6 +3423,16 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 18.16
+    },
+    {
+      "keyword": "꾸띠잔밀폐용기",
+      "category": "생활/건강 > 주방용품 > 보관/밀폐용기 > 스텐용기단품",
+      "period": "최근 30일",
+      "search": 2250,
+      "products": 123,
+      "comp": "아주좋음",
+      "comp_score": 0.05,
+      "score": 18.15
     },
     {
       "keyword": "오토싱물고기",
@@ -2280,6 +3472,16 @@
       "products": 74,
       "comp": "아주좋음",
       "comp_score": null,
+      "score": 18.0
+    },
+    {
+      "keyword": "힙스커피",
+      "category": "생활/건강 > 주방용품 > 커피용품 > 커피추출기",
+      "period": "최근 30일",
+      "search": 990,
+      "products": 54,
+      "comp": "아주좋음",
+      "comp_score": 0.05,
       "score": 18.0
     },
     {
@@ -2323,6 +3525,16 @@
       "score": 17.77
     },
     {
+      "keyword": "아일럽",
+      "category": "생활/건강 > 주방용품 > 주방수납용품 > 식기건조대",
+      "period": "최근 30일",
+      "search": 490,
+      "products": 27,
+      "comp": "아주좋음",
+      "comp_score": 0.06,
+      "score": 17.5
+    },
+    {
       "keyword": "쫀냐미",
       "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
       "period": "최근 30일",
@@ -2333,6 +3545,46 @@
       "score": 17.49
     },
     {
+      "keyword": "바퀜",
+      "category": "생활/건강 > 주방용품 > 보관/밀폐용기 > 플라스틱용기세트",
+      "period": "최근 30일",
+      "search": 12650,
+      "products": 726,
+      "comp": "아주좋음",
+      "comp_score": 0.06,
+      "score": 17.4
+    },
+    {
+      "keyword": "산토리프리미엄몰츠",
+      "category": "생활/건강 > 주방용품 > 주방잡화 > 기타주방잡화",
+      "period": "최근 30일",
+      "search": 4590,
+      "products": 263,
+      "comp": "아주좋음",
+      "comp_score": 0.06,
+      "score": 17.39
+    },
+    {
+      "keyword": "햄튼도마",
+      "category": "생활/건강 > 주방용품 > 도마",
+      "period": "최근 30일",
+      "search": 660,
+      "products": 37,
+      "comp": "아주좋음",
+      "comp_score": 0.06,
+      "score": 17.37
+    },
+    {
+      "keyword": "소일베이커",
+      "category": "생활/건강 > 주방용품 > 식기 > 접시",
+      "period": "최근 30일",
+      "search": 7360,
+      "products": 425,
+      "comp": "아주좋음",
+      "comp_score": 0.06,
+      "score": 17.28
+    },
+    {
       "keyword": "함께읽는성경동화",
       "category": "생활/건강 > 종교 > 기독교용품",
       "period": "최근 30일",
@@ -2341,6 +3593,26 @@
       "comp": "아주좋음",
       "comp_score": 0.06,
       "score": 17.27
+    },
+    {
+      "keyword": "쉬젤아티내열용기",
+      "category": "생활/건강 > 주방용품 > 보관/밀폐용기 > 도자기/유리용기세트",
+      "period": "최근 30일",
+      "search": 1190,
+      "products": 68,
+      "comp": "아주좋음",
+      "comp_score": 0.06,
+      "score": 17.25
+    },
+    {
+      "keyword": "누플랏",
+      "category": "생활/건강 > 주방용품 > 식기 > 양식기",
+      "period": "최근 30일",
+      "search": 2670,
+      "products": 154,
+      "comp": "아주좋음",
+      "comp_score": 0.06,
+      "score": 17.23
     },
     {
       "keyword": "설비보전기사",
@@ -2363,6 +3635,26 @@
       "score": 16.91
     },
     {
+      "keyword": "바퀜진공용기",
+      "category": "생활/건강 > 주방용품 > 보관/밀폐용기 > 플라스틱용기세트",
+      "period": "최근 30일",
+      "search": 6280,
+      "products": 374,
+      "comp": "아주좋음",
+      "comp_score": 0.06,
+      "score": 16.75
+    },
+    {
+      "keyword": "타파웨어스마트그릴",
+      "category": "생활/건강 > 주방용품 > 냄비/솥 > 전자레인지/오븐 용기",
+      "period": "최근 30일",
+      "search": 2010,
+      "products": 120,
+      "comp": "아주좋음",
+      "comp_score": 0.06,
+      "score": 16.61
+    },
+    {
       "keyword": "럭키부기",
       "category": "패션잡화 > 패션소품 > 키링",
       "period": "최근 30일",
@@ -2371,6 +3663,26 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 16.45
+    },
+    {
+      "keyword": "드멜리행주",
+      "category": "생활/건강 > 주방용품 > 주방잡화 > 행주",
+      "period": "최근 30일",
+      "search": 360,
+      "products": 21,
+      "comp": "아주좋음",
+      "comp_score": 0.06,
+      "score": 16.36
+    },
+    {
+      "keyword": "실리프랑찜기",
+      "category": "생활/건강 > 주방용품 > 냄비/솥 > 찜기",
+      "period": "최근 30일",
+      "search": 1270,
+      "products": 77,
+      "comp": "아주좋음",
+      "comp_score": 0.06,
+      "score": 16.28
     },
     {
       "keyword": "최유리lp",
@@ -2403,6 +3715,16 @@
       "score": 15.97
     },
     {
+      "keyword": "클래파유청분리기",
+      "category": "생활/건강 > 주방용품 > 조리기구 > 기타조리기구",
+      "period": "최근 30일",
+      "search": 940,
+      "products": 58,
+      "comp": "아주좋음",
+      "comp_score": 0.06,
+      "score": 15.93
+    },
+    {
       "keyword": "마이퍼피말랑이",
       "category": "생활/건강 > 화방용품 > 클레이",
       "period": "최근 30일",
@@ -2413,6 +3735,16 @@
       "score": 15.77
     },
     {
+      "keyword": "샐러드마스터냄비",
+      "category": "생활/건강 > 주방용품 > 냄비/솥 > 냄비세트",
+      "period": "최근 30일",
+      "search": 10520,
+      "products": 667,
+      "comp": "아주좋음",
+      "comp_score": 0.06,
+      "score": 15.75
+    },
+    {
       "keyword": "하이드로설파이트",
       "category": "생활/건강 > 화방용품 > 아크릴물감",
       "period": "최근 30일",
@@ -2421,6 +3753,16 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 15.61
+    },
+    {
+      "keyword": "오젠타",
+      "category": "생활/건강 > 주방용품 > 보관/밀폐용기 > 플라스틱용기세트",
+      "period": "최근 30일",
+      "search": 480,
+      "products": 30,
+      "comp": "아주좋음",
+      "comp_score": 0.06,
+      "score": 15.48
     },
     {
       "keyword": "하현상lp",
@@ -2443,6 +3785,16 @@
       "score": 15.36
     },
     {
+      "keyword": "이와노도마",
+      "category": "생활/건강 > 주방용품 > 도마",
+      "period": "최근 30일",
+      "search": 5470,
+      "products": 357,
+      "comp": "아주좋음",
+      "comp_score": 0.07,
+      "score": 15.28
+    },
+    {
       "keyword": "피에타조각상",
       "category": "생활/건강 > 종교 > 천주교용품",
       "period": "최근 30일",
@@ -2453,6 +3805,16 @@
       "score": 15.23
     },
     {
+      "keyword": "에큐피리언도마",
+      "category": "생활/건강 > 주방용품 > 도마",
+      "period": "최근 30일",
+      "search": 1080,
+      "products": 70,
+      "comp": "아주좋음",
+      "comp_score": 0.06,
+      "score": 15.21
+    },
+    {
       "keyword": "주술회전만화책",
       "category": "생활/건강 > DVD > 애니메이션",
       "period": "최근 30일",
@@ -2461,6 +3823,16 @@
       "comp": "아주좋음",
       "comp_score": 0.07,
       "score": 15.19
+    },
+    {
+      "keyword": "세다가텀블러",
+      "category": "생활/건강 > 주방용품 > 잔/컵 > 텀블러",
+      "period": "최근 30일",
+      "search": 1760,
+      "products": 115,
+      "comp": "아주좋음",
+      "comp_score": 0.07,
+      "score": 15.17
     },
     {
       "keyword": "20색상환",
@@ -2493,6 +3865,16 @@
       "score": 15.0
     },
     {
+      "keyword": "하다나칼갈이",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 칼갈이",
+      "period": "최근 30일",
+      "search": 6950,
+      "products": 463,
+      "comp": "아주좋음",
+      "comp_score": 0.07,
+      "score": 14.98
+    },
+    {
       "keyword": "아임반헤드레스트",
       "category": "생활/건강 > 자동차용품 > 인테리어용품 > 차량용목쿠션",
       "period": "최근 30일",
@@ -2511,6 +3893,26 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 14.9
+    },
+    {
+      "keyword": "울티타이머",
+      "category": "생활/건강 > 주방용품 > 제과/제빵용품 > 쿠킹타이머",
+      "period": "최근 30일",
+      "search": 520,
+      "products": 34,
+      "comp": "아주좋음",
+      "comp_score": 0.07,
+      "score": 14.86
+    },
+    {
+      "keyword": "바퀸",
+      "category": "생활/건강 > 주방용품 > 보관/밀폐용기 > 시리얼디스펜서",
+      "period": "최근 30일",
+      "search": 710,
+      "products": 47,
+      "comp": "아주좋음",
+      "comp_score": 0.07,
+      "score": 14.79
     },
     {
       "keyword": "벤츄라칩",
@@ -2533,6 +3935,16 @@
       "score": 14.5
     },
     {
+      "keyword": "바카랏잔",
+      "category": "생활/건강 > 주방용품 > 잔/컵 > 와인잔",
+      "period": "최근 30일",
+      "search": 5610,
+      "products": 387,
+      "comp": "아주좋음",
+      "comp_score": 0.07,
+      "score": 14.46
+    },
+    {
       "keyword": "아이폰18목업",
       "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 모형",
       "period": "최근 30일",
@@ -2553,6 +3965,26 @@
       "score": 14.32
     },
     {
+      "keyword": "한국제일도가위",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 주방가위",
+      "period": "최근 30일",
+      "search": 630,
+      "products": 43,
+      "comp": "아주좋음",
+      "comp_score": 0.07,
+      "score": 14.32
+    },
+    {
+      "keyword": "슈나츠칼세트",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 칼세트",
+      "period": "최근 30일",
+      "search": 750,
+      "products": 52,
+      "comp": "아주좋음",
+      "comp_score": 0.07,
+      "score": 14.15
+    },
+    {
       "keyword": "빅뱅20주년응원봉",
       "category": "생활/건강 > 수집품 > 아이돌굿즈 > 응원봉",
       "period": "최근 30일",
@@ -2561,6 +3993,26 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 14.12
+    },
+    {
+      "keyword": "브루클린프렙매니저",
+      "category": "생활/건강 > 주방용품 > 보관/밀폐용기 > 스텐용기단품",
+      "period": "최근 30일",
+      "search": 490,
+      "products": 34,
+      "comp": "아주좋음",
+      "comp_score": 0.07,
+      "score": 14.0
+    },
+    {
+      "keyword": "라비에플레이팅팬",
+      "category": "생활/건강 > 주방용품 > 프라이팬 > 프라이팬세트",
+      "period": "최근 30일",
+      "search": 1320,
+      "products": 94,
+      "comp": "아주좋음",
+      "comp_score": 0.07,
+      "score": 13.89
     },
     {
       "keyword": "카톡스",
@@ -2581,6 +4033,16 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 13.75
+    },
+    {
+      "keyword": "쿠헨바움세라믹",
+      "category": "생활/건강 > 주방용품 > 프라이팬 > 프라이팬세트",
+      "period": "최근 30일",
+      "search": 1290,
+      "products": 93,
+      "comp": "아주좋음",
+      "comp_score": 0.07,
+      "score": 13.72
     },
     {
       "keyword": "악뮤lp",
@@ -2663,6 +4125,16 @@
       "score": 13.37
     },
     {
+      "keyword": "렌지메이트",
+      "category": "생활/건강 > 주방용품 > 냄비/솥 > 전자레인지/오븐 용기",
+      "period": "최근 30일",
+      "search": 9460,
+      "products": 710,
+      "comp": "아주좋음",
+      "comp_score": 0.08,
+      "score": 13.31
+    },
+    {
       "keyword": "애플듀오패드",
       "category": "생활/건강 > 자동차용품 > 세차용품 > 세차장갑",
       "period": "최근 30일",
@@ -2681,6 +4153,26 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 13.24
+    },
+    {
+      "keyword": "코코라커",
+      "category": "생활/건강 > 주방용품 > 보관/밀폐용기 > 도시락통/찬합",
+      "period": "최근 30일",
+      "search": 3030,
+      "products": 229,
+      "comp": "아주좋음",
+      "comp_score": 0.08,
+      "score": 13.17
+    },
+    {
+      "keyword": "피터앤스티브",
+      "category": "생활/건강 > 주방용품 > 잔/컵 > 텀블러",
+      "period": "최근 30일",
+      "search": 470,
+      "products": 35,
+      "comp": "아주좋음",
+      "comp_score": 0.07,
+      "score": 13.06
     },
     {
       "keyword": "하투하인형",
@@ -2733,6 +4225,26 @@
       "score": 12.82
     },
     {
+      "keyword": "위알키트",
+      "category": "생활/건강 > 주방용품 > 보관/밀폐용기 > 도자기/유리용기단품",
+      "period": "최근 30일",
+      "search": 500,
+      "products": 38,
+      "comp": "아주좋음",
+      "comp_score": 0.08,
+      "score": 12.82
+    },
+    {
+      "keyword": "이태리am텀블러",
+      "category": "생활/건강 > 주방용품 > 잔/컵 > 텀블러",
+      "period": "최근 30일",
+      "search": 1250,
+      "products": 98,
+      "comp": "아주좋음",
+      "comp_score": 0.08,
+      "score": 12.63
+    },
+    {
       "keyword": "쁘넥도",
       "category": "생활/건강 > 수집품 > 아이돌굿즈 > 기타굿즈",
       "period": "최근 30일",
@@ -2751,6 +4263,26 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 12.57
+    },
+    {
+      "keyword": "베테랑대디",
+      "category": "생활/건강 > 주방용품 > 주방수납용품 > 식기건조대",
+      "period": "최근 30일",
+      "search": 590,
+      "products": 46,
+      "comp": "아주좋음",
+      "comp_score": 0.08,
+      "score": 12.55
+    },
+    {
+      "keyword": "펠트로스튜디오",
+      "category": "생활/건강 > 주방용품 > 식기 > 양식기",
+      "period": "최근 30일",
+      "search": 3740,
+      "products": 298,
+      "comp": "아주좋음",
+      "comp_score": 0.08,
+      "score": 12.51
     },
     {
       "keyword": "pv5모기장",
@@ -2793,6 +4325,16 @@
       "score": 12.36
     },
     {
+      "keyword": "강주은가위",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 주방가위",
+      "period": "최근 30일",
+      "search": 1720,
+      "products": 139,
+      "comp": "아주좋음",
+      "comp_score": 0.08,
+      "score": 12.29
+    },
+    {
       "keyword": "장용석작업등",
       "category": "스포츠/레저 > 캠핑 > 랜턴 > 손전등",
       "period": "최근 30일",
@@ -2811,6 +4353,26 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 12.23
+    },
+    {
+      "keyword": "독일졸링겐야채칼",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 채칼/필러",
+      "period": "최근 30일",
+      "search": 680,
+      "products": 56,
+      "comp": "아주좋음",
+      "comp_score": 0.08,
+      "score": 11.93
+    },
+    {
+      "keyword": "도파밍빨래바구니",
+      "category": "생활/건강 > 세탁용품 > 빨래바구니",
+      "period": "최근 30일",
+      "search": 1700,
+      "products": 143,
+      "comp": "아주좋음",
+      "comp_score": 0.08,
+      "score": 11.81
     },
     {
       "keyword": "서스펙트게임",
@@ -2853,6 +4415,26 @@
       "score": 11.57
     },
     {
+      "keyword": "무디타채칼",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 채칼/필러",
+      "period": "최근 30일",
+      "search": 1550,
+      "products": 134,
+      "comp": "아주좋음",
+      "comp_score": 0.09,
+      "score": 11.48
+    },
+    {
+      "keyword": "최화정냄비",
+      "category": "생활/건강 > 주방용품 > 냄비/솥 > 찜기",
+      "period": "최근 30일",
+      "search": 4700,
+      "products": 415,
+      "comp": "아주좋음",
+      "comp_score": 0.09,
+      "score": 11.3
+    },
+    {
       "keyword": "원스팜",
       "category": "생활/건강 > 관상어용품 > 수족관/어항",
       "period": "최근 30일",
@@ -2883,6 +4465,16 @@
       "score": 11.08
     },
     {
+      "keyword": "스틸웍스믹싱볼",
+      "category": "생활/건강 > 주방용품 > 조리기구 > 믹싱볼",
+      "period": "최근 30일",
+      "search": 1510,
+      "products": 136,
+      "comp": "아주좋음",
+      "comp_score": 0.09,
+      "score": 11.02
+    },
+    {
       "keyword": "레미니",
       "category": "생활/건강 > 수집품 > 아이돌굿즈 > 기타굿즈",
       "period": "최근 30일",
@@ -2901,6 +4493,26 @@
       "comp": "",
       "comp_score": 0.09,
       "score": 10.94
+    },
+    {
+      "keyword": "바나나우유도자기",
+      "category": "생활/건강 > 주방용품 > 식기 > 면기",
+      "period": "최근 30일",
+      "search": 1900,
+      "products": 173,
+      "comp": "아주좋음",
+      "comp_score": 0.09,
+      "score": 10.92
+    },
+    {
+      "keyword": "미라네주방",
+      "category": "생활/건강 > 주방용품 > 보관/밀폐용기 > 플라스틱용기세트",
+      "period": "최근 30일",
+      "search": 7990,
+      "products": 736,
+      "comp": "아주좋음",
+      "comp_score": 0.09,
+      "score": 10.84
     },
     {
       "keyword": "노이즈캐쳐",
@@ -2983,6 +4595,26 @@
       "score": 10.46
     },
     {
+      "keyword": "버선칼",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 칼",
+      "period": "최근 30일",
+      "search": 480,
+      "products": 45,
+      "comp": "아주좋음",
+      "comp_score": 0.09,
+      "score": 10.43
+    },
+    {
+      "keyword": "하슈타",
+      "category": "생활/건강 > 주방용품 > 주방잡화 > 행주",
+      "period": "최근 30일",
+      "search": 550,
+      "products": 52,
+      "comp": "아주좋음",
+      "comp_score": 0.09,
+      "score": 10.38
+    },
+    {
       "keyword": "리자몽띠부씰",
       "category": "생활/건강 > 문구/사무용품 > 스티커 > 기타스티커",
       "period": "최근 30일",
@@ -3013,12 +4645,52 @@
       "score": 10.31
     },
     {
+      "keyword": "에코센스히트락14종",
+      "category": "생활/건강 > 주방용품 > 보관/밀폐용기 > 플라스틱용기세트",
+      "period": "최근 30일",
+      "search": 6980,
+      "products": 677,
+      "comp": "아주좋음",
+      "comp_score": 0.1,
+      "score": 10.29
+    },
+    {
+      "keyword": "부쿠저울",
+      "category": "생활/건강 > 주방용품 > 제과/제빵용품 > 주방저울",
+      "period": "최근 30일",
+      "search": 710,
+      "products": 68,
+      "comp": "아주좋음",
+      "comp_score": 0.1,
+      "score": 10.29
+    },
+    {
+      "keyword": "독일졸링겐채칼",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 채칼/필러",
+      "period": "최근 30일",
+      "search": 780,
+      "products": 76,
+      "comp": "아주좋음",
+      "comp_score": 0.1,
+      "score": 10.13
+    },
+    {
       "keyword": "에프터블로우",
       "category": "생활/건강 > 자동차용품 > 편의용품 > 차량용공기청정기",
       "period": "최근 30일",
       "search": 2610,
       "products": 258,
       "comp": "",
+      "comp_score": 0.1,
+      "score": 10.08
+    },
+    {
+      "keyword": "트루쿡",
+      "category": "생활/건강 > 주방용품 > 프라이팬 > 일반프라이팬",
+      "period": "최근 30일",
+      "search": 6370,
+      "products": 631,
+      "comp": "아주좋음",
       "comp_score": 0.1,
       "score": 10.08
     },
@@ -3031,6 +4703,16 @@
       "comp": "",
       "comp_score": 0.1,
       "score": 10.05
+    },
+    {
+      "keyword": "당아리",
+      "category": "생활/건강 > 주방용품 > 보관/밀폐용기 > 김치통",
+      "period": "최근 30일",
+      "search": 2280,
+      "products": 226,
+      "comp": "아주좋음",
+      "comp_score": 0.1,
+      "score": 10.04
     },
     {
       "keyword": "꼬치의달인",
@@ -3051,6 +4733,36 @@
       "comp": "아주좋음",
       "comp_score": 0.1,
       "score": 10.0
+    },
+    {
+      "keyword": "데펜소",
+      "category": "생활/건강 > 주방용품 > 보관/밀폐용기 > 스텐용기단품",
+      "period": "최근 30일",
+      "search": 3770,
+      "products": 376,
+      "comp": "아주좋음",
+      "comp_score": 0.1,
+      "score": 10.0
+    },
+    {
+      "keyword": "시리츠",
+      "category": "생활/건강 > 주방용품 > 식기 > 접시",
+      "period": "최근 30일",
+      "search": 4770,
+      "products": 477,
+      "comp": "아주좋음",
+      "comp_score": 0.1,
+      "score": 9.98
+    },
+    {
+      "keyword": "아토배기",
+      "category": "생활/건강 > 주방용품 > 식기 > 접시",
+      "period": "최근 30일",
+      "search": 1350,
+      "products": 135,
+      "comp": "아주좋음",
+      "comp_score": 0.1,
+      "score": 9.93
     },
     {
       "keyword": "홀리데이미쿠",
@@ -3093,6 +4805,76 @@
       "score": 9.79
     },
     {
+      "keyword": "랜가드후드필터",
+      "category": "생활/건강 > 주방용품 > 주방잡화 > 기타주방잡화",
+      "period": "최근 30일",
+      "search": 1820,
+      "products": 186,
+      "comp": "아주좋음",
+      "comp_score": 0.1,
+      "score": 9.73
+    },
+    {
+      "keyword": "파르셀주물냄비",
+      "category": "생활/건강 > 주방용품 > 냄비/솥 > 냄비세트",
+      "period": "최근 30일",
+      "search": 330,
+      "products": 33,
+      "comp": "아주좋음",
+      "comp_score": 0.1,
+      "score": 9.71
+    },
+    {
+      "keyword": "빽가건조대",
+      "category": "생활/건강 > 세탁용품 > 빨래건조대 > 이동접이식",
+      "period": "최근 30일",
+      "search": 650,
+      "products": 66,
+      "comp": "아주좋음",
+      "comp_score": 0.1,
+      "score": 9.7
+    },
+    {
+      "keyword": "부엉누리짤순이",
+      "category": "생활/건강 > 주방용품 > 조리기구 > 야채탈수기",
+      "period": "최근 30일",
+      "search": 310,
+      "products": 31,
+      "comp": "아주좋음",
+      "comp_score": 0.1,
+      "score": 9.69
+    },
+    {
+      "keyword": "실리프랑",
+      "category": "생활/건강 > 주방용품 > 냄비/솥 > 찜기",
+      "period": "최근 30일",
+      "search": 1190,
+      "products": 122,
+      "comp": "아주좋음",
+      "comp_score": 0.1,
+      "score": 9.67
+    },
+    {
+      "keyword": "아버지제사지방",
+      "category": "생활/건강 > 주방용품 > 제수용품 > 위패",
+      "period": "최근 30일",
+      "search": 1070,
+      "products": 110,
+      "comp": "아주좋음",
+      "comp_score": 0.1,
+      "score": 9.64
+    },
+    {
+      "keyword": "에이미테이블",
+      "category": "생활/건강 > 주방용품 > 식기 > 접시",
+      "period": "최근 30일",
+      "search": 3670,
+      "products": 381,
+      "comp": "아주좋음",
+      "comp_score": 0.1,
+      "score": 9.61
+    },
+    {
       "keyword": "솔로몬크샤트리아",
       "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
       "period": "최근 30일",
@@ -3101,6 +4883,16 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 9.54
+    },
+    {
+      "keyword": "넛츠앤버터",
+      "category": "생활/건강 > 주방용품 > 식기 > 볼",
+      "period": "최근 30일",
+      "search": 3480,
+      "products": 364,
+      "comp": "아주좋음",
+      "comp_score": 0.1,
+      "score": 9.53
     },
     {
       "keyword": "에코플로우리버프로",
@@ -3133,6 +4925,16 @@
       "score": 9.46
     },
     {
+      "keyword": "프리미엄매직행주",
+      "category": "생활/건강 > 주방용품 > 주방잡화 > 행주",
+      "period": "최근 30일",
+      "search": 1550,
+      "products": 163,
+      "comp": "아주좋음",
+      "comp_score": 0.11,
+      "score": 9.45
+    },
+    {
       "keyword": "아이소핑크판넬",
       "category": "생활/건강 > 화방용품 > 우드락/폼보드",
       "period": "최근 30일",
@@ -3141,6 +4943,16 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 9.39
+    },
+    {
+      "keyword": "운동화국민필터",
+      "category": "생활/건강 > 세탁용품 > 세탁망",
+      "period": "최근 30일",
+      "search": 1280,
+      "products": 137,
+      "comp": "아주좋음",
+      "comp_score": 0.11,
+      "score": 9.28
     },
     {
       "keyword": "아이브도무송",
@@ -3163,6 +4975,16 @@
       "score": 9.2
     },
     {
+      "keyword": "풍천도식칼",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 칼",
+      "period": "최근 30일",
+      "search": 780,
+      "products": 86,
+      "comp": "아주좋음",
+      "comp_score": 0.11,
+      "score": 8.97
+    },
+    {
       "keyword": "84태권브이",
       "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
       "period": "최근 30일",
@@ -3181,6 +5003,16 @@
       "comp": "",
       "comp_score": 0.11,
       "score": 8.86
+    },
+    {
+      "keyword": "에버스텐믹싱볼",
+      "category": "생활/건강 > 주방용품 > 조리기구 > 믹싱볼",
+      "period": "최근 30일",
+      "search": 1260,
+      "products": 142,
+      "comp": "아주좋음",
+      "comp_score": 0.11,
+      "score": 8.81
     },
     {
       "keyword": "와꾸볼",
@@ -3233,6 +5065,26 @@
       "score": 8.67
     },
     {
+      "keyword": "솔솔푸른솔",
+      "category": "생활/건강 > 주방용품 > 식기 > 홈세트",
+      "period": "최근 30일",
+      "search": 5400,
+      "products": 622,
+      "comp": "아주좋음",
+      "comp_score": 0.12,
+      "score": 8.67
+    },
+    {
+      "keyword": "야마자키위스키",
+      "category": "생활/건강 > 주방용품 > 잔/컵 > 유리컵",
+      "period": "최근 30일",
+      "search": 7730,
+      "products": 893,
+      "comp": "아주좋음",
+      "comp_score": 0.12,
+      "score": 8.65
+    },
+    {
       "keyword": "마메고마",
       "category": "패션잡화 > 여성가방 > 파우치",
       "period": "최근 30일",
@@ -3251,6 +5103,16 @@
       "comp": "",
       "comp_score": 0.11,
       "score": 8.62
+    },
+    {
+      "keyword": "홈쇼핑저압냄비",
+      "category": "생활/건강 > 주방용품 > 냄비/솥 > 양수냄비",
+      "period": "최근 30일",
+      "search": 800,
+      "products": 92,
+      "comp": "아주좋음",
+      "comp_score": 0.12,
+      "score": 8.6
     },
     {
       "keyword": "카드형차키",
@@ -3281,6 +5143,16 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 8.41
+    },
+    {
+      "keyword": "라라밤설거지통",
+      "category": "생활/건강 > 주방용품 > 주방수납용품 > 주방정리소품",
+      "period": "최근 30일",
+      "search": 3540,
+      "products": 421,
+      "comp": "아주좋음",
+      "comp_score": 0.12,
+      "score": 8.39
     },
     {
       "keyword": "블러드메리새우",
@@ -3323,6 +5195,26 @@
       "score": 8.29
     },
     {
+      "keyword": "홍사운드집가락",
+      "category": "생활/건강 > 주방용품 > 조리기구 > 집게",
+      "period": "최근 30일",
+      "search": 430,
+      "products": 51,
+      "comp": "아주좋음",
+      "comp_score": 0.12,
+      "score": 8.27
+    },
+    {
+      "keyword": "흰둥이밥그릇",
+      "category": "생활/건강 > 주방용품 > 식기 > 접시",
+      "period": "최근 30일",
+      "search": 1990,
+      "products": 242,
+      "comp": "아주좋음",
+      "comp_score": 0.12,
+      "score": 8.19
+    },
+    {
       "keyword": "차앞유리습기",
       "category": "생활/건강 > 자동차용품 > 세차용품 > 김서림방지제",
       "period": "최근 30일",
@@ -3331,6 +5223,16 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 8.18
+    },
+    {
+      "keyword": "ufo드리퍼",
+      "category": "생활/건강 > 주방용품 > 커피용품 > 커피추출기",
+      "period": "최근 30일",
+      "search": 4850,
+      "products": 594,
+      "comp": "아주좋음",
+      "comp_score": 0.12,
+      "score": 8.15
     },
     {
       "keyword": "바퀴벌레포커",
@@ -3363,6 +5265,16 @@
       "score": 8.04
     },
     {
+      "keyword": "자가제면",
+      "category": "생활/건강 > 주방용품 > 조리기구 > 제면기",
+      "period": "최근 30일",
+      "search": 2920,
+      "products": 362,
+      "comp": "아주좋음",
+      "comp_score": 0.12,
+      "score": 8.04
+    },
+    {
       "keyword": "쿠지판다",
       "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
       "period": "최근 30일",
@@ -3371,6 +5283,16 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 7.96
+    },
+    {
+      "keyword": "195파이소",
+      "category": "생활/건강 > 주방용품 > 일회용품 > 일회용식기",
+      "period": "최근 30일",
+      "search": 1430,
+      "products": 179,
+      "comp": "아주좋음",
+      "comp_score": 0.13,
+      "score": 7.94
     },
     {
       "keyword": "유막제거방법",
@@ -3443,6 +5365,46 @@
       "score": 7.55
     },
     {
+      "keyword": "라포레텀블러\n",
+      "category": "생활/건강 > 주방용품 > 잔/컵 > 텀블러",
+      "period": "최근 30일",
+      "search": 1390,
+      "products": 183,
+      "comp": "아주좋음",
+      "comp_score": 0.13,
+      "score": 7.55
+    },
+    {
+      "keyword": "jbj세탁바구니",
+      "category": "생활/건강 > 세탁용품 > 빨래바구니",
+      "period": "최근 30일",
+      "search": 3330,
+      "products": 440,
+      "comp": "아주좋음",
+      "comp_score": 0.13,
+      "score": 7.55
+    },
+    {
+      "keyword": "썬스앤쿡도마",
+      "category": "생활/건강 > 주방용품 > 도마",
+      "period": "최근 30일",
+      "search": 850,
+      "products": 112,
+      "comp": "아주좋음",
+      "comp_score": 0.13,
+      "score": 7.52
+    },
+    {
+      "keyword": "로긴빨래바구니",
+      "category": "생활/건강 > 세탁용품 > 빨래바구니",
+      "period": "최근 30일",
+      "search": 880,
+      "products": 116,
+      "comp": "아주좋음",
+      "comp_score": 0.13,
+      "score": 7.52
+    },
+    {
       "keyword": "원보스",
       "category": "생활/건강 > 자동차용품 > 인테리어용품 > 차량용햇빛가리개",
       "period": "최근 30일",
@@ -3451,6 +5413,16 @@
       "comp": "",
       "comp_score": 0.13,
       "score": 7.5
+    },
+    {
+      "keyword": "김그릇",
+      "category": "생활/건강 > 주방용품 > 식기 > 찬기",
+      "period": "최근 30일",
+      "search": 6240,
+      "products": 834,
+      "comp": "아주좋음",
+      "comp_score": 0.13,
+      "score": 7.47
     },
     {
       "keyword": "만신타로카드",
@@ -3533,6 +5505,26 @@
       "score": 7.33
     },
     {
+      "keyword": "락스타3000",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 칼갈이",
+      "period": "최근 30일",
+      "search": 300,
+      "products": 40,
+      "comp": "아주좋음",
+      "comp_score": 0.13,
+      "score": 7.32
+    },
+    {
+      "keyword": "행켈칼",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 칼세트",
+      "period": "최근 30일",
+      "search": 1150,
+      "products": 157,
+      "comp": "아주좋음",
+      "comp_score": 0.14,
+      "score": 7.28
+    },
+    {
       "keyword": "mgsd데스티니",
       "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
       "period": "최근 30일",
@@ -3541,6 +5533,16 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 7.22
+    },
+    {
+      "keyword": "마나도마",
+      "category": "생활/건강 > 주방용품 > 도마",
+      "period": "최근 30일",
+      "search": 2330,
+      "products": 323,
+      "comp": "아주좋음",
+      "comp_score": 0.14,
+      "score": 7.19
     },
     {
       "keyword": "치우천왕",
@@ -3593,6 +5595,16 @@
       "score": 7.08
     },
     {
+      "keyword": "스메그수저통",
+      "category": "생활/건강 > 주방용품 > 식기 > 수저통",
+      "period": "최근 30일",
+      "search": 350,
+      "products": 49,
+      "comp": "아주좋음",
+      "comp_score": 0.14,
+      "score": 7.0
+    },
+    {
       "keyword": "치킨차차",
       "category": "생활/건강 > 수집품 > 게임 > 보드게임",
       "period": "최근 30일",
@@ -3621,6 +5633,16 @@
       "comp": "",
       "comp_score": 0.14,
       "score": 6.92
+    },
+    {
+      "keyword": "일본마나도마",
+      "category": "생활/건강 > 주방용품 > 도마",
+      "period": "최근 30일",
+      "search": 830,
+      "products": 120,
+      "comp": "아주좋음",
+      "comp_score": 0.14,
+      "score": 6.86
     },
     {
       "keyword": "그로잇수초",
@@ -3713,6 +5735,26 @@
       "score": 6.75
     },
     {
+      "keyword": "사이렌레버드리퍼",
+      "category": "생활/건강 > 주방용품 > 커피용품 > 커피추출기",
+      "period": "최근 30일",
+      "search": 810,
+      "products": 119,
+      "comp": "아주좋음",
+      "comp_score": 0.15,
+      "score": 6.75
+    },
+    {
+      "keyword": "밈뚝배기",
+      "category": "생활/건강 > 주방용품 > 냄비/솥 > 뚝배기",
+      "period": "최근 30일",
+      "search": 520,
+      "products": 76,
+      "comp": "아주좋음",
+      "comp_score": 0.15,
+      "score": 6.75
+    },
+    {
       "keyword": "스타나다인디젤",
       "category": "생활/건강 > 자동차용품 > 오일/소모품 > 연료첨가제",
       "period": "최근 30일",
@@ -3721,6 +5763,16 @@
       "comp": "",
       "comp_score": 0.15,
       "score": 6.73
+    },
+    {
+      "keyword": "스칸디나비안텀블러",
+      "category": "생활/건강 > 주방용품 > 잔/컵 > 텀블러",
+      "period": "최근 30일",
+      "search": 3140,
+      "products": 467,
+      "comp": "아주좋음",
+      "comp_score": 0.15,
+      "score": 6.71
     },
     {
       "keyword": "위시돌",
@@ -3740,6 +5792,16 @@
       "products": 101,
       "comp": "아주좋음",
       "comp_score": 0.17,
+      "score": 6.67
+    },
+    {
+      "keyword": "보물섬그릇",
+      "category": "생활/건강 > 주방용품 > 식기 > 접시",
+      "period": "최근 30일",
+      "search": 1420,
+      "products": 212,
+      "comp": "아주좋음",
+      "comp_score": 0.15,
       "score": 6.67
     },
     {
@@ -3763,6 +5825,16 @@
       "score": 6.6
     },
     {
+      "keyword": "모아람",
+      "category": "생활/건강 > 주방용품 > 보관/밀폐용기 > 기타보관용기",
+      "period": "최근 30일",
+      "search": 720,
+      "products": 109,
+      "comp": "아주좋음",
+      "comp_score": 0.15,
+      "score": 6.55
+    },
+    {
       "keyword": "새번역성경",
       "category": "생활/건강 > 종교 > 기독교용품",
       "period": "최근 30일",
@@ -3771,6 +5843,26 @@
       "comp": "아주좋음",
       "comp_score": 0.15,
       "score": 6.53
+    },
+    {
+      "keyword": "페모북a4z",
+      "category": "생활/건강 > 주방용품 > 커피용품 > 커피분쇄기",
+      "period": "최근 30일",
+      "search": 1010,
+      "products": 154,
+      "comp": "아주좋음",
+      "comp_score": 0.15,
+      "score": 6.52
+    },
+    {
+      "keyword": "메가브리즈빨래건조대",
+      "category": "생활/건강 > 세탁용품 > 빨래건조대 > 이동접이식",
+      "period": "최근 30일",
+      "search": 1450,
+      "products": 222,
+      "comp": "아주좋음",
+      "comp_score": 0.15,
+      "score": 6.5
     },
     {
       "keyword": "아이묭베스트앨범",
@@ -3783,6 +5875,16 @@
       "score": 6.47
     },
     {
+      "keyword": "플루딕",
+      "category": "생활/건강 > 주방용품 > 조리기구 > 야채탈수기",
+      "period": "최근 30일",
+      "search": 1350,
+      "products": 208,
+      "comp": "아주좋음",
+      "comp_score": 0.15,
+      "score": 6.46
+    },
+    {
       "keyword": "1톤활어차",
       "category": "생활/건강 > 자동차용품 > 튜닝용품 > 계기판",
       "period": "최근 30일",
@@ -3791,6 +5893,26 @@
       "comp": "",
       "comp_score": 0.15,
       "score": 6.41
+    },
+    {
+      "keyword": "코스트코빨래건조대",
+      "category": "생활/건강 > 세탁용품 > 빨래건조대 > 이동접이식",
+      "period": "최근 30일",
+      "search": 1030,
+      "products": 160,
+      "comp": "아주좋음",
+      "comp_score": 0.16,
+      "score": 6.4
+    },
+    {
+      "keyword": "하나다칼갈이",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 칼갈이",
+      "period": "최근 30일",
+      "search": 1940,
+      "products": 303,
+      "comp": "아주좋음",
+      "comp_score": 0.16,
+      "score": 6.38
     },
     {
       "keyword": "카드쉘팩케이스",
@@ -3833,6 +5955,26 @@
       "score": 6.3
     },
     {
+      "keyword": "로얄슈미츠\n",
+      "category": "생활/건강 > 주방용품 > 냄비/솥 > 압력솥",
+      "period": "최근 30일",
+      "search": 740,
+      "products": 118,
+      "comp": "아주좋음",
+      "comp_score": 0.16,
+      "score": 6.22
+    },
+    {
+      "keyword": "트리쳐엔드그레인",
+      "category": "생활/건강 > 주방용품 > 도마",
+      "period": "최근 30일",
+      "search": 590,
+      "products": 94,
+      "comp": "아주좋음",
+      "comp_score": 0.16,
+      "score": 6.21
+    },
+    {
       "keyword": "알페온혼",
       "category": "생활/건강 > 자동차용품 > 튜닝용품 > 혼",
       "period": "최근 30일",
@@ -3853,6 +5995,16 @@
       "score": 6.18
     },
     {
+      "keyword": "냉부제면기",
+      "category": "생활/건강 > 주방용품 > 조리기구 > 제면기",
+      "period": "최근 30일",
+      "search": 680,
+      "products": 109,
+      "comp": "아주좋음",
+      "comp_score": 0.16,
+      "score": 6.18
+    },
+    {
       "keyword": "안시롱핀",
       "category": "스포츠/레저 > 수영 > 수영용품 > 오리발",
       "period": "최근 30일",
@@ -3860,6 +6012,16 @@
       "products": 125,
       "comp": "아주좋음",
       "comp_score": null,
+      "score": 6.03
+    },
+    {
+      "keyword": "데켓",
+      "category": "생활/건강 > 주방용품 > 프라이팬 > 일반프라이팬",
+      "period": "최근 30일",
+      "search": 2890,
+      "products": 478,
+      "comp": "아주좋음",
+      "comp_score": 0.17,
       "score": 6.03
     },
     {
@@ -3883,6 +6045,16 @@
       "score": 5.91
     },
     {
+      "keyword": "실리콘2단찜기",
+      "category": "생활/건강 > 주방용품 > 냄비/솥 > 찜기",
+      "period": "최근 30일",
+      "search": 1620,
+      "products": 273,
+      "comp": "아주좋음",
+      "comp_score": 0.17,
+      "score": 5.91
+    },
+    {
       "keyword": "혁오lp",
       "category": "생활/건강 > 수집품 > LP",
       "period": "최근 30일",
@@ -3903,6 +6075,16 @@
       "score": 5.86
     },
     {
+      "keyword": "헤리터컵",
+      "category": "생활/건강 > 주방용품 > 잔/컵 > 유리컵",
+      "period": "최근 30일",
+      "search": 1870,
+      "products": 322,
+      "comp": "아주좋음",
+      "comp_score": 0.17,
+      "score": 5.79
+    },
+    {
       "keyword": "크레모아냉장고55",
       "category": "생활/건강 > 자동차용품 > 편의용품 > 차량용냉/온장고",
       "period": "최근 30일",
@@ -3911,6 +6093,16 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 5.78
+    },
+    {
+      "keyword": "샤프톤락스타1000",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 칼갈이",
+      "period": "최근 30일",
+      "search": 870,
+      "products": 150,
+      "comp": "아주좋음",
+      "comp_score": 0.17,
+      "score": 5.76
     },
     {
       "keyword": "스티커제거방법",
@@ -3933,6 +6125,16 @@
       "score": 5.75
     },
     {
+      "keyword": "다이소머그컵",
+      "category": "생활/건강 > 주방용품 > 잔/컵 > 머그",
+      "period": "최근 30일",
+      "search": 730,
+      "products": 127,
+      "comp": "아주좋음",
+      "comp_score": 0.17,
+      "score": 5.7
+    },
+    {
       "keyword": "pg언리쉬드뉴건담",
       "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
       "period": "최근 30일",
@@ -3951,6 +6153,16 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 5.68
+    },
+    {
+      "keyword": "심플팩토리",
+      "category": "생활/건강 > 주방용품 > 식기 > 수저통",
+      "period": "최근 30일",
+      "search": 1820,
+      "products": 322,
+      "comp": "아주좋음",
+      "comp_score": 0.18,
+      "score": 5.63
     },
     {
       "keyword": "봉은사목탁키캡",
@@ -4043,6 +6255,26 @@
       "score": 5.38
     },
     {
+      "keyword": "신쥬오칼",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 칼",
+      "period": "최근 30일",
+      "search": 510,
+      "products": 94,
+      "comp": "아주좋음",
+      "comp_score": 0.18,
+      "score": 5.37
+    },
+    {
+      "keyword": "스웰샐러드볼",
+      "category": "생활/건강 > 주방용품 > 식기 > 볼",
+      "period": "최근 30일",
+      "search": 4620,
+      "products": 864,
+      "comp": "아주좋음",
+      "comp_score": 0.19,
+      "score": 5.34
+    },
+    {
       "keyword": "스타벅스드라이브컵홀더",
       "category": "생활/건강 > 주방용품 > 주방잡화 > 컵받침/홀더",
       "period": "최근 30일",
@@ -4051,6 +6283,26 @@
       "comp": "",
       "comp_score": 0.19,
       "score": 5.33
+    },
+    {
+      "keyword": "다짜고짜",
+      "category": "생활/건강 > 주방용품 > 조리기구 > 야채탈수기",
+      "period": "최근 30일",
+      "search": 2460,
+      "products": 464,
+      "comp": "아주좋음",
+      "comp_score": 0.19,
+      "score": 5.29
+    },
+    {
+      "keyword": "프렘무쇠냄비",
+      "category": "생활/건강 > 주방용품 > 냄비/솥 > 양수냄비",
+      "period": "최근 30일",
+      "search": 1370,
+      "products": 259,
+      "comp": "아주좋음",
+      "comp_score": 0.19,
+      "score": 5.27
     },
     {
       "keyword": "크레모아프리지2",
@@ -4073,6 +6325,16 @@
       "score": 5.25
     },
     {
+      "keyword": "유쿠로사키",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 칼",
+      "period": "최근 30일",
+      "search": 440,
+      "products": 83,
+      "comp": "아주좋음",
+      "comp_score": 0.19,
+      "score": 5.24
+    },
+    {
       "keyword": "백주유성",
       "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
       "period": "최근 30일",
@@ -4080,6 +6342,16 @@
       "products": 64,
       "comp": "아주좋음",
       "comp_score": null,
+      "score": 5.23
+    },
+    {
+      "keyword": "가마가텅빈날",
+      "category": "생활/건강 > 주방용품 > 식기 > 볼",
+      "period": "최근 30일",
+      "search": 910,
+      "products": 173,
+      "comp": "아주좋음",
+      "comp_score": 0.19,
       "score": 5.23
     },
     {
@@ -4113,6 +6385,16 @@
       "score": 5.15
     },
     {
+      "keyword": "투고백",
+      "category": "생활/건강 > 주방용품 > 주방잡화 > 기타주방잡화",
+      "period": "최근 30일",
+      "search": 1880,
+      "products": 364,
+      "comp": "아주좋음",
+      "comp_score": 0.19,
+      "score": 5.15
+    },
+    {
       "keyword": "아이코닉하트",
       "category": "생활/건강 > 음반 > 해외앨범",
       "period": "최근 30일",
@@ -4140,6 +6422,16 @@
       "products": 151,
       "comp": "아주좋음",
       "comp_score": 0.2,
+      "score": 5.07
+    },
+    {
+      "keyword": "런치로그\n",
+      "category": "생활/건강 > 주방용품 > 보관/밀폐용기 > 도시락통/찬합",
+      "period": "최근 30일",
+      "search": 380,
+      "products": 74,
+      "comp": "아주좋음",
+      "comp_score": 0.19,
       "score": 5.07
     },
     {
@@ -4233,6 +6525,16 @@
       "score": 4.9
     },
     {
+      "keyword": "로스돔",
+      "category": "생활/건강 > 주방용품 > 조리기구 > 조리도구세트",
+      "period": "최근 30일",
+      "search": 1660,
+      "products": 338,
+      "comp": "아주좋음",
+      "comp_score": 0.2,
+      "score": 4.9
+    },
+    {
       "keyword": "생귄차량용방향제",
       "category": "생활/건강 > 자동차용품 > 공기청정용품 > 차량용방향제",
       "period": "최근 30일",
@@ -4253,6 +6555,26 @@
       "score": 4.87
     },
     {
+      "keyword": "라미스홈",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 채칼/필러",
+      "period": "최근 30일",
+      "search": 770,
+      "products": 157,
+      "comp": "아주좋음",
+      "comp_score": 0.2,
+      "score": 4.87
+    },
+    {
+      "keyword": "바카랏",
+      "category": "생활/건강 > 주방용품 > 잔/컵 > 와인잔",
+      "period": "최근 30일",
+      "search": 2460,
+      "products": 508,
+      "comp": "아주좋음",
+      "comp_score": 0.21,
+      "score": 4.83
+    },
+    {
       "keyword": "youngla",
       "category": "생활/건강 > 화방용품 > 트레이닝복",
       "period": "최근 30일",
@@ -4263,6 +6585,46 @@
       "score": 4.8
     },
     {
+      "keyword": "일본스미노도마",
+      "category": "생활/건강 > 주방용품 > 도마",
+      "period": "최근 30일",
+      "search": 3250,
+      "products": 678,
+      "comp": "아주좋음",
+      "comp_score": 0.21,
+      "score": 4.79
+    },
+    {
+      "keyword": "국민필터",
+      "category": "생활/건강 > 세탁용품 > 세탁망",
+      "period": "최근 30일",
+      "search": 910,
+      "products": 189,
+      "comp": "아주좋음",
+      "comp_score": 0.21,
+      "score": 4.79
+    },
+    {
+      "keyword": "고트만밀폐용기",
+      "category": "생활/건강 > 주방용품 > 보관/밀폐용기 > 플라스틱용기세트",
+      "period": "최근 30일",
+      "search": 4200,
+      "products": 885,
+      "comp": "아주좋음",
+      "comp_score": 0.21,
+      "score": 4.74
+    },
+    {
+      "keyword": "스리아마켓",
+      "category": "생활/건강 > 주방용품 > 잔/컵 > 머그",
+      "period": "최근 30일",
+      "search": 490,
+      "products": 103,
+      "comp": "아주좋음",
+      "comp_score": 0.21,
+      "score": 4.71
+    },
+    {
       "keyword": "페로바니",
       "category": "생활/건강 > 자동차용품 > 키용품 > 키케이스",
       "period": "최근 30일",
@@ -4271,6 +6633,26 @@
       "comp": "",
       "comp_score": 0.21,
       "score": 4.69
+    },
+    {
+      "keyword": "하다나",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 칼갈이",
+      "period": "최근 30일",
+      "search": 2520,
+      "products": 538,
+      "comp": "아주좋음",
+      "comp_score": 0.21,
+      "score": 4.68
+    },
+    {
+      "keyword": "금문도칼",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 칼",
+      "period": "최근 30일",
+      "search": 490,
+      "products": 104,
+      "comp": "아주좋음",
+      "comp_score": 0.21,
+      "score": 4.67
     },
     {
       "keyword": "ev5루프박스",
@@ -4313,6 +6695,16 @@
       "score": 4.61
     },
     {
+      "keyword": "아이지글",
+      "category": "생활/건강 > 주방용품 > 조리기구 > 기타조리기구",
+      "period": "최근 30일",
+      "search": 800,
+      "products": 173,
+      "comp": "아주좋음",
+      "comp_score": 0.22,
+      "score": 4.6
+    },
+    {
       "keyword": "삼성응원봉",
       "category": "생활/건강 > 수집품 > 아이돌굿즈 > 응원봉",
       "period": "최근 30일",
@@ -4321,6 +6713,26 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 4.58
+    },
+    {
+      "keyword": "쉐이크스피어",
+      "category": "생활/건강 > 주방용품 > 보관/밀폐용기 > 물병",
+      "period": "최근 30일",
+      "search": 2550,
+      "products": 557,
+      "comp": "아주좋음",
+      "comp_score": 0.22,
+      "score": 4.57
+    },
+    {
+      "keyword": "알라미아도마",
+      "category": "생활/건강 > 주방용품 > 도마",
+      "period": "최근 30일",
+      "search": 300,
+      "products": 65,
+      "comp": "아주좋음",
+      "comp_score": 0.22,
+      "score": 4.55
     },
     {
       "keyword": "코르티스앨범",
@@ -4383,6 +6795,16 @@
       "score": 4.44
     },
     {
+      "keyword": "후루츠팟",
+      "category": "생활/건강 > 주방용품 > 보관/밀폐용기 > 도시락통/찬합",
+      "period": "최근 30일",
+      "search": 520,
+      "products": 116,
+      "comp": "아주좋음",
+      "comp_score": 0.22,
+      "score": 4.44
+    },
+    {
       "keyword": "코르티스앨범",
       "category": "생활/건강 > 음반 > 국내앨범",
       "period": "최근 30일",
@@ -4391,6 +6813,16 @@
       "comp": "아주좋음",
       "comp_score": 0.23,
       "score": 4.43
+    },
+    {
+      "keyword": "잔디반디",
+      "category": "생활/건강 > 주방용품 > 보관/밀폐용기 > 도시락통/찬합",
+      "period": "최근 30일",
+      "search": 570,
+      "products": 128,
+      "comp": "아주좋음",
+      "comp_score": 0.22,
+      "score": 4.42
     },
     {
       "keyword": "교보문고차량용방향제",
@@ -4413,6 +6845,36 @@
       "score": 4.4
     },
     {
+      "keyword": "스토어팩",
+      "category": "생활/건강 > 주방용품 > 일회용품 > 비닐봉투",
+      "period": "최근 30일",
+      "search": 360,
+      "products": 81,
+      "comp": "아주좋음",
+      "comp_score": 0.23,
+      "score": 4.39
+    },
+    {
+      "keyword": "헤리터가야글라스",
+      "category": "생활/건강 > 주방용품 > 잔/컵 > 유리컵",
+      "period": "최근 30일",
+      "search": 530,
+      "products": 120,
+      "comp": "아주좋음",
+      "comp_score": 0.23,
+      "score": 4.38
+    },
+    {
+      "keyword": "코스트코키친타올홀더",
+      "category": "생활/건강 > 주방용품 > 주방수납용품 > 주방정리소품",
+      "period": "최근 30일",
+      "search": 1280,
+      "products": 292,
+      "comp": "아주좋음",
+      "comp_score": 0.23,
+      "score": 4.37
+    },
+    {
       "keyword": "아임반핸들커버",
       "category": "생활/건강 > 자동차용품 > 인테리어용품 > 핸들커버",
       "period": "최근 30일",
@@ -4423,6 +6885,26 @@
       "score": 4.33
     },
     {
+      "keyword": "안성주물",
+      "category": "생활/건강 > 주방용품 > 프라이팬 > 구이팬",
+      "period": "최근 30일",
+      "search": 3570,
+      "products": 827,
+      "comp": "아주좋음",
+      "comp_score": 0.23,
+      "score": 4.31
+    },
+    {
+      "keyword": "스파클종이컵",
+      "category": "생활/건강 > 주방용품 > 일회용품 > 종이컵",
+      "period": "최근 30일",
+      "search": 320,
+      "products": 74,
+      "comp": "아주좋음",
+      "comp_score": 0.23,
+      "score": 4.27
+    },
+    {
       "keyword": "pv5선반",
       "category": "생활/건강 > 자동차용품 > 튜닝용품 > 기타튜닝용품",
       "period": "최근 30일",
@@ -4431,6 +6913,26 @@
       "comp": "",
       "comp_score": 0.23,
       "score": 4.25
+    },
+    {
+      "keyword": "195파이대",
+      "category": "생활/건강 > 주방용품 > 일회용품 > 일회용식기",
+      "period": "최근 30일",
+      "search": 730,
+      "products": 171,
+      "comp": "아주좋음",
+      "comp_score": 0.23,
+      "score": 4.24
+    },
+    {
+      "keyword": "우드랜드도마",
+      "category": "생활/건강 > 주방용품 > 도마",
+      "period": "최근 30일",
+      "search": 330,
+      "products": 77,
+      "comp": "아주좋음",
+      "comp_score": 0.23,
+      "score": 4.23
     },
     {
       "keyword": "벤딕트광택기",
@@ -4473,6 +6975,16 @@
       "score": 4.17
     },
     {
+      "keyword": "유신창칼",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 칼",
+      "period": "최근 30일",
+      "search": 400,
+      "products": 95,
+      "comp": "아주좋음",
+      "comp_score": 0.24,
+      "score": 4.17
+    },
+    {
       "keyword": "pv5몰리패널",
       "category": "생활/건강 > 자동차용품 > 튜닝용품 > 기타튜닝용품",
       "period": "최근 30일",
@@ -4483,6 +6995,26 @@
       "score": 4.16
     },
     {
+      "keyword": "하라다키요이행주",
+      "category": "생활/건강 > 주방용품 > 주방잡화 > 행주",
+      "period": "최근 30일",
+      "search": 1650,
+      "products": 396,
+      "comp": "아주좋음",
+      "comp_score": 0.24,
+      "score": 4.16
+    },
+    {
+      "keyword": "홍진경도마\n",
+      "category": "생활/건강 > 주방용품 > 도마",
+      "period": "최근 30일",
+      "search": 660,
+      "products": 158,
+      "comp": "아주좋음",
+      "comp_score": 0.24,
+      "score": 4.15
+    },
+    {
       "keyword": "스카풀라",
       "category": "생활/건강 > 종교 > 천주교용품",
       "period": "최근 30일",
@@ -4491,6 +7023,16 @@
       "comp": "아주좋음",
       "comp_score": 0.24,
       "score": 4.14
+    },
+    {
+      "keyword": "마카롱여사칼",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 칼",
+      "period": "최근 30일",
+      "search": 460,
+      "products": 111,
+      "comp": "아주좋음",
+      "comp_score": 0.24,
+      "score": 4.11
     },
     {
       "keyword": "동물의숲마그넷",
@@ -4613,6 +7155,26 @@
       "score": 3.91
     },
     {
+      "keyword": "오일팡행주",
+      "category": "생활/건강 > 주방용품 > 주방잡화 > 행주",
+      "period": "최근 30일",
+      "search": 2330,
+      "products": 597,
+      "comp": "아주좋음",
+      "comp_score": 0.26,
+      "score": 3.9
+    },
+    {
+      "keyword": "돌돌망",
+      "category": "생활/건강 > 세탁용품 > 세탁망",
+      "period": "최근 30일",
+      "search": 350,
+      "products": 89,
+      "comp": "아주좋음",
+      "comp_score": 0.25,
+      "score": 3.89
+    },
+    {
       "keyword": "번개쎈놈",
       "category": "생활/건강 > 자동차용품 > 배터리용품 > 배터리충전기/점프스타터",
       "period": "최근 30일",
@@ -4621,6 +7183,16 @@
       "comp": "아주좋음",
       "comp_score": 0.26,
       "score": 3.86
+    },
+    {
+      "keyword": "미스티파이",
+      "category": "생활/건강 > 주방용품 > 보관/밀폐용기 > 양념통/설탕프림기",
+      "period": "최근 30일",
+      "search": 3190,
+      "products": 828,
+      "comp": "아주좋음",
+      "comp_score": 0.26,
+      "score": 3.85
     },
     {
       "keyword": "조말론카디퓨저",
@@ -4653,6 +7225,16 @@
       "score": 3.8
     },
     {
+      "keyword": "그랜드캐년컵",
+      "category": "생활/건강 > 주방용품 > 잔/컵 > 머그",
+      "period": "최근 30일",
+      "search": 680,
+      "products": 178,
+      "comp": "아주좋음",
+      "comp_score": 0.26,
+      "score": 3.8
+    },
+    {
       "keyword": "탄지로귀걸이",
       "category": "패션잡화 > 주얼리 > 귀걸이 > 패션귀걸이",
       "period": "최근 30일",
@@ -4660,6 +7242,16 @@
       "products": 86,
       "comp": "아주좋음",
       "comp_score": null,
+      "score": 3.79
+    },
+    {
+      "keyword": "칼로쿡",
+      "category": "생활/건강 > 주방용품 > 냄비/솥 > 전자레인지/오븐 용기",
+      "period": "최근 30일",
+      "search": 750,
+      "products": 197,
+      "comp": "아주좋음",
+      "comp_score": 0.26,
       "score": 3.79
     },
     {
@@ -4703,6 +7295,26 @@
       "score": 3.76
     },
     {
+      "keyword": "오우그릴",
+      "category": "생활/건강 > 주방용품 > 프라이팬 > 구이팬",
+      "period": "최근 30일",
+      "search": 440,
+      "products": 116,
+      "comp": "아주좋음",
+      "comp_score": 0.26,
+      "score": 3.76
+    },
+    {
+      "keyword": "레토라쿠가위",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 주방가위",
+      "period": "최근 30일",
+      "search": 430,
+      "products": 114,
+      "comp": "아주좋음",
+      "comp_score": 0.27,
+      "score": 3.74
+    },
+    {
       "keyword": "벤볼릭",
       "category": "생활/건강 > 자동차용품 > 공기청정용품 > 차량용방향제",
       "period": "최근 30일",
@@ -4711,6 +7323,16 @@
       "comp": "",
       "comp_score": 0.27,
       "score": 3.71
+    },
+    {
+      "keyword": "살림의힘",
+      "category": "생활/건강 > 주방용품 > 보관/밀폐용기 > 물병",
+      "period": "최근 30일",
+      "search": 2590,
+      "products": 701,
+      "comp": "아주좋음",
+      "comp_score": 0.27,
+      "score": 3.69
     },
     {
       "keyword": "모서리십자가",
@@ -4763,6 +7385,16 @@
       "score": 3.63
     },
     {
+      "keyword": "착한비닐",
+      "category": "생활/건강 > 주방용품 > 일회용품 > 비닐봉투",
+      "period": "최근 30일",
+      "search": 930,
+      "products": 255,
+      "comp": "아주좋음",
+      "comp_score": 0.27,
+      "score": 3.63
+    },
+    {
       "keyword": "마그마휠",
       "category": "생활/건강 > 자동차용품 > 타이어/휠 > 휠",
       "period": "최근 30일",
@@ -4793,6 +7425,16 @@
       "score": 3.6
     },
     {
+      "keyword": "안소라컵",
+      "category": "생활/건강 > 주방용품 > 잔/컵 > 머그",
+      "period": "최근 30일",
+      "search": 320,
+      "products": 88,
+      "comp": "아주좋음",
+      "comp_score": 0.28,
+      "score": 3.6
+    },
+    {
       "keyword": "솔로몬사이살리스",
       "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
       "period": "최근 30일",
@@ -4813,6 +7455,16 @@
       "score": 3.58
     },
     {
+      "keyword": "otters도마",
+      "category": "생활/건강 > 주방용품 > 도마",
+      "period": "최근 30일",
+      "search": 380,
+      "products": 105,
+      "comp": "아주좋음",
+      "comp_score": 0.28,
+      "score": 3.58
+    },
+    {
       "keyword": "크레이지몬스터싼타페",
       "category": "생활/건강 > 자동차용품 > 인테리어용품 > 핸들커버",
       "period": "최근 30일",
@@ -4823,6 +7475,106 @@
       "score": 3.55
     },
     {
+      "keyword": "커클랜드니트릴장갑m",
+      "category": "생활/건강 > 주방용품 > 주방잡화 > 라텍스장갑/니트릴장갑",
+      "period": "최근 30일",
+      "search": 330,
+      "products": 92,
+      "comp": "아주좋음",
+      "comp_score": 0.28,
+      "score": 3.55
+    },
+    {
+      "keyword": "실리콘운동화세탁망",
+      "category": "생활/건강 > 세탁용품 > 세탁망",
+      "period": "최근 30일",
+      "search": 750,
+      "products": 210,
+      "comp": "아주좋음",
+      "comp_score": 0.28,
+      "score": 3.55
+    },
+    {
+      "keyword": "247팩",
+      "category": "생활/건강 > 주방용품 > 주방잡화 > 지퍼백",
+      "period": "최근 30일",
+      "search": 1160,
+      "products": 329,
+      "comp": "아주좋음",
+      "comp_score": 0.28,
+      "score": 3.52
+    },
+    {
+      "keyword": "롤링팟",
+      "category": "생활/건강 > 주방용품 > 냄비/솥 > 양수냄비",
+      "period": "최근 30일",
+      "search": 890,
+      "products": 252,
+      "comp": "아주좋음",
+      "comp_score": 0.28,
+      "score": 3.52
+    },
+    {
+      "keyword": "코스트코실리콘찜기",
+      "category": "생활/건강 > 주방용품 > 냄비/솥 > 찜기",
+      "period": "최근 30일",
+      "search": 570,
+      "products": 162,
+      "comp": "아주좋음",
+      "comp_score": 0.28,
+      "score": 3.5
+    },
+    {
+      "keyword": "집가락",
+      "category": "생활/건강 > 주방용품 > 조리기구 > 집게",
+      "period": "최근 30일",
+      "search": 420,
+      "products": 119,
+      "comp": "아주좋음",
+      "comp_score": 0.28,
+      "score": 3.5
+    },
+    {
+      "keyword": "미스티파이행주",
+      "category": "생활/건강 > 주방용품 > 주방잡화 > 행주",
+      "period": "최근 30일",
+      "search": 2810,
+      "products": 809,
+      "comp": "아주좋음",
+      "comp_score": 0.29,
+      "score": 3.47
+    },
+    {
+      "keyword": "쿡셀냄비",
+      "category": "생활/건강 > 주방용품 > 냄비/솥 > 뚝배기",
+      "period": "최근 30일",
+      "search": 1300,
+      "products": 374,
+      "comp": "아주좋음",
+      "comp_score": 0.29,
+      "score": 3.47
+    },
+    {
+      "keyword": "세라믹몽",
+      "category": "생활/건강 > 주방용품 > 식기 > 접시",
+      "period": "최근 30일",
+      "search": 1790,
+      "products": 518,
+      "comp": "아주좋음",
+      "comp_score": 0.29,
+      "score": 3.45
+    },
+    {
+      "keyword": "하이프온텀블러",
+      "category": "생활/건강 > 주방용품 > 잔/컵 > 텀블러",
+      "period": "최근 30일",
+      "search": 2590,
+      "products": 753,
+      "comp": "아주좋음",
+      "comp_score": 0.29,
+      "score": 3.44
+    },
+    {
       "keyword": "도둑게먹이",
       "category": "생활/건강 > 관상어용품 > 사료",
       "period": "최근 30일",
@@ -4831,6 +7583,36 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 3.43
+    },
+    {
+      "keyword": "쿠로사키칼",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 칼",
+      "period": "최근 30일",
+      "search": 870,
+      "products": 255,
+      "comp": "아주좋음",
+      "comp_score": 0.29,
+      "score": 3.4
+    },
+    {
+      "keyword": "스덴도마",
+      "category": "생활/건강 > 주방용품 > 도마",
+      "period": "최근 30일",
+      "search": 810,
+      "products": 237,
+      "comp": "아주좋음",
+      "comp_score": 0.29,
+      "score": 3.4
+    },
+    {
+      "keyword": "스튜디오키위",
+      "category": "생활/건강 > 주방용품 > 도마",
+      "period": "최근 30일",
+      "search": 2160,
+      "products": 636,
+      "comp": "아주좋음",
+      "comp_score": 0.29,
+      "score": 3.39
     },
     {
       "keyword": "전차종락카",
@@ -4853,6 +7635,56 @@
       "score": 3.34
     },
     {
+      "keyword": "차지텀블러",
+      "category": "생활/건강 > 주방용품 > 잔/컵 > 텀블러",
+      "period": "최근 30일",
+      "search": 1580,
+      "products": 473,
+      "comp": "아주좋음",
+      "comp_score": 0.3,
+      "score": 3.33
+    },
+    {
+      "keyword": "무인양품유리컵",
+      "category": "생활/건강 > 주방용품 > 잔/컵 > 유리컵",
+      "period": "최근 30일",
+      "search": 700,
+      "products": 209,
+      "comp": "아주좋음",
+      "comp_score": 0.3,
+      "score": 3.33
+    },
+    {
+      "keyword": "카쿠나이프",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 칼갈이",
+      "period": "최근 30일",
+      "search": 880,
+      "products": 264,
+      "comp": "아주좋음",
+      "comp_score": 0.3,
+      "score": 3.32
+    },
+    {
+      "keyword": "라툴뽀모도로",
+      "category": "생활/건강 > 주방용품 > 제과/제빵용품 > 쿠킹타이머",
+      "period": "최근 30일",
+      "search": 840,
+      "products": 252,
+      "comp": "아주좋음",
+      "comp_score": 0.3,
+      "score": 3.32
+    },
+    {
+      "keyword": "모스트픽고무장갑",
+      "category": "생활/건강 > 주방용품 > 주방잡화 > 라텍스장갑/니트릴장갑",
+      "period": "최근 30일",
+      "search": 1520,
+      "products": 458,
+      "comp": "아주좋음",
+      "comp_score": 0.3,
+      "score": 3.31
+    },
+    {
       "keyword": "스테인포스",
       "category": "생활/건강 > 자동차용품 > 편의용품 > 차량용청소기",
       "period": "최근 30일",
@@ -4861,6 +7693,26 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 3.28
+    },
+    {
+      "keyword": "타파쌀통",
+      "category": "생활/건강 > 주방용품 > 보관/밀폐용기 > 쌀통",
+      "period": "최근 30일",
+      "search": 1990,
+      "products": 608,
+      "comp": "아주좋음",
+      "comp_score": 0.31,
+      "score": 3.27
+    },
+    {
+      "keyword": "ldpe도마",
+      "category": "생활/건강 > 주방용품 > 도마",
+      "period": "최근 30일",
+      "search": 500,
+      "products": 152,
+      "comp": "아주좋음",
+      "comp_score": 0.3,
+      "score": 3.27
     },
     {
       "keyword": "장룡mgex",
@@ -4893,6 +7745,26 @@
       "score": 3.21
     },
     {
+      "keyword": "라라밤",
+      "category": "생활/건강 > 주방용품 > 주방수납용품 > 주방정리소품",
+      "period": "최근 30일",
+      "search": 1290,
+      "products": 401,
+      "comp": "아주좋음",
+      "comp_score": 0.31,
+      "score": 3.21
+    },
+    {
+      "keyword": "이가모노가마도상",
+      "category": "생활/건강 > 주방용품 > 냄비/솥 > 뚝배기",
+      "period": "최근 30일",
+      "search": 930,
+      "products": 289,
+      "comp": "아주좋음",
+      "comp_score": 0.31,
+      "score": 3.21
+    },
+    {
       "keyword": "바토카s4",
       "category": "생활/건강 > 자동차용품 > 세차용품 > 광택기",
       "period": "최근 30일",
@@ -4901,6 +7773,16 @@
       "comp": "",
       "comp_score": 0.31,
       "score": 3.18
+    },
+    {
+      "keyword": "105파이대",
+      "category": "생활/건강 > 주방용품 > 일회용품 > 일회용식기",
+      "period": "최근 30일",
+      "search": 480,
+      "products": 151,
+      "comp": "아주좋음",
+      "comp_score": 0.31,
+      "score": 3.16
     },
     {
       "keyword": "인터리더",
@@ -4943,6 +7825,16 @@
       "score": 3.11
     },
     {
+      "keyword": "이케아실리콘지퍼백",
+      "category": "생활/건강 > 주방용품 > 보관/밀폐용기 > 실리콘지퍼백",
+      "period": "최근 30일",
+      "search": 1010,
+      "products": 324,
+      "comp": "아주좋음",
+      "comp_score": 0.32,
+      "score": 3.11
+    },
+    {
       "keyword": "준보랜드",
       "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
       "period": "최근 30일",
@@ -4953,6 +7845,16 @@
       "score": 3.09
     },
     {
+      "keyword": "메리제인뜨개상점",
+      "category": "생활/건강 > 주방용품 > 주방잡화 > 수세미",
+      "period": "최근 30일",
+      "search": 680,
+      "products": 220,
+      "comp": "아주좋음",
+      "comp_score": 0.32,
+      "score": 3.08
+    },
+    {
       "keyword": "냐스퍼",
       "category": "패션잡화 > 패션소품 > 키링",
       "period": "최근 30일",
@@ -4961,6 +7863,56 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 3.07
+    },
+    {
+      "keyword": "옥소래피드브루어",
+      "category": "생활/건강 > 주방용품 > 커피용품 > 커피추출기",
+      "period": "최근 30일",
+      "search": 1110,
+      "products": 360,
+      "comp": "아주좋음",
+      "comp_score": 0.32,
+      "score": 3.07
+    },
+    {
+      "keyword": "미미달",
+      "category": "생활/건강 > 주방용품 > 와인용품 > 스토퍼/세이버",
+      "period": "최근 30일",
+      "search": 2070,
+      "products": 684,
+      "comp": "아주좋음",
+      "comp_score": 0.33,
+      "score": 3.02
+    },
+    {
+      "keyword": "codale",
+      "category": "생활/건강 > 주방용품 > 커피용품 > 여과지",
+      "period": "최근 30일",
+      "search": 480,
+      "products": 158,
+      "comp": "아주좋음",
+      "comp_score": 0.33,
+      "score": 3.02
+    },
+    {
+      "keyword": "스튜디오키위도마",
+      "category": "생활/건강 > 주방용품 > 도마",
+      "period": "최근 30일",
+      "search": 630,
+      "products": 209,
+      "comp": "아주좋음",
+      "comp_score": 0.33,
+      "score": 3.0
+    },
+    {
+      "keyword": "나리하지토",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 칼",
+      "period": "최근 30일",
+      "search": 390,
+      "products": 129,
+      "comp": "아주좋음",
+      "comp_score": 0.33,
+      "score": 3.0
     },
     {
       "keyword": "푸드트럭중고",
@@ -4983,6 +7935,16 @@
       "score": 2.98
     },
     {
+      "keyword": "판콘토마테접시",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 강판",
+      "period": "최근 30일",
+      "search": 1100,
+      "products": 370,
+      "comp": "아주좋음",
+      "comp_score": 0.34,
+      "score": 2.96
+    },
+    {
       "keyword": "csr브레이크",
       "category": "생활/건강 > 자동차용품 > 튜닝용품 > 브레이크",
       "period": "최근 30일",
@@ -5001,6 +7963,26 @@
       "comp": "아주좋음",
       "comp_score": 0.36,
       "score": 2.94
+    },
+    {
+      "keyword": "쉬젤텀블러",
+      "category": "생활/건강 > 주방용품 > 잔/컵 > 텀블러",
+      "period": "최근 30일",
+      "search": 2230,
+      "products": 763,
+      "comp": "아주좋음",
+      "comp_score": 0.34,
+      "score": 2.92
+    },
+    {
+      "keyword": "믹싱볼정리대",
+      "category": "생활/건강 > 주방용품 > 주방수납용품 > 주방정리소품",
+      "period": "최근 30일",
+      "search": 320,
+      "products": 110,
+      "comp": "아주좋음",
+      "comp_score": 0.34,
+      "score": 2.88
     },
     {
       "keyword": "트윈스타조명",
@@ -5023,6 +8005,16 @@
       "score": 2.85
     },
     {
+      "keyword": "천연크리스탈컵",
+      "category": "생활/건강 > 주방용품 > 잔/컵 > 유리컵",
+      "period": "최근 30일",
+      "search": 1400,
+      "products": 490,
+      "comp": "아주좋음",
+      "comp_score": 0.35,
+      "score": 2.85
+    },
+    {
       "keyword": "미크로소리움",
       "category": "생활/건강 > 관상어용품 > 수초",
       "period": "최근 30일",
@@ -5031,6 +8023,26 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 2.84
+    },
+    {
+      "keyword": "찹플레이트",
+      "category": "생활/건강 > 주방용품 > 식기 > 접시",
+      "period": "최근 30일",
+      "search": 760,
+      "products": 267,
+      "comp": "아주좋음",
+      "comp_score": 0.35,
+      "score": 2.84
+    },
+    {
+      "keyword": "하이소프트도마",
+      "category": "생활/건강 > 주방용품 > 도마",
+      "period": "최근 30일",
+      "search": 1550,
+      "products": 546,
+      "comp": "아주좋음",
+      "comp_score": 0.35,
+      "score": 2.83
     },
     {
       "keyword": "노꼼수",
@@ -5051,6 +8063,26 @@
       "comp": "",
       "comp_score": 0.36,
       "score": 2.8
+    },
+    {
+      "keyword": "키티컵",
+      "category": "생활/건강 > 주방용품 > 잔/컵 > 유리컵",
+      "period": "최근 30일",
+      "search": 1290,
+      "products": 460,
+      "comp": "아주좋음",
+      "comp_score": 0.36,
+      "score": 2.8
+    },
+    {
+      "keyword": "덕현요",
+      "category": "생활/건강 > 주방용품 > 식기 > 접시",
+      "period": "최근 30일",
+      "search": 480,
+      "products": 171,
+      "comp": "아주좋음",
+      "comp_score": 0.36,
+      "score": 2.79
     },
     {
       "keyword": "크샤트리아",
@@ -5103,12 +8135,32 @@
       "score": 2.72
     },
     {
+      "keyword": "일본하나코도마",
+      "category": "생활/건강 > 주방용품 > 도마",
+      "period": "최근 30일",
+      "search": 790,
+      "products": 289,
+      "comp": "아주좋음",
+      "comp_score": 0.37,
+      "score": 2.72
+    },
+    {
       "keyword": "테슬라키팝",
       "category": "생활/건강 > 자동차용품 > 키용품 > 키케이스",
       "period": "최근 30일",
       "search": 1370,
       "products": 504,
       "comp": "",
+      "comp_score": 0.37,
+      "score": 2.71
+    },
+    {
+      "keyword": "페사도",
+      "category": "생활/건강 > 주방용품 > 커피용품 > 템퍼",
+      "period": "최근 30일",
+      "search": 1220,
+      "products": 449,
+      "comp": "아주좋음",
       "comp_score": 0.37,
       "score": 2.71
     },
@@ -5131,6 +8183,26 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 2.69
+    },
+    {
+      "keyword": "강레오칼",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 칼갈이",
+      "period": "최근 30일",
+      "search": 900,
+      "products": 335,
+      "comp": "아주좋음",
+      "comp_score": 0.37,
+      "score": 2.68
+    },
+    {
+      "keyword": "바케인계란보관함",
+      "category": "생활/건강 > 주방용품 > 보관/밀폐용기 > 플라스틱용기단품",
+      "period": "최근 30일",
+      "search": 440,
+      "products": 163,
+      "comp": "아주좋음",
+      "comp_score": 0.37,
+      "score": 2.68
     },
     {
       "keyword": "다그3+",
@@ -5223,6 +8295,26 @@
       "score": 2.61
     },
     {
+      "keyword": "스밋도마",
+      "category": "생활/건강 > 주방용품 > 도마",
+      "period": "최근 30일",
+      "search": 420,
+      "products": 161,
+      "comp": "아주좋음",
+      "comp_score": 0.38,
+      "score": 2.59
+    },
+    {
+      "keyword": "미라네밀폐용기",
+      "category": "생활/건강 > 주방용품 > 보관/밀폐용기 > 플라스틱용기단품",
+      "period": "최근 30일",
+      "search": 1740,
+      "products": 674,
+      "comp": "아주좋음",
+      "comp_score": 0.39,
+      "score": 2.58
+    },
+    {
       "keyword": "92125h8350",
       "category": "생활/건강 > 자동차용품 > 램프 > 기타램프용품",
       "period": "최근 30일",
@@ -5240,6 +8332,16 @@
       "products": 551,
       "comp": "아주좋음",
       "comp_score": null,
+      "score": 2.55
+    },
+    {
+      "keyword": "키와메웍",
+      "category": "생활/건강 > 주방용품 > 프라이팬 > 궁중팬/튀김팬",
+      "period": "최근 30일",
+      "search": 1900,
+      "products": 743,
+      "comp": "아주좋음",
+      "comp_score": 0.39,
       "score": 2.55
     },
     {
@@ -5263,6 +8365,16 @@
       "score": 2.54
     },
     {
+      "keyword": "김신영도마",
+      "category": "생활/건강 > 주방용품 > 도마",
+      "period": "최근 30일",
+      "search": 1280,
+      "products": 503,
+      "comp": "아주좋음",
+      "comp_score": 0.39,
+      "score": 2.54
+    },
+    {
       "keyword": "비엠타는공돌이",
       "category": "생활/건강 > 자동차용품 > 램프 > 전조등",
       "period": "최근 30일",
@@ -5271,6 +8383,46 @@
       "comp": "",
       "comp_score": 0.39,
       "score": 2.53
+    },
+    {
+      "keyword": "몽슈잡화점",
+      "category": "생활/건강 > 주방용품 > 제과/제빵용품 > 쿠키커터/모양틀",
+      "period": "최근 30일",
+      "search": 870,
+      "products": 343,
+      "comp": "아주좋음",
+      "comp_score": 0.39,
+      "score": 2.53
+    },
+    {
+      "keyword": "히로타글라스",
+      "category": "생활/건강 > 주방용품 > 잔/컵 > 유리컵",
+      "period": "최근 30일",
+      "search": 750,
+      "products": 295,
+      "comp": "아주좋음",
+      "comp_score": 0.39,
+      "score": 2.53
+    },
+    {
+      "keyword": "예하담",
+      "category": "생활/건강 > 주방용품 > 식기 > 접시",
+      "period": "최근 30일",
+      "search": 470,
+      "products": 185,
+      "comp": "아주좋음",
+      "comp_score": 0.39,
+      "score": 2.53
+    },
+    {
+      "keyword": "켈리맥주잔",
+      "category": "생활/건강 > 주방용품 > 잔/컵 > 유리컵",
+      "period": "최근 30일",
+      "search": 370,
+      "products": 146,
+      "comp": "아주좋음",
+      "comp_score": 0.39,
+      "score": 2.52
     },
     {
       "keyword": "카구라바치피규어",
@@ -5283,6 +8435,36 @@
       "score": 2.49
     },
     {
+      "keyword": "프레데릭스도마",
+      "category": "생활/건강 > 주방용품 > 도마",
+      "period": "최근 30일",
+      "search": 1540,
+      "products": 623,
+      "comp": "아주좋음",
+      "comp_score": 0.4,
+      "score": 2.47
+    },
+    {
+      "keyword": "턴블러",
+      "category": "생활/건강 > 주방용품 > 잔/컵 > 텀블러",
+      "period": "최근 30일",
+      "search": 600,
+      "products": 242,
+      "comp": "아주좋음",
+      "comp_score": 0.4,
+      "score": 2.47
+    },
+    {
+      "keyword": "가보칼",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 칼",
+      "period": "최근 30일",
+      "search": 410,
+      "products": 165,
+      "comp": "아주좋음",
+      "comp_score": 0.4,
+      "score": 2.47
+    },
+    {
       "keyword": "v2l커넥터",
       "category": "생활/건강 > 자동차용품 > 배터리용품 > 배터리충전기/점프스타터",
       "period": "최근 30일",
@@ -5291,6 +8473,26 @@
       "comp": "아주좋음",
       "comp_score": 0.42,
       "score": 2.46
+    },
+    {
+      "keyword": "미피믹싱볼세트",
+      "category": "생활/건강 > 주방용품 > 조리기구 > 믹싱볼",
+      "period": "최근 30일",
+      "search": 300,
+      "products": 121,
+      "comp": "아주좋음",
+      "comp_score": 0.4,
+      "score": 2.46
+    },
+    {
+      "keyword": "생활공식프리미엄클리너",
+      "category": "생활/건강 > 주방용품 > 주방잡화 > 행주",
+      "period": "최근 30일",
+      "search": 370,
+      "products": 150,
+      "comp": "아주좋음",
+      "comp_score": 0.41,
+      "score": 2.45
     },
     {
       "keyword": "유록스10리터",
@@ -5323,6 +8525,36 @@
       "score": 2.42
     },
     {
+      "keyword": "그릭케이크유청분리기",
+      "category": "생활/건강 > 주방용품 > 조리기구 > 기타조리기구",
+      "period": "최근 30일",
+      "search": 1470,
+      "products": 607,
+      "comp": "아주좋음",
+      "comp_score": 0.41,
+      "score": 2.42
+    },
+    {
+      "keyword": "자주빨래바구니",
+      "category": "생활/건강 > 세탁용품 > 빨래바구니",
+      "period": "최근 30일",
+      "search": 470,
+      "products": 194,
+      "comp": "아주좋음",
+      "comp_score": 0.41,
+      "score": 2.41
+    },
+    {
+      "keyword": "다이소설거지건조대",
+      "category": "생활/건강 > 주방용품 > 주방수납용품 > 식기건조대",
+      "period": "최근 30일",
+      "search": 690,
+      "products": 287,
+      "comp": "아주좋음",
+      "comp_score": 0.42,
+      "score": 2.4
+    },
+    {
       "keyword": "스도쿠책",
       "category": "생활/건강 > 화방용품 > 보드게임",
       "period": "최근 30일",
@@ -5343,6 +8575,26 @@
       "score": 2.38
     },
     {
+      "keyword": "풍천도칼",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 칼",
+      "period": "최근 30일",
+      "search": 650,
+      "products": 272,
+      "comp": "아주좋음",
+      "comp_score": 0.42,
+      "score": 2.38
+    },
+    {
+      "keyword": "미니국자국내생산",
+      "category": "생활/건강 > 주방용품 > 조리기구 > 국자",
+      "period": "최근 30일",
+      "search": 520,
+      "products": 218,
+      "comp": "아주좋음",
+      "comp_score": 0.42,
+      "score": 2.37
+    },
+    {
       "keyword": "강동규타월",
       "category": "생활/건강 > 자동차용품 > 세차용품 > 세차타월",
       "period": "최근 30일",
@@ -5350,6 +8602,16 @@
       "products": 236,
       "comp": "아주좋음",
       "comp_score": null,
+      "score": 2.36
+    },
+    {
+      "keyword": "반찬뚜껑정리대",
+      "category": "생활/건강 > 주방용품 > 주방수납용품 > 주방정리소품",
+      "period": "최근 30일",
+      "search": 830,
+      "products": 351,
+      "comp": "아주좋음",
+      "comp_score": 0.42,
       "score": 2.36
     },
     {
@@ -5363,6 +8625,86 @@
       "score": 2.35
     },
     {
+      "keyword": "쿠커블웨어",
+      "category": "생활/건강 > 주방용품 > 프라이팬 > 일반프라이팬",
+      "period": "최근 30일",
+      "search": 1700,
+      "products": 721,
+      "comp": "아주좋음",
+      "comp_score": 0.42,
+      "score": 2.35
+    },
+    {
+      "keyword": "인의흑막1000",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 칼갈이",
+      "period": "최근 30일",
+      "search": 1040,
+      "products": 445,
+      "comp": "아주좋음",
+      "comp_score": 0.43,
+      "score": 2.33
+    },
+    {
+      "keyword": "행켈",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 칼세트",
+      "period": "최근 30일",
+      "search": 700,
+      "products": 299,
+      "comp": "아주좋음",
+      "comp_score": 0.43,
+      "score": 2.33
+    },
+    {
+      "keyword": "시라유키행주",
+      "category": "생활/건강 > 주방용품 > 주방잡화 > 행주",
+      "period": "최근 30일",
+      "search": 520,
+      "products": 225,
+      "comp": "아주좋음",
+      "comp_score": 0.43,
+      "score": 2.3
+    },
+    {
+      "keyword": "거북가위",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 주방가위",
+      "period": "최근 30일",
+      "search": 710,
+      "products": 309,
+      "comp": "아주좋음",
+      "comp_score": 0.44,
+      "score": 2.29
+    },
+    {
+      "keyword": "아이바큠",
+      "category": "생활/건강 > 주방용품 > 보관/밀폐용기 > 플라스틱용기세트",
+      "period": "최근 30일",
+      "search": 700,
+      "products": 305,
+      "comp": "아주좋음",
+      "comp_score": 0.44,
+      "score": 2.29
+    },
+    {
+      "keyword": "마크토마스와인잔",
+      "category": "생활/건강 > 주방용품 > 잔/컵 > 와인잔",
+      "period": "최근 30일",
+      "search": 420,
+      "products": 184,
+      "comp": "아주좋음",
+      "comp_score": 0.44,
+      "score": 2.27
+    },
+    {
+      "keyword": "라치우드도마",
+      "category": "생활/건강 > 주방용품 > 도마",
+      "period": "최근 30일",
+      "search": 1860,
+      "products": 824,
+      "comp": "아주좋음",
+      "comp_score": 0.44,
+      "score": 2.25
+    },
+    {
       "keyword": "돌팔이약장수",
       "category": "생활/건강 > 수집품 > 게임 > 보드게임",
       "period": "최근 30일",
@@ -5371,6 +8713,26 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 2.24
+    },
+    {
+      "keyword": "오나오용기",
+      "category": "생활/건강 > 주방용품 > 보관/밀폐용기 > 도자기/유리용기단품",
+      "period": "최근 30일",
+      "search": 1470,
+      "products": 662,
+      "comp": "아주좋음",
+      "comp_score": 0.45,
+      "score": 2.22
+    },
+    {
+      "keyword": "이오테",
+      "category": "생활/건강 > 주방용품 > 주방잡화 > 컵받침/홀더",
+      "period": "최근 30일",
+      "search": 700,
+      "products": 315,
+      "comp": "아주좋음",
+      "comp_score": 0.45,
+      "score": 2.22
     },
     {
       "keyword": "다이소차량용충전기",
@@ -5389,6 +8751,36 @@
       "search": 680,
       "products": 306,
       "comp": "",
+      "comp_score": 0.45,
+      "score": 2.21
+    },
+    {
+      "keyword": "항균신선보관커버",
+      "category": "생활/건강 > 주방용품 > 주방잡화 > 롤백",
+      "period": "최근 30일",
+      "search": 1030,
+      "products": 465,
+      "comp": "아주좋음",
+      "comp_score": 0.45,
+      "score": 2.21
+    },
+    {
+      "keyword": "모벨제이",
+      "category": "생활/건강 > 주방용품 > 도마",
+      "period": "최근 30일",
+      "search": 320,
+      "products": 144,
+      "comp": "아주좋음",
+      "comp_score": 0.45,
+      "score": 2.21
+    },
+    {
+      "keyword": "1zpressok-ultra",
+      "category": "생활/건강 > 주방용품 > 커피용품 > 커피분쇄기",
+      "period": "최근 30일",
+      "search": 300,
+      "products": 135,
+      "comp": "아주좋음",
       "comp_score": 0.45,
       "score": 2.21
     },
@@ -5413,6 +8805,16 @@
       "score": 2.19
     },
     {
+      "keyword": "강레오칼갈이",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 칼갈이",
+      "period": "최근 30일",
+      "search": 640,
+      "products": 291,
+      "comp": "아주좋음",
+      "comp_score": 0.45,
+      "score": 2.19
+    },
+    {
       "keyword": "5톤집게차",
       "category": "생활/건강 > 자동차용품 > 튜닝용품 > 계기판",
       "period": "최근 30일",
@@ -5421,6 +8823,26 @@
       "comp": "",
       "comp_score": 0.46,
       "score": 2.16
+    },
+    {
+      "keyword": "공중부양설거지통",
+      "category": "생활/건강 > 주방용품 > 주방수납용품 > 주방정리소품",
+      "period": "최근 30일",
+      "search": 400,
+      "products": 184,
+      "comp": "아주좋음",
+      "comp_score": 0.46,
+      "score": 2.16
+    },
+    {
+      "keyword": "하코야도마",
+      "category": "생활/건강 > 주방용품 > 도마",
+      "period": "최근 30일",
+      "search": 440,
+      "products": 204,
+      "comp": "아주좋음",
+      "comp_score": 0.46,
+      "score": 2.15
     },
     {
       "keyword": "차량석회물제거",
@@ -5463,6 +8885,16 @@
       "score": 2.12
     },
     {
+      "keyword": "인덕션밴드",
+      "category": "생활/건강 > 주방용품 > 주방잡화 > 기타주방잡화",
+      "period": "최근 30일",
+      "search": 770,
+      "products": 363,
+      "comp": "아주좋음",
+      "comp_score": 0.47,
+      "score": 2.12
+    },
+    {
       "keyword": "더스티랩",
       "category": "생활/건강 > 자동차용품 > 세차용품 > 유리코팅제",
       "period": "최근 30일",
@@ -5493,6 +8925,16 @@
       "score": 2.09
     },
     {
+      "keyword": "카펙th3",
+      "category": "생활/건강 > 주방용품 > 커피용품 > 여과지",
+      "period": "최근 30일",
+      "search": 400,
+      "products": 190,
+      "comp": "아주좋음",
+      "comp_score": 0.47,
+      "score": 2.09
+    },
+    {
       "keyword": "반야용선",
       "category": "생활/건강 > 종교 > 불교용품",
       "period": "최근 30일",
@@ -5501,6 +8943,46 @@
       "comp": "아주좋음",
       "comp_score": 0.48,
       "score": 2.08
+    },
+    {
+      "keyword": "아토마멘나오시",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 칼갈이",
+      "period": "최근 30일",
+      "search": 400,
+      "products": 191,
+      "comp": "아주좋음",
+      "comp_score": 0.48,
+      "score": 2.08
+    },
+    {
+      "keyword": "티타늄향균도마",
+      "category": "생활/건강 > 주방용품 > 도마",
+      "period": "최근 30일",
+      "search": 330,
+      "products": 158,
+      "comp": "아주좋음",
+      "comp_score": 0.48,
+      "score": 2.08
+    },
+    {
+      "keyword": "배치브루",
+      "category": "생활/건강 > 주방용품 > 커피용품 > 커피추출기",
+      "period": "최근 30일",
+      "search": 1000,
+      "products": 481,
+      "comp": "아주좋음",
+      "comp_score": 0.48,
+      "score": 2.07
+    },
+    {
+      "keyword": "코스트코찜기",
+      "category": "생활/건강 > 주방용품 > 냄비/솥 > 찜기",
+      "period": "최근 30일",
+      "search": 1640,
+      "products": 794,
+      "comp": "아주좋음",
+      "comp_score": 0.48,
+      "score": 2.06
     },
     {
       "keyword": "수자기",
@@ -5553,6 +9035,16 @@
       "score": 2.01
     },
     {
+      "keyword": "김접시",
+      "category": "생활/건강 > 주방용품 > 식기 > 접시",
+      "period": "최근 30일",
+      "search": 840,
+      "products": 417,
+      "comp": "아주좋음",
+      "comp_score": 0.5,
+      "score": 2.01
+    },
+    {
       "keyword": "카멜레온360",
       "category": "생활/건강 > 자동차용품 > 휴대폰용품 > 차량용휴대폰거치대",
       "period": "최근 30일",
@@ -5571,6 +9063,26 @@
       "comp": "",
       "comp_score": 0.5,
       "score": 1.98
+    },
+    {
+      "keyword": "오로드",
+      "category": "생활/건강 > 주방용품 > 잔/컵 > 유리컵",
+      "period": "최근 30일",
+      "search": 900,
+      "products": 453,
+      "comp": "아주좋음",
+      "comp_score": 0.5,
+      "score": 1.98
+    },
+    {
+      "keyword": "일본무적가위",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 주방가위",
+      "period": "최근 30일",
+      "search": 550,
+      "products": 280,
+      "comp": "아주좋음",
+      "comp_score": 0.51,
+      "score": 1.96
     },
     {
       "keyword": "테슬라오토도어",
@@ -5599,6 +9111,16 @@
       "search": 1060,
       "products": 542,
       "comp": "",
+      "comp_score": 0.51,
+      "score": 1.95
+    },
+    {
+      "keyword": "3초전동칼갈이",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 칼갈이",
+      "period": "최근 30일",
+      "search": 470,
+      "products": 240,
+      "comp": "아주좋음",
       "comp_score": 0.51,
       "score": 1.95
     },
@@ -5633,6 +9155,16 @@
       "score": 1.94
     },
     {
+      "keyword": "프레데릭스앤메이",
+      "category": "생활/건강 > 주방용품 > 도마",
+      "period": "최근 30일",
+      "search": 1040,
+      "products": 537,
+      "comp": "아주좋음",
+      "comp_score": 0.52,
+      "score": 1.93
+    },
+    {
       "keyword": "화장실청소폼건",
       "category": "생활/건강 > 자동차용품 > 세차용품 > 호스",
       "period": "최근 30일",
@@ -5640,6 +9172,36 @@
       "products": 524,
       "comp": "아주좋음",
       "comp_score": null,
+      "score": 1.9
+    },
+    {
+      "keyword": "돌돌이팬",
+      "category": "생활/건강 > 주방용품 > 조리기구 > 기타조리기구",
+      "period": "최근 30일",
+      "search": 800,
+      "products": 419,
+      "comp": "아주좋음",
+      "comp_score": 0.52,
+      "score": 1.9
+    },
+    {
+      "keyword": "엠지엠씨",
+      "category": "생활/건강 > 주방용품 > 조리기구 > 야채탈수기",
+      "period": "최근 30일",
+      "search": 560,
+      "products": 293,
+      "comp": "아주좋음",
+      "comp_score": 0.52,
+      "score": 1.9
+    },
+    {
+      "keyword": "실리콘신발세탁망",
+      "category": "생활/건강 > 세탁용품 > 세탁망",
+      "period": "최근 30일",
+      "search": 720,
+      "products": 378,
+      "comp": "아주좋음",
+      "comp_score": 0.53,
       "score": 1.9
     },
     {
@@ -5653,12 +9215,32 @@
       "score": 1.89
     },
     {
+      "keyword": "marna도마",
+      "category": "생활/건강 > 주방용품 > 도마",
+      "period": "최근 30일",
+      "search": 610,
+      "products": 323,
+      "comp": "아주좋음",
+      "comp_score": 0.53,
+      "score": 1.88
+    },
+    {
       "keyword": "25톤윙바디",
       "category": "생활/건강 > 자동차용품 > 튜닝용품 > 계기판",
       "period": "최근 30일",
       "search": 1180,
       "products": 630,
       "comp": "",
+      "comp_score": 0.53,
+      "score": 1.87
+    },
+    {
+      "keyword": "아르다캠",
+      "category": "생활/건강 > 주방용품 > 식기 > 접시",
+      "period": "최근 30일",
+      "search": 540,
+      "products": 288,
+      "comp": "아주좋음",
       "comp_score": 0.53,
       "score": 1.87
     },
@@ -5703,12 +9285,32 @@
       "score": 1.85
     },
     {
+      "keyword": "히트락",
+      "category": "생활/건강 > 주방용품 > 보관/밀폐용기 > 플라스틱용기세트",
+      "period": "최근 30일",
+      "search": 1420,
+      "products": 767,
+      "comp": "아주좋음",
+      "comp_score": 0.54,
+      "score": 1.85
+    },
+    {
       "keyword": "레이기어봉",
       "category": "생활/건강 > 자동차용품 > 인테리어용품 > 기어용품",
       "period": "최근 30일",
       "search": 1160,
       "products": 628,
       "comp": "",
+      "comp_score": 0.54,
+      "score": 1.84
+    },
+    {
+      "keyword": "코스트코도마",
+      "category": "생활/건강 > 주방용품 > 도마",
+      "period": "최근 30일",
+      "search": 1080,
+      "products": 585,
+      "comp": "아주좋음",
       "comp_score": 0.54,
       "score": 1.84
     },
@@ -5733,6 +9335,26 @@
       "score": 1.83
     },
     {
+      "keyword": "마리메꼬그릇",
+      "category": "생활/건강 > 주방용품 > 식기 > 접시",
+      "period": "최근 30일",
+      "search": 1050,
+      "products": 582,
+      "comp": "아주좋음",
+      "comp_score": 0.55,
+      "score": 1.8
+    },
+    {
+      "keyword": "나무목도마",
+      "category": "생활/건강 > 주방용품 > 도마",
+      "period": "최근 30일",
+      "search": 950,
+      "products": 526,
+      "comp": "아주좋음",
+      "comp_score": 0.55,
+      "score": 1.8
+    },
+    {
       "keyword": "불스원밸런스온",
       "category": "생활/건강 > 자동차용품 > 인테리어용품 > 차량용방석",
       "period": "최근 30일",
@@ -5743,12 +9365,52 @@
       "score": 1.79
     },
     {
+      "keyword": "믹싱볼거치대",
+      "category": "생활/건강 > 주방용품 > 주방수납용품 > 주방정리소품",
+      "period": "최근 30일",
+      "search": 1520,
+      "products": 854,
+      "comp": "아주좋음",
+      "comp_score": 0.56,
+      "score": 1.78
+    },
+    {
+      "keyword": "pl8만도린채칼",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 채칼/필러",
+      "period": "최근 30일",
+      "search": 550,
+      "products": 312,
+      "comp": "아주좋음",
+      "comp_score": 0.57,
+      "score": 1.76
+    },
+    {
+      "keyword": "페어홈",
+      "category": "생활/건강 > 세탁용품 > 빨래바구니",
+      "period": "최근 30일",
+      "search": 790,
+      "products": 449,
+      "comp": "아주좋음",
+      "comp_score": 0.57,
+      "score": 1.76
+    },
+    {
       "keyword": "아쿠아디파르마카디퓨저",
       "category": "생활/건강 > 자동차용품 > 공기청정용품 > 차량용방향제",
       "period": "최근 30일",
       "search": 860,
       "products": 491,
       "comp": "",
+      "comp_score": 0.57,
+      "score": 1.75
+    },
+    {
+      "keyword": "남원부흥식도",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 칼",
+      "period": "최근 30일",
+      "search": 420,
+      "products": 239,
+      "comp": "아주좋음",
       "comp_score": 0.57,
       "score": 1.75
     },
@@ -5813,6 +9475,16 @@
       "score": 1.71
     },
     {
+      "keyword": "코메다커피컵",
+      "category": "생활/건강 > 주방용품 > 잔/컵 > 머그",
+      "period": "최근 30일",
+      "search": 790,
+      "products": 461,
+      "comp": "아주좋음",
+      "comp_score": 0.58,
+      "score": 1.71
+    },
+    {
       "keyword": "커레이져스",
       "category": "생활/건강 > 자동차용품 > 튜닝용품 > 기타튜닝용품",
       "period": "최근 30일",
@@ -5873,12 +9545,42 @@
       "score": 1.69
     },
     {
+      "keyword": "봉보니에르",
+      "category": "생활/건강 > 주방용품 > 커피용품 > 스팀피쳐/밀크저그",
+      "period": "최근 30일",
+      "search": 830,
+      "products": 491,
+      "comp": "아주좋음",
+      "comp_score": 0.59,
+      "score": 1.69
+    },
+    {
+      "keyword": "푸쉬앤슬라이드",
+      "category": "생활/건강 > 주방용품 > 주방수납용품 > 주방정리소품",
+      "period": "최근 30일",
+      "search": 600,
+      "products": 354,
+      "comp": "아주좋음",
+      "comp_score": 0.59,
+      "score": 1.69
+    },
+    {
       "keyword": "dc콤보케이스",
       "category": "생활/건강 > 자동차용품 > 튜닝용품 > 기타튜닝용품",
       "period": "최근 30일",
       "search": 480,
       "products": 284,
       "comp": "",
+      "comp_score": 0.59,
+      "score": 1.68
+    },
+    {
+      "keyword": "샤토에르",
+      "category": "생활/건강 > 주방용품 > 주방수납용품 > 주방정리소품",
+      "period": "최근 30일",
+      "search": 720,
+      "products": 427,
+      "comp": "아주좋음",
       "comp_score": 0.59,
       "score": 1.68
     },
@@ -5893,6 +9595,36 @@
       "score": 1.67
     },
     {
+      "keyword": "클레버리",
+      "category": "생활/건강 > 주방용품 > 냄비/솥 > 전자레인지/오븐 용기",
+      "period": "최근 30일",
+      "search": 730,
+      "products": 437,
+      "comp": "아주좋음",
+      "comp_score": 0.6,
+      "score": 1.67
+    },
+    {
+      "keyword": "허니랩",
+      "category": "생활/건강 > 주방용품 > 일회용품 > 랩",
+      "period": "최근 30일",
+      "search": 330,
+      "products": 197,
+      "comp": "아주좋음",
+      "comp_score": 0.6,
+      "score": 1.67
+    },
+    {
+      "keyword": "루치슬라이서",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 채칼/필러",
+      "period": "최근 30일",
+      "search": 370,
+      "products": 222,
+      "comp": "아주좋음",
+      "comp_score": 0.6,
+      "score": 1.66
+    },
+    {
       "keyword": "아이브인형",
       "category": "생활/건강 > 음반 > 국내앨범",
       "period": "최근 30일",
@@ -5900,6 +9632,26 @@
       "products": 620,
       "comp": "아주좋음",
       "comp_score": null,
+      "score": 1.64
+    },
+    {
+      "keyword": "육개장사발면도자기",
+      "category": "생활/건강 > 주방용품 > 식기 > 면기",
+      "period": "최근 30일",
+      "search": 1090,
+      "products": 663,
+      "comp": "아주좋음",
+      "comp_score": 0.61,
+      "score": 1.64
+    },
+    {
+      "keyword": "카펙아바카필터",
+      "category": "생활/건강 > 주방용품 > 커피용품 > 여과지",
+      "period": "최근 30일",
+      "search": 360,
+      "products": 218,
+      "comp": "아주좋음",
+      "comp_score": 0.61,
       "score": 1.64
     },
     {
@@ -5943,6 +9695,26 @@
       "score": 1.59
     },
     {
+      "keyword": "리락쿠마그릇",
+      "category": "생활/건강 > 주방용품 > 식기 > 접시",
+      "period": "최근 30일",
+      "search": 940,
+      "products": 590,
+      "comp": "아주좋음",
+      "comp_score": 0.63,
+      "score": 1.59
+    },
+    {
+      "keyword": "brk뒤집개",
+      "category": "생활/건강 > 주방용품 > 조리기구 > 뒤집개",
+      "period": "최근 30일",
+      "search": 340,
+      "products": 213,
+      "comp": "아주좋음",
+      "comp_score": 0.63,
+      "score": 1.59
+    },
+    {
       "keyword": "에이메스피규어",
       "category": "생활/건강 > 화방용품 > 피규어",
       "period": "최근 30일",
@@ -5950,6 +9722,16 @@
       "products": 189,
       "comp": "아주좋음",
       "comp_score": null,
+      "score": 1.58
+    },
+    {
+      "keyword": "짐샌더슨컬러도마",
+      "category": "생활/건강 > 주방용품 > 도마",
+      "period": "최근 30일",
+      "search": 330,
+      "products": 208,
+      "comp": "아주좋음",
+      "comp_score": 0.63,
       "score": 1.58
     },
     {
@@ -5963,6 +9745,26 @@
       "score": 1.57
     },
     {
+      "keyword": "메팔후르츠팟",
+      "category": "생활/건강 > 주방용품 > 보관/밀폐용기 > 도시락통/찬합",
+      "period": "최근 30일",
+      "search": 1260,
+      "products": 799,
+      "comp": "아주좋음",
+      "comp_score": 0.63,
+      "score": 1.57
+    },
+    {
+      "keyword": "얀뮬러",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 칼",
+      "period": "최근 30일",
+      "search": 620,
+      "products": 394,
+      "comp": "아주좋음",
+      "comp_score": 0.64,
+      "score": 1.57
+    },
+    {
       "keyword": "모닝빵말랑이",
       "category": "생활/건강 > 화방용품 > 기타문구용품",
       "period": "최근 30일",
@@ -5973,6 +9775,16 @@
       "score": 1.55
     },
     {
+      "keyword": "모노테일",
+      "category": "생활/건강 > 주방용품 > 보관/밀폐용기 > 스텐용기단품",
+      "period": "최근 30일",
+      "search": 500,
+      "products": 325,
+      "comp": "아주좋음",
+      "comp_score": 0.65,
+      "score": 1.53
+    },
+    {
       "keyword": "mg비다르",
       "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
       "period": "최근 30일",
@@ -5980,6 +9792,16 @@
       "products": 406,
       "comp": "아주좋음",
       "comp_score": null,
+      "score": 1.52
+    },
+    {
+      "keyword": "국내생산스텐국자",
+      "category": "생활/건강 > 주방용품 > 조리기구 > 국자",
+      "period": "최근 30일",
+      "search": 580,
+      "products": 380,
+      "comp": "아주좋음",
+      "comp_score": 0.66,
       "score": 1.52
     },
     {
@@ -6001,6 +9823,46 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 1.5
+    },
+    {
+      "keyword": "호랑소랑",
+      "category": "생활/건강 > 주방용품 > 주방수납용품 > 싱크/슬라이딩선반",
+      "period": "최근 30일",
+      "search": 1030,
+      "products": 689,
+      "comp": "아주좋음",
+      "comp_score": 0.67,
+      "score": 1.49
+    },
+    {
+      "keyword": "한뼘식기건조대",
+      "category": "생활/건강 > 주방용품 > 주방수납용품 > 식기건조대",
+      "period": "최근 30일",
+      "search": 760,
+      "products": 512,
+      "comp": "아주좋음",
+      "comp_score": 0.67,
+      "score": 1.48
+    },
+    {
+      "keyword": "은곡도마",
+      "category": "생활/건강 > 주방용품 > 도마",
+      "period": "최근 30일",
+      "search": 670,
+      "products": 452,
+      "comp": "아주좋음",
+      "comp_score": 0.67,
+      "score": 1.48
+    },
+    {
+      "keyword": "국산티타늄도마",
+      "category": "생활/건강 > 주방용품 > 도마",
+      "period": "최근 30일",
+      "search": 460,
+      "products": 310,
+      "comp": "아주좋음",
+      "comp_score": 0.67,
+      "score": 1.48
     },
     {
       "keyword": "왁뿌볼재료",
@@ -6083,12 +9945,62 @@
       "score": 1.36
     },
     {
+      "keyword": "락스타숫돌",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 칼갈이",
+      "period": "최근 30일",
+      "search": 740,
+      "products": 545,
+      "comp": "아주좋음",
+      "comp_score": 0.74,
+      "score": 1.36
+    },
+    {
+      "keyword": "문화통상",
+      "category": "생활/건강 > 주방용품 > 냄비/솥 > 양수냄비",
+      "period": "최근 30일",
+      "search": 530,
+      "products": 390,
+      "comp": "아주좋음",
+      "comp_score": 0.74,
+      "score": 1.36
+    },
+    {
+      "keyword": "대흥점보양배추채칼",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 채칼/필러",
+      "period": "최근 30일",
+      "search": 390,
+      "products": 286,
+      "comp": "아주좋음",
+      "comp_score": 0.73,
+      "score": 1.36
+    },
+    {
       "keyword": "pv5핸드폰거치대",
       "category": "생활/건강 > 자동차용품 > 휴대폰용품 > 차량용휴대폰거치대",
       "period": "최근 30일",
       "search": 390,
       "products": 291,
       "comp": "",
+      "comp_score": 0.75,
+      "score": 1.34
+    },
+    {
+      "keyword": "빅토리아녹스칼",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 칼",
+      "period": "최근 30일",
+      "search": 1170,
+      "products": 871,
+      "comp": "아주좋음",
+      "comp_score": 0.74,
+      "score": 1.34
+    },
+    {
+      "keyword": "조상진칼",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 칼",
+      "period": "최근 30일",
+      "search": 910,
+      "products": 679,
+      "comp": "아주좋음",
       "comp_score": 0.75,
       "score": 1.34
     },
@@ -6111,6 +10023,16 @@
       "comp": "아주좋음",
       "comp_score": 0.76,
       "score": 1.32
+    },
+    {
+      "keyword": "나트릴장갑",
+      "category": "생활/건강 > 주방용품 > 주방잡화 > 라텍스장갑/니트릴장갑",
+      "period": "최근 30일",
+      "search": 690,
+      "products": 524,
+      "comp": "아주좋음",
+      "comp_score": 0.76,
+      "score": 1.31
     },
     {
       "keyword": "기아엠블럼교체",
@@ -6150,6 +10072,36 @@
       "products": 492,
       "comp": "아주좋음",
       "comp_score": null,
+      "score": 1.3
+    },
+    {
+      "keyword": "야마치쿠젓가락",
+      "category": "생활/건강 > 주방용품 > 식기 > 수저",
+      "period": "최근 30일",
+      "search": 860,
+      "products": 659,
+      "comp": "아주좋음",
+      "comp_score": 0.77,
+      "score": 1.3
+    },
+    {
+      "keyword": "인덕션풀커버",
+      "category": "생활/건강 > 주방용품 > 주방잡화 > 냄비받침",
+      "period": "최근 30일",
+      "search": 810,
+      "products": 622,
+      "comp": "아주좋음",
+      "comp_score": 0.77,
+      "score": 1.3
+    },
+    {
+      "keyword": "방산가위",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 주방가위",
+      "period": "최근 30일",
+      "search": 540,
+      "products": 413,
+      "comp": "아주좋음",
+      "comp_score": 0.76,
       "score": 1.3
     },
     {
@@ -6193,6 +10145,26 @@
       "score": 1.28
     },
     {
+      "keyword": "igt도마",
+      "category": "생활/건강 > 주방용품 > 도마",
+      "period": "최근 30일",
+      "search": 640,
+      "products": 500,
+      "comp": "아주좋음",
+      "comp_score": 0.78,
+      "score": 1.28
+    },
+    {
+      "keyword": "파베르도마",
+      "category": "생활/건강 > 주방용품 > 도마",
+      "period": "최근 30일",
+      "search": 500,
+      "products": 389,
+      "comp": "아주좋음",
+      "comp_score": 0.78,
+      "score": 1.28
+    },
+    {
       "keyword": "멀티락",
       "category": "생활/건강 > 공구 > 전기용품 > 멀티탭",
       "period": "최근 30일",
@@ -6213,6 +10185,46 @@
       "score": 1.25
     },
     {
+      "keyword": "무인양품보냉홀더",
+      "category": "생활/건강 > 주방용품 > 주방잡화 > 컵받침/홀더",
+      "period": "최근 30일",
+      "search": 470,
+      "products": 376,
+      "comp": "아주좋음",
+      "comp_score": 0.8,
+      "score": 1.25
+    },
+    {
+      "keyword": "스틸아트빨래건조대",
+      "category": "생활/건강 > 세탁용품 > 빨래건조대 > 이동접이식",
+      "period": "최근 30일",
+      "search": 970,
+      "products": 788,
+      "comp": "아주좋음",
+      "comp_score": 0.81,
+      "score": 1.23
+    },
+    {
+      "keyword": "레만글라스",
+      "category": "생활/건강 > 주방용품 > 잔/컵 > 유리컵",
+      "period": "최근 30일",
+      "search": 960,
+      "products": 792,
+      "comp": "아주좋음",
+      "comp_score": 0.82,
+      "score": 1.21
+    },
+    {
+      "keyword": "키리츠케규토",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 칼",
+      "period": "최근 30일",
+      "search": 490,
+      "products": 406,
+      "comp": "아주좋음",
+      "comp_score": 0.83,
+      "score": 1.2
+    },
+    {
       "keyword": "킹스텝",
       "category": "생활/건강 > 자동차용품 > 익스테리어용품 > 사이드스텝",
       "period": "최근 30일",
@@ -6220,6 +10232,16 @@
       "products": 781,
       "comp": "아주좋음",
       "comp_score": null,
+      "score": 1.19
+    },
+    {
+      "keyword": "빅토리아녹스과도",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 칼",
+      "period": "최근 30일",
+      "search": 1040,
+      "products": 871,
+      "comp": "아주좋음",
+      "comp_score": 0.84,
       "score": 1.19
     },
     {
@@ -6233,12 +10255,72 @@
       "score": 1.18
     },
     {
+      "keyword": "아기도자기식판",
+      "category": "생활/건강 > 주방용품 > 식기 > 식판",
+      "period": "최근 30일",
+      "search": 880,
+      "products": 743,
+      "comp": "아주좋음",
+      "comp_score": 0.84,
+      "score": 1.18
+    },
+    {
+      "keyword": "히트락트라이탄밀폐용기",
+      "category": "생활/건강 > 주방용품 > 보관/밀폐용기 > 플라스틱용기단품",
+      "period": "최근 30일",
+      "search": 410,
+      "products": 345,
+      "comp": "아주좋음",
+      "comp_score": 0.84,
+      "score": 1.18
+    },
+    {
+      "keyword": "판빙빙다리미판",
+      "category": "생활/건강 > 세탁용품 > 다림판",
+      "period": "최근 30일",
+      "search": 710,
+      "products": 601,
+      "comp": "아주좋음",
+      "comp_score": 0.85,
+      "score": 1.18
+    },
+    {
+      "keyword": "김명국채칼",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 채칼/필러",
+      "period": "최근 30일",
+      "search": 380,
+      "products": 323,
+      "comp": "아주좋음",
+      "comp_score": 0.85,
+      "score": 1.17
+    },
+    {
       "keyword": "ev5핸드폰거치대",
       "category": "생활/건강 > 자동차용품 > 휴대폰용품 > 차량용휴대폰거치대",
       "period": "최근 30일",
       "search": 570,
       "products": 489,
       "comp": "",
+      "comp_score": 0.86,
+      "score": 1.16
+    },
+    {
+      "keyword": "냉동밀프랩용기",
+      "category": "생활/건강 > 주방용품 > 보관/밀폐용기 > 플라스틱용기단품",
+      "period": "최근 30일",
+      "search": 900,
+      "products": 777,
+      "comp": "아주좋음",
+      "comp_score": 0.86,
+      "score": 1.16
+    },
+    {
+      "keyword": "호네스키",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 칼",
+      "period": "최근 30일",
+      "search": 540,
+      "products": 466,
+      "comp": "아주좋음",
       "comp_score": 0.86,
       "score": 1.16
     },
@@ -6251,6 +10333,36 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 1.15
+    },
+    {
+      "keyword": "하코야가위",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 주방가위",
+      "period": "최근 30일",
+      "search": 690,
+      "products": 599,
+      "comp": "아주좋음",
+      "comp_score": 0.87,
+      "score": 1.15
+    },
+    {
+      "keyword": "벨루즈까사\n",
+      "category": "생활/건강 > 주방용품 > 식기 > 접시",
+      "period": "최근 30일",
+      "search": 440,
+      "products": 380,
+      "comp": "아주좋음",
+      "comp_score": 0.86,
+      "score": 1.15
+    },
+    {
+      "keyword": "이디프",
+      "category": "생활/건강 > 주방용품 > 냄비/솥 > 전자레인지/오븐 용기",
+      "period": "최근 30일",
+      "search": 370,
+      "products": 323,
+      "comp": "아주좋음",
+      "comp_score": 0.87,
+      "score": 1.14
     },
     {
       "keyword": "감물염색",
@@ -6268,6 +10380,16 @@
       "period": "최근 30일",
       "search": 300,
       "products": 265,
+      "comp": "아주좋음",
+      "comp_score": 0.88,
+      "score": 1.13
+    },
+    {
+      "keyword": "홍여진짤순이",
+      "category": "생활/건강 > 주방용품 > 조리기구 > 야채탈수기",
+      "period": "최근 30일",
+      "search": 970,
+      "products": 856,
       "comp": "아주좋음",
       "comp_score": 0.88,
       "score": 1.13
@@ -6311,6 +10433,26 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 1.12
+    },
+    {
+      "keyword": "간소한제사상",
+      "category": "생활/건강 > 주방용품 > 제수용품 > 휴대용제기",
+      "period": "최근 30일",
+      "search": 330,
+      "products": 296,
+      "comp": "아주좋음",
+      "comp_score": 0.9,
+      "score": 1.11
+    },
+    {
+      "keyword": "티리난지도마",
+      "category": "생활/건강 > 주방용품 > 도마",
+      "period": "최근 30일",
+      "search": 310,
+      "products": 282,
+      "comp": "아주좋음",
+      "comp_score": 0.91,
+      "score": 1.1
     },
     {
       "keyword": "폴드8차량거치대",
@@ -6393,6 +10535,26 @@
       "score": 1.08
     },
     {
+      "keyword": "박그릇",
+      "category": "생활/건강 > 주방용품 > 식기 > 접시",
+      "period": "최근 30일",
+      "search": 930,
+      "products": 859,
+      "comp": "아주좋음",
+      "comp_score": 0.92,
+      "score": 1.08
+    },
+    {
+      "keyword": "인의흑막5000",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 칼갈이",
+      "period": "최근 30일",
+      "search": 330,
+      "products": 304,
+      "comp": "아주좋음",
+      "comp_score": 0.92,
+      "score": 1.08
+    },
+    {
       "keyword": "핫토이닥터둠",
       "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
       "period": "최근 30일",
@@ -6400,6 +10562,16 @@
       "products": 702,
       "comp": "아주좋음",
       "comp_score": null,
+      "score": 1.07
+    },
+    {
+      "keyword": "이케아고무장갑",
+      "category": "생활/건강 > 주방용품 > 주방수납용품 > 주방정리소품",
+      "period": "최근 30일",
+      "search": 650,
+      "products": 604,
+      "comp": "아주좋음",
+      "comp_score": 0.93,
       "score": 1.07
     },
     {
@@ -6433,6 +10605,16 @@
       "score": 1.06
     },
     {
+      "keyword": "이연복중식도",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 칼",
+      "period": "최근 30일",
+      "search": 720,
+      "products": 679,
+      "comp": "아주좋음",
+      "comp_score": 0.94,
+      "score": 1.06
+    },
+    {
       "keyword": "두부니퍼",
       "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델용품",
       "period": "최근 30일",
@@ -6450,6 +10632,16 @@
       "products": 342,
       "comp": "아주좋음",
       "comp_score": null,
+      "score": 1.05
+    },
+    {
+      "keyword": "비닐어게인",
+      "category": "생활/건강 > 주방용품 > 일회용품 > 비닐봉투",
+      "period": "최근 30일",
+      "search": 670,
+      "products": 635,
+      "comp": "아주좋음",
+      "comp_score": 0.95,
       "score": 1.05
     },
     {
@@ -6483,6 +10675,16 @@
       "score": 1.02
     },
     {
+      "keyword": "고소영도마\n",
+      "category": "생활/건강 > 주방용품 > 도마",
+      "period": "최근 30일",
+      "search": 520,
+      "products": 507,
+      "comp": "아주좋음",
+      "comp_score": 0.97,
+      "score": 1.02
+    },
+    {
       "keyword": "갤럭시폴드8차량거치대",
       "category": "생활/건강 > 자동차용품 > 휴대폰용품 > 차량용휴대폰거치대",
       "period": "최근 30일",
@@ -6503,11 +10705,71 @@
       "score": 1.01
     },
     {
+      "keyword": "카펙필터",
+      "category": "생활/건강 > 주방용품 > 커피용품 > 여과지",
+      "period": "최근 30일",
+      "search": 830,
+      "products": 823,
+      "comp": "아주좋음",
+      "comp_score": 0.99,
+      "score": 1.01
+    },
+    {
+      "keyword": "알레보디엣지",
+      "category": "생활/건강 > 주방용품 > 보관/밀폐용기 > 도자기/유리용기세트",
+      "period": "최근 30일",
+      "search": 730,
+      "products": 723,
+      "comp": "아주좋음",
+      "comp_score": 0.99,
+      "score": 1.01
+    },
+    {
+      "keyword": "인의흑막2000",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 칼갈이",
+      "period": "최근 30일",
+      "search": 340,
+      "products": 337,
+      "comp": "아주좋음",
+      "comp_score": 0.99,
+      "score": 1.01
+    },
+    {
+      "keyword": "kbo텀블러",
+      "category": "생활/건강 > 주방용품 > 잔/컵 > 텀블러",
+      "period": "최근 30일",
+      "search": 800,
+      "products": 809,
+      "comp": "아주좋음",
+      "comp_score": 1.01,
+      "score": 0.99
+    },
+    {
+      "keyword": "군대텀블러",
+      "category": "생활/건강 > 주방용품 > 잔/컵 > 텀블러",
+      "period": "최근 30일",
+      "search": 770,
+      "products": 777,
+      "comp": "아주좋음",
+      "comp_score": 1.01,
+      "score": 0.99
+    },
+    {
       "keyword": "약사여래불상",
       "category": "생활/건강 > 종교 > 불교용품",
       "period": "최근 30일",
       "search": 350,
       "products": 355,
+      "comp": "아주좋음",
+      "comp_score": 1.01,
+      "score": 0.98
+    },
+    {
+      "keyword": "스텐락모스트",
+      "category": "생활/건강 > 주방용품 > 보관/밀폐용기 > 스텐용기단품",
+      "period": "최근 30일",
+      "search": 710,
+      "products": 720,
       "comp": "아주좋음",
       "comp_score": 1.01,
       "score": 0.98
@@ -6519,6 +10781,36 @@
       "search": 310,
       "products": 325,
       "comp": "",
+      "comp_score": 1.05,
+      "score": 0.95
+    },
+    {
+      "keyword": "프레데릭스앤메이도마",
+      "category": "생활/건강 > 주방용품 > 도마",
+      "period": "최근 30일",
+      "search": 420,
+      "products": 442,
+      "comp": "아주좋음",
+      "comp_score": 1.05,
+      "score": 0.95
+    },
+    {
+      "keyword": "도마용미네랄오일",
+      "category": "생활/건강 > 주방용품 > 도마",
+      "period": "최근 30일",
+      "search": 360,
+      "products": 378,
+      "comp": "아주좋음",
+      "comp_score": 1.05,
+      "score": 0.95
+    },
+    {
+      "keyword": "이시즈카글라스",
+      "category": "생활/건강 > 주방용품 > 잔/컵 > 유리컵",
+      "period": "최근 30일",
+      "search": 360,
+      "products": 379,
+      "comp": "아주좋음",
       "comp_score": 1.05,
       "score": 0.95
     },
@@ -6541,6 +10833,26 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 0.93
+    },
+    {
+      "keyword": "오일팡",
+      "category": "생활/건강 > 주방용품 > 주방잡화 > 행주",
+      "period": "최근 30일",
+      "search": 580,
+      "products": 626,
+      "comp": "아주좋음",
+      "comp_score": 1.08,
+      "score": 0.93
+    },
+    {
+      "keyword": "hay도마",
+      "category": "생활/건강 > 주방용품 > 도마",
+      "period": "최근 30일",
+      "search": 330,
+      "products": 358,
+      "comp": "아주좋음",
+      "comp_score": 1.08,
+      "score": 0.92
     },
     {
       "keyword": "시상보드",
@@ -6583,6 +10895,16 @@
       "score": 0.9
     },
     {
+      "keyword": "라귀올수저세트",
+      "category": "생활/건강 > 주방용품 > 식기 > 수저",
+      "period": "최근 30일",
+      "search": 530,
+      "products": 591,
+      "comp": "아주좋음",
+      "comp_score": 1.12,
+      "score": 0.9
+    },
+    {
       "keyword": "이오이오붓",
       "category": "생활/건강 > 화방용품 > 수채화붓",
       "period": "최근 30일",
@@ -6620,6 +10942,26 @@
       "products": 681,
       "comp": "아주좋음",
       "comp_score": null,
+      "score": 0.89
+    },
+    {
+      "keyword": "피자세이버",
+      "category": "생활/건강 > 주방용품 > 일회용품 > 일회용식기",
+      "period": "최근 30일",
+      "search": 610,
+      "products": 685,
+      "comp": "아주좋음",
+      "comp_score": 1.12,
+      "score": 0.89
+    },
+    {
+      "keyword": "파커아사히러버라바",
+      "category": "생활/건강 > 주방용품 > 도마",
+      "period": "최근 30일",
+      "search": 380,
+      "products": 425,
+      "comp": "아주좋음",
+      "comp_score": 1.12,
       "score": 0.89
     },
     {
@@ -6673,6 +11015,36 @@
       "score": 0.87
     },
     {
+      "keyword": "닌자칼세트",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 칼세트",
+      "period": "최근 30일",
+      "search": 550,
+      "products": 637,
+      "comp": "아주좋음",
+      "comp_score": 1.16,
+      "score": 0.86
+    },
+    {
+      "keyword": "샌드위치랩핑",
+      "category": "생활/건강 > 주방용품 > 일회용품 > 랩",
+      "period": "최근 30일",
+      "search": 430,
+      "products": 500,
+      "comp": "아주좋음",
+      "comp_score": 1.16,
+      "score": 0.86
+    },
+    {
+      "keyword": "헤이도마",
+      "category": "생활/건강 > 주방용품 > 도마",
+      "period": "최근 30일",
+      "search": 310,
+      "products": 358,
+      "comp": "아주좋음",
+      "comp_score": 1.15,
+      "score": 0.86
+    },
+    {
       "keyword": "suv트렁크가림막",
       "category": "생활/건강 > 자동차용품 > 수납용품 > 트렁크정리함",
       "period": "최근 30일",
@@ -6690,6 +11062,16 @@
       "products": 563,
       "comp": "아주좋음",
       "comp_score": null,
+      "score": 0.85
+    },
+    {
+      "keyword": "우드시엘",
+      "category": "생활/건강 > 주방용품 > 보관/밀폐용기 > 양념통/설탕프림기",
+      "period": "최근 30일",
+      "search": 310,
+      "products": 362,
+      "comp": "아주좋음",
+      "comp_score": 1.17,
       "score": 0.85
     },
     {
@@ -6723,6 +11105,36 @@
       "score": 0.84
     },
     {
+      "keyword": "아토마400",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 칼갈이",
+      "period": "최근 30일",
+      "search": 710,
+      "products": 844,
+      "comp": "아주좋음",
+      "comp_score": 1.19,
+      "score": 0.84
+    },
+    {
+      "keyword": "빅스텐짤순이",
+      "category": "생활/건강 > 주방용품 > 조리기구 > 야채탈수기",
+      "period": "최근 30일",
+      "search": 600,
+      "products": 715,
+      "comp": "아주좋음",
+      "comp_score": 1.19,
+      "score": 0.84
+    },
+    {
+      "keyword": "소금불판",
+      "category": "생활/건강 > 주방용품 > 프라이팬 > 구이팬",
+      "period": "최근 30일",
+      "search": 380,
+      "products": 451,
+      "comp": "아주좋음",
+      "comp_score": 1.19,
+      "score": 0.84
+    },
+    {
       "keyword": "딥디크방향제리필",
       "category": "생활/건강 > 자동차용품 > 공기청정용품 > 차량용방향제",
       "period": "최근 30일",
@@ -6739,6 +11151,36 @@
       "search": 450,
       "products": 538,
       "comp": "",
+      "comp_score": 1.2,
+      "score": 0.83
+    },
+    {
+      "keyword": "인팟",
+      "category": "생활/건강 > 주방용품 > 일회용품 > 종이컵",
+      "period": "최근 30일",
+      "search": 690,
+      "products": 827,
+      "comp": "아주좋음",
+      "comp_score": 1.2,
+      "score": 0.83
+    },
+    {
+      "keyword": "가마도상",
+      "category": "생활/건강 > 주방용품 > 냄비/솥 > 뚝배기",
+      "period": "최근 30일",
+      "search": 670,
+      "products": 811,
+      "comp": "아주좋음",
+      "comp_score": 1.21,
+      "score": 0.83
+    },
+    {
+      "keyword": "아벤시",
+      "category": "생활/건강 > 주방용품 > 잔/컵 > 유리컵",
+      "period": "최근 30일",
+      "search": 610,
+      "products": 731,
+      "comp": "아주좋음",
       "comp_score": 1.2,
       "score": 0.83
     },
@@ -6763,6 +11205,16 @@
       "score": 0.82
     },
     {
+      "keyword": "자주도마",
+      "category": "생활/건강 > 주방용품 > 도마",
+      "period": "최근 30일",
+      "search": 340,
+      "products": 413,
+      "comp": "아주좋음",
+      "comp_score": 1.21,
+      "score": 0.82
+    },
+    {
       "keyword": "타이거다즐러",
       "category": "생활/건강 > 자동차용품 > 공기청정용품 > 차량용방향제",
       "period": "최근 30일",
@@ -6781,6 +11233,26 @@
       "comp": "아주좋음",
       "comp_score": 1.24,
       "score": 0.81
+    },
+    {
+      "keyword": "코스트코종이컵",
+      "category": "생활/건강 > 주방용품 > 일회용품 > 종이컵",
+      "period": "최근 30일",
+      "search": 330,
+      "products": 406,
+      "comp": "아주좋음",
+      "comp_score": 1.23,
+      "score": 0.81
+    },
+    {
+      "keyword": "jbj빨래바구니",
+      "category": "생활/건강 > 세탁용품 > 빨래바구니",
+      "period": "최근 30일",
+      "search": 450,
+      "products": 565,
+      "comp": "아주좋음",
+      "comp_score": 1.26,
+      "score": 0.8
     },
     {
       "keyword": "천연가죽소파클리너",
@@ -6813,6 +11285,16 @@
       "score": 0.79
     },
     {
+      "keyword": "라툴",
+      "category": "생활/건강 > 주방용품 > 제과/제빵용품 > 쿠킹타이머",
+      "period": "최근 30일",
+      "search": 400,
+      "products": 507,
+      "comp": "아주좋음",
+      "comp_score": 1.27,
+      "score": 0.79
+    },
+    {
       "keyword": "리트다이모어",
       "category": "생활/건강 > 화방용품 > 염료",
       "period": "최근 30일",
@@ -6830,6 +11312,26 @@
       "products": 820,
       "comp": "아주좋음",
       "comp_score": null,
+      "score": 0.78
+    },
+    {
+      "keyword": "캬베피맥스",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 채칼/필러",
+      "period": "최근 30일",
+      "search": 510,
+      "products": 649,
+      "comp": "아주좋음",
+      "comp_score": 1.27,
+      "score": 0.78
+    },
+    {
+      "keyword": "쿤케라믹",
+      "category": "생활/건강 > 주방용품 > 잔/컵 > 머그",
+      "period": "최근 30일",
+      "search": 410,
+      "products": 522,
+      "comp": "아주좋음",
+      "comp_score": 1.27,
       "score": 0.78
     },
     {
@@ -6873,6 +11375,26 @@
       "score": 0.75
     },
     {
+      "keyword": "토지로vg10",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 칼",
+      "period": "최근 30일",
+      "search": 570,
+      "products": 758,
+      "comp": "아주좋음",
+      "comp_score": 1.33,
+      "score": 0.75
+    },
+    {
+      "keyword": "제과제빵실기준비물",
+      "category": "생활/건강 > 주방용품 > 제과/제빵용품 > 제빵소도구",
+      "period": "최근 30일",
+      "search": 430,
+      "products": 575,
+      "comp": "아주좋음",
+      "comp_score": 1.34,
+      "score": 0.75
+    },
+    {
       "keyword": "애드기어",
       "category": "생활/건강 > 자동차용품 > 수납용품 > 차량용홀더",
       "period": "최근 30일",
@@ -6880,6 +11402,26 @@
       "products": 554,
       "comp": "",
       "comp_score": 1.35,
+      "score": 0.74
+    },
+    {
+      "keyword": "새우까는기계",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 채칼/필러",
+      "period": "최근 30일",
+      "search": 550,
+      "products": 741,
+      "comp": "아주좋음",
+      "comp_score": 1.35,
+      "score": 0.74
+    },
+    {
+      "keyword": "오리가미필터",
+      "category": "생활/건강 > 주방용품 > 커피용품 > 여과지",
+      "period": "최근 30일",
+      "search": 370,
+      "products": 496,
+      "comp": "아주좋음",
+      "comp_score": 1.34,
       "score": 0.74
     },
     {
@@ -6953,6 +11495,26 @@
       "score": 0.72
     },
     {
+      "keyword": "사카이지코",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 칼",
+      "period": "최근 30일",
+      "search": 480,
+      "products": 664,
+      "comp": "아주좋음",
+      "comp_score": 1.38,
+      "score": 0.72
+    },
+    {
+      "keyword": "무인양품머그컵",
+      "category": "생활/건강 > 주방용품 > 잔/컵 > 머그",
+      "period": "최근 30일",
+      "search": 360,
+      "products": 496,
+      "comp": "아주좋음",
+      "comp_score": 1.38,
+      "score": 0.72
+    },
+    {
       "keyword": "장수명부동액",
       "category": "생활/건강 > 자동차용품 > 오일/소모품 > 부동액",
       "period": "최근 30일",
@@ -6970,6 +11532,16 @@
       "products": 633,
       "comp": "아주좋음",
       "comp_score": null,
+      "score": 0.71
+    },
+    {
+      "keyword": "ufo필터",
+      "category": "생활/건강 > 주방용품 > 커피용품 > 여과지",
+      "period": "최근 30일",
+      "search": 360,
+      "products": 508,
+      "comp": "아주좋음",
+      "comp_score": 1.41,
       "score": 0.71
     },
     {
@@ -6993,6 +11565,26 @@
       "score": 0.7
     },
     {
+      "keyword": "웨지우드트레이",
+      "category": "생활/건강 > 주방용품 > 제수용품 > 제기",
+      "period": "최근 30일",
+      "search": 430,
+      "products": 610,
+      "comp": "아주좋음",
+      "comp_score": 1.42,
+      "score": 0.7
+    },
+    {
+      "keyword": "발뮤다토스터기선반",
+      "category": "생활/건강 > 주방용품 > 주방수납용품 > 주방정리소품",
+      "period": "최근 30일",
+      "search": 410,
+      "products": 582,
+      "comp": "아주좋음",
+      "comp_score": 1.42,
+      "score": 0.7
+    },
+    {
       "keyword": "배터리전해액",
       "category": "생활/건강 > 자동차용품 > 배터리용품 > 기타배터리용품",
       "period": "최근 30일",
@@ -7000,6 +11592,16 @@
       "products": 534,
       "comp": "",
       "comp_score": 1.44,
+      "score": 0.69
+    },
+    {
+      "keyword": "텐료도마",
+      "category": "생활/건강 > 주방용품 > 도마",
+      "period": "최근 30일",
+      "search": 360,
+      "products": 522,
+      "comp": "아주좋음",
+      "comp_score": 1.45,
       "score": 0.69
     },
     {
@@ -7020,6 +11622,26 @@
       "products": 440,
       "comp": "아주좋음",
       "comp_score": null,
+      "score": 0.68
+    },
+    {
+      "keyword": "센서리잔",
+      "category": "생활/건강 > 주방용품 > 잔/컵 > 머그",
+      "period": "최근 30일",
+      "search": 570,
+      "products": 843,
+      "comp": "아주좋음",
+      "comp_score": 1.48,
+      "score": 0.68
+    },
+    {
+      "keyword": "맥세이프텀블러",
+      "category": "생활/건강 > 주방용품 > 잔/컵 > 텀블러",
+      "period": "최근 30일",
+      "search": 450,
+      "products": 664,
+      "comp": "아주좋음",
+      "comp_score": 1.48,
       "score": 0.68
     },
     {
@@ -7103,6 +11725,16 @@
       "score": 0.65
     },
     {
+      "keyword": "이가모노",
+      "category": "생활/건강 > 주방용품 > 냄비/솥 > 뚝배기",
+      "period": "최근 30일",
+      "search": 450,
+      "products": 689,
+      "comp": "아주좋음",
+      "comp_score": 1.53,
+      "score": 0.65
+    },
+    {
       "keyword": "ev5거치대",
       "category": "생활/건강 > 자동차용품 > 휴대폰용품 > 차량용휴대폰거치대",
       "period": "최근 30일",
@@ -7173,6 +11805,16 @@
       "score": 0.63
     },
     {
+      "keyword": "김치냉장고쌀통",
+      "category": "생활/건강 > 주방용품 > 보관/밀폐용기 > 쌀통",
+      "period": "최근 30일",
+      "search": 460,
+      "products": 725,
+      "comp": "아주좋음",
+      "comp_score": 1.58,
+      "score": 0.63
+    },
+    {
       "keyword": "pv5컵홀더",
       "category": "생활/건강 > 자동차용품 > 수납용품 > 차량용홀더",
       "period": "최근 30일",
@@ -7223,6 +11865,66 @@
       "score": 0.61
     },
     {
+      "keyword": "브릭글로",
+      "category": "생활/건강 > 주방용품 > 주방잡화 > 라텍스장갑/니트릴장갑",
+      "period": "최근 30일",
+      "search": 420,
+      "products": 687,
+      "comp": "아주좋음",
+      "comp_score": 1.64,
+      "score": 0.61
+    },
+    {
+      "keyword": "씨즐러",
+      "category": "생활/건강 > 주방용품 > 와인용품 > 스토퍼/세이버",
+      "period": "최근 30일",
+      "search": 400,
+      "products": 657,
+      "comp": "아주좋음",
+      "comp_score": 1.64,
+      "score": 0.61
+    },
+    {
+      "keyword": "냉장고야채칸정리",
+      "category": "생활/건강 > 주방용품 > 보관/밀폐용기 > 플라스틱용기단품",
+      "period": "최근 30일",
+      "search": 540,
+      "products": 896,
+      "comp": "아주좋음",
+      "comp_score": 1.66,
+      "score": 0.6
+    },
+    {
+      "keyword": "쇼토쿠글라스",
+      "category": "생활/건강 > 주방용품 > 잔/컵 > 유리컵",
+      "period": "최근 30일",
+      "search": 480,
+      "products": 823,
+      "comp": "아주좋음",
+      "comp_score": 1.71,
+      "score": 0.58
+    },
+    {
+      "keyword": "샐러드마스터채칼",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 채칼/필러",
+      "period": "최근 30일",
+      "search": 390,
+      "products": 673,
+      "comp": "아주좋음",
+      "comp_score": 1.73,
+      "score": 0.58
+    },
+    {
+      "keyword": "모스트픽",
+      "category": "생활/건강 > 주방용품 > 주방잡화 > 라텍스장갑/니트릴장갑",
+      "period": "최근 30일",
+      "search": 310,
+      "products": 538,
+      "comp": "아주좋음",
+      "comp_score": 1.74,
+      "score": 0.58
+    },
+    {
       "keyword": "타이어모빌리티키트",
       "category": "생활/건강 > 자동차용품 > 타이어/휠 > 타이어용품",
       "period": "최근 30일",
@@ -7243,6 +11945,16 @@
       "score": 0.56
     },
     {
+      "keyword": "모닝랩",
+      "category": "생활/건강 > 주방용품 > 일회용품 > 랩",
+      "period": "최근 30일",
+      "search": 350,
+      "products": 641,
+      "comp": "아주좋음",
+      "comp_score": 1.83,
+      "score": 0.55
+    },
+    {
       "keyword": "올뉴모닝컵홀더",
       "category": "생활/건강 > 자동차용품 > 수납용품 > 차량용홀더",
       "period": "최근 30일",
@@ -7253,6 +11965,26 @@
       "score": 0.54
     },
     {
+      "keyword": "타파웨어다담자",
+      "category": "생활/건강 > 주방용품 > 보관/밀폐용기 > 플라스틱용기단품",
+      "period": "최근 30일",
+      "search": 480,
+      "products": 894,
+      "comp": "아주좋음",
+      "comp_score": 1.86,
+      "score": 0.54
+    },
+    {
+      "keyword": "프린스공업채칼",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 채칼/필러",
+      "period": "최근 30일",
+      "search": 410,
+      "products": 763,
+      "comp": "아주좋음",
+      "comp_score": 1.86,
+      "score": 0.54
+    },
+    {
       "keyword": "백자토",
       "category": "생활/건강 > 화방용품 > 찰흙/점토",
       "period": "최근 30일",
@@ -7260,6 +11992,16 @@
       "products": 754,
       "comp": "아주좋음",
       "comp_score": null,
+      "score": 0.53
+    },
+    {
+      "keyword": "대만뻬이따이",
+      "category": "생활/건강 > 주방용품 > 주방잡화 > 컵받침/홀더",
+      "period": "최근 30일",
+      "search": 470,
+      "products": 886,
+      "comp": "아주좋음",
+      "comp_score": 1.89,
       "score": 0.53
     },
     {
@@ -7313,6 +12055,16 @@
       "score": 0.5
     },
     {
+      "keyword": "세이지도마",
+      "category": "생활/건강 > 주방용품 > 도마",
+      "period": "최근 30일",
+      "search": 440,
+      "products": 875,
+      "comp": "아주좋음",
+      "comp_score": 1.99,
+      "score": 0.5
+    },
+    {
       "keyword": "마르티그",
       "category": "생활/건강 > 자동차용품 > 공기청정용품 > 차량용방향제",
       "period": "최근 30일",
@@ -7323,12 +12075,42 @@
       "score": 0.49
     },
     {
+      "keyword": "테팔도마",
+      "category": "생활/건강 > 주방용품 > 도마",
+      "period": "최근 30일",
+      "search": 340,
+      "products": 687,
+      "comp": "좋음",
+      "comp_score": 2.02,
+      "score": 0.49
+    },
+    {
+      "keyword": "일본세라믹드리퍼",
+      "category": "생활/건강 > 주방용품 > 커피용품 > 커피추출기",
+      "period": "최근 30일",
+      "search": 380,
+      "products": 783,
+      "comp": "좋음",
+      "comp_score": 2.06,
+      "score": 0.48
+    },
+    {
       "keyword": "가니쉬복원제",
       "category": "생활/건강 > 자동차용품 > 세차용품 > 도장용광택/코팅제",
       "period": "최근 30일",
       "search": 420,
       "products": 900,
       "comp": "",
+      "comp_score": 2.14,
+      "score": 0.47
+    },
+    {
+      "keyword": "세척쉬운텀블러",
+      "category": "생활/건강 > 주방용품 > 잔/컵 > 텀블러",
+      "period": "최근 30일",
+      "search": 390,
+      "products": 833,
+      "comp": "좋음",
       "comp_score": 2.14,
       "score": 0.47
     },
@@ -7363,6 +12145,16 @@
       "score": 0.44
     },
     {
+      "keyword": "사무실텀블러건조대",
+      "category": "생활/건강 > 주방용품 > 주방수납용품 > 식기건조대",
+      "period": "최근 30일",
+      "search": 350,
+      "products": 787,
+      "comp": "좋음",
+      "comp_score": 2.25,
+      "score": 0.44
+    },
+    {
       "keyword": "그루터기유목",
       "category": "생활/건강 > 관상어용품 > 수조장식용품",
       "period": "최근 30일",
@@ -7373,6 +12165,36 @@
       "score": 0.43
     },
     {
+      "keyword": "쿠프칼",
+      "category": "생활/건강 > 주방용품 > 제과/제빵용품 > 빵칼",
+      "period": "최근 30일",
+      "search": 360,
+      "products": 832,
+      "comp": "좋음",
+      "comp_score": 2.31,
+      "score": 0.43
+    },
+    {
+      "keyword": "이태리고무장갑",
+      "category": "생활/건강 > 주방용품 > 주방잡화 > 고무장갑",
+      "period": "최근 30일",
+      "search": 350,
+      "products": 837,
+      "comp": "좋음",
+      "comp_score": 2.39,
+      "score": 0.42
+    },
+    {
+      "keyword": "토다이집게",
+      "category": "생활/건강 > 주방용품 > 조리기구 > 집게",
+      "period": "최근 30일",
+      "search": 340,
+      "products": 804,
+      "comp": "좋음",
+      "comp_score": 2.36,
+      "score": 0.42
+    },
+    {
       "keyword": "din60hl",
       "category": "생활/건강 > 자동차용품 > 배터리용품 > 차량용배터리",
       "period": "최근 30일",
@@ -7380,6 +12202,16 @@
       "products": 782,
       "comp": "",
       "comp_score": 2.44,
+      "score": 0.41
+    },
+    {
+      "keyword": "바이굿즈",
+      "category": "생활/건강 > 주방용품 > 프라이팬 > 궁중팬/튀김팬",
+      "period": "최근 30일",
+      "search": 320,
+      "products": 786,
+      "comp": "좋음",
+      "comp_score": 2.46,
       "score": 0.41
     },
     {
@@ -7411,6 +12243,26 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 0.39
+    },
+    {
+      "keyword": "다이얼뽀모도로타이머",
+      "category": "생활/건강 > 주방용품 > 제과/제빵용품 > 쿠킹타이머",
+      "period": "최근 30일",
+      "search": 310,
+      "products": 806,
+      "comp": "좋음",
+      "comp_score": 2.6,
+      "score": 0.38
+    },
+    {
+      "keyword": "니켄과도",
+      "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 칼",
+      "period": "최근 30일",
+      "search": 300,
+      "products": 841,
+      "comp": "좋음",
+      "comp_score": 2.8,
+      "score": 0.36
     },
     {
       "keyword": "해파리키우기세트",
