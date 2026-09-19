@@ -5333,10 +5333,26 @@
       },
       "keywords": [
         {
+          "keyword": "조니워커블루라벨",
+          "category": "식품 > 주류 > 양주",
+          "search": 88580,
+          "products": 106,
+          "comp": "아주좋음",
+          "comp_score": 0
+        },
+        {
           "keyword": "바이탈플랜트롤팬",
           "category": "생활/건강 > 주방용품 > 조리기구 > 기타조리기구",
           "search": 67570,
           "products": 212,
+          "comp": "아주좋음",
+          "comp_score": 0
+        },
+        {
+          "keyword": "닷사이23",
+          "category": "식품 > 주류 > 사케/기타수입주류",
+          "search": 51870,
+          "products": 94,
           "comp": "아주좋음",
           "comp_score": 0
         },
@@ -5347,6 +5363,14 @@
           "products": 183,
           "comp": "아주좋음",
           "comp_score": 0.01
+        },
+        {
+          "keyword": "선양소주",
+          "category": "식품 > 주류 > 전통주(배송) > 일반증류주 | 식품 > 주류 > 전통주(매장픽업) > 일반증류주",
+          "search": 27170,
+          "products": 74,
+          "comp": "아주좋음",
+          "comp_score": 0
         },
         {
           "keyword": "바이탈플랜트",
@@ -5389,6 +5413,30 @@
           "comp_score": 0.02
         },
         {
+          "keyword": "감튀홀더",
+          "category": "생활/건강 > 자동차용품 > 수납용품 > 차량용홀더",
+          "search": 13850,
+          "products": 141,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "밧드야분리수거",
+          "category": "생활/건강 > 청소용품 > 휴지통 > 분리수거함",
+          "search": 13210,
+          "products": 11,
+          "comp": "아주좋음",
+          "comp_score": 0
+        },
+        {
+          "keyword": "다이소보냉백",
+          "category": "스포츠/레저 > 캠핑 > 아이스박스",
+          "search": 13050,
+          "products": 243,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        },
+        {
           "keyword": "바퀜",
           "category": "생활/건강 > 주방용품 > 보관/밀폐용기 > 플라스틱용기세트",
           "search": 12650,
@@ -5413,6 +5461,14 @@
           "comp_score": 0.01
         },
         {
+          "keyword": "백화수복원컵",
+          "category": "생활/건강 > 문구/사무용품 > 스티커 > 주문제작스티커",
+          "search": 11130,
+          "products": 68,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
           "keyword": "다이소텀블러",
           "category": "생활/건강 > 주방용품 > 잔/컵 > 텀블러",
           "search": 10660,
@@ -5427,6 +5483,14 @@
           "products": 667,
           "comp": "아주좋음",
           "comp_score": 0.06
+        },
+        {
+          "keyword": "스탠다드프로덕트보냉백",
+          "category": "패션잡화 > 남성가방 > 에코백 | 패션잡화 > 여성가방 > 에코백",
+          "search": 9970,
+          "products": 153,
+          "comp": "아주좋음",
+          "comp_score": 0.02
         },
         {
           "keyword": "플루딕짤순이",
@@ -5605,6 +5669,14 @@
           "comp_score": 0
         },
         {
+          "keyword": "이제이쿡",
+          "category": "생활/건강 > 생활용품 > 세제/세정제 > 일반주방세제",
+          "search": 6440,
+          "products": 10,
+          "comp": "아주좋음",
+          "comp_score": 0
+        },
+        {
           "keyword": "트루쿡",
           "category": "생활/건강 > 주방용품 > 프라이팬 > 일반프라이팬",
           "search": 6370,
@@ -5701,6 +5773,22 @@
           "comp_score": 0.12
         },
         {
+          "keyword": "불연성쓰레기봉투",
+          "category": "생활/건강 > 공구 > 포장용품 > 포장지",
+          "search": 5280,
+          "products": 33,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "롬버스랩",
+          "category": "패션잡화 > 여성가방 > 토트백 | 패션잡화 > 남성가방 > 토트백",
+          "search": 4890,
+          "products": 319,
+          "comp": "아주좋음",
+          "comp_score": 0.07
+        },
+        {
           "keyword": "ufo드리퍼",
           "category": "생활/건강 > 주방용품 > 커피용품 > 커피추출기",
           "search": 4850,
@@ -5715,6 +5803,14 @@
           "products": 165,
           "comp": "아주좋음",
           "comp_score": 0.03
+        },
+        {
+          "keyword": "rms식판",
+          "category": "출산/육아 > 이유식용품 > 유아식기",
+          "search": 4810,
+          "products": 14,
+          "comp": "아주좋음",
+          "comp_score": 0
         },
         {
           "keyword": "밧드야분리수거함",
@@ -5813,12 +5909,28 @@
           "comp_score": 0.21
         },
         {
+          "keyword": "스텐팟",
+          "category": "디지털/가전 > 계절가전 > 가습기 > 가열식가습기",
+          "search": 4090,
+          "products": 207,
+          "comp": "아주좋음",
+          "comp_score": 0.05
+        },
+        {
           "keyword": "네오플램베큐씰",
           "category": "생활/건강 > 주방용품 > 보관/밀폐용기 > 도자기/유리용기단품",
           "search": 3890,
           "products": 163,
           "comp": "아주좋음",
           "comp_score": 0.04
+        },
+        {
+          "keyword": "다이소분리수거함",
+          "category": "생활/건강 > 청소용품 > 휴지통 > 분리수거함",
+          "search": 3820,
+          "products": 36,
+          "comp": "아주좋음",
+          "comp_score": 0.01
         },
         {
           "keyword": "데펜소",
@@ -5861,6 +5973,14 @@
           "comp_score": 0.12
         },
         {
+          "keyword": "루시아이휴지통",
+          "category": "생활/건강 > 청소용품 > 휴지통 > 분리수거함",
+          "search": 3530,
+          "products": 193,
+          "comp": "아주좋음",
+          "comp_score": 0.05
+        },
+        {
           "keyword": "넛츠앤버터",
           "category": "생활/건강 > 주방용품 > 식기 > 볼",
           "search": 3480,
@@ -5881,6 +6001,14 @@
           "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 칼",
           "search": 3400,
           "products": 20,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "파벡스라면조리기",
+          "category": "디지털/가전 > 주방가전 > 기타주방가전",
+          "search": 3360,
+          "products": 29,
           "comp": "아주좋음",
           "comp_score": 0.01
         },
@@ -5941,6 +6069,14 @@
           "comp_score": 0.15
         },
         {
+          "keyword": "스타벅스보냉백",
+          "category": "패션잡화 > 남성가방 > 에코백 | 패션잡화 > 여성가방 > 에코백",
+          "search": 3120,
+          "products": 757,
+          "comp": "아주좋음",
+          "comp_score": 0.24
+        },
+        {
           "keyword": "염경환후라이팬",
           "category": "생활/건강 > 주방용품 > 프라이팬 > 프라이팬세트",
           "search": 3090,
@@ -5955,6 +6091,14 @@
           "products": 11,
           "comp": "아주좋음",
           "comp_score": 0
+        },
+        {
+          "keyword": "포티니만능선반",
+          "category": "가구/인테리어 > 수납가구 > 선반",
+          "search": 3060,
+          "products": 69,
+          "comp": "아주좋음",
+          "comp_score": 0.02
         },
         {
           "keyword": "코코라커",
@@ -6069,12 +6213,28 @@
           "comp_score": 0.22
         },
         {
+          "keyword": "메아리셋",
+          "category": "생활/건강 > 문구/사무용품 > 다이어리/플래너 > 다이어리",
+          "search": 2550,
+          "products": 9,
+          "comp": "아주좋음",
+          "comp_score": 0
+        },
+        {
           "keyword": "다이소종이컵",
           "category": "생활/건강 > 주방용품 > 일회용품 > 종이컵",
           "search": 2540,
           "products": 87,
           "comp": "아주좋음",
           "comp_score": 0.03
+        },
+        {
+          "keyword": "곡물도자기식판",
+          "category": "출산/육아 > 이유식용품 > 유아식기",
+          "search": 2540,
+          "products": 244,
+          "comp": "아주좋음",
+          "comp_score": 0.1
         },
         {
           "keyword": "하다나",
@@ -6253,6 +6413,14 @@
           "comp_score": 0.03
         },
         {
+          "keyword": "국새키링",
+          "category": "패션잡화 > 패션소품 > 키링",
+          "search": 1980,
+          "products": 12,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
           "keyword": "바사나퓨터",
           "category": "생활/건강 > 주방용품 > 잔/컵 > 머그",
           "search": 1970,
@@ -6307,6 +6475,14 @@
           "products": 35,
           "comp": "아주좋음",
           "comp_score": 0.02
+        },
+        {
+          "keyword": "렌지프로",
+          "category": "디지털/가전 > 주방가전 > 전기팬",
+          "search": 1900,
+          "products": 77,
+          "comp": "아주좋음",
+          "comp_score": 0.04
         },
         {
           "keyword": "투고백",
@@ -6453,6 +6629,14 @@
           "comp_score": 0.48
         },
         {
+          "keyword": "더컵",
+          "category": "생활/건강 > 자동차용품 > 키용품 > 스마트키",
+          "search": 1640,
+          "products": 616,
+          "comp": "아주좋음",
+          "comp_score": 0.38
+        },
+        {
           "keyword": "실리콘2단찜기",
           "category": "생활/건강 > 주방용품 > 냄비/솥 > 찜기",
           "search": 1620,
@@ -6465,6 +6649,14 @@
           "category": "생활/건강 > 주방용품 > 조리기구 > 기타조리기구",
           "search": 1620,
           "products": 2,
+          "comp": "아주좋음",
+          "comp_score": 0
+        },
+        {
+          "keyword": "루시아이철제서랍",
+          "category": "생활/건강 > 수납/정리용품 > 정리함 > 소품정리함",
+          "search": 1620,
+          "products": 5,
           "comp": "아주좋음",
           "comp_score": 0
         },
@@ -6669,6 +6861,14 @@
           "comp_score": 0.1
         },
         {
+          "keyword": "다이소틈새수납장",
+          "category": "가구/인테리어 > 수납가구 > 수납장 | 가구/인테리어 > 아동/주니어가구 > 수납장",
+          "search": 1330,
+          "products": 574,
+          "comp": "아주좋음",
+          "comp_score": 0.43
+        },
+        {
           "keyword": "라비에플레이팅팬",
           "category": "생활/건강 > 주방용품 > 프라이팬 > 프라이팬세트",
           "search": 1320,
@@ -6781,6 +6981,14 @@
           "comp_score": 0.03
         },
         {
+          "keyword": "치로루초코",
+          "category": "식품 > 젤리/사탕/초콜릿 > 초콜릿",
+          "search": 1240,
+          "products": 452,
+          "comp": "아주좋음",
+          "comp_score": 0.36
+        },
+        {
           "keyword": "페사도",
           "category": "생활/건강 > 주방용품 > 커피용품 > 템퍼",
           "search": 1220,
@@ -6861,6 +7069,14 @@
           "comp_score": 0.61
         },
         {
+          "keyword": "루틴랩",
+          "category": "생활/건강 > 청소용품 > 먼지떨이/먼지제거기",
+          "search": 1090,
+          "products": 15,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
           "keyword": "코스트코도마",
           "category": "생활/건강 > 주방용품 > 도마",
           "search": 1080,
@@ -6931,6 +7147,14 @@
           "products": 465,
           "comp": "아주좋음",
           "comp_score": 0.45
+        },
+        {
+          "keyword": "구디브닝",
+          "category": "스포츠/레저 > 캠핑 > 캠핑가구 > 캠핑의자",
+          "search": 1020,
+          "products": 14,
+          "comp": "아주좋음",
+          "comp_score": 0.01
         },
         {
           "keyword": "페모북a4z",
@@ -7165,6 +7389,14 @@
           "comp_score": 0.77
         },
         {
+          "keyword": "미노스앵커",
+          "category": "생활/건강 > 공구 > 설비공구 > 배관용품",
+          "search": 860,
+          "products": 69,
+          "comp": "아주좋음",
+          "comp_score": 0.08
+        },
+        {
           "keyword": "썬스앤쿡도마",
           "category": "생활/건강 > 주방용품 > 도마",
           "search": 850,
@@ -7227,6 +7459,14 @@
           "products": 34,
           "comp": "아주좋음",
           "comp_score": 0.04
+        },
+        {
+          "keyword": "덴라이프",
+          "category": "생활/건강 > 자동차용품 > 수납용품 > 차량용휴지통",
+          "search": 820,
+          "products": 404,
+          "comp": "아주좋음",
+          "comp_score": 0.49
         },
         {
           "keyword": "스덴도마",
@@ -7293,6 +7533,14 @@
           "comp_score": 0.22
         },
         {
+          "keyword": "아이디어세키카와집게",
+          "category": "스포츠/레저 > 캠핑 > 기타캠핑용품",
+          "search": 800,
+          "products": 293,
+          "comp": "아주좋음",
+          "comp_score": 0.37
+        },
+        {
           "keyword": "일본하나코도마",
           "category": "생활/건강 > 주방용품 > 도마",
           "search": 790,
@@ -7355,6 +7603,14 @@
           "products": 363,
           "comp": "아주좋음",
           "comp_score": 0.47
+        },
+        {
+          "keyword": "바스헬퍼",
+          "category": "생활/건강 > 욕실용품 > 욕실용기/홀더 > 비눗갑/홀더/받침",
+          "search": 770,
+          "products": 58,
+          "comp": "아주좋음",
+          "comp_score": 0.08
         },
         {
           "keyword": "찹플레이트",
@@ -7443,6 +7699,14 @@
           "products": 171,
           "comp": "아주좋음",
           "comp_score": 0.23
+        },
+        {
+          "keyword": "r134a냉매캔",
+          "category": "생활/건강 > 공구 > 설비공구 > 배관용품",
+          "search": 730,
+          "products": 47,
+          "comp": "아주좋음",
+          "comp_score": 0.06
         },
         {
           "keyword": "모아람",
@@ -7701,6 +7965,14 @@
           "comp_score": 0.04
         },
         {
+          "keyword": "잔스포츠보냉백",
+          "category": "패션잡화 > 여성가방 > 백팩 | 패션잡화 > 남성가방 > 백팩 | 면세점 > 패션/잡화 > 가방 > 백팩 | 출산/육아 > 유아동잡화 > 가방 > 백팩",
+          "search": 660,
+          "products": 115,
+          "comp": "아주좋음",
+          "comp_score": 0.17
+        },
+        {
           "keyword": "풍천도칼",
           "category": "생활/건강 > 주방용품 > 칼/커팅기구 > 칼",
           "search": 650,
@@ -7787,6 +8059,14 @@
           "products": 685,
           "comp": "아주좋음",
           "comp_score": 1.12
+        },
+        {
+          "keyword": "오리가미핀",
+          "category": "디지털/가전 > 주방가전 > 커피머신/메이커 > 에스프레소머신",
+          "search": 610,
+          "products": 3,
+          "comp": "아주좋음",
+          "comp_score": 0
         },
         {
           "keyword": "턴블러",
@@ -7997,6 +8277,14 @@
           "comp_score": 0.74
         },
         {
+          "keyword": "1zpressozp6",
+          "category": "디지털/가전 > 주방가전 > 커피머신/메이커 > 커피머신부속품",
+          "search": 530,
+          "products": 4,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
           "keyword": "고소영도마\n",
           "category": "생활/건강 > 주방용품 > 도마",
           "search": 520,
@@ -8043,6 +8331,14 @@
           "products": 225,
           "comp": "아주좋음",
           "comp_score": 0.43
+        },
+        {
+          "keyword": "솔피라인",
+          "category": "식품 > 다이어트식품 > 식이섬유",
+          "search": 520,
+          "products": 125,
+          "comp": "아주좋음",
+          "comp_score": 0.24
         },
         {
           "keyword": "캬베피맥스",
@@ -8541,6 +8837,14 @@
           "comp_score": 1.27
         },
         {
+          "keyword": "잔스포츠도시락가방",
+          "category": "패션잡화 > 여성가방 > 백팩 | 패션잡화 > 남성가방 > 백팩 | 면세점 > 패션/잡화 > 가방 > 백팩 | 출산/육아 > 유아동잡화 > 가방 > 백팩",
+          "search": 400,
+          "products": 361,
+          "comp": "아주좋음",
+          "comp_score": 0.9
+        },
+        {
           "keyword": "세척쉬운텀블러",
           "category": "생활/건강 > 주방용품 > 잔/컵 > 텀블러",
           "search": 390,
@@ -8571,6 +8875,14 @@
           "products": 129,
           "comp": "아주좋음",
           "comp_score": 0.33
+        },
+        {
+          "keyword": "두산베어스가방",
+          "category": "패션잡화 > 여성가방 > 토트백 | 패션잡화 > 남성가방 > 토트백",
+          "search": 390,
+          "products": 345,
+          "comp": "아주좋음",
+          "comp_score": 0.88
         },
         {
           "keyword": "otters도마",
@@ -8733,6 +9045,14 @@
           "comp_score": 0.23
         },
         {
+          "keyword": "스파밀",
+          "category": "생활/건강 > 욕실용품 > 샤워/목욕용품 > 때타월/때장갑",
+          "search": 360,
+          "products": 104,
+          "comp": "아주좋음",
+          "comp_score": 0.29
+        },
+        {
           "keyword": "스메그수저통",
           "category": "생활/건강 > 주방용품 > 식기 > 수저통",
           "search": 350,
@@ -8885,6 +9205,14 @@
           "comp_score": 0.28
         },
         {
+          "keyword": "장칼",
+          "category": "생활/건강 > 문구/사무용품 > 문구용품 > 사무용칼",
+          "search": 330,
+          "products": 319,
+          "comp": "아주좋음",
+          "comp_score": 0.97
+        },
+        {
           "keyword": "모벨제이",
           "category": "생활/건강 > 주방용품 > 도마",
           "search": 320,
@@ -9027,6 +9355,14 @@
           "products": 135,
           "comp": "아주좋음",
           "comp_score": 0.45
+        },
+        {
+          "keyword": "판제기",
+          "category": "출산/육아 > 완구/인형 > 미술놀이 > 기타미술놀이",
+          "search": 300,
+          "products": 666,
+          "comp": "좋음",
+          "comp_score": 2.22
         }
       ]
     }
@@ -9041,6 +9377,14 @@
         "exclude_major_brand": true
       },
       "keywords": [
+        {
+          "keyword": "소변색깔",
+          "category": "생활/건강 > 건강관리용품 > 기타건강관리용품",
+          "search": 10720,
+          "products": 47,
+          "comp": "아주좋음",
+          "comp_score": 0
+        },
         {
           "keyword": "jbj세탁바구니",
           "category": "생활/건강 > 세탁용품 > 빨래바구니",
@@ -9080,6 +9424,14 @@
           "products": 222,
           "comp": "아주좋음",
           "comp_score": 0.15
+        },
+        {
+          "keyword": "세렌디피티초이스",
+          "category": "가구/인테리어 > 카페트/러그 > 발매트",
+          "search": 1310,
+          "products": 92,
+          "comp": "아주좋음",
+          "comp_score": 0.07
         },
         {
           "keyword": "운동화국민필터",
@@ -9162,6 +9514,14 @@
           "comp_score": 0.1
         },
         {
+          "keyword": "비케몰",
+          "category": "패션잡화 > 신발용품 > 신발깔창",
+          "search": 530,
+          "products": 186,
+          "comp": "아주좋음",
+          "comp_score": 0.35
+        },
+        {
           "keyword": "자주빨래바구니",
           "category": "생활/건강 > 세탁용품 > 빨래바구니",
           "search": 470,
@@ -9192,6 +9552,14 @@
           "products": 565,
           "comp": "아주좋음",
           "comp_score": 1.26
+        },
+        {
+          "keyword": "빠이염",
+          "category": "생활/건강 > 생활용품 > 세제/세정제 > 세탁보조제",
+          "search": 450,
+          "products": 18,
+          "comp": "아주좋음",
+          "comp_score": 0.04
         },
         {
           "keyword": "쁘띠워시빨래판",
