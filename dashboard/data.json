@@ -34,9 +34,20 @@
         "period": "최근 30일",
         "exclude_major_brand": true
       }
+    },
+    {
+      "category": "생활/건강 > 관상어용품",
+      "period": "최근 30일",
+      "collected_at": "2026-09-19",
+      "filter": {
+        "min_search": 300,
+        "max_products": 900,
+        "period": "최근 30일",
+        "exclude_major_brand": true
+      }
     }
   ],
-  "total_scanned": 612,
+  "total_scanned": 670,
   "keywords": [
     {
       "keyword": "맥도날드감튀홀더",
@@ -199,6 +210,16 @@
       "score": 362.27
     },
     {
+      "keyword": "백운산물고기",
+      "category": "생활/건강 > 관상어용품 > 수족관/어항",
+      "period": "최근 30일",
+      "search": 1400,
+      "products": 3,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 350.0
+    },
+    {
       "keyword": "다이소문진",
       "category": "생활/건강 > 화방용품 > 문진",
       "period": "최근 30일",
@@ -217,6 +238,16 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 320.56
+    },
+    {
+      "keyword": "보라성게",
+      "category": "출산/육아 > 교구 > 학습교구 > 자연/과학교구",
+      "period": "최근 30일",
+      "search": 1600,
+      "products": 4,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 320.0
     },
     {
       "keyword": "다이소폼보드",
@@ -429,6 +460,16 @@
       "score": 130.0
     },
     {
+      "keyword": "다이소기포기",
+      "category": "생활/건강 > 관상어용품 > 여과기/여과재",
+      "period": "최근 30일",
+      "search": 910,
+      "products": 6,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 130.0
+    },
+    {
       "keyword": "물바니안",
       "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
       "period": "최근 30일",
@@ -619,6 +660,16 @@
       "score": 82.5
     },
     {
+      "keyword": "키프트여과기",
+      "category": "생활/건강 > 관상어용품 > 여과기/여과재",
+      "period": "최근 30일",
+      "search": 630,
+      "products": 7,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 78.75
+    },
+    {
       "keyword": "다이소팔토시",
       "category": "생활/건강 > 화방용품 > 암워머/토시",
       "period": "최근 30일",
@@ -629,11 +680,31 @@
       "score": 72.45
     },
     {
+      "keyword": "다이소여과기",
+      "category": "생활/건강 > 관상어용품 > 여과기/여과재",
+      "period": "최근 30일",
+      "search": 1210,
+      "products": 16,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 71.18
+    },
+    {
       "keyword": "pv5카고중고",
       "category": "생활/건강 > 자동차용품 > 인테리어용품 > 차량용햇빛가리개",
       "period": "최근 30일",
       "search": 420,
       "products": 5,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 70.0
+    },
+    {
+      "keyword": "키과기",
+      "category": "생활/건강 > 관상어용품 > 여과기/여과재",
+      "period": "최근 30일",
+      "search": 350,
+      "products": 4,
       "comp": "아주좋음",
       "comp_score": null,
       "score": 70.0
@@ -899,6 +970,16 @@
       "score": 48.4
     },
     {
+      "keyword": "시아미즈알지이터",
+      "category": "생활/건강 > 원예/식물 > 테라리엄",
+      "period": "최근 30일",
+      "search": 530,
+      "products": 10,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 48.18
+    },
+    {
       "keyword": "pv5격벽",
       "category": "생활/건강 > 자동차용품 > 튜닝용품 > 기타튜닝용품",
       "period": "최근 30일",
@@ -1029,6 +1110,16 @@
       "score": 40.14
     },
     {
+      "keyword": "다이소어항여과기",
+      "category": "생활/건강 > 관상어용품 > 여과기/여과재",
+      "period": "최근 30일",
+      "search": 320,
+      "products": 7,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 40.0
+    },
+    {
       "keyword": "랜드바이슨",
       "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
       "period": "최근 30일",
@@ -1037,6 +1128,16 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 39.78
+    },
+    {
+      "keyword": "라스보라갤럭시",
+      "category": "생활/건강 > 관상어용품 > 수조장식용품",
+      "period": "최근 30일",
+      "search": 470,
+      "products": 11,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 39.17
     },
     {
       "keyword": "블리치메지루시",
@@ -1199,6 +1300,16 @@
       "score": 31.56
     },
     {
+      "keyword": "혹톡토기",
+      "category": "생활/건강 > 반려동물 > 소동물용품 > 파충류/곤충용품",
+      "period": "최근 30일",
+      "search": 410,
+      "products": 12,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 31.54
+    },
+    {
       "keyword": "오렌지캣레바테인",
       "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델",
       "period": "최근 30일",
@@ -1267,6 +1378,26 @@
       "comp": "",
       "comp_score": 0.03,
       "score": 29.38
+    },
+    {
+      "keyword": "다이소어항",
+      "category": "생활/건강 > 관상어용품 > 수족관/어항",
+      "period": "최근 30일",
+      "search": 2350,
+      "products": 79,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 29.38
+    },
+    {
+      "keyword": "데카메트린",
+      "category": "생활/건강 > 생활용품 > 해충퇴치용품 > 에어졸/스프레이",
+      "period": "최근 30일",
+      "search": 730,
+      "products": 24,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 29.2
     },
     {
       "keyword": "카밈",
@@ -1379,6 +1510,26 @@
       "score": 25.0
     },
     {
+      "keyword": "큐프라민",
+      "category": "생활/건강 > 관상어용품 > 수조청소용품",
+      "period": "최근 30일",
+      "search": 400,
+      "products": 15,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 25.0
+    },
+    {
+      "keyword": "징거미새우",
+      "category": "생활/건강 > 반려동물 > 기타반려동물용품",
+      "period": "최근 30일",
+      "search": 2300,
+      "products": 92,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 24.73
+    },
+    {
       "keyword": "다이소세차타올",
       "category": "생활/건강 > 자동차용품 > 세차용품 > 세차타월",
       "period": "최근 30일",
@@ -1407,6 +1558,16 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 24.12
+    },
+    {
+      "keyword": "뱀파이어크랩",
+      "category": "생활/건강 > 관상어용품 > 수조장식용품",
+      "period": "최근 30일",
+      "search": 1720,
+      "products": 71,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 23.89
     },
     {
       "keyword": "무한신성펜리르",
@@ -1467,6 +1628,26 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 22.75
+    },
+    {
+      "keyword": "자바모스",
+      "category": "생활/건강 > 관상어용품 > 여과기/여과재",
+      "period": "최근 30일",
+      "search": 750,
+      "products": 32,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 22.73
+    },
+    {
+      "keyword": "하늘바람집똥기",
+      "category": "생활/건강 > 관상어용품 > 여과기/여과재",
+      "period": "최근 30일",
+      "search": 590,
+      "products": 25,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 22.69
     },
     {
       "keyword": "라승규제작소",
@@ -1749,6 +1930,16 @@
       "score": 18.6
     },
     {
+      "keyword": "야마토새우",
+      "category": "생활/건강 > 관상어용품 > 수조장식용품",
+      "period": "최근 30일",
+      "search": 2870,
+      "products": 155,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 18.4
+    },
+    {
       "keyword": "해녀보드게임",
       "category": "생활/건강 > 수집품 > 게임 > 보드게임",
       "period": "최근 30일",
@@ -1757,6 +1948,16 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 18.16
+    },
+    {
+      "keyword": "오토싱물고기",
+      "category": "생활/건강 > 관상어용품 > 사료",
+      "period": "최근 30일",
+      "search": 1030,
+      "products": 56,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 18.07
     },
     {
       "keyword": "레드벨벳lp",
@@ -1797,6 +1998,16 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 17.88
+    },
+    {
+      "keyword": "하스타투스",
+      "category": "생활/건강 > 관상어용품 > 수조장식용품",
+      "period": "최근 30일",
+      "search": 1670,
+      "products": 93,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 17.77
     },
     {
       "keyword": "쫀냐미",
@@ -1904,6 +2115,16 @@
       "period": "최근 30일",
       "search": 1080,
       "products": 71,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 15.0
+    },
+    {
+      "keyword": "아마조니아소일",
+      "category": "생활/건강 > 관상어용품 > 여과기/여과재",
+      "period": "최근 30일",
+      "search": 360,
+      "products": 23,
       "comp": "아주좋음",
       "comp_score": null,
       "score": 15.0
@@ -2069,6 +2290,16 @@
       "score": 13.26
     },
     {
+      "keyword": "다이소어항용품",
+      "category": "생활/건강 > 관상어용품 > 수족관/어항",
+      "period": "최근 30일",
+      "search": 900,
+      "products": 67,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 13.24
+    },
+    {
       "keyword": "하투하인형",
       "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 모형",
       "period": "최근 30일",
@@ -2227,6 +2458,16 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 11.57
+    },
+    {
+      "keyword": "원스팜",
+      "category": "생활/건강 > 관상어용품 > 수족관/어항",
+      "period": "최근 30일",
+      "search": 4450,
+      "products": 400,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 11.1
     },
     {
       "keyword": "코코지정리함",
@@ -2539,6 +2780,16 @@
       "score": 8.69
     },
     {
+      "keyword": "물벼룩",
+      "category": "생활/건강 > 관상어용품 > 사료",
+      "period": "최근 30일",
+      "search": 7400,
+      "products": 852,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 8.68
+    },
+    {
       "keyword": "슬라이드폰가챠",
       "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
       "period": "최근 30일",
@@ -2599,6 +2850,16 @@
       "score": 8.41
     },
     {
+      "keyword": "블러드메리새우",
+      "category": "생활/건강 > 관상어용품 > 수조장식용품",
+      "period": "최근 30일",
+      "search": 760,
+      "products": 90,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 8.35
+    },
+    {
       "keyword": "오지는상점",
       "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
       "period": "최근 30일",
@@ -2657,6 +2918,16 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 8.1
+    },
+    {
+      "keyword": "라미네지",
+      "category": "생활/건강 > 관상어용품 > 수조장식용품",
+      "period": "최근 30일",
+      "search": 450,
+      "products": 55,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 8.04
     },
     {
       "keyword": "쿠지판다",
@@ -2757,6 +3028,16 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 7.46
+    },
+    {
+      "keyword": "새우에진심",
+      "category": "생활/건강 > 관상어용품 > 수조장식용품",
+      "period": "최근 30일",
+      "search": 5190,
+      "products": 697,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 7.44
     },
     {
       "keyword": "에이드로바디킷",
@@ -2897,6 +3178,16 @@
       "comp": "",
       "comp_score": 0.14,
       "score": 6.92
+    },
+    {
+      "keyword": "그로잇수초",
+      "category": "생활/건강 > 관상어용품 > 수초",
+      "period": "최근 30일",
+      "search": 430,
+      "products": 62,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 6.83
     },
     {
       "keyword": "소울이터",
@@ -3087,6 +3378,16 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 6.18
+    },
+    {
+      "keyword": "안시롱핀",
+      "category": "스포츠/레저 > 수영 > 수영용품 > 오리발",
+      "period": "최근 30일",
+      "search": 760,
+      "products": 125,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 6.03
     },
     {
       "keyword": "남다른가게",
@@ -3569,6 +3870,16 @@
       "score": 4.49
     },
     {
+      "keyword": "골든백새우",
+      "category": "생활/건강 > 관상어용품 > 수조장식용품",
+      "period": "최근 30일",
+      "search": 440,
+      "products": 98,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 4.44
+    },
+    {
       "keyword": "교보문고차량용방향제",
       "category": "생활/건강 > 자동차용품 > 공기청정용품 > 차량용방향제",
       "period": "최근 30일",
@@ -3789,6 +4100,16 @@
       "score": 3.81
     },
     {
+      "keyword": "생이가래",
+      "category": "생활/건강 > 관상어용품 > 수초",
+      "period": "최근 30일",
+      "search": 530,
+      "products": 138,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 3.81
+    },
+    {
       "keyword": "벤딕트핸들커버",
       "category": "생활/건강 > 자동차용품 > 인테리어용품 > 핸들커버",
       "period": "최근 30일",
@@ -3949,6 +4270,16 @@
       "score": 3.55
     },
     {
+      "keyword": "도둑게먹이",
+      "category": "생활/건강 > 관상어용품 > 사료",
+      "period": "최근 30일",
+      "search": 1020,
+      "products": 296,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 3.43
+    },
+    {
       "keyword": "전차종락카",
       "category": "생활/건강 > 자동차용품 > DIY용품 > 도색용품",
       "period": "최근 30일",
@@ -3957,6 +4288,16 @@
       "comp": "",
       "comp_score": 0.29,
       "score": 3.37
+    },
+    {
+      "keyword": "진주린",
+      "category": "생활/건강 > 관상어용품 > 수조장식용품",
+      "period": "최근 30일",
+      "search": 1370,
+      "products": 409,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 3.34
     },
     {
       "keyword": "스테인포스",
@@ -4039,6 +4380,16 @@
       "score": 3.11
     },
     {
+      "keyword": "qq1500",
+      "category": "생활/건강 > 관상어용품 > 여과기/여과재",
+      "period": "최근 30일",
+      "search": 410,
+      "products": 131,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 3.11
+    },
+    {
       "keyword": "준보랜드",
       "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
       "period": "최근 30일",
@@ -4099,6 +4450,16 @@
       "score": 2.94
     },
     {
+      "keyword": "트윈스타조명",
+      "category": "생활/건강 > 관상어용품 > 조명",
+      "period": "최근 30일",
+      "search": 1770,
+      "products": 615,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 2.87
+    },
+    {
       "keyword": "누수몬스터",
       "category": "생활/건강 > 화방용품 > 염료",
       "period": "최근 30일",
@@ -4107,6 +4468,16 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 2.85
+    },
+    {
+      "keyword": "미크로소리움",
+      "category": "생활/건강 > 관상어용품 > 수초",
+      "period": "최근 30일",
+      "search": 1670,
+      "products": 588,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 2.84
     },
     {
       "keyword": "노꼼수",
@@ -4779,6 +5150,16 @@
       "score": 1.83
     },
     {
+      "keyword": "대일냉각기",
+      "category": "생활/건강 > 관상어용품 > 히터",
+      "period": "최근 30일",
+      "search": 1220,
+      "products": 666,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 1.83
+    },
+    {
       "keyword": "불스원밸런스온",
       "category": "생활/건강 > 자동차용품 > 인테리어용품 > 차량용방석",
       "period": "최근 30일",
@@ -4856,6 +5237,16 @@
       "products": 364,
       "comp": "아주좋음",
       "comp_score": 0.62,
+      "score": 1.7
+    },
+    {
+      "keyword": "물배추",
+      "category": "생활/건강 > 원예/식물 > 수경식물",
+      "period": "최근 30일",
+      "search": 880,
+      "products": 517,
+      "comp": "아주좋음",
+      "comp_score": null,
       "score": 1.7
     },
     {
@@ -4954,6 +5345,16 @@
       "period": "최근 30일",
       "search": 920,
       "products": 578,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 1.59
+    },
+    {
+      "keyword": "시포락스",
+      "category": "생활/건강 > 관상어용품 > 여과기/여과재",
+      "period": "최근 30일",
+      "search": 370,
+      "products": 232,
       "comp": "아주좋음",
       "comp_score": null,
       "score": 1.59
@@ -5159,6 +5560,26 @@
       "score": 1.29
     },
     {
+      "keyword": "갑오징어뼈",
+      "category": "생활/건강 > 반려동물 > 소동물용품 > 조류용품",
+      "period": "최근 30일",
+      "search": 880,
+      "products": 680,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 1.29
+    },
+    {
+      "keyword": "사쿠라새우",
+      "category": "생활/건강 > 관상어용품 > 수조장식용품",
+      "period": "최근 30일",
+      "search": 300,
+      "products": 232,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 1.29
+    },
+    {
       "keyword": "다이소면장갑",
       "category": "생활/건강 > 화방용품 > 안전장갑",
       "period": "최근 30일",
@@ -5177,6 +5598,16 @@
       "comp": "",
       "comp_score": 0.79,
       "score": 1.27
+    },
+    {
+      "keyword": "다이소스펀지여과기",
+      "category": "생활/건강 > 관상어용품 > 여과기/여과재",
+      "period": "최근 30일",
+      "search": 310,
+      "products": 247,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 1.25
     },
     {
       "keyword": "킹스텝",
@@ -5369,6 +5800,16 @@
       "score": 1.06
     },
     {
+      "keyword": "에하임프리필터",
+      "category": "생활/건강 > 관상어용품 > 여과기/여과재",
+      "period": "최근 30일",
+      "search": 300,
+      "products": 283,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 1.06
+    },
+    {
       "keyword": "두부니퍼",
       "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 프라모델용품",
       "period": "최근 30일",
@@ -5426,6 +5867,16 @@
       "products": 551,
       "comp": "",
       "comp_score": 0.98,
+      "score": 1.01
+    },
+    {
+      "keyword": "에하임2213",
+      "category": "생활/건강 > 관상어용품 > 여과기/여과재",
+      "period": "최근 30일",
+      "search": 670,
+      "products": 665,
+      "comp": "아주좋음",
+      "comp_score": null,
       "score": 1.01
     },
     {
@@ -5649,6 +6100,26 @@
       "score": 0.83
     },
     {
+      "keyword": "황호석",
+      "category": "생활/건강 > 관상어용품 > 수조장식용품",
+      "period": "최근 30일",
+      "search": 720,
+      "products": 882,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 0.82
+    },
+    {
+      "keyword": "에하임2217",
+      "category": "생활/건강 > 관상어용품 > 여과기/여과재",
+      "period": "최근 30일",
+      "search": 550,
+      "products": 673,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 0.82
+    },
+    {
       "keyword": "타이거다즐러",
       "category": "생활/건강 > 자동차용품 > 공기청정용품 > 차량용방향제",
       "period": "최근 30일",
@@ -5694,6 +6165,16 @@
       "period": "최근 30일",
       "search": 360,
       "products": 463,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 0.78
+    },
+    {
+      "keyword": "냉동장구벌레",
+      "category": "생활/건강 > 관상어용품 > 사료",
+      "period": "최근 30일",
+      "search": 640,
+      "products": 820,
       "comp": "아주좋음",
       "comp_score": null,
       "score": 0.78
@@ -5919,6 +6400,16 @@
       "score": 0.66
     },
     {
+      "keyword": "멜라픽스",
+      "category": "생활/건강 > 관상어용품 > 수조청소용품",
+      "period": "최근 30일",
+      "search": 350,
+      "products": 528,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 0.66
+    },
+    {
       "keyword": "카니발시트백테이블",
       "category": "생활/건강 > 자동차용품 > 수납용품 > 차량용테이블",
       "period": "최근 30일",
@@ -5936,6 +6427,16 @@
       "products": 503,
       "comp": "",
       "comp_score": 1.52,
+      "score": 0.65
+    },
+    {
+      "keyword": "영남브로와",
+      "category": "생활/건강 > 관상어용품 > 에어/기포",
+      "period": "최근 30일",
+      "search": 470,
+      "products": 717,
+      "comp": "아주좋음",
+      "comp_score": null,
       "score": 0.65
     },
     {
@@ -6019,6 +6520,46 @@
       "score": 0.62
     },
     {
+      "keyword": "브라인쉬림프에그",
+      "category": "생활/건강 > 관상어용품 > 사료",
+      "period": "최근 30일",
+      "search": 510,
+      "products": 823,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 0.62
+    },
+    {
+      "keyword": "2자슬림어항",
+      "category": "생활/건강 > 관상어용품 > 수족관/어항",
+      "period": "최근 30일",
+      "search": 330,
+      "products": 528,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 0.62
+    },
+    {
+      "keyword": "탈각알테미아",
+      "category": "생활/건강 > 관상어용품 > 사료",
+      "period": "최근 30일",
+      "search": 440,
+      "products": 725,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 0.61
+    },
+    {
+      "keyword": "에하임2215",
+      "category": "생활/건강 > 관상어용품 > 여과기/여과재",
+      "period": "최근 30일",
+      "search": 420,
+      "products": 683,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 0.61
+    },
+    {
       "keyword": "타이어모빌리티키트",
       "category": "생활/건강 > 자동차용품 > 타이어/휠 > 타이어용품",
       "period": "최근 30일",
@@ -6079,6 +6620,16 @@
       "score": 0.51
     },
     {
+      "keyword": "무균수초",
+      "category": "생활/건강 > 관상어용품 > 수초",
+      "period": "최근 30일",
+      "search": 380,
+      "products": 739,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 0.51
+    },
+    {
       "keyword": "pv5썬바이저",
       "category": "생활/건강 > 자동차용품 > 익스테리어용품 > 선바이저",
       "period": "최근 30일",
@@ -6119,6 +6670,16 @@
       "score": 0.47
     },
     {
+      "keyword": "아누비아스",
+      "category": "생활/건강 > 관상어용품 > 수초",
+      "period": "최근 30일",
+      "search": 400,
+      "products": 882,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 0.45
+    },
+    {
       "keyword": "모이스처업소번트",
       "category": "생활/건강 > 자동차용품 > 램프 > 기타램프용품",
       "period": "최근 30일",
@@ -6127,6 +6688,16 @@
       "comp": "",
       "comp_score": 2.26,
       "score": 0.44
+    },
+    {
+      "keyword": "그루터기유목",
+      "category": "생활/건강 > 관상어용품 > 수조장식용품",
+      "period": "최근 30일",
+      "search": 310,
+      "products": 718,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 0.43
     },
     {
       "keyword": "din60hl",
@@ -6157,6 +6728,26 @@
       "comp": "아주좋음",
       "comp_score": null,
       "score": 0.39
+    },
+    {
+      "keyword": "폴리나젤스펀지",
+      "category": "생활/건강 > 관상어용품 > 여과기/여과재",
+      "period": "최근 30일",
+      "search": 340,
+      "products": 871,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 0.39
+    },
+    {
+      "keyword": "해파리키우기세트",
+      "category": "생활/건강 > 관상어용품 > 수족관/어항",
+      "period": "최근 30일",
+      "search": 310,
+      "products": 898,
+      "comp": "아주좋음",
+      "comp_score": null,
+      "score": 0.34
     }
   ]
 }

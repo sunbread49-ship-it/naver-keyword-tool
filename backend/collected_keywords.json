@@ -4351,5 +4351,424 @@
         }
       ]
     }
+  },
+  "생활/건강 > 관상어용품": {
+    "최근 30일": {
+      "collected_at": "2026-09-19",
+      "filter": {
+        "min_search": 300,
+        "max_products": 900,
+        "period": "최근 30일",
+        "exclude_major_brand": true
+      },
+      "keywords": [
+        {
+          "keyword": "물벼룩",
+          "category": "생활/건강 > 관상어용품 > 사료",
+          "search": 7400,
+          "products": 852,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "새우에진심",
+          "category": "생활/건강 > 관상어용품 > 수조장식용품",
+          "search": 5190,
+          "products": 697,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "원스팜",
+          "category": "생활/건강 > 관상어용품 > 수족관/어항",
+          "search": 4450,
+          "products": 400,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "야마토새우",
+          "category": "생활/건강 > 관상어용품 > 수조장식용품",
+          "search": 2870,
+          "products": 155,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "다이소어항",
+          "category": "생활/건강 > 관상어용품 > 수족관/어항",
+          "search": 2350,
+          "products": 79,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "징거미새우",
+          "category": "생활/건강 > 반려동물 > 기타반려동물용품",
+          "search": 2300,
+          "products": 92,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "트윈스타조명",
+          "category": "생활/건강 > 관상어용품 > 조명",
+          "search": 1770,
+          "products": 615,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "뱀파이어크랩",
+          "category": "생활/건강 > 관상어용품 > 수조장식용품",
+          "search": 1720,
+          "products": 71,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "하스타투스",
+          "category": "생활/건강 > 관상어용품 > 수조장식용품",
+          "search": 1670,
+          "products": 93,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "미크로소리움",
+          "category": "생활/건강 > 관상어용품 > 수초",
+          "search": 1670,
+          "products": 588,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "보라성게",
+          "category": "출산/육아 > 교구 > 학습교구 > 자연/과학교구",
+          "search": 1600,
+          "products": 4,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "백운산물고기",
+          "category": "생활/건강 > 관상어용품 > 수족관/어항",
+          "search": 1400,
+          "products": 3,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "진주린",
+          "category": "생활/건강 > 관상어용품 > 수조장식용품",
+          "search": 1370,
+          "products": 409,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "대일냉각기",
+          "category": "생활/건강 > 관상어용품 > 히터",
+          "search": 1220,
+          "products": 666,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "다이소여과기",
+          "category": "생활/건강 > 관상어용품 > 여과기/여과재",
+          "search": 1210,
+          "products": 16,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "오토싱물고기",
+          "category": "생활/건강 > 관상어용품 > 사료",
+          "search": 1030,
+          "products": 56,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "도둑게먹이",
+          "category": "생활/건강 > 관상어용품 > 사료",
+          "search": 1020,
+          "products": 296,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "다이소기포기",
+          "category": "생활/건강 > 관상어용품 > 여과기/여과재",
+          "search": 910,
+          "products": 6,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "다이소어항용품",
+          "category": "생활/건강 > 관상어용품 > 수족관/어항",
+          "search": 900,
+          "products": 67,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "갑오징어뼈",
+          "category": "생활/건강 > 반려동물 > 소동물용품 > 조류용품",
+          "search": 880,
+          "products": 680,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "물배추",
+          "category": "생활/건강 > 원예/식물 > 수경식물",
+          "search": 880,
+          "products": 517,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "블러드메리새우",
+          "category": "생활/건강 > 관상어용품 > 수조장식용품",
+          "search": 760,
+          "products": 90,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "안시롱핀",
+          "category": "스포츠/레저 > 수영 > 수영용품 > 오리발",
+          "search": 760,
+          "products": 125,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "자바모스",
+          "category": "생활/건강 > 관상어용품 > 여과기/여과재",
+          "search": 750,
+          "products": 32,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "데카메트린",
+          "category": "생활/건강 > 생활용품 > 해충퇴치용품 > 에어졸/스프레이",
+          "search": 730,
+          "products": 24,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "황호석",
+          "category": "생활/건강 > 관상어용품 > 수조장식용품",
+          "search": 720,
+          "products": 882,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "에하임2213",
+          "category": "생활/건강 > 관상어용품 > 여과기/여과재",
+          "search": 670,
+          "products": 665,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "냉동장구벌레",
+          "category": "생활/건강 > 관상어용품 > 사료",
+          "search": 640,
+          "products": 820,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "키프트여과기",
+          "category": "생활/건강 > 관상어용품 > 여과기/여과재",
+          "search": 630,
+          "products": 7,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "하늘바람집똥기",
+          "category": "생활/건강 > 관상어용품 > 여과기/여과재",
+          "search": 590,
+          "products": 25,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "에하임2217",
+          "category": "생활/건강 > 관상어용품 > 여과기/여과재",
+          "search": 550,
+          "products": 673,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "시아미즈알지이터",
+          "category": "생활/건강 > 원예/식물 > 테라리엄",
+          "search": 530,
+          "products": 10,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "생이가래",
+          "category": "생활/건강 > 관상어용품 > 수초",
+          "search": 530,
+          "products": 138,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "브라인쉬림프에그",
+          "category": "생활/건강 > 관상어용품 > 사료",
+          "search": 510,
+          "products": 823,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "라스보라갤럭시",
+          "category": "생활/건강 > 관상어용품 > 수조장식용품",
+          "search": 470,
+          "products": 11,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "영남브로와",
+          "category": "생활/건강 > 관상어용품 > 에어/기포",
+          "search": 470,
+          "products": 717,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "라미네지",
+          "category": "생활/건강 > 관상어용품 > 수조장식용품",
+          "search": 450,
+          "products": 55,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "탈각알테미아",
+          "category": "생활/건강 > 관상어용품 > 사료",
+          "search": 440,
+          "products": 725,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "골든백새우",
+          "category": "생활/건강 > 관상어용품 > 수조장식용품",
+          "search": 440,
+          "products": 98,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "그로잇수초",
+          "category": "생활/건강 > 관상어용품 > 수초",
+          "search": 430,
+          "products": 62,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "에하임2215",
+          "category": "생활/건강 > 관상어용품 > 여과기/여과재",
+          "search": 420,
+          "products": 683,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "혹톡토기",
+          "category": "생활/건강 > 반려동물 > 소동물용품 > 파충류/곤충용품",
+          "search": 410,
+          "products": 12,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "qq1500",
+          "category": "생활/건강 > 관상어용품 > 여과기/여과재",
+          "search": 410,
+          "products": 131,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "큐프라민",
+          "category": "생활/건강 > 관상어용품 > 수조청소용품",
+          "search": 400,
+          "products": 15,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "아누비아스",
+          "category": "생활/건강 > 관상어용품 > 수초",
+          "search": 400,
+          "products": 882,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "무균수초",
+          "category": "생활/건강 > 관상어용품 > 수초",
+          "search": 380,
+          "products": 739,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "시포락스",
+          "category": "생활/건강 > 관상어용품 > 여과기/여과재",
+          "search": 370,
+          "products": 232,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "아마조니아소일",
+          "category": "생활/건강 > 관상어용품 > 여과기/여과재",
+          "search": 360,
+          "products": 23,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "멜라픽스",
+          "category": "생활/건강 > 관상어용품 > 수조청소용품",
+          "search": 350,
+          "products": 528,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "키과기",
+          "category": "생활/건강 > 관상어용품 > 여과기/여과재",
+          "search": 350,
+          "products": 4,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "폴리나젤스펀지",
+          "category": "생활/건강 > 관상어용품 > 여과기/여과재",
+          "search": 340,
+          "products": 871,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "2자슬림어항",
+          "category": "생활/건강 > 관상어용품 > 수족관/어항",
+          "search": 330,
+          "products": 528,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "다이소어항여과기",
+          "category": "생활/건강 > 관상어용품 > 여과기/여과재",
+          "search": 320,
+          "products": 7,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "그루터기유목",
+          "category": "생활/건강 > 관상어용품 > 수조장식용품",
+          "search": 310,
+          "products": 718,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "해파리키우기세트",
+          "category": "생활/건강 > 관상어용품 > 수족관/어항",
+          "search": 310,
+          "products": 898,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "다이소스펀지여과기",
+          "category": "생활/건강 > 관상어용품 > 여과기/여과재",
+          "search": 310,
+          "products": 247,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "사쿠라새우",
+          "category": "생활/건강 > 관상어용품 > 수조장식용품",
+          "search": 300,
+          "products": 232,
+          "comp": "아주좋음"
+        },
+        {
+          "keyword": "에하임프리필터",
+          "category": "생활/건강 > 관상어용품 > 여과기/여과재",
+          "search": 300,
+          "products": 283,
+          "comp": "아주좋음"
+        }
+      ]
+    }
   }
 }
