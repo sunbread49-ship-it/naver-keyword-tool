@@ -154,6 +154,27 @@
     color: var(--muted);
     font-size: 11px;
   }
+  .bulkbar {
+    display: flex; align-items: center; gap: 12px;
+    padding: 10px 32px; background: var(--surface);
+    border-bottom: 1px solid var(--border);
+  }
+  .bulkbar button, .del-head button {
+    font-size: 13px; padding: 6px 14px; border-radius: 6px;
+    border: 1px solid var(--border); cursor: pointer;
+    background: #d64545; color: #fff;
+  }
+  .bulkbar button:disabled { opacity: .4; cursor: not-allowed; }
+  button.ghost { background: var(--surface-2) !important; color: var(--text) !important; }
+  .bulk-info { font-size: 12px; color: var(--muted); }
+  .bulk-spacer { flex: 1; }
+  th.chk, td.chk { width: 32px; text-align: center !important; }
+  tr.sel td { background: rgba(214,69,69,.10); }
+  .del-panel { padding: 12px 32px; background: var(--surface-2); border-bottom: 1px solid var(--border); }
+  .del-head { display: flex; align-items: center; gap: 10px; font-size: 13px; margin-bottom: 8px; }
+  #delList { display: flex; flex-wrap: wrap; gap: 6px; max-height: 160px; overflow: auto; }
+  .del-chip { font-size: 12px; padding: 3px 8px; border-radius: 999px; background: var(--surface); border: 1px solid var(--border); cursor: pointer; }
+  .del-chip:hover { text-decoration: line-through; }
 </style>
 </head>
 <body>
@@ -171,6 +192,9 @@
     </label>
     <label>제외 키워드 (콤마로 구분)
       <input type="text" id="excludeWords" placeholder="예: 다이소, 조말론" style="width:220px">
+    </label>
+    <label>검색 키워드 (포함된 것만 표시)
+      <input type="text" id="searchWord" placeholder="예: 다이소" style="width:160px">
     </label>
     <label>기간
       <select id="periodFilter" style="width:160px"></select>
@@ -193,10 +217,26 @@
 
   <div class="cat-list" id="catList"></div>
 
+  <div class="bulkbar">
+    <button id="btnDelete" disabled>선택 삭제 (0)</button>
+    <span class="bulk-info" id="bulkInfo"></span>
+    <span class="bulk-spacer"></span>
+    <button id="btnDeleted" class="ghost">삭제한 키워드 <span id="delCount">0</span>개 관리</button>
+  </div>
+  <div class="del-panel" id="delPanel" style="display:none;">
+    <div class="del-head">
+      <b>삭제한 키워드</b> (이 브라우저에 저장됨, 새로 수집된 데이터에도 계속 숨김 적용 · 칩을 클릭하면 복원)
+      <button id="btnCopyDel" class="ghost">목록 복사</button>
+      <button id="btnRestoreAll" class="ghost">전체 복원</button>
+    </div>
+    <div id="delList"></div>
+  </div>
+
   <main>
     <table id="table">
       <thead>
         <tr>
+          <th class="chk"><input type="checkbox" id="chkAll" title="현재 표시된 행 전체 선택"></th>
           <th data-key="keyword" style="text-align:left">키워드</th>
           <th data-key="category" style="text-align:left">대표 카테고리</th>
           <th data-key="period" style="text-align:left">기간</th>
@@ -217,6 +257,18 @@
 let RAW = { keywords: [], generated_at: null, total_scanned: 0, runs_covered: [] };
 let sortKey = "score";
 let sortDir = -1;
+let DELETED = new Set();
+let SELECTED = new Set();
+let VISIBLE = [];
+let lastChecked = null;
+
+try { DELETED = new Set(JSON.parse(localStorage.getItem("deletedKeywords") || "[]")); } catch (e) {}
+function saveDeleted() {
+  try { localStorage.setItem("deletedKeywords", JSON.stringify([...DELETED])); } catch (e) {}
+}
+function esc(s) {
+  return String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+}
 
 async function loadData() {
   try {
@@ -262,12 +314,15 @@ function render() {
     .map(w => w.trim().toLowerCase())
     .filter(w => w.length > 0);
   try { localStorage.setItem("excludeWords", document.getElementById("excludeWords").value); } catch (e) {}
+  const searchWord = document.getElementById("searchWord").value.trim().toLowerCase();
 
   let rows = (RAW.keywords || []).filter(r => {
     if ((r.search || 0) < minSearch) return false;
     if ((r.products ?? 0) > maxProducts) return false;
     if (periodFilter && r.period !== periodFilter) return false;
     if (excludeWords.some(w => r.keyword.toLowerCase().includes(w))) return false;
+    if (DELETED.has(r.keyword)) return false;
+    if (searchWord && !r.keyword.toLowerCase().includes(searchWord)) return false;
     return true;
   });
 
@@ -277,6 +332,7 @@ function render() {
     return sortDir * (av - bv);
   });
 
+  VISIBLE = rows;
   const maxScore = Math.max(1, ...rows.map(r => r.score || 0));
 
   document.getElementById("statFiltered").textContent = rows.length;
@@ -289,8 +345,10 @@ function render() {
 
   for (const r of rows) {
     const tr = document.createElement("tr");
+    if (SELECTED.has(r.keyword)) tr.className = "sel";
     tr.innerHTML = `
-      <td class="kw">${r.keyword}</td>
+      <td class="chk"><input type="checkbox" class="rowchk" data-kw="${esc(r.keyword)}" ${SELECTED.has(r.keyword) ? "checked" : ""}></td>
+      <td class="kw">${esc(r.keyword)}</td>
       <td>${r.category || "-"}</td>
       <td>${r.period || "-"}</td>
       <td>${(r.search ?? 0).toLocaleString()}</td>
@@ -303,7 +361,80 @@ function render() {
     `;
     tbody.appendChild(tr);
   }
+  updateBulk();
 }
+
+function updateBulk() {
+  const visibleKw = new Set(VISIBLE.map(r => r.keyword));
+  for (const k of [...SELECTED]) if (!visibleKw.has(k)) SELECTED.delete(k);
+  const n = SELECTED.size;
+  const btn = document.getElementById("btnDelete");
+  btn.textContent = `선택 삭제 (${n})`;
+  btn.disabled = n === 0;
+  document.getElementById("bulkInfo").textContent = `현재 표시 ${VISIBLE.length}개`;
+  document.getElementById("delCount").textContent = DELETED.size;
+  const all = document.getElementById("chkAll");
+  all.checked = VISIBLE.length > 0 && n === VISIBLE.length;
+  all.indeterminate = n > 0 && n < VISIBLE.length;
+}
+
+function renderDelPanel() {
+  const el = document.getElementById("delList");
+  const list = [...DELETED].sort();
+  el.innerHTML = list.length
+    ? list.map(k => `<span class="del-chip" data-kw="${esc(k)}" title="클릭하면 복원">${esc(k)}</span>`).join("")
+    : '<span class="bulk-info">삭제한 키워드가 없습니다.</span>';
+}
+
+document.getElementById("tbody").addEventListener("click", e => {
+  const cb = e.target.closest(".rowchk");
+  if (!cb) return;
+  const kw = cb.dataset.kw;
+  if (e.shiftKey && lastChecked !== null) {
+    const idx = VISIBLE.map(r => r.keyword);
+    const a = idx.indexOf(lastChecked), b = idx.indexOf(kw);
+    if (a >= 0 && b >= 0) {
+      for (let i = Math.min(a, b); i <= Math.max(a, b); i++) {
+        if (cb.checked) SELECTED.add(idx[i]); else SELECTED.delete(idx[i]);
+      }
+    }
+  } else if (cb.checked) SELECTED.add(kw); else SELECTED.delete(kw);
+  lastChecked = kw;
+  render();
+});
+document.getElementById("chkAll").addEventListener("change", e => {
+  if (e.target.checked) VISIBLE.forEach(r => SELECTED.add(r.keyword)); else SELECTED.clear();
+  render();
+});
+document.getElementById("btnDelete").addEventListener("click", () => {
+  if (!SELECTED.size) return;
+  SELECTED.forEach(k => DELETED.add(k));
+  SELECTED.clear();
+  saveDeleted();
+  renderDelPanel();
+  render();
+});
+document.getElementById("btnDeleted").addEventListener("click", () => {
+  const p = document.getElementById("delPanel");
+  p.style.display = p.style.display === "none" ? "block" : "none";
+  renderDelPanel();
+});
+document.getElementById("delList").addEventListener("click", e => {
+  const c = e.target.closest(".del-chip");
+  if (!c) return;
+  DELETED.delete(c.dataset.kw);
+  saveDeleted(); renderDelPanel(); render();
+});
+document.getElementById("btnRestoreAll").addEventListener("click", () => {
+  if (!DELETED.size || !confirm(`삭제한 ${DELETED.size}개 키워드를 모두 복원할까요?`)) return;
+  DELETED.clear(); saveDeleted(); renderDelPanel(); render();
+});
+document.getElementById("btnCopyDel").addEventListener("click", async () => {
+  const txt = [...DELETED].join("\n");
+  try { await navigator.clipboard.writeText(txt); alert(`${DELETED.size}개 복사됨`); }
+  catch (e) { prompt("복사하세요", txt); }
+});
+document.getElementById("searchWord").addEventListener("input", () => { SELECTED.clear(); render(); });
 
 document.querySelectorAll("th[data-key]").forEach(th => {
   th.addEventListener("click", () => {
