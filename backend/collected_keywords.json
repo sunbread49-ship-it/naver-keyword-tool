@@ -25487,5 +25487,6522 @@
         }
       ]
     }
+  },
+  "패션잡화 > 양말": {
+    "최근 30일": {
+      "collected_at": "2026-09-20",
+      "filter": {
+        "min_search": 300,
+        "max_products": 900,
+        "period": "최근 30일",
+        "exclude_major_brand": true
+      },
+      "keywords": [
+        {
+          "keyword": "나우어데이즈",
+          "category": "패션잡화 > 양말 > 여성양말 > 중목/장목양말 | 패션잡화 > 양말 > 남성양말 > 중목/장목양말",
+          "search": 12230,
+          "products": 319,
+          "comp": "아주좋음",
+          "comp_score": 0.03
+        },
+        {
+          "keyword": "c2러닝양말",
+          "category": "패션잡화 > 양말 > 여성양말 > 스포츠양말",
+          "search": 7490,
+          "products": 45,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "써스아일랜드",
+          "category": "패션의류 > 여성의류 > 블라우스/셔츠",
+          "search": 6040,
+          "products": 17,
+          "comp": "아주좋음",
+          "comp_score": 0
+        },
+        {
+          "keyword": "박진영발가락양말",
+          "category": "패션잡화 > 양말 > 여성양말 > 발가락양말 | 패션잡화 > 양말 > 남성양말 > 발가락양말",
+          "search": 4820,
+          "products": 70,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "다이소양말",
+          "category": "패션잡화 > 양말 > 여성양말 > 중목/장목양말",
+          "search": 3840,
+          "products": 645,
+          "comp": "아주좋음",
+          "comp_score": 0.17
+        },
+        {
+          "keyword": "삭스유스",
+          "category": "패션잡화 > 양말 > 여성양말 > 스포츠양말 | 패션잡화 > 양말 > 남성양말 > 스포츠양말",
+          "search": 3440,
+          "products": 579,
+          "comp": "아주좋음",
+          "comp_score": 0.17
+        },
+        {
+          "keyword": "차정원양말",
+          "category": "패션잡화 > 양말 > 여성양말 > 중목/장목양말 | 패션잡화 > 양말 > 남성양말 > 중목/장목양말",
+          "search": 3340,
+          "products": 84,
+          "comp": "아주좋음",
+          "comp_score": 0.03
+        },
+        {
+          "keyword": "단미프로젝트",
+          "category": "패션잡화 > 양말 > 여성양말 > 중목/장목양말",
+          "search": 3140,
+          "products": 11,
+          "comp": "아주좋음",
+          "comp_score": 0
+        },
+        {
+          "keyword": "발가락양말효과",
+          "category": "패션잡화 > 양말 > 여성양말 > 발가락양말",
+          "search": 2750,
+          "products": 238,
+          "comp": "아주좋음",
+          "comp_score": 0.09
+        },
+        {
+          "keyword": "다이소발가락양말",
+          "category": "스포츠/레저 > 요가/필라테스 > 기타요가용품",
+          "search": 2580,
+          "products": 15,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "두발로양말",
+          "category": "패션잡화 > 양말 > 여성양말 > 중목/장목양말",
+          "search": 2460,
+          "products": 388,
+          "comp": "아주좋음",
+          "comp_score": 0.16
+        },
+        {
+          "keyword": "레드닥터",
+          "category": "패션잡화 > 신발용품 > 신발깔창",
+          "search": 2130,
+          "products": 571,
+          "comp": "아주좋음",
+          "comp_score": 0.27
+        },
+        {
+          "keyword": "다이소무압박양말",
+          "category": "패션잡화 > 양말 > 여성양말 > 수면양말 | 패션잡화 > 양말 > 남성양말 > 수면양말",
+          "search": 2030,
+          "products": 14,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "솔리디아압박스타킹",
+          "category": "패션잡화 > 패션소품 > 스타킹 > 압박보정스타킹",
+          "search": 1990,
+          "products": 33,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "삭스업",
+          "category": "패션잡화 > 양말 > 여성양말 > 스포츠양말 | 패션잡화 > 양말 > 남성양말 > 스포츠양말",
+          "search": 1520,
+          "products": 563,
+          "comp": "아주좋음",
+          "comp_score": 0.37
+        },
+        {
+          "keyword": "패밀리마트양말",
+          "category": "패션잡화 > 양말 > 여성양말 > 중목/장목양말",
+          "search": 1410,
+          "products": 140,
+          "comp": "아주좋음",
+          "comp_score": 0.1
+        },
+        {
+          "keyword": "디어커들리",
+          "category": "패션잡화 > 양말 > 여성양말 > 덧신",
+          "search": 990,
+          "products": 108,
+          "comp": "아주좋음",
+          "comp_score": 0.11
+        },
+        {
+          "keyword": "uvu양말",
+          "category": "패션잡화 > 양말 > 남성양말 > 스포츠양말",
+          "search": 940,
+          "products": 93,
+          "comp": "아주좋음",
+          "comp_score": 0.1
+        },
+        {
+          "keyword": "레드닥터양말",
+          "category": "패션잡화 > 양말 > 여성양말 > 중목/장목양말 | 패션잡화 > 양말 > 남성양말 > 중목/장목양말",
+          "search": 910,
+          "products": 11,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "아크테릭스양말",
+          "category": "패션잡화 > 양말",
+          "search": 820,
+          "products": 680,
+          "comp": "아주좋음",
+          "comp_score": 0.83
+        },
+        {
+          "keyword": "다이소니삭스",
+          "category": "패션잡화 > 양말 > 여성양말 > 니삭스",
+          "search": 700,
+          "products": 71,
+          "comp": "아주좋음",
+          "comp_score": 0.1
+        },
+        {
+          "keyword": "데이지오가닉",
+          "category": "패션잡화 > 양말 > 여성양말 > 중목/장목양말",
+          "search": 620,
+          "products": 88,
+          "comp": "아주좋음",
+          "comp_score": 0.14
+        },
+        {
+          "keyword": "지포어양말",
+          "category": "패션잡화 > 양말 > 여성양말 > 스포츠양말",
+          "search": 600,
+          "products": 694,
+          "comp": "아주좋음",
+          "comp_score": 1.16
+        },
+        {
+          "keyword": "러닝용발가락양말",
+          "category": "패션잡화 > 양말 > 남성양말 > 스포츠양말",
+          "search": 470,
+          "products": 883,
+          "comp": "아주좋음",
+          "comp_score": 1.88
+        },
+        {
+          "keyword": "에웨토",
+          "category": "패션잡화 > 양말 > 남성양말 > 발가락양말",
+          "search": 470,
+          "products": 7,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "박진영양말",
+          "category": "패션잡화 > 양말 > 여성양말 > 발가락양말",
+          "search": 460,
+          "products": 79,
+          "comp": "아주좋음",
+          "comp_score": 0.17
+        },
+        {
+          "keyword": "세븐일레븐양말\n",
+          "category": "패션잡화 > 양말 > 남성양말 > 발목양말",
+          "search": 440,
+          "products": 96,
+          "comp": "아주좋음",
+          "comp_score": 0.22
+        },
+        {
+          "keyword": "룰루렐라",
+          "category": "패션잡화 > 양말 > 여성양말 > 중목/장목양말",
+          "search": 390,
+          "products": 457,
+          "comp": "아주좋음",
+          "comp_score": 1.17
+        },
+        {
+          "keyword": "다이소스포츠양말",
+          "category": "패션잡화 > 양말 > 남성양말 > 스포츠양말",
+          "search": 320,
+          "products": 42,
+          "comp": "아주좋음",
+          "comp_score": 0.13
+        },
+        {
+          "keyword": "무인양품쪼리양말",
+          "category": "패션잡화 > 양말 > 여성양말 > 발가락양말",
+          "search": 310,
+          "products": 5,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        }
+      ]
+    }
+  },
+  "패션잡화 > 여성신발": {
+    "최근 30일": {
+      "collected_at": "2026-09-20",
+      "filter": {
+        "min_search": 300,
+        "max_products": 900,
+        "period": "최근 30일",
+        "exclude_major_brand": true
+      },
+      "keywords": [
+        {
+          "keyword": "쿠에른",
+          "category": "패션잡화 > 여성신발 > 플랫/로퍼 > 로퍼",
+          "search": 62590,
+          "products": 285,
+          "comp": "아주좋음",
+          "comp_score": 0
+        },
+        {
+          "keyword": "르무통메리제인",
+          "category": "패션잡화 > 여성신발 > 플랫/로퍼 > 플랫",
+          "search": 31260,
+          "products": 665,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "슈올즈",
+          "category": "패션잡화 > 여성신발 > 기능화 > 컴포트화",
+          "search": 30270,
+          "products": 65,
+          "comp": "아주좋음",
+          "comp_score": 0
+        },
+        {
+          "keyword": "슈올즈신발",
+          "category": "패션잡화 > 여성신발 > 기능화 > 컴포트화",
+          "search": 20660,
+          "products": 57,
+          "comp": "아주좋음",
+          "comp_score": 0
+        },
+        {
+          "keyword": "레페토까미유",
+          "category": "패션잡화 > 여성신발 > 플랫/로퍼 > 플랫",
+          "search": 20380,
+          "products": 623,
+          "comp": "아주좋음",
+          "comp_score": 0.03
+        },
+        {
+          "keyword": "르꼬르망",
+          "category": "출산/육아 > 유아동의류 > 재킷 | 스포츠/레저 > 등산 > 등산의류 > 재킷 | 스포츠/레저 > 골프 > 골프의류 > 재킷 | 스포츠/레저 > 스키/보드 > 보드복 > 재킷 | 패션의류 > 남성의류 > 아우터 > 재킷 | 패션의류 > 여성의류 > 아우터 > 재킷",
+          "search": 19800,
+          "products": 60,
+          "comp": "아주좋음",
+          "comp_score": 0
+        },
+        {
+          "keyword": "다이소아쿠아슈즈",
+          "category": "패션잡화 > 여성신발 > 기능화 > 아쿠아슈즈",
+          "search": 18390,
+          "products": 21,
+          "comp": "아주좋음",
+          "comp_score": 0
+        },
+        {
+          "keyword": "벨롭지압슬리퍼",
+          "category": "패션잡화 > 여성신발 > 샌들/슬리퍼 > 슬리퍼",
+          "search": 12460,
+          "products": 338,
+          "comp": "아주좋음",
+          "comp_score": 0.03
+        },
+        {
+          "keyword": "다누앤",
+          "category": "패션잡화 > 여성신발 > 기능화 > 유니폼화",
+          "search": 11180,
+          "products": 329,
+          "comp": "아주좋음",
+          "comp_score": 0.03
+        },
+        {
+          "keyword": "널핏",
+          "category": "패션잡화 > 여성신발 > 기능화 > 유니폼화",
+          "search": 11130,
+          "products": 264,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "루무통신발",
+          "category": "패션잡화 > 여성신발 > 스니커즈/운동화 > 스니커즈",
+          "search": 10600,
+          "products": 19,
+          "comp": "아주좋음",
+          "comp_score": 0
+        },
+        {
+          "keyword": "오츠니카타이커",
+          "category": "패션잡화 > 여성신발 > 스니커즈/운동화 > 스니커즈",
+          "search": 10560,
+          "products": 38,
+          "comp": "아주좋음",
+          "comp_score": 0
+        },
+        {
+          "keyword": "쿠에른로퍼",
+          "category": "패션잡화 > 여성신발 > 플랫/로퍼 > 로퍼",
+          "search": 9820,
+          "products": 84,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "밸롭지압슬리퍼",
+          "category": "패션잡화 > 여성신발 > 샌들/슬리퍼 > 슬리퍼",
+          "search": 8480,
+          "products": 579,
+          "comp": "아주좋음",
+          "comp_score": 0.07
+        },
+        {
+          "keyword": "알로운동화",
+          "category": "패션잡화 > 여성신발 > 스니커즈/운동화 > 스니커즈",
+          "search": 7430,
+          "products": 876,
+          "comp": "아주좋음",
+          "comp_score": 0.12
+        },
+        {
+          "keyword": "르므통",
+          "category": "패션잡화 > 여성신발 > 스니커즈/운동화 > 스니커즈",
+          "search": 7330,
+          "products": 71,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "르므통신발",
+          "category": "패션잡화 > 여성신발 > 스니커즈/운동화 > 스니커즈",
+          "search": 7280,
+          "products": 20,
+          "comp": "아주좋음",
+          "comp_score": 0
+        },
+        {
+          "keyword": "다이소슬리퍼",
+          "category": "패션잡화 > 여성신발 > 실내화",
+          "search": 7010,
+          "products": 134,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "신미사슬리퍼",
+          "category": "패션잡화 > 여성신발 > 샌들/슬리퍼 > 슬리퍼",
+          "search": 5940,
+          "products": 74,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "루무통",
+          "category": "패션잡화 > 여성신발 > 스니커즈/운동화 > 스니커즈",
+          "search": 4960,
+          "products": 72,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "hei신발",
+          "category": "패션잡화 > 여성신발 > 부츠/워커 > 앵클/숏부츠",
+          "search": 4840,
+          "products": 409,
+          "comp": "아주좋음",
+          "comp_score": 0.08
+        },
+        {
+          "keyword": "자주지압슬리퍼",
+          "category": "패션잡화 > 여성신발 > 실내화",
+          "search": 4780,
+          "products": 156,
+          "comp": "아주좋음",
+          "comp_score": 0.03
+        },
+        {
+          "keyword": "아치솔슬리퍼",
+          "category": "패션잡화 > 여성신발 > 샌들/슬리퍼 > 슬리퍼",
+          "search": 4540,
+          "products": 355,
+          "comp": "아주좋음",
+          "comp_score": 0.08
+        },
+        {
+          "keyword": "플라스티카나",
+          "category": "패션잡화 > 여성신발 > 샌들/슬리퍼 > 뮬/블로퍼",
+          "search": 4220,
+          "products": 262,
+          "comp": "아주좋음",
+          "comp_score": 0.06
+        },
+        {
+          "keyword": "워키오신발",
+          "category": "패션잡화 > 여성신발 > 기능화 > 컴포트화",
+          "search": 3920,
+          "products": 177,
+          "comp": "아주좋음",
+          "comp_score": 0.05
+        },
+        {
+          "keyword": "나르지오",
+          "category": "패션잡화 > 여성신발 > 스니커즈/운동화 > 워킹화",
+          "search": 3890,
+          "products": 601,
+          "comp": "아주좋음",
+          "comp_score": 0.15
+        },
+        {
+          "keyword": "유니클로스퀘어플랫슈즈",
+          "category": "패션잡화 > 여성신발 > 플랫/로퍼 > 플랫",
+          "search": 3860,
+          "products": 20,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "베라왕로퍼",
+          "category": "패션잡화 > 여성신발 > 플랫/로퍼 > 로퍼",
+          "search": 3710,
+          "products": 68,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "르무통이지",
+          "category": "패션잡화 > 여성신발 > 스니커즈/운동화 > 스니커즈",
+          "search": 3640,
+          "products": 34,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "흐깡",
+          "category": "패션잡화 > 여성신발 > 플랫/로퍼 > 플랫",
+          "search": 3410,
+          "products": 82,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "전지현운동화",
+          "category": "패션잡화 > 여성신발 > 스니커즈/운동화 > 러닝화",
+          "search": 3410,
+          "products": 46,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "aps지압슬리퍼",
+          "category": "패션잡화 > 여성신발 > 샌들/슬리퍼 > 슬리퍼",
+          "search": 3200,
+          "products": 29,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "나르지오워킹화",
+          "category": "패션잡화 > 여성신발 > 스니커즈/운동화 > 워킹화",
+          "search": 2970,
+          "products": 344,
+          "comp": "아주좋음",
+          "comp_score": 0.12
+        },
+        {
+          "keyword": "네파방한슬리퍼",
+          "category": "패션잡화 > 여성신발 > 샌들/슬리퍼 > 슬리퍼",
+          "search": 2920,
+          "products": 357,
+          "comp": "아주좋음",
+          "comp_score": 0.12
+        },
+        {
+          "keyword": "피퓨",
+          "category": "패션잡화 > 여성신발 > 샌들/슬리퍼 > 슬리퍼",
+          "search": 2620,
+          "products": 47,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "타린로즈운동화",
+          "category": "패션잡화 > 여성신발 > 스니커즈/운동화 > 스니커즈",
+          "search": 2570,
+          "products": 634,
+          "comp": "아주좋음",
+          "comp_score": 0.25
+        },
+        {
+          "keyword": "카하라로퍼",
+          "category": "패션잡화 > 여성신발 > 플랫/로퍼 > 로퍼",
+          "search": 2490,
+          "products": 9,
+          "comp": "아주좋음",
+          "comp_score": 0
+        },
+        {
+          "keyword": "알타핏",
+          "category": "패션잡화 > 여성신발 > 샌들/슬리퍼 > 슬리퍼",
+          "search": 2310,
+          "products": 108,
+          "comp": "아주좋음",
+          "comp_score": 0.05
+        },
+        {
+          "keyword": "피퓨슬리퍼",
+          "category": "패션잡화 > 여성신발 > 샌들/슬리퍼 > 슬리퍼",
+          "search": 2240,
+          "products": 38,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "작은발스토리",
+          "category": "패션잡화 > 여성신발 > 힐/펌프스 > 펌프스",
+          "search": 2080,
+          "products": 491,
+          "comp": "아주좋음",
+          "comp_score": 0.24
+        },
+        {
+          "keyword": "기호부츠",
+          "category": "패션잡화 > 여성신발 > 부츠/워커 > 앵클/숏부츠",
+          "search": 2040,
+          "products": 831,
+          "comp": "아주좋음",
+          "comp_score": 0.41
+        },
+        {
+          "keyword": "엑슬리퍼",
+          "category": "패션잡화 > 여성신발 > 샌들/슬리퍼 > 슬리퍼",
+          "search": 1990,
+          "products": 411,
+          "comp": "아주좋음",
+          "comp_score": 0.21
+        },
+        {
+          "keyword": "쿠에른샌들",
+          "category": "패션잡화 > 여성신발 > 샌들/슬리퍼 > 스트랩샌들",
+          "search": 1970,
+          "products": 38,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "의사가만든슬리퍼",
+          "category": "패션잡화 > 여성신발 > 샌들/슬리퍼 > 슬리퍼",
+          "search": 1970,
+          "products": 146,
+          "comp": "아주좋음",
+          "comp_score": 0.07
+        },
+        {
+          "keyword": "송혜교운동화",
+          "category": "패션잡화 > 여성신발 > 스니커즈/운동화 > 러닝화",
+          "search": 1790,
+          "products": 404,
+          "comp": "아주좋음",
+          "comp_score": 0.23
+        },
+        {
+          "keyword": "아치솔족저근막슬리퍼",
+          "category": "패션잡화 > 여성신발 > 샌들/슬리퍼 > 슬리퍼",
+          "search": 1760,
+          "products": 165,
+          "comp": "아주좋음",
+          "comp_score": 0.09
+        },
+        {
+          "keyword": "김나영운동화",
+          "category": "패션잡화 > 여성신발 > 스니커즈/운동화 > 스니커즈",
+          "search": 1730,
+          "products": 257,
+          "comp": "아주좋음",
+          "comp_score": 0.15
+        },
+        {
+          "keyword": "크록스플랫폼클로그",
+          "category": "패션잡화 > 여성신발 > 기능화 > 아쿠아슈즈",
+          "search": 1710,
+          "products": 157,
+          "comp": "아주좋음",
+          "comp_score": 0.09
+        },
+        {
+          "keyword": "지유발레슈즈",
+          "category": "패션잡화 > 여성신발 > 플랫/로퍼 > 플랫",
+          "search": 1650,
+          "products": 836,
+          "comp": "아주좋음",
+          "comp_score": 0.51
+        },
+        {
+          "keyword": "자주고무신",
+          "category": "패션잡화 > 여성신발 > 기능화 > 작업화/안전화",
+          "search": 1620,
+          "products": 25,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "널스텝",
+          "category": "패션잡화 > 여성신발 > 기능화 > 유니폼화",
+          "search": 1610,
+          "products": 64,
+          "comp": "아주좋음",
+          "comp_score": 0.04
+        },
+        {
+          "keyword": "바크쪼리\n",
+          "category": "패션잡화 > 여성신발 > 샌들/슬리퍼 > 슬리퍼",
+          "search": 1370,
+          "products": 149,
+          "comp": "아주좋음",
+          "comp_score": 0.11
+        },
+        {
+          "keyword": "아식스노블6",
+          "category": "패션잡화 > 여성신발 > 스니커즈/운동화 > 러닝화",
+          "search": 1300,
+          "products": 31,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "일본gu신발",
+          "category": "패션잡화 > 여성신발 > 스니커즈/운동화 > 스니커즈",
+          "search": 1250,
+          "products": 729,
+          "comp": "아주좋음",
+          "comp_score": 0.58
+        },
+        {
+          "keyword": "물컹슈즈",
+          "category": "패션잡화 > 여성신발 > 스니커즈/운동화 > 러닝화",
+          "search": 1150,
+          "products": 259,
+          "comp": "아주좋음",
+          "comp_score": 0.23
+        },
+        {
+          "keyword": "브루마스샌들",
+          "category": "패션잡화 > 여성신발 > 샌들/슬리퍼 > 스트랩샌들",
+          "search": 1070,
+          "products": 487,
+          "comp": "아주좋음",
+          "comp_score": 0.46
+        },
+        {
+          "keyword": "뭄뭄실내화",
+          "category": "패션잡화 > 여성신발 > 실내화",
+          "search": 1040,
+          "products": 148,
+          "comp": "아주좋음",
+          "comp_score": 0.14
+        },
+        {
+          "keyword": "스케쳐스스위프트핏",
+          "category": "패션잡화 > 여성신발 > 스니커즈/운동화 > 워킹화",
+          "search": 920,
+          "products": 332,
+          "comp": "아주좋음",
+          "comp_score": 0.36
+        },
+        {
+          "keyword": "박진영발가락신발",
+          "category": "패션잡화 > 여성신발 > 스니커즈/운동화 > 러닝화",
+          "search": 890,
+          "products": 162,
+          "comp": "아주좋음",
+          "comp_score": 0.18
+        },
+        {
+          "keyword": "자주슬리퍼",
+          "category": "패션잡화 > 여성신발 > 실내화",
+          "search": 850,
+          "products": 719,
+          "comp": "아주좋음",
+          "comp_score": 0.85
+        },
+        {
+          "keyword": "올버즈플랫",
+          "category": "패션잡화 > 여성신발 > 플랫/로퍼 > 플랫",
+          "search": 820,
+          "products": 238,
+          "comp": "아주좋음",
+          "comp_score": 0.29
+        },
+        {
+          "keyword": "코스트코스케쳐스운동화",
+          "category": "패션잡화 > 여성신발 > 스니커즈/운동화 > 워킹화",
+          "search": 820,
+          "products": 215,
+          "comp": "아주좋음",
+          "comp_score": 0.26
+        },
+        {
+          "keyword": "깔랑플랫",
+          "category": "패션잡화 > 여성신발 > 플랫/로퍼 > 플랫",
+          "search": 790,
+          "products": 112,
+          "comp": "아주좋음",
+          "comp_score": 0.14
+        },
+        {
+          "keyword": "lb3787",
+          "category": "패션잡화 > 여성신발 > 스니커즈/운동화 > 스니커즈",
+          "search": 780,
+          "products": 217,
+          "comp": "아주좋음",
+          "comp_score": 0.28
+        },
+        {
+          "keyword": "크록스호피",
+          "category": "패션잡화 > 여성신발 > 샌들/슬리퍼 > 슬리퍼",
+          "search": 770,
+          "products": 278,
+          "comp": "아주좋음",
+          "comp_score": 0.36
+        },
+        {
+          "keyword": "아식스메리제인",
+          "category": "패션잡화 > 여성신발 > 샌들/슬리퍼 > 스트랩샌들",
+          "search": 710,
+          "products": 437,
+          "comp": "아주좋음",
+          "comp_score": 0.62
+        },
+        {
+          "keyword": "한복신",
+          "category": "패션잡화 > 여성신발 > 기능화 > 한복신발",
+          "search": 690,
+          "products": 832,
+          "comp": "아주좋음",
+          "comp_score": 1.21
+        },
+        {
+          "keyword": "블랙퍼플부츠",
+          "category": "패션잡화 > 여성신발 > 부츠/워커 > 롱부츠",
+          "search": 680,
+          "products": 735,
+          "comp": "아주좋음",
+          "comp_score": 1.08
+        },
+        {
+          "keyword": "가나디슬리퍼",
+          "category": "패션잡화 > 여성신발 > 샌들/슬리퍼 > 슬리퍼",
+          "search": 670,
+          "products": 11,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "데일라잇뉴욕",
+          "category": "패션잡화 > 여성신발 > 샌들/슬리퍼 > 스트랩샌들",
+          "search": 650,
+          "products": 383,
+          "comp": "아주좋음",
+          "comp_score": 0.59
+        },
+        {
+          "keyword": "네이플스랩드",
+          "category": "패션잡화 > 여성신발 > 샌들/슬리퍼 > 슬리퍼",
+          "search": 620,
+          "products": 15,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "k201253-015",
+          "category": "패션잡화 > 여성신발 > 플랫/로퍼 > 플랫",
+          "search": 600,
+          "products": 295,
+          "comp": "아주좋음",
+          "comp_score": 0.49
+        },
+        {
+          "keyword": "호카스피드고트7와이드",
+          "category": "패션잡화 > 여성신발 > 기능화 > 아쿠아슈즈",
+          "search": 550,
+          "products": 384,
+          "comp": "아주좋음",
+          "comp_score": 0.7
+        },
+        {
+          "keyword": "슈펜쪼리",
+          "category": "패션잡화 > 여성신발 > 샌들/슬리퍼 > 슬리퍼",
+          "search": 510,
+          "products": 440,
+          "comp": "아주좋음",
+          "comp_score": 0.86
+        },
+        {
+          "keyword": "맥스쿠셔닝포미",
+          "category": "패션잡화 > 여성신발 > 샌들/슬리퍼 > 슬리퍼",
+          "search": 470,
+          "products": 750,
+          "comp": "아주좋음",
+          "comp_score": 1.6
+        },
+        {
+          "keyword": "3205/810/800",
+          "category": "패션잡화 > 여성신발 > 플랫/로퍼 > 플랫",
+          "search": 450,
+          "products": 28,
+          "comp": "아주좋음",
+          "comp_score": 0.06
+        },
+        {
+          "keyword": "흠뻑쇼신발",
+          "category": "패션잡화 > 여성신발 > 기능화 > 아쿠아슈즈",
+          "search": 380,
+          "products": 656,
+          "comp": "아주좋음",
+          "comp_score": 1.73
+        },
+        {
+          "keyword": "hv5064-017",
+          "category": "패션잡화 > 여성신발 > 스니커즈/운동화 > 러닝화",
+          "search": 350,
+          "products": 490,
+          "comp": "아주좋음",
+          "comp_score": 1.4
+        },
+        {
+          "keyword": "크록스마이애미토우",
+          "category": "패션잡화 > 여성신발 > 샌들/슬리퍼 > 슬리퍼",
+          "search": 350,
+          "products": 613,
+          "comp": "아주좋음",
+          "comp_score": 1.75
+        },
+        {
+          "keyword": "머렐하이드로목at",
+          "category": "스포츠/레저 > 등산 > 등산화",
+          "search": 340,
+          "products": 181,
+          "comp": "아주좋음",
+          "comp_score": 0.53
+        },
+        {
+          "keyword": "ih6932",
+          "category": "패션잡화 > 여성신발 > 스니커즈/운동화 > 스니커즈",
+          "search": 310,
+          "products": 727,
+          "comp": "좋음",
+          "comp_score": 2.35
+        },
+        {
+          "keyword": "스케쳐스아치핏메리제인",
+          "category": "패션잡화 > 여성신발 > 스니커즈/운동화 > 슬립온",
+          "search": 300,
+          "products": 121,
+          "comp": "아주좋음",
+          "comp_score": 0.4
+        }
+      ]
+    }
+  },
+  "패션잡화 > 남성신발": {
+    "최근 30일": {
+      "collected_at": "2026-09-20",
+      "filter": {
+        "min_search": 300,
+        "max_products": 900,
+        "period": "최근 30일",
+        "exclude_major_brand": true
+      },
+      "keywords": [
+        {
+          "keyword": "신미사운동화",
+          "category": "패션잡화 > 신발용품 > 신발깔창",
+          "search": 15630,
+          "products": 10,
+          "comp": "아주좋음",
+          "comp_score": 0
+        },
+        {
+          "keyword": "그라더스",
+          "category": "패션잡화 > 남성신발 > 부츠/워커 > 미들부츠",
+          "search": 15260,
+          "products": 253,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "슈니엘운동화",
+          "category": "패션잡화 > 남성신발 > 스니커즈/운동화 > 러닝화",
+          "search": 7700,
+          "products": 53,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "적토끼9울트라",
+          "category": "패션잡화 > 남성신발 > 스니커즈/운동화 > 러닝화",
+          "search": 4910,
+          "products": 755,
+          "comp": "아주좋음",
+          "comp_score": 0.15
+        },
+        {
+          "keyword": "오로라슈즈",
+          "category": "출산/육아 > 유아동잡화 > 신발 > 구두 | 패션잡화 > 남성신발 > 구두 | 패션잡화 > 남성신발 > 구두 > 구두",
+          "search": 3880,
+          "products": 330,
+          "comp": "아주좋음",
+          "comp_score": 0.09
+        },
+        {
+          "keyword": "디나엘4",
+          "category": "패션잡화 > 남성신발 > 스니커즈/운동화 > 러닝화",
+          "search": 3870,
+          "products": 92,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "아디다스크록스",
+          "category": "패션잡화 > 남성신발 > 샌들/슬리퍼 > 슬리퍼",
+          "search": 3760,
+          "products": 213,
+          "comp": "아주좋음",
+          "comp_score": 0.06
+        },
+        {
+          "keyword": "스베누",
+          "category": "패션잡화 > 남성신발 > 스니커즈/운동화 > 스니커즈",
+          "search": 3400,
+          "products": 59,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "구둥화",
+          "category": "패션잡화 > 남성신발 > 구두 > 구두",
+          "search": 3150,
+          "products": 337,
+          "comp": "아주좋음",
+          "comp_score": 0.11
+        },
+        {
+          "keyword": "액트플러스슬리퍼",
+          "category": "패션잡화 > 남성신발 > 샌들/슬리퍼 > 슬리퍼",
+          "search": 3070,
+          "products": 757,
+          "comp": "아주좋음",
+          "comp_score": 0.25
+        },
+        {
+          "keyword": "나이키크록스",
+          "category": "패션잡화 > 남성신발 > 샌들/슬리퍼 > 슬리퍼",
+          "search": 2870,
+          "products": 250,
+          "comp": "아주좋음",
+          "comp_score": 0.09
+        },
+        {
+          "keyword": "es보드화",
+          "category": "패션잡화 > 남성신발 > 스니커즈/운동화 > 스니커즈",
+          "search": 2620,
+          "products": 674,
+          "comp": "아주좋음",
+          "comp_score": 0.26
+        },
+        {
+          "keyword": "시즈탱크신발",
+          "category": "패션잡화 > 남성신발 > 스니커즈/운동화 > 러닝화",
+          "search": 2430,
+          "products": 110,
+          "comp": "아주좋음",
+          "comp_score": 0.05
+        },
+        {
+          "keyword": "벨롭글라이드",
+          "category": "패션잡화 > 남성신발 > 스니커즈/운동화 > 러닝화",
+          "search": 2370,
+          "products": 516,
+          "comp": "아주좋음",
+          "comp_score": 0.22
+        },
+        {
+          "keyword": "모클로그",
+          "category": "패션잡화 > 남성신발 > 샌들/슬리퍼 > 샌들",
+          "search": 2320,
+          "products": 254,
+          "comp": "아주좋음",
+          "comp_score": 0.11
+        },
+        {
+          "keyword": "몽그렐안전화",
+          "category": "패션잡화 > 남성신발 > 기능화 > 작업화/안전화",
+          "search": 2300,
+          "products": 477,
+          "comp": "아주좋음",
+          "comp_score": 0.21
+        },
+        {
+          "keyword": "듀라모스피드2",
+          "category": "패션잡화 > 남성신발 > 스니커즈/운동화 > 러닝화",
+          "search": 2260,
+          "products": 558,
+          "comp": "아주좋음",
+          "comp_score": 0.25
+        },
+        {
+          "keyword": "타쿠미센11",
+          "category": "패션잡화 > 남성신발 > 스니커즈/운동화 > 러닝화",
+          "search": 2000,
+          "products": 165,
+          "comp": "아주좋음",
+          "comp_score": 0.08
+        },
+        {
+          "keyword": "그라더스부츠02",
+          "category": "패션잡화 > 남성신발 > 부츠/워커 > 미들부츠",
+          "search": 1920,
+          "products": 11,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "몽벨쪼리",
+          "category": "패션잡화 > 남성신발 > 샌들/슬리퍼 > 샌들",
+          "search": 1810,
+          "products": 607,
+          "comp": "아주좋음",
+          "comp_score": 0.34
+        },
+        {
+          "keyword": "새티스파이더라커",
+          "category": "패션잡화 > 남성신발 > 스니커즈/운동화 > 스니커즈",
+          "search": 1680,
+          "products": 7,
+          "comp": "아주좋음",
+          "comp_score": 0
+        },
+        {
+          "keyword": "아디제로evoslexo",
+          "category": "디지털/가전 > 계절가전 > 온풍기 > 가스온풍기",
+          "search": 1480,
+          "products": 2,
+          "comp": "아주좋음",
+          "comp_score": 0
+        },
+        {
+          "keyword": "블런드스톤600",
+          "category": "패션잡화 > 남성신발 > 부츠/워커 > 앵클/숏부츠",
+          "search": 1400,
+          "products": 36,
+          "comp": "아주좋음",
+          "comp_score": 0.03
+        },
+        {
+          "keyword": "몽그렐",
+          "category": "패션잡화 > 남성신발 > 기능화 > 작업화/안전화",
+          "search": 1310,
+          "products": 722,
+          "comp": "아주좋음",
+          "comp_score": 0.55
+        },
+        {
+          "keyword": "오니츠카멕시코66sd",
+          "category": "패션잡화 > 남성신발 > 스니커즈/운동화 > 스니커즈",
+          "search": 1280,
+          "products": 73,
+          "comp": "아주좋음",
+          "comp_score": 0.06
+        },
+        {
+          "keyword": "몽크로스am6",
+          "category": "패션잡화 > 남성신발 > 기능화 > 작업화/안전화",
+          "search": 1230,
+          "products": 41,
+          "comp": "아주좋음",
+          "comp_score": 0.03
+        },
+        {
+          "keyword": "호카오라리커버리뮬",
+          "category": "패션잡화 > 남성신발 > 샌들/슬리퍼 > 슬리퍼",
+          "search": 1200,
+          "products": 504,
+          "comp": "아주좋음",
+          "comp_score": 0.42
+        },
+        {
+          "keyword": "트렉스타전투화",
+          "category": "스포츠/레저 > 등산 > 등산화",
+          "search": 1060,
+          "products": 42,
+          "comp": "아주좋음",
+          "comp_score": 0.04
+        },
+        {
+          "keyword": "jq9826",
+          "category": "패션잡화 > 남성신발 > 스니커즈/운동화 > 러닝화",
+          "search": 1010,
+          "products": 301,
+          "comp": "아주좋음",
+          "comp_score": 0.3
+        },
+        {
+          "keyword": "아치솔기능성슬리퍼",
+          "category": "패션잡화 > 남성신발 > 샌들/슬리퍼 > 슬리퍼",
+          "search": 950,
+          "products": 103,
+          "comp": "아주좋음",
+          "comp_score": 0.11
+        },
+        {
+          "keyword": "추성훈안전화",
+          "category": "패션잡화 > 남성신발 > 기능화 > 작업화/안전화",
+          "search": 880,
+          "products": 98,
+          "comp": "아주좋음",
+          "comp_score": 0.11
+        },
+        {
+          "keyword": "호카리스토어",
+          "category": "스포츠/레저 > 등산 > 등산화",
+          "search": 860,
+          "products": 11,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "js4932",
+          "category": "패션잡화 > 남성신발 > 스니커즈/운동화 > 러닝화",
+          "search": 840,
+          "products": 394,
+          "comp": "아주좋음",
+          "comp_score": 0.47
+        },
+        {
+          "keyword": "허니워커안전화",
+          "category": "패션잡화 > 남성신발 > 기능화 > 작업화/안전화",
+          "search": 760,
+          "products": 638,
+          "comp": "아주좋음",
+          "comp_score": 0.84
+        },
+        {
+          "keyword": "크록스겨울용",
+          "category": "패션잡화 > 남성신발 > 샌들/슬리퍼 > 샌들",
+          "search": 690,
+          "products": 859,
+          "comp": "아주좋음",
+          "comp_score": 1.24
+        },
+        {
+          "keyword": "ld1000",
+          "category": "패션잡화 > 남성신발 > 스니커즈/운동화 > 스니커즈",
+          "search": 640,
+          "products": 725,
+          "comp": "아주좋음",
+          "comp_score": 1.13
+        },
+        {
+          "keyword": "디스커버리쪼리",
+          "category": "패션잡화 > 남성신발 > 샌들/슬리퍼 > 슬리퍼",
+          "search": 630,
+          "products": 190,
+          "comp": "아주좋음",
+          "comp_score": 0.3
+        },
+        {
+          "keyword": "요넥스슬리퍼\n",
+          "category": "패션잡화 > 남성신발 > 샌들/슬리퍼 > 슬리퍼",
+          "search": 580,
+          "products": 244,
+          "comp": "아주좋음",
+          "comp_score": 0.42
+        },
+        {
+          "keyword": "ih8215",
+          "category": "패션잡화 > 남성신발 > 스니커즈/운동화 > 러닝화",
+          "search": 570,
+          "products": 461,
+          "comp": "아주좋음",
+          "comp_score": 0.81
+        },
+        {
+          "keyword": "몽벨슬립온",
+          "category": "패션잡화 > 남성신발 > 샌들/슬리퍼 > 샌들",
+          "search": 440,
+          "products": 797,
+          "comp": "아주좋음",
+          "comp_score": 1.81
+        },
+        {
+          "keyword": "162058c",
+          "category": "패션잡화 > 남성신발 > 스니커즈/운동화 > 스니커즈",
+          "search": 430,
+          "products": 522,
+          "comp": "아주좋음",
+          "comp_score": 1.21
+        },
+        {
+          "keyword": "몽크로스am-6",
+          "category": "패션잡화 > 남성신발 > 기능화 > 작업화/안전화",
+          "search": 430,
+          "products": 793,
+          "comp": "아주좋음",
+          "comp_score": 1.84
+        },
+        {
+          "keyword": "캄슈",
+          "category": "출산/육아 > 유아동잡화 > 신발 > 구두 | 패션잡화 > 남성신발 > 구두 | 패션잡화 > 남성신발 > 구두 > 구두",
+          "search": 410,
+          "products": 112,
+          "comp": "아주좋음",
+          "comp_score": 0.27
+        },
+        {
+          "keyword": "젤리업",
+          "category": "패션잡화 > 남성신발 > 샌들/슬리퍼 > 슬리퍼",
+          "search": 330,
+          "products": 86,
+          "comp": "아주좋음",
+          "comp_score": 0.26
+        }
+      ]
+    }
+  },
+  "패션잡화 > 신발용품": {
+    "최근 30일": {
+      "collected_at": "2026-09-20",
+      "filter": {
+        "min_search": 300,
+        "max_products": 900,
+        "period": "최근 30일",
+        "exclude_major_brand": true
+      },
+      "keywords": [
+        {
+          "keyword": "아치핀",
+          "category": "패션잡화 > 신발용품 > 신발깔창",
+          "search": 15090,
+          "products": 520,
+          "comp": "아주좋음",
+          "comp_score": 0.03
+        },
+        {
+          "keyword": "부주상골증후군",
+          "category": "패션잡화 > 신발용품 > 신발깔창",
+          "search": 10520,
+          "products": 842,
+          "comp": "아주좋음",
+          "comp_score": 0.08
+        },
+        {
+          "keyword": "에브포런깔창",
+          "category": "패션잡화 > 신발용품 > 신발깔창",
+          "search": 4330,
+          "products": 115,
+          "comp": "아주좋음",
+          "comp_score": 0.03
+        },
+        {
+          "keyword": "아치핀맥스",
+          "category": "패션잡화 > 신발용품 > 신발깔창",
+          "search": 3670,
+          "products": 37,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "슈어풋깔창",
+          "category": "패션잡화 > 신발용품 > 신발깔창",
+          "search": 3210,
+          "products": 73,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "다이소필수템",
+          "category": "생활/건강 > 주방용품 > 냄비/솥 > 양수냄비",
+          "search": 3150,
+          "products": 60,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "종자골염",
+          "category": "패션잡화 > 신발용품 > 보호쿠션/패드",
+          "search": 2790,
+          "products": 849,
+          "comp": "아주좋음",
+          "comp_score": 0.3
+        },
+        {
+          "keyword": "제로솔아치깔창",
+          "category": "패션잡화 > 신발용품 > 신발깔창",
+          "search": 1650,
+          "products": 105,
+          "comp": "아주좋음",
+          "comp_score": 0.06
+        },
+        {
+          "keyword": "지도칸복싱화",
+          "category": "스포츠/레저 > 수련용품 > 수련화",
+          "search": 1490,
+          "products": 15,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "아치핀깔창",
+          "category": "패션잡화 > 신발용품 > 신발깔창",
+          "search": 1320,
+          "products": 379,
+          "comp": "아주좋음",
+          "comp_score": 0.29
+        },
+        {
+          "keyword": "에브포런",
+          "category": "패션잡화 > 신발용품 > 신발깔창",
+          "search": 1140,
+          "products": 115,
+          "comp": "아주좋음",
+          "comp_score": 0.1
+        },
+        {
+          "keyword": "아치파인",
+          "category": "패션잡화 > 신발용품 > 신발깔창",
+          "search": 1100,
+          "products": 742,
+          "comp": "아주좋음",
+          "comp_score": 0.67
+        },
+        {
+          "keyword": "네티컬깔창",
+          "category": "패션잡화 > 신발용품 > 신발깔창",
+          "search": 1040,
+          "products": 25,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "째비츠",
+          "category": "패션잡화 > 신발용품 > 슈즈커버",
+          "search": 1040,
+          "products": 23,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "풋볼트립",
+          "category": "패션잡화 > 신발용품 > 신발깔창",
+          "search": 910,
+          "products": 105,
+          "comp": "아주좋음",
+          "comp_score": 0.12
+        },
+        {
+          "keyword": "네티컬발연구소",
+          "category": "패션잡화 > 신발용품 > 신발깔창",
+          "search": 910,
+          "products": 14,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "발바닥무좀약",
+          "category": "패션잡화 > 신발용품 > 보호쿠션/패드",
+          "search": 890,
+          "products": 102,
+          "comp": "아주좋음",
+          "comp_score": 0.11
+        },
+        {
+          "keyword": "마스터풋깔창",
+          "category": "패션잡화 > 신발용품 > 신발깔창",
+          "search": 850,
+          "products": 379,
+          "comp": "아주좋음",
+          "comp_score": 0.45
+        },
+        {
+          "keyword": "풋볼트립인솔",
+          "category": "패션잡화 > 신발용품 > 신발깔창",
+          "search": 830,
+          "products": 154,
+          "comp": "아주좋음",
+          "comp_score": 0.19
+        },
+        {
+          "keyword": "매직레이스2.0",
+          "category": "패션잡화 > 신발용품 > 신발끈",
+          "search": 740,
+          "products": 213,
+          "comp": "아주좋음",
+          "comp_score": 0.29
+        },
+        {
+          "keyword": "크록스깔창",
+          "category": "패션잡화 > 신발용품 > 신발깔창",
+          "search": 720,
+          "products": 519,
+          "comp": "아주좋음",
+          "comp_score": 0.72
+        },
+        {
+          "keyword": "바라지깔창",
+          "category": "패션잡화 > 신발용품 > 신발깔창",
+          "search": 700,
+          "products": 47,
+          "comp": "아주좋음",
+          "comp_score": 0.07
+        },
+        {
+          "keyword": "다이소발토시",
+          "category": "스포츠/레저 > 등산 > 등산장비 > 스패츠",
+          "search": 660,
+          "products": 5,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "바디파인",
+          "category": "패션잡화 > 신발용품 > 신발깔창",
+          "search": 630,
+          "products": 137,
+          "comp": "아주좋음",
+          "comp_score": 0.22
+        },
+        {
+          "keyword": "바른다리인솔",
+          "category": "패션잡화 > 신발용품 > 신발깔창",
+          "search": 620,
+          "products": 235,
+          "comp": "아주좋음",
+          "comp_score": 0.38
+        },
+        {
+          "keyword": "올풋케어",
+          "category": "패션잡화 > 신발용품 > 신발깔창",
+          "search": 620,
+          "products": 163,
+          "comp": "아주좋음",
+          "comp_score": 0.26
+        },
+        {
+          "keyword": "우파워인솔",
+          "category": "패션잡화 > 신발용품 > 신발깔창",
+          "search": 560,
+          "products": 34,
+          "comp": "아주좋음",
+          "comp_score": 0.06
+        },
+        {
+          "keyword": "좀비킥스",
+          "category": "패션잡화 > 신발용품 > 기타신발용품",
+          "search": 560,
+          "products": 83,
+          "comp": "아주좋음",
+          "comp_score": 0.15
+        },
+        {
+          "keyword": "마스터풋",
+          "category": "패션잡화 > 신발용품 > 신발깔창",
+          "search": 500,
+          "products": 11,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "천리행군깔창",
+          "category": "패션잡화 > 신발용품 > 신발깔창",
+          "search": 500,
+          "products": 72,
+          "comp": "아주좋음",
+          "comp_score": 0.14
+        },
+        {
+          "keyword": "제로솔",
+          "category": "패션잡화 > 신발용품 > 신발깔창",
+          "search": 470,
+          "products": 115,
+          "comp": "아주좋음",
+          "comp_score": 0.24
+        },
+        {
+          "keyword": "호카깔창",
+          "category": "패션잡화 > 신발용품 > 신발깔창",
+          "search": 450,
+          "products": 461,
+          "comp": "아주좋음",
+          "comp_score": 1.02
+        },
+        {
+          "keyword": "워킹보감",
+          "category": "패션잡화 > 신발용품 > 신발깔창",
+          "search": 440,
+          "products": 96,
+          "comp": "아주좋음",
+          "comp_score": 0.22
+        },
+        {
+          "keyword": "뉴로인솔",
+          "category": "패션잡화 > 신발용품 > 신발깔창",
+          "search": 350,
+          "products": 110,
+          "comp": "아주좋음",
+          "comp_score": 0.31
+        }
+      ]
+    }
+  },
+  "패션잡화 > 여성가방": {
+    "최근 30일": {
+      "collected_at": "2026-09-20",
+      "filter": {
+        "min_search": 300,
+        "max_products": 900,
+        "period": "최근 30일",
+        "exclude_major_brand": true
+      },
+      "keywords": [
+        {
+          "keyword": "루에브르가방",
+          "category": "패션잡화 > 여성가방 > 숄더백",
+          "search": 26970,
+          "products": 282,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "발렌시아가로데오백",
+          "category": "패션잡화 > 여성가방 > 숄더백",
+          "search": 24050,
+          "products": 128,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "더로우테라스백",
+          "category": "패션잡화 > 여성가방 > 숄더백",
+          "search": 21790,
+          "products": 226,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "민티즈가방",
+          "category": "패션잡화 > 여성가방 > 숄더백",
+          "search": 19450,
+          "products": 252,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "민티즈",
+          "category": "패션잡화 > 여성가방 > 숄더백",
+          "search": 17120,
+          "products": 260,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "코스트룰로백",
+          "category": "패션잡화 > 여성가방 > 숄더백",
+          "search": 16020,
+          "products": 28,
+          "comp": "아주좋음",
+          "comp_score": 0
+        },
+        {
+          "keyword": "브랜든헬로키티",
+          "category": "패션잡화 > 여성가방 > 크로스백",
+          "search": 15440,
+          "products": 6,
+          "comp": "아주좋음",
+          "comp_score": 0
+        },
+        {
+          "keyword": "브랜든월렛백",
+          "category": "패션잡화 > 여성가방 > 숄더백",
+          "search": 15410,
+          "products": 224,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "셀린느플레어백",
+          "category": "패션잡화 > 여성가방 > 숄더백",
+          "search": 14590,
+          "products": 91,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "르메메가방",
+          "category": "패션잡화 > 여성가방 > 숄더백",
+          "search": 13800,
+          "products": 309,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "롱샴르카덴스",
+          "category": "패션잡화 > 여성가방 > 토트백",
+          "search": 13390,
+          "products": 64,
+          "comp": "아주좋음",
+          "comp_score": 0
+        },
+        {
+          "keyword": "아뜰리에드루멘",
+          "category": "패션잡화 > 여성가방 > 토트백",
+          "search": 10810,
+          "products": 781,
+          "comp": "아주좋음",
+          "comp_score": 0.07
+        },
+        {
+          "keyword": "스탠드오일가방",
+          "category": "패션잡화 > 여성가방 > 숄더백",
+          "search": 9960,
+          "products": 652,
+          "comp": "아주좋음",
+          "comp_score": 0.07
+        },
+        {
+          "keyword": "샤넬맥시플랩백",
+          "category": "패션잡화 > 여성가방 > 숄더백",
+          "search": 9920,
+          "products": 460,
+          "comp": "아주좋음",
+          "comp_score": 0.05
+        },
+        {
+          "keyword": "사르투",
+          "category": "패션잡화 > 여성가방 > 토트백",
+          "search": 9750,
+          "products": 72,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "루이비통멀티패스미니",
+          "category": "패션잡화 > 여성가방 > 숄더백",
+          "search": 9210,
+          "products": 206,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "파흐탱가방",
+          "category": "패션잡화 > 여성가방 > 숄더백",
+          "search": 9060,
+          "products": 89,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "엠제이드",
+          "category": "패션잡화 > 여성가방 > 숄더백",
+          "search": 8860,
+          "products": 421,
+          "comp": "아주좋음",
+          "comp_score": 0.05
+        },
+        {
+          "keyword": "파흐탱",
+          "category": "패션잡화 > 여성가방 > 숄더백",
+          "search": 8560,
+          "products": 116,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "아밤가방",
+          "category": "패션잡화 > 여성가방 > 토트백",
+          "search": 8390,
+          "products": 34,
+          "comp": "아주좋음",
+          "comp_score": 0
+        },
+        {
+          "keyword": "호텔파리칠",
+          "category": "패션잡화 > 여성가방 > 에코백",
+          "search": 8240,
+          "products": 607,
+          "comp": "아주좋음",
+          "comp_score": 0.07
+        },
+        {
+          "keyword": "사르투가방",
+          "category": "패션잡화 > 여성가방 > 토트백",
+          "search": 7810,
+          "products": 54,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "더로우아스트라백",
+          "category": "패션잡화 > 여성가방 > 숄더백",
+          "search": 6690,
+          "products": 200,
+          "comp": "아주좋음",
+          "comp_score": 0.03
+        },
+        {
+          "keyword": "바비르",
+          "category": "패션잡화 > 여성가방 > 숄더백",
+          "search": 6510,
+          "products": 98,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "바쿠보울러백",
+          "category": "패션잡화 > 여행용가방/소품 > 슈트케이스",
+          "search": 6440,
+          "products": 387,
+          "comp": "아주좋음",
+          "comp_score": 0.06
+        },
+        {
+          "keyword": "롱샴고현정백",
+          "category": "패션잡화 > 여성가방 > 숄더백",
+          "search": 6280,
+          "products": 43,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "고현정롱샴",
+          "category": "패션잡화 > 여성가방 > 숄더백",
+          "search": 6230,
+          "products": 83,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "벨린느가방",
+          "category": "패션잡화 > 여성가방 > 숄더백",
+          "search": 5330,
+          "products": 15,
+          "comp": "아주좋음",
+          "comp_score": 0
+        },
+        {
+          "keyword": "바비르가방",
+          "category": "패션잡화 > 여성가방 > 숄더백",
+          "search": 4970,
+          "products": 98,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "코치첼시숄더백30",
+          "category": "패션잡화 > 여성가방 > 숄더백",
+          "search": 4970,
+          "products": 286,
+          "comp": "아주좋음",
+          "comp_score": 0.06
+        },
+        {
+          "keyword": "김나영가방",
+          "category": "패션잡화 > 여성가방 > 숄더백",
+          "search": 4890,
+          "products": 397,
+          "comp": "아주좋음",
+          "comp_score": 0.08
+        },
+        {
+          "keyword": "콰니백",
+          "category": "패션잡화 > 여성가방 > 숄더백",
+          "search": 4690,
+          "products": 683,
+          "comp": "아주좋음",
+          "comp_score": 0.15
+        },
+        {
+          "keyword": "소마치가방",
+          "category": "패션잡화 > 여성가방 > 숄더백",
+          "search": 4570,
+          "products": 432,
+          "comp": "아주좋음",
+          "comp_score": 0.09
+        },
+        {
+          "keyword": "송혜교가방",
+          "category": "패션잡화 > 여성가방 > 에코백",
+          "search": 4340,
+          "products": 399,
+          "comp": "아주좋음",
+          "comp_score": 0.09
+        },
+        {
+          "keyword": "드파운드가방",
+          "category": "패션잡화 > 여성가방 > 숄더백",
+          "search": 4170,
+          "products": 464,
+          "comp": "아주좋음",
+          "comp_score": 0.11
+        },
+        {
+          "keyword": "아에타가방",
+          "category": "패션잡화 > 여성가방 > 토트백",
+          "search": 4100,
+          "products": 848,
+          "comp": "아주좋음",
+          "comp_score": 0.21
+        },
+        {
+          "keyword": "서인영가방",
+          "category": "패션잡화 > 여성가방 > 숄더백",
+          "search": 3960,
+          "products": 217,
+          "comp": "아주좋음",
+          "comp_score": 0.05
+        },
+        {
+          "keyword": "조여정가방",
+          "category": "패션잡화 > 여성가방 > 토트백",
+          "search": 3800,
+          "products": 23,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "이부진가방",
+          "category": "패션잡화 > 여성가방 > 숄더백",
+          "search": 3760,
+          "products": 621,
+          "comp": "아주좋음",
+          "comp_score": 0.17
+        },
+        {
+          "keyword": "더브런치가방",
+          "category": "패션잡화 > 여성가방 > 토트백",
+          "search": 3670,
+          "products": 24,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "신민아가방",
+          "category": "패션잡화 > 여성가방 > 숄더백",
+          "search": 3410,
+          "products": 198,
+          "comp": "아주좋음",
+          "comp_score": 0.06
+        },
+        {
+          "keyword": "스탠다드보냉백",
+          "category": "패션잡화 > 여성가방 > 에코백",
+          "search": 3300,
+          "products": 868,
+          "comp": "아주좋음",
+          "comp_score": 0.26
+        },
+        {
+          "keyword": "티켓투더문슬링백",
+          "category": "패션잡화 > 여성가방 > 메신저백",
+          "search": 3100,
+          "products": 310,
+          "comp": "아주좋음",
+          "comp_score": 0.1
+        },
+        {
+          "keyword": "바우바우",
+          "category": "패션잡화 > 여성가방 > 토트백",
+          "search": 3090,
+          "products": 402,
+          "comp": "아주좋음",
+          "comp_score": 0.13
+        },
+        {
+          "keyword": "소마치",
+          "category": "패션잡화 > 여성가방 > 숄더백",
+          "search": 3070,
+          "products": 568,
+          "comp": "아주좋음",
+          "comp_score": 0.19
+        },
+        {
+          "keyword": "하이산도트백팩",
+          "category": "패션잡화 > 여성가방 > 백팩",
+          "search": 3040,
+          "products": 38,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "다이소이너백",
+          "category": "패션잡화 > 여행용가방/소품 > 여행용파우치",
+          "search": 2980,
+          "products": 60,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "프라다복조리백",
+          "category": "패션잡화 > 여성가방 > 숄더백",
+          "search": 2890,
+          "products": 344,
+          "comp": "아주좋음",
+          "comp_score": 0.12
+        },
+        {
+          "keyword": "키티버니포니가방",
+          "category": "패션잡화 > 여성가방 > 파우치",
+          "search": 2890,
+          "products": 617,
+          "comp": "아주좋음",
+          "comp_score": 0.21
+        },
+        {
+          "keyword": "밤켈kbo",
+          "category": "패션잡화 > 여성가방 > 토트백",
+          "search": 2870,
+          "products": 25,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "트레이더스조",
+          "category": "패션잡화 > 여성가방 > 에코백",
+          "search": 2690,
+          "products": 552,
+          "comp": "아주좋음",
+          "comp_score": 0.21
+        },
+        {
+          "keyword": "더로우아스트라볼링백\n",
+          "category": "스포츠/레저 > 볼링 > 볼링가방",
+          "search": 2660,
+          "products": 120,
+          "comp": "아주좋음",
+          "comp_score": 0.05
+        },
+        {
+          "keyword": "알로쇼퍼백",
+          "category": "패션잡화 > 여성가방 > 토트백",
+          "search": 2530,
+          "products": 260,
+          "comp": "아주좋음",
+          "comp_score": 0.1
+        },
+        {
+          "keyword": "지포어토트백",
+          "category": "스포츠/레저 > 골프 > 골프백 > 보스턴백",
+          "search": 2450,
+          "products": 263,
+          "comp": "아주좋음",
+          "comp_score": 0.11
+        },
+        {
+          "keyword": "부디무드라가방",
+          "category": "패션잡화 > 여성가방 > 토트백",
+          "search": 2410,
+          "products": 20,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "세실리백",
+          "category": "패션잡화 > 여성가방 > 토트백",
+          "search": 2380,
+          "products": 293,
+          "comp": "아주좋음",
+          "comp_score": 0.12
+        },
+        {
+          "keyword": "반로에가방",
+          "category": "패션잡화 > 여성가방 > 숄더백",
+          "search": 2350,
+          "products": 58,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "오스트카카가방",
+          "category": "패션잡화 > 여성가방 > 숄더백",
+          "search": 2070,
+          "products": 834,
+          "comp": "아주좋음",
+          "comp_score": 0.4
+        },
+        {
+          "keyword": "차예련가방",
+          "category": "패션잡화 > 여성가방 > 숄더백",
+          "search": 2050,
+          "products": 84,
+          "comp": "아주좋음",
+          "comp_score": 0.04
+        },
+        {
+          "keyword": "최화정자라가방",
+          "category": "패션잡화 > 여성가방 > 숄더백",
+          "search": 1990,
+          "products": 70,
+          "comp": "아주좋음",
+          "comp_score": 0.04
+        },
+        {
+          "keyword": "sartu가방",
+          "category": "패션잡화 > 여성가방 > 토트백",
+          "search": 1790,
+          "products": 55,
+          "comp": "아주좋음",
+          "comp_score": 0.03
+        },
+        {
+          "keyword": "와키윌리스쿨백",
+          "category": "패션잡화 > 여성가방 > 백팩",
+          "search": 1720,
+          "products": 13,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "위아이윤",
+          "category": "패션잡화 > 여성가방 > 파우치",
+          "search": 1710,
+          "products": 98,
+          "comp": "아주좋음",
+          "comp_score": 0.06
+        },
+        {
+          "keyword": "롱샵미니백",
+          "category": "패션잡화 > 여성가방 > 파우치",
+          "search": 1700,
+          "products": 19,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "최강희가방",
+          "category": "패션잡화 > 여성가방 > 토트백",
+          "search": 1600,
+          "products": 188,
+          "comp": "아주좋음",
+          "comp_score": 0.12
+        },
+        {
+          "keyword": "오타니자라백",
+          "category": "패션잡화 > 여성가방 > 숄더백",
+          "search": 1550,
+          "products": 36,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "헤이런무드",
+          "category": "패션잡화 > 여성가방 > 파우치",
+          "search": 1550,
+          "products": 39,
+          "comp": "아주좋음",
+          "comp_score": 0.03
+        },
+        {
+          "keyword": "프라다천가방",
+          "category": "패션잡화 > 여성가방 > 에코백",
+          "search": 1530,
+          "products": 504,
+          "comp": "아주좋음",
+          "comp_score": 0.33
+        },
+        {
+          "keyword": "알로요가가방",
+          "category": "패션잡화 > 여성가방 > 토트백",
+          "search": 1470,
+          "products": 668,
+          "comp": "아주좋음",
+          "comp_score": 0.45
+        },
+        {
+          "keyword": "마린수가방",
+          "category": "패션잡화 > 여성가방 > 크로스백",
+          "search": 1430,
+          "products": 184,
+          "comp": "아주좋음",
+          "comp_score": 0.13
+        },
+        {
+          "keyword": "드메리엘가방",
+          "category": "패션잡화 > 여성가방 > 숄더백",
+          "search": 1420,
+          "products": 765,
+          "comp": "아주좋음",
+          "comp_score": 0.54
+        },
+        {
+          "keyword": "젤리버킨백",
+          "category": "패션잡화 > 여성가방 > 숄더백",
+          "search": 1400,
+          "products": 787,
+          "comp": "아주좋음",
+          "comp_score": 0.56
+        },
+        {
+          "keyword": "블로우보냉백팩",
+          "category": "패션잡화 > 여성가방 > 백팩",
+          "search": 1350,
+          "products": 12,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "하이산백팩도트",
+          "category": "패션잡화 > 여성가방 > 백팩",
+          "search": 1300,
+          "products": 819,
+          "comp": "아주좋음",
+          "comp_score": 0.63
+        },
+        {
+          "keyword": "피카소파우치",
+          "category": "패션잡화 > 여성가방 > 파우치",
+          "search": 1200,
+          "products": 693,
+          "comp": "아주좋음",
+          "comp_score": 0.58
+        },
+        {
+          "keyword": "브리짓타나카",
+          "category": "패션잡화 > 여성가방 > 파우치",
+          "search": 1200,
+          "products": 591,
+          "comp": "아주좋음",
+          "comp_score": 0.49
+        },
+        {
+          "keyword": "오하영가방",
+          "category": "패션잡화 > 여성가방 > 메신저백",
+          "search": 1170,
+          "products": 152,
+          "comp": "아주좋음",
+          "comp_score": 0.13
+        },
+        {
+          "keyword": "코치라탄백",
+          "category": "패션잡화 > 여성가방 > 숄더백",
+          "search": 1160,
+          "products": 853,
+          "comp": "아주좋음",
+          "comp_score": 0.74
+        },
+        {
+          "keyword": "최화정젤리백",
+          "category": "패션잡화 > 여성가방 > 토트백",
+          "search": 1120,
+          "products": 455,
+          "comp": "아주좋음",
+          "comp_score": 0.41
+        },
+        {
+          "keyword": "쥬에에코백",
+          "category": "패션잡화 > 여성가방 > 숄더백",
+          "search": 1080,
+          "products": 187,
+          "comp": "아주좋음",
+          "comp_score": 0.17
+        },
+        {
+          "keyword": "하이산사코슈",
+          "category": "식품 > 주류 > 사케/기타수입주류",
+          "search": 1080,
+          "products": 0,
+          "comp": "아주좋음",
+          "comp_score": 0
+        },
+        {
+          "keyword": "레스포삭키티파우치",
+          "category": "패션잡화 > 여성가방 > 파우치",
+          "search": 1060,
+          "products": 383,
+          "comp": "아주좋음",
+          "comp_score": 0.36
+        },
+        {
+          "keyword": "이경민가방",
+          "category": "패션잡화 > 여성가방 > 에코백",
+          "search": 1050,
+          "products": 25,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "캇제파우치",
+          "category": "패션잡화 > 여성가방 > 파우치",
+          "search": 1020,
+          "products": 16,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "토니웩가방",
+          "category": "패션잡화 > 여성가방 > 토트백",
+          "search": 960,
+          "products": 24,
+          "comp": "아주좋음",
+          "comp_score": 0.03
+        },
+        {
+          "keyword": "구드백",
+          "category": "패션잡화 > 여성가방 > 숄더백",
+          "search": 910,
+          "products": 601,
+          "comp": "아주좋음",
+          "comp_score": 0.66
+        },
+        {
+          "keyword": "몬치치장바구니",
+          "category": "패션잡화 > 여성가방 > 에코백",
+          "search": 870,
+          "products": 240,
+          "comp": "아주좋음",
+          "comp_score": 0.28
+        },
+        {
+          "keyword": "엘리자베스스칼렛",
+          "category": "패션잡화 > 여성가방 > 파우치",
+          "search": 810,
+          "products": 879,
+          "comp": "아주좋음",
+          "comp_score": 1.09
+        },
+        {
+          "keyword": "노타백",
+          "category": "패션잡화 > 여성가방 > 에코백",
+          "search": 790,
+          "products": 611,
+          "comp": "아주좋음",
+          "comp_score": 0.77
+        },
+        {
+          "keyword": "민티즈스웨이백",
+          "category": "패션잡화 > 여성가방 > 숄더백",
+          "search": 720,
+          "products": 27,
+          "comp": "아주좋음",
+          "comp_score": 0.04
+        },
+        {
+          "keyword": "보스코가방",
+          "category": "패션잡화 > 여성가방 > 힙색/슬링백",
+          "search": 720,
+          "products": 701,
+          "comp": "아주좋음",
+          "comp_score": 0.97
+        },
+        {
+          "keyword": "이너프원루프백",
+          "category": "패션잡화 > 여성가방 > 에코백",
+          "search": 640,
+          "products": 20,
+          "comp": "아주좋음",
+          "comp_score": 0.03
+        },
+        {
+          "keyword": "햄프린넨가방",
+          "category": "패션잡화 > 여성가방 > 숄더백",
+          "search": 570,
+          "products": 399,
+          "comp": "아주좋음",
+          "comp_score": 0.7
+        },
+        {
+          "keyword": "해피어파우치",
+          "category": "패션잡화 > 여성가방 > 파우치",
+          "search": 540,
+          "products": 92,
+          "comp": "아주좋음",
+          "comp_score": 0.17
+        },
+        {
+          "keyword": "서정희보스코가방",
+          "category": "패션잡화 > 여성가방 > 힙색/슬링백",
+          "search": 390,
+          "products": 1,
+          "comp": "아주좋음",
+          "comp_score": 0
+        },
+        {
+          "keyword": "델레스트가방",
+          "category": "패션잡화 > 여성가방 > 클러치백",
+          "search": 360,
+          "products": 166,
+          "comp": "아주좋음",
+          "comp_score": 0.46
+        },
+        {
+          "keyword": "살로몬몽트크로스백",
+          "category": "패션잡화 > 여성가방 > 메신저백",
+          "search": 330,
+          "products": 393,
+          "comp": "아주좋음",
+          "comp_score": 1.19
+        },
+        {
+          "keyword": "이미스하트가방",
+          "category": "패션잡화 > 여성가방 > 토트백",
+          "search": 320,
+          "products": 401,
+          "comp": "아주좋음",
+          "comp_score": 1.25
+        },
+        {
+          "keyword": "서정희가방",
+          "category": "패션잡화 > 여성가방 > 크로스백",
+          "search": 300,
+          "products": 18,
+          "comp": "아주좋음",
+          "comp_score": 0.06
+        },
+        {
+          "keyword": "컨티뉴가방",
+          "category": "패션잡화 > 여성가방 > 토트백",
+          "search": 300,
+          "products": 181,
+          "comp": "아주좋음",
+          "comp_score": 0.6
+        }
+      ]
+    }
+  },
+  "패션잡화 > 남성가방": {
+    "최근 30일": {
+      "collected_at": "2026-09-20",
+      "filter": {
+        "min_search": 300,
+        "max_products": 900,
+        "period": "최근 30일",
+        "exclude_major_brand": true
+      },
+      "keywords": [
+        {
+          "keyword": "하이산백팩",
+          "category": "스포츠/레저 > 등산 > 등산가방",
+          "search": 23410,
+          "products": 673,
+          "comp": "아주좋음",
+          "comp_score": 0.03
+        },
+        {
+          "keyword": "코스트코헬리녹스",
+          "category": "스포츠/레저 > 캠핑 > 캠핑가구 > 캠핑의자",
+          "search": 10520,
+          "products": 116,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "브랜든백팩",
+          "category": "패션잡화 > 남성가방 > 백팩",
+          "search": 10110,
+          "products": 121,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "헬리녹스백팩",
+          "category": "패션잡화 > 남성가방 > 백팩",
+          "search": 9600,
+          "products": 453,
+          "comp": "아주좋음",
+          "comp_score": 0.05
+        },
+        {
+          "keyword": "aer백팩",
+          "category": "패션잡화 > 남성가방 > 백팩",
+          "search": 6590,
+          "products": 754,
+          "comp": "아주좋음",
+          "comp_score": 0.11
+        },
+        {
+          "keyword": "무신사리유저블백\n",
+          "category": "패션잡화 > 남성가방 > 토트백",
+          "search": 4370,
+          "products": 123,
+          "comp": "아주좋음",
+          "comp_score": 0.03
+        },
+        {
+          "keyword": "반누이스",
+          "category": "패션잡화 > 남성가방 > 크로스백",
+          "search": 3640,
+          "products": 498,
+          "comp": "아주좋음",
+          "comp_score": 0.14
+        },
+        {
+          "keyword": "호텔에코백",
+          "category": "패션잡화 > 남성가방 > 에코백",
+          "search": 3070,
+          "products": 499,
+          "comp": "아주좋음",
+          "comp_score": 0.16
+        },
+        {
+          "keyword": "aercitypackpro2",
+          "category": "디지털/가전 > 카메라/캠코더용품 > 카메라가방/케이스 > 배낭형케이스",
+          "search": 2790,
+          "products": 5,
+          "comp": "아주좋음",
+          "comp_score": 0
+        },
+        {
+          "keyword": "리모와백팩",
+          "category": "패션잡화 > 남성가방 > 백팩",
+          "search": 2670,
+          "products": 88,
+          "comp": "아주좋음",
+          "comp_score": 0.03
+        },
+        {
+          "keyword": "블랭코브",
+          "category": "패션잡화 > 남성가방 > 토트백",
+          "search": 2590,
+          "products": 535,
+          "comp": "아주좋음",
+          "comp_score": 0.21
+        },
+        {
+          "keyword": "토이즈맥코이헬멧백",
+          "category": "패션잡화 > 남성가방 > 토트백",
+          "search": 2540,
+          "products": 494,
+          "comp": "아주좋음",
+          "comp_score": 0.19
+        },
+        {
+          "keyword": "브랜든숄더백",
+          "category": "패션잡화 > 남성가방 > 숄더백",
+          "search": 2530,
+          "products": 38,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "투미슬링백",
+          "category": "패션잡화 > 남성가방 > 크로스백",
+          "search": 2510,
+          "products": 756,
+          "comp": "아주좋음",
+          "comp_score": 0.3
+        },
+        {
+          "keyword": "topologie",
+          "category": "패션잡화 > 남성가방 > 크로스백",
+          "search": 2330,
+          "products": 415,
+          "comp": "아주좋음",
+          "comp_score": 0.18
+        },
+        {
+          "keyword": "룰루레몬러닝벨트",
+          "category": "패션잡화 > 남성가방 > 힙색/슬링백",
+          "search": 2230,
+          "products": 311,
+          "comp": "아주좋음",
+          "comp_score": 0.14
+        },
+        {
+          "keyword": "아미아칼바백팩",
+          "category": "패션잡화 > 남성가방 > 백팩",
+          "search": 1980,
+          "products": 759,
+          "comp": "아주좋음",
+          "comp_score": 0.38
+        },
+        {
+          "keyword": "르메리카나",
+          "category": "패션잡화 > 벨트 > 남성벨트 > 캐주얼벨트",
+          "search": 1630,
+          "products": 59,
+          "comp": "아주좋음",
+          "comp_score": 0.04
+        },
+        {
+          "keyword": "다이소rfid차단",
+          "category": "패션잡화 > 지갑 > 카드/명함지갑 | 면세점 > 패션/잡화 > 지갑 > 카드/명함지갑",
+          "search": 1280,
+          "products": 8,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "온러닝백팩",
+          "category": "패션잡화 > 남성가방 > 백팩",
+          "search": 1150,
+          "products": 782,
+          "comp": "아주좋음",
+          "comp_score": 0.68
+        },
+        {
+          "keyword": "갭후디백",
+          "category": "패션잡화 > 남성가방 > 토트백",
+          "search": 1120,
+          "products": 237,
+          "comp": "아주좋음",
+          "comp_score": 0.21
+        },
+        {
+          "keyword": "aergopack2",
+          "category": "디지털/가전 > 카메라/캠코더용품 > 카메라가방/케이스 > 방수케이스",
+          "search": 1060,
+          "products": 4,
+          "comp": "아주좋음",
+          "comp_score": 0
+        },
+        {
+          "keyword": "다이소힙색",
+          "category": "패션잡화 > 남성가방 > 힙색/슬링백",
+          "search": 1010,
+          "products": 28,
+          "comp": "아주좋음",
+          "comp_score": 0.03
+        },
+        {
+          "keyword": "김상혁가방",
+          "category": "패션잡화 > 남성가방 > 숄더백",
+          "search": 990,
+          "products": 20,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "타이틀리스트백팩",
+          "category": "패션잡화 > 남성가방 > 백팩",
+          "search": 970,
+          "products": 452,
+          "comp": "아주좋음",
+          "comp_score": 0.47
+        },
+        {
+          "keyword": "이너프원백팩",
+          "category": "패션잡화 > 남성가방 > 백팩",
+          "search": 840,
+          "products": 10,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "브랜든토트백",
+          "category": "패션잡화 > 여행용가방/소품 > 보스턴가방",
+          "search": 820,
+          "products": 53,
+          "comp": "아주좋음",
+          "comp_score": 0.06
+        },
+        {
+          "keyword": "나인카운트",
+          "category": "패션잡화 > 남성가방 > 숄더백",
+          "search": 780,
+          "products": 139,
+          "comp": "아주좋음",
+          "comp_score": 0.18
+        },
+        {
+          "keyword": "배가방",
+          "category": "패션잡화 > 남성가방 > 힙색/슬링백",
+          "search": 680,
+          "products": 243,
+          "comp": "아주좋음",
+          "comp_score": 0.36
+        },
+        {
+          "keyword": "투미알파브라보백팩",
+          "category": "패션잡화 > 남성가방 > 백팩",
+          "search": 640,
+          "products": 758,
+          "comp": "아주좋음",
+          "comp_score": 1.18
+        },
+        {
+          "keyword": "브래디백",
+          "category": "패션잡화 > 남성가방 > 숄더백",
+          "search": 640,
+          "products": 186,
+          "comp": "아주좋음",
+          "comp_score": 0.29
+        },
+        {
+          "keyword": "진로슬링백",
+          "category": "패션잡화 > 남성가방 > 힙색/슬링백",
+          "search": 630,
+          "products": 10,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "몽벨에코백",
+          "category": "패션잡화 > 남성가방 > 에코백",
+          "search": 470,
+          "products": 204,
+          "comp": "아주좋음",
+          "comp_score": 0.43
+        },
+        {
+          "keyword": "스위스밀리터리백팩",
+          "category": "패션잡화 > 남성가방 > 백팩",
+          "search": 470,
+          "products": 461,
+          "comp": "아주좋음",
+          "comp_score": 0.98
+        },
+        {
+          "keyword": "장윤주가방",
+          "category": "패션잡화 > 남성가방 > 백팩",
+          "search": 470,
+          "products": 138,
+          "comp": "아주좋음",
+          "comp_score": 0.29
+        },
+        {
+          "keyword": "스위치브리프케이스",
+          "category": "패션잡화 > 남성가방 > 브리프케이스",
+          "search": 460,
+          "products": 718,
+          "comp": "아주좋음",
+          "comp_score": 1.56
+        },
+        {
+          "keyword": "갭백",
+          "category": "생활/건강 > 자동차용품 > 수납용품 > 차량용포켓",
+          "search": 460,
+          "products": 144,
+          "comp": "아주좋음",
+          "comp_score": 0.31
+        },
+        {
+          "keyword": "fane가방",
+          "category": "패션잡화 > 남성가방 > 숄더백",
+          "search": 380,
+          "products": 572,
+          "comp": "아주좋음",
+          "comp_score": 1.51
+        },
+        {
+          "keyword": "텍티컬백팩",
+          "category": "패션잡화 > 남성가방 > 백팩",
+          "search": 370,
+          "products": 509,
+          "comp": "아주좋음",
+          "comp_score": 1.38
+        },
+        {
+          "keyword": "dbba6fg10bk",
+          "category": "패션잡화 > 남성가방 > 크로스백",
+          "search": 350,
+          "products": 46,
+          "comp": "아주좋음",
+          "comp_score": 0.13
+        },
+        {
+          "keyword": "ib4378-010",
+          "category": "패션잡화 > 남성가방 > 크로스백",
+          "search": 310,
+          "products": 319,
+          "comp": "아주좋음",
+          "comp_score": 1.03
+        },
+        {
+          "keyword": "볼디스트파우치",
+          "category": "패션잡화 > 남성가방 > 힙색/슬링백",
+          "search": 300,
+          "products": 72,
+          "comp": "아주좋음",
+          "comp_score": 0.24
+        }
+      ]
+    }
+  },
+  "패션잡화 > 여행용가방/소품": {
+    "최근 30일": {
+      "collected_at": "2026-09-20",
+      "filter": {
+        "min_search": 300,
+        "max_products": 900,
+        "period": "최근 30일",
+        "exclude_major_brand": true
+      },
+      "keywords": [
+        {
+          "keyword": "h안전지갑",
+          "category": "면세점 > 패션/잡화 > 지갑 > 장지갑 | 패션잡화 > 지갑 > 여성지갑 > 장지갑 | 패션잡화 > 지갑 > 남성지갑 > 장지갑",
+          "search": 7930,
+          "products": 54,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "몽벨아기띠",
+          "category": "패션잡화 > 패션소품 > 머플러",
+          "search": 7160,
+          "products": 64,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "스포벨러닝벨트",
+          "category": "스포츠/레저 > 러닝용품 > 러닝벨트",
+          "search": 5470,
+          "products": 47,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "유럽여행준비물리스트",
+          "category": "패션잡화 > 여행용가방/소품 > 여행용힙색/전대",
+          "search": 5370,
+          "products": 296,
+          "comp": "아주좋음",
+          "comp_score": 0.06
+        },
+        {
+          "keyword": "다이소러닝벨트",
+          "category": "스포츠/레저 > 러닝용품 > 러닝벨트",
+          "search": 5180,
+          "products": 7,
+          "comp": "아주좋음",
+          "comp_score": 0
+        },
+        {
+          "keyword": "머즈캐리어",
+          "category": "패션잡화 > 여행용가방/소품 > 기내용 캐리어",
+          "search": 5180,
+          "products": 75,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "다이소자물쇠",
+          "category": "생활/건강 > 생활용품 > 보안용품 > 자물쇠/열쇠",
+          "search": 4140,
+          "products": 103,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "다이소벨트",
+          "category": "스포츠/레저 > 러닝용품 > 러닝벨트",
+          "search": 3310,
+          "products": 90,
+          "comp": "아주좋음",
+          "comp_score": 0.03
+        },
+        {
+          "keyword": "유메르가방",
+          "category": "패션잡화 > 여행용가방/소품 > 보스턴가방",
+          "search": 3160,
+          "products": 109,
+          "comp": "아주좋음",
+          "comp_score": 0.03
+        },
+        {
+          "keyword": "다이소동지갑",
+          "category": "패션잡화 > 여행용가방/소품 > 여권지갑/케이스",
+          "search": 3060,
+          "products": 242,
+          "comp": "아주좋음",
+          "comp_score": 0.08
+        },
+        {
+          "keyword": "승무원우산",
+          "category": "패션잡화 > 패션소품 > 우산 > 자동우산",
+          "search": 2790,
+          "products": 31,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "다이소여권케이스",
+          "category": "패션잡화 > 여행용가방/소품 > 여권지갑/케이스",
+          "search": 2650,
+          "products": 20,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "브랜든보스턴백",
+          "category": "패션잡화 > 여행용가방/소품 > 보스턴가방",
+          "search": 2510,
+          "products": 57,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "브래든",
+          "category": "패션잡화 > 여행용가방/소품 > 여행용파우치",
+          "search": 2460,
+          "products": 263,
+          "comp": "아주좋음",
+          "comp_score": 0.11
+        },
+        {
+          "keyword": "어데이즈",
+          "category": "패션잡화 > 여성가방 > 파우치",
+          "search": 2320,
+          "products": 475,
+          "comp": "아주좋음",
+          "comp_score": 0.2
+        },
+        {
+          "keyword": "베이프잡지부록",
+          "category": "패션잡화 > 여성가방 > 백팩 | 패션잡화 > 남성가방 > 백팩 | 면세점 > 패션/잡화 > 가방 > 백팩 | 출산/육아 > 유아동잡화 > 가방 > 백팩",
+          "search": 2130,
+          "products": 210,
+          "comp": "아주좋음",
+          "comp_score": 0.1
+        },
+        {
+          "keyword": "스포벨",
+          "category": "스포츠/레저 > 러닝용품 > 러닝벨트",
+          "search": 1800,
+          "products": 189,
+          "comp": "아주좋음",
+          "comp_score": 0.1
+        },
+        {
+          "keyword": "다이소베트남동지갑",
+          "category": "패션잡화 > 지갑 > 통장지갑",
+          "search": 1570,
+          "products": 230,
+          "comp": "아주좋음",
+          "comp_score": 0.15
+        },
+        {
+          "keyword": "노모어댄",
+          "category": "패션잡화 > 여행용가방/소품 > 중대형 캐리어",
+          "search": 1450,
+          "products": 9,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "다이소여행가방",
+          "category": "패션잡화 > 여행용가방/소품 > 보스턴가방",
+          "search": 1440,
+          "products": 203,
+          "comp": "아주좋음",
+          "comp_score": 0.14
+        },
+        {
+          "keyword": "트라몬",
+          "category": "패션잡화 > 여행용가방/소품 > 중대형 캐리어",
+          "search": 1410,
+          "products": 119,
+          "comp": "아주좋음",
+          "comp_score": 0.08
+        },
+        {
+          "keyword": "잔스포츠아가베",
+          "category": "패션잡화 > 여성가방 > 백팩 | 패션잡화 > 남성가방 > 백팩 | 면세점 > 패션/잡화 > 가방 > 백팩 | 출산/육아 > 유아동잡화 > 가방 > 백팩",
+          "search": 1300,
+          "products": 855,
+          "comp": "아주좋음",
+          "comp_score": 0.66
+        },
+        {
+          "keyword": "플레이조이트레블백",
+          "category": "패션잡화 > 여행용가방/소품 > 여행용파우치",
+          "search": 1220,
+          "products": 68,
+          "comp": "아주좋음",
+          "comp_score": 0.06
+        },
+        {
+          "keyword": "다이소런닝벨트",
+          "category": "스포츠/레저 > 러닝용품 > 러닝벨트",
+          "search": 1110,
+          "products": 7,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "다이소복대",
+          "category": "스포츠/레저 > 보호용품 > 허리보호대",
+          "search": 1060,
+          "products": 7,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "남대문시장가방",
+          "category": "패션잡화 > 여행용가방/소품 > 이민/유학용 가방",
+          "search": 880,
+          "products": 296,
+          "comp": "아주좋음",
+          "comp_score": 0.34
+        },
+        {
+          "keyword": "잔스포츠런치백",
+          "category": "패션잡화 > 여성가방 > 백팩 | 패션잡화 > 남성가방 > 백팩 | 면세점 > 패션/잡화 > 가방 > 백팩 | 출산/육아 > 유아동잡화 > 가방 > 백팩",
+          "search": 840,
+          "products": 449,
+          "comp": "아주좋음",
+          "comp_score": 0.53
+        },
+        {
+          "keyword": "다이소접이식가방",
+          "category": "패션잡화 > 여행용가방/소품 > 보스턴가방",
+          "search": 830,
+          "products": 156,
+          "comp": "아주좋음",
+          "comp_score": 0.19
+        },
+        {
+          "keyword": "다이소보스턴백",
+          "category": "패션잡화 > 여행용가방/소품 > 보스턴가방",
+          "search": 800,
+          "products": 19,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "bmw보스턴백",
+          "category": "스포츠/레저 > 골프 > 골프백 > 보스턴백",
+          "search": 800,
+          "products": 132,
+          "comp": "아주좋음",
+          "comp_score": 0.17
+        },
+        {
+          "keyword": "짱구레디백",
+          "category": "패션잡화 > 여행용가방/소품 > 기내용 캐리어",
+          "search": 790,
+          "products": 423,
+          "comp": "아주좋음",
+          "comp_score": 0.54
+        },
+        {
+          "keyword": "커스텀볼트보스턴백",
+          "category": "패션잡화 > 여행용가방/소품 > 보스턴가방",
+          "search": 670,
+          "products": 22,
+          "comp": "아주좋음",
+          "comp_score": 0.03
+        },
+        {
+          "keyword": "다이소여행지갑",
+          "category": "패션잡화 > 지갑 > 동전지갑",
+          "search": 670,
+          "products": 37,
+          "comp": "아주좋음",
+          "comp_score": 0.06
+        },
+        {
+          "keyword": "4단압축파우치",
+          "category": "패션잡화 > 여행용가방/소품 > 여행용파우치",
+          "search": 560,
+          "products": 727,
+          "comp": "아주좋음",
+          "comp_score": 1.3
+        },
+        {
+          "keyword": "베이프더플백",
+          "category": "패션잡화 > 여행용가방/소품 > 보스턴가방",
+          "search": 540,
+          "products": 121,
+          "comp": "아주좋음",
+          "comp_score": 0.22
+        },
+        {
+          "keyword": "브랜든폴더블토트백",
+          "category": "패션잡화 > 여행용가방/소품 > 보스턴가방",
+          "search": 530,
+          "products": 20,
+          "comp": "아주좋음",
+          "comp_score": 0.04
+        },
+        {
+          "keyword": "히노모토휠",
+          "category": "패션잡화 > 여행용가방/소품 > 기내용 캐리어",
+          "search": 520,
+          "products": 554,
+          "comp": "아주좋음",
+          "comp_score": 1.07
+        },
+        {
+          "keyword": "디올보스턴백",
+          "category": "패션잡화 > 여행용가방/소품 > 보스턴가방",
+          "search": 500,
+          "products": 644,
+          "comp": "아주좋음",
+          "comp_score": 1.29
+        },
+        {
+          "keyword": "룰루레몬더플백",
+          "category": "패션잡화 > 여행용가방/소품 > 보스턴가방",
+          "search": 490,
+          "products": 365,
+          "comp": "아주좋음",
+          "comp_score": 0.74
+        },
+        {
+          "keyword": "다이소여행용가방",
+          "category": "패션잡화 > 여행용가방/소품 > 보스턴가방",
+          "search": 480,
+          "products": 352,
+          "comp": "아주좋음",
+          "comp_score": 0.73
+        },
+        {
+          "keyword": "에스쿠다마",
+          "category": "패션잡화 > 여행용가방/소품 > 기내용 캐리어",
+          "search": 470,
+          "products": 319,
+          "comp": "아주좋음",
+          "comp_score": 0.68
+        },
+        {
+          "keyword": "타고가요버킷백",
+          "category": "패션잡화 > 여행용가방/소품 > 캐리어소품",
+          "search": 420,
+          "products": 25,
+          "comp": "아주좋음",
+          "comp_score": 0.06
+        },
+        {
+          "keyword": "배지갑",
+          "category": "패션잡화 > 여행용가방/소품 > 여행용힙색/전대",
+          "search": 400,
+          "products": 1,
+          "comp": "아주좋음",
+          "comp_score": 0
+        },
+        {
+          "keyword": "열압착파우치",
+          "category": "생활/건강 > 주방용품 > 보관/밀폐용기 > 비닐접착기",
+          "search": 370,
+          "products": 96,
+          "comp": "아주좋음",
+          "comp_score": 0.26
+        },
+        {
+          "keyword": "다이소큰가방",
+          "category": "패션잡화 > 여행용가방/소품 > 이민/유학용 가방",
+          "search": 360,
+          "products": 2,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "헬켄",
+          "category": "패션잡화 > 여행용가방/소품 > 캐리어소품",
+          "search": 360,
+          "products": 488,
+          "comp": "아주좋음",
+          "comp_score": 1.36
+        },
+        {
+          "keyword": "꺼내기쉬운파우치",
+          "category": "패션잡화 > 여행용가방/소품 > 여행용파우치",
+          "search": 350,
+          "products": 500,
+          "comp": "아주좋음",
+          "comp_score": 1.43
+        },
+        {
+          "keyword": "아기신발이름표",
+          "category": "패션잡화 > 여행용가방/소품 > 네임태그",
+          "search": 350,
+          "products": 363,
+          "comp": "아주좋음",
+          "comp_score": 1.04
+        },
+        {
+          "keyword": "바이래브",
+          "category": "패션잡화 > 여성가방 > 크로스백 | 패션잡화 > 남성가방 > 크로스백",
+          "search": 340,
+          "products": 14,
+          "comp": "아주좋음",
+          "comp_score": 0.04
+        },
+        {
+          "keyword": "아기신발네임택",
+          "category": "패션잡화 > 여행용가방/소품 > 네임태그",
+          "search": 340,
+          "products": 245,
+          "comp": "아주좋음",
+          "comp_score": 0.72
+        },
+        {
+          "keyword": "다이소런닝가방",
+          "category": "스포츠/레저 > 러닝용품 > 기타러닝용품",
+          "search": 330,
+          "products": 16,
+          "comp": "아주좋음",
+          "comp_score": 0.05
+        },
+        {
+          "keyword": "트래블기어이민가방",
+          "category": "패션잡화 > 여행용가방/소품 > 이민/유학용 가방",
+          "search": 320,
+          "products": 48,
+          "comp": "아주좋음",
+          "comp_score": 0.15
+        },
+        {
+          "keyword": "노스텔지어캐리어",
+          "category": "패션잡화 > 여행용가방/소품 > 기내용 캐리어",
+          "search": 320,
+          "products": 77,
+          "comp": "아주좋음",
+          "comp_score": 0.24
+        }
+      ]
+    }
+  },
+  "패션잡화 > 지갑": {
+    "최근 30일": {
+      "collected_at": "2026-09-20",
+      "filter": {
+        "min_search": 300,
+        "max_products": 900,
+        "period": "최근 30일",
+        "exclude_major_brand": true
+      },
+      "keywords": [
+        {
+          "keyword": "현대안전지갑",
+          "category": "패션잡화 > 패션소품 > 키링",
+          "search": 42840,
+          "products": 72,
+          "comp": "아주좋음",
+          "comp_score": 0
+        },
+        {
+          "keyword": "공덕키링",
+          "category": "패션잡화 > 패션소품 > 키링",
+          "search": 18920,
+          "products": 454,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "시누니미니지갑",
+          "category": "패션잡화 > 지갑 > 남성지갑 > 반지갑",
+          "search": 6510,
+          "products": 61,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "치이카와릴패스",
+          "category": "패션잡화 > 지갑 > 카드/명함지갑",
+          "search": 5890,
+          "products": 141,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "프로퍼빌롱잉즈",
+          "category": "패션잡화 > 지갑 > 카드/명함지갑",
+          "search": 5220,
+          "products": 188,
+          "comp": "아주좋음",
+          "comp_score": 0.04
+        },
+        {
+          "keyword": "꺼먹살이인형",
+          "category": "패션잡화 > 패션소품 > 키링",
+          "search": 4290,
+          "products": 356,
+          "comp": "아주좋음",
+          "comp_score": 0.08
+        },
+        {
+          "keyword": "다이소카드지갑",
+          "category": "패션잡화 > 지갑 > 카드/명함지갑",
+          "search": 4150,
+          "products": 127,
+          "comp": "아주좋음",
+          "comp_score": 0.03
+        },
+        {
+          "keyword": "치이카와자석키링",
+          "category": "패션잡화 > 패션소품 > 키링",
+          "search": 3150,
+          "products": 125,
+          "comp": "아주좋음",
+          "comp_score": 0.04
+        },
+        {
+          "keyword": "다이소지갑",
+          "category": "패션잡화 > 지갑 > 카드/명함지갑",
+          "search": 2770,
+          "products": 206,
+          "comp": "아주좋음",
+          "comp_score": 0.07
+        },
+        {
+          "keyword": "가나디키링",
+          "category": "패션잡화 > 패션소품 > 키링",
+          "search": 2050,
+          "products": 165,
+          "comp": "아주좋음",
+          "comp_score": 0.08
+        },
+        {
+          "keyword": "메종스본드",
+          "category": "패션잡화 > 지갑 > 여성지갑 > 반지갑",
+          "search": 1890,
+          "products": 20,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "이혜영지갑",
+          "category": "면세점 > 패션/잡화 > 지갑 > 장지갑 | 패션잡화 > 지갑 > 여성지갑 > 장지갑 | 패션잡화 > 지갑 > 남성지갑 > 장지갑",
+          "search": 1580,
+          "products": 28,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "mcrn",
+          "category": "패션잡화 > 헤어액세서리 > 헤어액세서리소품",
+          "search": 1490,
+          "products": 424,
+          "comp": "아주좋음",
+          "comp_score": 0.28
+        },
+        {
+          "keyword": "아우프셋",
+          "category": "패션잡화 > 지갑 > 카드/명함지갑",
+          "search": 1410,
+          "products": 30,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "몽벨미니지퍼월렛",
+          "category": "패션잡화 > 지갑 > 카드/명함지갑",
+          "search": 1390,
+          "products": 334,
+          "comp": "아주좋음",
+          "comp_score": 0.24
+        },
+        {
+          "keyword": "다이소엔화동전지갑",
+          "category": "패션잡화 > 지갑 > 동전지갑",
+          "search": 1290,
+          "products": 66,
+          "comp": "아주좋음",
+          "comp_score": 0.05
+        },
+        {
+          "keyword": "먼작귀제초지갑",
+          "category": "패션잡화 > 지갑 > 동전지갑",
+          "search": 1290,
+          "products": 11,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "부이부이백",
+          "category": "패션잡화 > 지갑 > 카드/명함지갑",
+          "search": 1080,
+          "products": 125,
+          "comp": "아주좋음",
+          "comp_score": 0.12
+        },
+        {
+          "keyword": "베트남동지갑도안",
+          "category": "패션잡화 > 지갑 > 통장지갑",
+          "search": 600,
+          "products": 21,
+          "comp": "아주좋음",
+          "comp_score": 0.04
+        },
+        {
+          "keyword": "다이소베트남지갑",
+          "category": "패션잡화 > 지갑 > 통장지갑",
+          "search": 430,
+          "products": 3,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "장어가죽지갑",
+          "category": "패션잡화 > 지갑 > 동전지갑",
+          "search": 350,
+          "products": 704,
+          "comp": "좋음",
+          "comp_score": 2.01
+        },
+        {
+          "keyword": "배트맨카드지갑",
+          "category": "패션잡화 > 지갑 > 카드/명함지갑",
+          "search": 310,
+          "products": 277,
+          "comp": "아주좋음",
+          "comp_score": 0.89
+        }
+      ]
+    }
+  },
+  "패션잡화 > 벨트": {
+    "최근 30일": {
+      "collected_at": "2026-09-20",
+      "filter": {
+        "min_search": 300,
+        "max_products": 900,
+        "period": "최근 30일",
+        "exclude_major_brand": true
+      },
+      "keywords": [
+        {
+          "keyword": "포튼가먼트",
+          "category": "패션잡화 > 벨트 > 멜빵",
+          "search": 8020,
+          "products": 24,
+          "comp": "아주좋음",
+          "comp_score": 0
+        },
+        {
+          "keyword": "몽블랑벨트가죽교체",
+          "category": "패션잡화 > 벨트 > 벨트부품",
+          "search": 2330,
+          "products": 356,
+          "comp": "아주좋음",
+          "comp_score": 0.15
+        },
+        {
+          "keyword": "바스통벨트",
+          "category": "패션잡화 > 벨트 > 남성벨트 > 정장벨트",
+          "search": 1990,
+          "products": 127,
+          "comp": "아주좋음",
+          "comp_score": 0.06
+        },
+        {
+          "keyword": "히콕벨트",
+          "category": "패션잡화 > 벨트 > 남성벨트 > 캐주얼벨트",
+          "search": 730,
+          "products": 395,
+          "comp": "아주좋음",
+          "comp_score": 0.54
+        },
+        {
+          "keyword": "토이즈맥코이벨트",
+          "category": "패션잡화 > 벨트 > 남성벨트 > 캐주얼벨트",
+          "search": 430,
+          "products": 205,
+          "comp": "아주좋음",
+          "comp_score": 0.48
+        },
+        {
+          "keyword": "군대요대",
+          "category": "패션잡화 > 벨트 > 남성벨트 > 캐주얼벨트",
+          "search": 390,
+          "products": 797,
+          "comp": "좋음",
+          "comp_score": 2.04
+        },
+        {
+          "keyword": "빈티지웍스",
+          "category": "패션잡화 > 벨트 > 남성벨트 > 캐주얼벨트",
+          "search": 360,
+          "products": 190,
+          "comp": "아주좋음",
+          "comp_score": 0.53
+        }
+      ]
+    }
+  },
+  "패션잡화 > 모자": {
+    "최근 30일": {
+      "collected_at": "2026-09-20",
+      "filter": {
+        "min_search": 300,
+        "max_products": 900,
+        "period": "최근 30일",
+        "exclude_major_brand": true
+      },
+      "keywords": [
+        {
+          "keyword": "아비에무아모자",
+          "category": "패션잡화 > 모자 > 야구모자",
+          "search": 15250,
+          "products": 68,
+          "comp": "아주좋음",
+          "comp_score": 0
+        },
+        {
+          "keyword": "스탁헌터",
+          "category": "식품 > 농산물 > 과일 > 포도",
+          "search": 12580,
+          "products": 7,
+          "comp": "아주좋음",
+          "comp_score": 0
+        },
+        {
+          "keyword": "오스무브",
+          "category": "패션잡화 > 모자 > 야구모자",
+          "search": 8620,
+          "products": 586,
+          "comp": "아주좋음",
+          "comp_score": 0.07
+        },
+        {
+          "keyword": "린에비뉴",
+          "category": "패션잡화 > 모자 > 야구모자",
+          "search": 7560,
+          "products": 710,
+          "comp": "아주좋음",
+          "comp_score": 0.09
+        },
+        {
+          "keyword": "알렉스조노",
+          "category": "패션잡화 > 모자 > 야구모자",
+          "search": 5130,
+          "products": 539,
+          "comp": "아주좋음",
+          "comp_score": 0.11
+        },
+        {
+          "keyword": "티켓투더문모자",
+          "category": "패션잡화 > 모자 > 야구모자",
+          "search": 4320,
+          "products": 434,
+          "comp": "아주좋음",
+          "comp_score": 0.1
+        },
+        {
+          "keyword": "다이소모자",
+          "category": "패션잡화 > 모자 > 야구모자",
+          "search": 4030,
+          "products": 293,
+          "comp": "아주좋음",
+          "comp_score": 0.07
+        },
+        {
+          "keyword": "힐링햇",
+          "category": "패션잡화 > 헤어액세서리 > 가발 > 여성가발",
+          "search": 3770,
+          "products": 384,
+          "comp": "아주좋음",
+          "comp_score": 0.1
+        },
+        {
+          "keyword": "헬로선라이즈모자",
+          "category": "패션잡화 > 모자 > 야구모자",
+          "search": 3470,
+          "products": 898,
+          "comp": "아주좋음",
+          "comp_score": 0.26
+        },
+        {
+          "keyword": "헤어가드선쿨러",
+          "category": "패션잡화 > 모자 > 두건/반다나",
+          "search": 2670,
+          "products": 69,
+          "comp": "아주좋음",
+          "comp_score": 0.03
+        },
+        {
+          "keyword": "알렉스조노모자",
+          "category": "패션잡화 > 모자 > 야구모자",
+          "search": 2560,
+          "products": 394,
+          "comp": "아주좋음",
+          "comp_score": 0.15
+        },
+        {
+          "keyword": "우알롱모자",
+          "category": "패션잡화 > 모자 > 야구모자",
+          "search": 2530,
+          "products": 136,
+          "comp": "아주좋음",
+          "comp_score": 0.05
+        },
+        {
+          "keyword": "에메레온도르모자",
+          "category": "패션잡화 > 모자 > 야구모자",
+          "search": 1760,
+          "products": 429,
+          "comp": "아주좋음",
+          "comp_score": 0.24
+        },
+        {
+          "keyword": "살로몬링크볼캡",
+          "category": "패션잡화 > 모자 > 야구모자",
+          "search": 1710,
+          "products": 244,
+          "comp": "아주좋음",
+          "comp_score": 0.14
+        },
+        {
+          "keyword": "김신영모자",
+          "category": "패션잡화 > 모자 > 야구모자",
+          "search": 1460,
+          "products": 274,
+          "comp": "아주좋음",
+          "comp_score": 0.19
+        },
+        {
+          "keyword": "예비군모자",
+          "category": "패션잡화 > 모자 > 군모",
+          "search": 1330,
+          "products": 723,
+          "comp": "아주좋음",
+          "comp_score": 0.54
+        },
+        {
+          "keyword": "아크테릭스반다나",
+          "category": "스포츠/레저 > 스포츠액세서리 > 아이스머플러/스카프",
+          "search": 1280,
+          "products": 461,
+          "comp": "아주좋음",
+          "comp_score": 0.36
+        },
+        {
+          "keyword": "노윤서모자",
+          "category": "패션잡화 > 모자 > 벙거지모자",
+          "search": 1120,
+          "products": 535,
+          "comp": "아주좋음",
+          "comp_score": 0.48
+        },
+        {
+          "keyword": "칠사모자",
+          "category": "패션잡화 > 모자 > 야구모자",
+          "search": 1120,
+          "products": 125,
+          "comp": "아주좋음",
+          "comp_score": 0.11
+        },
+        {
+          "keyword": "듀렉",
+          "category": "패션잡화 > 모자 > 두건/반다나",
+          "search": 1080,
+          "products": 430,
+          "comp": "아주좋음",
+          "comp_score": 0.4
+        },
+        {
+          "keyword": "다이소썬캡",
+          "category": "패션잡화 > 모자 > 선캡",
+          "search": 1060,
+          "products": 48,
+          "comp": "아주좋음",
+          "comp_score": 0.05
+        },
+        {
+          "keyword": "미나수모자",
+          "category": "패션잡화 > 모자 > 야구모자",
+          "search": 1060,
+          "products": 422,
+          "comp": "아주좋음",
+          "comp_score": 0.4
+        },
+        {
+          "keyword": "삼지창모자",
+          "category": "패션잡화 > 모자 > 야구모자",
+          "search": 930,
+          "products": 274,
+          "comp": "아주좋음",
+          "comp_score": 0.29
+        },
+        {
+          "keyword": "새마을모자",
+          "category": "패션잡화 > 모자 > 야구모자",
+          "search": 900,
+          "products": 466,
+          "comp": "아주좋음",
+          "comp_score": 0.52
+        },
+        {
+          "keyword": "다이소러닝모자",
+          "category": "패션잡화 > 모자 > 야구모자",
+          "search": 880,
+          "products": 25,
+          "comp": "아주좋음",
+          "comp_score": 0.03
+        },
+        {
+          "keyword": "피브비모자",
+          "category": "패션잡화 > 모자 > 야구모자",
+          "search": 850,
+          "products": 225,
+          "comp": "아주좋음",
+          "comp_score": 0.26
+        },
+        {
+          "keyword": "아에이오우모자",
+          "category": "패션잡화 > 모자 > 야구모자",
+          "search": 800,
+          "products": 46,
+          "comp": "아주좋음",
+          "comp_score": 0.06
+        },
+        {
+          "keyword": "잉어킹모자",
+          "category": "패션잡화 > 모자 > 야구모자",
+          "search": 720,
+          "products": 67,
+          "comp": "아주좋음",
+          "comp_score": 0.09
+        },
+        {
+          "keyword": "하이산모자",
+          "category": "패션잡화 > 모자 > 스냅백",
+          "search": 710,
+          "products": 721,
+          "comp": "아주좋음",
+          "comp_score": 1.02
+        },
+        {
+          "keyword": "다이소캡모자",
+          "category": "패션잡화 > 모자 > 야구모자",
+          "search": 700,
+          "products": 62,
+          "comp": "아주좋음",
+          "comp_score": 0.09
+        },
+        {
+          "keyword": "볼끼",
+          "category": "패션잡화 > 모자 > 방한모자",
+          "search": 630,
+          "products": 741,
+          "comp": "아주좋음",
+          "comp_score": 1.18
+        },
+        {
+          "keyword": "장원영모자",
+          "category": "패션잡화 > 모자 > 야구모자",
+          "search": 630,
+          "products": 139,
+          "comp": "아주좋음",
+          "comp_score": 0.22
+        },
+        {
+          "keyword": "데카트론러닝모자",
+          "category": "패션잡화 > 모자 > 야구모자",
+          "search": 540,
+          "products": 259,
+          "comp": "아주좋음",
+          "comp_score": 0.48
+        },
+        {
+          "keyword": "rab비니\n",
+          "category": "패션잡화 > 모자 > 비니",
+          "search": 480,
+          "products": 550,
+          "comp": "아주좋음",
+          "comp_score": 1.15
+        },
+        {
+          "keyword": "럭키슈에뜨모자",
+          "category": "패션잡화 > 모자 > 야구모자",
+          "search": 470,
+          "products": 554,
+          "comp": "아주좋음",
+          "comp_score": 1.18
+        },
+        {
+          "keyword": "뉴에라캠프캡",
+          "category": "패션잡화 > 모자 > 스냅백",
+          "search": 430,
+          "products": 164,
+          "comp": "아주좋음",
+          "comp_score": 0.38
+        },
+        {
+          "keyword": "조교모자",
+          "category": "패션잡화 > 모자 > 야구모자",
+          "search": 420,
+          "products": 542,
+          "comp": "아주좋음",
+          "comp_score": 1.29
+        },
+        {
+          "keyword": "시오르모자",
+          "category": "패션잡화 > 모자 > 선캡",
+          "search": 420,
+          "products": 722,
+          "comp": "아주좋음",
+          "comp_score": 1.72
+        },
+        {
+          "keyword": "다이소햇빛가리개모자",
+          "category": "패션잡화 > 모자 > 선캡",
+          "search": 420,
+          "products": 7,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "남바위",
+          "category": "패션의류 > 여성의류 > 한복 | 패션의류 > 남성의류 > 한복 | 출산/육아 > 유아동의류 > 한복 | 생활/건강 > 반려동물 > 패션용품 > 한복",
+          "search": 360,
+          "products": 38,
+          "comp": "아주좋음",
+          "comp_score": 0.11
+        },
+        {
+          "keyword": "불한증막모자",
+          "category": "패션잡화 > 모자 > 두건/반다나",
+          "search": 350,
+          "products": 49,
+          "comp": "아주좋음",
+          "comp_score": 0.14
+        },
+        {
+          "keyword": "우주떡집이은지모자",
+          "category": "패션잡화 > 모자 > 베레모",
+          "search": 300,
+          "products": 35,
+          "comp": "아주좋음",
+          "comp_score": 0.12
+        }
+      ]
+    }
+  },
+  "패션잡화 > 장갑": {
+    "최근 30일": {
+      "collected_at": "2026-09-20",
+      "filter": {
+        "min_search": 300,
+        "max_products": 900,
+        "period": "최근 30일",
+        "exclude_major_brand": true
+      },
+      "keywords": [
+        {
+          "keyword": "재택부업",
+          "category": "패션잡화 > 장갑 > 암워머/토시",
+          "search": 12580,
+          "products": 97,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        }
+      ]
+    }
+  },
+  "패션잡화 > 선글라스/안경테": {
+    "최근 30일": {
+      "collected_at": "2026-09-20",
+      "filter": {
+        "min_search": 300,
+        "max_products": 900,
+        "period": "최근 30일",
+        "exclude_major_brand": true
+      },
+      "keywords": [
+        {
+          "keyword": "메타ai글라스",
+          "category": "패션잡화 > 선글라스/안경테 > 선글라스",
+          "search": 22220,
+          "products": 223,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "린드버그안경테",
+          "category": "패션잡화 > 선글라스/안경테 > 안경테",
+          "search": 14320,
+          "products": 574,
+          "comp": "아주좋음",
+          "comp_score": 0.04
+        },
+        {
+          "keyword": "레이벤대디오",
+          "category": "패션잡화 > 선글라스/안경테 > 선글라스",
+          "search": 12420,
+          "products": 505,
+          "comp": "아주좋음",
+          "comp_score": 0.04
+        },
+        {
+          "keyword": "브리즘안경",
+          "category": "패션잡화 > 선글라스/안경테 > 선글라스",
+          "search": 11500,
+          "products": 257,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "이븐리얼리티g2",
+          "category": "패션잡화 > 선글라스/안경테 > 안경테",
+          "search": 11040,
+          "products": 321,
+          "comp": "아주좋음",
+          "comp_score": 0.03
+        },
+        {
+          "keyword": "윤은혜안경",
+          "category": "패션잡화 > 선글라스/안경테 > 안경테",
+          "search": 9570,
+          "products": 12,
+          "comp": "아주좋음",
+          "comp_score": 0
+        },
+        {
+          "keyword": "다이소선글라스",
+          "category": "패션잡화 > 선글라스/안경테 > 선글라스",
+          "search": 7620,
+          "products": 84,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "매틱플락",
+          "category": "패션잡화 > 선글라스/안경테 > 안경테",
+          "search": 5070,
+          "products": 8,
+          "comp": "아주좋음",
+          "comp_score": 0
+        },
+        {
+          "keyword": "진저아이웨어",
+          "category": "패션잡화 > 선글라스/안경테 > 안경테",
+          "search": 3950,
+          "products": 250,
+          "comp": "아주좋음",
+          "comp_score": 0.06
+        },
+        {
+          "keyword": "niro안경",
+          "category": "패션잡화 > 선글라스/안경테 > 안경테",
+          "search": 3760,
+          "products": 297,
+          "comp": "아주좋음",
+          "comp_score": 0.08
+        },
+        {
+          "keyword": "린드버그모르텐",
+          "category": "패션잡화 > 선글라스/안경테 > 안경테",
+          "search": 3630,
+          "products": 33,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "베라왕선글라스",
+          "category": "패션잡화 > 선글라스/안경테 > 선글라스",
+          "search": 3350,
+          "products": 765,
+          "comp": "아주좋음",
+          "comp_score": 0.23
+        },
+        {
+          "keyword": "gl1988",
+          "category": "패션잡화 > 선글라스/안경테 > 안경테",
+          "search": 2620,
+          "products": 611,
+          "comp": "아주좋음",
+          "comp_score": 0.23
+        },
+        {
+          "keyword": "강민경안경",
+          "category": "패션잡화 > 선글라스/안경테 > 안경테",
+          "search": 1720,
+          "products": 73,
+          "comp": "아주좋음",
+          "comp_score": 0.04
+        },
+        {
+          "keyword": "ai자동초점안경",
+          "category": "패션잡화 > 선글라스/안경테 > 안경테",
+          "search": 1580,
+          "products": 368,
+          "comp": "아주좋음",
+          "comp_score": 0.23
+        },
+        {
+          "keyword": "밝기조절선글라스",
+          "category": "패션잡화 > 선글라스/안경테 > 선글라스",
+          "search": 1440,
+          "products": 432,
+          "comp": "아주좋음",
+          "comp_score": 0.3
+        },
+        {
+          "keyword": "만천성스마트안경",
+          "category": "-",
+          "search": 1300,
+          "products": 0,
+          "comp": "아주좋음",
+          "comp_score": 0
+        },
+        {
+          "keyword": "임세령선글라스",
+          "category": "패션잡화 > 선글라스/안경테 > 선글라스",
+          "search": 1200,
+          "products": 69,
+          "comp": "아주좋음",
+          "comp_score": 0.06
+        },
+        {
+          "keyword": "투미변색안경",
+          "category": "패션잡화 > 선글라스/안경테 > 안경테",
+          "search": 1070,
+          "products": 11,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "색약안경",
+          "category": "패션잡화 > 선글라스/안경테 > 안경테",
+          "search": 1020,
+          "products": 332,
+          "comp": "아주좋음",
+          "comp_score": 0.33
+        },
+        {
+          "keyword": "베라왕변색안경",
+          "category": "패션잡화 > 선글라스/안경테 > 선글라스",
+          "search": 970,
+          "products": 15,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "바쿠안경케이스",
+          "category": "패션잡화 > 선글라스/안경테 > 안경소품",
+          "search": 950,
+          "products": 262,
+          "comp": "아주좋음",
+          "comp_score": 0.28
+        },
+        {
+          "keyword": "볼터치안경",
+          "category": "패션잡화 > 선글라스/안경테 > 안경테",
+          "search": 710,
+          "products": 410,
+          "comp": "아주좋음",
+          "comp_score": 0.58
+        },
+        {
+          "keyword": "윤여정안경",
+          "category": "패션잡화 > 선글라스/안경테 > 안경테",
+          "search": 670,
+          "products": 887,
+          "comp": "아주좋음",
+          "comp_score": 1.32
+        },
+        {
+          "keyword": "오토포커스안경",
+          "category": "패션잡화 > 선글라스/안경테 > 안경테",
+          "search": 660,
+          "products": 222,
+          "comp": "아주좋음",
+          "comp_score": 0.34
+        },
+        {
+          "keyword": "스마트다초점자동변색",
+          "category": "패션잡화 > 선글라스/안경테 > 안경테",
+          "search": 580,
+          "products": 136,
+          "comp": "아주좋음",
+          "comp_score": 0.23
+        },
+        {
+          "keyword": "톨레미48",
+          "category": "패션잡화 > 선글라스/안경테 > 안경테",
+          "search": 580,
+          "products": 24,
+          "comp": "아주좋음",
+          "comp_score": 0.04
+        },
+        {
+          "keyword": "앵커스블루라이트",
+          "category": "패션잡화 > 선글라스/안경테 > 선글라스",
+          "search": 470,
+          "products": 1,
+          "comp": "아주좋음",
+          "comp_score": 0
+        },
+        {
+          "keyword": "도수있는선글라스",
+          "category": "패션잡화 > 선글라스/안경테 > 선글라스",
+          "search": 450,
+          "products": 350,
+          "comp": "아주좋음",
+          "comp_score": 0.78
+        },
+        {
+          "keyword": "바쿠안경파우치",
+          "category": "패션잡화 > 선글라스/안경테 > 안경소품",
+          "search": 450,
+          "products": 261,
+          "comp": "아주좋음",
+          "comp_score": 0.58
+        },
+        {
+          "keyword": "rb2016",
+          "category": "패션잡화 > 선글라스/안경테 > 선글라스",
+          "search": 410,
+          "products": 838,
+          "comp": "좋음",
+          "comp_score": 2.04
+        },
+        {
+          "keyword": "헌터변색선글라스",
+          "category": "패션잡화 > 선글라스/안경테 > 선글라스",
+          "search": 380,
+          "products": 85,
+          "comp": "아주좋음",
+          "comp_score": 0.22
+        },
+        {
+          "keyword": "카페인안경테",
+          "category": "패션잡화 > 선글라스/안경테 > 안경테",
+          "search": 370,
+          "products": 450,
+          "comp": "아주좋음",
+          "comp_score": 1.22
+        },
+        {
+          "keyword": "리락쿠마안경케이스",
+          "category": "패션잡화 > 선글라스/안경테 > 안경소품",
+          "search": 350,
+          "products": 328,
+          "comp": "아주좋음",
+          "comp_score": 0.94
+        },
+        {
+          "keyword": "일상쏘옥",
+          "category": "패션잡화 > 선글라스/안경테 > 안경소품",
+          "search": 300,
+          "products": 573,
+          "comp": "아주좋음",
+          "comp_score": 1.91
+        }
+      ]
+    }
+  },
+  "패션잡화 > 헤어액세서리": {
+    "최근 30일": {
+      "collected_at": "2026-09-20",
+      "filter": {
+        "min_search": 300,
+        "max_products": 900,
+        "period": "최근 30일",
+        "exclude_major_brand": true
+      },
+      "keywords": [
+        {
+          "keyword": "중단발레이어드컷",
+          "category": "패션잡화 > 헤어액세서리 > 가발 > 여성가발",
+          "search": 77340,
+          "products": 880,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "알로집게핀",
+          "category": "패션잡화 > 헤어액세서리 > 헤어핀",
+          "search": 12640,
+          "products": 413,
+          "comp": "아주좋음",
+          "comp_score": 0.03
+        },
+        {
+          "keyword": "로게인폼여성",
+          "category": "디지털/가전 > 이미용가전 > 두피케어기기",
+          "search": 7770,
+          "products": 7,
+          "comp": "아주좋음",
+          "comp_score": 0
+        },
+        {
+          "keyword": "더창정수리가발",
+          "category": "패션잡화 > 헤어액세서리 > 가발 > 여성가발",
+          "search": 5910,
+          "products": 121,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "똥머리묶는방법",
+          "category": "패션잡화 > 헤어액세서리 > 헤어끈",
+          "search": 3710,
+          "products": 718,
+          "comp": "아주좋음",
+          "comp_score": 0.19
+        },
+        {
+          "keyword": "살로몬헤어밴드",
+          "category": "스포츠/레저 > 스포츠액세서리 > 스포츠헤어밴드",
+          "search": 2320,
+          "products": 505,
+          "comp": "아주좋음",
+          "comp_score": 0.22
+        },
+        {
+          "keyword": "미자의핀",
+          "category": "패션잡화 > 헤어액세서리 > 헤어끈",
+          "search": 1930,
+          "products": 858,
+          "comp": "아주좋음",
+          "comp_score": 0.44
+        },
+        {
+          "keyword": "alo집게핀",
+          "category": "패션잡화 > 헤어액세서리 > 헤어핀",
+          "search": 1910,
+          "products": 274,
+          "comp": "아주좋음",
+          "comp_score": 0.14
+        },
+        {
+          "keyword": "집게핀하는법",
+          "category": "패션잡화 > 헤어액세서리 > 헤어핀",
+          "search": 1700,
+          "products": 151,
+          "comp": "아주좋음",
+          "comp_score": 0.09
+        },
+        {
+          "keyword": "헤일리비버머리띠",
+          "category": "패션잡화 > 헤어액세서리 > 헤어밴드",
+          "search": 1510,
+          "products": 58,
+          "comp": "아주좋음",
+          "comp_score": 0.04
+        },
+        {
+          "keyword": "옆볼륨피스",
+          "category": "패션잡화 > 헤어액세서리 > 가발 > 여성가발",
+          "search": 1480,
+          "products": 583,
+          "comp": "아주좋음",
+          "comp_score": 0.39
+        },
+        {
+          "keyword": "끄네끼머리끈",
+          "category": "패션잡화 > 헤어액세서리 > 헤어끈",
+          "search": 1250,
+          "products": 133,
+          "comp": "아주좋음",
+          "comp_score": 0.11
+        },
+        {
+          "keyword": "더창볼륨핏위그",
+          "category": "패션잡화 > 헤어액세서리 > 가발 > 여성가발",
+          "search": 1070,
+          "products": 70,
+          "comp": "아주좋음",
+          "comp_score": 0.07
+        },
+        {
+          "keyword": "홀란드머리끈",
+          "category": "스포츠/레저 > 스포츠액세서리 > 스포츠헤어밴드",
+          "search": 870,
+          "products": 67,
+          "comp": "아주좋음",
+          "comp_score": 0.08
+        },
+        {
+          "keyword": "빗살설계볼륨집게",
+          "category": "패션잡화 > 헤어액세서리 > 헤어핀",
+          "search": 840,
+          "products": 213,
+          "comp": "아주좋음",
+          "comp_score": 0.25
+        },
+        {
+          "keyword": "이용사가발",
+          "category": "패션잡화 > 헤어액세서리 > 가발 > 여성가발",
+          "search": 840,
+          "products": 825,
+          "comp": "아주좋음",
+          "comp_score": 0.98
+        },
+        {
+          "keyword": "염정아머리띠",
+          "category": "패션잡화 > 헤어액세서리 > 헤어밴드",
+          "search": 740,
+          "products": 197,
+          "comp": "아주좋음",
+          "comp_score": 0.27
+        },
+        {
+          "keyword": "상투머리",
+          "category": "패션잡화 > 헤어액세서리 > 가발 > 남성가발",
+          "search": 700,
+          "products": 717,
+          "comp": "아주좋음",
+          "comp_score": 1.02
+        },
+        {
+          "keyword": "조이비아뜰리에",
+          "category": "패션잡화 > 헤어액세서리 > 헤어핀",
+          "search": 680,
+          "products": 164,
+          "comp": "아주좋음",
+          "comp_score": 0.24
+        },
+        {
+          "keyword": "댕기스크런치",
+          "category": "패션잡화 > 헤어액세서리 > 헤어끈",
+          "search": 600,
+          "products": 835,
+          "comp": "아주좋음",
+          "comp_score": 1.39
+        },
+        {
+          "keyword": "크루뽕",
+          "category": "패션잡화 > 헤어액세서리 > 헤어핀",
+          "search": 590,
+          "products": 5,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "화사집게핀",
+          "category": "패션잡화 > 헤어액세서리 > 헤어핀",
+          "search": 510,
+          "products": 781,
+          "comp": "아주좋음",
+          "comp_score": 1.53
+        },
+        {
+          "keyword": "mcrn스트랩",
+          "category": "패션잡화 > 헤어액세서리 > 헤어액세서리소품",
+          "search": 510,
+          "products": 287,
+          "comp": "아주좋음",
+          "comp_score": 0.56
+        },
+        {
+          "keyword": "더창",
+          "category": "패션잡화 > 헤어액세서리 > 가발 > 여성가발",
+          "search": 470,
+          "products": 309,
+          "comp": "아주좋음",
+          "comp_score": 0.66
+        },
+        {
+          "keyword": "삐삐숑",
+          "category": "패션잡화 > 헤어액세서리 > 헤어핀",
+          "search": 440,
+          "products": 57,
+          "comp": "아주좋음",
+          "comp_score": 0.13
+        },
+        {
+          "keyword": "모나브",
+          "category": "패션잡화 > 헤어액세서리 > 가발 > 여성가발",
+          "search": 430,
+          "products": 206,
+          "comp": "아주좋음",
+          "comp_score": 0.48
+        },
+        {
+          "keyword": "색동머리핀",
+          "category": "패션잡화 > 헤어액세서리 > 헤어핀",
+          "search": 390,
+          "products": 735,
+          "comp": "아주좋음",
+          "comp_score": 1.88
+        },
+        {
+          "keyword": "배김없는집게핀",
+          "category": "패션잡화 > 헤어액세서리 > 헤어핀",
+          "search": 380,
+          "products": 365,
+          "comp": "아주좋음",
+          "comp_score": 0.96
+        },
+        {
+          "keyword": "옆볼륨헤어피스",
+          "category": "패션잡화 > 헤어액세서리 > 가발 > 여성가발",
+          "search": 380,
+          "products": 535,
+          "comp": "아주좋음",
+          "comp_score": 1.41
+        },
+        {
+          "keyword": "50대머리스타일",
+          "category": "패션잡화 > 헤어액세서리 > 가발 > 여성가발",
+          "search": 350,
+          "products": 491,
+          "comp": "아주좋음",
+          "comp_score": 1.4
+        },
+        {
+          "keyword": "슬기주머니",
+          "category": "패션잡화 > 헤어액세서리 > 헤어핀",
+          "search": 310,
+          "products": 176,
+          "comp": "아주좋음",
+          "comp_score": 0.57
+        },
+        {
+          "keyword": "바니본",
+          "category": "패션잡화 > 헤어액세서리 > 헤어핀",
+          "search": 310,
+          "products": 761,
+          "comp": "좋음",
+          "comp_score": 2.45
+        },
+        {
+          "keyword": "다운펌모자",
+          "category": "패션잡화 > 헤어액세서리 > 가발 > 남성가발",
+          "search": 300,
+          "products": 100,
+          "comp": "아주좋음",
+          "comp_score": 0.33
+        }
+      ]
+    }
+  },
+  "패션잡화 > 패션소품": {
+    "최근 30일": {
+      "collected_at": "2026-09-20",
+      "filter": {
+        "min_search": 300,
+        "max_products": 900,
+        "period": "최근 30일",
+        "exclude_major_brand": true
+      },
+      "keywords": [
+        {
+          "keyword": "더애수",
+          "category": "출산/육아 > 유아동의류 > 카디건 | 패션의류 > 남성의류 > 니트 > 카디건 | 패션의류 > 여성의류 > 니트 > 카디건",
+          "search": 88400,
+          "products": 5,
+          "comp": "아주좋음",
+          "comp_score": 0
+        },
+        {
+          "keyword": "아뜰리에슈블랭킷",
+          "category": "출산/육아 > 유아침구 > 속싸개",
+          "search": 52060,
+          "products": 840,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "군대계급",
+          "category": "패션잡화 > 패션소품 > 브로치 > 패션브로치",
+          "search": 39010,
+          "products": 867,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "세이코터틀",
+          "category": "패션잡화 > 시계 > 패션시계 > 젤리/우레탄밴드시계",
+          "search": 16180,
+          "products": 575,
+          "comp": "아주좋음",
+          "comp_score": 0.04
+        },
+        {
+          "keyword": "마시마로",
+          "category": "패션잡화 > 패션소품 > 키링",
+          "search": 14250,
+          "products": 797,
+          "comp": "아주좋음",
+          "comp_score": 0.06
+        },
+        {
+          "keyword": "올리브영키티키링",
+          "category": "패션잡화 > 패션소품 > 키링",
+          "search": 14240,
+          "products": 89,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "힌코양산",
+          "category": "패션잡화 > 패션소품 > 양산 > 자동양산",
+          "search": 12050,
+          "products": 4,
+          "comp": "아주좋음",
+          "comp_score": 0
+        },
+        {
+          "keyword": "댕댕이철사인형",
+          "category": "패션잡화 > 패션소품 > 키링",
+          "search": 11410,
+          "products": 51,
+          "comp": "아주좋음",
+          "comp_score": 0
+        },
+        {
+          "keyword": "예작주얼리",
+          "category": "패션잡화 > 주얼리 > 반지 > 패션반지",
+          "search": 7830,
+          "products": 346,
+          "comp": "아주좋음",
+          "comp_score": 0.04
+        },
+        {
+          "keyword": "군대계급표",
+          "category": "패션잡화 > 패션소품 > 와펜",
+          "search": 7770,
+          "products": 733,
+          "comp": "아주좋음",
+          "comp_score": 0.09
+        },
+        {
+          "keyword": "아따맘마키링",
+          "category": "패션잡화 > 패션소품 > 키링",
+          "search": 7280,
+          "products": 211,
+          "comp": "아주좋음",
+          "comp_score": 0.03
+        },
+        {
+          "keyword": "글루미베어",
+          "category": "패션잡화 > 패션소품 > 키링",
+          "search": 7180,
+          "products": 865,
+          "comp": "아주좋음",
+          "comp_score": 0.12
+        },
+        {
+          "keyword": "붓쯔",
+          "category": "생활/건강 > 주방용품 > 조리기구 > 집게 | 생활/건강 > 문구/사무용품 > 문구용품 > 집게",
+          "search": 5640,
+          "products": 7,
+          "comp": "아주좋음",
+          "comp_score": 0
+        },
+        {
+          "keyword": "가나디인형",
+          "category": "가구/인테리어 > 홈데코 > 쿠션/방석 > 바디필로우",
+          "search": 5470,
+          "products": 328,
+          "comp": "아주좋음",
+          "comp_score": 0.06
+        },
+        {
+          "keyword": "다이소우산",
+          "category": "패션잡화 > 패션소품 > 우산 > 자동우산",
+          "search": 5420,
+          "products": 200,
+          "comp": "아주좋음",
+          "comp_score": 0.04
+        },
+        {
+          "keyword": "다이소키캡",
+          "category": "패션잡화 > 패션소품 > 키링",
+          "search": 4150,
+          "products": 91,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "국중박키캡",
+          "category": "패션잡화 > 패션소품 > 키링",
+          "search": 4130,
+          "products": 26,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "솔리디아",
+          "category": "패션잡화 > 패션소품 > 스타킹 > 압박보정스타킹",
+          "search": 3600,
+          "products": 261,
+          "comp": "아주좋음",
+          "comp_score": 0.07
+        },
+        {
+          "keyword": "하플리",
+          "category": "패션잡화 > 패션소품 > 한복소품",
+          "search": 3560,
+          "products": 116,
+          "comp": "아주좋음",
+          "comp_score": 0.03
+        },
+        {
+          "keyword": "다이소키링",
+          "category": "패션잡화 > 패션소품 > 키링",
+          "search": 3500,
+          "products": 726,
+          "comp": "아주좋음",
+          "comp_score": 0.21
+        },
+        {
+          "keyword": "비비안웨스트시계",
+          "category": "패션잡화 > 시계 > 패션시계 > 메탈밴드시계",
+          "search": 3460,
+          "products": 87,
+          "comp": "아주좋음",
+          "comp_score": 0.03
+        },
+        {
+          "keyword": "퍼글러인형",
+          "category": "가구/인테리어 > 인테리어소품 > 장식인형",
+          "search": 3240,
+          "products": 22,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "다이소압박스타킹",
+          "category": "패션잡화 > 패션소품 > 스타킹 > 압박보정스타킹",
+          "search": 2660,
+          "products": 100,
+          "comp": "아주좋음",
+          "comp_score": 0.04
+        },
+        {
+          "keyword": "메탈일륜도키링",
+          "category": "패션잡화 > 패션소품 > 키링",
+          "search": 2340,
+          "products": 195,
+          "comp": "아주좋음",
+          "comp_score": 0.08
+        },
+        {
+          "keyword": "유랑상점",
+          "category": "패션잡화 > 패션소품 > 키링",
+          "search": 2270,
+          "products": 147,
+          "comp": "아주좋음",
+          "comp_score": 0.06
+        },
+        {
+          "keyword": "슈링클스키링",
+          "category": "패션잡화 > 패션소품 > 키링",
+          "search": 2240,
+          "products": 772,
+          "comp": "아주좋음",
+          "comp_score": 0.34
+        },
+        {
+          "keyword": "돌디샵",
+          "category": "디지털/가전 > 휴대폰액세서리 > 휴대폰거치대",
+          "search": 2200,
+          "products": 41,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "근육빵빵랜덤키링",
+          "category": "패션잡화 > 패션소품 > 키링",
+          "search": 2110,
+          "products": 67,
+          "comp": "아주좋음",
+          "comp_score": 0.03
+        },
+        {
+          "keyword": "베베치치",
+          "category": "패션잡화 > 패션소품 > 키링",
+          "search": 2080,
+          "products": 325,
+          "comp": "아주좋음",
+          "comp_score": 0.16
+        },
+        {
+          "keyword": "우치와제작",
+          "category": "패션잡화 > 패션소품 > 부채",
+          "search": 1990,
+          "products": 244,
+          "comp": "아주좋음",
+          "comp_score": 0.12
+        },
+        {
+          "keyword": "릴에이블3.0케이스",
+          "category": "생활/건강 > 건강관리용품 > 전자담배 액세서리",
+          "search": 1870,
+          "products": 270,
+          "comp": "아주좋음",
+          "comp_score": 0.14
+        },
+        {
+          "keyword": "살라몬",
+          "category": "패션잡화 > 여성신발 > 스니커즈/운동화 > 스니커즈 | 패션잡화 > 남성신발 > 스니커즈/운동화 > 스니커즈",
+          "search": 1780,
+          "products": 69,
+          "comp": "아주좋음",
+          "comp_score": 0.04
+        },
+        {
+          "keyword": "벨바스킨",
+          "category": "스포츠/레저 > 스포츠액세서리 > 스포츠토시",
+          "search": 1760,
+          "products": 101,
+          "comp": "아주좋음",
+          "comp_score": 0.06
+        },
+        {
+          "keyword": "다이소스타킹",
+          "category": "패션잡화 > 패션소품 > 스타킹 > 압박보정스타킹",
+          "search": 1680,
+          "products": 77,
+          "comp": "아주좋음",
+          "comp_score": 0.05
+        },
+        {
+          "keyword": "피지컬크라운",
+          "category": "패션잡화 > 패션소품 > 와펜",
+          "search": 1630,
+          "products": 67,
+          "comp": "아주좋음",
+          "comp_score": 0.04
+        },
+        {
+          "keyword": "양키링",
+          "category": "패션잡화 > 패션소품 > 키링",
+          "search": 1620,
+          "products": 842,
+          "comp": "아주좋음",
+          "comp_score": 0.52
+        },
+        {
+          "keyword": "마루는강쥐굿즈",
+          "category": "패션잡화 > 패션소품 > 키링",
+          "search": 1550,
+          "products": 324,
+          "comp": "아주좋음",
+          "comp_score": 0.21
+        },
+        {
+          "keyword": "디지바이스키링",
+          "category": "패션잡화 > 패션소품 > 키링",
+          "search": 1520,
+          "products": 414,
+          "comp": "아주좋음",
+          "comp_score": 0.27
+        },
+        {
+          "keyword": "네고왕양산",
+          "category": "패션잡화 > 패션소품 > 양산 > 수동양산",
+          "search": 1490,
+          "products": 692,
+          "comp": "아주좋음",
+          "comp_score": 0.46
+        },
+        {
+          "keyword": "제니날개키링",
+          "category": "가구/인테리어 > 수예 > 뜨개질 > 패키지 | 가구/인테리어 > 수예 > 자수 > 패키지 | 가구/인테리어 > 수예 > 퀼트/펠트 > 패키지",
+          "search": 1470,
+          "products": 12,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "샤넬넥워머",
+          "category": "패션잡화 > 패션소품 > 넥워머",
+          "search": 1450,
+          "products": 85,
+          "comp": "아주좋음",
+          "comp_score": 0.06
+        },
+        {
+          "keyword": "담배비눗방울",
+          "category": "패션잡화 > 패션소품 > 라이터/담배용품 > 기타담배용품",
+          "search": 1440,
+          "products": 695,
+          "comp": "아주좋음",
+          "comp_score": 0.48
+        },
+        {
+          "keyword": "멧앤멜\n",
+          "category": "패션잡화 > 패션소품 > 스카프 > 롱",
+          "search": 1430,
+          "products": 557,
+          "comp": "아주좋음",
+          "comp_score": 0.39
+        },
+        {
+          "keyword": "삼공방",
+          "category": "패션잡화 > 패션소품 > 키링",
+          "search": 1410,
+          "products": 153,
+          "comp": "아주좋음",
+          "comp_score": 0.11
+        },
+        {
+          "keyword": "사이언솔",
+          "category": "패션잡화 > 패션소품 > 스타킹 > 압박보정스타킹",
+          "search": 1400,
+          "products": 25,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "국립중앙박물관키캡",
+          "category": "패션잡화 > 패션소품 > 키링",
+          "search": 1290,
+          "products": 15,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "지안핏압박스타킹",
+          "category": "패션잡화 > 패션소품 > 스타킹 > 압박보정스타킹",
+          "search": 1290,
+          "products": 47,
+          "comp": "아주좋음",
+          "comp_score": 0.04
+        },
+        {
+          "keyword": "레인웍스",
+          "category": "패션잡화 > 패션소품 > 양산 > 수동양산",
+          "search": 1280,
+          "products": 199,
+          "comp": "아주좋음",
+          "comp_score": 0.16
+        },
+        {
+          "keyword": "뽀빠이스터프클럽",
+          "category": "패션잡화 > 패션소품 > 키링",
+          "search": 1260,
+          "products": 9,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "징징이우산",
+          "category": "패션잡화 > 패션소품 > 우산 > 수동우산",
+          "search": 1210,
+          "products": 136,
+          "comp": "아주좋음",
+          "comp_score": 0.11
+        },
+        {
+          "keyword": "폼폼푸린치비토모",
+          "category": "패션잡화 > 패션소품 > 키링",
+          "search": 1200,
+          "products": 83,
+          "comp": "아주좋음",
+          "comp_score": 0.07
+        },
+        {
+          "keyword": "가이거플리츠백",
+          "category": "패션잡화 > 패션소품 > 기타패션소품",
+          "search": 1190,
+          "products": 85,
+          "comp": "아주좋음",
+          "comp_score": 0.07
+        },
+        {
+          "keyword": "프로텍트유양산",
+          "category": "패션잡화 > 패션소품 > 양산 > 수동양산",
+          "search": 1140,
+          "products": 104,
+          "comp": "아주좋음",
+          "comp_score": 0.09
+        },
+        {
+          "keyword": "근육키티",
+          "category": "패션잡화 > 패션소품 > 키링",
+          "search": 1100,
+          "products": 364,
+          "comp": "아주좋음",
+          "comp_score": 0.33
+        },
+        {
+          "keyword": "이클립스케이스키링",
+          "category": "패션잡화 > 패션소품 > 키링",
+          "search": 1100,
+          "products": 62,
+          "comp": "아주좋음",
+          "comp_score": 0.06
+        },
+        {
+          "keyword": "지안핏",
+          "category": "패션잡화 > 패션소품 > 스타킹 > 압박보정스타킹",
+          "search": 1100,
+          "products": 47,
+          "comp": "아주좋음",
+          "comp_score": 0.04
+        },
+        {
+          "keyword": "작두굿즈",
+          "category": "패션잡화 > 패션소품 > 키링",
+          "search": 1090,
+          "products": 684,
+          "comp": "아주좋음",
+          "comp_score": 0.63
+        },
+        {
+          "keyword": "근육스폰지밥키링",
+          "category": "패션잡화 > 패션소품 > 키링",
+          "search": 1070,
+          "products": 195,
+          "comp": "아주좋음",
+          "comp_score": 0.18
+        },
+        {
+          "keyword": "다이소키티손수건",
+          "category": "출산/육아 > 신생아의류 > 가제손수건",
+          "search": 1030,
+          "products": 5,
+          "comp": "아주좋음",
+          "comp_score": 0
+        },
+        {
+          "keyword": "레오나드스카프",
+          "category": "패션잡화 > 패션소품 > 스카프 > 롱",
+          "search": 1010,
+          "products": 126,
+          "comp": "아주좋음",
+          "comp_score": 0.12
+        },
+        {
+          "keyword": "해누아양산",
+          "category": "패션잡화 > 패션소품 > 양산 > 자동양산",
+          "search": 910,
+          "products": 12,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "모뇨걸",
+          "category": "생활/건강 > 수집품 > 모형/프라모델/피규어 > 피규어",
+          "search": 900,
+          "products": 53,
+          "comp": "아주좋음",
+          "comp_score": 0.06
+        },
+        {
+          "keyword": "펜필드스카프",
+          "category": "패션잡화 > 패션소품 > 스카프 > 롱",
+          "search": 900,
+          "products": 136,
+          "comp": "아주좋음",
+          "comp_score": 0.15
+        },
+        {
+          "keyword": "짱구지비츠",
+          "category": "패션잡화 > 신발용품 > 기타신발용품",
+          "search": 890,
+          "products": 21,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "동물의숲키링",
+          "category": "패션잡화 > 패션소품 > 키링",
+          "search": 880,
+          "products": 668,
+          "comp": "아주좋음",
+          "comp_score": 0.76
+        },
+        {
+          "keyword": "변호사뱃지",
+          "category": "패션잡화 > 패션소품 > 브로치 > 패션브로치",
+          "search": 860,
+          "products": 141,
+          "comp": "아주좋음",
+          "comp_score": 0.16
+        },
+        {
+          "keyword": "변우석우산",
+          "category": "패션잡화 > 패션소품 > 우산 > 자동우산",
+          "search": 850,
+          "products": 50,
+          "comp": "아주좋음",
+          "comp_score": 0.06
+        },
+        {
+          "keyword": "srt굿즈",
+          "category": "패션잡화 > 패션소품 > 키링",
+          "search": 830,
+          "products": 112,
+          "comp": "아주좋음",
+          "comp_score": 0.13
+        },
+        {
+          "keyword": "괴불노리개",
+          "category": "패션잡화 > 패션소품 > 한복소품",
+          "search": 830,
+          "products": 554,
+          "comp": "아주좋음",
+          "comp_score": 0.67
+        },
+        {
+          "keyword": "화산귀환굿즈",
+          "category": "패션잡화 > 패션소품 > 키링",
+          "search": 770,
+          "products": 55,
+          "comp": "아주좋음",
+          "comp_score": 0.07
+        },
+        {
+          "keyword": "말랑핀뱃지",
+          "category": "패션잡화 > 패션소품 > 브로치 > 패션브로치",
+          "search": 760,
+          "products": 94,
+          "comp": "아주좋음",
+          "comp_score": 0.12
+        },
+        {
+          "keyword": "다이소보석함",
+          "category": "패션잡화 > 주얼리 > 주얼리소품 > 보관함/케이스",
+          "search": 750,
+          "products": 11,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "가비스카프",
+          "category": "패션잡화 > 패션소품 > 스카프 > 롱",
+          "search": 740,
+          "products": 228,
+          "comp": "아주좋음",
+          "comp_score": 0.31
+        },
+        {
+          "keyword": "삼성라이온즈키링",
+          "category": "패션잡화 > 패션소품 > 키링",
+          "search": 710,
+          "products": 226,
+          "comp": "아주좋음",
+          "comp_score": 0.32
+        },
+        {
+          "keyword": "스탠리미니텀블러키링",
+          "category": "패션잡화 > 패션소품 > 기타패션소품",
+          "search": 660,
+          "products": 46,
+          "comp": "아주좋음",
+          "comp_score": 0.07
+        },
+        {
+          "keyword": "mlb우산",
+          "category": "패션잡화 > 패션소품 > 우산 > 자동우산",
+          "search": 660,
+          "products": 839,
+          "comp": "아주좋음",
+          "comp_score": 1.27
+        },
+        {
+          "keyword": "기아타이거즈키링",
+          "category": "패션잡화 > 패션소품 > 키링",
+          "search": 650,
+          "products": 337,
+          "comp": "아주좋음",
+          "comp_score": 0.52
+        },
+        {
+          "keyword": "스타듀밸리굿즈",
+          "category": "패션잡화 > 패션소품 > 키링",
+          "search": 650,
+          "products": 449,
+          "comp": "아주좋음",
+          "comp_score": 0.69
+        },
+        {
+          "keyword": "형상기억양산",
+          "category": "패션잡화 > 패션소품 > 양산 > 자동양산",
+          "search": 650,
+          "products": 779,
+          "comp": "아주좋음",
+          "comp_score": 1.2
+        },
+        {
+          "keyword": "그로구키링",
+          "category": "패션잡화 > 패션소품 > 키링",
+          "search": 640,
+          "products": 467,
+          "comp": "아주좋음",
+          "comp_score": 0.73
+        },
+        {
+          "keyword": "44교시생존수업키링",
+          "category": "패션잡화 > 패션소품 > 키링",
+          "search": 640,
+          "products": 104,
+          "comp": "아주좋음",
+          "comp_score": 0.16
+        },
+        {
+          "keyword": "코스크",
+          "category": "패션잡화 > 패션소품 > 기타패션소품",
+          "search": 620,
+          "products": 454,
+          "comp": "아주좋음",
+          "comp_score": 0.73
+        },
+        {
+          "keyword": "갓우산",
+          "category": "패션잡화 > 패션소품 > 우산 > 수동우산",
+          "search": 620,
+          "products": 60,
+          "comp": "아주좋음",
+          "comp_score": 0.1
+        },
+        {
+          "keyword": "에이론압박스타킹",
+          "category": "패션잡화 > 패션소품 > 스타킹 > 팬티스타킹",
+          "search": 610,
+          "products": 15,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "폴리니스카프",
+          "category": "패션잡화 > 패션소품 > 스카프 > 스퀘어/까레스카프",
+          "search": 600,
+          "products": 88,
+          "comp": "아주좋음",
+          "comp_score": 0.15
+        },
+        {
+          "keyword": "갓끈",
+          "category": "패션잡화 > 패션소품 > 한복소품",
+          "search": 590,
+          "products": 605,
+          "comp": "아주좋음",
+          "comp_score": 1.03
+        },
+        {
+          "keyword": "다이소반다나",
+          "category": "패션잡화 > 패션소품 > 스카프 > 쁘띠/미니",
+          "search": 590,
+          "products": 8,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "붕어빵키캡",
+          "category": "패션잡화 > 패션소품 > 키링",
+          "search": 560,
+          "products": 345,
+          "comp": "아주좋음",
+          "comp_score": 0.62
+        },
+        {
+          "keyword": "솔리디아암밴드",
+          "category": "패션잡화 > 패션소품 > 스타킹 > 압박보정스타킹",
+          "search": 560,
+          "products": 1,
+          "comp": "아주좋음",
+          "comp_score": 0
+        },
+        {
+          "keyword": "하나카",
+          "category": "패션잡화 > 패션소품 > 키링",
+          "search": 550,
+          "products": 235,
+          "comp": "아주좋음",
+          "comp_score": 0.43
+        },
+        {
+          "keyword": "서인영압박스타킹",
+          "category": "패션잡화 > 패션소품 > 스타킹 > 압박보정스타킹",
+          "search": 550,
+          "products": 22,
+          "comp": "아주좋음",
+          "comp_score": 0.04
+        },
+        {
+          "keyword": "최화정스카프",
+          "category": "패션잡화 > 패션소품 > 머플러",
+          "search": 530,
+          "products": 110,
+          "comp": "아주좋음",
+          "comp_score": 0.21
+        },
+        {
+          "keyword": "갓모자",
+          "category": "패션잡화 > 패션소품 > 한복소품",
+          "search": 510,
+          "products": 663,
+          "comp": "아주좋음",
+          "comp_score": 1.3
+        },
+        {
+          "keyword": "토토로워터가든",
+          "category": "가구/인테리어 > 인테리어소품 > 기타장식용품",
+          "search": 510,
+          "products": 68,
+          "comp": "아주좋음",
+          "comp_score": 0.13
+        },
+        {
+          "keyword": "디엑시패치",
+          "category": "패션잡화 > 패션소품 > 와펜",
+          "search": 480,
+          "products": 116,
+          "comp": "아주좋음",
+          "comp_score": 0.24
+        },
+        {
+          "keyword": "종알싹",
+          "category": "패션잡화 > 패션소품 > 스타킹 > 압박보정스타킹",
+          "search": 480,
+          "products": 4,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "잠만보키링",
+          "category": "패션잡화 > 패션소품 > 키링",
+          "search": 430,
+          "products": 640,
+          "comp": "아주좋음",
+          "comp_score": 1.49
+        },
+        {
+          "keyword": "찰스앤키스키링",
+          "category": "패션잡화 > 패션소품 > 키링",
+          "search": 430,
+          "products": 457,
+          "comp": "아주좋음",
+          "comp_score": 1.06
+        },
+        {
+          "keyword": "단청키캡키링",
+          "category": "패션잡화 > 패션소품 > 키링",
+          "search": 420,
+          "products": 106,
+          "comp": "아주좋음",
+          "comp_score": 0.25
+        },
+        {
+          "keyword": "세이블머플러",
+          "category": "패션잡화 > 패션소품 > 머플러",
+          "search": 410,
+          "products": 302,
+          "comp": "아주좋음",
+          "comp_score": 0.74
+        },
+        {
+          "keyword": "코도리",
+          "category": "패션잡화 > 패션소품 > 기타패션소품",
+          "search": 400,
+          "products": 343,
+          "comp": "아주좋음",
+          "comp_score": 0.86
+        },
+        {
+          "keyword": "노윤서스카프",
+          "category": "패션잡화 > 패션소품 > 스카프 > 트라이앵글스카프",
+          "search": 400,
+          "products": 120,
+          "comp": "아주좋음",
+          "comp_score": 0.3
+        },
+        {
+          "keyword": "한로로폼폼푸린",
+          "category": "패션잡화 > 패션소품 > 키링",
+          "search": 390,
+          "products": 29,
+          "comp": "아주좋음",
+          "comp_score": 0.07
+        },
+        {
+          "keyword": "자개키캡",
+          "category": "패션잡화 > 패션소품 > 키링",
+          "search": 390,
+          "products": 274,
+          "comp": "아주좋음",
+          "comp_score": 0.7
+        },
+        {
+          "keyword": "티폰지양산",
+          "category": "패션잡화 > 패션소품 > 양산 > 수동양산",
+          "search": 390,
+          "products": 68,
+          "comp": "아주좋음",
+          "comp_score": 0.17
+        },
+        {
+          "keyword": "붕어빵클리커",
+          "category": "패션잡화 > 패션소품 > 키링",
+          "search": 360,
+          "products": 441,
+          "comp": "아주좋음",
+          "comp_score": 1.23
+        },
+        {
+          "keyword": "사이언솔압박스타킹",
+          "category": "패션잡화 > 패션소품 > 스타킹 > 압박보정스타킹",
+          "search": 360,
+          "products": 63,
+          "comp": "아주좋음",
+          "comp_score": 0.17
+        },
+        {
+          "keyword": "보욜라",
+          "category": "패션잡화 > 패션소품 > 기타패션소품",
+          "search": 340,
+          "products": 204,
+          "comp": "아주좋음",
+          "comp_score": 0.6
+        },
+        {
+          "keyword": "육군정복약장",
+          "category": "패션잡화 > 패션소품 > 브로치 > 패션브로치",
+          "search": 340,
+          "products": 703,
+          "comp": "좋음",
+          "comp_score": 2.07
+        },
+        {
+          "keyword": "말씀손수건",
+          "category": "패션잡화 > 패션소품 > 손수건 > 여성용",
+          "search": 330,
+          "products": 302,
+          "comp": "아주좋음",
+          "comp_score": 0.92
+        },
+        {
+          "keyword": "마나슈파토우산",
+          "category": "패션잡화 > 패션소품 > 우산 > 자동우산",
+          "search": 330,
+          "products": 764,
+          "comp": "좋음",
+          "comp_score": 2.32
+        },
+        {
+          "keyword": "포티니",
+          "category": "생활/건강 > 주방용품 > 주방수납용품 > 식기건조대",
+          "search": 330,
+          "products": 215,
+          "comp": "아주좋음",
+          "comp_score": 0.65
+        },
+        {
+          "keyword": "모루모",
+          "category": "패션잡화 > 패션소품 > 기타패션소품",
+          "search": 320,
+          "products": 11,
+          "comp": "아주좋음",
+          "comp_score": 0.03
+        },
+        {
+          "keyword": "캐시미어하우스",
+          "category": "패션잡화 > 패션소품 > 머플러",
+          "search": 320,
+          "products": 818,
+          "comp": "좋음",
+          "comp_score": 2.56
+        },
+        {
+          "keyword": "불교키캡",
+          "category": "패션잡화 > 패션소품 > 키링",
+          "search": 320,
+          "products": 751,
+          "comp": "좋음",
+          "comp_score": 2.35
+        },
+        {
+          "keyword": "로브로이압박밴드",
+          "category": "패션잡화 > 패션소품 > 스타킹 > 압박보정스타킹",
+          "search": 320,
+          "products": 97,
+          "comp": "아주좋음",
+          "comp_score": 0.3
+        },
+        {
+          "keyword": "능소화키링",
+          "category": "패션잡화 > 패션소품 > 키링",
+          "search": 310,
+          "products": 163,
+          "comp": "아주좋음",
+          "comp_score": 0.53
+        },
+        {
+          "keyword": "정복약장",
+          "category": "패션잡화 > 패션소품 > 브로치 > 패션브로치",
+          "search": 300,
+          "products": 792,
+          "comp": "좋음",
+          "comp_score": 2.64
+        }
+      ]
+    }
+  },
+  "패션잡화 > 시계": {
+    "최근 30일": {
+      "collected_at": "2026-09-20",
+      "filter": {
+        "min_search": 300,
+        "max_products": 900,
+        "period": "최근 30일",
+        "exclude_major_brand": true
+      },
+      "keywords": [
+        {
+          "keyword": "sbth007",
+          "category": "패션잡화 > 시계 > 패션시계 > 메탈밴드시계",
+          "search": 12230,
+          "products": 826,
+          "comp": "아주좋음",
+          "comp_score": 0.07
+        },
+        {
+          "keyword": "호와스시계",
+          "category": "패션잡화 > 시계 > 패션시계 > 메탈밴드시계",
+          "search": 12140,
+          "products": 49,
+          "comp": "아주좋음",
+          "comp_score": 0
+        },
+        {
+          "keyword": "차르봄바시계",
+          "category": "패션잡화 > 시계 > 패션시계 > 메탈밴드시계",
+          "search": 6380,
+          "products": 356,
+          "comp": "아주좋음",
+          "comp_score": 0.06
+        },
+        {
+          "keyword": "ssb479",
+          "category": "패션잡화 > 시계 > 패션시계 > 메탈밴드시계",
+          "search": 5140,
+          "products": 83,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "크리스토퍼와드",
+          "category": "패션잡화 > 시계 > 패션시계 > 메탈밴드시계",
+          "search": 4940,
+          "products": 208,
+          "comp": "아주좋음",
+          "comp_score": 0.04
+        },
+        {
+          "keyword": "spb317",
+          "category": "패션잡화 > 시계 > 패션시계 > 기타밴드시계",
+          "search": 4430,
+          "products": 47,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "세르띠에",
+          "category": "패션잡화 > 시계 > 패션시계 > 가죽밴드시계",
+          "search": 3850,
+          "products": 441,
+          "comp": "아주좋음",
+          "comp_score": 0.11
+        },
+        {
+          "keyword": "글라슈테오리지날",
+          "category": "패션잡화 > 시계 > 패션시계 > 기타밴드시계",
+          "search": 3710,
+          "products": 225,
+          "comp": "아주좋음",
+          "comp_score": 0.06
+        },
+        {
+          "keyword": "spb453",
+          "category": "패션잡화 > 시계 > 패션시계 > 메탈밴드시계",
+          "search": 3220,
+          "products": 44,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "sne573",
+          "category": "패션잡화 > 시계 > 패션시계 > 기타밴드시계",
+          "search": 3200,
+          "products": 35,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "세이토나",
+          "category": "패션잡화 > 시계 > 패션시계 > 메탈밴드시계",
+          "search": 3050,
+          "products": 394,
+          "comp": "아주좋음",
+          "comp_score": 0.13
+        },
+        {
+          "keyword": "iwc어린왕자",
+          "category": "패션잡화 > 시계 > 패션시계 > 가죽밴드시계",
+          "search": 2920,
+          "products": 377,
+          "comp": "아주좋음",
+          "comp_score": 0.13
+        },
+        {
+          "keyword": "pmd56",
+          "category": "패션잡화 > 시계 > 패션시계 > 메탈밴드시계",
+          "search": 2800,
+          "products": 591,
+          "comp": "아주좋음",
+          "comp_score": 0.21
+        },
+        {
+          "keyword": "srpe93",
+          "category": "패션잡화 > 시계 > 패션시계 > 젤리/우레탄밴드시계",
+          "search": 2760,
+          "products": 118,
+          "comp": "아주좋음",
+          "comp_score": 0.04
+        },
+        {
+          "keyword": "bm1350",
+          "category": "패션잡화 > 시계 > 패션시계 > 메탈밴드시계",
+          "search": 2620,
+          "products": 224,
+          "comp": "아주좋음",
+          "comp_score": 0.09
+        },
+        {
+          "keyword": "bx5600",
+          "category": "패션잡화 > 시계 > 패션시계 > 젤리/우레탄밴드시계",
+          "search": 2560,
+          "products": 325,
+          "comp": "아주좋음",
+          "comp_score": 0.13
+        },
+        {
+          "keyword": "bm1350-54a",
+          "category": "패션잡화 > 시계 > 패션시계 > 메탈밴드시계",
+          "search": 2170,
+          "products": 50,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "sbtr027",
+          "category": "패션잡화 > 시계 > 패션시계 > 메탈밴드시계",
+          "search": 1830,
+          "products": 519,
+          "comp": "아주좋음",
+          "comp_score": 0.28
+        },
+        {
+          "keyword": "빅토리아크라운시계",
+          "category": "패션잡화 > 시계 > 패션시계 > 메탈밴드시계",
+          "search": 1760,
+          "products": 311,
+          "comp": "아주좋음",
+          "comp_score": 0.18
+        },
+        {
+          "keyword": "ny0040",
+          "category": "패션잡화 > 시계 > 패션시계 > 젤리/우레탄밴드시계",
+          "search": 1750,
+          "products": 474,
+          "comp": "아주좋음",
+          "comp_score": 0.27
+        },
+        {
+          "keyword": "snxs79",
+          "category": "패션잡화 > 시계 > 패션시계 > 메탈밴드시계",
+          "search": 1570,
+          "products": 376,
+          "comp": "아주좋음",
+          "comp_score": 0.24
+        },
+        {
+          "keyword": "바그워치",
+          "category": "패션잡화 > 시계 > 패션시계 > 메탈밴드시계",
+          "search": 1300,
+          "products": 468,
+          "comp": "아주좋음",
+          "comp_score": 0.36
+        },
+        {
+          "keyword": "토요오카시계보관함",
+          "category": "패션잡화 > 시계 > 시계소품 > 시계보관함",
+          "search": 1260,
+          "products": 78,
+          "comp": "아주좋음",
+          "comp_score": 0.06
+        },
+        {
+          "keyword": "sbtq041",
+          "category": "패션잡화 > 시계 > 패션시계 > 메탈밴드시계",
+          "search": 1210,
+          "products": 217,
+          "comp": "아주좋음",
+          "comp_score": 0.18
+        },
+        {
+          "keyword": "레쯔시계",
+          "category": "패션잡화 > 시계 > 패션시계 > 메탈밴드시계",
+          "search": 1160,
+          "products": 738,
+          "comp": "아주좋음",
+          "comp_score": 0.64
+        },
+        {
+          "keyword": "라코플리거",
+          "category": "패션잡화 > 시계 > 패션시계 > 가죽밴드시계",
+          "search": 1080,
+          "products": 62,
+          "comp": "아주좋음",
+          "comp_score": 0.06
+        },
+        {
+          "keyword": "세일클로스스트랩",
+          "category": "패션잡화 > 시계 > 시계소품 > 시계줄",
+          "search": 770,
+          "products": 516,
+          "comp": "아주좋음",
+          "comp_score": 0.67
+        },
+        {
+          "keyword": "칼레이먼",
+          "category": "패션잡화 > 시계 > 패션시계 > 메탈밴드시계",
+          "search": 720,
+          "products": 51,
+          "comp": "아주좋음",
+          "comp_score": 0.07
+        },
+        {
+          "keyword": "swr107p1",
+          "category": "패션잡화 > 시계 > 패션시계 > 가죽밴드시계",
+          "search": 710,
+          "products": 21,
+          "comp": "아주좋음",
+          "comp_score": 0.03
+        },
+        {
+          "keyword": "sbpx143",
+          "category": "패션잡화 > 시계 > 패션시계 > 메탈밴드시계",
+          "search": 570,
+          "products": 144,
+          "comp": "아주좋음",
+          "comp_score": 0.25
+        },
+        {
+          "keyword": "나발워치",
+          "category": "패션잡화 > 시계 > 패션시계 > 기타밴드시계",
+          "search": 560,
+          "products": 808,
+          "comp": "아주좋음",
+          "comp_score": 1.44
+        },
+        {
+          "keyword": "시계용두",
+          "category": "패션잡화 > 시계 > 시계수리용품",
+          "search": 510,
+          "products": 399,
+          "comp": "아주좋음",
+          "comp_score": 0.78
+        },
+        {
+          "keyword": "fb100w",
+          "category": "디지털/가전 > PC부품 > PC케이블 > USB케이블",
+          "search": 380,
+          "products": 1,
+          "comp": "아주좋음",
+          "comp_score": 0
+        },
+        {
+          "keyword": "미니쿄모",
+          "category": "패션잡화 > 시계 > 아동시계",
+          "search": 380,
+          "products": 834,
+          "comp": "좋음",
+          "comp_score": 2.19
+        },
+        {
+          "keyword": "순공시간",
+          "category": "패션잡화 > 시계 > 패션시계 > 스톱워치",
+          "search": 310,
+          "products": 252,
+          "comp": "아주좋음",
+          "comp_score": 0.81
+        }
+      ]
+    }
+  },
+  "패션잡화 > 순금": {
+    "최근 30일": {
+      "collected_at": "2026-09-20",
+      "filter": {
+        "min_search": 300,
+        "max_products": 900,
+        "period": "최근 30일",
+        "exclude_major_brand": true
+      },
+      "keywords": [
+        {
+          "keyword": "금한돈시세",
+          "category": "패션잡화 > 주얼리 > 팔찌 > 18K팔찌",
+          "search": 439200,
+          "products": 97,
+          "comp": "아주좋음",
+          "comp_score": 0
+        },
+        {
+          "keyword": "실버바1kg",
+          "category": "패션잡화 > 순금 > 실버바",
+          "search": 17220,
+          "products": 825,
+          "comp": "아주좋음",
+          "comp_score": 0.05
+        },
+        {
+          "keyword": "은1돈",
+          "category": "패션잡화 > 순금 > 실버바",
+          "search": 16250,
+          "products": 666,
+          "comp": "아주좋음",
+          "comp_score": 0.04
+        },
+        {
+          "keyword": "은시세1kg",
+          "category": "패션잡화 > 순금 > 실버바",
+          "search": 10380,
+          "products": 110,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "실버바100g",
+          "category": "패션잡화 > 순금 > 실버바",
+          "search": 6970,
+          "products": 733,
+          "comp": "아주좋음",
+          "comp_score": 0.11
+        },
+        {
+          "keyword": "실버바1kg시세",
+          "category": "패션잡화 > 순금 > 실버바",
+          "search": 4180,
+          "products": 96,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "실버시세",
+          "category": "패션잡화 > 순금 > 실버바",
+          "search": 4090,
+          "products": 833,
+          "comp": "아주좋음",
+          "comp_score": 0.2
+        },
+        {
+          "keyword": "은1kg시세",
+          "category": "패션잡화 > 순금 > 실버바",
+          "search": 2440,
+          "products": 110,
+          "comp": "아주좋음",
+          "comp_score": 0.05
+        },
+        {
+          "keyword": "은한돈",
+          "category": "패션잡화 > 순금 > 실버바",
+          "search": 2080,
+          "products": 6,
+          "comp": "아주좋음",
+          "comp_score": 0
+        },
+        {
+          "keyword": "실버바1돈",
+          "category": "패션잡화 > 순금 > 실버바",
+          "search": 1440,
+          "products": 75,
+          "comp": "아주좋음",
+          "comp_score": 0.05
+        },
+        {
+          "keyword": "은바1kg",
+          "category": "패션잡화 > 순금 > 실버바",
+          "search": 1410,
+          "products": 780,
+          "comp": "아주좋음",
+          "comp_score": 0.55
+        },
+        {
+          "keyword": "주물금",
+          "category": "패션잡화 > 순금 > 골드바",
+          "search": 1300,
+          "products": 592,
+          "comp": "아주좋음",
+          "comp_score": 0.46
+        },
+        {
+          "keyword": "은1키로가격",
+          "category": "패션잡화 > 순금 > 실버바",
+          "search": 1050,
+          "products": 16,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "순금반돈반지",
+          "category": "패션잡화 > 주얼리 > 반지 > 순금반지",
+          "search": 1040,
+          "products": 261,
+          "comp": "아주좋음",
+          "comp_score": 0.25
+        },
+        {
+          "keyword": "콩알금1돈",
+          "category": "패션잡화 > 순금 > 골드바",
+          "search": 1020,
+          "products": 28,
+          "comp": "아주좋음",
+          "comp_score": 0.03
+        },
+        {
+          "keyword": "실버바500g",
+          "category": "패션잡화 > 순금 > 실버바",
+          "search": 1020,
+          "products": 321,
+          "comp": "아주좋음",
+          "comp_score": 0.31
+        },
+        {
+          "keyword": "금콩알",
+          "category": "패션잡화 > 순금 > 골드바",
+          "search": 930,
+          "products": 421,
+          "comp": "아주좋음",
+          "comp_score": 0.45
+        },
+        {
+          "keyword": "결혼10주년선물",
+          "category": "생활/건강 > 문구/사무용품 > 이벤트/파티용품 > 케이크토퍼",
+          "search": 820,
+          "products": 530,
+          "comp": "아주좋음",
+          "comp_score": 0.65
+        },
+        {
+          "keyword": "순금산삼",
+          "category": "패션잡화 > 순금 > 골드바",
+          "search": 760,
+          "products": 52,
+          "comp": "아주좋음",
+          "comp_score": 0.07
+        },
+        {
+          "keyword": "실버바10돈",
+          "category": "패션잡화 > 순금 > 실버바",
+          "search": 750,
+          "products": 105,
+          "comp": "아주좋음",
+          "comp_score": 0.14
+        },
+        {
+          "keyword": "미니금",
+          "category": "패션잡화 > 순금 > 골드바",
+          "search": 630,
+          "products": 188,
+          "comp": "아주좋음",
+          "comp_score": 0.3
+        },
+        {
+          "keyword": "실버바10g",
+          "category": "패션잡화 > 순금 > 실버바",
+          "search": 540,
+          "products": 474,
+          "comp": "아주좋음",
+          "comp_score": 0.88
+        },
+        {
+          "keyword": "은그래뉼1kg",
+          "category": "패션잡화 > 순금 > 실버바",
+          "search": 490,
+          "products": 191,
+          "comp": "아주좋음",
+          "comp_score": 0.39
+        },
+        {
+          "keyword": "은그래뉼100g",
+          "category": "패션잡화 > 순금 > 실버바",
+          "search": 390,
+          "products": 214,
+          "comp": "아주좋음",
+          "comp_score": 0.55
+        },
+        {
+          "keyword": "벤틀레이실버바",
+          "category": "패션잡화 > 순금 > 실버바",
+          "search": 370,
+          "products": 8,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "실버바1000g",
+          "category": "패션잡화 > 순금 > 실버바",
+          "search": 350,
+          "products": 796,
+          "comp": "좋음",
+          "comp_score": 2.27
+        },
+        {
+          "keyword": "은1키로",
+          "category": "패션잡화 > 순금 > 실버바",
+          "search": 340,
+          "products": 16,
+          "comp": "아주좋음",
+          "comp_score": 0.05
+        },
+        {
+          "keyword": "실버바1kg가격",
+          "category": "패션잡화 > 순금 > 실버바",
+          "search": 330,
+          "products": 892,
+          "comp": "좋음",
+          "comp_score": 2.7
+        },
+        {
+          "keyword": "실버바100g시세",
+          "category": "패션잡화 > 순금 > 실버바",
+          "search": 300,
+          "products": 82,
+          "comp": "아주좋음",
+          "comp_score": 0.27
+        }
+      ]
+    }
+  },
+  "패션잡화 > 주얼리": {
+    "최근 30일": {
+      "collected_at": "2026-09-20",
+      "filter": {
+        "min_search": 300,
+        "max_products": 900,
+        "period": "최근 30일",
+        "exclude_major_brand": true
+      },
+      "keywords": [
+        {
+          "keyword": "반클리프기요세",
+          "category": "패션잡화 > 주얼리 > 목걸이 > 18K목걸이",
+          "search": 21610,
+          "products": 201,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "어니스트서울",
+          "category": "패션잡화 > 주얼리 > 반지 > 랩다이아몬드/모이사나이트반지",
+          "search": 19710,
+          "products": 555,
+          "comp": "아주좋음",
+          "comp_score": 0.03
+        },
+        {
+          "keyword": "포멜라토",
+          "category": "패션잡화 > 주얼리 > 목걸이 > 패션목걸이",
+          "search": 16920,
+          "products": 718,
+          "comp": "아주좋음",
+          "comp_score": 0.04
+        },
+        {
+          "keyword": "보석함꽃파당",
+          "category": "패션잡화 > 주얼리 > 주얼리소품 > 보관함/케이스",
+          "search": 16370,
+          "products": 29,
+          "comp": "아주좋음",
+          "comp_score": 0
+        },
+        {
+          "keyword": "포페팔찌",
+          "category": "패션잡화 > 주얼리 > 팔찌 > 14K팔찌",
+          "search": 15900,
+          "products": 162,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "그라프목걸이",
+          "category": "패션잡화 > 주얼리 > 목걸이 > 18K목걸이",
+          "search": 13800,
+          "products": 321,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "부첼라티",
+          "category": "패션잡화 > 주얼리 > 반지 > 실버반지",
+          "search": 10100,
+          "products": 393,
+          "comp": "아주좋음",
+          "comp_score": 0.04
+        },
+        {
+          "keyword": "쇼메팔찌",
+          "category": "패션잡화 > 주얼리 > 팔찌 > 패션팔찌",
+          "search": 8020,
+          "products": 288,
+          "comp": "아주좋음",
+          "comp_score": 0.04
+        },
+        {
+          "keyword": "유니세프팔찌",
+          "category": "패션잡화 > 주얼리 > 팔찌 > 패션팔찌",
+          "search": 7370,
+          "products": 160,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "포페목걸이",
+          "category": "패션잡화 > 주얼리 > 목걸이 > 14K목걸이",
+          "search": 6500,
+          "products": 75,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "그라프반지\n",
+          "category": "패션잡화 > 주얼리 > 반지 > 18K반지",
+          "search": 5970,
+          "products": 467,
+          "comp": "아주좋음",
+          "comp_score": 0.08
+        },
+        {
+          "keyword": "아이스볼테니스팔찌",
+          "category": "패션잡화 > 주얼리 > 팔찌 > 패션팔찌",
+          "search": 5730,
+          "products": 81,
+          "comp": "아주좋음",
+          "comp_score": 0.01
+        },
+        {
+          "keyword": "기요세",
+          "category": "패션잡화 > 주얼리 > 목걸이 > 18K목걸이",
+          "search": 5240,
+          "products": 770,
+          "comp": "아주좋음",
+          "comp_score": 0.15
+        },
+        {
+          "keyword": "셀리느",
+          "category": "패션잡화 > 주얼리 > 반지 > 다이아몬드반지",
+          "search": 5130,
+          "products": 195,
+          "comp": "아주좋음",
+          "comp_score": 0.04
+        },
+        {
+          "keyword": "아이스볼목걸이",
+          "category": "패션잡화 > 주얼리 > 목걸이 > 패션목걸이",
+          "search": 4960,
+          "products": 414,
+          "comp": "아주좋음",
+          "comp_score": 0.08
+        },
+        {
+          "keyword": "다무르목걸이",
+          "category": "패션잡화 > 주얼리 > 목걸이 > 18K목걸이",
+          "search": 4880,
+          "products": 539,
+          "comp": "아주좋음",
+          "comp_score": 0.11
+        },
+        {
+          "keyword": "스팅925",
+          "category": "패션잡화 > 주얼리 > 목걸이 > 패션목걸이",
+          "search": 4390,
+          "products": 631,
+          "comp": "아주좋음",
+          "comp_score": 0.14
+        },
+        {
+          "keyword": "김나영목걸이",
+          "category": "패션잡화 > 주얼리 > 목걸이 > 실버목걸이",
+          "search": 4270,
+          "products": 681,
+          "comp": "아주좋음",
+          "comp_score": 0.16
+        },
+        {
+          "keyword": "다무르팔찌",
+          "category": "패션잡화 > 주얼리 > 팔찌 > 패션팔찌",
+          "search": 3730,
+          "products": 441,
+          "comp": "아주좋음",
+          "comp_score": 0.12
+        },
+        {
+          "keyword": "반클리프빼를리반지",
+          "category": "패션잡화 > 주얼리 > 반지 > 18K반지",
+          "search": 3710,
+          "products": 485,
+          "comp": "아주좋음",
+          "comp_score": 0.13
+        },
+        {
+          "keyword": "위프레리",
+          "category": "패션잡화 > 주얼리 > 반지 > 실버반지",
+          "search": 3700,
+          "products": 152,
+          "comp": "아주좋음",
+          "comp_score": 0.04
+        },
+        {
+          "keyword": "치이카와풍뎅이",
+          "category": "패션잡화 > 패션소품 > 키링",
+          "search": 3620,
+          "products": 185,
+          "comp": "아주좋음",
+          "comp_score": 0.05
+        },
+        {
+          "keyword": "fahlo팔찌",
+          "category": "패션잡화 > 주얼리 > 팔찌 > 패션팔찌",
+          "search": 3420,
+          "products": 483,
+          "comp": "아주좋음",
+          "comp_score": 0.14
+        },
+        {
+          "keyword": "저스트앵끌루팔찌",
+          "category": "패션잡화 > 주얼리 > 팔찌 > 패션팔찌",
+          "search": 3320,
+          "products": 863,
+          "comp": "아주좋음",
+          "comp_score": 0.26
+        },
+        {
+          "keyword": "빼를리팔찌",
+          "category": "패션잡화 > 주얼리 > 팔찌 > 패션팔찌",
+          "search": 3250,
+          "products": 474,
+          "comp": "아주좋음",
+          "comp_score": 0.15
+        },
+        {
+          "keyword": "쇼메귀걸이\n",
+          "category": "패션잡화 > 주얼리 > 귀걸이 > 패션귀걸이",
+          "search": 3160,
+          "products": 154,
+          "comp": "아주좋음",
+          "comp_score": 0.05
+        },
+        {
+          "keyword": "이서진팔찌",
+          "category": "패션잡화 > 주얼리 > 팔찌 > 실버팔찌",
+          "search": 2960,
+          "products": 71,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "호환석팔찌",
+          "category": "패션잡화 > 주얼리 > 팔찌 > 패션팔찌",
+          "search": 2920,
+          "products": 346,
+          "comp": "아주좋음",
+          "comp_score": 0.12
+        },
+        {
+          "keyword": "비제로원팔찌",
+          "category": "패션잡화 > 주얼리 > 팔찌 > 패션팔찌",
+          "search": 2850,
+          "products": 641,
+          "comp": "아주좋음",
+          "comp_score": 0.22
+        },
+        {
+          "keyword": "미스테리쥬얼리쟈",
+          "category": "패션잡화 > 주얼리 > 주얼리세트 > 패션주얼리세트",
+          "search": 2830,
+          "products": 45,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "김고은귀걸이",
+          "category": "패션잡화 > 주얼리 > 귀걸이 > 패션귀걸이",
+          "search": 2710,
+          "products": 619,
+          "comp": "아주좋음",
+          "comp_score": 0.23
+        },
+        {
+          "keyword": "박지현목걸이",
+          "category": "패션잡화 > 주얼리 > 목걸이 > 패션목걸이",
+          "search": 2290,
+          "products": 93,
+          "comp": "아주좋음",
+          "comp_score": 0.04
+        },
+        {
+          "keyword": "마이디올목걸이",
+          "category": "패션잡화 > 주얼리 > 목걸이 > 패션목걸이",
+          "search": 2180,
+          "products": 43,
+          "comp": "아주좋음",
+          "comp_score": 0.02
+        },
+        {
+          "keyword": "기요세팔찌",
+          "category": "패션잡화 > 주얼리 > 팔찌 > 패션팔찌",
+          "search": 1910,
+          "products": 62,
+          "comp": "아주좋음",
+          "comp_score": 0.03
+        },
+        {
+          "keyword": "쎄뻥목걸이",
+          "category": "패션잡화 > 주얼리 > 목걸이 > 18K목걸이",
+          "search": 1860,
+          "products": 362,
+          "comp": "아주좋음",
+          "comp_score": 0.19
+        },
+        {
+          "keyword": "춘천옥반지",
+          "category": "패션잡화 > 주얼리 > 반지 > 패션반지",
+          "search": 1830,
+          "products": 817,
+          "comp": "아주좋음",
+          "comp_score": 0.45
+        },
+        {
+          "keyword": "아이스볼팔찌",
+          "category": "패션잡화 > 주얼리 > 팔찌 > 패션팔찌",
+          "search": 1590,
+          "products": 150,
+          "comp": "아주좋음",
+          "comp_score": 0.09
+        },
+        {
+          "keyword": "annilu",
+          "category": "패션잡화 > 주얼리 > 팔찌 > 패션팔찌",
+          "search": 1430,
+          "products": 597,
+          "comp": "아주좋음",
+          "comp_score": 0.42
+        },
+        {
+          "keyword": "박지현레진목걸이",
+          "category": "패션잡화 > 주얼리 > 목걸이 > 패션목걸이",
+          "search": 1370,
+          "products": 299,
+          "comp": "아주좋음",
+          "comp_score": 0.22
+        },
+        {
+          "keyword": "노블랑테라헤르츠",
+          "category": "생활/건강 > 건강관리용품 > 건강팔찌",
+          "search": 1150,
+          "products": 47,
+          "comp": "아주좋음",
+          "comp_score": 0.04
+        },
+        {
+          "keyword": "남자반클리프팔찌\n",
+          "category": "패션잡화 > 주얼리 > 팔찌 > 다이아몬드 팔찌",
+          "search": 1090,
+          "products": 42,
+          "comp": "아주좋음",
+          "comp_score": 0.04
+        },
+        {
+          "keyword": "티파니스마일귀걸이",
+          "category": "패션잡화 > 주얼리 > 귀걸이 > 패션귀걸이",
+          "search": 1070,
+          "products": 244,
+          "comp": "아주좋음",
+          "comp_score": 0.23
+        },
+        {
+          "keyword": "프레드귀걸이",
+          "category": "패션잡화 > 주얼리 > 귀걸이 > 패션귀걸이",
+          "search": 1010,
+          "products": 355,
+          "comp": "아주좋음",
+          "comp_score": 0.35
+        },
+        {
+          "keyword": "영민당",
+          "category": "패션잡화 > 주얼리 > 팔찌 > 14K팔찌",
+          "search": 990,
+          "products": 51,
+          "comp": "아주좋음",
+          "comp_score": 0.05
+        },
+        {
+          "keyword": "호완석",
+          "category": "패션잡화 > 주얼리 > 팔찌 > 패션팔찌",
+          "search": 960,
+          "products": 809,
+          "comp": "아주좋음",
+          "comp_score": 0.84
+        },
+        {
+          "keyword": "아영의런던",
+          "category": "패션잡화 > 주얼리 > 귀걸이 > 실버귀걸이",
+          "search": 920,
+          "products": 32,
+          "comp": "아주좋음",
+          "comp_score": 0.03
+        },
+        {
+          "keyword": "은반지세척",
+          "category": "패션잡화 > 주얼리 > 주얼리소품 > 세척용품",
+          "search": 900,
+          "products": 765,
+          "comp": "아주좋음",
+          "comp_score": 0.85
+        },
+        {
+          "keyword": "오노아",
+          "category": "패션잡화 > 주얼리 > 피어싱 > 14K피어싱",
+          "search": 890,
+          "products": 282,
+          "comp": "아주좋음",
+          "comp_score": 0.32
+        },
+        {
+          "keyword": "크로스바이제이",
+          "category": "패션잡화 > 주얼리 > 목걸이 > 실버목걸이",
+          "search": 880,
+          "products": 786,
+          "comp": "아주좋음",
+          "comp_score": 0.89
+        },
+        {
+          "keyword": "공효진귀걸이",
+          "category": "패션잡화 > 주얼리 > 귀걸이 > 패션귀걸이",
+          "search": 870,
+          "products": 248,
+          "comp": "아주좋음",
+          "comp_score": 0.29
+        },
+        {
+          "keyword": "미키모토진주목걸이",
+          "category": "패션잡화 > 주얼리 > 목걸이 > 패션목걸이",
+          "search": 850,
+          "products": 260,
+          "comp": "아주좋음",
+          "comp_score": 0.31
+        },
+        {
+          "keyword": "애니루",
+          "category": "패션잡화 > 주얼리 > 팔찌 > 패션팔찌",
+          "search": 840,
+          "products": 329,
+          "comp": "아주좋음",
+          "comp_score": 0.39
+        },
+        {
+          "keyword": "오스모스링",
+          "category": "패션잡화 > 주얼리 > 반지 > 실버반지",
+          "search": 830,
+          "products": 152,
+          "comp": "아주좋음",
+          "comp_score": 0.18
+        },
+        {
+          "keyword": "춘천옥팔찌",
+          "category": "패션잡화 > 주얼리 > 팔찌 > 패션팔찌",
+          "search": 820,
+          "products": 675,
+          "comp": "아주좋음",
+          "comp_score": 0.82
+        },
+        {
+          "keyword": "블루토파즈",
+          "category": "패션잡화 > 주얼리 > 목걸이 > 14K목걸이",
+          "search": 810,
+          "products": 346,
+          "comp": "아주좋음",
+          "comp_score": 0.43
+        },
+        {
+          "keyword": "하키마",
+          "category": "패션잡화 > 주얼리 > 반지 > 유색보석반지",
+          "search": 810,
+          "products": 544,
+          "comp": "아주좋음",
+          "comp_score": 0.67
+        },
+        {
+          "keyword": "다이소목걸이",
+          "category": "패션잡화 > 주얼리 > 목걸이 > 패션목걸이",
+          "search": 780,
+          "products": 141,
+          "comp": "아주좋음",
+          "comp_score": 0.18
+        },
+        {
+          "keyword": "비우다염주",
+          "category": "패션잡화 > 주얼리 > 팔찌 > 패션팔찌",
+          "search": 780,
+          "products": 27,
+          "comp": "아주좋음",
+          "comp_score": 0.03
+        },
+        {
+          "keyword": "총알반지",
+          "category": "패션잡화 > 주얼리 > 반지 > 14K반지",
+          "search": 750,
+          "products": 370,
+          "comp": "아주좋음",
+          "comp_score": 0.49
+        },
+        {
+          "keyword": "아르포파리\n",
+          "category": "패션잡화 > 주얼리 > 반지 > 패션반지",
+          "search": 750,
+          "products": 171,
+          "comp": "아주좋음",
+          "comp_score": 0.23
+        },
+        {
+          "keyword": "키티염주",
+          "category": "패션잡화 > 주얼리 > 팔찌 > 패션팔찌",
+          "search": 670,
+          "products": 154,
+          "comp": "아주좋음",
+          "comp_score": 0.23
+        },
+        {
+          "keyword": "포스텐팔찌",
+          "category": "패션잡화 > 주얼리 > 팔찌 > 패션팔찌",
+          "search": 620,
+          "products": 839,
+          "comp": "아주좋음",
+          "comp_score": 1.35
+        },
+        {
+          "keyword": "산리오치비토모",
+          "category": "패션잡화 > 패션소품 > 키링",
+          "search": 610,
+          "products": 468,
+          "comp": "아주좋음",
+          "comp_score": 0.77
+        },
+        {
+          "keyword": "남자은목걸이10돈",
+          "category": "패션잡화 > 주얼리 > 목걸이 > 실버목걸이",
+          "search": 570,
+          "products": 285,
+          "comp": "아주좋음",
+          "comp_score": 0.5
+        },
+        {
+          "keyword": "황철석팔찌",
+          "category": "패션잡화 > 주얼리 > 팔찌 > 패션팔찌",
+          "search": 570,
+          "products": 360,
+          "comp": "아주좋음",
+          "comp_score": 0.63
+        },
+        {
+          "keyword": "실금반지",
+          "category": "패션잡화 > 주얼리 > 반지 > 14K반지",
+          "search": 420,
+          "products": 159,
+          "comp": "아주좋음",
+          "comp_score": 0.38
+        },
+        {
+          "keyword": "런던블루토파즈",
+          "category": "패션잡화 > 주얼리 > 반지 > 패션반지",
+          "search": 380,
+          "products": 38,
+          "comp": "아주좋음",
+          "comp_score": 0.1
+        },
+        {
+          "keyword": "ost팔찌",
+          "category": "패션잡화 > 주얼리 > 팔찌 > 실버팔찌",
+          "search": 380,
+          "products": 829,
+          "comp": "좋음",
+          "comp_score": 2.18
+        },
+        {
+          "keyword": "빨간실팔찌",
+          "category": "패션잡화 > 주얼리 > 팔찌 > 패션팔찌",
+          "search": 370,
+          "products": 210,
+          "comp": "아주좋음",
+          "comp_score": 0.57
+        },
+        {
+          "keyword": "오레피나",
+          "category": "패션잡화 > 주얼리 > 팔찌 > 랩다이아몬드/모이사나이트팔찌",
+          "search": 360,
+          "products": 56,
+          "comp": "아주좋음",
+          "comp_score": 0.16
+        },
+        {
+          "keyword": "블룸미",
+          "category": "화장품/미용 > 바디케어 > 여성청결제",
+          "search": 350,
+          "products": 84,
+          "comp": "아주좋음",
+          "comp_score": 0.24
+        },
+        {
+          "keyword": "클로바목걸이",
+          "category": "패션잡화 > 주얼리 > 목걸이 > 14K목걸이",
+          "search": 350,
+          "products": 599,
+          "comp": "아주좋음",
+          "comp_score": 1.71
+        },
+        {
+          "keyword": "한가인팔찌",
+          "category": "패션잡화 > 주얼리 > 팔찌 > 패션팔찌",
+          "search": 350,
+          "products": 90,
+          "comp": "아주좋음",
+          "comp_score": 0.26
+        },
+        {
+          "keyword": "오행반지",
+          "category": "패션잡화 > 주얼리 > 반지 > 패션반지",
+          "search": 330,
+          "products": 169,
+          "comp": "아주좋음",
+          "comp_score": 0.51
+        },
+        {
+          "keyword": "도깨비옥반지",
+          "category": "패션잡화 > 주얼리 > 반지 > 패션반지",
+          "search": 330,
+          "products": 34,
+          "comp": "아주좋음",
+          "comp_score": 0.1
+        },
+        {
+          "keyword": "라퐁텐악세사리",
+          "category": "패션잡화 > 주얼리 > 반지 > 패션반지",
+          "search": 310,
+          "products": 607,
+          "comp": "아주좋음",
+          "comp_score": 1.96
+        },
+        {
+          "keyword": "달금손",
+          "category": "패션잡화 > 주얼리 > 주얼리소품 > 보관함/케이스",
+          "search": 310,
+          "products": 106,
+          "comp": "아주좋음",
+          "comp_score": 0.34
+        },
+        {
+          "keyword": "타운톡",
+          "category": "패션잡화 > 주얼리 > 주얼리소품 > 세척용품",
+          "search": 310,
+          "products": 441,
+          "comp": "아주좋음",
+          "comp_score": 1.42
+        },
+        {
+          "keyword": "워리스톤키링",
+          "category": "패션잡화 > 주얼리 > 주얼리소품 > 기타주얼리소품",
+          "search": 310,
+          "products": 857,
+          "comp": "좋음",
+          "comp_score": 2.76
+        },
+        {
+          "keyword": "오스모스",
+          "category": "패션잡화 > 주얼리 > 반지 > 실버반지",
+          "search": 300,
+          "products": 491,
+          "comp": "아주좋음",
+          "comp_score": 1.64
+        }
+      ]
+    }
   }
 }
