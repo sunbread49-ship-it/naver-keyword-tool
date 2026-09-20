@@ -150,6 +150,25 @@
     border: 1px solid var(--border);
     color: var(--text);
   }
+  .cat-list { flex-direction: column; align-items: stretch; gap: 10px; }
+  .top-row { display: flex; flex-wrap: wrap; gap: 8px; }
+  .top-btn {
+    font-size: 13px; padding: 7px 14px; border-radius: 8px; cursor: pointer;
+    background: var(--surface-2); border: 1px solid var(--border); color: var(--text);
+  }
+  .top-btn .cnt { color: var(--muted); font-size: 11px; margin-left: 4px; }
+  .top-btn .caret { color: var(--muted); font-size: 10px; margin-left: 2px; }
+  .top-btn:hover { border-color: var(--accent); }
+  .top-btn.active { background: var(--accent-dim); border-color: var(--accent); color: var(--accent); font-weight: 600; }
+  .sub-panel {
+    display: flex; flex-wrap: wrap; gap: 8px; padding: 12px;
+    background: var(--surface-2); border: 1px solid var(--border); border-radius: 10px;
+  }
+  .heart { cursor: pointer; font-size: 18px; color: var(--muted); user-select: none; }
+  .heart:hover { color: #ff5a7a; }
+  .heart.on { color: #ff5a7a; }
+  th.bm, td.bm { width: 36px; text-align: center !important; }
+  .bulkbar button.bm-on { background: #ff5a7a !important; color: #fff !important; border-color: #ff5a7a; }
   .cat-chip { cursor: pointer; user-select: none; }
   .cat-chip:hover { border-color: var(--accent); }
   .cat-chip.active { background: var(--accent-dim); border-color: var(--accent); color: var(--accent); font-weight: 600; }
@@ -223,6 +242,7 @@
   <div class="bulkbar">
     <button id="btnDelete" disabled>선택 삭제 (0)</button>
     <span class="bulk-info" id="bulkInfo"></span>
+    <button id="btnBm" class="ghost">♥ 북마크만 보기 <span id="bmCount">0</span></button>
     <span class="bulk-spacer"></span>
     <button id="btnDeleted" class="ghost">삭제한 키워드 <span id="delCount">0</span>개 관리</button>
   </div>
@@ -241,6 +261,7 @@
         <tr>
           <th class="chk"><input type="checkbox" id="chkAll" title="현재 표시된 행 전체 선택"></th>
           <th data-key="keyword" style="text-align:left">키워드</th>
+          <th class="bm" title="북마크">♥</th>
           <th data-key="category" style="text-align:left">대표 카테고리</th>
           <th data-key="period" style="text-align:left">기간</th>
           <th data-key="search">검색수</th>
@@ -264,8 +285,30 @@ let DELETED = new Set();
 let SELECTED = new Set();
 let VISIBLE = [];
 let lastChecked = null;
-let ACTIVE_GROUP = null;
+let ACTIVE_GROUP = null;   // 2차 카테고리 (예: "패션의류 > 여성의류")
+let ACTIVE_TOP = null;     // 1차 카테고리 전체 (예: "패션의류")
+let OPEN_TOP = null;       // 드롭다운이 열려있는 1차 카테고리
+let BOOKMARKS = new Set();
+let ONLY_BM = false;
 try { ACTIVE_GROUP = localStorage.getItem("activeGroup") || null; } catch (e) {}
+try { ACTIVE_TOP = localStorage.getItem("activeTop") || null; } catch (e) {}
+try { BOOKMARKS = new Set(JSON.parse(localStorage.getItem("bookmarkedKeywords") || "[]")); } catch (e) {}
+try { ONLY_BM = localStorage.getItem("onlyBookmarks") === "1"; } catch (e) {}
+function saveBookmarks() {
+  try { localStorage.setItem("bookmarkedKeywords", JSON.stringify([...BOOKMARKS])); } catch (e) {}
+}
+function topOf(group) { return String(group || "").split(" > ")[0]; }
+function subOf(group) { return String(group || "").split(" > ").slice(1).join(" > "); }
+function groupMatches(r) {
+  if (ACTIVE_GROUP) return r.group === ACTIVE_GROUP;
+  if (ACTIVE_TOP) return topOf(r.group) === ACTIVE_TOP;
+  return true;
+}
+function activeLabel() {
+  if (ACTIVE_GROUP) return ACTIVE_GROUP;
+  if (ACTIVE_TOP) return ACTIVE_TOP + " 전체";
+  return "";
+}
 
 try { DELETED = new Set(JSON.parse(localStorage.getItem("deletedKeywords") || "[]")); } catch (e) {}
 function saveDeleted() {
@@ -297,19 +340,77 @@ function renderCatList() {
   const runs = RAW.runs_covered || [];
   if (!runs.length) { el.innerHTML = ""; return; }
   if (ACTIVE_GROUP && !runs.some(r => r.category === ACTIVE_GROUP)) ACTIVE_GROUP = null;
-  el.innerHTML = runs.map(r =>
-    `<span class="cat-chip${r.category === ACTIVE_GROUP ? " active" : ""}" data-group="${esc(r.category)}" title="클릭하면 이 카테고리만 표시">${esc(r.category)} · ${esc(r.period)}<span class="date">${r.collected_at || ""}</span></span>`
-  ).join("");
+  if (ACTIVE_TOP && !runs.some(r => topOf(r.category) === ACTIVE_TOP)) ACTIVE_TOP = null;
+
+  // 1차 카테고리별로 묶기 (수집 순서 유지) + 남아있는 키워드 수 집계
+  const counts = {};
+  for (const r of RAW.keywords || []) {
+    if (DELETED.has(r.keyword)) continue;
+    counts[r.group] = (counts[r.group] || 0) + 1;
+  }
+  const tops = [];
+  const byTop = {};
+  for (const r of runs) {
+    const t = topOf(r.category);
+    if (!byTop[t]) { byTop[t] = []; tops.push(t); }
+    byTop[t].push(r);
+  }
+
+  const activeTop = ACTIVE_GROUP ? topOf(ACTIVE_GROUP) : ACTIVE_TOP;
+  const topRow = '<div class="top-row">' +
+    `<button class="top-btn all${!activeTop ? " active" : ""}" data-top="">전체</button>` +
+    tops.map(t => {
+      const n = byTop[t].reduce((a, r) => a + (counts[r.category] || 0), 0);
+      const open = OPEN_TOP === t;
+      return `<button class="top-btn${activeTop === t ? " active" : ""}${open ? " open" : ""}" data-top="${esc(t)}">${esc(t)} <span class="cnt">${n.toLocaleString()}</span> <span class="caret">${open ? "▴" : "▾"}</span></button>`;
+    }).join("") + '</div>';
+
+  let panel = "";
+  if (OPEN_TOP && byTop[OPEN_TOP]) {
+    const all = byTop[OPEN_TOP].reduce((a, r) => a + (counts[r.category] || 0), 0);
+    panel = '<div class="sub-panel">' +
+      `<span class="cat-chip${ACTIVE_TOP === OPEN_TOP && !ACTIVE_GROUP ? " active" : ""}" data-top-all="${esc(OPEN_TOP)}">${esc(OPEN_TOP)} 전체 <span class="date">${all.toLocaleString()}</span></span>` +
+      byTop[OPEN_TOP].map(r =>
+        `<span class="cat-chip${r.category === ACTIVE_GROUP ? " active" : ""}" data-group="${esc(r.category)}" title="${esc(r.period)} · 수집 ${esc(r.collected_at || "")}">${esc(subOf(r.category))} <span class="date">${(counts[r.category] || 0).toLocaleString()}</span></span>`
+      ).join("") + '</div>';
+  }
+  el.innerHTML = topRow + panel;
 }
 
-document.getElementById("catList").addEventListener("click", e => {
-  const c = e.target.closest(".cat-chip");
-  if (!c) return;
-  ACTIVE_GROUP = ACTIVE_GROUP === c.dataset.group ? null : c.dataset.group;
-  try { localStorage.setItem("activeGroup", ACTIVE_GROUP || ""); } catch (err) {}
+function setSelection(top, group) {
+  ACTIVE_TOP = top || null;
+  ACTIVE_GROUP = group || null;
+  try {
+    localStorage.setItem("activeTop", ACTIVE_TOP || "");
+    localStorage.setItem("activeGroup", ACTIVE_GROUP || "");
+  } catch (err) {}
   SELECTED.clear();
   renderCatList();
   render();
+}
+
+document.getElementById("catList").addEventListener("click", e => {
+  e.stopPropagation();
+  const sub = e.target.closest(".cat-chip[data-group]");
+  if (sub) {
+    setSelection(null, ACTIVE_GROUP === sub.dataset.group ? null : sub.dataset.group);
+    return;
+  }
+  const topAll = e.target.closest(".cat-chip[data-top-all]");
+  if (topAll) {
+    const t = topAll.dataset.topAll;
+    setSelection(ACTIVE_TOP === t && !ACTIVE_GROUP ? null : t, null);
+    return;
+  }
+  const btn = e.target.closest(".top-btn");
+  if (!btn) return;
+  const t = btn.dataset.top;
+  if (!t) { OPEN_TOP = null; setSelection(null, null); return; }
+  OPEN_TOP = OPEN_TOP === t ? null : t;
+  renderCatList();
+});
+document.addEventListener("click", () => {
+  if (OPEN_TOP) { OPEN_TOP = null; renderCatList(); }
 });
 
 function populatePeriodFilter() {
@@ -338,7 +439,8 @@ function render() {
     if (periodFilter && r.period !== periodFilter) return false;
     if (excludeWords.some(w => r.keyword.toLowerCase().includes(w))) return false;
     if (DELETED.has(r.keyword)) return false;
-    if (ACTIVE_GROUP && r.group !== ACTIVE_GROUP) return false;
+    if (!groupMatches(r)) return false;
+    if (ONLY_BM && !BOOKMARKS.has(r.keyword)) return false;
     if (searchWord && !r.keyword.toLowerCase().includes(searchWord)) return false;
     return true;
   });
@@ -366,6 +468,7 @@ function render() {
     tr.innerHTML = `
       <td class="chk"><input type="checkbox" class="rowchk" data-kw="${esc(r.keyword)}" ${SELECTED.has(r.keyword) ? "checked" : ""}></td>
       <td class="kw">${esc(r.keyword)}</td>
+      <td class="bm"><span class="heart${BOOKMARKS.has(r.keyword) ? " on" : ""}" data-kw="${esc(r.keyword)}" title="북마크">${BOOKMARKS.has(r.keyword) ? "♥" : "♡"}</span></td>
       <td>${r.category || "-"}</td>
       <td>${r.period || "-"}</td>
       <td>${(r.search ?? 0).toLocaleString()}</td>
@@ -388,11 +491,14 @@ function updateBulk() {
   const btn = document.getElementById("btnDelete");
   btn.textContent = `선택 삭제 (${n})`;
   btn.disabled = n === 0;
-  document.getElementById("bulkInfo").textContent = `현재 표시 ${VISIBLE.length}개` + (ACTIVE_GROUP ? ` · 필터: ${ACTIVE_GROUP} (다시 클릭하면 해제)` : "");
+  document.getElementById("bulkInfo").textContent = `현재 표시 ${VISIBLE.length}개` + (activeLabel() ? ` · 카테고리: ${activeLabel()}` : "") + (ONLY_BM ? " · 북마크만" : "");
   document.getElementById("delCount").textContent = DELETED.size;
+  document.getElementById("bmCount").textContent = BOOKMARKS.size;
+  document.getElementById("btnBm").classList.toggle("bm-on", ONLY_BM);
   const all = document.getElementById("chkAll");
   all.checked = VISIBLE.length > 0 && n === VISIBLE.length;
   all.indeterminate = n > 0 && n < VISIBLE.length;
+  if (RAW.runs_covered && RAW.runs_covered.length) renderCatList();
 }
 
 function renderDelPanel() {
@@ -404,6 +510,18 @@ function renderDelPanel() {
 }
 
 document.getElementById("tbody").addEventListener("click", e => {
+  const h = e.target.closest(".heart");
+  if (h) {
+    const k = h.dataset.kw;
+    if (BOOKMARKS.has(k)) BOOKMARKS.delete(k); else BOOKMARKS.add(k);
+    saveBookmarks();
+    if (ONLY_BM) { render(); return; }
+    const on = BOOKMARKS.has(k);
+    h.classList.toggle("on", on);
+    h.textContent = on ? "♥" : "♡";
+    document.getElementById("bmCount").textContent = BOOKMARKS.size;
+    return;
+  }
   const cb = e.target.closest(".rowchk");
   if (!cb) return;
   const kw = cb.dataset.kw;
@@ -429,6 +547,12 @@ document.getElementById("btnDelete").addEventListener("click", () => {
   SELECTED.clear();
   saveDeleted();
   renderDelPanel();
+  render();
+});
+document.getElementById("btnBm").addEventListener("click", () => {
+  ONLY_BM = !ONLY_BM;
+  try { localStorage.setItem("onlyBookmarks", ONLY_BM ? "1" : "0"); } catch (e) {}
+  SELECTED.clear();
   render();
 });
 document.getElementById("btnDeleted").addEventListener("click", () => {
