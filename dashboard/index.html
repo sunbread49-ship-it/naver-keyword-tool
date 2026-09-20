@@ -183,6 +183,9 @@
   .brand-row .bn { font-weight: 600; }
   .brand-row .bc { color: var(--muted); text-align: right; }
   .brand-row .bs { color: var(--muted); font-size: 12px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .range { display: inline-flex; align-items: center; gap: 6px; }
+  .range input { width: 96px; }
+  .range .tilde { color: var(--muted); }
   .cat-chip { cursor: pointer; user-select: none; }
   .cat-chip:hover { border-color: var(--accent); }
   .cat-chip.active { background: var(--accent-dim); border-color: var(--accent); color: var(--accent); font-weight: 600; }
@@ -220,11 +223,19 @@
   </header>
 
   <div class="controls">
-    <label>최소 검색수
-      <input type="number" id="minSearch" value="300" step="50">
+    <label>검색수 (최소 ~ 최대)
+      <span class="range">
+        <input type="number" id="minSearch" value="300" step="50" min="0" placeholder="최소">
+        <span class="tilde">~</span>
+        <input type="number" id="maxSearch" step="100" min="0" placeholder="최대">
+      </span>
     </label>
-    <label>최대 상품수
-      <input type="number" id="maxProducts" value="1000" step="100">
+    <label>상품수 (최소 ~ 최대)
+      <span class="range">
+        <input type="number" id="minProducts" step="1" min="0" placeholder="최소">
+        <span class="tilde">~</span>
+        <input type="number" id="maxProducts" value="1000" step="100" min="0" placeholder="최대">
+      </span>
     </label>
     <label>제외 키워드 (콤마로 구분)
       <input type="text" id="excludeWords" placeholder="예: 다이소, 조말론" style="width:220px">
@@ -467,8 +478,18 @@ function populatePeriodFilter() {
 }
 
 function render() {
-  const minSearch = Number(document.getElementById("minSearch").value) || 0;
-  const maxProducts = Number(document.getElementById("maxProducts").value) || Infinity;
+  const numOr = (id, dflt) => {
+    const v = document.getElementById(id).value;
+    return v === "" ? dflt : Number(v);
+  };
+  const minSearch = numOr("minSearch", 0);
+  const maxSearch = numOr("maxSearch", Infinity);
+  const minProducts = numOr("minProducts", 0);
+  const maxProducts = numOr("maxProducts", Infinity);
+  try {
+    for (const id of ["minSearch", "maxSearch", "minProducts", "maxProducts"])
+      localStorage.setItem("rng_" + id, document.getElementById(id).value);
+  } catch (e) {}
   const periodFilter = document.getElementById("periodFilter").value;
   const excludeWords = document.getElementById("excludeWords").value
     .split(",")
@@ -478,8 +499,9 @@ function render() {
   const searchWord = document.getElementById("searchWord").value.trim().toLowerCase();
 
   let rows = (RAW.keywords || []).filter(r => {
-    if ((r.search || 0) < minSearch) return false;
-    if ((r.products ?? 0) > maxProducts) return false;
+    if ((r.search || 0) < minSearch || (r.search || 0) > maxSearch) return false;
+    const pr = r.products ?? 0;
+    if (pr < minProducts || pr > maxProducts) return false;
     if (periodFilter && r.period !== periodFilter) return false;
     if (excludeWords.some(w => r.keyword.toLowerCase().includes(w))) return false;
     if (DELETED.has(r.keyword)) return false;
@@ -496,7 +518,7 @@ function render() {
   });
 
   VISIBLE = rows;
-  const sig = [minSearch, maxProducts, periodFilter, excludeWords.join(","), searchWord, ACTIVE_GROUP, ACTIVE_TOP, ONLY_BM, sortKey, sortDir].join("|");
+  const sig = [minSearch, maxSearch, minProducts, maxProducts, periodFilter, excludeWords.join(","), searchWord, ACTIVE_GROUP, ACTIVE_TOP, ONLY_BM, sortKey, sortDir].join("|");
   if (sig !== LAST_SIG) { PAGE_LIMIT = 300; LAST_SIG = sig; }
   let maxScore = 1;
   for (const r of rows) if ((r.score || 0) > maxScore) maxScore = r.score;
@@ -738,8 +760,13 @@ document.querySelectorAll("th[data-key]").forEach(th => {
     render();
   });
 });
-document.getElementById("minSearch").addEventListener("input", render);
-document.getElementById("maxProducts").addEventListener("input", render);
+for (const id of ["minSearch", "maxSearch", "minProducts", "maxProducts"]) {
+  try {
+    const saved = localStorage.getItem("rng_" + id);
+    if (saved !== null) document.getElementById(id).value = saved;
+  } catch (e) {}
+  document.getElementById(id).addEventListener("input", render);
+}
 document.getElementById("excludeWords").addEventListener("input", render);
 document.getElementById("periodFilter").addEventListener("change", render);
 
