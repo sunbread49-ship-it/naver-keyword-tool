@@ -259,7 +259,7 @@
     <table id="table">
       <thead>
         <tr>
-          <th class="chk"><input type="checkbox" id="chkAll" title="현재 표시된 행 전체 선택"></th>
+          <th class="chk"><input type="checkbox" id="chkAll" title="필터에 걸린 행 전체 선택"></th>
           <th data-key="keyword" style="text-align:left">키워드</th>
           <th class="bm" title="북마크">♥</th>
           <th data-key="category" style="text-align:left">대표 카테고리</th>
@@ -272,6 +272,9 @@
       </thead>
       <tbody id="tbody"></tbody>
     </table>
+    <div id="moreWrap" style="display:none;text-align:center;padding:16px;">
+      <button id="btnMore" class="ghost" style="font-size:14px;padding:8px 24px;border-radius:8px;border:1px solid var(--border);cursor:pointer;">더 보기</button>
+    </div>
     <div class="empty" id="emptyMsg" style="display:none;">
       아직 수집된 데이터가 없습니다.
     </div>
@@ -285,6 +288,8 @@ let DELETED = new Set();
 let SELECTED = new Set();
 let VISIBLE = [];
 let lastChecked = null;
+let PAGE_LIMIT = 300;
+let LAST_SIG = "";
 let ACTIVE_GROUP = null;   // 2차 카테고리 (예: "패션의류 > 여성의류")
 let ACTIVE_TOP = null;     // 1차 카테고리 전체 (예: "패션의류")
 let OPEN_TOP = null;       // 드롭다운이 열려있는 1차 카테고리
@@ -452,7 +457,10 @@ function render() {
   });
 
   VISIBLE = rows;
-  const maxScore = Math.max(1, ...rows.map(r => r.score || 0));
+  const sig = [minSearch, maxProducts, periodFilter, excludeWords.join(","), searchWord, ACTIVE_GROUP, ACTIVE_TOP, ONLY_BM, sortKey, sortDir].join("|");
+  if (sig !== LAST_SIG) { PAGE_LIMIT = 300; LAST_SIG = sig; }
+  let maxScore = 1;
+  for (const r of rows) if ((r.score || 0) > maxScore) maxScore = r.score;
 
   document.getElementById("statFiltered").textContent = rows.length;
   document.getElementById("statCats").textContent = (RAW.runs_covered || []).length;
@@ -462,7 +470,7 @@ function render() {
   tbody.innerHTML = "";
   document.getElementById("emptyMsg").style.display = rows.length ? "none" : "block";
 
-  for (const r of rows) {
+  for (const r of rows.slice(0, PAGE_LIMIT)) {
     const tr = document.createElement("tr");
     if (SELECTED.has(r.keyword)) tr.className = "sel";
     tr.innerHTML = `
@@ -480,6 +488,13 @@ function render() {
       </td>
     `;
     tbody.appendChild(tr);
+  }
+  const more = document.getElementById("moreWrap");
+  if (rows.length > PAGE_LIMIT) {
+    more.style.display = "block";
+    document.getElementById("btnMore").textContent = `더 보기 (${PAGE_LIMIT.toLocaleString()} / ${rows.length.toLocaleString()})`;
+  } else {
+    more.style.display = "none";
   }
   updateBulk();
 }
@@ -547,6 +562,10 @@ document.getElementById("btnDelete").addEventListener("click", () => {
   SELECTED.clear();
   saveDeleted();
   renderDelPanel();
+  render();
+});
+document.getElementById("btnMore").addEventListener("click", () => {
+  PAGE_LIMIT += 500;
   render();
 });
 document.getElementById("btnBm").addEventListener("click", () => {

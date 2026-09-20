@@ -60,7 +60,7 @@ def build():
     }
 
     with open(DATA_PATH, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
+        json.dump(data, f, ensure_ascii=False, separators=(",", ":"))
 
     print(f"완료: {len(runs_covered)}개 (카테고리 x 기간) 조합, 총 {len(rows)}개 행 -> {DATA_PATH}")
 
