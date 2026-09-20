@@ -186,6 +186,13 @@
   .range { display: inline-flex; align-items: center; gap: 6px; }
   .range input { width: 96px; }
   .range .tilde { color: var(--muted); }
+  .top-btn .badge { font-size: 10px; padding: 1px 6px; border-radius: 999px; background: var(--accent); color: #1a1a1a; margin-left: 4px; font-weight: 700; }
+  .sub-hint { width: 100%; font-size: 11px; color: var(--muted); }
+  .sel-summary { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
+  .sel-label { font-size: 12px; color: var(--muted); margin-right: 4px; }
+  .sel-chip { font-size: 12px; padding: 3px 10px; border-radius: 999px; background: var(--accent-dim); border: 1px solid var(--accent); color: var(--accent); cursor: pointer; }
+  .sel-chip:hover { text-decoration: line-through; }
+  .sel-clear { font-size: 12px; color: var(--muted); cursor: pointer; text-decoration: underline; margin-left: 4px; }
   .shop-presets { display: inline-flex; gap: 4px; }
   .preset { font-size: 12px; padding: 5px 9px; border-radius: 6px; border: 1px solid var(--border); background: var(--surface-2); color: var(--text); cursor: pointer; }
   .preset:hover { border-color: var(--accent); color: var(--accent); }
@@ -354,13 +361,30 @@ let VISIBLE = [];
 let lastChecked = null;
 let PAGE_LIMIT = 300;
 let LAST_SIG = "";
-let ACTIVE_GROUP = null;   // 2차 카테고리 (예: "패션의류 > 여성의류")
-let ACTIVE_TOP = null;     // 1차 카테고리 전체 (예: "패션의류")
+let ACTIVE_GROUPS = new Set();   // 선택한 2차 카테고리들 (예: "패션의류 > 여성의류")
+let ACTIVE_TOPS = new Set();     // 통째로 선택한 1차 카테고리들 (예: "패션의류")
 let OPEN_TOP = null;       // 드롭다운이 열려있는 1차 카테고리
 let BOOKMARKS = new Set();
 let ONLY_BM = false;
-try { ACTIVE_GROUP = localStorage.getItem("activeGroup") || null; } catch (e) {}
-try { ACTIVE_TOP = localStorage.getItem("activeTop") || null; } catch (e) {}
+try {
+  const g = localStorage.getItem("activeGroups");
+  const t = localStorage.getItem("activeTops");
+  if (g !== null || t !== null) {
+    ACTIVE_GROUPS = new Set(JSON.parse(g || "[]"));
+    ACTIVE_TOPS = new Set(JSON.parse(t || "[]"));
+  } else {
+    // 예전(단일 선택) 저장값 이어받기
+    const og = localStorage.getItem("activeGroup"), ot = localStorage.getItem("activeTop");
+    if (og) ACTIVE_GROUPS.add(og);
+    if (ot) ACTIVE_TOPS.add(ot);
+  }
+} catch (e) {}
+function saveSelection() {
+  try {
+    localStorage.setItem("activeGroups", JSON.stringify([...ACTIVE_GROUPS]));
+    localStorage.setItem("activeTops", JSON.stringify([...ACTIVE_TOPS]));
+  } catch (e) {}
+}
 try { BOOKMARKS = new Set(JSON.parse(localStorage.getItem("bookmarkedKeywords") || "[]")); } catch (e) {}
 try { ONLY_BM = localStorage.getItem("onlyBookmarks") === "1"; } catch (e) {}
 function saveBookmarks() {
@@ -369,14 +393,12 @@ function saveBookmarks() {
 function topOf(group) { return String(group || "").split(" > ")[0]; }
 function subOf(group) { return String(group || "").split(" > ").slice(1).join(" > "); }
 function groupMatches(r) {
-  if (ACTIVE_GROUP) return r.group === ACTIVE_GROUP;
-  if (ACTIVE_TOP) return topOf(r.group) === ACTIVE_TOP;
-  return true;
+  if (!ACTIVE_GROUPS.size && !ACTIVE_TOPS.size) return true;
+  return ACTIVE_GROUPS.has(r.group) || ACTIVE_TOPS.has(topOf(r.group));
 }
 function activeLabel() {
-  if (ACTIVE_GROUP) return ACTIVE_GROUP;
-  if (ACTIVE_TOP) return ACTIVE_TOP + " 전체";
-  return "";
+  const parts = [...ACTIVE_TOPS].map(t => t + " 전체").concat([...ACTIVE_GROUPS]);
+  return parts.join(", ");
 }
 
 try { DELETED = new Set(JSON.parse(localStorage.getItem("deletedKeywords") || "[]")); } catch (e) {}
@@ -408,8 +430,8 @@ function renderCatList() {
   const el = document.getElementById("catList");
   const runs = RAW.runs_covered || [];
   if (!runs.length) { el.innerHTML = ""; return; }
-  if (ACTIVE_GROUP && !runs.some(r => r.category === ACTIVE_GROUP)) ACTIVE_GROUP = null;
-  if (ACTIVE_TOP && !runs.some(r => topOf(r.category) === ACTIVE_TOP)) ACTIVE_TOP = null;
+  for (const g of [...ACTIVE_GROUPS]) if (!runs.some(r => r.category === g)) ACTIVE_GROUPS.delete(g);
+  for (const t of [...ACTIVE_TOPS]) if (!runs.some(r => topOf(r.category) === t)) ACTIVE_TOPS.delete(t);
 
   // 1차 카테고리별로 묶기 (수집 순서 유지) + 남아있는 키워드 수 집계
   const counts = {};
@@ -425,56 +447,88 @@ function renderCatList() {
     byTop[t].push(r);
   }
 
-  const activeTop = ACTIVE_GROUP ? topOf(ACTIVE_GROUP) : ACTIVE_TOP;
+  const noSel = !ACTIVE_GROUPS.size && !ACTIVE_TOPS.size;
+  const topHasSel = t => ACTIVE_TOPS.has(t) || [...ACTIVE_GROUPS].some(g => topOf(g) === t);
+  const selCount = t => ACTIVE_TOPS.has(t) ? 0 : [...ACTIVE_GROUPS].filter(g => topOf(g) === t).length;
   const topRow = '<div class="top-row">' +
-    `<button class="top-btn all${!activeTop ? " active" : ""}" data-top="">전체</button>` +
+    `<button class="top-btn all${noSel ? " active" : ""}" data-top="">전체</button>` +
     tops.map(t => {
       const n = byTop[t].reduce((a, r) => a + (counts[r.category] || 0), 0);
       const open = OPEN_TOP === t;
-      return `<button class="top-btn${activeTop === t ? " active" : ""}${open ? " open" : ""}" data-top="${esc(t)}">${esc(t)} <span class="cnt">${n.toLocaleString()}</span> <span class="caret">${open ? "▴" : "▾"}</span></button>`;
+      const sc = selCount(t);
+      const badge = ACTIVE_TOPS.has(t) ? ' <span class="badge">전체</span>' : (sc ? ` <span class="badge">${sc}개</span>` : "");
+      return `<button class="top-btn${topHasSel(t) ? " active" : ""}${open ? " open" : ""}" data-top="${esc(t)}">${esc(t)} <span class="cnt">${n.toLocaleString()}</span>${badge} <span class="caret">${open ? "▴" : "▾"}</span></button>`;
     }).join("") + '</div>';
 
   let panel = "";
   if (OPEN_TOP && byTop[OPEN_TOP]) {
     const all = byTop[OPEN_TOP].reduce((a, r) => a + (counts[r.category] || 0), 0);
     panel = '<div class="sub-panel">' +
-      `<span class="cat-chip${ACTIVE_TOP === OPEN_TOP && !ACTIVE_GROUP ? " active" : ""}" data-top-all="${esc(OPEN_TOP)}">${esc(OPEN_TOP)} 전체 <span class="date">${all.toLocaleString()}</span></span>` +
+      '<div class="sub-hint">여러 개를 클릭해서 함께 선택할 수 있어요 (다시 클릭하면 해제)</div>' +
+      `<span class="cat-chip${ACTIVE_TOPS.has(OPEN_TOP) ? " active" : ""}" data-top-all="${esc(OPEN_TOP)}">${esc(OPEN_TOP)} 전체 <span class="date">${all.toLocaleString()}</span></span>` +
       byTop[OPEN_TOP].map(r =>
-        `<span class="cat-chip${r.category === ACTIVE_GROUP ? " active" : ""}" data-group="${esc(r.category)}" title="${esc(r.period)} · 수집 ${esc(r.collected_at || "")}">${esc(subOf(r.category))} <span class="date">${(counts[r.category] || 0).toLocaleString()}</span></span>`
+        `<span class="cat-chip${ACTIVE_GROUPS.has(r.category) ? " active" : ""}" data-group="${esc(r.category)}" title="${esc(r.period)} · 수집 ${esc(r.collected_at || "")}">${esc(subOf(r.category))} <span class="date">${(counts[r.category] || 0).toLocaleString()}</span></span>`
       ).join("") + '</div>';
   }
-  el.innerHTML = topRow + panel;
+
+  let summary = "";
+  if (!noSel) {
+    const items = [...ACTIVE_TOPS].map(t => [`t:${t}`, `${t} 전체`]).concat([...ACTIVE_GROUPS].map(g => [`g:${g}`, g]));
+    summary = '<div class="sel-summary"><span class="sel-label">선택한 카테고리</span>' +
+      items.map(([k, label]) => `<span class="sel-chip" data-rm="${esc(k)}" title="클릭하면 선택 해제">${esc(label)} ✕</span>`).join("") +
+      '<span class="sel-clear" data-rm="all">모두 해제</span></div>';
+  }
+  el.innerHTML = topRow + panel + summary;
 }
 
-function setSelection(top, group) {
-  ACTIVE_TOP = top || null;
-  ACTIVE_GROUP = group || null;
-  try {
-    localStorage.setItem("activeTop", ACTIVE_TOP || "");
-    localStorage.setItem("activeGroup", ACTIVE_GROUP || "");
-  } catch (err) {}
+function setSelection() {
+  saveSelection();
   SELECTED.clear();
   renderCatList();
   render();
 }
 
+function toggleTop(t) {
+  if (ACTIVE_TOPS.has(t)) ACTIVE_TOPS.delete(t);
+  else {
+    ACTIVE_TOPS.add(t);
+    // 통째로 선택하면 그 안의 개별 선택은 필요 없으므로 정리
+    for (const g of [...ACTIVE_GROUPS]) if (topOf(g) === t) ACTIVE_GROUPS.delete(g);
+  }
+}
+
 document.getElementById("catList").addEventListener("click", e => {
   e.stopPropagation();
+  const rm = e.target.closest("[data-rm]");
+  if (rm) {
+    const k = rm.dataset.rm;
+    if (k === "all") { ACTIVE_GROUPS.clear(); ACTIVE_TOPS.clear(); }
+    else if (k.startsWith("t:")) ACTIVE_TOPS.delete(k.slice(2));
+    else if (k.startsWith("g:")) ACTIVE_GROUPS.delete(k.slice(2));
+    setSelection();
+    return;
+  }
   const sub = e.target.closest(".cat-chip[data-group]");
   if (sub) {
-    setSelection(null, ACTIVE_GROUP === sub.dataset.group ? null : sub.dataset.group);
+    const g = sub.dataset.group;
+    if (ACTIVE_GROUPS.has(g)) ACTIVE_GROUPS.delete(g);
+    else {
+      ACTIVE_GROUPS.add(g);
+      ACTIVE_TOPS.delete(topOf(g));   // 통째 선택 상태에서 세부를 누르면 세부 선택으로 전환
+    }
+    setSelection();
     return;
   }
   const topAll = e.target.closest(".cat-chip[data-top-all]");
   if (topAll) {
-    const t = topAll.dataset.topAll;
-    setSelection(ACTIVE_TOP === t && !ACTIVE_GROUP ? null : t, null);
+    toggleTop(topAll.dataset.topAll);
+    setSelection();
     return;
   }
   const btn = e.target.closest(".top-btn");
   if (!btn) return;
   const t = btn.dataset.top;
-  if (!t) { OPEN_TOP = null; setSelection(null, null); return; }
+  if (!t) { OPEN_TOP = null; ACTIVE_GROUPS.clear(); ACTIVE_TOPS.clear(); setSelection(); return; }
   OPEN_TOP = OPEN_TOP === t ? null : t;
   renderCatList();
 });
@@ -535,7 +589,7 @@ function render() {
   });
 
   VISIBLE = rows;
-  const sig = [maxScoreLimit, minSearch, maxSearch, minProducts, maxProducts, periodFilter, excludeWords.join(","), searchWord, ACTIVE_GROUP, ACTIVE_TOP, ONLY_BM, sortKey, sortDir].join("|");
+  const sig = [maxScoreLimit, minSearch, maxSearch, minProducts, maxProducts, periodFilter, excludeWords.join(","), searchWord, [...ACTIVE_GROUPS].join(","), [...ACTIVE_TOPS].join(","), ONLY_BM, sortKey, sortDir].join("|");
   if (sig !== LAST_SIG) { PAGE_LIMIT = 300; LAST_SIG = sig; }
   let maxScore = 1;
   for (const r of rows) if ((r.score || 0) > maxScore) maxScore = r.score;
