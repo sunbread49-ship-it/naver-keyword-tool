@@ -186,6 +186,9 @@
   .range { display: inline-flex; align-items: center; gap: 6px; }
   .range input { width: 96px; }
   .range .tilde { color: var(--muted); }
+  .shop-presets { display: inline-flex; gap: 4px; }
+  .preset { font-size: 12px; padding: 5px 9px; border-radius: 6px; border: 1px solid var(--border); background: var(--surface-2); color: var(--text); cursor: pointer; }
+  .preset:hover { border-color: var(--accent); color: var(--accent); }
   .cat-chip { cursor: pointer; user-select: none; }
   .cat-chip:hover { border-color: var(--accent); }
   .cat-chip.active { background: var(--accent-dim); border-color: var(--accent); color: var(--accent); font-weight: 600; }
@@ -235,6 +238,17 @@
         <input type="number" id="minProducts" step="1" min="0" placeholder="최소">
         <span class="tilde">~</span>
         <input type="number" id="maxProducts" value="1000" step="100" min="0" placeholder="최대">
+      </span>
+    </label>
+    <label title="기회점수 = 검색수 ÷ 상품수. 인물·뉴스·영화 같은 정보성 키워드는 수만~수십만으로 비정상적으로 높습니다">기회점수 최대
+      <span class="range">
+        <input type="number" id="maxScore" step="100" min="0" placeholder="제한 없음">
+        <span class="shop-presets">
+          <button type="button" class="preset" data-score="">전체</button>
+          <button type="button" class="preset" data-score="5000">5천↓</button>
+          <button type="button" class="preset" data-score="2000">2천↓</button>
+          <button type="button" class="preset" data-score="1000">1천↓</button>
+        </span>
       </span>
     </label>
     <label>제외 키워드 (콤마로 구분)
@@ -485,10 +499,12 @@ function render() {
   const minSearch = numOr("minSearch", 0);
   const maxSearch = numOr("maxSearch", Infinity);
   const minProducts = numOr("minProducts", 0);
+  const maxScoreLimit = numOr("maxScore", Infinity);
   const maxProducts = numOr("maxProducts", Infinity);
   try {
     for (const id of ["minSearch", "maxSearch", "minProducts", "maxProducts"])
       localStorage.setItem("rng_" + id, document.getElementById(id).value);
+    localStorage.setItem("rng_maxScore", document.getElementById("maxScore").value);
   } catch (e) {}
   const periodFilter = document.getElementById("periodFilter").value;
   const excludeWords = document.getElementById("excludeWords").value
@@ -502,6 +518,7 @@ function render() {
     if ((r.search || 0) < minSearch || (r.search || 0) > maxSearch) return false;
     const pr = r.products ?? 0;
     if (pr < minProducts || pr > maxProducts) return false;
+    if ((r.score || 0) > maxScoreLimit) return false;
     if (periodFilter && r.period !== periodFilter) return false;
     if (excludeWords.some(w => r.keyword.toLowerCase().includes(w))) return false;
     if (DELETED.has(r.keyword)) return false;
@@ -518,7 +535,7 @@ function render() {
   });
 
   VISIBLE = rows;
-  const sig = [minSearch, maxSearch, minProducts, maxProducts, periodFilter, excludeWords.join(","), searchWord, ACTIVE_GROUP, ACTIVE_TOP, ONLY_BM, sortKey, sortDir].join("|");
+  const sig = [maxScoreLimit, minSearch, maxSearch, minProducts, maxProducts, periodFilter, excludeWords.join(","), searchWord, ACTIVE_GROUP, ACTIVE_TOP, ONLY_BM, sortKey, sortDir].join("|");
   if (sig !== LAST_SIG) { PAGE_LIMIT = 300; LAST_SIG = sig; }
   let maxScore = 1;
   for (const r of rows) if ((r.score || 0) > maxScore) maxScore = r.score;
@@ -760,6 +777,15 @@ document.querySelectorAll("th[data-key]").forEach(th => {
     render();
   });
 });
+try {
+  const savedScore = localStorage.getItem("rng_maxScore");
+  if (savedScore !== null) document.getElementById("maxScore").value = savedScore;
+} catch (e) {}
+document.getElementById("maxScore").addEventListener("input", render);
+document.querySelectorAll(".preset").forEach(b => b.addEventListener("click", () => {
+  document.getElementById("maxScore").value = b.dataset.score;
+  render();
+}));
 for (const id of ["minSearch", "maxSearch", "minProducts", "maxProducts"]) {
   try {
     const saved = localStorage.getItem("rng_" + id);
