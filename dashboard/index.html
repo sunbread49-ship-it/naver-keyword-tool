@@ -169,6 +169,20 @@
   .heart.on { color: #ff5a7a; }
   th.bm, td.bm { width: 36px; text-align: center !important; }
   .bulkbar button.bm-on { background: #ff5a7a !important; color: #fff !important; border-color: #ff5a7a; }
+  .modal { position: fixed; inset: 0; background: rgba(0,0,0,.6); z-index: 50; display: flex; align-items: center; justify-content: center; }
+  .modal-box { width: min(1000px, 94vw); max-height: 90vh; display: flex; flex-direction: column; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; }
+  .modal-head { display: flex; align-items: center; gap: 12px; padding: 14px 18px; border-bottom: 1px solid var(--border); font-size: 15px; }
+  .modal-head .ghost, .modal-tools button, #brandMore { font-size: 13px; padding: 6px 14px; border-radius: 6px; border: 1px solid var(--border); cursor: pointer; background: #d64545; color: #fff; }
+  .modal-head .ghost { margin-left: auto; }
+  .modal-tip { padding: 10px 18px; font-size: 12px; color: var(--muted); border-bottom: 1px solid var(--border); }
+  .modal-tools { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; padding: 10px 18px; border-bottom: 1px solid var(--border); }
+  .modal-tools button:disabled { opacity: .4; cursor: not-allowed; }
+  .brand-list { overflow: auto; padding: 4px 8px; flex: 1; }
+  .brand-row { display: grid; grid-template-columns: 28px 160px 70px 1fr; align-items: center; gap: 8px; padding: 6px 10px; border-bottom: 1px solid var(--border); font-size: 13px; cursor: pointer; }
+  .brand-row:hover { background: var(--surface-2); }
+  .brand-row .bn { font-weight: 600; }
+  .brand-row .bc { color: var(--muted); text-align: right; }
+  .brand-row .bs { color: var(--muted); font-size: 12px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
   .cat-chip { cursor: pointer; user-select: none; }
   .cat-chip:hover { border-color: var(--accent); }
   .cat-chip.active { background: var(--accent-dim); border-color: var(--accent); color: var(--accent); font-weight: 600; }
@@ -242,6 +256,7 @@
   <div class="bulkbar">
     <button id="btnDelete" disabled>선택 삭제 (0)</button>
     <span class="bulk-info" id="bulkInfo"></span>
+    <button id="btnBrand" class="ghost">🏷 브랜드 후보 정리</button>
     <button id="btnBm" class="ghost">♥ 북마크만 보기 <span id="bmCount">0</span></button>
     <span class="bulk-spacer"></span>
     <button id="btnDeleted" class="ghost">삭제한 키워드 <span id="delCount">0</span>개 관리</button>
@@ -279,6 +294,30 @@
       아직 수집된 데이터가 없습니다.
     </div>
   </main>
+
+<div id="brandModal" class="modal" style="display:none;">
+  <div class="modal-box">
+    <div class="modal-head">
+      <b>브랜드 후보 정리</b>
+      <span class="bulk-info" id="brandInfo"></span>
+      <button id="brandClose" class="ghost">닫기</button>
+    </div>
+    <div class="modal-tip">
+      전 카테고리 브랜드 사전에 걸리는 키워드를 브랜드별로 묶었습니다. 브랜드가 아닌 일반 단어(예: 케이크, 아이스)는 체크하지 마세요.
+      키워드가 브랜드로 시작하거나(2글자↑), 브랜드가 3글자↑이면 어디에 들어있어도 걸립니다. ♥ 북마크한 키워드는 삭제하지 않습니다.
+    </div>
+    <div class="modal-tools">
+      <input type="text" id="brandFilter" placeholder="브랜드 검색 (예: 다이소)" style="width:180px">
+      <button id="brandSelAll" class="ghost">보이는 것 전체 선택</button>
+      <button id="brandSel3" class="ghost">3글자↑만 선택</button>
+      <button id="brandSelNone" class="ghost">전체 해제</button>
+      <span class="bulk-spacer"></span>
+      <button id="brandApply" disabled>선택 브랜드 키워드 삭제 (0)</button>
+    </div>
+    <div id="brandList" class="brand-list"></div>
+    <div style="text-align:center;padding:8px;"><button id="brandMore" class="ghost" style="display:none;">더 보기</button></div>
+  </div>
+</div>
 
 <script>
 let RAW = { keywords: [], generated_at: null, total_scanned: 0, runs_covered: [] };
@@ -499,6 +538,100 @@ function render() {
   updateBulk();
 }
 
+let BRANDS = null;          // [[brand, count, [keywords...]], ...]
+let SEL_BRANDS = new Set();
+let BRAND_LIMIT = 200;
+
+async function loadBrands() {
+  if (BRANDS) return;
+  try {
+    const res = await fetch("brands.json?_=" + Date.now());
+    BRANDS = await res.json();
+  } catch (e) { BRANDS = []; }
+}
+
+function brandRows() {
+  const f = document.getElementById("brandFilter").value.trim().toLowerCase();
+  // 이미 삭제한 키워드는 제외하고 남은 키워드 수를 다시 센다
+  const rows = [];
+  for (const [b, , kws] of BRANDS) {
+    if (f && !b.toLowerCase().includes(f)) continue;
+    const live = kws.filter(k => !DELETED.has(k));
+    if (live.length) rows.push([b, live.length, live]);
+  }
+  rows.sort((x, y) => y[1] - x[1] || x[0].localeCompare(y[0]));
+  return rows;
+}
+
+function selectedBrandKeywords() {
+  const out = new Set();
+  for (const [b, , kws] of BRANDS) {
+    if (!SEL_BRANDS.has(b)) continue;
+    for (const k of kws) if (!DELETED.has(k) && !BOOKMARKS.has(k)) out.add(k);
+  }
+  return out;
+}
+
+function renderBrandModal() {
+  const rows = brandRows();
+  const list = document.getElementById("brandList");
+  list.innerHTML = rows.slice(0, BRAND_LIMIT).map(([b, n, kws]) =>
+    `<label class="brand-row"><input type="checkbox" data-b="${esc(b)}" ${SEL_BRANDS.has(b) ? "checked" : ""}>` +
+    `<span class="bn">${esc(b)}</span><span class="bc">${n.toLocaleString()}개</span>` +
+    `<span class="bs">${esc(kws.slice(0, 4).join(", "))}</span></label>`
+  ).join("") || '<div class="empty">걸리는 브랜드가 없습니다.</div>';
+  const more = document.getElementById("brandMore");
+  more.style.display = rows.length > BRAND_LIMIT ? "inline-block" : "none";
+  more.textContent = `더 보기 (${Math.min(BRAND_LIMIT, rows.length)} / ${rows.length})`;
+  document.getElementById("brandInfo").textContent = `브랜드 ${rows.length.toLocaleString()}개 · 선택 ${SEL_BRANDS.size.toLocaleString()}개`;
+  const n = selectedBrandKeywords().size;
+  const btn = document.getElementById("brandApply");
+  btn.textContent = `선택 브랜드 키워드 삭제 (${n.toLocaleString()})`;
+  btn.disabled = n === 0;
+}
+
+document.getElementById("btnBrand").addEventListener("click", async () => {
+  await loadBrands();
+  BRAND_LIMIT = 200;
+  document.getElementById("brandModal").style.display = "flex";
+  renderBrandModal();
+});
+document.getElementById("brandClose").addEventListener("click", () => {
+  document.getElementById("brandModal").style.display = "none";
+});
+document.getElementById("brandFilter").addEventListener("input", () => { BRAND_LIMIT = 200; renderBrandModal(); });
+document.getElementById("brandMore").addEventListener("click", () => { BRAND_LIMIT += 300; renderBrandModal(); });
+document.getElementById("brandList").addEventListener("change", e => {
+  const cb = e.target.closest("input[data-b]");
+  if (!cb) return;
+  if (cb.checked) SEL_BRANDS.add(cb.dataset.b); else SEL_BRANDS.delete(cb.dataset.b);
+  renderBrandModal();
+});
+document.getElementById("brandSelAll").addEventListener("click", () => {
+  brandRows().forEach(r => SEL_BRANDS.add(r[0]));
+  renderBrandModal();
+});
+document.getElementById("brandSel3").addEventListener("click", () => {
+  brandRows().forEach(r => { if (r[0].length >= 3) SEL_BRANDS.add(r[0]); });
+  renderBrandModal();
+});
+document.getElementById("brandSelNone").addEventListener("click", () => { SEL_BRANDS.clear(); renderBrandModal(); });
+document.getElementById("brandApply").addEventListener("click", () => {
+  const ks = selectedBrandKeywords();
+  if (!ks.size) return;
+  if (!confirm(`${SEL_BRANDS.size}개 브랜드에 걸린 키워드 ${ks.size.toLocaleString()}개를 삭제할까요?\n(삭제한 키워드 관리에서 복원할 수 있습니다)`)) return;
+  ks.forEach(k => DELETED.add(k));
+  saveDeleted();
+  SEL_BRANDS.clear();
+  SELECTED.clear();
+  renderBrandModal();
+  renderDelPanel();
+  render();
+});
+document.getElementById("brandModal").addEventListener("click", e => {
+  if (e.target.id === "brandModal") e.target.style.display = "none";
+});
+
 function updateBulk() {
   const visibleKw = new Set(VISIBLE.map(r => r.keyword));
   for (const k of [...SELECTED]) if (!visibleKw.has(k)) SELECTED.delete(k);
@@ -518,9 +651,11 @@ function updateBulk() {
 
 function renderDelPanel() {
   const el = document.getElementById("delList");
-  const list = [...DELETED].sort();
+  const all = [...DELETED].sort();
+  const list = all.slice(0, 500);
   el.innerHTML = list.length
-    ? list.map(k => `<span class="del-chip" data-kw="${esc(k)}" title="클릭하면 복원">${esc(k)}</span>`).join("")
+    ? list.map(k => `<span class="del-chip" data-kw="${esc(k)}" title="클릭하면 복원">${esc(k)}</span>`).join("") +
+      (all.length > list.length ? `<span class="bulk-info">… 외 ${(all.length - list.length).toLocaleString()}개 (전체 복원 또는 목록 복사로 확인)</span>` : "")
     : '<span class="bulk-info">삭제한 키워드가 없습니다.</span>';
 }
 
