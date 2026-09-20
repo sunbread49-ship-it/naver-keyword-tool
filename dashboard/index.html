@@ -84,12 +84,12 @@
     border-bottom: 1px solid var(--border);
     font-variant-numeric: tabular-nums;
   }
-  th:first-child, td:first-child,
-  th:nth-child(2), td:nth-child(2),
-  th:nth-child(3), td:nth-child(3) {
+  td.kw, td.cat, td.per,
+  th[data-key="keyword"], th[data-key="category"], th[data-key="period"] {
     text-align: left;
     font-variant-numeric: normal;
   }
+  td.per { white-space: nowrap; }
   th {
     color: var(--muted);
     font-weight: 500;
@@ -168,6 +168,9 @@
   .heart:hover { color: #ff5a7a; }
   .heart.on { color: #ff5a7a; }
   th.bm, td.bm { width: 36px; text-align: center !important; }
+  th.lk, td.lk { width: 44px; text-align: center !important; cursor: default; }
+  .shoplink { display: inline-block; text-decoration: none; font-size: 15px; padding: 2px 6px; border-radius: 6px; border: 1px solid var(--border); background: var(--surface-2); }
+  .shoplink:hover { border-color: var(--accent); }
   .bulkbar button.bm-on { background: #ff5a7a !important; color: #fff !important; border-color: #ff5a7a; }
   .modal { position: fixed; inset: 0; background: rgba(0,0,0,.6); z-index: 50; display: flex; align-items: center; justify-content: center; }
   .modal-box { width: min(1000px, 94vw); max-height: 90vh; display: flex; flex-direction: column; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; }
@@ -309,6 +312,7 @@
           <th class="chk"><input type="checkbox" id="chkAll" title="필터에 걸린 행 전체 선택"></th>
           <th data-key="keyword" style="text-align:left">키워드</th>
           <th class="bm" title="북마크">♥</th>
+          <th class="lk" title="네이버 쇼핑(가격비교)에서 이 키워드로 검색">쇼핑</th>
           <th data-key="category" style="text-align:left">대표 카테고리</th>
           <th data-key="period" style="text-align:left">기간</th>
           <th data-key="search">검색수</th>
@@ -609,8 +613,9 @@ function render() {
       <td class="chk"><input type="checkbox" class="rowchk" data-kw="${esc(r.keyword)}" ${SELECTED.has(r.keyword) ? "checked" : ""}></td>
       <td class="kw">${esc(r.keyword)}</td>
       <td class="bm"><span class="heart${BOOKMARKS.has(r.keyword) ? " on" : ""}" data-kw="${esc(r.keyword)}" title="북마크">${BOOKMARKS.has(r.keyword) ? "♥" : "♡"}</span></td>
-      <td>${r.category || "-"}</td>
-      <td>${r.period || "-"}</td>
+      <td class="lk"><a class="shoplink" href="https://search.shopping.naver.com/search/all?query=${encodeURIComponent(r.keyword)}" target="_blank" rel="noopener noreferrer" title="네이버 쇼핑에서 '${esc(r.keyword)}' 검색">🛒</a></td>
+      <td class="cat">${esc(r.category || "-")}</td>
+      <td class="per">${esc(r.period || "-")}</td>
       <td>${(r.search ?? 0).toLocaleString()}</td>
       <td>${r.products != null ? r.products.toLocaleString() : "-"}</td>
       <td>${r.comp_score != null ? r.comp_score.toFixed(2) : (r.comp || "-")}</td>
