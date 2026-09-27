@@ -262,7 +262,10 @@
       </span>
     </label>
     <label>제외 키워드 (콤마로 구분)
-      <input type="text" id="excludeWords" placeholder="예: 다이소, 조말론" style="width:220px">
+      <span class="range">
+        <input type="text" id="excludeWords" placeholder="예: 다이소, 조말론" style="width:220px">
+        <button type="button" id="btnExcludeConfirm" class="preset" title="입력한 단어에 걸리는 키워드 전체를 삭제한 키워드 관리로 옮겨서 영구 저장">확인</button>
+      </span>
     </label>
     <label>검색 키워드 (포함된 것만 표시)
       <input type="text" id="searchWord" placeholder="예: 다이소" style="width:160px">
@@ -918,6 +921,27 @@ for (const id of ["minSearch", "maxSearch", "minProducts", "maxProducts"]) {
   document.getElementById(id).addEventListener("input", render);
 }
 document.getElementById("excludeWords").addEventListener("input", render);
+document.getElementById("btnExcludeConfirm").addEventListener("click", () => {
+  const raw = document.getElementById("excludeWords").value;
+  const words = raw.split(",").map(w => w.trim().toLowerCase()).filter(w => w.length > 0);
+  if (!words.length) { alert("제외 키워드를 먼저 입력하세요."); return; }
+  const matched = new Set();
+  for (const r of RAW.keywords || []) {
+    if (DELETED.has(r.keyword)) continue;
+    if (words.some(w => r.keyword.toLowerCase().includes(w))) matched.add(r.keyword);
+  }
+  if (!matched.size) { alert(`"${raw}"에 걸리는 키워드가 없습니다.`); return; }
+  if (!confirm(`"${raw}"에 걸리는 키워드 ${matched.size.toLocaleString()}개를 삭제한 키워드 관리로 옮길까요?\n(계속 누적 저장되고, 친구와도 동기화됩니다)`)) return;
+  matched.forEach(k => DELETED.add(k));
+  saveDeleted();
+  syncPush("bulkDelete", { keywords: [...matched] });
+  document.getElementById("excludeWords").value = "";
+  try { localStorage.removeItem("excludeWords"); } catch (e) {}
+  SELECTED.clear();
+  render();
+  renderDelPanel();
+  document.getElementById("delPanel").style.display = "block";
+});
 document.getElementById("periodFilter").addEventListener("change", render);
 
 try {
