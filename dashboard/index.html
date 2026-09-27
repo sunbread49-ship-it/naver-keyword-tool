@@ -186,6 +186,14 @@
   .brand-row .bn { font-weight: 600; }
   .brand-row .bc { color: var(--muted); text-align: right; }
   .brand-row .bs { color: var(--muted); font-size: 12px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .lookup-row { padding: 10px 12px; border-bottom: 1px solid var(--border); font-size: 13px; }
+  .lookup-row .lk-kw { font-weight: 600; }
+  .lookup-row .lk-meta { color: var(--muted); font-size: 12px; margin-top: 2px; }
+  .lk-badge { display: inline-block; font-size: 11px; padding: 2px 8px; border-radius: 999px; margin-left: 8px; vertical-align: middle; }
+  .lk-badge.ok { background: var(--accent-dim); color: var(--accent); }
+  .lk-badge.no { background: #4a2626; color: #ff8a8a; }
+  .lk-reasons { margin-top: 4px; font-size: 12px; color: var(--muted); }
+  .lk-reasons li { margin-left: 16px; }
   .range { display: inline-flex; align-items: center; gap: 6px; }
   .range input { width: 96px; }
   .range .tilde { color: var(--muted); }
@@ -295,6 +303,7 @@
     <button id="btnDelete" disabled>선택 삭제 (0)</button>
     <span class="bulk-info" id="bulkInfo"></span>
     <button id="btnBrand" class="ghost">🏷 브랜드 후보 정리</button>
+    <button id="btnLookup" class="ghost">🔍 키워드 찾기</button>
     <button id="btnBm" class="ghost">♥ 북마크만 보기 <span id="bmCount">0</span></button>
     <span class="bulk-spacer"></span>
     <button id="btnDeleted" class="ghost">삭제한 키워드 <span id="delCount">0</span>개 관리</button>
@@ -362,6 +371,24 @@
     </div>
     <div id="brandList" class="brand-list"></div>
     <div style="text-align:center;padding:8px;"><button id="brandMore" class="ghost" style="display:none;">더 보기</button></div>
+  </div>
+</div>
+
+<div id="lookupModal" class="modal" style="display:none;">
+  <div class="modal-box">
+    <div class="modal-head">
+      <b>키워드 찾기</b>
+      <span class="bulk-info" id="lookupInfo"></span>
+      <button id="lookupClose" class="ghost">닫기</button>
+    </div>
+    <div class="modal-tip">
+      제외/삭제 목적이 아니라, 특정 키워드가 전체 데이터에 있는지 · 지금 필터를 통과하는지 · 통과하면 정렬 기준으로 몇 등인지 확인하는 용도입니다.
+    </div>
+    <div class="modal-tools">
+      <input type="text" id="lookupInput" placeholder="찾을 키워드 입력 (예: 젝시믹스)" style="width:220px">
+      <button id="lookupBtn">찾기</button>
+    </div>
+    <div id="lookupList" class="brand-list"></div>
   </div>
 </div>
 
@@ -819,6 +846,86 @@ document.getElementById("brandApply").addEventListener("click", () => {
 document.getElementById("brandModal").addEventListener("click", e => {
   if (e.target.id === "brandModal") e.target.style.display = "none";
 });
+
+// ── 키워드 찾기: 삭제/제외 목적이 아니라, 특정 키워드가 지금 필터를 통과하는지 /
+// 통과하면 몇 등인지 / 안 통과하면 어떤 조건에 걸리는지 진단한다. ────────────
+function diagnoseRow(r) {
+  // render()의 필터 로직과 반드시 같은 기준을 써야 한다 (하나를 바꾸면 같이 바꿀 것).
+  const reasons = [];
+  const numOr = (id, dflt) => {
+    const v = document.getElementById(id).value;
+    return v === "" ? dflt : Number(v);
+  };
+  const minSearch = numOr("minSearch", 0), maxSearch = numOr("maxSearch", Infinity);
+  const minProducts = numOr("minProducts", 0), maxProducts = numOr("maxProducts", Infinity);
+  const maxScoreLimit = numOr("maxScore", Infinity);
+  const periodFilter = document.getElementById("periodFilter").value;
+  const excludeWords = document.getElementById("excludeWords").value.split(",").map(w => w.trim().toLowerCase()).filter(w => w.length > 0);
+  const searchWord = document.getElementById("searchWord").value.trim().toLowerCase();
+  const low = r.keyword.toLowerCase();
+
+  if (DELETED.has(r.keyword)) reasons.push("삭제한 키워드로 등록되어 있음");
+  const pat = [...EXCLUDE_PATTERNS].find(p => p && low.includes(p));
+  if (pat) reasons.push(`영구 차단 단어 "${pat}"에 걸림`);
+  if ((r.search || 0) < minSearch) reasons.push(`검색수(${(r.search || 0).toLocaleString()})가 최소값(${minSearch.toLocaleString()})보다 적음`);
+  if ((r.search || 0) > maxSearch) reasons.push(`검색수(${(r.search || 0).toLocaleString()})가 최대값(${maxSearch.toLocaleString()})보다 많음`);
+  const pr = r.products ?? 0;
+  if (pr < minProducts) reasons.push(`상품수(${pr.toLocaleString()})가 최소값(${minProducts.toLocaleString()})보다 적음`);
+  if (pr > maxProducts) reasons.push(`상품수(${pr.toLocaleString()})가 최대값(${maxProducts.toLocaleString()})보다 많음`);
+  if ((r.score || 0) > maxScoreLimit) reasons.push(`기회점수(${(r.score || 0).toFixed(2)})가 최대값(${maxScoreLimit})보다 큼`);
+  if (periodFilter && r.period !== periodFilter) reasons.push(`기간 필터가 "${periodFilter}"인데 이 키워드는 "${r.period}"`);
+  if (excludeWords.some(w => low.includes(w))) reasons.push("제외 키워드 입력창에 걸림");
+  if (!groupMatches(r)) reasons.push(`선택한 카테고리(${activeLabel()}) 범위 밖`);
+  if (ONLY_BM && !BOOKMARKS.has(r.keyword)) reasons.push('"북마크만 보기"가 켜져 있는데 북마크 안 됨');
+  if (searchWord && !low.includes(searchWord)) reasons.push(`검색 키워드 입력창("${searchWord}")과 불일치`);
+  return reasons;
+}
+
+function renderLookup() {
+  const q = document.getElementById("lookupInput").value.trim().toLowerCase();
+  const list = document.getElementById("lookupList");
+  const info = document.getElementById("lookupInfo");
+  if (!q) { list.innerHTML = '<div class="empty">키워드를 입력하세요.</div>'; info.textContent = ""; return; }
+  const matches = (RAW.keywords || []).filter(r => r.keyword.toLowerCase().includes(q));
+  info.textContent = `${matches.length.toLocaleString()}건 일치`;
+  if (!matches.length) {
+    list.innerHTML = `<div class="empty">"${esc(q)}"를 포함한 키워드가 전체 ${(RAW.total_scanned || 0).toLocaleString()}개 중에 없습니다.</div>`;
+    return;
+  }
+  const LIMIT = 100;
+  list.innerHTML = matches.slice(0, LIMIT).map(r => {
+    const reasons = diagnoseRow(r);
+    let statusHtml;
+    if (!reasons.length) {
+      const idx = VISIBLE.indexOf(r);
+      statusHtml = idx >= 0
+        ? `<span class="lk-badge ok">필터 통과 · ${(idx + 1).toLocaleString()}등 / ${VISIBLE.length.toLocaleString()}개 중</span>`
+        : `<span class="lk-badge ok">필터 통과</span>`;
+    } else {
+      statusHtml = `<span class="lk-badge no">필터에 안 보임</span><ul class="lk-reasons">${reasons.map(x => `<li>${esc(x)}</li>`).join("")}</ul>`;
+    }
+    return `<div class="lookup-row">
+      <span class="lk-kw">${esc(r.keyword)}</span>${statusHtml}
+      <div class="lk-meta">${esc(r.category || "-")} · ${esc(r.period || "-")} · 검색수 ${(r.search ?? 0).toLocaleString()} · 상품수 ${r.products ?? "-"} · 기회점수 ${r.score != null ? r.score.toFixed(2) : "-"}</div>
+    </div>`;
+  }).join("") + (matches.length > LIMIT ? `<div class="lk-reasons" style="padding:10px 12px;">… 외 ${(matches.length - LIMIT).toLocaleString()}건 더 (더 구체적으로 입력해보세요)</div>` : "");
+}
+
+document.getElementById("btnLookup").addEventListener("click", () => {
+  document.getElementById("lookupModal").style.display = "flex";
+  document.getElementById("lookupInput").value = "";
+  document.getElementById("lookupList").innerHTML = "";
+  document.getElementById("lookupInfo").textContent = "";
+  document.getElementById("lookupInput").focus();
+});
+document.getElementById("lookupClose").addEventListener("click", () => {
+  document.getElementById("lookupModal").style.display = "none";
+});
+document.getElementById("lookupModal").addEventListener("click", e => {
+  if (e.target.id === "lookupModal") e.target.style.display = "none";
+});
+document.getElementById("lookupBtn").addEventListener("click", renderLookup);
+document.getElementById("lookupInput").addEventListener("keydown", e => { if (e.key === "Enter") renderLookup(); });
 
 function updateBulk() {
   const visibleKw = new Set(VISIBLE.map(r => r.keyword));
