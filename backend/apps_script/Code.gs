@@ -87,6 +87,7 @@ function stateJson_() {
   return JSON.stringify({
     deleted: readColumn_('deleted'),
     bookmarks: readColumn_('bookmarks'),
+    patterns: readColumn_('patterns'),
   });
 }
 
@@ -110,6 +111,8 @@ function doPost(e) {
     else if (action === 'restoreAll') clearSheet_('deleted');
     else if (action === 'bookmarkOn') addRows_('bookmarks', [body.keyword]);
     else if (action === 'bookmarkOff') removeRow_('bookmarks', body.keyword);
+    else if (action === 'addPattern') addRows_('patterns', [String(body.pattern || '').toLowerCase()]);
+    else if (action === 'removePattern') removeRow_('patterns', String(body.pattern || '').toLowerCase());
   } finally {
     lock.releaseLock();
   }

@@ -308,6 +308,10 @@
       <button id="btnRestoreAll" class="ghost">전체 복원</button>
     </div>
     <div id="delList"></div>
+    <div class="del-head" style="margin-top:14px;">
+      <b>영구 차단 단어</b> <span id="patCount">0</span>개 (이 단어가 포함되면 나중에 새로 수집되는 키워드도 자동으로 걸러짐 · 칩을 클릭하면 해제)
+    </div>
+    <div id="patList"></div>
   </div>
 
   <main>
@@ -346,7 +350,7 @@
     <div class="modal-tip">
       전 카테고리 브랜드 사전 + 정치인/연예인/작가 등 인물 이름 사전에 걸리는 키워드를 묶었습니다. 브랜드나 사람 이름이 아닌 일반 단어(예: 케이크, 아이스)는 체크하지 마세요.
       키워드가 브랜드/이름으로 시작하거나(2글자↑), 3글자↑이면 어디에 들어있어도 걸립니다. ♥ 북마크한 키워드는 삭제하지 않습니다.
-      (사람 이름은 Claude가 실제 걸리는 키워드를 검토해 추린 목록이라 새 인물이 계속 추가될 수 있어요)
+      (사람 이름은 Claude가 실제 걸리는 키워드를 검토해 추린 목록이라 새 인물이 계속 추가될 수 있어요 · 3글자↑ 브랜드/이름은 영구 차단 단어로도 등록되어 나중에 새로 수집되는 키워드도 자동으로 걸러집니다)
     </div>
     <div class="modal-tools">
       <input type="text" id="brandFilter" placeholder="브랜드 검색 (예: 다이소)" style="width:180px">
@@ -416,6 +420,20 @@ function saveDeleted() {
   try { localStorage.setItem("deletedKeywords", JSON.stringify([...DELETED])); } catch (e) {}
 }
 
+// 특정 키워드 문자열이 아니라 "단어 자체"를 영구 차단하는 목록.
+// 나중에 새로 수집되는 데이터에 같은 단어가 포함된 새 키워드가 추가되어도 자동으로 걸러진다.
+let EXCLUDE_PATTERNS = new Set();
+try { EXCLUDE_PATTERNS = new Set(JSON.parse(localStorage.getItem("excludePatterns") || "[]")); } catch (e) {}
+function savePatterns() {
+  try { localStorage.setItem("excludePatterns", JSON.stringify([...EXCLUDE_PATTERNS])); } catch (e) {}
+}
+function matchesPattern(keyword) {
+  if (!EXCLUDE_PATTERNS.size) return false;
+  const low = keyword.toLowerCase();
+  for (const p of EXCLUDE_PATTERNS) if (p && low.includes(p)) return true;
+  return false;
+}
+
 // ── 친구와 공유되는 저장소(구글 앱스크립트) ──────────────────────────
 // 배포하면 이 자리에 웹 앱 URL을 넣는다. 비어있으면 지금처럼 이 브라우저에만 저장됨.
 const SYNC_URL = "https://script.google.com/macros/s/AKfycby2gZJSXBGy-5qjDw_5ytMZbd8ugAe3U0BCeJIOipn2u1-XHm7zQU_uuVaxMBacxndk9w/exec";
@@ -448,19 +466,23 @@ async function syncPull(initial) {
     const state = await res.json();
     const remoteDeleted = new Set(state.deleted || []);
     const remoteBookmarks = new Set(state.bookmarks || []);
+    const remotePatterns = new Set(state.patterns || []);
     let changed = false;
     for (const k of remoteDeleted) if (!DELETED.has(k)) { DELETED.add(k); changed = true; }
     for (const k of remoteBookmarks) if (!BOOKMARKS.has(k)) { BOOKMARKS.add(k); changed = true; }
+    for (const p of remotePatterns) if (!EXCLUDE_PATTERNS.has(p)) { EXCLUDE_PATTERNS.add(p); changed = true; }
     if (initial && !SYNC_MIGRATED) {
       // 이 브라우저에만 있던 기존 목록을 서버로 한 번 올려서 합친다.
       const localOnlyDel = [...DELETED].filter(k => !remoteDeleted.has(k));
       const localOnlyBm = [...BOOKMARKS].filter(k => !remoteBookmarks.has(k));
+      const localOnlyPat = [...EXCLUDE_PATTERNS].filter(p => !remotePatterns.has(p));
       if (localOnlyDel.length) syncPush("bulkDelete", { keywords: localOnlyDel });
       for (const k of localOnlyBm) syncPush("bookmarkOn", { keyword: k });
+      for (const p of localOnlyPat) syncPush("addPattern", { pattern: p });
       try { localStorage.setItem("syncMigrated_v1", "1"); } catch (e) {}
       SYNC_MIGRATED = true;
     }
-    if (changed) { saveDeleted(); saveBookmarks(); renderDelPanel(); render(); }
+    if (changed) { saveDeleted(); saveBookmarks(); savePatterns(); renderDelPanel(); render(); }
     SYNC_READY = true;
   } catch (e) {
     SYNC_READY = false;
@@ -498,7 +520,7 @@ function renderCatList() {
   // 1차 카테고리별로 묶기 (수집 순서 유지) + 남아있는 키워드 수 집계
   const counts = {};
   for (const r of RAW.keywords || []) {
-    if (DELETED.has(r.keyword)) continue;
+    if (DELETED.has(r.keyword) || matchesPattern(r.keyword)) continue;
     counts[r.group] = (counts[r.group] || 0) + 1;
   }
   const tops = [];
@@ -637,7 +659,7 @@ function render() {
     if ((r.score || 0) > maxScoreLimit) return false;
     if (periodFilter && r.period !== periodFilter) return false;
     if (excludeWords.some(w => r.keyword.toLowerCase().includes(w))) return false;
-    if (DELETED.has(r.keyword)) return false;
+    if (DELETED.has(r.keyword) || matchesPattern(r.keyword)) return false;
     if (!groupMatches(r)) return false;
     if (ONLY_BM && !BOOKMARKS.has(r.keyword)) return false;
     if (searchWord && !r.keyword.toLowerCase().includes(searchWord)) return false;
@@ -775,10 +797,19 @@ document.getElementById("brandSelNone").addEventListener("click", () => { SEL_BR
 document.getElementById("brandApply").addEventListener("click", () => {
   const ks = selectedBrandKeywords();
   if (!ks.size) return;
-  if (!confirm(`${SEL_BRANDS.size}개 브랜드에 걸린 키워드 ${ks.size.toLocaleString()}개를 삭제할까요?\n(삭제한 키워드 관리에서 복원할 수 있습니다)`)) return;
+  if (!confirm(`${SEL_BRANDS.size}개 브랜드에 걸린 키워드 ${ks.size.toLocaleString()}개를 삭제할까요?\n(선택한 브랜드명은 영구 차단 목록에도 등록되어, 나중에 새로 수집되는 키워드도 자동으로 걸러집니다)`)) return;
   ks.forEach(k => DELETED.add(k));
   saveDeleted();
   syncPush("bulkDelete", { keywords: [...ks] });
+  for (const b of SEL_BRANDS) {
+    const p = b.trim().toLowerCase();
+    // 2글자짜리는 접두어일 때만 브랜드로 쳐주는 규칙이라, 무제한 substring 패턴으로 영구 등록하면
+    // 너무 광범위하게 걸릴 수 있어 3글자 이상만 영구 패턴으로 승격한다.
+    if (p.length < 3 || EXCLUDE_PATTERNS.has(p)) continue;
+    EXCLUDE_PATTERNS.add(p);
+    syncPush("addPattern", { pattern: p });
+  }
+  savePatterns();
   SEL_BRANDS.clear();
   SELECTED.clear();
   renderBrandModal();
@@ -814,6 +845,18 @@ function renderDelPanel() {
     ? list.map(k => `<span class="del-chip" data-kw="${esc(k)}" title="클릭하면 복원">${esc(k)}</span>`).join("") +
       (all.length > list.length ? `<span class="bulk-info">… 외 ${(all.length - list.length).toLocaleString()}개 (전체 복원 또는 목록 복사로 확인)</span>` : "")
     : '<span class="bulk-info">삭제한 키워드가 없습니다.</span>';
+  renderPatList();
+}
+
+function renderPatList() {
+  const el = document.getElementById("patList");
+  const cnt = document.getElementById("patCount");
+  if (!el) return;
+  const all = [...EXCLUDE_PATTERNS].sort();
+  if (cnt) cnt.textContent = all.length;
+  el.innerHTML = all.length
+    ? all.map(p => `<span class="del-chip" data-pat="${esc(p)}" title="클릭하면 이 단어 차단 해제">${esc(p)}</span>`).join("")
+    : '<span class="bulk-info">등록된 영구 차단 단어가 없습니다.</span>';
 }
 
 document.getElementById("tbody").addEventListener("click", e => {
@@ -883,6 +926,14 @@ document.getElementById("delList").addEventListener("click", e => {
   syncPush("restore", { keyword: c.dataset.kw });
   renderDelPanel(); render();
 });
+document.getElementById("patList").addEventListener("click", e => {
+  const c = e.target.closest(".del-chip");
+  if (!c) return;
+  EXCLUDE_PATTERNS.delete(c.dataset.pat);
+  savePatterns();
+  syncPush("removePattern", { pattern: c.dataset.pat });
+  renderDelPanel(); render();
+});
 document.getElementById("btnRestoreAll").addEventListener("click", () => {
   if (!DELETED.size || !confirm(`삭제한 ${DELETED.size}개 키워드를 모두 복원할까요?`)) return;
   DELETED.clear(); saveDeleted();
@@ -930,11 +981,17 @@ document.getElementById("btnExcludeConfirm").addEventListener("click", () => {
     if (DELETED.has(r.keyword)) continue;
     if (words.some(w => r.keyword.toLowerCase().includes(w))) matched.add(r.keyword);
   }
-  if (!matched.size) { alert(`"${raw}"에 걸리는 키워드가 없습니다.`); return; }
-  if (!confirm(`"${raw}"에 걸리는 키워드 ${matched.size.toLocaleString()}개를 삭제한 키워드 관리로 옮길까요?\n(계속 누적 저장되고, 친구와도 동기화됩니다)`)) return;
+  if (!matched.size && words.every(w => EXCLUDE_PATTERNS.has(w))) { alert(`"${raw}"는 이미 영구 차단 목록에 등록돼 있습니다.`); return; }
+  if (!confirm(`"${raw}" 단어를 영구 차단 목록에 등록하고, 지금 걸리는 키워드 ${matched.size.toLocaleString()}개를 삭제한 키워드 관리로 옮길까요?\n(나중에 새로 수집되는 키워드도 이 단어가 포함되면 자동으로 계속 걸러집니다 · 친구와도 동기화됩니다)`)) return;
   matched.forEach(k => DELETED.add(k));
   saveDeleted();
-  syncPush("bulkDelete", { keywords: [...matched] });
+  if (matched.size) syncPush("bulkDelete", { keywords: [...matched] });
+  for (const w of words) {
+    if (EXCLUDE_PATTERNS.has(w)) continue;
+    EXCLUDE_PATTERNS.add(w);
+    syncPush("addPattern", { pattern: w });
+  }
+  savePatterns();
   document.getElementById("excludeWords").value = "";
   try { localStorage.removeItem("excludeWords"); } catch (e) {}
   SELECTED.clear();
