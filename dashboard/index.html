@@ -298,7 +298,9 @@
   </div>
   <div class="del-panel" id="delPanel" style="display:none;">
     <div class="del-head">
-      <b>삭제한 키워드</b> (이 브라우저에 저장됨, 새로 수집된 데이터에도 계속 숨김 적용 · 칩을 클릭하면 복원)
+      <b>삭제한 키워드</b> (새로 수집된 데이터에도 계속 숨김 적용 · 칩을 클릭하면 복원)
+      <span class="bulk-info" id="syncStatus"></span>
+      <button id="btnSync" class="ghost">동기화 새로고침</button>
       <button id="btnCopyDel" class="ghost">목록 복사</button>
       <button id="btnRestoreAll" class="ghost">전체 복원</button>
     </div>
@@ -409,6 +411,58 @@ function activeLabel() {
 try { DELETED = new Set(JSON.parse(localStorage.getItem("deletedKeywords") || "[]")); } catch (e) {}
 function saveDeleted() {
   try { localStorage.setItem("deletedKeywords", JSON.stringify([...DELETED])); } catch (e) {}
+}
+
+// ── 친구와 공유되는 저장소(구글 앱스크립트) ──────────────────────────
+// 배포하면 이 자리에 웹 앱 URL을 넣는다. 비어있으면 지금처럼 이 브라우저에만 저장됨.
+const SYNC_URL = "";
+let SYNC_READY = false;
+let SYNC_MIGRATED = false;
+try { SYNC_MIGRATED = localStorage.getItem("syncMigrated_v1") === "1"; } catch (e) {}
+
+function syncPush(action, payload) {
+  if (!SYNC_URL) return;
+  try {
+    fetch(SYNC_URL, {
+      method: "POST",
+      // Content-Type을 text/plain으로 둬야 구글 앱스크립트가 프리플라이트 없이 받는다.
+      headers: { "Content-Type": "text/plain;charset=utf-8" },
+      body: JSON.stringify(Object.assign({ action }, payload)),
+    }).catch(() => {});
+  } catch (e) {}
+}
+
+function updateSyncStatus() {
+  const el = document.getElementById("syncStatus");
+  if (!el) return;
+  el.textContent = !SYNC_URL ? "" : (SYNC_READY ? "· 친구와 동기화됨" : "· 동기화 연결 안 됨(이 브라우저에만 저장됨)");
+}
+
+async function syncPull(initial) {
+  if (!SYNC_URL) { updateSyncStatus(); return; }
+  try {
+    const res = await fetch(SYNC_URL + "?_=" + Date.now());
+    const state = await res.json();
+    const remoteDeleted = new Set(state.deleted || []);
+    const remoteBookmarks = new Set(state.bookmarks || []);
+    let changed = false;
+    for (const k of remoteDeleted) if (!DELETED.has(k)) { DELETED.add(k); changed = true; }
+    for (const k of remoteBookmarks) if (!BOOKMARKS.has(k)) { BOOKMARKS.add(k); changed = true; }
+    if (initial && !SYNC_MIGRATED) {
+      // 이 브라우저에만 있던 기존 목록을 서버로 한 번 올려서 합친다.
+      const localOnlyDel = [...DELETED].filter(k => !remoteDeleted.has(k));
+      const localOnlyBm = [...BOOKMARKS].filter(k => !remoteBookmarks.has(k));
+      if (localOnlyDel.length) syncPush("bulkDelete", { keywords: localOnlyDel });
+      for (const k of localOnlyBm) syncPush("bookmarkOn", { keyword: k });
+      try { localStorage.setItem("syncMigrated_v1", "1"); } catch (e) {}
+      SYNC_MIGRATED = true;
+    }
+    if (changed) { saveDeleted(); saveBookmarks(); renderDelPanel(); render(); }
+    SYNC_READY = true;
+  } catch (e) {
+    SYNC_READY = false;
+  }
+  updateSyncStatus();
 }
 function esc(s) {
   return String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
@@ -721,6 +775,7 @@ document.getElementById("brandApply").addEventListener("click", () => {
   if (!confirm(`${SEL_BRANDS.size}개 브랜드에 걸린 키워드 ${ks.size.toLocaleString()}개를 삭제할까요?\n(삭제한 키워드 관리에서 복원할 수 있습니다)`)) return;
   ks.forEach(k => DELETED.add(k));
   saveDeleted();
+  syncPush("bulkDelete", { keywords: [...ks] });
   SEL_BRANDS.clear();
   SELECTED.clear();
   renderBrandModal();
@@ -762,8 +817,10 @@ document.getElementById("tbody").addEventListener("click", e => {
   const h = e.target.closest(".heart");
   if (h) {
     const k = h.dataset.kw;
-    if (BOOKMARKS.has(k)) BOOKMARKS.delete(k); else BOOKMARKS.add(k);
+    const wasOn = BOOKMARKS.has(k);
+    if (wasOn) BOOKMARKS.delete(k); else BOOKMARKS.add(k);
     saveBookmarks();
+    syncPush(wasOn ? "bookmarkOff" : "bookmarkOn", { keyword: k });
     if (ONLY_BM) { render(); return; }
     const on = BOOKMARKS.has(k);
     h.classList.toggle("on", on);
@@ -792,9 +849,11 @@ document.getElementById("chkAll").addEventListener("change", e => {
 });
 document.getElementById("btnDelete").addEventListener("click", () => {
   if (!SELECTED.size) return;
-  SELECTED.forEach(k => DELETED.add(k));
+  const ks = [...SELECTED];
+  ks.forEach(k => DELETED.add(k));
   SELECTED.clear();
   saveDeleted();
+  syncPush("bulkDelete", { keywords: ks });
   renderDelPanel();
   render();
 });
@@ -817,12 +876,17 @@ document.getElementById("delList").addEventListener("click", e => {
   const c = e.target.closest(".del-chip");
   if (!c) return;
   DELETED.delete(c.dataset.kw);
-  saveDeleted(); renderDelPanel(); render();
+  saveDeleted();
+  syncPush("restore", { keyword: c.dataset.kw });
+  renderDelPanel(); render();
 });
 document.getElementById("btnRestoreAll").addEventListener("click", () => {
   if (!DELETED.size || !confirm(`삭제한 ${DELETED.size}개 키워드를 모두 복원할까요?`)) return;
-  DELETED.clear(); saveDeleted(); renderDelPanel(); render();
+  DELETED.clear(); saveDeleted();
+  syncPush("restoreAll", {});
+  renderDelPanel(); render();
 });
+document.getElementById("btnSync").addEventListener("click", () => syncPull(false));
 document.getElementById("btnCopyDel").addEventListener("click", async () => {
   const txt = [...DELETED].join("\n");
   try { await navigator.clipboard.writeText(txt); alert(`${DELETED.size}개 복사됨`); }
@@ -861,7 +925,8 @@ try {
   if (savedExclude) document.getElementById("excludeWords").value = savedExclude;
 } catch (e) {}
 
-loadData();
+loadData().then(() => syncPull(true));
+setInterval(() => { if (!document.hidden) syncPull(false); }, 60000);
 </script>
 </body>
 </html>
