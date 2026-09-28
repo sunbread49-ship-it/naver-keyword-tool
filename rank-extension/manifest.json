@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "키워드 스카우트 - 내 상품 순위 조회",
+  "version": "1.0.0",
+  "description": "키워드 스카우트 대시보드에서 버튼을 누르면, 네이버 가격비교에서 내 스토어 상품이 몇 위인지 찾아줍니다.",
+  "permissions": ["tabs", "scripting"],
+  "host_permissions": ["https://search.shopping.naver.com/*"],
+  "background": { "service_worker": "background.js" },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://sunbread49-ship-it.github.io/naver-keyword-tool/*",
+        "http://localhost/*",
+        "http://127.0.0.1/*"
+      ],
+      "js": ["bridge.js"],
+      "run_at": "document_start"
+    }
+  ]
+}

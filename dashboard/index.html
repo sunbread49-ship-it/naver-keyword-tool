@@ -234,6 +234,36 @@
   .del-head { display: flex; align-items: center; gap: 10px; font-size: 13px; margin-bottom: 8px; }
   #delList { display: flex; flex-wrap: wrap; gap: 6px; max-height: 160px; overflow: auto; }
   .del-chip { font-size: 12px; padding: 3px 8px; border-radius: 999px; background: var(--surface); border: 1px solid var(--border); cursor: pointer; }
+  /* 내 상품 순위 */
+  th.pk, td.pk { width: 36px; text-align: center !important; }
+  .pkbtn { cursor: pointer; font-size: 16px; user-select: none; filter: grayscale(1); opacity: .35; }
+  .pkbtn:hover { opacity: .8; }
+  .pkbtn.on { filter: none; opacity: 1; }
+  .bulkbar button.rk-on { background: var(--good) !important; color: #10151a !important; border-color: var(--good); }
+  .rank-panel { padding: 14px 32px 18px; background: var(--surface-2); border-bottom: 1px solid var(--border); }
+  .rank-head { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; font-size: 13px; }
+  .rank-head input { background: var(--surface); border: 1px solid var(--border); color: var(--text); padding: 6px 8px; border-radius: 6px; font-size: 13px; }
+  .rank-head button { font-size: 13px; padding: 6px 14px; border-radius: 6px; border: 1px solid var(--border); cursor: pointer; background: var(--good); color: #10151a; font-weight: 600; }
+  .rank-head button:disabled { opacity: .4; cursor: not-allowed; }
+  .ext-ok { color: var(--good); } .ext-no { color: #ff8a8a; }
+  .ext-no a { color: #ff8a8a; }
+  #rkProgress { margin: 8px 0 0; min-height: 18px; }
+  #rkProgress.warn { color: var(--accent); font-weight: 600; }
+  .rank-table { margin-top: 10px; }
+  .rank-table th { background: var(--surface-2); cursor: default; }
+  .rank-table td { font-size: 13px; }
+  .rank-table td.l, .rank-table th.l { text-align: left; }
+  .rank-table .rk { font-size: 16px; font-weight: 700; }
+  .rank-table .rk.out { color: var(--muted); font-size: 13px; font-weight: 500; }
+  .rank-table .up { color: var(--good); font-weight: 600; }
+  .rank-table .down { color: #ff7a7a; font-weight: 600; }
+  .rank-table .hist { color: var(--muted); font-size: 12px; white-space: nowrap; }
+  .rank-table .ptitle { color: var(--muted); font-size: 12px; max-width: 280px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .rank-table input.rklink { width: 200px; background: var(--surface); border: 1px solid var(--border); color: var(--text); padding: 4px 6px; border-radius: 4px; font-size: 12px; }
+  .rank-table .rkdel { cursor: pointer; color: var(--muted); }
+  .rank-table .rkdel:hover { color: #ff7a7a; }
+  .rank-table tr.running td { background: rgba(95,184,138,.10); }
+  .rank-foot { font-size: 11px; color: var(--muted); margin-top: 8px; }
   .del-chip:hover { text-decoration: line-through; }
 </style>
 </head>
@@ -305,6 +335,7 @@
     <button id="btnBrand" class="ghost">🏷 브랜드 후보 정리</button>
     <button id="btnLookup" class="ghost">🔍 키워드 찾기</button>
     <button id="btnBm" class="ghost">♥ 북마크만 보기 <span id="bmCount">0</span></button>
+    <button id="btnRank" class="ghost">📈 내 상품 순위 <span id="rkCount">0</span></button>
     <span class="bulk-spacer"></span>
     <button id="btnDeleted" class="ghost">삭제한 키워드 <span id="delCount">0</span>개 관리</button>
   </div>
@@ -322,6 +353,36 @@
     </div>
     <div id="patList"></div>
   </div>
+  <div class="rank-panel" id="rankPanel" style="display:none;">
+    <div class="rank-head">
+      <b>📈 내 상품 순위</b>
+      <input type="text" id="rkStore" placeholder="내 스토어명 (예: 프레임바이브)" style="width:200px" title="검색 결과에서 이 스토어 상품을 자동으로 찾아요">
+      <input type="text" id="rkAdd" placeholder="키워드 직접 추가 후 Enter" style="width:200px">
+      <button id="rkRun">순위 일괄 조회</button>
+      <button id="rkStop" class="ghost" style="display:none;">중지</button>
+      <button id="rkCopy" class="ghost">결과 복사</button>
+      <button id="rkDiag" class="ghost" style="display:none;" title="순위를 못 찾을 때 원인 파악용">진단 정보 복사</button>
+      <span id="rkExt" class="bulk-info"></span>
+    </div>
+    <div id="rkProgress" class="bulk-info"></div>
+    <table class="rank-table">
+      <thead>
+        <tr>
+          <th class="l">키워드</th>
+          <th>순위</th>
+          <th class="l">페이지 · 위치</th>
+          <th>전일 대비</th>
+          <th class="l">최근 7회</th>
+          <th class="l">찾은 상품</th>
+          <th class="l" title="특정 상품만 추적할 때만 입력 (가격비교에서 상품 링크 주소 복사)">추적 링크 (선택)</th>
+          <th class="l">조회</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody id="rkBody"></tbody>
+    </table>
+    <div class="rank-foot">기준: 네이버 가격비교 · 네이버 랭킹순 · 40개씩 보기 · 광고 제외 · 5페이지(200위)까지 찾고 그 뒤는 "200위 밖". 키워드 표의 📦 버튼으로 추가/제외할 수 있어요.</div>
+  </div>
 
   <main>
     <table id="table">
@@ -330,6 +391,7 @@
           <th class="chk"><input type="checkbox" id="chkAll" title="필터에 걸린 행 전체 선택"></th>
           <th data-key="keyword" style="text-align:left">키워드</th>
           <th class="bm" title="북마크">♥</th>
+          <th class="pk" title="상품화 — 내 상품 순위 추적 목록에 추가">📦</th>
           <th class="lk" title="네이버 쇼핑(가격비교)에서 이 키워드로 검색">쇼핑</th>
           <th data-key="category" style="text-align:left">대표 카테고리</th>
           <th data-key="period" style="text-align:left">기간</th>
@@ -720,6 +782,7 @@ function render() {
       <td class="chk"><input type="checkbox" class="rowchk" data-kw="${esc(r.keyword)}" ${SELECTED.has(r.keyword) ? "checked" : ""}></td>
       <td class="kw">${esc(r.keyword)}</td>
       <td class="bm"><span class="heart${BOOKMARKS.has(r.keyword) ? " on" : ""}" data-kw="${esc(r.keyword)}" title="북마크">${BOOKMARKS.has(r.keyword) ? "♥" : "♡"}</span></td>
+      <td class="pk"><span class="pkbtn${rkHas(r.keyword) ? " on" : ""}" data-kw="${esc(r.keyword)}" title="${rkHas(r.keyword) ? "내 상품 순위 추적 중 (클릭하면 제외)" : "상품화 — 내 상품 순위 추적에 추가"}">📦</span></td>
       <td class="lk"><a class="shoplink" href="https://search.shopping.naver.com/search/all?query=${encodeURIComponent(r.keyword)}" target="_blank" rel="noopener noreferrer" title="네이버 쇼핑에서 '${esc(r.keyword)}' 검색">🛒</a></td>
       <td class="cat">${esc(r.category || "-")}</td>
       <td class="per">${esc(r.period || "-")}</td>
@@ -967,6 +1030,15 @@ function renderPatList() {
 }
 
 document.getElementById("tbody").addEventListener("click", e => {
+  const pk = e.target.closest(".pkbtn");
+  if (pk) {
+    const k = pk.dataset.kw;
+    rkToggle(k);
+    const on = rkHas(k);
+    pk.classList.toggle("on", on);
+    pk.title = on ? "내 상품 순위 추적 중 (클릭하면 제외)" : "상품화 — 내 상품 순위 추적에 추가";
+    return;
+  }
   const h = e.target.closest(".heart");
   if (h) {
     const k = h.dataset.kw;
@@ -1112,6 +1184,187 @@ try {
   const savedExclude = localStorage.getItem("excludeWords");
   if (savedExclude) document.getElementById("excludeWords").value = savedExclude;
 } catch (e) {}
+
+// ── 내 상품 순위 (네이버 가격비교, 크롬 확장 프로그램이 조회) ─────────────────
+// 저장: 이 브라우저 localStorage. 순위 조회는 rank-extension 확장이 사용자 크롬에서 수행.
+const RK_KEY = "rankTracker_v1";
+let RK = { store: "", items: [], hist: {} };
+try { RK = Object.assign(RK, JSON.parse(localStorage.getItem(RK_KEY) || "{}")); } catch (e) {}
+let RK_EXT = null, RK_RUNNING = false, RK_CUR = -1, RK_JOBS = [], RK_DIAG = [];
+const RK_SHOW_KEY = "rankPanelOpen";
+
+function rkSave() { try { localStorage.setItem(RK_KEY, JSON.stringify(RK)); } catch (e) {} }
+function rkHas(k) { return RK.items.some(x => x.keyword === k); }
+function rkToggle(k) {
+  if (rkHas(k)) RK.items = RK.items.filter(x => x.keyword !== k);
+  else RK.items.push({ keyword: k, link: "", addedAt: new Date().toISOString() });
+  rkSave(); rkRender();
+}
+function rkToday() {
+  const d = new Date();
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+}
+function rkIdsFromLink(link) {
+  const out = [];
+  const re = /nvMid=(\d+)|\/catalog\/(\d+)|\/products\/(\d+)|[?&](?:id|productId|nv_mid)=(\d+)/g;
+  let m;
+  while ((m = re.exec(link || ""))) out.push(m[1] || m[2] || m[3] || m[4]);
+  return [...new Set(out)];
+}
+function rkLatest(k) { const h = RK.hist[k] || []; return h[h.length - 1]; }
+function rkPrevDay(k) {
+  const h = RK.hist[k] || [];
+  const last = h[h.length - 1];
+  for (let i = h.length - 2; i >= 0; i--) if (!last || h[i].d !== last.d) return h[i];
+  return null;
+}
+function rkVal(e) { return !e || e.err ? null : (e.out ? 201 : e.rank); }
+function rkRankText(e) {
+  if (!e) return '<span class="rk out">미조회</span>';
+  if (e.err) return `<span class="rk out" title="${esc(e.err)}">조회 실패</span>`;
+  if (e.out) return '<span class="rk out">200위 밖</span>';
+  return `<span class="rk">${e.rank}위</span>`;
+}
+function rkRender() {
+  const cnt = document.getElementById("rkCount");
+  if (cnt) cnt.textContent = RK.items.length;
+  const body = document.getElementById("rkBody");
+  if (!body) return;
+  document.getElementById("rkStore").value = RK.store || "";
+  body.innerHTML = RK.items.length ? RK.items.map((it, i) => {
+    const e = rkLatest(it.keyword), p = rkPrevDay(it.keyword);
+    const cur = rkVal(e), prev = rkVal(p);
+    let diff = '<span class="hist">–</span>';
+    if (cur != null && prev != null) {
+      const d = prev - cur;
+      diff = d > 0 ? `<span class="up">▲${d}</span>` : d < 0 ? `<span class="down">▼${-d}</span>` : '<span class="hist">-</span>';
+    }
+    const h7 = (RK.hist[it.keyword] || []).slice(-7).map(x => x.err ? "×" : x.out ? "밖" : x.rank).join(" · ");
+    const pos = e && !e.err && !e.out ? `${e.page}페이지 ${e.pos}번째${e.more ? ` <span class="hist">외 ${e.more}개</span>` : ""}` : "";
+    const pinned = rkIdsFromLink(it.link).length;
+    return `<tr data-i="${i}" class="${RK_RUNNING && RK_JOBS[RK_CUR] && RK_JOBS[RK_CUR].keyword === it.keyword ? "running" : ""}">
+      <td class="l kw">${esc(it.keyword)}</td>
+      <td>${rkRankText(e)}</td>
+      <td class="l">${pos}</td>
+      <td>${diff}</td>
+      <td class="l hist">${esc(h7)}</td>
+      <td class="l"><div class="ptitle" title="${esc((e && e.title) || "")}">${esc((e && e.title) || "")}</div></td>
+      <td class="l"><input class="rklink" data-i="${i}" value="${esc(it.link || "")}" placeholder="${RK.store ? "비우면 스토어명으로 찾기" : "상품 링크 붙여넣기"}" title="${pinned ? "이 링크의 상품만 추적" : ""}"></td>
+      <td class="l hist">${e ? esc(e.d) : ""}</td>
+      <td><span class="rkdel" data-i="${i}" title="목록에서 제외">✕</span></td>
+    </tr>`;
+  }).join("") : '<tr><td colspan="9" class="l hist">키워드 표에서 📦를 누르거나, 위 입력칸에 키워드를 직접 추가하세요.</td></tr>';
+  document.getElementById("rkDiag").style.display = RK_DIAG.length ? "" : "none";
+}
+function rkExtStatus() {
+  const el = document.getElementById("rkExt");
+  if (RK_EXT) el.innerHTML = `<span class="ext-ok">● 확장 연결됨 (v${esc(RK_EXT)})</span>`;
+  else el.innerHTML = `<span class="ext-no">● 확장 프로그램 미설치 — <a href="https://github.com/sunbread49-ship-it/naver-keyword-tool/tree/master/rank-extension" target="_blank" rel="noopener">설치 방법</a></span>`;
+}
+function rkProgress(text, warn) {
+  const el = document.getElementById("rkProgress");
+  el.textContent = text || "";
+  el.classList.toggle("warn", !!warn);
+}
+function rkSetRunning(on) {
+  RK_RUNNING = on;
+  document.getElementById("rkRun").disabled = on;
+  document.getElementById("rkStop").style.display = on ? "" : "none";
+}
+
+window.addEventListener("message", ev => {
+  if (ev.source !== window || !ev.data || ev.data.from !== "ks-ext") return;
+  const m = ev.data;
+  if (m.type === "hello") { RK_EXT = m.version; rkExtStatus(); }
+  else if (m.type === "ack" && m.reqType === "run" && m.res && !m.res.ok) { rkSetRunning(false); rkProgress("조회 시작 실패: " + (m.res.error || ""), true); }
+  else if (m.type === "progress") { RK_CUR = m.index; rkProgress(`${m.index + 1} / ${m.total} 조회 중 — ${m.keyword}`); rkRender(); }
+  else if (m.type === "captcha") rkProgress("⚠ 네이버 보안 확인이 떴어요. 앞으로 나온 네이버 탭에서 직접 풀어주시면 자동으로 이어서 진행해요.", true);
+  else if (m.type === "captcha-cleared") rkProgress("보안 확인 완료 — 이어서 조회해요.");
+  else if (m.type === "result") {
+    const r = m.result, d = rkToday();
+    const first = (r.matches || [])[0];
+    const entry = r.error ? { d, err: r.error }
+      : first ? { d, rank: first.rank, page: first.page, pos: first.pos, title: first.title, mid: first.mid, total: r.total, more: r.matches.length - 1 }
+      : { d, out: true, total: r.total, scanned: r.scannedItems };
+    const h = (RK.hist[r.keyword] = (RK.hist[r.keyword] || []).filter(x => x.d !== d));
+    h.push(entry);
+    if (h.length > 90) h.splice(0, h.length - 90);
+    if (r.diag && (!first)) RK_DIAG.push({ keyword: r.keyword, diag: r.diag, scanned: r.scannedItems, pages: r.scannedPages });
+    rkSave(); rkRender();
+  }
+  else if (m.type === "done") {
+    rkSetRunning(false); RK_CUR = -1;
+    rkProgress(m.stopped ? "중지했어요." : `조회 완료 (${new Date().toLocaleTimeString()})`);
+    rkRender();
+  }
+});
+
+document.getElementById("btnRank").addEventListener("click", () => {
+  const p = document.getElementById("rankPanel");
+  const open = p.style.display === "none";
+  p.style.display = open ? "block" : "none";
+  document.getElementById("btnRank").classList.toggle("rk-on", open);
+  try { localStorage.setItem(RK_SHOW_KEY, open ? "1" : "0"); } catch (e) {}
+  if (open) window.postMessage({ from: "ks-dash", type: "ping" }, "*");
+});
+document.getElementById("rkStore").addEventListener("change", e => { RK.store = e.target.value.trim(); rkSave(); rkRender(); });
+document.getElementById("rkAdd").addEventListener("keydown", e => {
+  if (e.key !== "Enter") return;
+  const k = e.target.value.trim();
+  if (k && !rkHas(k)) { rkToggle(k); render(); }
+  e.target.value = "";
+});
+document.getElementById("rkBody").addEventListener("change", e => {
+  const inp = e.target.closest(".rklink");
+  if (!inp) return;
+  RK.items[Number(inp.dataset.i)].link = inp.value.trim();
+  rkSave(); rkRender();
+});
+document.getElementById("rkBody").addEventListener("click", e => {
+  const x = e.target.closest(".rkdel");
+  if (!x) return;
+  const it = RK.items[Number(x.dataset.i)];
+  if (!confirm(`"${it.keyword}"를 순위 추적 목록에서 뺄까요? (지금까지의 순위 기록은 남아요)`)) return;
+  RK.items.splice(Number(x.dataset.i), 1);
+  rkSave(); rkRender(); render();
+});
+document.getElementById("rkRun").addEventListener("click", () => {
+  if (!RK_EXT) { rkExtStatus(); alert("크롬 확장 프로그램이 연결되지 않았어요. 설치 방법 링크를 참고해주세요."); return; }
+  if (!RK.items.length) { alert("추적할 키워드가 없어요. 키워드 표에서 📦를 누르거나 직접 추가해주세요."); return; }
+  const store = (document.getElementById("rkStore").value || "").trim();
+  RK.store = store; rkSave();
+  const jobs = RK.items.map(it => ({ keyword: it.keyword, ids: rkIdsFromLink(it.link) }));
+  const noTarget = jobs.filter(j => !j.ids.length);
+  if (!store && noTarget.length) { alert(`내 스토어명을 입력하거나, 모든 키워드에 추적 링크를 넣어주세요. (링크 없는 키워드 ${noTarget.length}개)`); return; }
+  RK_JOBS = jobs; RK_DIAG = [];
+  rkSetRunning(true);
+  rkProgress(`조회 시작 — ${jobs.length}개 키워드 (키워드당 약 5~20초)`);
+  window.postMessage({ from: "ks-dash", type: "run", jobs, store }, "*");
+});
+document.getElementById("rkStop").addEventListener("click", () => {
+  window.postMessage({ from: "ks-dash", type: "stop" }, "*");
+  rkProgress("중지 요청 — 지금 조회 중인 키워드까지만 마치고 멈춰요.");
+});
+document.getElementById("rkCopy").addEventListener("click", () => {
+  const lines = [`조회일: ${rkToday()}`, ""];
+  RK.items.forEach((it, i) => {
+    const e = rkLatest(it.keyword);
+    const r = !e ? "미조회" : e.err ? "조회 실패" : e.out ? "200위 밖" : `${e.page}페이지 ${e.pos}위 (전체 ${e.rank}위)`;
+    lines.push(`${i + 1}. ${it.keyword} / ${r}`);
+    lines.push(`네이버 쇼핑 / MID: ${e && e.mid ? e.mid : "-"}`);
+    lines.push("");
+  });
+  navigator.clipboard.writeText(lines.join("\n")).then(() => rkProgress("결과를 복사했어요 (카톡 등에 붙여넣기)"));
+});
+document.getElementById("rkDiag").addEventListener("click", () => {
+  navigator.clipboard.writeText(JSON.stringify(RK_DIAG, null, 1)).then(() => rkProgress("진단 정보를 복사했어요 — Claude에게 붙여넣어 주세요"));
+});
+
+try { if (localStorage.getItem(RK_SHOW_KEY) === "1") { document.getElementById("rankPanel").style.display = "block"; document.getElementById("btnRank").classList.add("rk-on"); } } catch (e) {}
+rkRender();
+rkExtStatus();
+window.postMessage({ from: "ks-dash", type: "ping" }, "*");
+setTimeout(() => window.postMessage({ from: "ks-dash", type: "ping" }, "*"), 1500);
 
 loadData().then(() => syncPull(true));
 setInterval(() => { if (!document.hidden) syncPull(false); }, 60000);
