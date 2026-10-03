@@ -378,17 +378,15 @@
       <span id="rkExt" class="bulk-info"></span>
     </div>
     <div class="rk-add">
-      <input type="text" id="rkName" placeholder="상품명 (내가 알아볼 이름)" style="width:220px">
+      <input type="text" id="rkKw" placeholder="상품명 = 검색 키워드 (예: 40대 노안 안경)" style="width:260px">
       <input type="text" id="rkLink" placeholder="내 상품 링크 (스마트스토어 상품 주소)" style="width:320px">
-      <input type="text" id="rkKw" placeholder="노출 키워드 (예: 40대 노안 안경)" style="width:220px">
       <button id="rkAddBtn">+ 상품 추가</button>
     </div>
     <div id="rkProgress" class="bulk-info"></div>
     <table class="rank-table">
       <thead>
         <tr>
-          <th class="l">상품명</th>
-          <th class="l">노출 키워드</th>
+          <th class="l" title="상품명 = 네이버 가격비교에서 검색할 키워드">상품명 (= 검색 키워드)</th>
           <th title="키워드 스카우트 데이터의 월간 검색수">검색수</th>
           <th title="키워드 스카우트 데이터의 상품수 (1p 확인 때 네이버 전체 상품수를 읽으면 그 값으로 표시)">상품수</th>
           <th>1페이지</th>
@@ -1057,7 +1055,6 @@ document.getElementById("tbody").addEventListener("click", e => {
     const panel = document.getElementById("rankPanel");
     if (panel.style.display === "none") document.getElementById("btnRank").click();
     document.getElementById("rkKw").value = k;
-    if (!document.getElementById("rkName").value) document.getElementById("rkName").value = k;
     document.getElementById("rkLink").focus();
     panel.scrollIntoView({ behavior: "smooth", block: "start" });
     rkProgress(`"${k}" — 이 키워드로 올린 내 상품 링크를 넣고 "+ 상품 추가"를 눌러주세요.`);
@@ -1210,7 +1207,7 @@ try {
 } catch (e) {}
 
 // ── 내 상품 순위 (네이버 가격비교 1페이지 확인) ──────────────────────────────
-// 판매 중인 상품(상품명 + 고유 링크 + 노출 키워드)을 저장해두고, [1p 확인]을 누르면
+// 판매 중인 상품(상품명 = 검색 키워드 + 고유 링크)을 저장해두고, [1p 확인]을 누르면
 // rank-extension 확장이 검색 탭을 한 번 열어 1페이지에 있는지 확인한다.
 const RK_KEY = "rankProducts_v1";
 const RK_SHOW_KEY = "rankPanelOpen";
@@ -1295,10 +1292,9 @@ function rkRender() {
     const prodLive = !!live;
     const prodCnt = live ? live.total : (st ? st.products : null);
     return `<tr data-id="${p.id}" class="${e && e.d === today ? "today" : ""}">
-      <td class="l kw"><input class="rkf" data-f="name" value="${esc(p.name)}" title="${esc(p.name)}">
+      <td class="l kw"><input class="rkf" data-f="keyword" value="${esc(p.keyword)}" title="${esc(p.keyword)}">
         <a class="rk-link" href="${esc(p.link || "#")}" target="_blank" rel="noopener" title="${esc(p.link || "링크 없음")}">🔗</a>
         <input class="rkf rkf-link" data-f="link" value="${esc(p.link || "")}" placeholder="상품 링크" title="상품 링크 (고유 주소)"></td>
-      <td class="l"><input class="rkf" data-f="keyword" value="${esc(p.keyword)}" style="width:160px"></td>
       <td>${st && st.search != null ? Number(st.search).toLocaleString() : '<span class="hist">-</span>'}</td>
       <td>${prodCnt != null ? `${Number(prodCnt).toLocaleString()}${prodLive ? ' <span class="hist" title="최근 1p 확인 때 네이버에서 읽은 전체 상품수">●</span>' : ""}` : '<span class="hist">-</span>'}</td>
       <td>${rkResultText(e, busy)}${e && e.found && e.more ? ` <span class="hist">(+${e.more})</span>` : ""}</td>
@@ -1308,7 +1304,7 @@ function rkRender() {
       <td><button class="rk-check" data-id="${p.id}" ${RK_BUSY ? "disabled" : ""}>1p 확인</button></td>
       <td><span class="rkdel" data-id="${p.id}" title="목록에서 삭제">✕</span></td>
     </tr>`;
-  }).join("") : '<tr><td colspan="10" class="l hist">위 칸에 판매 중인 상품의 이름·링크·노출 키워드를 넣고 "+ 상품 추가"를 눌러주세요.</td></tr>';
+  }).join("") : '<tr><td colspan="9" class="l hist">위 칸에 상품명(=검색 키워드)과 내 상품 링크를 넣고 "+ 상품 추가"를 눌러주세요.</td></tr>';
   const nb = document.getElementById("rkNext");
   if (nb) nb.disabled = !!RK_BUSY;
 }
@@ -1320,10 +1316,10 @@ function rkCheck(id) {
   if (RK_BUSY) return;
   const ids = rkIdsFromLink(p.link);
   if (!ids.length && !RK.store) { alert("상품 링크에서 상품 번호를 찾지 못했어요. 링크를 확인하거나 내 스토어명을 입력해주세요."); return; }
-  if (!p.keyword) { alert("노출 키워드를 입력해주세요."); return; }
+  if (!p.keyword) { alert("상품명(=검색 키워드)을 입력해주세요."); return; }
   RK_BUSY = id;
   rkRender();
-  rkProgress(`"${p.name || p.keyword}" 확인 중 — 네이버 탭이 잠깐 열렸다 닫혀요`);
+  rkProgress(`"${p.keyword}" 확인 중 — 네이버 탭이 잠깐 열렸다 닫혀요`);
   window.postMessage({ from: "ks-dash", type: "check", job: { id, keyword: p.keyword, ids, store: RK.store || "" } }, "*");
 }
 
@@ -1344,8 +1340,8 @@ window.addEventListener("message", ev => {
     h.push(entry);
     if (h.length > 90) h.splice(0, h.length - 90);
     rkSave(); rkRender();
-    if (r.error) rkProgress(`"${p.name || p.keyword}" 확인 실패: ${r.error}${r.blocked ? " — 잠시 쉬었다가 다시 해주세요" : ""}`, true);
-    else rkProgress(`"${p.name || p.keyword}" — ${r.found ? `1페이지 ${r.rank}위 (광고 제외 ${r.count}개 중)` : `1페이지에 없음 (광고 제외 ${r.count}개 확인)`}`);
+    if (r.error) rkProgress(`"${p.keyword}" 확인 실패: ${r.error}${r.blocked ? " — 잠시 쉬었다가 다시 해주세요" : ""}`, true);
+    else rkProgress(`"${p.keyword}" — ${r.found ? `1페이지 ${r.rank}위 (광고 제외 ${r.count}개 중)` : `1페이지에 없음 (광고 제외 ${r.count}개 확인)`}`);
   }
 });
 
@@ -1359,14 +1355,13 @@ document.getElementById("btnRank").addEventListener("click", () => {
 });
 document.getElementById("rkStore").addEventListener("change", e => { RK.store = e.target.value.trim(); rkSave(); });
 document.getElementById("rkAddBtn").addEventListener("click", () => {
-  const name = document.getElementById("rkName").value.trim();
   const link = document.getElementById("rkLink").value.trim();
   const keyword = document.getElementById("rkKw").value.trim();
-  if (!keyword) { alert("노출 키워드를 입력해주세요."); return; }
+  if (!keyword) { alert("상품명(=검색 키워드)을 입력해주세요."); return; }
   if (!link) { alert("내 상품 링크를 입력해주세요. (스마트스토어 상품 페이지 주소)"); return; }
   if (!rkIdsFromLink(link).length) { if (!confirm("링크에서 상품 번호를 찾지 못했어요. 스마트스토어 상품 주소(…/products/숫자)가 맞는지 확인해주세요.\n그래도 추가할까요? (이 경우 스토어명으로 찾아요)")) return; }
-  RK.products.push({ id: rkUid(), name: name || keyword, link, keyword, addedAt: new Date().toISOString() });
-  ["rkName", "rkLink", "rkKw"].forEach(id => document.getElementById(id).value = "");
+  RK.products.push({ id: rkUid(), name: keyword, link, keyword, addedAt: new Date().toISOString() });
+  ["rkLink", "rkKw"].forEach(id => document.getElementById(id).value = "");
   rkSave(); rkRender(); render();
 });
 document.getElementById("rkBody").addEventListener("change", e => {
@@ -1375,6 +1370,7 @@ document.getElementById("rkBody").addEventListener("change", e => {
   const p = RK.products.find(x => x.id === inp.closest("tr").dataset.id);
   if (!p) return;
   p[inp.dataset.f] = inp.value.trim();
+  if (inp.dataset.f === "keyword") p.name = p.keyword;
   rkSave(); rkRender(); render();
 });
 document.getElementById("rkBody").addEventListener("click", e => {
@@ -1383,7 +1379,7 @@ document.getElementById("rkBody").addEventListener("click", e => {
   const x = e.target.closest(".rkdel");
   if (!x) return;
   const p = RK.products.find(q => q.id === x.dataset.id);
-  if (!p || !confirm(`"${p.name}"를 목록에서 삭제할까요? (확인 기록도 함께 지워져요)`)) return;
+  if (!p || !confirm(`"${p.keyword}"를 목록에서 삭제할까요? (확인 기록도 함께 지워져요)`)) return;
   RK.products = RK.products.filter(q => q.id !== p.id);
   delete RK.hist[p.id];
   rkSave(); rkRender(); render();
@@ -1400,7 +1396,7 @@ document.getElementById("rkCopy").addEventListener("click", () => {
     const e = rkLatest(p.id);
     const r = !e ? "미확인" : e.err ? "확인 실패" : e.found ? `1페이지 ${e.rank}위` : "1페이지 없음";
     lines.push(`${i + 1}. ${p.keyword} / ${r}`);
-    lines.push(`${p.name}${e && e.mid ? ` / MID: ${e.mid}` : ""}`);
+    lines.push(`네이버 쇼핑${e && e.mid ? ` / MID: ${e.mid}` : ""}`);
     lines.push("");
   });
   navigator.clipboard.writeText(lines.join("\n")).then(() => rkProgress("결과를 복사했어요 (카톡 등에 붙여넣기)"));
