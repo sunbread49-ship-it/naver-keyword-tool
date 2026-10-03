@@ -83,11 +83,57 @@ function clearSheet_(name) {
   if (last > 1) sh.deleteRows(2, last - 1);
 }
 
+// ── 내 상품 순위 저장 (상품별 1행: id / JSON / 저장시각) ──
+// 셀 하나에 5만 자 제한이 있어서 상품마다 한 줄씩 나눠 저장한다.
+function rankSheet_() {
+  const sh = getSheet_('rank');
+  if (sh.getRange(1, 1).getValue() !== 'id') {
+    sh.clear();
+    sh.appendRow(['id', 'json', 'savedAt']);
+  }
+  return sh;
+}
+
+function readRank_() {
+  const sh = rankSheet_();
+  const last = sh.getLastRow();
+  if (last < 2) return null;
+  const rows = sh.getRange(2, 1, last - 1, 3).getValues();
+  let meta = null;
+  const products = [];
+  const hist = {};
+  rows.forEach(r => {
+    if (!r[0]) return;
+    let obj;
+    try { obj = JSON.parse(r[1]); } catch (e) { return; }
+    if (r[0] === '__meta__') { meta = obj; return; }
+    products.push(obj.product);
+    hist[obj.product.id] = obj.hist || [];
+  });
+  if (!meta) return null;
+  return { store: meta.store || '', savedAt: meta.savedAt || 0, products: products, hist: hist };
+}
+
+function writeRank_(rank) {
+  if (!rank || !Array.isArray(rank.products)) return;
+  const sh = rankSheet_();
+  const now = new Date().toISOString();
+  const rows = [['__meta__', JSON.stringify({ store: rank.store || '', savedAt: rank.savedAt || Date.now() }), now]];
+  rank.products.forEach(p => {
+    rows.push([p.id, JSON.stringify({ product: p, hist: (rank.hist || {})[p.id] || [] }), now]);
+  });
+  const last = sh.getLastRow();
+  if (last > 1) sh.getRange(2, 1, last - 1, 3).clearContent();
+  sh.getRange(2, 1, rows.length, 3).setValues(rows);
+}
+
 function stateJson_() {
   return JSON.stringify({
     deleted: readColumn_('deleted'),
     bookmarks: readColumn_('bookmarks'),
     patterns: readColumn_('patterns'),
+    rankVersion: 1,
+    rank: readRank_(),
   });
 }
 
@@ -113,6 +159,11 @@ function doPost(e) {
     else if (action === 'bookmarkOff') removeRow_('bookmarks', body.keyword);
     else if (action === 'addPattern') addRows_('patterns', [String(body.pattern || '').toLowerCase()]);
     else if (action === 'removePattern') removeRow_('patterns', String(body.pattern || '').toLowerCase());
+    else if (action === 'rankSave') {
+      // 더 최신 저장본만 덮어쓴다 (다른 PC에서 오래된 데이터로 덮어쓰는 것 방지)
+      const cur = readRank_();
+      if (!cur || (body.rank && (body.rank.savedAt || 0) >= (cur.savedAt || 0))) writeRank_(body.rank);
+    }
   } finally {
     lock.releaseLock();
   }

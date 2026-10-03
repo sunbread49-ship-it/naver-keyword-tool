@@ -375,7 +375,11 @@
       <input type="text" id="rkStore" placeholder="내 스토어명 (보조 확인용)" style="width:180px" title="링크로 못 찾을 때 스토어명으로도 찾아요">
       <button id="rkNext" title="오늘 아직 확인 안 한 다음 상품을 확인해요. 연달아 누르면 차례로 확인됩니다">다음 상품 확인 ▶</button>
       <button id="rkCopy" class="ghost">결과 복사 (카톡용)</button>
+      <button id="rkBackup" class="ghost" title="지금까지의 상품 목록과 순위 기록을 파일로 저장">백업 저장</button>
+      <button id="rkRestore" class="ghost" title="백업 파일에서 불러오기">백업 불러오기</button>
+      <input type="file" id="rkRestoreFile" accept=".json,application/json" style="display:none">
       <span id="rkExt" class="bulk-info"></span>
+      <span id="rkCloud" class="bulk-info"></span>
     </div>
     <div class="rk-add">
       <input type="text" id="rkKw" placeholder="상품명 = 검색 키워드 (예: 40대 노안 안경)" style="width:260px">
@@ -572,6 +576,7 @@ async function syncPull(initial) {
   try {
     const res = await fetch(SYNC_URL + "?_=" + Date.now());
     const state = await res.json();
+    try { rkCloudMerge(state); } catch (e) {}
     const remoteDeleted = new Set(state.deleted || []);
     const remoteBookmarks = new Set(state.bookmarks || []);
     const remotePatterns = new Set(state.patterns || []);
@@ -1215,7 +1220,62 @@ let RK = { store: "", products: [], hist: {} };
 try { RK = Object.assign(RK, JSON.parse(localStorage.getItem(RK_KEY) || "{}")); } catch (e) {}
 let RK_EXT = null, RK_BUSY = null;
 
-function rkSave() { try { localStorage.setItem(RK_KEY, JSON.stringify(RK)); } catch (e) {} }
+// 저장: ① 이 브라우저(즉시) ② 구글 시트(1.5초 뒤 자동, 창 닫을 때도 전송)
+let RK_CLOUD = { ok: null, pending: false, timer: null, at: null };
+function rkSave() {
+  RK.savedAt = Date.now();
+  try { localStorage.setItem(RK_KEY, JSON.stringify(RK)); } catch (e) {}
+  RK_CLOUD.pending = true;
+  clearTimeout(RK_CLOUD.timer);
+  RK_CLOUD.timer = setTimeout(rkCloudPush, 1500);
+  rkCloudStatus();
+}
+function rkCloudBody() { return JSON.stringify({ action: "rankSave", rank: { store: RK.store, products: RK.products, hist: RK.hist, savedAt: RK.savedAt } }); }
+async function rkCloudPush() {
+  if (!SYNC_URL || !RK_CLOUD.pending) return;
+  clearTimeout(RK_CLOUD.timer);
+  try {
+    const res = await fetch(SYNC_URL, { method: "POST", headers: { "Content-Type": "text/plain;charset=utf-8" }, body: rkCloudBody() });
+    const st = await res.json().catch(() => null);
+    RK_CLOUD.pending = false;
+    if (st && st.rankVersion) { RK_CLOUD.ok = true; RK_CLOUD.at = new Date(); }
+    else RK_CLOUD.ok = false;
+  } catch (e) {
+    RK_CLOUD.ok = RK_CLOUD.ok === true ? true : null;
+    RK_CLOUD.timer = setTimeout(rkCloudPush, 15000); // 실패하면 15초 뒤 다시
+  }
+  rkCloudStatus();
+}
+function rkCloudStatus() {
+  const el = document.getElementById("rkCloud");
+  if (!el) return;
+  if (!SYNC_URL) { el.textContent = "· 이 브라우저에만 저장됨"; return; }
+  if (RK_CLOUD.ok === false) { el.innerHTML = '<span class="ext-no">· 구글 시트 저장 미연결 (앱스크립트 업데이트 필요) — 이 브라우저에는 저장됨</span>'; return; }
+  if (RK_CLOUD.pending) { el.textContent = "· 저장 중…"; return; }
+  if (RK_CLOUD.ok && RK_CLOUD.at) { el.innerHTML = `<span class="ext-ok">· ☁ 구글 시트에 저장됨 ${RK_CLOUD.at.toLocaleTimeString().replace(/:\d+$/, "")}</span>`; return; }
+  el.textContent = "· 이 브라우저에 저장됨";
+}
+// 구글 시트의 저장본과 비교해서 더 최신 쪽으로 맞춘다
+function rkCloudMerge(state) {
+  if (!state || !state.rankVersion) { RK_CLOUD.ok = false; rkCloudStatus(); return; }
+  RK_CLOUD.ok = true;
+  const remote = state.rank;
+  const localAt = RK.savedAt || 0;
+  if (remote && (remote.savedAt || 0) > localAt && !RK_CLOUD.pending) {
+    RK = { store: remote.store || "", products: remote.products || [], hist: remote.hist || {}, savedAt: remote.savedAt };
+    try { localStorage.setItem(RK_KEY, JSON.stringify(RK)); } catch (e) {}
+    RK_CLOUD.at = new Date();
+    rkRender(); render();
+  } else if ((!remote || localAt > (remote.savedAt || 0)) && (RK.products.length || remote)) {
+    RK_CLOUD.pending = true;
+    rkCloudPush();
+  } else if (!RK_CLOUD.at) RK_CLOUD.at = new Date();
+  rkCloudStatus();
+}
+window.addEventListener("pagehide", () => {
+  if (RK_CLOUD.pending && SYNC_URL && navigator.sendBeacon) navigator.sendBeacon(SYNC_URL, new Blob([rkCloudBody()], { type: "text/plain;charset=utf-8" }));
+});
+document.addEventListener("visibilitychange", () => { if (document.hidden && RK_CLOUD.pending) rkCloudPush(); });
 function rkUid() { return Date.now().toString(36) + Math.random().toString(36).slice(2, 6); }
 function rkHas(k) { return RK.products.some(p => p.keyword === k); }
 function rkToday() {
@@ -1364,6 +1424,16 @@ document.getElementById("rkAddBtn").addEventListener("click", () => {
   ["rkLink", "rkKw"].forEach(id => document.getElementById(id).value = "");
   rkSave(); rkRender(); render();
 });
+document.getElementById("rkBody").addEventListener("input", e => {
+  const inp = e.target.closest(".rkf");
+  if (!inp) return;
+  const p = RK.products.find(x => x.id === inp.closest("tr").dataset.id);
+  if (!p) return;
+  p[inp.dataset.f] = inp.value.trim();
+  if (inp.dataset.f === "keyword") p.name = p.keyword;
+  rkSave();
+});
+document.getElementById("rkStore").addEventListener("input", e => { RK.store = e.target.value.trim(); rkSave(); });
 document.getElementById("rkBody").addEventListener("change", e => {
   const inp = e.target.closest(".rkf");
   if (!inp) return;
@@ -1400,6 +1470,31 @@ document.getElementById("rkCopy").addEventListener("click", () => {
     lines.push("");
   });
   navigator.clipboard.writeText(lines.join("\n")).then(() => rkProgress("결과를 복사했어요 (카톡 등에 붙여넣기)"));
+});
+
+document.getElementById("rkBackup").addEventListener("click", () => {
+  const blob = new Blob([JSON.stringify({ type: "keyword-scout-rank", version: 1, exportedAt: new Date().toISOString(), data: RK }, null, 1)], { type: "application/json" });
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = `내상품순위_백업_${rkToday()}.json`;
+  a.click();
+  setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+  rkProgress("백업 파일을 저장했어요 (다운로드 폴더)");
+});
+document.getElementById("rkRestore").addEventListener("click", () => document.getElementById("rkRestoreFile").click());
+document.getElementById("rkRestoreFile").addEventListener("change", async e => {
+  const f = e.target.files[0];
+  e.target.value = "";
+  if (!f) return;
+  try {
+    const j = JSON.parse(await f.text());
+    const d = j.data || j;
+    if (!Array.isArray(d.products)) throw new Error("형식이 달라요");
+    if (!confirm(`백업(${j.exportedAt ? j.exportedAt.slice(0, 10) : "날짜 모름"}, 상품 ${d.products.length}개)으로 지금 목록을 바꿀까요?`)) return;
+    RK = { store: d.store || "", products: d.products, hist: d.hist || {} };
+    rkSave(); rkRender(); render();
+    rkProgress(`백업에서 상품 ${d.products.length}개를 불러왔어요`);
+  } catch (err) { alert("백업 파일을 읽지 못했어요: " + err.message); }
 });
 
 // 예전 버전(키워드만 저장) 데이터를 상품 목록으로 옮김
