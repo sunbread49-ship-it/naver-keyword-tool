@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "키워드 스카우트 - 1페이지 확인",
+  "version": "2.0.0",
+  "description": "키워드 스카우트 대시보드에서 [1p 확인]을 누르면, 네이버 가격비교 1페이지에 내 상품이 있는지 확인합니다. 누른 탭 한 개의 화면만 읽습니다.",
+  "permissions": ["tabs"],
+  "background": { "service_worker": "background.js" },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://sunbread49-ship-it.github.io/naver-keyword-tool/*",
+        "http://localhost/*",
+        "http://127.0.0.1/*"
+      ],
+      "js": ["bridge.js"],
+      "run_at": "document_start"
+    },
+    {
+      "matches": ["https://search.shopping.naver.com/search/*"],
+      "js": ["reader.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
