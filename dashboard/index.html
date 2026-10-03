@@ -389,9 +389,11 @@
         <tr>
           <th class="l">상품명</th>
           <th class="l">노출 키워드</th>
+          <th title="키워드 스카우트 데이터의 월간 검색수">검색수</th>
+          <th title="키워드 스카우트 데이터의 상품수 (1p 확인 때 네이버 전체 상품수를 읽으면 그 값으로 표시)">상품수</th>
           <th>1페이지</th>
           <th>전일 대비</th>
-          <th class="l">최근 7회</th>
+          <th class="l" title="최근 7번 확인한 결과를 오래된 것부터 순서대로 (없음 = 1페이지에 없었음)">최근 기록 (7회)</th>
           <th class="l">확인일</th>
           <th></th>
           <th></th>
@@ -1230,6 +1232,19 @@ function rkIdsFromLink(link) {
   while ((m = re.exec(link || ""))) out.push(m[1] || m[2] || m[3] || m[4]);
   return [...new Set(out)];
 }
+let RK_STATS = null;
+function rkKwStats(k) {
+  if (!RK_STATS && RAW.keywords && RAW.keywords.length) {
+    RK_STATS = new Map();
+    for (const r of RAW.keywords) {
+      const cur = RK_STATS.get(r.keyword);
+      // 같은 키워드가 기간별로 여러 줄이면 "최근 30일"을 우선, 없으면 검색수가 큰 쪽
+      const better = !cur || (r.period === "최근 30일" && cur.period !== "최근 30일") || (cur.period !== "최근 30일" && (r.search || 0) > (cur.search || 0));
+      if (better) RK_STATS.set(r.keyword, r);
+    }
+  }
+  return RK_STATS ? RK_STATS.get(String(k || "").trim()) : null;
+}
 function rkLatest(id) { const h = RK.hist[id] || []; return h[h.length - 1]; }
 function rkPrevDay(id) {
   const h = RK.hist[id] || [];
@@ -1243,7 +1258,7 @@ function rkResultText(e, busy) {
   if (!e) return '<span class="rk out">미확인</span>';
   if (e.err) return `<span class="rk out" title="${esc(e.err)}">확인 실패</span>`;
   if (!e.found) return '<span class="rk none">1p 없음</span>';
-  return `<span class="rk">있음 · ${e.rank}위</span>`;
+  return `<span class="rk">${e.rank}위</span>`;
 }
 function rkProgress(text, warn) {
   const el = document.getElementById("rkProgress");
@@ -1275,11 +1290,17 @@ function rkRender() {
     }
     const h7 = (RK.hist[p.id] || []).slice(-7).map(x => x.err ? "×" : x.found ? x.rank : "없음").join(" · ");
     const busy = RK_BUSY === p.id;
+    const st = rkKwStats(p.keyword);
+    const live = (RK.hist[p.id] || []).slice().reverse().find(x => x.total != null);
+    const prodLive = !!live;
+    const prodCnt = live ? live.total : (st ? st.products : null);
     return `<tr data-id="${p.id}" class="${e && e.d === today ? "today" : ""}">
       <td class="l kw"><input class="rkf" data-f="name" value="${esc(p.name)}" title="${esc(p.name)}">
         <a class="rk-link" href="${esc(p.link || "#")}" target="_blank" rel="noopener" title="${esc(p.link || "링크 없음")}">🔗</a>
         <input class="rkf rkf-link" data-f="link" value="${esc(p.link || "")}" placeholder="상품 링크" title="상품 링크 (고유 주소)"></td>
-      <td class="l"><input class="rkf" data-f="keyword" value="${esc(p.keyword)}"></td>
+      <td class="l"><input class="rkf" data-f="keyword" value="${esc(p.keyword)}" style="width:160px"></td>
+      <td>${st && st.search != null ? Number(st.search).toLocaleString() : '<span class="hist">-</span>'}</td>
+      <td>${prodCnt != null ? `${Number(prodCnt).toLocaleString()}${prodLive ? ' <span class="hist" title="최근 1p 확인 때 네이버에서 읽은 전체 상품수">●</span>' : ""}` : '<span class="hist">-</span>'}</td>
       <td>${rkResultText(e, busy)}${e && e.found && e.more ? ` <span class="hist">(+${e.more})</span>` : ""}</td>
       <td>${diff}</td>
       <td class="l hist">${esc(h7)}</td>
@@ -1287,7 +1308,7 @@ function rkRender() {
       <td><button class="rk-check" data-id="${p.id}" ${RK_BUSY ? "disabled" : ""}>1p 확인</button></td>
       <td><span class="rkdel" data-id="${p.id}" title="목록에서 삭제">✕</span></td>
     </tr>`;
-  }).join("") : '<tr><td colspan="8" class="l hist">위 칸에 판매 중인 상품의 이름·링크·노출 키워드를 넣고 "+ 상품 추가"를 눌러주세요.</td></tr>';
+  }).join("") : '<tr><td colspan="10" class="l hist">위 칸에 판매 중인 상품의 이름·링크·노출 키워드를 넣고 "+ 상품 추가"를 눌러주세요.</td></tr>';
   const nb = document.getElementById("rkNext");
   if (nb) nb.disabled = !!RK_BUSY;
 }
@@ -1401,7 +1422,7 @@ rkExtStatus();
 window.postMessage({ from: "ks-dash", type: "ping" }, "*");
 setTimeout(() => window.postMessage({ from: "ks-dash", type: "ping" }, "*"), 1500);
 
-loadData().then(() => syncPull(true));
+loadData().then(() => { RK_STATS = null; rkRender(); syncPull(true); });
 setInterval(() => { if (!document.hidden) syncPull(false); }, 60000);
 </script>
 </body>
